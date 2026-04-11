@@ -1,0 +1,2890 @@
+<?php
+session_start();
+
+$defaultFormData = [
+    'name' => '',
+    'contact' => '',
+    'email' => '',
+    'company' => '',
+    'website' => '',
+];
+
+$formNotice = $_SESSION['digital_marketing_form_notice'] ?? null;
+$formData = $_SESSION['digital_marketing_form_data'] ?? $defaultFormData;
+
+unset($_SESSION['digital_marketing_form_notice'], $_SESSION['digital_marketing_form_data']);
+
+function renderEmailInfoRow($label, $value)
+{
+    return '
+        <tr>
+            <td style="padding:12px 14px;border-bottom:1px solid #e8edf2;font-size:13px;font-weight:700;color:#3f4348;width:170px;vertical-align:top;">' . $label . '</td>
+            <td style="padding:12px 14px;border-bottom:1px solid #e8edf2;font-size:13px;line-height:1.7;color:#60656b;">' . $value . '</td>
+        </tr>
+    ';
+}
+
+function renderBookStyleEmail(array $options)
+{
+    $preheader = $options['preheader'];
+    $headline = $options['headline'];
+    $lead = $options['lead'];
+    $ctaLabel = $options['cta_label'];
+    $ctaHref = $options['cta_href'];
+    $summaryTitle = $options['summary_title'];
+    $summaryRows = $options['summary_rows'];
+    $stepsTitle = $options['steps_title'];
+    $steps = $options['steps'];
+    $footerTitle = $options['footer_title'];
+    $footerLinks = $options['footer_links'];
+    $footerNote = $options['footer_note'];
+    $preheaderDate = $options['preheader_date'] ?? '';
+    $introHtml = $options['intro_html'] ?? '';
+    $closingHtml = $options['closing_html'] ?? '';
+    $accentColor = $options['accent_color'] ?? '#003366';
+
+    $summaryHtml = '';
+    foreach ($summaryRows as $row) {
+        $summaryHtml .= renderEmailInfoRow($row['label'], $row['value']);
+    }
+
+    $stepsHtml = '';
+    foreach ($steps as $step) {
+        $stepsHtml .= '
+            <tr>
+                <td style="padding:0 0 18px;vertical-align:top;">
+                    <table role="presentation" style="width:100%;border-collapse:collapse;">
+                        <tr>
+                            <td style="width:42px;vertical-align:top;padding-right:14px;">
+                                <div style="width:34px;height:34px;border:1px solid ' . $accentColor . ';color:' . $accentColor . ';font-size:18px;font-weight:700;line-height:34px;text-align:center;">' . $step['icon'] . '</div>
+                            </td>
+                            <td style="vertical-align:top;">
+                                <div style="font-size:14px;font-weight:700;line-height:1.5;color:#3f4348;margin-bottom:4px;">' . $step['title'] . '</div>
+                                <div style="font-size:13px;line-height:1.7;color:#737980;">' . $step['text'] . '</div>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        ';
+    }
+
+    $footerLinksHtml = '';
+    $footerLinksCount = count($footerLinks);
+    foreach ($footerLinks as $index => $link) {
+        $footerLinksHtml .= '<a href="' . $link['href'] . '" style="color:' . $accentColor . ';text-decoration:none;">' . $link['label'] . '</a>';
+        if ($index < $footerLinksCount - 1) {
+            $footerLinksHtml .= '<span style="color:#a0a0a0;padding:0 8px;">|</span>';
+        }
+    }
+
+    return '
+    <div style="margin:0;padding:20px 0;background:#f3f3f3;font-family:Arial,Helvetica,sans-serif;color:#4a4a4a;">
+        <div style="width:100%;max-width:560px;margin:0 auto;background:#ffffff;">
+            <div style="padding:18px 28px 0;font-size:11px;color:#8a8a8a;">
+                <table role="presentation" style="width:100%;border-collapse:collapse;">
+                    <tr>
+                        <td style="font-size:11px;line-height:1.5;color:#8a8a8a;">' . $preheader . '</td>
+                        <td style="font-size:11px;line-height:1.5;color:#8a8a8a;text-align:right;">' . $preheaderDate . '</td>
+                    </tr>
+                </table>
+            </div>
+
+            <div style="padding:34px 80px 10px;">
+                <div style="margin-bottom:22px;">
+                    <img src="https://technofra.com/assets/image/favicon.png" alt="Technofra" style="width:50px;height:auto;display:block;">
+                </div>
+                <h1 style="margin:0 0 24px;font-size:24px;line-height:1.25;color:#3f4348;font-weight:700;">' . $headline . '</h1>
+                <div style="margin:0;font-size:16px;line-height:1.7;color:#60656b;">' . $lead . '</div>
+                ' . $introHtml . '
+                <a href="' . $ctaHref . '" style="display:inline-block;margin-top:28px;background:' . $accentColor . ';color:#ffffff;text-decoration:none;padding:16px 34px;font-size:14px;line-height:1;box-shadow:0 1px 3px rgba(0,0,0,0.12);">' . $ctaLabel . '</a>
+            </div>
+
+            <div style="margin:48px 80px 40px;border:1px solid rgba(0,51,102,0.35);padding:34px 30px 26px;">
+                <h2 style="margin:0 0 24px;font-size:18px;font-weight:700;color:#3f4348;">' . $summaryTitle . '</h2>
+                <table role="presentation" style="width:100%;border-collapse:collapse;margin-bottom:26px;">
+                    ' . $summaryHtml . '
+                </table>
+
+                <div style="border-top:1px solid #e6e6e6;padding-top:24px;">
+                    <h3 style="margin:0 0 24px;font-size:16px;font-weight:700;color:#3f4348;">' . $stepsTitle . '</h3>
+                    <table role="presentation" style="width:100%;border-collapse:collapse;">
+                        ' . $stepsHtml . '
+                    </table>
+                </div>
+            </div>
+
+            <div style="padding:0 80px 26px;">
+                <h3 style="margin:0 0 20px;font-size:15px;color:#555b61;">' . $footerTitle . '</h3>
+                <div style="font-size:14px;line-height:1.8;">' . $footerLinksHtml . '</div>
+            </div>
+
+            <div style="margin:24px 50px 0;background:#f4f6f8;padding:28px 28px 26px;font-size:11px;line-height:1.8;color:#8a9198;">
+                ' . $closingHtml . '
+                <div>' . $footerNote . '</div>
+            </div>
+        </div>
+    </div>
+    ';
+}
+
+if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+    $name = trim($_POST['name'] ?? '');
+    $email = trim($_POST['email'] ?? '');
+    $contact = preg_replace('/\D+/', '', $_POST['contact'] ?? '');
+    $company = trim($_POST['company'] ?? '');
+    $website = trim($_POST['website'] ?? '');
+    $hiddenField = trim($_POST['hidden_field'] ?? '');
+
+    if ($website !== '' && !preg_match('~^https?://~i', $website)) {
+        $website = 'https://' . $website;
+    }
+
+    $formData = [
+        'name' => $name,
+        'contact' => $contact,
+        'email' => $email,
+        'company' => $company,
+        'website' => $website,
+    ];
+
+    $errors = [];
+
+    if ($hiddenField !== '') {
+        $errors[] = 'Invalid submission detected.';
+    }
+
+    if ($name === '') {
+        $errors[] = 'Please enter your full name.';
+    }
+
+    if ($email === '' || !filter_var($email, FILTER_VALIDATE_EMAIL)) {
+        $errors[] = 'Please enter a valid email address.';
+    }
+
+    if ($contact === '' || !preg_match('/^\d{10}$/', $contact)) {
+        $errors[] = 'Please enter a valid 10-digit phone number.';
+    }
+
+    if ($website !== '' && !filter_var($website, FILTER_VALIDATE_URL)) {
+        $errors[] = 'Please enter a valid website URL.';
+    }
+
+    if (empty($errors)) {
+        require_once __DIR__ . '/PHPMailer/PHPMailerAutoload.php';
+        require_once __DIR__ . '/PHPMailer/class.phpmailer.php';
+        require_once __DIR__ . '/PHPMailer/class.smtp.php';
+
+        date_default_timezone_set('Asia/Kolkata');
+        $currentDateTime = date('Y-m-d H:i:s');
+        $formattedDateTime = date('d M Y h:i A');
+
+        $safeName = htmlspecialchars($name, ENT_QUOTES, 'UTF-8');
+        $safeEmail = htmlspecialchars($email, ENT_QUOTES, 'UTF-8');
+        $safeContact = htmlspecialchars($contact, ENT_QUOTES, 'UTF-8');
+        $safeCompany = htmlspecialchars($company !== '' ? $company : 'Not provided', ENT_QUOTES, 'UTF-8');
+        $safeWebsite = htmlspecialchars($website !== '' ? $website : 'Not provided', ENT_QUOTES, 'UTF-8');
+        $safeCurrentDateTime = htmlspecialchars($formattedDateTime, ENT_QUOTES, 'UTF-8');
+        $emailLink = '<a href="mailto:' . $safeEmail . '" style="color:#2563eb;text-decoration:underline;">' . $safeEmail . '</a>';
+        $websiteLink = $website !== ''
+            ? '<a href="' . $safeWebsite . '" style="color:#2563eb;text-decoration:underline;">' . $safeWebsite . '</a>'
+            : $safeWebsite;
+
+        $adminBody = renderBookStyleEmail([
+            'preheader' => 'New website enquiry received.',
+            'headline' => 'New Digital Marketing Enquiry',
+            'lead' => 'A new enquiry has just been submitted. Below is the complete lead summary captured from the website form.',
+            'cta_label' => 'Review Enquiry',
+            'cta_href' => 'mailto:' . $email,
+            'summary_title' => 'Lead Summary',
+            'summary_rows' => [
+                ['label' => 'Name', 'value' => $safeName],
+                ['label' => 'Email', 'value' => $emailLink],
+                ['label' => 'Phone', 'value' => $safeContact],
+                ['label' => 'Company', 'value' => $safeCompany],
+                ['label' => 'Website', 'value' => $websiteLink],
+                ['label' => 'Submitted At', 'value' => $safeCurrentDateTime],
+            ],
+            'steps_title' => 'Recommended Next Steps',
+            'steps' => [
+                ['icon' => '1', 'title' => 'Review the client details', 'text' => 'Verify the submitted business information and understand the enquiry before outreach.'],
+                ['icon' => '2', 'title' => 'Prepare for the discussion', 'text' => 'Check the website and company details so the first call starts with the right context.'],
+            ],
+            'footer_title' => 'Quick Actions',
+            'footer_links' => [
+                ['label' => 'Reply to Client', 'href' => 'mailto:' . $email],
+                ['label' => 'Visit Website', 'href' => $website !== '' ? $website : 'https://technofra.com/'],
+                ['label' => 'Support Team', 'href' => 'mailto:support@technofra.com'],
+            ],
+            'footer_note' => 'This notification was generated automatically after a successful enquiry submission on the Technofra website.',
+            'preheader_date' => $safeCurrentDateTime,
+            'closing_html' => '<div style="margin-bottom:10px;">Technofra Digital Marketing Team</div>',
+        ]);
+
+        $clientBody = renderBookStyleEmail([
+            'preheader' => 'Your enquiry has been submitted successfully.',
+            'headline' => 'Thank You for Contacting Technofra',
+            'lead' => 'Thank you for sharing your details with Technofra. Your request has been received successfully, and our team will connect with you shortly.',
+            'cta_label' => 'Visit Website',
+            'cta_href' => 'https://technofra.com/',
+            'summary_title' => 'Your Submitted Details',
+            'summary_rows' => [
+                ['label' => 'Name', 'value' => $safeName],
+                ['label' => 'Email', 'value' => $emailLink],
+                ['label' => 'Phone', 'value' => $safeContact],
+                ['label' => 'Company', 'value' => $safeCompany],
+                ['label' => 'Website', 'value' => $websiteLink],
+                ['label' => 'Submitted At', 'value' => $safeCurrentDateTime],
+            ],
+            'steps_title' => 'What Happens Next',
+            'steps' => [
+                ['icon' => '1', 'title' => 'Our team reviews your enquiry', 'text' => 'We check your submitted information and understand your business goals carefully.'],
+                ['icon' => '2', 'title' => 'You hear back from us shortly', 'text' => 'A Technofra advisor will contact you to discuss the best digital marketing plan for your business.'],
+            ],
+            'footer_title' => 'Quick Actions',
+            'footer_links' => [
+                ['label' => 'Reply to Team', 'href' => 'mailto:support@technofra.com'],
+                ['label' => 'Visit Website', 'href' => 'https://technofra.com/'],
+                ['label' => 'Call Us', 'href' => 'tel:+918080803374'],
+            ],
+            'footer_note' => 'If you have any questions before we connect, simply reply to this email and our team will assist you.',
+            'preheader_date' => $safeCurrentDateTime,
+            'closing_html' => '<div style="margin-bottom:10px;">Team Technofra</div>',
+        ]);
+
+        $mail = new PHPMailer();
+        $mail->IsSMTP();
+        $mail->Host = 'smtp.gmail.com';
+        $mail->SMTPAuth = true;
+        $mail->Username = 'support@technofra.com';
+        $mail->Password = 'kcdi vqko dwgv yaku';
+        $mail->SMTPSecure = 'tls';
+        $mail->Port = 587;
+        $mail->setFrom('support@technofra.com', 'Technofra');
+        $mail->addAddress('support@technofra.com');
+        $mail->isHTML(true);
+        $mail->Subject = 'New enquiry from Digital Marketing Ads page (' . $currentDateTime . ')';
+        $mail->Body = $adminBody;
+
+        if (!$mail->send()) {
+            $errors[] = 'Submission failed. We could not send your request right now. Please try again in a moment.';
+        }
+
+        if (empty($errors)) {
+            $clientMail = new PHPMailer();
+            $clientMail->IsSMTP();
+            $clientMail->Host = 'smtp.gmail.com';
+            $clientMail->SMTPAuth = true;
+            $clientMail->Username = 'support@technofra.com';
+            $clientMail->Password = 'kcdi vqko dwgv yaku';
+            $clientMail->SMTPSecure = 'tls';
+            $clientMail->Port = 587;
+            $clientMail->setFrom('support@technofra.com', 'Technofra');
+            $clientMail->addAddress($email);
+            $clientMail->isHTML(true);
+            $clientMail->Subject = 'Thank you for your enquiry - Technofra';
+            $clientMail->Body = $clientBody;
+
+            if (!$clientMail->send()) {
+                $errors[] = 'Submission failed. Your request was saved, but the confirmation email could not be delivered right now.';
+            }
+        }
+    }
+
+    if (empty($errors)) {
+        $_SESSION['digital_marketing_form_notice'] = [
+            'status' => 'success',
+            'title' => 'Request submitted successfully',
+            'message' => 'Thank you for sharing your details. Our digital marketing team will contact you shortly to schedule your free strategy call.',
+        ];
+        $_SESSION['digital_marketing_form_data'] = $defaultFormData;
+    } else {
+        $_SESSION['digital_marketing_form_notice'] = [
+            'status' => 'error',
+            'title' => 'Submission Failed',
+            'message' => 'Your form could not be submitted successfully. ' . implode(' ', $errors),
+        ];
+        $_SESSION['digital_marketing_form_data'] = $formData;
+    }
+
+    $redirectUrl = strtok($_SERVER['REQUEST_URI'], '?');
+    header('Location: ' . $redirectUrl . '#contact');
+    exit;
+}
+?>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Best Digital Marketing Agency | SEO & PPC Experts | Technofra</title>
+    <meta name="description"
+        content="Get 3x more leads with our expert Digital Marketing services. SEO, Google Ads, Social Media Marketing. Free strategy call. Results guaranteed.">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: 'Inter', sans-serif;
+        line-height: 1.6;
+        color: #333;
+        overflow-x: hidden;
+    }
+
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+
+    /* Header */
+    .header {
+        background: rgb(255 255 255 / 0%);
+        backdrop-filter: blur(2px);
+        padding: 5px 0;
+        position: fixed;
+        width: 100%;
+        top: 0;
+        z-index: 1000;
+        box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
+    }
+
+    .header .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .logo {
+        font-size: 28px;
+        font-weight: 800;
+        color: #2563eb;
+        text-decoration: none;
+        display: inline-flex;
+        align-items: center;
+    }
+
+    .logo img {
+        display: block;
+        width: 200px;
+        max-width: 100%;
+        height: auto;
+    }
+
+    .logo span {
+        color: #1e40af;
+    }
+
+    .header-cta {
+        background: linear-gradient(135deg, #368ec8 0%, #0b467a 100%);
+        color: white;
+        padding: 12px 25px;
+        border-radius: 50px;
+        text-decoration: none;
+        font-weight: 700;
+        transition: all 0.3s;
+    }
+
+    .header-cta:hover {
+        background: linear-gradient(135deg, #368ec8 0%, #0b467a 100%);
+        transform: translateY(-2px);
+    }
+
+    /* Hero Section with Video Background */
+    .hero {
+        position: relative;
+        height: 100vh;
+        min-height: 800px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+    }
+
+    /* Video Background */
+    .video-background {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+    }
+
+    .video-background video {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    /* Video Overlay */
+    .video-overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(178deg, rgb(47 73 109 / 79%) 0%, rgb(24 37 67 / 77%) 100%);
+        z-index: 1;
+    }
+
+    /* Hero Content - Center Aligned */
+    .hero-content {
+        position: relative;
+        z-index: 2;
+        text-align: center;
+        color: white;
+        /* max-width: 960px; */
+        padding: 0 20px;
+        margin-top: 60px;
+    }
+
+    .hero-badge {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        background: rgb(68 164 224 / 24%);
+        backdrop-filter: blur(10px);
+        padding: 10px 25px;
+        border-radius: 50px;
+        font-size: 14px;
+        font-weight: 600;
+        margin-bottom: 30px;
+        border: 1px solid rgb(123 179 239);
+        color: #ffffff;
+    }
+
+    .hero-content h1 {
+        font-size: 56px;
+        font-weight: 800;
+        line-height: 1.2;
+        margin-bottom: 25px;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    }
+
+    .hero-content h1 span {
+        color: #f4a462;
+        display: block;
+        font-size: 48px;
+        margin-top: 10px;
+    }
+
+    .hero-subtitle {
+        font-size: 22px;
+        margin-bottom: 40px;
+        opacity: 0.95;
+        max-width: 700px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .hero-bullets {
+        list-style: none;
+        margin-bottom: 40px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+
+    .hero-bullets li {
+        font-size: 18px;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        background: rgba(255, 255, 255, 0.1);
+        padding: 12px 20px;
+        border-radius: 50px;
+        backdrop-filter: blur(10px);
+    }
+
+    .hero-bullets li i {
+        color: #03a553bd;
+        font-size: 20px;
+    }
+
+    .hero-cta-group {
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .btn-primary {
+        background: #44a4e0;
+        color: #ffffff;
+        padding: 15px 32px;
+        border-radius: 50px;
+        text-decoration: none;
+        font-weight: 700;
+        font-size: 16px;
+        display: inline-block;
+        transition: all 0.3s;
+        border: none;
+        cursor: pointer;
+    }
+
+    .btn-primary:hover {
+        background: #44a4e0;
+        transform: translateY(-3px);
+        box-shadow: 0 10px 30px rgba(251, 191, 36, 0.4);
+    }
+
+    .btn-secondary {
+        background: transparent;
+        color: white;
+        padding: 15px 32px;
+        border-radius: 50px;
+        text-decoration: none;
+        font-weight: 600;
+        font-size: 16px;
+        display: inline-block;
+        border: 2px solid white;
+        transition: all 0.3s;
+    }
+
+    .btn-secondary:hover {
+        background: white;
+        color: #1e3a5f;
+    }
+
+    /* Scroll Down Indicator */
+    .scroll-down {
+        position: absolute;
+        bottom: 30px;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 2;
+        color: white;
+        font-size: 30px;
+        animation: bounce 2s infinite;
+        cursor: pointer;
+    }
+
+    @keyframes bounce {
+
+        0%,
+        20%,
+        50%,
+        80%,
+        100% {
+            transform: translateX(-50%) translateY(0);
+        }
+
+        40% {
+            transform: translateX(-50%) translateY(-10px);
+        }
+
+        60% {
+            transform: translateX(-50%) translateY(-5px);
+        }
+    }
+
+    /* ============================================
+           BALANCED LEAD FORM SECTION 
+           ============================================ */
+    .lead-form-section {
+        padding: 64px 0;
+        background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%);
+        position: relative;
+    }
+
+    /* Section Header */
+    .form-section-header {
+        text-align: center;
+        margin-bottom: 38px;
+    }
+
+    .form-section-badge {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        background: linear-gradient(135deg, #44a4e0 0%, #003366 100%);
+        color: white;
+        padding: 8px 20px;
+        border-radius: 50px;
+        font-size: 13px;
+        font-weight: 600;
+        margin-bottom: 15px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+    }
+
+    .form-section-header h2 {
+        font-size: 38px;
+        font-weight: 800;
+        color: #1e3a5f;
+        margin-bottom: 12px;
+    }
+
+    .form-section-header p {
+        font-size: 17px;
+        color: #64748b;
+        max-width: 550px;
+        margin: 0 auto;
+    }
+
+    /* 3 Step Process - Compact Horizontal */
+    .process-steps {
+        display: flex;
+        justify-content: center;
+        gap: 25px;
+        margin-bottom: 36px;
+        flex-wrap: wrap;
+    }
+
+    .step {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        background: white;
+        padding: 18px 25px;
+        border-radius: 12px;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.06);
+        border: 1px solid #e2e8f0;
+        min-width: 370px;
+    }
+
+    .step-number {
+        width: 40px;
+        height: 40px;
+        background: linear-gradient(135deg, #368ec8 0%, #0b467a 100%);
+        color: white;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: 700;
+        font-size: 16px;
+        flex-shrink: 0;
+    }
+
+    .step-content h4 {
+        font-size: 15px;
+        font-weight: 700;
+        color: #1e3a5f;
+        margin-bottom: 3px;
+    }
+
+    .step-content p {
+        font-size: 13px;
+        color: #64748b;
+    }
+
+    /* Main Form Wrapper - FLEX for Equal Height */
+    .form-main-wrapper {
+        display: flex;
+        gap: 30px;
+        margin: 0 auto;
+        align-items: stretch;
+        /* KEY: Makes both columns equal height */
+    }
+
+    /* Both sides common styles */
+    .form-benefits-side,
+    .form-container {
+        flex: 1;
+        /* Equal width */
+        border-radius: 20px;
+        padding: 40px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* Left Side - Benefits */
+    .form-benefits-side {
+        background: linear-gradient(135deg, #1e3a5f 0%, #0f172a 100%);
+        color: white;
+        box-shadow: 0 20px 50px rgba(30, 58, 95, 0.2);
+    }
+
+    .benefits-side-header {
+        margin-bottom: 30px;
+        padding-bottom: 20px;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+    }
+
+    .benefits-side-header h3 {
+        font-size: 26px;
+        font-weight: 700;
+        margin-bottom: 8px;
+    }
+
+    .benefits-side-header p {
+        opacity: 0.85;
+        font-size: 15px;
+    }
+
+    .benefit-list {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .benefit-list-item {
+        display: flex;
+        gap: 15px;
+        align-items: flex-start;
+    }
+
+    .benefit-check {
+        width: 26px;
+        height: 26px;
+        background: #00b8e1;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-shrink: 0;
+        margin-top: 2px;
+    }
+
+    .benefit-check i {
+        color: #1e3a5f;
+        font-size: 12px;
+    }
+
+    .benefit-text h4 {
+        font-size: 16px;
+        font-weight: 600;
+        margin-bottom: 4px;
+    }
+
+    .benefit-text p {
+        font-size: 14px;
+        opacity: 0.85;
+        line-height: 1.5;
+    }
+
+    /* Live Activity - Compact */
+    .live-activity {
+        background: rgba(255, 255, 255, 0.08);
+        padding: 20px;
+        border-radius: 12px;
+        margin-top: 30px;
+        border: 1px solid rgba(255, 255, 255, 0.15);
+    }
+
+    .live-header {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        margin-bottom: 15px;
+        font-size: 13px;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+    }
+
+    .live-dot {
+        width: 8px;
+        height: 8px;
+        background: #10b981;
+        border-radius: 50%;
+        animation: pulse 2s infinite;
+    }
+
+    @keyframes pulse {
+
+        0%,
+        100% {
+            opacity: 1;
+        }
+
+        50% {
+            opacity: 0.5;
+        }
+    }
+
+    .activity-item {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        font-size: 14px;
+        opacity: 0.9;
+        padding: 8px 0;
+    }
+
+    .activity-icon {
+        width: 32px;
+        height: 32px;
+        background: rgba(255, 255, 255, 0.15);
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 12px;
+    }
+
+    /* Right Side - Form */
+    .form-container {
+        background: white;
+        box-shadow: 0 20px 50px rgba(0, 0, 0, 0.08);
+        border: 1px solid #e2e8f0;
+        scroll-margin-top: 92px;
+    }
+
+    /* Trust Badges Strip */
+    .trust-badges-strip {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 25px;
+        padding-bottom: 20px;
+        border-bottom: 1px solid #e2e8f0;
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    .trust-badge-item {
+        display: flex;
+        align-items: center;
+        gap: 6px;
+        font-size: 13px;
+        color: #374151;
+        font-weight: 600;
+    }
+
+    .trust-badge-item i {
+        color: #44a4e0;
+        font-size: 16px;
+    }
+
+    /* Urgency Banner */
+    .urgency-banner {
+        background: #fff9e8;
+        border: 1px solid #f4c24f;
+        border-radius: 16px;
+        padding: 15px 20px;
+        margin-bottom: 25px;
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        box-shadow: 0 8px 18px rgba(244, 194, 79, 0.12);
+    }
+
+    .urgency-icon {
+        width: 42px;
+        height: 42px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 12px;
+        background: #fff3cd;
+        color: #8a5a00;
+        border: 1px solid #f2d27a;
+        font-size: 18px;
+        flex-shrink: 0;
+    }
+
+    .urgency-text {
+        flex: 1;
+    }
+
+    .urgency-text strong {
+        color: #a44d00;
+        font-size: 14px;
+        display: block;
+        margin-bottom: 3px;
+    }
+
+    .urgency-text span {
+        color: #b46a0b;
+        font-size: 13px;
+    }
+
+    .urgency-counter {
+        background: #ffffff;
+        padding: 8px 15px;
+        border-radius: 12px;
+        font-weight: 800;
+        color: #dc2626;
+        font-size: 16px;
+        border: 1px solid #f4c6cc;
+        min-width: 45px;
+        text-align: center;
+        box-shadow: 0 4px 12px rgba(220, 38, 38, 0.08);
+    }
+
+    /* Form Fields */
+    .form-group {
+        margin-bottom: 18px;
+    }
+
+    .form-group label {
+        display: block;
+        margin-bottom: 6px;
+        color: #374151;
+        font-weight: 600;
+        font-size: 14px;
+    }
+
+    .form-group input,
+    .form-group select {
+        width: 100%;
+        padding: 14px 16px;
+        border: 2px solid #e5e7eb;
+        border-radius: 10px;
+        font-size: 15px;
+        transition: all 0.3s;
+        font-family: inherit;
+        background: #f9fafb;
+    }
+
+    .form-group input:focus,
+    .form-group select:focus {
+        outline: none;
+        border-color: #2563eb;
+        box-shadow: 0 0 0 4px rgba(37, 99, 235, 0.1);
+        background: white;
+    }
+
+    .form-row {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 18px;
+    }
+
+    .submit-btn {
+        width: 100%;
+        background: linear-gradient(135deg, #368ec8 0%, #0b467a 100%);
+        color: white;
+        padding: 18px;
+        border: none;
+        border-radius: 12px;
+        font-size: 17px;
+        font-weight: 700;
+        cursor: pointer;
+        transition: all 0.3s;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+        margin-top: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .submit-btn:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 10px 30px rgba(37, 99, 235, 0.3);
+    }
+
+    .form-hidden-field {
+        position: absolute;
+        left: -9999px;
+        width: 1px;
+        height: 1px;
+        overflow: hidden;
+    }
+
+    .form-popup {
+        position: fixed;
+        top: 88px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: min(92%, 620px);
+        z-index: 2000;
+        animation: popupSlideDown 0.35s ease;
+    }
+
+    .form-popup-card {
+        display: flex;
+        align-items: flex-start;
+        gap: 16px;
+        padding: 18px 20px;
+        border-radius: 18px;
+        background: #ffffff;
+        box-shadow: 0 22px 55px rgba(15, 23, 42, 0.18);
+        border: 1px solid #dbeafe;
+    }
+
+    .form-popup.success .form-popup-card {
+        border-color: #bbf7d0;
+    }
+
+    .form-popup.error .form-popup-card {
+        border-color: #fecaca;
+    }
+
+    .form-popup-icon {
+        width: 48px;
+        height: 48px;
+        border-radius: 14px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-shrink: 0;
+        font-size: 20px;
+    }
+
+    .form-popup.success .form-popup-icon {
+        background: #dcfce7;
+        color: #15803d;
+    }
+
+    .form-popup.error .form-popup-icon {
+        background: #fee2e2;
+        color: #b91c1c;
+    }
+
+    .form-popup-content {
+        flex: 1;
+    }
+
+    .form-popup-content h3 {
+        font-size: 18px;
+        color: #0f172a;
+        margin-bottom: 4px;
+    }
+
+    .form-popup-content p {
+        font-size: 14px;
+        color: #475569;
+        margin: 0;
+    }
+
+    .form-popup-close {
+        background: transparent;
+        border: none;
+        color: #64748b;
+        font-size: 22px;
+        line-height: 1;
+        cursor: pointer;
+        padding: 0;
+    }
+
+    @keyframes popupSlideDown {
+        from {
+            opacity: 0;
+            transform: translate(-50%, -12px);
+        }
+
+        to {
+            opacity: 1;
+            transform: translate(-50%, 0);
+        }
+    }
+
+    .form-footer {
+        text-align: center;
+        margin-top: 20px;
+        padding-top: 20px;
+        border-top: 1px solid #e2e8f0;
+    }
+
+    .form-note {
+        font-size: 13px;
+        color: #6b7280;
+        margin-bottom: 12px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 6px;
+    }
+
+    .security-badges {
+        display: flex;
+        justify-content: center;
+        gap: 12px;
+        flex-wrap: wrap;
+    }
+
+    .security-badge {
+        display: flex;
+        align-items: center;
+        gap: 4px;
+        font-size: 11px;
+        color: #9ca3af;
+        background: #f3f4f6;
+        padding: 5px 10px;
+        border-radius: 20px;
+    }
+
+    /* Trust Badges Bar */
+    .trust-bar {
+        background: white;
+        padding: 46px 0;
+        border-bottom: 1px solid #e2e8f0;
+    }
+
+    .trust-bar .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        /* gap: 127px; */
+    }
+
+    .trust-item {
+        text-align: center;
+    }
+
+    .trust-item h3 {
+        font-size: 40px;
+        font-weight: 800;
+        color: #2e80b9;
+        line-height: 1;
+    }
+
+    .trust-item p {
+        font-size: 16px;
+        color: #64748b;
+        margin-top: 8px;
+    }
+
+    /* Services Section */
+    .services {
+        padding: 72px 0;
+        background: white;
+    }
+
+    .section-header {
+        text-align: center;
+        max-width: 700px;
+        margin: 0 auto 42px;
+    }
+
+    .section-header h2 {
+        font-size: 42px;
+        font-weight: 800;
+        color: #1e3a5f;
+        margin-bottom: 15px;
+    }
+
+    .section-header p {
+        font-size: 18px;
+        color: #64748b;
+    }
+
+    .services-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 30px;
+    }
+
+    .service-card {
+        background: #f8fafc;
+        padding: 40px;
+        border-radius: 20px;
+        transition: all 0.3s;
+        border: 2px solid #0000000a;
+        text-align: center;
+    }
+
+    .service-card:hover {
+        transform: translateY(-10px);
+        border-color: #2f83bc;
+        box-shadow: 0 20px 40px rgba(37, 99, 235, 0.1);
+    }
+
+    .service-icon {
+        width: 80px;
+        height: 80px;
+        background: linear-gradient(135deg, #368ec8 0%, #0b467a 100%);
+        border-radius: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto 25px;
+    }
+
+    .service-icon i {
+        font-size: 36px;
+        color: white;
+    }
+
+    .service-card h3 {
+        font-size: 24px;
+        font-weight: 700;
+        color: #1e3a5f;
+        margin-bottom: 15px;
+    }
+
+    .service-card p {
+        color: #64748b;
+        font-size: 16px;
+        line-height: 1.7;
+    }
+
+    /* Why Choose Us */
+    .why-us {
+        padding: 72px 0;
+        background: linear-gradient(135deg, #1e3a5f 0%, #0f172a 100%);
+        color: white;
+    }
+
+    .why-us .section-header h2,
+    .why-us .section-header p {
+        color: white;
+    }
+
+    .benefits-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+        gap: 24px;
+        margin-top: 36px;
+    }
+
+    .benefit-item {
+        display: flex;
+        align-items: flex-start;
+        gap: 16px;
+        padding: 26px 24px;
+        background: #ffffff;
+        border-radius: 18px;
+        border: 1px solid rgba(255, 255, 255, 0.12);
+        box-shadow: 0 14px 32px rgba(15, 23, 42, 0.12);
+        transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
+    }
+
+    .benefit-item:hover {
+        transform: translateY(-4px);
+        border-color: rgba(68, 164, 224, 0.35);
+        box-shadow: 0 18px 38px rgba(15, 23, 42, 0.16);
+    }
+
+    .benefit-icon {
+        width: 52px;
+        height: 52px;
+        background: linear-gradient(135deg, #e6f4fb 0%, #f3f9fd 100%);
+        border-radius: 14px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-shrink: 0;
+        border: 1px solid #d4e8f5;
+    }
+
+    .benefit-icon i {
+        font-size: 20px;
+        color: #2e80b9;
+    }
+
+    .benefit-content h3 {
+        font-size: 20px;
+        margin-bottom: 8px;
+        color: #10243d;
+        line-height: 1.3;
+    }
+
+    .benefit-content p {
+        font-size: 15px;
+        line-height: 1.65;
+        color: #5f6f82;
+    }
+
+    /* Results Section */
+    .results {
+        padding: 30px 0;
+        background: #f8fafc;
+    }
+
+    .results-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 30px;
+        margin-top: 36px;
+    }
+
+    .result-card {
+        background: white;
+        padding: 50px 40px;
+        border-radius: 20px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+        text-align: center;
+        border-top: 4px solid #003366;
+    }
+
+    .result-number {
+        font-size: 52px;
+        font-weight: 800;
+        color: #2e81ba;
+        margin-bottom: 10px;
+    }
+
+    .result-label {
+        font-size: 20px;
+        color: #1e3a5f;
+        font-weight: 700;
+        margin-bottom: 15px;
+    }
+
+    .result-desc {
+        color: #64748b;
+        font-size: 15px;
+        line-height: 1.7;
+    }
+
+    /* Testimonials */
+    .testimonials {
+        padding: 30px 0;
+        background: white;
+    }
+
+    .testimonials-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+        gap: 30px;
+        margin-top: 36px;
+    }
+
+    .testimonial-card {
+        background: #f8fafc;
+        padding: 40px;
+        border-radius: 20px;
+        border: 1px solid #e2e8f0;
+    }
+
+    .testimonial-card .stars {
+        color: #fbbf24;
+        margin-bottom: 20px;
+        font-size: 18px;
+    }
+
+    .testimonial-card p {
+        font-size: 18px;
+        color: #374151;
+        margin-bottom: 25px;
+        font-style: italic;
+        line-height: 1.8;
+    }
+
+    .testimonial-author {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .author-avatar {
+        width: 50px;
+        height: 50px;
+        background: linear-gradient(135deg, #2e80b9 0%, #14558a 100%);
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        font-weight: 700;
+    }
+
+    .author-info h4 {
+        font-weight: 700;
+        color: #1e3a5f;
+    }
+
+    .author-info p {
+        font-size: 14px;
+        color: #64748b;
+        margin: 0;
+        font-style: normal;
+    }
+
+    /* FAQ Section */
+    .faq {
+        padding: 30px 0;
+        background: white;
+    }
+
+    .faq-list {
+        /* max-width: 800px; */
+        margin: 0 auto;
+    }
+
+    .faq-item {
+        border-bottom: 1px solid #e2e8f0;
+        padding: 20px 0;
+    }
+
+    .faq-question {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        cursor: pointer;
+        font-weight: 600;
+        font-size: 18px;
+        color: #1e3a5f;
+    }
+
+    .faq-question i {
+        color: #2563eb;
+        transition: transform 0.3s;
+    }
+
+    .faq-item.active .faq-question i {
+        transform: rotate(180deg);
+    }
+
+    .faq-answer {
+        margin-top: 15px;
+        color: #64748b;
+        line-height: 1.8;
+        display: none;
+    }
+
+    .faq-item.active .faq-answer {
+        display: block;
+    }
+
+    /* Final CTA */
+    .final-cta {
+        padding: 72px 0;
+        background: linear-gradient(135deg, #2f83bc 0%, #16598e 100%);
+        color: white;
+        text-align: center;
+    }
+
+    .final-cta h2 {
+        font-size: 48px;
+        font-weight: 800;
+        margin-bottom: 20px;
+    }
+
+    .final-cta p {
+        font-size: 20px;
+        margin-bottom: 40px;
+        opacity: 0.95;
+    }
+
+    .cta-buttons {
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    /* Footer */
+    .footer {
+        background: #0f172a;
+        color: white;
+        padding: 46px 0 24px;
+    }
+
+    .footer-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 40px;
+        margin-bottom: 28px;
+    }
+
+    .footer-col h4 {
+        font-size: 18px;
+        margin-bottom: 20px;
+        color: #44a4e0;
+    }
+
+    .footer-col p,
+    .footer-col a {
+        color: #94a3b8;
+        text-decoration: none;
+        line-height: 2;
+    }
+
+    .footer-col a:hover {
+        color: white;
+    }
+
+    .footer-bottom {
+        border-top: 1px solid #1e293b;
+        padding-top: 22px;
+        text-align: center;
+        color: #64748b;
+    }
+
+    @media only screen and (min-width: 1030px) and (max-width: 1366px) {
+        .hero-content {
+            max-width: 820px;
+        }
+
+        .hero-content h1 {
+            font-size: 46px;
+        }
+
+        .hero-content h1 span {
+            font-size: 40px;
+        }
+
+        .hero-subtitle {
+            font-size: 20px;
+            max-width: 640px;
+        }
+
+        .hero-bullets li {
+            font-size: 16px;
+            padding: 10px 18px;
+        }
+
+        .btn-primary,
+        .btn-secondary {
+            padding: 14px 28px;
+            font-size: 15px;
+        }
+
+        .scroll-down {
+            bottom: 18px;
+            font-size: 26px;
+        }
+    }
+
+    @media only screen and (min-width: 1380px) and (max-width: 1600px) {
+        .hero-content {
+            max-width: 860px;
+        }
+
+        .hero-content h1 {
+            font-size: 50px;
+        }
+
+        .hero-content h1 span {
+            font-size: 44px;
+        }
+
+        .hero-subtitle {
+            font-size: 21px;
+            max-width: 680px;
+        }
+
+        .hero-bullets li {
+            font-size: 17px;
+            padding: 11px 20px;
+        }
+
+        .btn-primary,
+        .btn-secondary {
+            padding: 15px 30px;
+            font-size: 16px;
+        }
+
+        .scroll-down {
+            bottom: 20px;
+            font-size: 28px;
+        }
+    }
+
+    * {
+        box-sizing: border-box;
+    }
+
+    .uix-marketing-services-section {
+        width: 100%;
+        padding: 30px 16px;
+    }
+
+    .uix-marketing-services-container {
+        width: 100%;
+        max-width: 1600px;
+        margin: 0 auto;
+    }
+
+    .uix-marketing-services-grid {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 18px;
+        align-items: stretch;
+    }
+
+    .uix-marketing-services-card {
+        width: 100%;
+        min-width: 0;
+        display: flex;
+        align-items: center;
+        /* background: rgb(68 164 224 / 24%); */
+        backdrop-filter: blur(10px);
+        gap: 18px;
+        background: rgb(255 255 255 / 14%);
+        /* background: #ffffffcc; */
+        border-radius: 16px;
+        padding: 20px 30px;
+        overflow: hidden;
+        min-height: 92px;
+    }
+
+    .uix-marketing-services-badge {
+        flex: 0 0 46px;
+        width: 46px;
+        height: 46px;
+        border-radius: 50%;
+        background: linear-gradient(180deg, #4a90d9 0%, #2f7fcb 100%);
+        color: #ffffff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 1;
+    }
+
+    .uix-marketing-services-content {
+        flex: 1;
+        min-width: 0;
+        text-align: center;
+    }
+
+    .uix-marketing-services-title {
+        margin: 0 0 6px;
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 1.2;
+        color: #fff;
+    }
+
+    .uix-marketing-services-text {
+        margin: 0;
+        font-size: 18px;
+        line-height: 1.5;
+        color: #fff;
+        word-break: break-word;
+    }
+
+    @media (max-width: 991px) {
+        .uix-marketing-services-grid {
+            grid-template-columns: 1fr;
+        }
+
+        .uix-marketing-services-card {
+            padding: 18px 20px;
+            min-height: auto;
+        }
+
+        .uix-marketing-services-content {
+            text-align: left;
+        }
+    }
+
+    @media (max-width: 767px) {
+        .uix-marketing-services-section {
+            padding: 20px 12px;
+        }
+
+        .uix-marketing-services-grid {
+            gap: 14px;
+        }
+
+        .uix-marketing-services-card {
+            gap: 14px;
+            border-radius: 14px;
+            padding: 16px;
+        }
+
+        .uix-marketing-services-badge {
+            flex: 0 0 42px;
+            width: 42px;
+            height: 42px;
+            font-size: 20px;
+        }
+
+        .uix-marketing-services-title {
+            font-size: 15px;
+            margin-bottom: 4px;
+        }
+
+        .uix-marketing-services-text {
+            font-size: 12px;
+            line-height: 1.4;
+        }
+
+        .trust-bar .container {
+            display: flex;
+            justify-content: flex-start;
+            /* align-items: flex-start; */
+            flex-wrap: wrap;
+            gap: 28px 43px;
+        }
+    }
+
+    @media (max-width: 480px) {
+        .trust-bar .container {
+            display: flex;
+            justify-content: flex-start;
+            /* align-items: flex-start; */
+            flex-wrap: wrap;
+            gap: 28px 43px;
+        }
+
+        .uix-marketing-services-section {
+            padding: 16px 10px;
+        }
+
+        .uix-marketing-services-card {
+            align-items: flex-start;
+        }
+
+        .uix-marketing-services-badge {
+            flex: 0 0 38px;
+            width: 38px;
+            height: 38px;
+            font-size: 18px;
+        }
+    }
+
+    /* Mobile Responsive */
+    @media (max-width: 968px) {
+        .hero {
+            height: auto;
+            min-height: 100vh;
+            padding: 88px 0 80px;
+        }
+
+        .hero-content h1 {
+            font-size: 36px;
+        }
+
+        .hero-badge {
+            padding: 8px 16px;
+            font-size: 10px;
+            gap: 6px;
+            white-space: nowrap;
+        }
+
+        .hero-content h1 span {
+            font-size: 36px;
+        }
+
+        .hero-bullets {
+            flex-direction: column;
+            align-items: center;
+            gap: 14px;
+            margin-bottom: 28px;
+        }
+
+        .hero-bullets li {
+            font-size: 15px;
+            gap: 8px;
+            padding: 10px 16px;
+        }
+
+        .hero-bullets li i {
+            font-size: 16px;
+        }
+
+        /* Stack form sections on tablet/mobile */
+        .form-main-wrapper {
+            flex-direction: column;
+            max-width: 600px;
+        }
+
+        .form-benefits-side,
+        .form-container {
+            width: 100%;
+        }
+
+        .form-section-header h2 {
+            font-size: 30px;
+        }
+
+        .process-steps {
+            flex-direction: row;
+            gap: 15px;
+        }
+
+        .step {
+            flex: 1;
+            min-width: 150px;
+            padding: 15px 20px;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+        }
+
+        .step-content {
+            text-align: center;
+        }
+
+        .services-grid,
+        .testimonials-grid,
+        .results-grid {
+            grid-template-columns: 1fr;
+        }
+
+        .benefits-grid {
+            grid-template-columns: 1fr;
+        }
+
+        .scroll-down {
+            bottom: 12px;
+            font-size: 24px;
+        }
+    }
+
+    @media (max-width: 640px) {
+        .header .container {
+            flex-direction: row;
+            gap: 12px;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 14px;
+        }
+
+        .logo img {
+            width: 136px !important;
+        }
+
+        .header-cta {
+            padding: 9px 14px;
+            font-size: 13px;
+            line-height: 1.2;
+            white-space: nowrap;
+        }
+
+        .hero {
+            min-height: auto;
+            padding: 82px 0 72px;
+        }
+
+        .scroll-down {
+            bottom: 8px;
+            font-size: 22px;
+        }
+
+        .hero-content h1 {
+            font-size: 36px;
+        }
+
+        .hero-content h1 span {
+            font-size: 24px;
+        }
+
+        .hero-subtitle {
+            font-size: 18px;
+        }
+
+        .hero-bullets {
+            gap: 12px;
+            margin-bottom: 24px;
+        }
+
+        .hero-bullets li {
+            font-size: 14px;
+            gap: 7px;
+            padding: 9px 14px;
+        }
+
+        .hero-bullets li i {
+            font-size: 15px;
+        }
+
+        .form-main-wrapper {
+            gap: 25px;
+        }
+
+        .form-benefits-side,
+        .form-container {
+            padding: 30px 25px;
+            border-radius: 16px;
+        }
+
+        .benefits-side-header h3 {
+            font-size: 22px;
+        }
+
+        .form-row {
+            grid-template-columns: 1fr;
+        }
+
+        .trust-badges-strip {
+            justify-content: center;
+            gap: 15px;
+        }
+
+        .urgency-banner {
+            flex-direction: column;
+            text-align: center;
+            gap: 10px;
+        }
+
+        .process-steps {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .step {
+            width: 100%;
+            max-width: 280px;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+
+        .step-content {
+            text-align: center;
+        }
+
+        .form-section-header h2 {
+            font-size: 26px;
+        }
+
+        .section-header h2,
+        .final-cta h2 {
+            font-size: 28px;
+        }
+
+        .btn-primary,
+        .btn-secondary {
+            width: 100%;
+            text-align: center;
+        }
+    }
+
+    /* Sticky CTA for Mobile */
+    .sticky-cta {
+        display: none;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: white;
+        padding: 15px;
+        box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.1);
+        z-index: 999;
+    }
+
+    @media (max-width: 768px) {
+        .sticky-cta {
+            display: block;
+        }
+
+        .hero-bullets {
+            list-style: none;
+            margin-bottom: 40px;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+
+        .sticky-cta a {
+            display: block;
+            background: linear-gradient(135deg, #368ec8 0%, #0b467a 100%);
+            color: white;
+            text-align: center;
+            padding: 15px;
+            border-radius: 10px;
+            text-decoration: none;
+            font-weight: 700;
+            font-size: 16px;
+        }
+
+        body {
+            padding-bottom: 80px;
+        }
+    }
+
+    @media (max-width: 480px) {
+        .hero-badge {
+            padding: 8px 12px;
+            font-size: 9px;
+            gap: 5px;
+            white-space: nowrap;
+        }
+    }
+    </style>
+</head>
+
+<body>
+    <?php if ($formNotice): ?>
+    <div class="form-popup <?php echo htmlspecialchars($formNotice['status'], ENT_QUOTES, 'UTF-8'); ?>" id="formPopup"
+        role="alert" aria-live="assertive">
+        <div class="form-popup-card">
+            <div class="form-popup-icon">
+                <i
+                    class="fas <?php echo $formNotice['status'] === 'success' ? 'fa-circle-check' : 'fa-circle-exclamation'; ?>"></i>
+            </div>
+            <div class="form-popup-content">
+                <h3><?php echo htmlspecialchars($formNotice['title'], ENT_QUOTES, 'UTF-8'); ?></h3>
+                <p><?php echo htmlspecialchars($formNotice['message'], ENT_QUOTES, 'UTF-8'); ?></p>
+            </div>
+            <button type="button" class="form-popup-close" aria-label="Close popup"
+                onclick="document.getElementById('formPopup').style.display='none'">&times;</button>
+        </div>
+    </div>
+    <?php endif; ?>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <a href="#" class="logo"><img src="assets/image/technofra14-tem.png" style="width: 200px;" alt=""></a>
+            <a href="#contact" class="header-cta">Get Free Quote</a>
+        </div>
+    </header>
+
+    <!-- Hero Section with Video Background -->
+    <section class="hero">
+        <!-- Video Background -->
+        <div class="video-background">
+            <!-- Free video from Pexels/Coverr - Digital Marketing/Abstract Tech -->
+            <video autoplay muted loop playsinline poster="assets\video\banner.jpg">
+                <source src="assets\video\vd.mp4" type="video/mp4">
+                <!-- Fallback image if video doesn't load -->
+                <img src="assets\video\banner.jpg" alt="Digital Marketing Background">
+            </video>
+        </div>
+
+        <!-- Dark Overlay -->
+        <div class="video-overlay"></div>
+
+        <!-- Hero Content - Center Aligned -->
+        <div class="hero-content container">
+            <div class="hero-badge">
+                <i class="fas fa-award"></i> #1 Rated Digital Marketing Agency For Global Businesses
+            </div>
+
+            <h1>Get <span>3X Qualified Leads</span></h1>
+
+            <section class="uix-marketing-services-section">
+
+                <div class="uix-marketing-services-grid">
+
+                    <div class="uix-marketing-services-card">
+                        <!-- <div class="uix-marketing-services-badge">1</div> -->
+                        <div class="uix-marketing-services-content">
+                            <h3 class="uix-marketing-services-title">SMM</h3>
+                            <p class="uix-marketing-services-text">
+                                More Engagement, Leads &amp; Sales With Strategic Social Media Marketing
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="uix-marketing-services-card">
+                        <!-- <div class="uix-marketing-services-badge">2</div> -->
+                        <div class="uix-marketing-services-content">
+                            <h3 class="uix-marketing-services-title">SEO</h3>
+                            <p class="uix-marketing-services-text">
+                                In 90 Days with Proven Strategy
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="uix-marketing-services-card">
+                        <!-- <div class="uix-marketing-services-badge">3</div> -->
+                        <div class="uix-marketing-services-content">
+                            <h3 class="uix-marketing-services-title">PPC</h3>
+                            <p class="uix-marketing-services-text">
+                                Instant Qualified Leads With Data-Driven PPC Campaigns That Actually Convert
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </section>
+
+
+            <p class="hero-subtitle">Dominate Google Rankings • Run Profitable Ad Campaigns • Grow Your Brand</p>
+
+            <ul class="hero-bullets">
+                <li><i class="fas fa-check-circle"></i> Digital Marketing Experts</li>
+                <li><i class="fas fa-check-circle"></i> Google Ads Certified </li>
+                <li><i class="fas fa-check-circle"></i> Trusted by 500+ Businesses</li>
+            </ul>
+
+            <div class="hero-cta-group">
+                <a href="#contact" class="btn-primary">Get My Free Strategy </a>
+                <a href="tel:+918080803374" class="btn-secondary"><i class="fas fa-phone"></i> Call Now</a>
+            </div>
+        </div>
+
+        <!-- Scroll Down Indicator -->
+        <div class="scroll-down" onclick="scrollToAnchorTarget('contact')">
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- BALANCED Lead Form Section -->
+    <section class="lead-form-section">
+        <div class="container">
+            <!-- Section Header -->
+            <div class="form-section-header">
+                <div class="form-section-badge"><i class="fas fa-bolt"></i> Limited Time Offer</div>
+                <h2>Get Your Free Marketing Strategy</h2>
+                <p>Join 500+ businesses who transformed their growth with our expert digital marketing services</p>
+            </div>
+
+            <!-- 3 Step Process -->
+            <div class="process-steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <div class="step-content">
+                        <h4>Fill the Form</h4>
+                        <p>Takes only 30 seconds</p>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <div class="step-content">
+                        <h4>Get Strategy Call</h4>
+                        <p>Within 3 hours guaranteed</p>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <div class="step-content">
+                        <h4>Start Growing</h4>
+                        <p>See results in 15 days</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Main Form Wrapper - FLEX for Equal Height -->
+            <div class="form-main-wrapper">
+                <!-- Left Side - Benefits -->
+                <div class="form-benefits-side">
+                    <div class="benefits-side-header">
+                        <h3>Why Businesses Choose Us?</h3>
+                        <p>Trusted by industry leaders across Global</p>
+                    </div>
+
+                    <div class="benefit-list">
+                        <div class="benefit-list-item">
+                            <div class="benefit-check">
+                                <i class="fas fa-check"></i>
+                            </div>
+                            <div class="benefit-text">
+                                <h4>Guaranteed Results</h4>
+                                <p>50% growth in 90 days.</p>
+                            </div>
+                        </div>
+
+                        <div class="benefit-list-item">
+                            <div class="benefit-check">
+                                <i class="fas fa-check"></i>
+                            </div>
+                            <div class="benefit-text">
+                                <h4>Dedicated Expert Team</h4>
+                                <p>Personal account manager assigned</p>
+                            </div>
+                        </div>
+
+                        <div class="benefit-list-item">
+                            <div class="benefit-check">
+                                <i class="fas fa-check"></i>
+                            </div>
+                            <div class="benefit-text">
+                                <h4>Transparent Reporting</h4>
+                                <p>Real-time dashboard & monthly updates</p>
+                            </div>
+                        </div>
+
+                        <!-- <div class="benefit-list-item">
+              <div class="benefit-check">
+                <i class="fas fa-check"></i>
+              </div>
+              <div class="benefit-text">
+                <h4>No Long-term Contracts</h4>
+                <p>Cancel anytime, zero hidden fees</p>
+              </div>
+            </div> -->
+                    </div>
+
+                    <!-- Live Activity -->
+                    <div class="live-activity">
+                        <div class="live-header">
+                            <div class="live-dot"></div>
+                            <span>Live Activity</span>
+                        </div>
+                        <div class="activity-item">
+                            <div class="activity-icon"><i class="fas fa-user"></i></div>
+                            <span>Rahul from Delhi just requested a call</span>
+                        </div>
+                        <div class="activity-item">
+                            <div class="activity-icon"><i class="fas fa-chart-line"></i></div>
+                            <span>12 businesses joined this week</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Side - Form -->
+                <div class="form-container" id="contact">
+
+                    <form action="" method="POST" id="leadForm">
+                        <div class="form-hidden-field" aria-hidden="true">
+                            <label for="hidden_field">Leave this field empty</label>
+                            <input type="text" id="hidden_field" name="hidden_field" tabindex="-1" autocomplete="off">
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name">Full Name *</label>
+                                <input type="text" id="name" name="name" placeholder="Enter your full name"
+                                    value="<?php echo htmlspecialchars($formData['name'], ENT_QUOTES, 'UTF-8'); ?>"
+                                    required>
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Phone Number *</label>
+                                <input type="tel" id="phone" name="contact" placeholder="Enter your phone number"
+                                    inputmode="numeric" maxlength="10" pattern="[0-9]{10}"
+                                    value="<?php echo htmlspecialchars($formData['contact'], ENT_QUOTES, 'UTF-8'); ?>"
+                                    required>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email Address *</label>
+                            <input type="email" id="email" name="email" placeholder="Enter your email address"
+                                value="<?php echo htmlspecialchars($formData['email'], ENT_QUOTES, 'UTF-8'); ?>"
+                                required>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="company">Company Name </label>
+                                <input type="text" id="company" name="company" placeholder="Your company name"
+                                    value="<?php echo htmlspecialchars($formData['company'], ENT_QUOTES, 'UTF-8'); ?>">
+                            </div>
+                            <div class="form-group">
+                                <label for="website">Website (Optional)</label>
+                                <input type="url" id="website" name="website" placeholder="https://yourwebsite.com"
+                                    value="<?php echo htmlspecialchars($formData['website'], ENT_QUOTES, 'UTF-8'); ?>">
+                            </div>
+                        </div>
+                        <div class="col-sm-8">
+                            <div class="form-group">
+                                <input type="text" name="hidden_field" style="display:none;" tabindex="-1">
+                                <div class="col-12">
+                                    <div class="g-recaptcha" data-sitekey="6LekpbEqAAAAANkc3FduPE52-p4Wqu5ghQFXjPhF">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <button type="submit" class="submit-btn">
+                            <i class="fas fa-rocket"></i> Get My Free Strategy Call
+                        </button>
+
+                        <div class="form-footer">
+                            <p class="form-note">
+                                <i class="fas fa-lock"></i>
+                                Your information is 100% secure and confidential
+                            </p>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trust Badges Bar -->
+    <section class="trust-bar">
+        <div class="container">
+            <div class="trust-item">
+                <h3>2100+</h3>
+                <p>Successful Projects</p>
+            </div>
+            <div class="trust-item">
+                <h3>50+</h3>
+                <p>Expert Team</p>
+            </div>
+            <div class="trust-item">
+                <h3>1550+</h3>
+                <p>Happy Customers</p>
+            </div>
+            <div class="trust-item">
+                <h3>14+</h3>
+                <p>Years of Experience</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Digital Marketing Services</h2>
+                <p>End-to-end solutions to dominate your market online</p>
+            </div>
+
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-search"></i>
+                    </div>
+                    <h3>SEO Optimization</h3>
+                    <p>Rank #1 on Google for your target keywords. Drive organic traffic that converts into paying
+                        customers with
+                        our proven SEO strategies.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-ad"></i>
+                    </div>
+                    <h3>PPC</h3>
+                    <p>High-converting ad campaigns with 10x ROI. We optimize every dollar for maximum returns on
+                        Google, Facebook
+                        & Instagram.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-hashtag"></i>
+                    </div>
+                    <h3>Social Media Marketing</h3>
+                    <p>Build brand authority on Facebook, Instagram, LinkedIn. Engage your audience and convert
+                        followers into
+                        loyal customers.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-pen-nib"></i>
+                    </div>
+                    <h3>Content Marketing</h3>
+                    <p>Blogs, videos, infographics that establish you as industry leader. Content that ranks and drives
+                        organic
+                        growth.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <h3>Email Marketing</h3>
+                    <p>Automated email sequences that nurture leads and boost sales by 40%. From welcome series to
+                        abandoned cart
+                        recovery.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Analytics & Reporting</h3>
+                    <p>Real-time dashboards showing exactly how your campaigns are performing. Data-driven decisions for
+                        better
+                        ROI.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Final CTA -->
+    <section class="final-cta">
+        <div class="container">
+            <h2>Ready to 3x Your Business?</h2>
+            <p>Join 500+ businesses already growing with Technofra. Your competitors are already investing in digital
+                marketing - don't get left behind!</p>
+
+            <div class="cta-buttons">
+                <a href="#contact" class="btn-primary">Get Free Strategy Call</a>
+                <a href="tel:+918080803374" class="btn-secondary"><i class="fas fa-phone"></i> Call Now</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section class="why-us">
+        <div class="container">
+            <div class="section-header">
+                <h2>Why Choose Technofra?</h2>
+                <p>We don't just promise results, we deliver them ?</p>
+            </div>
+
+            <div class="benefits-grid">
+                <div class="benefit-item">
+                    <div class="benefit-icon">
+                        <i class="fas fa-rocket"></i>
+                    </div>
+                    <div class="benefit-content">
+                        <h3>Results-Driven Approach</h3>
+                        <p>We focus on metrics that matter - leads, sales & ROI. No vanity metrics, only real business
+                            growth that
+                            impacts your bottom line.</p>
+                    </div>
+                </div>
+
+                <div class="benefit-item">
+                    <div class="benefit-icon">
+                        <i class="fas fa-users-cog"></i>
+                    </div>
+                    <div class="benefit-content">
+                        <h3>Dedicated Team</h3>
+                        <p>Your personal account manager & expert team working exclusively on your campaigns 24/7.
+                            Direct access to
+                            specialists.</p>
+                    </div>
+                </div>
+
+                <div class="benefit-item">
+                    <div class="benefit-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <div class="benefit-content">
+                        <h3>Transparent Reporting</h3>
+                        <p>Weekly performance reports, monthly strategy calls. Full visibility into your campaigns with
+                            real-time
+                            dashboards.</p>
+                    </div>
+                </div>
+
+                <div class="benefit-item">
+                    <div class="benefit-icon">
+                        <i class="fas fa-rupee-sign"></i>
+                    </div>
+                    <div class="benefit-content">
+                        <h3>Flexible Pricing</h3>
+                        <p>Custom packages for every budget. </p>
+                    </div>
+                </div>
+
+                <div class="benefit-item">
+                    <div class="benefit-icon">
+                        <i class="fas fa-headset"></i>
+                    </div>
+                    <div class="benefit-content">
+                        <h3>24/7 Support</h3>
+                        <p>Round-the-clock support via phone, email & WhatsApp. We're always here when you need us, even
+                            on
+                            weekends.</p>
+                    </div>
+                </div>
+
+                <div class="benefit-item">
+                    <div class="benefit-icon">
+                        <i class="fas fa-sync-alt"></i>
+                    </div>
+                    <div class="benefit-content">
+                        <h3>Continuous Optimization</h3>
+                        <p>We test, tweak & improve daily. Your campaigns get better every single day with AI-powered
+                            optimization.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Results Section -->
+    <section class="results">
+        <div class="container">
+            <div class="section-header">
+                <h2>Proven Results for Our Clients</h2>
+                <p>Real numbers from real campaigns - no fluff, just facts</p>
+            </div>
+
+            <div class="results-grid">
+                <div class="result-card">
+                    <div class="result-number">300%</div>
+                    <div class="result-label">Traffic Increase</div>
+                    <div class="result-desc">SEO client saw 3x organic traffic growth in just 6 months with our SEO
+                        strategy</div>
+                </div>
+
+                <div class="result-card">
+                    <div class="result-number">10x</div>
+                    <div class="result-label">ROI on Ads</div>
+                    <div class="result-desc">B2B SaaS company achieved 10x return on Google Ads spend within 90 days
+                    </div>
+                </div>
+
+                <div class="result-card">
+                    <div class="result-number">3x</div>
+                    <div class="result-label">High-Quality Leads</div>
+                    <div class="result-desc">We generate targeted leads that are more likely to convert into paying
+                        customers not
+                        just empty numbers.</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Final CTA -->
+    <section class="final-cta">
+        <div class="container">
+            <h2>Ready to 3x Your Business?</h2>
+            <p>Join 500+ businesses already growing with Technofra. Your competitors are already investing in digital
+                marketing - don't get left behind!</p>
+
+            <div class="cta-buttons">
+                <a href="#contact" class="btn-primary">Get Free Strategy Call</a>
+                <a href="tel:+918080803374" class="btn-secondary"><i class="fas fa-phone"></i> Call Now</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2>What Our Clients Say</h2>
+                <p>Don't just take our word for it - hear from businesses we've helped grow</p>
+            </div>
+
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>"Technofra transformed our online presence completely. We went from page 3 to #1 on Google for
+                        our main
+                        keywords. Leads increased by 400% in just 3 months!"</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">KM</div>
+                        <div class="author-info">
+                            <h4>Mr. Kahan Mehta</h4>
+                            <p>CEO, Rupal Plastics</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>"The PPC campaigns they run are incredibly profitable. Every $1 we spend brings back $8-10 in
+                        revenue. Best
+                        marketing investment we've ever made."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">PJ</div>
+                        <div class="author-info">
+                            <h4>Puneet Jain</h4>
+                            <p>Founder, Fragomatrix </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>"Professional team, excellent communication, and most importantly - RESULTS. Our social media
+                        following
+                        grew from 1K to 50K in 6 months. Highly recommended!"</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">NN</div>
+                        <div class="author-info">
+                            <h4>Mr. Niraj Narsaria</h4>
+                            <p>Director, Global Ocean</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq">
+        <div class="container">
+            <div class="section-header">
+                <h2>Frequently Asked Questions</h2>
+                <p>Got questions? We've got answers</p>
+            </div>
+
+            <div class="faq-list">
+                <div class="faq-item active">
+                    <div class="faq-question">
+                        <span>How long does it take to see results from SEO?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        SEO is not a quick activity rather it is a progressive approach that creates lasting
+                        visibility. Generally, after 4-6 weeks, you will begin to see some visible progress, for
+                        instance, ranking and traffic. For you to experience some real gains in terms of constant
+                        traffic, quality leads, and increased conversion rate, it will normally take about 3 to 6
+                        months or even longer. It is worth noting that the duration is determined by the level of
+                        competition in your industry, the state of your website, and the effectiveness of SEO
+                        activities that have been done.
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>What is the minimum budget for Google Ads?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        There’s no fixed minimum budget for Google Ads. The right budget depends on your
+                        goals, industry competition, and how quickly you want to see results. What matters most
+                        is having enough budget to collect meaningful data and allow proper optimization. Even
+                        with a smaller budget, campaigns can be structured strategically by focusing on
+                        high-intent audiences and keywords. As performance improves, the budget can be
+                        scaled to maximize results and return on investment
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>How do you measure campaign success?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        The success of the campaign is evaluated according to its results which are important
+                        for your business. These results include monitoring key metrics like conversion rate,
+                        lead generation, cost per acquisition, and ROI. Our team pays special attention to
+                        studying users actions, ads performance, and keywords efficiency in order to identify
+                        their contribution to your results. Apart from all this, we provide you with comprehensive
+                        reports in order to keep you informed about the progress of the campaign.
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>What digital marketing approach works best for B2B companies aiming for high-quality
+                            leads?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        For B2B businesses, the focus should always be on attracting the right audience rather
+                        than a large volume of leads. A strong strategy combines intent-based SEO to capture
+                        users actively searching for solutions, along with precise targeting on professional
+                        platforms to reach decision-makers. In addition, creating valuable and informative
+                        content helps build trust and guides prospects through the decision-making process.
+                        The goal is not just to generate leads, but to attract qualified prospects who are
+                        genuinely interested and more likely to convert into long-term business relationships.
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>Why is digital marketing essential for modern business growth?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        Digital marketing plays a crucial role in helping businesses grow by connecting them
+                        with the right audience in a targeted and measurable way. It allows brands to track
+                        performance in real time, understand customer behavior, and continuously improve their
+                        strategies based on data.
+                        Unlike traditional marketing, it offers greater flexibility, better cost control, and the
+                        ability
+                        to scale campaigns as the business grows. Most importantly, it helps businesses stay
+                        competitive by reaching potential customers at the right moment and adapting quickly to
+                        changing market demands.
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>What should businesses consider when selecting the right marketing partner
+                            globally?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        When selecting a marketing partner, businesses should focus on their ability to deliver
+                        clear strategy, maintain transparency in reporting, and communicate effectively
+                        throughout the process. It’s important to work with a team that understands your goals
+                        and can adapt quickly to changing market conditions. The best marketing partner does
+                        not only try to meet short-term figures but concentrates more on creating long-term
+                        growth through proper marketing strategy.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Final CTA -->
+    <section class="final-cta">
+        <div class="container">
+            <h2>Ready to 3x Your Business?</h2>
+            <p>Join 500+ businesses already growing with Technofra. Your competitors are already investing in digital
+                marketing - don't get left behind!</p>
+
+            <div class="cta-buttons">
+                <a href="#contact" class="btn-primary">Get Free Strategy Call</a>
+                <a href="tel:+918080803374" class="btn-secondary"><i class="fas fa-phone"></i> Call Now</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h4>Technofra Digital</h4>
+                    <p>Your trusted partner for Digital Marketing success. We help businesses grow through SEO, PPC, and
+                        Social
+                        Media marketing.</p>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Services</h4>
+                    <a href="#">Search Engine Optimization</a><br>
+                    <a href="#">Google Ads Management</a><br>
+                    <a href="#">Social Media Marketing</a><br>
+                    <a href="#">Content Marketing</a><br>
+                    <a href="#">Email Marketing</a>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Contact Us</h4>
+                    <a href="tel:+918080803374">
+                        <p><i class="fas fa-phone"></i> +91 8080 80 3374</p>
+                    </a>
+                    <a href="mailto:info@technofra.com">
+                        <p><i class="fas fa-envelope"></i> info@technofra.com</p>
+                    </a>
+                    <p><i class="fas fa-map-marker-alt"></i> Mumbai, India</p>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Working Hours</h4>
+                    <p>Monday - Saturday</p>
+                    <p>24/7 Support Available</p>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 Technofra. All rights reserved. | <a href="https://technofra.com/privacy-policy"
+                        style="color: #64748b;">Privacy Policy</a> | <a
+                        href="https://technofra.com/terms-and-conditions" style="color: #64748b;">Terms and
+                        Conditions</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Sticky CTA for Mobile -->
+    <div class="sticky-cta">
+        <a href="#contact"><i class="fas fa-phone"></i> Get Free Strategy Call</a>
+    </div>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <!-- Scripts -->
+    <script>
+    function scrollToAnchorTarget(targetId) {
+        const target = document.getElementById(targetId);
+        if (!target) {
+            return;
+        }
+
+        const header = document.querySelector('.header');
+        const headerOffset = header ? header.offsetHeight + 12 : 12;
+        const targetPosition = target.getBoundingClientRect().top + window.pageYOffset - headerOffset;
+
+        window.scrollTo({
+            top: Math.max(targetPosition, 0),
+            behavior: 'smooth'
+        });
+    }
+
+    // Smooth scroll with fixed header offset
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function(e) {
+            const href = this.getAttribute('href');
+            if (!href || href === '#') {
+                return;
+            }
+
+            const targetId = href.slice(1);
+            const target = document.getElementById(targetId);
+            if (!target) {
+                return;
+            }
+
+            e.preventDefault();
+            scrollToAnchorTarget(targetId);
+        });
+    });
+
+    // FAQ Toggle
+    document.querySelectorAll('.faq-question').forEach(question => {
+        question.addEventListener('click', () => {
+            const item = question.parentElement;
+            const isActive = item.classList.contains('active');
+
+            // Close all
+            document.querySelectorAll('.faq-item').forEach(faq => {
+                faq.classList.remove('active');
+            });
+
+            // Open clicked if wasn't active
+            if (!isActive) {
+                item.classList.add('active');
+            }
+        });
+    });
+
+    // Form submission tracking
+    document.getElementById('leadForm').addEventListener('submit', function(e) {
+        console.log('Lead form submitted');
+    });
+
+    const formPopup = document.getElementById('formPopup');
+    if (formPopup) {
+        setTimeout(() => {
+            formPopup.style.display = 'none';
+        }, 6000);
+    }
+
+    // Live Activity Rotator
+    const activities = [{
+            icon: 'fa-user',
+            text: 'Rahul from Delhi just requested a call'
+        },
+        {
+            icon: 'fa-building',
+            text: 'TechStart Solutions joined as a client'
+        },
+        {
+            icon: 'fa-chart-line',
+            text: '12 new businesses signed up this week'
+        },
+        {
+            icon: 'fa-star',
+            text: 'New 5-star review received from Mumbai'
+        },
+        {
+            icon: 'fa-phone',
+            text: 'Priya from Bangalore booked consultation'
+        }
+    ];
+
+    let activityIndex = 0;
+    const activityContainer = document.querySelector('.live-activity');
+
+    setInterval(() => {
+        activityIndex = (activityIndex + 1) % activities.length;
+        const items = activityContainer.querySelectorAll('.activity-item');
+        items[0].innerHTML = `
+                <div class="activity-icon"><i class="fas ${activities[activityIndex].icon}"></i></div>
+                <span>${activities[activityIndex].text}</span>
+            `;
+    }, 3000);
+
+    // Urgency Counter Animation
+    let slots = 3;
+    const counter = document.querySelector('.urgency-counter');
+
+    setInterval(() => {
+        if (slots > 1) {
+            slots--;
+            counter.textContent = '0' + slots;
+            counter.style.transform = 'scale(1.2)';
+            setTimeout(() => {
+                counter.style.transform = 'scale(1)';
+            }, 200);
+        }
+    }, 15000);
+    </script>
+
+    <!-- Google Analytics & Ads Tracking -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+    gtag('config', 'GA_MEASUREMENT_ID');
+    </script>
+
+</body>
+
+</html>

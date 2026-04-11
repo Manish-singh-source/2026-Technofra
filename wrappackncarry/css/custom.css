@@ -1,0 +1,339 @@
+.site-header .site-branding img {
+    max-width: 100%;
+    height: auto;
+    max-height: 90px;
+    display: inline-block;
+    -webkit-transition: all 300ms ease;
+    transition: all 300ms ease;
+}
+
+
+.header-style-1 .site-navigation ul.navigation>li>a {
+    color: #000000;
+    font-size: 16px;
+}
+
+.pbmit-ihbox-style-7 .pbmit-icon-type-icon img {
+    width: 50px;
+}
+
+.who-we-are-one-leftbox {
+    background-image: url(../images/banners/new-who-we-are-image.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 30px;
+    height: 100%;
+    position: relative;
+}
+
+.pbmit-ihbox-icon-wrapper img {
+    width: 50px;
+}
+
+body .pbmit-bg-color-secondary {
+    /* background-color: var(--pbmit-secondary-color); */
+    /* background-color: #99CA3F; */
+    background-color: #333828;
+}
+
+.site-footer {
+    /* background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSk_kH_YEgsqNF934cOc3wr4tjKa55bG2PbcQ&s); */
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: 235px;
+    /* background-size: contain; */
+    background-attachment: scroll;
+    font-size: 15px;
+    color: var(--pbmit-blackish-color);
+    background-color: var(--pbmit-white-color);
+}
+
+.site-footer .pbmit-footer-big-area .pbmit-main-logo {
+    max-height: 100px;
+}
+
+.site-footer .pbmit-footer-text-inner {
+    font-size: 14px;
+    margin-left: 0;
+    padding: 30px 0;
+    border-top: 1px solid rgba(var(--pbmit-blackish-color-rgb), .2);
+}
+
+.site-footer .pbmit-footer-text-inner .row {
+    align-items: center;
+    flex-direction: row;
+}
+
+.pbmit-slider-one .pbmit-title {
+    font-size: 100px;
+    line-height: 100px;
+    color: var(--pbmit-white-color);
+    filter: drop-shadow(6px 6px 5px black);
+}
+
+.header-style-1 .pbmit-header-button a .pbmit-header-button-text-1 {
+    color: black;
+}
+
+.pbmit-header-button-text-2 {
+    color: black;
+}
+
+.header-style-1 .pbmit-header-button a:before {
+    color: #000000;
+}
+
+.pbmit-top-left-corner {
+    top: 0;
+    left: -28px;
+}
+
+.pbminfotech-ele-fid-style-2 {
+    padding: 25px 0 0 25px;
+    position: relative;
+    background-color: var(--pbmit-light-color);
+    border-radius: 50px 0 0;
+}
+
+.site-footer .pbmit-footer-copyright-text-area {
+    text-align: start;
+}
+
+.site-footer .pbmit-footer-company-text-area {
+    text-align: end;
+}
+
+/* .footer-right-img {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    right: -100px;
+    position: relative;
+    bottom: -30px;
+} */
+
+.pbmit-ihbox-style-7 .pbmit-ihbox-btn {
+    position: absolute;
+    font-size: 14px;
+    line-height: 36px;
+    bottom: 0;
+    right: 0;
+    width: 55px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    color: var(--pbmit-blackish-color);
+    background-color: var(--pbmit-white-color);
+    z-index: 1;
+    transition: all 0.4s ease-in;
+    display: inline-grid;
+    margin-top: 0;
+}
+
+.pbmit-slider-bg.hero-1 {
+    background-image: url(../images/banners/new-1.png);
+}
+
+.pbmit-slider-bg.hero-2 {
+    background-image: url(../images/banners/new-2.png);
+}
+
+.pbmit-slider-bg.hero-3 {
+    background-image: url(../images/banners/new-3.png);
+}
+
+/* 
+-----------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------
+--------------------------------------------------- Media Query--------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------- 
+*/
+
+/* Extra Small Devices (phones) */
+@media (max-width: 575px) {
+    .pbmit-slider-one .pbmit-title {
+        font-size: 30px;
+        line-height: 30px;
+        color: var(--pbmit-white-color);
+        filter: drop-shadow(6px 6px 5px black);
+    }
+
+    .site-footer .pbmit-footer-copyright-text-area {
+        text-align: center;
+    }
+
+    .site-footer .pbmit-footer-company-text-area {
+        text-align: center;
+    }
+
+    /* .swiper-slider .pbmit-element-viewtype-carousel-1 .swiper-fade .swiper-initialized .swiper-horizontal swiper-ios{
+        height: 100vh;
+    } */
+
+    .pbmit-slider-one .swiper-slider[data-dots="true"], .pbmit-slider-two .swiper-slider[data-dots="true"]{
+        height: 100vh;
+    }
+
+    .pbmit-slider-bg.hero-1 {
+        background-image: url(../images/banners/new-mobile-1.png);
+    }
+
+    .pbmit-slider-bg.hero-2 {
+        background-image: url(../images/banners/new-mobile-2.png);
+    }
+
+    .pbmit-slider-bg.hero-3 {
+        background-image: url(../images/banners/new-mobile-3.png);
+    }
+}
+
+/* Small Devices (phones landscape / small tablets) */
+@media (min-width: 576px) and (max-width: 767px) {
+    .pbmit-slider-one .pbmit-title {
+        font-size: 40px;
+        line-height: 40px;
+        color: var(--pbmit-white-color);
+        filter: drop-shadow(6px 6px 5px black);
+    }
+
+    .site-footer .pbmit-footer-copyright-text-area {
+        text-align: center;
+    }
+
+    .site-footer .pbmit-footer-company-text-area {
+        text-align: center;
+    }
+
+    .pbmit-slider-bg.hero-1 {
+        background-image: url(../images/banners/new-1.png);
+    }
+
+    .pbmit-slider-bg.hero-2 {
+        background-image: url(../images/banners/new-2.png);
+    }
+
+    .pbmit-slider-bg.hero-3 {
+        background-image: url(../images/banners/new-3.png);
+    }
+}
+
+/* Medium Devices (tablets) */
+@media (min-width: 768px) and (max-width: 991px) {
+    .pbmit-slider-one .pbmit-title {
+        font-size: 50px;
+        line-height: 50px;
+        color: var(--pbmit-white-color);
+        filter: drop-shadow(6px 6px 5px black);
+    }
+
+    .pbmit-slider-bg.hero-1 {
+        background-image: url(../images/banners/new-1.png);
+    }
+
+    .pbmit-slider-bg.hero-2 {
+        background-image: url(../images/banners/new-2.png);
+    }
+
+    .pbmit-slider-bg.hero-3 {
+        background-image: url(../images/banners/new-3.png);
+    }
+}
+
+/* Large Devices (laptops) */
+@media (min-width: 992px) and (max-width: 1199px) {
+    .pbmit-slider-one .pbmit-title {
+        font-size: 60px;
+        line-height: 60px;
+        color: var(--pbmit-white-color);
+        filter: drop-shadow(6px 6px 5px black);
+    }
+
+    .who-we-are-one-leftbox {
+        padding: 280px 0;
+    }
+
+    .pbmit-service-style-1 .pbmit-box-content-inner {
+        padding: 0 50px 0 0;
+    }
+
+    .pbmit-slider-bg.hero-1 {
+        background-image: url(../images/banners/new-1.png);
+    }
+
+    .pbmit-slider-bg.hero-2 {
+        background-image: url(../images/banners/new-2.png);
+    }
+
+    .pbmit-slider-bg.hero-3 {
+        background-image: url(../images/banners/new-3.png);
+    }
+}
+
+/* Extra Large Devices (desktops) */
+@media (min-width: 1200px) and (max-width: 1399px) {
+    .pbmit-slider-one .pbmit-title {
+        font-size: 75px;
+        line-height: 75px;
+        color: var(--pbmit-white-color);
+        filter: drop-shadow(6px 6px 5px black);
+    }
+
+    .pbmit-slider-bg.hero-1 {
+        background-image: url(../images/banners/new-1.png);
+    }
+
+    .pbmit-slider-bg.hero-2 {
+        background-image: url(../images/banners/new-2.png);
+    }
+
+    .pbmit-slider-bg.hero-3 {
+        background-image: url(../images/banners/new-3.png);
+    }
+}
+
+/* XXL Devices (large screens / TVs) */
+@media (min-width: 1400px) and (max-width: 1599px) {
+    .pbmit-slider-one .pbmit-title {
+        font-size: 85px;
+        line-height: 85px;
+        color: var(--pbmit-white-color);
+        filter: drop-shadow(6px 6px 5px black);
+    }
+
+    .pbmit-ihbox-style-7 .pbmit-content-wrapper {
+        padding-top: 25px;
+        margin-top: 25px;
+        padding-right: 35px;
+        border-top: 1px solid rgba(var(--pbmit-blackish-color-rgb), .1);
+        position: relative;
+    }
+
+    .pbmit-bottom-left-corner {
+        bottom: -0.5%;
+        left: -29px;
+        transform: none;
+    }
+
+    .pbmit-top-right-corner {
+        top: -29px;
+        right: -0.5%;
+        transform: none;
+    }
+
+    .pbmit-slider-bg.hero-1 {
+        background-image: url(../images/banners/new-1.png);
+    }
+
+    .pbmit-slider-bg.hero-2 {
+        background-image: url(../images/banners/new-2.png);
+    }
+
+    .pbmit-slider-bg.hero-3 {
+        background-image: url(../images/banners/new-3.png);
+    }
+
+}
