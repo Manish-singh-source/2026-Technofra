@@ -4,7 +4,8 @@
             <div class="col-lg-10">
                 <div class="section-title">
                     <h2 class="pb-20">Showcasing Our Creative Excellence</h2>
-                    <p class="mb-20">Technofra selects the latest and most reliable technology stack to support your business growth.</p>
+                    <p class="mb-20">Technofra selects the latest and most reliable technology stack to support your
+                        business growth.</p>
                 </div>
             </div>
             <div class="col-lg-2">
@@ -36,7 +37,7 @@
                         </div>
                     </div>
 
-                     <div class="single-slider  border">
+                    <div class="single-slider  border">
                         <div class="d-flex">
                             <span class="portdot"></span>
                             <span class="portdot"></span>
@@ -44,7 +45,7 @@
 
                         </div>
                         <div class="slider-img">
-                            <img src="assets/image/casestudy/shivam/shivam.png"s alt="image">
+                            <img src="assets/image/casestudy/shivam/shivam.png" s alt="image">
                         </div>
                         <div class="heading">
                             <div class="dpflex">
@@ -158,6 +159,27 @@
                                         class="fa-solid fa-arrow-right"></i></span></a>
                         </div>
                     </div>
+                     <div class="single-slider  border">
+                        <div class="d-flex">
+                            <span class="portdot"></span>
+                            <span class="portdot"></span>
+                            <span class="portdot"></span>
+
+                        </div>
+                        <div class="slider-img">
+                            <img src=assets/image/casestudy/pentacledesigns.webp alt="image">
+                        </div>
+                        <div class="heading">
+                            <div class="dpflex">
+
+                                <h3><a href="pentacledesigns" target="blank">PENTACLEDESIGNS</a></h3>
+                            </div>
+                            <p>Business Website</p>
+                            <a href="pentacledesigns" target="blank" class="learn">View More <span><i
+                                        class="fa-solid fa-arrow-right"></i></span></a>
+                        </div>
+                    </div>
+
                     <div class="single-slider  border">
                         <div class="d-flex">
                             <span class="portdot"></span>

@@ -399,6 +399,35 @@
                             <span class="portdot"></span>
                         </div>
                         <div class="qty-portfolio__img">
+                            <a href="pentacledesigns" class="qty-portfolio__img-link">
+                                <img src="assets/image/casestudy/pentacledesigns.webp" alt="image" class="img-fluid">
+                            </a>
+                        </div>
+                        <div class="qty-portfolio__body">
+                            <a href="pentacledesigns" class="aih-color-two fw-400">
+                                <h6 class="aih-color-two fw-400 ">Pentacel Design</h6>
+                            </a>
+                        </div>
+
+                        <div class="hover-button">
+                            <a href="pentacledesigns" class="link-with-icon text-decoration-none but">
+                                View <i class="fas fa-arrow-right rot"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 pb-30">
+                    <div class="qty-portfolio manish ico" style="position: relative; overflow: hidden;">
+                        <div class="new-badge new">
+                            NEW
+                        </div>
+                        <div class="d-flex mb-2">
+                            <span class="portdot"></span>
+                            <span class="portdot"></span>
+                            <span class="portdot"></span>
+                        </div>
+                        <div class="qty-portfolio__img">
                             <a href="texon" class="qty-portfolio__img-link">
                                 <img src="assets/image/casestudy/texon/banner.png" alt="image" class="img-fluid">
                             </a>
