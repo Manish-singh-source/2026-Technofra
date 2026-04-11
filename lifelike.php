@@ -48,7 +48,7 @@ gtag('config', 'G-189WWHXLSS');
 
 <?php include 'navbar.php'; ?>
 
-<section class="pb-60 pt-80">
+<section class="pb-60">
     <div class="cover-image">
         <img src="assets/image/casestudy/lifelike/lifelike1.png" alt="Life Like Studio">
     </div>
