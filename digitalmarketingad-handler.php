@@ -178,8 +178,8 @@ if ($email === '' || !filter_var($email, FILTER_VALIDATE_EMAIL)) {
     $errors[] = 'Please enter a valid email address.';
 }
 
-if ($contact === '' || !preg_match('/^\d{10}$/', $contact)) {
-    $errors[] = 'Please enter a valid 10-digit phone number.';
+if ($contact === '' || strlen(trim($contact)) === 0) {
+    $errors[] = 'Please enter a valid phone number.';
 }
 
 if ($website !== '' && !filter_var($website, FILTER_VALIDATE_URL)) {

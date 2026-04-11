@@ -1630,7 +1630,7 @@ unset($_SESSION['digital_marketing_form_notice'], $_SESSION['digital_marketing_f
         }
 
         .logo img {
-            width: 136px !important;
+            width: 180px !important;
         }
 
         .header-cta {
@@ -1713,12 +1713,14 @@ unset($_SESSION['digital_marketing_form_notice'], $_SESSION['digital_marketing_f
 
         .step {
             width: 100%;
-            max-width: 280px;
             flex-direction: column;
             align-items: center;
             justify-content: center;
             text-align: center;
         }
+        .form-row {
+    gap: 0px;
+}
 
         .step-content {
             text-align: center;
@@ -2025,7 +2027,6 @@ unset($_SESSION['digital_marketing_form_notice'], $_SESSION['digital_marketing_f
                             <div class="form-group">
                                 <label for="phone">Phone Number *</label>
                                 <input type="tel" id="phone" name="contact" placeholder="Enter your phone number"
-                                    inputmode="numeric" maxlength="10" pattern="[0-9]{10}"
                                     value="<?php echo htmlspecialchars($formData['contact'], ENT_QUOTES, 'UTF-8'); ?>"
                                     required>
                             </div>
@@ -2079,19 +2080,19 @@ unset($_SESSION['digital_marketing_form_notice'], $_SESSION['digital_marketing_f
     <section class="trust-bar">
         <div class="container">
             <div class="trust-item">
-                <h3>2100+</h3>
+                <h3><span class="counter" data-target="2100">0</span></h3>
                 <p>Successful Projects</p>
             </div>
             <div class="trust-item">
-                <h3>50+</h3>
+                <h3><span class="counter" data-target="50">0</span></h3>
                 <p>Expert Team</p>
             </div>
             <div class="trust-item">
-                <h3>1550+</h3>
+                <h3><span class="counter" data-target="1550">0</span></h3>
                 <p>Happy Customers</p>
             </div>
             <div class="trust-item">
-                <h3>14+</h3>
+                <h3><span class="counter" data-target="14">0</span></h3>
                 <p>Years of Experience</p>
             </div>
         </div>
@@ -2829,6 +2830,51 @@ unset($_SESSION['digital_marketing_form_notice'], $_SESSION['digital_marketing_f
     }
     gtag('js', new Date());
     gtag('config', 'GA_MEASUREMENT_ID');
+    </script>
+
+    <!-- Trust Bar Counter Animation -->
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const counters = document.querySelectorAll('.trust-bar .counter');
+        
+        const animateCounters = () => {
+            counters.forEach(counter => {
+                const target = parseInt(counter.getAttribute('data-target'));
+                const duration = 2000;
+                const startTime = performance.now();
+                
+                function updateCounter(currentTime) {
+                    const elapsed = currentTime - startTime;
+                    const progress = Math.min(elapsed / duration, 1);
+                    
+                    const easeOut = 1 - Math.pow(1 - progress, 3);
+                    const current = Math.floor(target * easeOut);
+                    
+                    counter.textContent = current + '+';
+                    
+                    if (progress < 1) {
+                        requestAnimationFrame(updateCounter);
+                    }
+                }
+                
+                requestAnimationFrame(updateCounter);
+            });
+        };
+        
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    animateCounters();
+                    observer.disconnect();
+                }
+            });
+        }, { threshold: 0.5 });
+        
+        const trustBar = document.querySelector('.trust-bar');
+        if (trustBar) {
+            observer.observe(trustBar);
+        }
+    });
     </script>
 
 </body>
