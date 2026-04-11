@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 session_start();
 
 $defaultFormData = [
@@ -1035,11 +1035,112 @@ unset($_SESSION['digital_marketing_form_notice'], $_SESSION['digital_marketing_f
         background: white;
     }
 
+    /* Testimonials Grid - Desktop */
     .testimonials-grid {
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
         gap: 30px;
         margin-top: 36px;
+    }
+
+    /* Keep the old duplicate mobile slider hidden */
+    .testimonials-slider {
+        display: none !important;
+        margin-top: 36px;
+    }
+
+    @media (max-width: 768px) {
+        .testimonials-grid {
+            display: flex;
+            gap: 16px;
+            overflow-x: auto;
+            scroll-snap-type: x mandatory;
+            -webkit-overflow-scrolling: touch;
+            scrollbar-width: none;
+            padding: 4px 6px 16px;
+            margin: 28px -6px 0;
+        }
+
+        .testimonials-grid::-webkit-scrollbar {
+            display: none;
+        }
+
+        .testimonials-grid .testimonial-card {
+            flex: 0 0 min(86%, 340px);
+            scroll-snap-align: start;
+            padding: 24px 20px;
+        }
+    }
+
+    .slider-container {
+        overflow-x: auto;
+        scroll-snap-type: x mandatory;
+        -webkit-overflow-scrolling: touch;
+        scrollbar-width: none;
+        padding-bottom: 20px;
+    }
+
+    .slider-container::-webkit-scrollbar {
+        display: none;
+    }
+
+    .slider-track {
+        display: flex;
+        gap: 20px;
+        padding: 0 20px;
+    }
+
+    .testimonial-slide {
+        min-width: calc(100vw - 60px);
+        scroll-snap-align: center;
+    }
+
+    .slider-dots {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        margin-top: 20px;
+    }
+
+    .slider-dot {
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background: #cbd5e1;
+        cursor: pointer;
+        transition: all 0.3s;
+    }
+
+    .slider-dot.active {
+        background: #368ec8;
+        transform: scale(1.2);
+    }
+
+    .slider-nav {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        margin-top: 25px;
+    }
+
+    .slider-nav button {
+        width: 45px;
+        height: 45px;
+        border-radius: 50%;
+        border: 2px solid #368ec8;
+        background: white;
+        color: #368ec8;
+        cursor: pointer;
+        transition: all 0.3s;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .slider-nav button:hover {
+        background: #368ec8;
+        color: white;
+        transform: scale(1.1);
     }
 
     .testimonial-card {
@@ -1727,7 +1828,7 @@ unset($_SESSION['digital_marketing_form_notice'], $_SESSION['digital_marketing_f
         <div class="video-background">
             <!-- Free video from Pexels/Coverr - Digital Marketing/Abstract Tech -->
             <video autoplay muted loop playsinline poster="assets\video\banner.jpg">
-                <source src="https://technofra.com/assets/video/vd.mp4" type="video/mp4">
+                <source src="https://digikcon.com/vd.mp4" type="video/mp4">
                 <!-- Fallback image if video doesn't load -->
                 <img src="assets\video\banner.jpg" alt="Digital Marketing Background">
             </video>
@@ -2219,6 +2320,7 @@ unset($_SESSION['digital_marketing_form_notice'], $_SESSION['digital_marketing_f
                 <p>Don't just take our word for it - hear from businesses we've helped grow</p>
             </div>
 
+            <!-- Desktop Grid View -->
             <div class="testimonials-grid">
                 <div class="testimonial-card">
                     <div class="stars">
@@ -2278,6 +2380,89 @@ unset($_SESSION['digital_marketing_form_notice'], $_SESSION['digital_marketing_f
                             <p>Director, Global Ocean</p>
                         </div>
                     </div>
+                </div>
+            </div>
+
+            <!-- Mobile Slider View -->
+            <div class="testimonials-slider">
+                <div class="slider-container">
+                    <div class="slider-track">
+                        <div class="testimonial-slide">
+                            <div class="testimonial-card">
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <p>"Technofra transformed our online presence completely. We went from page 3 to #1 on Google for
+                                    our main keywords. Leads increased by 400% in just 3 months!"</p>
+                                <div class="testimonial-author">
+                                    <div class="author-avatar">KM</div>
+                                    <div class="author-info">
+                                        <h4>Mr. Kahan Mehta</h4>
+                                        <p>CEO, Rupal Plastics</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="testimonial-slide">
+                            <div class="testimonial-card">
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <p>"The PPC campaigns they run are incredibly profitable. Every $1 we spend brings back $8-10 in
+                                    revenue. Best marketing investment we've ever made."</p>
+                                <div class="testimonial-author">
+                                    <div class="author-avatar">PJ</div>
+                                    <div class="author-info">
+                                        <h4>Puneet Jain</h4>
+                                        <p>Founder, Fragomatrix </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="testimonial-slide">
+                            <div class="testimonial-card">
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <p>"Professional team, excellent communication, and most importantly - RESULTS. Our social media following
+                                    grew from 1K to 50K in 6 months. Highly recommended!"</p>
+                                <div class="testimonial-author">
+                                    <div class="author-avatar">NN</div>
+                                    <div class="author-info">
+                                        <h4>Mr. Niraj Narsaria</h4>
+                                        <p>Director, Global Ocean</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Navigation Dots -->
+                <div class="slider-dots">
+                    <span class="slider-dot active"></span>
+                    <span class="slider-dot"></span>
+                    <span class="slider-dot"></span>
+                </div>
+                
+                <!-- Prev/Next Buttons -->
+                <div class="slider-nav">
+                    <button class="slider-prev"><i class="fas fa-chevron-left"></i></button>
+                    <button class="slider-next"><i class="fas fa-chevron-right"></i></button>
                 </div>
             </div>
         </div>
@@ -2457,6 +2642,65 @@ unset($_SESSION['digital_marketing_form_notice'], $_SESSION['digital_marketing_f
         <a href="#contact"><i class="fas fa-phone"></i> Get Free Strategy Call</a>
     </div>
     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    
+    <!-- Testimonial Slider Script -->
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const container = document.querySelector('.slider-container');
+        const track = document.querySelector('.slider-track');
+        const dots = document.querySelectorAll('.slider-dot');
+        const prevBtn = document.querySelector('.slider-prev');
+        const nextBtn = document.querySelector('.slider-next');
+        
+        if (!container || !track) return;
+        
+        let currentIndex = 0;
+        const slides = document.querySelectorAll('.testimonial-slide');
+        const totalSlides = slides.length;
+        
+        function updateSlider(index) {
+            const slideWidth = slides[0].offsetWidth + 20; // width + gap
+            const scrollPos = index * slideWidth;
+            track.style.transform = 'translateX(-' + scrollPos + 'px)';
+            
+            // Update dots
+            dots.forEach((dot, i) => {
+                dot.classList.toggle('active', i === index);
+            });
+            
+            currentIndex = index;
+        }
+        
+        // Dot navigation
+        dots.forEach((dot, index) => {
+            dot.addEventListener('click', () => updateSlider(index));
+        });
+        
+        // Prev/Next buttons
+        if (prevBtn) {
+            prevBtn.addEventListener('click', () => {
+                if (currentIndex > 0) {
+                    updateSlider(currentIndex - 1);
+                } else {
+                    updateSlider(totalSlides - 1);
+                }
+            });
+        }
+        
+        if (nextBtn) {
+            nextBtn.addEventListener('click', () => {
+                if (currentIndex < totalSlides - 1) {
+                    updateSlider(currentIndex + 1);
+                } else {
+                    updateSlider(0);
+                }
+            });
+        }
+        
+        // Initialize
+        updateSlider(0);
+    });
+    </script>
     <!-- Scripts -->
     <script>
     function scrollToAnchorTarget(targetId) {
@@ -2590,3 +2834,4 @@ unset($_SESSION['digital_marketing_form_notice'], $_SESSION['digital_marketing_f
 </body>
 
 </html>
+

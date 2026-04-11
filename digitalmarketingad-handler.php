@@ -323,7 +323,7 @@ if ($smtpReady) {
     $clientBody = renderDigitalMarketingEmail([
         'preheader' => 'Your enquiry has been submitted successfully.',
         'headline' => 'Thank You for Contacting Technofra',
-        'lead' => 'Thank you for sharing your details with Technofra. Your request has been received successfully, and our team will connect with you shortly.',
+        'lead' => 'Thanks for reaching out! Our team is already reviewing your request, and one of our experts will connect with you shortly.',
         'intro_html' => '<p style="margin:18px 0 0;font-size:14px;line-height:1.8;color:#60656b;">Hi ' . $safeName . ', we have received your request for a free strategy call.</p>',
         'cta_label' => 'Visit Website',
         'cta_href' => 'https://technofra.com/',
