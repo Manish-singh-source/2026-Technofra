@@ -30200,7 +30200,7 @@ a,
 }
 
 a:hover, .btn-link:hover {
-    color: #ffffff;
+    /* color: #ffffff;  */
     text-decoration: none; 
 }
 
