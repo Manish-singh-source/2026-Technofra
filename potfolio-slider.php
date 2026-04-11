@@ -172,7 +172,7 @@
                         <div class="heading">
                             <div class="dpflex">
 
-                                <h3><a href="pentacledesigns" target="blank">PENTACLEDESIGNS</a></h3>
+                                <h3><a href="pentacledesigns" target="blank">PENTACLE DESIGNS</a></h3>
                             </div>
                             <p>Business Website</p>
                             <a href="pentacledesigns" target="blank" class="learn">View More <span><i
