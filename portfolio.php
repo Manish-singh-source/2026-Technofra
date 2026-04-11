@@ -405,7 +405,7 @@
                         </div>
                         <div class="qty-portfolio__body">
                             <a href="pentacledesigns" class="aih-color-two fw-400">
-                                <h6 class="aih-color-two fw-400 ">Pentacel Design</h6>
+                                <h6 class="aih-color-two fw-400 ">Pentacle Designs</h6>
                             </a>
                         </div>
 
