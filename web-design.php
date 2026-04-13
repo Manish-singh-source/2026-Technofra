@@ -906,7 +906,7 @@ article {
 
             </div>
             <div class="col-lg-6 text-center">
-                <img src="assets\image\websitedevlopment\1 webp..webp" class="mtk" alt="image">
+                <img src="assets\image\websitedevlopment\1 webp..webp" class="mtk" alt="Website Development">
             </div>
         </div>
     </div>
@@ -919,7 +919,7 @@ article {
         <div class="row align-items-center">
             <div class="col-lg-6">
                 <div class="lead" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
-                    <img src="assets/image/websitedevlopment/web01.webp" alt="image"
+                    <img src="assets/image/websitedevlopment/web01.webp" alt="Web design and development"
                         class="img-fluid w-100 object-fit-cover">
                 </div>
             </div>
@@ -960,35 +960,35 @@ article {
         <div class="row mb--150">
             <div class="col-lg-2 col-md-2 col-sm-6">
                 <div class="single-payment-step bg-white p-4 mb-4 mb-lg-0 text-center">
-                    <img src="assets/image/icons/responsive.png" alt="icon" />
+                    <img src="assets/image/icons/responsive.png" alt="Responsive Design Development" />
                     <h6 class="mt-4">Responsive Design</h6>
 
                 </div>
             </div>
             <div class="col-lg-2 col-md-2 col-sm-6">
                 <div class="single-payment-step bg-white p-4 mb-4 mb-lg-0 text-center">
-                    <img src="assets/image/icons/custom.png" alt="icon" />
+                    <img src="assets/image/icons/custom.png" alt="Custom Code Developer" />
                     <h6 class="mt-4">Powerful Customization</h6>
 
                 </div>
             </div>
             <div class="col-lg-2 col-md-2 col-sm-6">
                 <div class="single-payment-step bg-white p-4 mb-4 mb-lg-0 text-center">
-                    <img src="assets/image/icons/animation.png" alt="icon" />
+                    <img src="assets/image/icons/animation.png" alt="Html Developer" />
                     <h6 class="mt-4">Cool & Modern Animation</h6>
 
                 </div>
             </div>
             <div class="col-lg-2 col-md-2 col-sm-6">
                 <div class="single-payment-step bg-white p-4 mb-4 mb-lg-0 text-center">
-                    <img src="assets/image/icons/seo.png" alt="icon" />
+                    <img src="assets/image/icons/seo.png" alt="SEO Developer" />
                     <h6 class="mt-4">SEO Friendly Coding</h6>
 
                 </div>
             </div>
             <div class="col-lg-2 col-md-2 col-sm-6">
                 <div class="single-payment-step bg-white p-4 mb-4 mb-lg-0 text-center">
-                    <img src="assets/image/icons/customer-service.png" alt="icon" />
+                    <img src="assets/image/icons/customer-service.png" alt="Technical Supports" />
                     <h6 class="mt-4">Best Technical Supports</h6>
 
                 </div>
@@ -1107,7 +1107,7 @@ article {
 
                                                 <div class="col-lg-6">
                                                     <img src="assets/image/websitedevlopment/e-commerce-website-design.webp"
-                                                        alt="Custom Website Design" class="img-fluid rounded-4 lead">
+                                                        alt="E-commerce Website Design" class="img-fluid rounded-4 lead">
                                                 </div>
 
                                                 <div class="col-lg-6">
@@ -1135,7 +1135,7 @@ article {
 
                                                 <div class="col-lg-6">
                                                     <img src="assets/image/websitedevlopment/content-management.webp"
-                                                        alt="Custom Website Design" class="img-fluid rounded-4 lead">
+                                                        alt="Content Creater" class="img-fluid rounded-4 lead">
                                                 </div>
 
                                                 <div class="col-lg-6">
@@ -1164,7 +1164,7 @@ article {
 
                                                 <div class="col-lg-6">
                                                     <img src="assets/image/websitedevlopment/responsive-website-design.webp"
-                                                        alt="Custom Website Design" class="img-fluid rounded-4 lead">
+                                                        alt="Responsive Website Developer" class="img-fluid rounded-4 lead">
                                                 </div>
 
                                                 <div class="col-lg-6">
@@ -1192,7 +1192,7 @@ article {
 
                                                 <div class="col-lg-6">
                                                     <img src="assets/image/websitedevlopment/website-support.webp"
-                                                        alt="Custom Website Design" class="img-fluid rounded-4 lead">
+                                                        alt="Web Programming" class="img-fluid rounded-4 lead">
                                                 </div>
 
                                                 <div class="col-lg-6">
@@ -1219,7 +1219,7 @@ article {
 
                                                 <div class="col-lg-6">
                                                     <img src="assets/image/websitedevlopment/graphics-design.webp"
-                                                        alt="Custom Website Design" class="img-fluid rounded-4 lead">
+                                                        alt="Graphics Designer" class="img-fluid rounded-4 lead">
                                                 </div>
 
                                                 <div class="col-lg-6">
@@ -1264,7 +1264,7 @@ article {
                     data-aos-easing="ease-in-sine">
                     <div class="game-feature d-flex align-items-center mb-4">
                         <div class="game-feature-icon flex-shrink-0">
-                            <img src="assets/image/icons/why-solution.png" class="img-fluid" alt="image" />
+                            <img src="assets/image/icons/why-solution.png" class="img-fluid" alt="Web Development Agency" />
                         </div>
                         <div class="ms-3">
                             <h5 class="text-white">Custom Solutions</h5>
@@ -1275,7 +1275,7 @@ article {
                     </div>
                     <div class="game-feature d-flex align-items-center mb-4">
                         <div class="game-feature-icon flex-shrink-0">
-                            <img src="assets/image/icons/why-expertise.png" class="img-fluid" alt="image" />
+                            <img src="assets/image/icons/why-expertise.png" class="img-fluid" alt="Responsive Web Development" />
                         </div>
                         <div class="ms-3">
                             <h5 class="text-white">Proven Expertise</h5>
@@ -1286,7 +1286,7 @@ article {
                     </div>
                     <div class="game-feature d-flex align-items-center">
                         <div class="game-feature-icon flex-shrink-0">
-                            <img src="assets/image/icons/why-support.png" class="img-fluid" alt="image" />
+                            <img src="assets/image/icons/why-support.png" class="img-fluid" alt="website developmetn" />
                         </div>
                         <div class="ms-3">
                             <h5 class="text-white">End-to-End Support</h5>
@@ -1301,7 +1301,7 @@ article {
                 <div class="game-feature-img position-relative" data-aos="fade-left" data-aos-anchor="#example-anchor"
                     data-aos-offset="500" data-aos-duration="500">
                     <img src="assets/image/websitedevlopment/laptop.webp" class="img-fluid position-relative z-5"
-                        alt="laptop" />
+                        alt="Web Design Company" />
 
                 </div>
             </div>
@@ -1355,8 +1355,8 @@ article {
 
         <div class="row">
             <div class="col-lg-12">
-                <img class="dpdestopblock" src="assets/image/websitedevlopment/website_processing.webp" alt="image">
-                <img class="dpmobblock" src="assets/image/websitedevlopment/mob_website_processing.webp" alt="image">
+                <img class="dpdestopblock" src="assets/image/websitedevlopment/website_processing.webp" alt="Web Design & Development Agency">
+                <img class="dpmobblock" src="assets/image/websitedevlopment/mob_website_processing.webp" alt="Creative Web Design Agency">
             </div>
         </div>
 
@@ -1441,7 +1441,7 @@ article {
                                                 <li>
                                                     <div class="single-integration bg-white">
                                                         <img src="assets/image/technology/mobile/react-native.png"
-                                                            alt="integration" class="img-fluid">
+                                                            alt="React Native Developer" class="img-fluid">
                                                         <h6 class="mb-0 mt-4">React Native</h6>
                                                     </div>
                                                 </li>
@@ -1454,7 +1454,7 @@ article {
                                                 <li>
                                                     <div class="single-integration bg-white">
                                                         <img src="assets/image/technology/mobile/andriod.png"
-                                                            alt="integration" class="img-fluid">
+                                                            alt="Android Developer" class="img-fluid">
                                                         <h6 class="mb-0 mt-4">Android</h6>
                                                     </div>
                                                 </li>
@@ -1466,7 +1466,7 @@ article {
                                                 <li>
                                                     <div class="single-integration bg-white">
                                                         <img src="assets/image/technology/mobile/flutter.png"
-                                                            alt="integration" class="img-fluid">
+                                                            alt="Flutter Developer" class="img-fluid">
                                                         <h6 class="mb-0 mt-4">Flutter</h6>
                                                     </div>
                                                 </li>
@@ -1478,7 +1478,7 @@ article {
                                                 <li>
                                                     <div class="single-integration bg-white">
                                                         <img src="assets/image/technology/mobile/xamarin.png"
-                                                            alt="integration" class="img-fluid">
+                                                            alt="Xamarin Developer" class="img-fluid">
                                                         <h6 class="mb-0 mt-4">Xamarin</h6>
                                                     </div>
                                                 </li>
@@ -1490,7 +1490,7 @@ article {
                                                 <li>
                                                     <div class="single-integration bg-white">
                                                         <img src="assets/image/technology/mobile/hybrid.png"
-                                                            alt="integration" class="img-fluid">
+                                                            alt="Hybrid" class="img-fluid">
                                                         <h6 class="mb-0 mt-4">Hybrid</h6>
                                                     </div>
                                                 </li>
@@ -1502,7 +1502,7 @@ article {
                                                 <li>
                                                     <div class="single-integration bg-white">
                                                         <img src="assets/image/technology/mobile/crossplatform.png"
-                                                            alt="integration" class="img-fluid">
+                                                            alt="Cross-Platform Developer" class="img-fluid">
                                                         <h6 class="mb-0 mt-4">Cross-Platform</h6>
                                                     </div>
                                                 </li>
@@ -1514,7 +1514,7 @@ article {
                                                 <li>
                                                     <div class="single-integration bg-white">
                                                         <img src="assets/image/technology/mobile/ios.png"
-                                                            alt="integration" class="img-fluid">
+                                                            alt="iOS App Developement" class="img-fluid">
                                                         <h6 class="mb-0 mt-4">iOS</h6>
                                                     </div>
                                                 </li>
@@ -1526,7 +1526,7 @@ article {
                                                 <li>
                                                     <div class="single-integration bg-white">
                                                         <img src="assets/image/technology/mobile/Ionic.png"
-                                                            alt="integration" class="img-fluid">
+                                                            alt="Ionic" class="img-fluid">
                                                         <h6 class="mb-0 mt-4">Ionic</h6>
                                                     </div>
                                                 </li>
@@ -1538,7 +1538,7 @@ article {
                                                 <li>
                                                     <div class="single-integration bg-white">
                                                         <img src="assets/image/technology/mobile/pwa.png"
-                                                            alt="integration" class="img-fluid">
+                                                            alt="Progressive Web Apps" class="img-fluid">
                                                         <h6 class="mb-0 mt-4">PWA</h6>
                                                     </div>
                                                 </li>
@@ -1550,7 +1550,7 @@ article {
                                                 <li>
                                                     <div class="single-integration bg-white">
                                                         <img src="assets/image/technology/mobile/swift.png"
-                                                            alt="integration" class="img-fluid">
+                                                            alt="Swift Developer" class="img-fluid">
                                                         <h6 class="mb-0 mt-4">Swift</h6>
                                                     </div>
                                                 </li>
@@ -1570,7 +1570,7 @@ article {
                                                 <li>
                                                     <div class="single-integration bg-white">
                                                         <img src="assets/image/technology/frontend/angular.png"
-                                                            alt="integration" class="img-fluid">
+                                                            alt="Angular Developer" class="img-fluid">
                                                         <h6 class="mb-0 mt-4">Angular</h6>
                                                     </div>
                                                 </li>
@@ -1584,7 +1584,7 @@ article {
                                                 <li>
                                                     <div class="single-integration bg-white">
                                                         <img src="assets/image/technology/frontend/css.png"
-                                                            alt="integration" class="img-fluid">
+                                                            alt="CSS Developer" class="img-fluid">
                                                         <h6 class="mb-0 mt-4">CSS</h6>
                                                     </div>
                                                 </li>
@@ -1596,7 +1596,7 @@ article {
                                                 <li>
                                                     <div class="single-integration bg-white">
                                                         <img src="assets/image/technology/frontend/gatsby.png"
-                                                            alt="integration" class="img-fluid">
+                                                            alt="Gatsby Developer" class="img-fluid">
                                                         <h6 class="mb-0 mt-4">Gatsby</h6>
                                                     </div>
                                                 </li>
@@ -1608,7 +1608,7 @@ article {
                                                 <li>
                                                     <div class="single-integration bg-white">
                                                         <img src="assets/image/technology/frontend/html.png"
-                                                            alt="integration" class="img-fluid">
+                                                            alt="HTML Developer" class="img-fluid">
                                                         <h6 class="mb-0 mt-4">HTML</h6>
                                                     </div>
                                                 </li>
@@ -1620,7 +1620,7 @@ article {
                                                 <li>
                                                     <div class="single-integration bg-white">
                                                         <img src="assets/image/technology/frontend/js.png"
-                                                            alt="integration" class="img-fluid">
+                                                            alt="JavaScript Developer" class="img-fluid">
                                                         <h6 class="mb-0 mt-4">Js</h6>
                                                     </div>
                                                 </li>
@@ -1632,7 +1632,7 @@ article {
                                                 <li>
                                                     <div class="single-integration bg-white">
                                                         <img src="assets/image/technology/frontend/nextjs.png"
-                                                            alt="integration" class="img-fluid">
+                                                            alt="Next.js Developer" class="img-fluid">
                                                         <h6 class="mb-0 mt-4">Next.js</h6>
                                                     </div>
                                                 </li>
@@ -1644,7 +1644,7 @@ article {
                                                 <li>
                                                     <div class="single-integration bg-white">
                                                         <img src="assets/image/technology/frontend/nuxt.png"
-                                                            alt="integration" class="img-fluid">
+                                                            alt="Nuxt Developer" class="img-fluid">
                                                         <h6 class="mb-0 mt-4">Nuxt</h6>
                                                     </div>
                                                 </li>
@@ -1656,7 +1656,7 @@ article {
                                                 <li>
                                                     <div class="single-integration bg-white">
                                                         <img src="assets/image/technology/frontend/react.png"
-                                                            alt="integration" class="img-fluid">
+                                                            alt="React Developer" class="img-fluid">
                                                         <h6 class="mb-0 mt-4">React</h6>
                                                     </div>
                                                 </li>
@@ -1668,7 +1668,7 @@ article {
                                                 <li>
                                                     <div class="single-integration bg-white">
                                                         <img src="assets/image/technology/frontend/vue.js.png"
-                                                            alt="integration" class="img-fluid">
+                                                            alt="Vue.js Developer" class="img-fluid">
                                                         <h6 class="mb-0 mt-4">Vue.js</h6>
                                                     </div>
                                                 </li>
@@ -1688,7 +1688,7 @@ article {
                                                 <li>
                                                     <div class="single-integration bg-white">
                                                         <img src="assets/image/technology/backend/codeigniter.png"
-                                                            alt="integration" class="img-fluid">
+                                                            alt="Codeigniter Developer" class="img-fluid">
                                                         <h6 class="mb-0 mt-4">Codeigniter</h6>
                                                     </div>
                                                 </li>
@@ -1701,7 +1701,7 @@ article {
                                                 <li>
                                                     <div class="single-integration bg-white">
                                                         <img src="assets/image/technology/backend/go.png"
-                                                            alt="integration" class="img-fluid">
+                                                            alt="Go Developer" class="img-fluid">
                                                         <h6 class="mb-0 mt-4">Go</h6>
                                                     </div>
                                                 </li>
@@ -1713,7 +1713,7 @@ article {
                                                 <li>
                                                     <div class="single-integration bg-white">
                                                         <img src="assets/image/technology/backend/graphql.png"
-                                                            alt="integration" class="img-fluid">
+                                                            alt="GraphQL Developer" class="img-fluid">
                                                         <h6 class="mb-0 mt-4">GraphQL</h6>
                                                     </div>
                                                 </li>
@@ -1725,7 +1725,7 @@ article {
                                                 <li>
                                                     <div class="single-integration bg-white">
                                                         <img src="assets/image/technology/backend/java.png"
-                                                            alt="integration" class="img-fluid">
+                                                            alt="Java Developer" class="img-fluid">
                                                         <h6 class="mb-0 mt-4">Java</h6>
                                                     </div>
                                                 </li>
@@ -1737,7 +1737,7 @@ article {
                                                 <li>
                                                     <div class="single-integration bg-white">
                                                         <img src="assets/image/technology/backend/laravel.png"
-                                                            alt="integration" class="img-fluid">
+                                                            alt="Laravel Developer" class="img-fluid">
                                                         <h6 class="mb-0 mt-4">Laravel</h6>
                                                     </div>
                                                 </li>
@@ -1749,7 +1749,7 @@ article {
                                                 <li>
                                                     <div class="single-integration bg-white">
                                                         <img src="assets/image/technology/backend/microsoft.net.png"
-                                                            alt="integration" class="img-fluid">
+                                                            alt="Microsoft .NET Developer" class="img-fluid">
                                                         <h6 class="mb-0 mt-4">Microsoft .NET</h6>
                                                     </div>
                                                 </li>
@@ -1761,7 +1761,7 @@ article {
                                                 <li>
                                                     <div class="single-integration bg-white">
                                                         <img src="assets/image/technology/backend/nest.png"
-                                                            alt="integration" class="img-fluid">
+                                                            alt="Nest Developer" class="img-fluid">
                                                         <h6 class="mb-0 mt-4">Nest</h6>
                                                     </div>
                                                 </li>
@@ -1773,7 +1773,7 @@ article {
                                                 <li>
                                                     <div class="single-integration bg-white">
                                                         <img src="assets/image/technology/backend/node-js.png"
-                                                            alt="integration" class="img-fluid">
+                                                            alt="Node.js Developer" class="img-fluid">
                                                         <h6 class="mb-0 mt-4">Node.js</h6>
                                                     </div>
                                                 </li>
@@ -1785,7 +1785,7 @@ article {
                                                 <li>
                                                     <div class="single-integration bg-white">
                                                         <img src="assets/image/technology/backend/php.png"
-                                                            alt="integration" class="img-fluid">
+                                                            alt="PHP Developer" class="img-fluid">
                                                         <h6 class="mb-0 mt-4">PHP</h6>
                                                     </div>
                                                 </li>
@@ -1806,7 +1806,7 @@ article {
                                                 <li>
                                                     <div class="single-integration bg-white">
                                                         <img src="assets/image/technology/e-commerce/contentful.png"
-                                                            alt="integration" class="img-fluid">
+                                                            alt="Contentful" class="img-fluid">
                                                         <h6 class="mb-0 mt-4">Contentful</h6>
                                                     </div>
                                                 </li>
@@ -1819,7 +1819,7 @@ article {
                                                 <li>
                                                     <div class="single-integration bg-white">
                                                         <img src="assets/image/technology/e-commerce/maganto.png"
-                                                            alt="integration" class="img-fluid">
+                                                            alt="Magento Developer" class="img-fluid">
                                                         <h6 class="mb-0 mt-4">Magento</h6>
                                                     </div>
                                                 </li>
@@ -1831,7 +1831,7 @@ article {
                                                 <li>
                                                     <div class="single-integration bg-white">
                                                         <img src="assets/image/technology/e-commerce/shopify.png"
-                                                            alt="integration" class="img-fluid">
+                                                            alt="Shopify Developer Company" class="img-fluid">
                                                         <h6 class="mb-0 mt-4">Shopify</h6>
                                                     </div>
                                                 </li>
@@ -1843,7 +1843,7 @@ article {
                                                 <li>
                                                     <div class="single-integration bg-white">
                                                         <img src="assets/image/technology/e-commerce/strapi.png"
-                                                            alt="integration" class="img-fluid">
+                                                            alt="Strapi Developer" class="img-fluid">
                                                         <h6 class="mb-0 mt-4">Strapi</h6>
                                                     </div>
                                                 </li>
@@ -1855,7 +1855,7 @@ article {
                                                 <li>
                                                     <div class="single-integration bg-white">
                                                         <img src="assets/image/technology/e-commerce/woo-commerce.png"
-                                                            alt="integration" class="img-fluid">
+                                                            alt="WooCommerce Developer in India" class="img-fluid">
                                                         <h6 class="mb-0 mt-4"> WooCommerce</h6>
                                                     </div>
                                                 </li>
@@ -1867,7 +1867,7 @@ article {
                                                 <li>
                                                     <div class="single-integration bg-white">
                                                         <img src="assets/image/technology/e-commerce/wordpress.png"
-                                                            alt="integration" class="img-fluid">
+                                                            alt="WordPress Developer" class="img-fluid">
                                                         <h6 class="mb-0 mt-4">WordPress</h6>
                                                     </div>
                                                 </li>
@@ -1887,7 +1887,7 @@ article {
                                                 <li>
                                                     <div class="single-integration bg-white">
                                                         <img src="assets/image/technology/devops/ansible.png"
-                                                            alt="integration" class="img-fluid">
+                                                            alt="Ansible Developer" class="img-fluid">
                                                         <h6 class="mb-0 mt-4">Ansible</h6>
                                                     </div>
                                                 </li>
@@ -1901,7 +1901,7 @@ article {
                                                 <li>
                                                     <div class="single-integration bg-white">
                                                         <img src="assets/image/technology/devops/digital-ocean.png"
-                                                            alt="integration" class="img-fluid">
+                                                            alt="DigitalOcean Developer" class="img-fluid">
                                                         <h6 class="mb-0 mt-4">DigitalOcean</h6>
                                                     </div>
                                                 </li>
@@ -1913,7 +1913,7 @@ article {
                                                 <li>
                                                     <div class="single-integration bg-white">
                                                         <img src="assets/image/technology/devops/docker.png"
-                                                            alt="integration" class="img-fluid">
+                                                            alt="Docker Developer" class="img-fluid">
                                                         <h6 class="mb-0 mt-4">Docker</h6>
                                                     </div>
                                                 </li>
@@ -1925,7 +1925,7 @@ article {
                                                 <li>
                                                     <div class="single-integration bg-white">
                                                         <img src="assets/image/technology/devops/elastic-search.png"
-                                                            alt="integration" class="img-fluid">
+                                                            alt="Elastic search" class="img-fluid">
                                                         <h6 class="mb-0 mt-4">Elastic search</h6>
                                                     </div>
                                                 </li>
@@ -1937,7 +1937,7 @@ article {
                                                 <li>
                                                     <div class="single-integration bg-white">
                                                         <img src="assets/image/technology/devops/github.png"
-                                                            alt="integration" class="img-fluid">
+                                                            alt="Github" class="img-fluid">
                                                         <h6 class="mb-0 mt-4">Github</h6>
                                                     </div>
                                                 </li>
@@ -1949,7 +1949,7 @@ article {
                                                 <li>
                                                     <div class="single-integration bg-white">
                                                         <img src="assets/image/technology/devops/gitlab.png"
-                                                            alt="integration" class="img-fluid">
+                                                            alt="Gitlab" class="img-fluid">
                                                         <h6 class="mb-0 mt-4">Gitlab</h6>
                                                     </div>
                                                 </li>
@@ -1961,7 +1961,7 @@ article {
                                                 <li>
                                                     <div class="single-integration bg-white">
                                                         <img src="assets/image/technology/devops/grafana.png"
-                                                            alt="integration" class="img-fluid">
+                                                            alt="Grafana" class="img-fluid">
                                                         <h6 class="mb-0 mt-4">Grafana</h6>
                                                     </div>
                                                 </li>
@@ -1973,7 +1973,7 @@ article {
                                                 <li>
                                                     <div class="single-integration bg-white">
                                                         <img src="assets/image/technology/devops/jenkins.png"
-                                                            alt="integration" class="img-fluid">
+                                                            alt="Jenkins Developer" class="img-fluid">
                                                         <h6 class="mb-0 mt-4">Jenkins</h6>
                                                     </div>
                                                 </li>
@@ -1985,7 +1985,7 @@ article {
                                                 <li>
                                                     <div class="single-integration bg-white">
                                                         <img src="assets/image/technology/devops/kubernetes.png"
-                                                            alt="integration" class="img-fluid">
+                                                            alt="Kubernetes Cluster Management" class="img-fluid">
                                                         <h6 class="mb-0 mt-4">Kubernetes</h6>
                                                     </div>
                                                 </li>
@@ -1997,7 +1997,7 @@ article {
                                                 <li>
                                                     <div class="single-integration bg-white">
                                                         <img src="assets/image/technology/devops/mesos.png"
-                                                            alt="integration" class="img-fluid">
+                                                            alt="Apache Mesos" class="img-fluid">
                                                         <h6 class="mb-0 mt-4">Mesos</h6>
                                                     </div>
                                                 </li>
@@ -2009,7 +2009,7 @@ article {
                                                 <li>
                                                     <div class="single-integration bg-white">
                                                         <img src="assets/image/technology/devops/microsoft-azure.png"
-                                                            alt="integration" class="img-fluid">
+                                                            alt="Microsoft Azure Developer" class="img-fluid">
                                                         <h6 class="mb-0 mt-4">Microsoft Azure</h6>
                                                     </div>
                                                 </li>
@@ -2021,7 +2021,7 @@ article {
                                                 <li>
                                                     <div class="single-integration bg-white">
                                                         <img src="assets/image/technology/devops/openshift.png"
-                                                            alt="integration" class="img-fluid">
+                                                            alt="Openshift Developer" class="img-fluid">
                                                         <h6 class="mb-0 mt-4">Openshift</h6>
                                                     </div>
                                                 </li>
@@ -2033,7 +2033,7 @@ article {
                                                 <li>
                                                     <div class="single-integration bg-white">
                                                         <img src="assets/image/technology/devops/rackspace.png"
-                                                            alt="integration" class="img-fluid">
+                                                            alt="Rackspace" class="img-fluid">
                                                         <h6 class="mb-0 mt-4">Rackspace</h6>
                                                     </div>
                                                 </li>
@@ -2045,7 +2045,7 @@ article {
                                                 <li>
                                                     <div class="single-integration bg-white">
                                                         <img src="assets/image/technology/devops/terraform.png"
-                                                            alt="integration" class="img-fluid">
+                                                            alt="Terraform Developer" class="img-fluid">
                                                         <h6 class="mb-0 mt-4">Terraform</h6>
                                                     </div>
                                                 </li>
@@ -2065,7 +2065,7 @@ article {
                                                 <li>
                                                     <div class="single-integration bg-white">
                                                         <img src="assets/image/technology/database/firebase.png"
-                                                            alt="integration" class="img-fluid">
+                                                            alt="Firebase Developer" class="img-fluid">
                                                         <h6 class="mb-0 mt-4">Firebase</h6>
                                                     </div>
                                                 </li>
@@ -2079,7 +2079,7 @@ article {
                                                 <li>
                                                     <div class="single-integration bg-white">
                                                         <img src="assets/image/technology/database/mongo-db.png"
-                                                            alt="integration" class="img-fluid">
+                                                            alt="MongoDB Developer" class="img-fluid">
                                                         <h6 class="mb-0 mt-4">MongoDB</h6>
                                                     </div>
                                                 </li>
@@ -2091,7 +2091,7 @@ article {
                                                 <li>
                                                     <div class="single-integration bg-white">
                                                         <img src="assets/image/technology/database/mysql.png"
-                                                            alt="integration" class="img-fluid">
+                                                            alt=" MySQL Developer" class="img-fluid">
                                                         <h6 class="mb-0 mt-4">MySQL</h6>
                                                     </div>
                                                 </li>
@@ -2103,7 +2103,7 @@ article {
                                                 <li>
                                                     <div class="single-integration bg-white">
                                                         <img src="assets/image/technology/database/nosql.png"
-                                                            alt="integration" class="img-fluid">
+                                                            alt="NoSQL Developer" class="img-fluid">
                                                         <h6 class="mb-0 mt-4">NoSQL</h6>
                                                     </div>
                                                 </li>
@@ -2115,7 +2115,7 @@ article {
                                                 <li>
                                                     <div class="single-integration bg-white">
                                                         <img src="assets/image/technology/database/oracle.png"
-                                                            alt="integration" class="img-fluid">
+                                                            alt="Oracle Developer" class="img-fluid">
                                                         <h6 class="mb-0 mt-4">Oracle</h6>
                                                     </div>
                                                 </li>
@@ -2127,7 +2127,7 @@ article {
                                                 <li>
                                                     <div class="single-integration bg-white">
                                                         <img src="assets/image/technology/database/postgresql.png"
-                                                            alt="integration" class="img-fluid">
+                                                            alt="PostgreSQL Developer" class="img-fluid">
                                                         <h6 class="mb-0 mt-4">PostgreSQL</h6>
                                                     </div>
                                                 </li>
@@ -2139,7 +2139,7 @@ article {
                                                 <li>
                                                     <div class="single-integration bg-white">
                                                         <img src="assets/image/technology/database/sqlservals.png"
-                                                            alt="integration" class="img-fluid">
+                                                            alt="SQL Server Developer" class="img-fluid">
                                                         <h6 class="mb-0 mt-4">SQL Server</h6>
                                                     </div>
                                                 </li>
@@ -2151,7 +2151,7 @@ article {
                                                 <li>
                                                     <div class="single-integration bg-white">
                                                         <img src="assets/image/technology/database/sql.png"
-                                                            alt="integration" class="img-fluid">
+                                                            alt="SQL Developer" class="img-fluid">
                                                         <h6 class="mb-0 mt-4">SQL</h6>
                                                     </div>
                                                 </li>
@@ -2173,7 +2173,7 @@ article {
                                                 <li>
                                                     <div class="single-integration bg-white">
                                                         <img src="assets/image/technology/quality/hp-quicktest.png"
-                                                            alt="integration" class="img-fluid">
+                                                            alt="hp quicktest professional" class="img-fluid">
                                                         <h6 class="mb-0 mt-4">HP QuickTest</h6>
                                                     </div>
                                                 </li>
@@ -2187,7 +2187,7 @@ article {
                                                 <li>
                                                     <div class="single-integration bg-white">
                                                         <img src="assets/image/technology/quality/jest.png"
-                                                            alt="integration" class="img-fluid">
+                                                            alt="Jest" class="img-fluid">
                                                         <h6 class="mb-0 mt-4">Jest</h6>
                                                     </div>
                                                 </li>
@@ -2199,7 +2199,7 @@ article {
                                                 <li>
                                                     <div class="single-integration bg-white">
                                                         <img src="assets/image/technology/quality/jmeter.png"
-                                                            alt="integration" class="img-fluid">
+                                                            alt="JMeter" class="img-fluid">
                                                         <h6 class="mb-0 mt-4">JMeter</h6>
                                                     </div>
                                                 </li>
@@ -2211,7 +2211,7 @@ article {
                                                 <li>
                                                     <div class="single-integration bg-white">
                                                         <img src="assets/image/technology/quality/meter.png"
-                                                            alt="integration" class="img-fluid">
+                                                            alt="Meter" class="img-fluid">
                                                         <h6 class="mb-0 mt-4">Meter</h6>
                                                     </div>
                                                 </li>
@@ -2223,7 +2223,7 @@ article {
                                                 <li>
                                                     <div class="single-integration bg-white">
                                                         <img src="assets/image/technology/quality/postman.png"
-                                                            alt="integration" class="img-fluid">
+                                                            alt="Postman" class="img-fluid">
                                                         <h6 class="mb-0 mt-4">Postman</h6>
                                                     </div>
                                                 </li>
@@ -2235,7 +2235,7 @@ article {
                                                 <li>
                                                     <div class="single-integration bg-white">
                                                         <img src="assets/image/technology/quality/selenium.png"
-                                                            alt="integration" class="img-fluid">
+                                                            alt="Selenium" class="img-fluid">
                                                         <h6 class="mb-0 mt-4">Selenium</h6>
                                                     </div>
                                                 </li>
@@ -2247,7 +2247,7 @@ article {
                                                 <li>
                                                     <div class="single-integration bg-white">
                                                         <img src="assets/image/technology/quality/soapui.png"
-                                                            alt="integration" class="img-fluid">
+                                                            alt="SoapUI" class="img-fluid">
                                                         <h6 class="mb-0 mt-4">SoapUI</h6>
                                                     </div>
                                                 </li>
@@ -2259,7 +2259,7 @@ article {
                                                 <li>
                                                     <div class="single-integration bg-white">
                                                         <img src="assets/image/technology/quality/uft.png"
-                                                            alt="integration" class="img-fluid">
+                                                            alt="UFT Developer" class="img-fluid">
                                                         <h6 class="mb-0 mt-4">UFT</h6>
                                                     </div>
                                                 </li>
@@ -2281,7 +2281,7 @@ article {
                                                 <li>
                                                     <div class="single-integration bg-white">
                                                         <img src="assets/image/technology/cloud/aws.png"
-                                                            alt="integration" class="img-fluid">
+                                                            alt="AWS Developer" class="img-fluid">
                                                         <h6 class="mb-0 mt-4">AWS</h6>
                                                     </div>
                                                 </li>
@@ -2295,7 +2295,7 @@ article {
                                                 <li>
                                                     <div class="single-integration bg-white">
                                                         <img src="assets/image/technology/cloud/azure.png"
-                                                            alt="integration" class="img-fluid">
+                                                            alt="Azure Developer" class="img-fluid">
                                                         <h6 class="mb-0 mt-4">Azure</h6>
                                                     </div>
                                                 </li>
@@ -2307,7 +2307,7 @@ article {
                                                 <li>
                                                     <div class="single-integration bg-white">
                                                         <img src="assets/image/technology/cloud/google-cloud.png"
-                                                            alt="integration" class="img-fluid">
+                                                            alt="Google cloud Developer" class="img-fluid">
                                                         <h6 class="mb-0 mt-4">Google cloud</h6>
                                                     </div>
                                                 </li>
@@ -2340,7 +2340,7 @@ article {
         </div>
         <div class="row">
             <div class="col-lg-12">
-                <img src="assets/image/websitedevlopment/responsive.webp" alt="image" data-aos="fade-up"
+                <img src="assets/image/websitedevlopment/responsive.webp" alt="Responsive Web Design" data-aos="fade-up"
                     data-aos-anchor-placement="center-bottom">
             </div>
         </div>
@@ -2360,72 +2360,72 @@ article {
                         <div class="swiper-slide text-center swiper-slide-duplicate swiper-slide-duplicate-prev"
                             data-swiper-slide-index="1" style="width: 240px; margin-right: 24px;" role="group"
                             aria-label="2 / 6">
-                            <img src="assets/image/client/belting-enterprice.webp" alt="image" class="img-fluid">
+                            <img src="assets/image/client/belting-enterprice.webp" alt="Best Web Development Company" class="img-fluid">
                         </div>
                         <div class="swiper-slide text-center swiper-slide-duplicate swiper-slide-duplicate-active"
                             data-swiper-slide-index="2" style="width: 240px; margin-right: 24px;" role="group"
                             aria-label="3 / 6">
-                            <img src="assets/image/client/delta.webp" alt="image" class="img-fluid">
+                            <img src="assets/image/client/delta.webp" alt="Web Design & Development Agency" class="img-fluid">
                         </div>
                         <div class="swiper-slide text-center swiper-slide-duplicate swiper-slide-duplicate-next"
                             data-swiper-slide-index="3" style="width: 240px; margin-right: 24px;" role="group"
                             aria-label="4 / 6">
-                            <img src="assets/image/client/dipu-logo.webp" alt="image" class="img-fluid">
+                            <img src="assets/image/client/dipu-logo.webp" alt="Creative Web Design Agency" class="img-fluid">
                         </div>
                         <div class="swiper-slide text-center swiper-slide-duplicate" data-swiper-slide-index="4"
                             style="width: 240px; margin-right: 24px;" role="group" aria-label="5 / 6">
-                            <img src="assets/image/client/ish-logo.webp" alt="image" class="img-fluid">
+                            <img src="assets/image/client/ish-logo.webp" alt="Modern Website Design Services" class="img-fluid">
                         </div>
                         <div class="swiper-slide text-center swiper-slide-duplicate" data-swiper-slide-index="5"
                             style="width: 240px; margin-right: 24px;" role="group" aria-label="6 / 6">
-                            <img src="assets/image/client/JPC_logo.webp" alt="image" class="img-fluid">
+                            <img src="assets/image/client/JPC_logo.webp" alt="Custom Website Development" class="img-fluid">
                         </div>
                         <div class="swiper-slide text-center" data-swiper-slide-index="0"
                             style="width: 240px; margin-right: 24px;" role="group" aria-label="1 / 6">
-                            <img src="assets/image/client/belting-enterprice.webp" alt="image" class="img-fluid">
+                            <img src="assets/image/client/belting-enterprice.webp" alt="Website Development Services" class="img-fluid">
                         </div>
                         <div class="swiper-slide text-center swiper-slide-prev" data-swiper-slide-index="1"
                             style="width: 240px; margin-right: 24px;" role="group" aria-label="2 / 6">
-                            <img src="assets/image/client/delta.webp" alt="image" class="img-fluid">
+                            <img src="assets/image/client/delta.webp" alt="Responsive Web Design" class="img-fluid">
                         </div>
                         <div class="swiper-slide text-center swiper-slide-active" data-swiper-slide-index="2"
                             style="width: 240px; margin-right: 24px;" role="group" aria-label="3 / 6">
-                            <img src="assets/image/client/dipu-logo.webp" alt="image" class="img-fluid">
+                            <img src="assets/image/client/dipu-logo.webp" alt="Web Design Company" class="img-fluid">
                         </div>
                         <div class="swiper-slide text-center swiper-slide-next" data-swiper-slide-index="3"
                             style="width: 240px; margin-right: 24px;" role="group" aria-label="4 / 6">
-                            <img src="assets/image/client/sanjay.webp" alt="image" class="img-fluid">
+                            <img src="assets/image/client/sanjay.webp" alt="Web Development Company" class="img-fluid">
                         </div>
                         <div class="swiper-slide text-center" data-swiper-slide-index="4"
                             style="width: 240px; margin-right: 24px;" role="group" aria-label="5 / 6">
-                            <img src="assets/image/client/JPC_logo.webp" alt="image" class="img-fluid">
+                            <img src="assets/image/client/JPC_logo.webp" alt="Website Design Services" class="img-fluid">
                         </div>
                         <div class="swiper-slide text-center" data-swiper-slide-index="5"
                             style="width: 240px; margin-right: 24px;" role="group" aria-label="6 / 6">
-                            <img src="assets/image/client/sna.webp" alt="image" class="img-fluid">
+                            <img src="assets/image/client/sna.webp" alt="Programming Services" class="img-fluid">
                         </div>
                         <div class="swiper-slide text-center swiper-slide-duplicate" data-swiper-slide-index="0"
                             style="width: 240px; margin-right: 24px;" role="group" aria-label="1 / 6">
-                            <img src="assets/image/client/belting-enterprice.webp" alt="image" class="img-fluid">
+                            <img src="assets/image/client/belting-enterprice.webp" alt="Web Page Development" class="img-fluid">
                         </div>
                         <div class="swiper-slide text-center swiper-slide-duplicate swiper-slide-duplicate-prev"
                             data-swiper-slide-index="1" style="width: 240px; margin-right: 24px;" role="group"
                             aria-label="2 / 6">
-                            <img src="assets/image/client/delta.webp" alt="image" class="img-fluid">
+                            <img src="assets/image/client/delta.webp" alt="Web Design & Development Agency" class="img-fluid">
                         </div>
                         <div class="swiper-slide text-center swiper-slide-duplicate swiper-slide-duplicate-active"
                             data-swiper-slide-index="2" style="width: 240px; margin-right: 24px;" role="group"
                             aria-label="3 / 6">
-                            <img src="assets/image/client/dipu-logo.webp" alt="image" class="img-fluid">
+                            <img src="assets/image/client/dipu-logo.webp" alt="Technofra Web Design" class="img-fluid">
                         </div>
                         <div class="swiper-slide text-center swiper-slide-duplicate swiper-slide-duplicate-next"
                             data-swiper-slide-index="3" style="width: 240px; margin-right: 24px;" role="group"
                             aria-label="4 / 6">
-                            <img src="assets/image/client/ish-logo.webp" alt="image" class="img-fluid">
+                            <img src="assets/image/client/ish-logo.webp" alt="Best Website Developers" class="img-fluid">
                         </div>
                         <div class="swiper-slide text-center swiper-slide-duplicate" data-swiper-slide-index="4"
                             role="group" aria-label="5 / 6" style="width: 240px; margin-right: 24px;">
-                            <img src="assets/image/client/tricil.webp" alt="image" class="img-fluid">
+                            <img src="assets/image/client/tricil.webp" alt="Best Web Development Company" class="img-fluid">
                         </div>
                     </div>
                     <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>

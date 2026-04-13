@@ -61,18 +61,18 @@
                                  (West), Mumbai - 400067. Maharashtra - INDIA.
                              </span>
                          </li>
-                         <li>
+                         <!-- <li>
                              <i class="fa-solid fa-location-dot"></i>
                              <span>
                                  Address : 96 Parore Street, Dargaville 0310, New Zealand.
                              </span>
-                         </li>
+                         </li> -->
                          <li>
                              <i class="fa-solid fa-phone"></i>
                              <span>
-                                 <a href="tel:+918080803374"> India : +91 8080 80 3374</a><br>
-                                 <a href="tel:+918080803375"> India : +91 8080 80 3375</a> <br>
-                                 <a href="tel:+64225055648"> New Zealand : +64 22 505 5648</a>
+                                 <a href="tel:+918080803374">  +91 8080 80 3374</a><br>
+                                 <a href="tel:+918080803375"> +91 8080 80 3375</a> <br>
+                                 <!-- <a href="tel:+64225055648"> New Zealand : +64 22 505 5648</a> -->
                              </span>
                          </li>
                          <li>
@@ -80,14 +80,14 @@
                              <span>
                                  <a href="mailto:info@technofra.com">info@technofra.com</a><br>
                                  <a href="mailto:support@technofra.com">support@technofra.com</a>
-                                 <a href="mailto:info@technofra.co.nz">info@technofra.co.nz</a>
+                                 <!-- <a href="mailto:info@technofra.co.nz">info@technofra.co.nz</a> -->
                              </span>
                          </li>
-                         <!--   <li>
+                          <li>
                              <i class="fa-solid fa-globe"></i>
                              <span> <a href="https://technofra.com/#">www.technofra.com</a> </span>
                          </li>
-                         <li>
+                           <!--<li>
                              <i class="fa-brands fa-x-twitter"></i>
                              <span><a href="https://x.com/Technofra_">twitter.com/Technofra</a></span>
                          </li> -->
