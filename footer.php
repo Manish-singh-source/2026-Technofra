@@ -62,10 +62,17 @@
                              </span>
                          </li>
                          <li>
+                             <i class="fa-solid fa-location-dot"></i>
+                             <span>
+                                 Address : 96 Parore Street, Dargaville 0310, New Zealand.
+                             </span>
+                         </li>
+                         <li>
                              <i class="fa-solid fa-phone"></i>
                              <span>
-                                 <a href="tel:+918080803374">+91 8080 80 3374</a><br>
-                                 <a href="tel:+918080803375">+91 8080 80 3375</a>
+                                 <a href="tel:+918080803374"> India : +91 8080 80 3374</a><br>
+                                 <a href="tel:+918080803375"> India : +91 8080 80 3375</a> <br>
+                                 <a href="tel:+64225055648"> New Zealand : +64 22 505 5648</a>
                              </span>
                          </li>
                          <li>
@@ -73,13 +80,14 @@
                              <span>
                                  <a href="mailto:info@technofra.com">info@technofra.com</a><br>
                                  <a href="mailto:support@technofra.com">support@technofra.com</a>
+                                 <a href="mailto:info@technofra.co.nz">info@technofra.co.nz</a>
                              </span>
                          </li>
-                         <li>
+                         <!--   <li>
                              <i class="fa-solid fa-globe"></i>
                              <span> <a href="https://technofra.com/#">www.technofra.com</a> </span>
                          </li>
-                         <!-- <li>
+                         <li>
                              <i class="fa-brands fa-x-twitter"></i>
                              <span><a href="https://x.com/Technofra_">twitter.com/Technofra</a></span>
                          </li> -->
@@ -188,7 +196,7 @@
      </div>
 
  </footer>
- 
+
  <div class="modal fade company-profile-modal" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
      tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
      <div class="modal-dialog modal-dialog-centered modal-lg">
@@ -546,7 +554,8 @@ if (navClose && rightMenu) {
             });
 
             typingMessage.remove();
-            appendMessage(data.reply || "Thanks for your message. Our team will get back to you shortly.", "bot", true);
+            appendMessage(data.reply || "Thanks for your message. Our team will get back to you shortly.",
+                "bot", true);
         } catch (error) {
             typingMessage.remove();
             appendMessage(
@@ -590,9 +599,9 @@ if (navClose && rightMenu) {
         }
     });
 })();
-</script>
+ </script>
 
-<script>
+ <script>
 (function() {
     return;
     const toggleBtn = document.getElementById("tfChatbotToggle");

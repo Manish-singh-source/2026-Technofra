@@ -304,7 +304,7 @@ function renderBookCallEmail(array $options)
 
             <div style="padding:28px 20px 8px;">
                 <div style="margin-bottom:22px;">
-                    <img src="https://technofra.com/assets/image/favicon.png" alt="Technofra" style="width:50px;height:auto;display:block;">
+                    <img src="https://technofra.com/assets/image/technofra14-tem.png" alt="Technofra" style="width:180px;height:auto;display:block;">
                 </div>
                 <h1 style="margin:0 0 20px;font-size:24px;line-height:1.25;color:#3f4348;font-weight:700;">' . $headline . '</h1>
                 <div style="margin:0;font-size:15px;line-height:1.7;color:#60656b;">' . $lead . '</div>

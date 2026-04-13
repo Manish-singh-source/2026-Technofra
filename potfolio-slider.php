@@ -159,7 +159,7 @@
                                         class="fa-solid fa-arrow-right"></i></span></a>
                         </div>
                     </div>
-                     <div class="single-slider  border">
+                    <div class="single-slider  border">
                         <div class="d-flex">
                             <span class="portdot"></span>
                             <span class="portdot"></span>
