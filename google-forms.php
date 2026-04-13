@@ -98,7 +98,7 @@ style="background:
             <div class="col-xl-6 col-lg-6 mt-lg-5 mt-4">
                 <div class="hero-img-wrap position-relative" data-aos="fade-up">
                     <div class="hero-screen-wrap">
-                        <img src="assets/image/api/google-form-banner.webp" alt="image">
+                        <img src="assets/image/api/google-form-banner.webp" alt="Google Forms Integration Services, Google Forms Development">
 
                     </div>
                 </div>
@@ -198,7 +198,7 @@ style="background:
             <div class="col-lg-6 col-md-7 mv-pt">
                 <div class="feature-img-wrap position-relative d-flex flex-column align-items-end">
 
-                    <img src="assets/image/api/google-forms.webp" alt="feature image" class="img-fluid rounded-custom"
+                    <img src="assets/image/api/google-forms.webp" alt="Google Forms Automation Services, Google Forms Services in Mumbai" class="img-fluid rounded-custom"
                         data-aos="fade-up">
                 </div>
             </div>
@@ -234,7 +234,7 @@ style="background:
                 <div class="pr-lg-4 mv-pt">
                     <div class="bg-light-subtle text-center rounded-custom overflow-hidden p-lg-5 p-3 mx-lg-auto"
                         data-aos="fade-up" data-aos-delay="50">
-                        <img src="assets/image/api/google-form2.webp" alt="image" class="img-fluid">
+                        <img src="assets/image/api/google-form2.webp" alt="Online Form Development Services, Google Forms API Integration" class="img-fluid">
                         <div
                             class="position-absolute bg-primary-dark z--1 dot-mask dm-size-16 dm-wh-350 top--40 left--40 top-left">
                         </div>
@@ -280,7 +280,7 @@ style="background:
             <div class="col-lg-6 col-md-7">
                 <div class="feature-img-wrap position-relative d-flex flex-column align-items-end">
 
-                    <img src="assets/image/api/google-form3.webp" alt="feature image" class="img-fluid rounded-custom"
+                    <img src="assets/image/api/google-form3.webp" alt="Google Workspace Form Integration, Survey Form Development Services" class="img-fluid rounded-custom"
                         data-aos="fade-up">
                 </div>
             </div>
@@ -302,7 +302,7 @@ style="background:
         <div class="row align-items-center justify-content-between">
             <div class="col-lg-5 order-0 order-lg-1">
                 <div class="img-wrap">
-                    <img src="assets/image/api/google-form4.webp" alt="work process" class="img-fluid rounded-custom">
+                    <img src="assets/image/api/google-form4.webp" alt="Google Forms CRM Integration, Form Automation Workflow Services" class="img-fluid rounded-custom">
                 </div>
             </div>
             <div class="col-lg-6 order-1 order-lg-0">
@@ -479,8 +479,8 @@ style="background:
             <div class="col-lg-6 col-md-7 mv-pt">
                 <div class="feature-img-wrap position-relative d-flex flex-column align-items-end">
 
-                    <img src="assets/image/api/enq.webp" alt="feature image" class="img-fluid rounded-custom"
-                        data-aos="fade-up">
+                            <img src="assets/image/api/enq.webp" alt="Google Forms Setup Services, Web Form Integration Services" class="img-fluid rounded-custom"
+                                data-aos="fade-up">
                 </div>
             </div>
         </div>

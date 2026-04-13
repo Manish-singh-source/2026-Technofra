@@ -84,7 +84,7 @@ gtag('config', 'G-189WWHXLSS');
                 </div>
                 <div class="col-xl-6 col-lg-5">
                     <div class="crm-hero-img mt-60 mt-lg-0">
-                        <img src="assets\image\cms\cms.webp" alt="not found" class="img-fluid">
+                        <img src="assets\image\cms\cms.webp" alt="CMS Website Development Company" class="img-fluid">
                     </div>
                 </div>
             </div>
@@ -98,7 +98,7 @@ gtag('config', 'G-189WWHXLSS');
                 <div class="col-lg-6">
                     <div class="app-two-feature-two-img" data-aos="fade-right" data-aos-offset="300"
                         data-aos-easing="ease-in-sine">
-                        <img src="assets\image\cms\cms1.webp" style="border-radius: 10px;" alt="feature image"
+                        <img src="assets\image\cms\cms1.webp" style="border-radius: 10px;" alt="CMS Website Design Services"
                             class="img-fluid" />
                     </div>
                 </div>
@@ -134,7 +134,7 @@ gtag('config', 'G-189WWHXLSS');
                 <div class="col-xl-5 col-lg-6">
                     <div class="crm-title text-center">
                         <span class="crm-subtitle">Why Choose Us <img src="assets/image/arrow-red.png"
-                                alt="arrow"></span>
+                                alt="Custom CMS Website Development"></span>
                         <h2 class="mt-1 clr-text">Why Choose Our CMS Services</h2>
                     </div>
                 </div>
@@ -154,7 +154,7 @@ gtag('config', 'G-189WWHXLSS');
                                         class="fa-solid fa-arrow-right-long ms-1"></i></a>
                             </div>
                             <div class="text-center mt-4 position-relative z-1">
-                                <img src="assets\image\cms\cms2.webp" alt="vector" class="img-fluid imb">
+                                <img src="assets\image\cms\cms2.webp" alt="CMS Developers in Mumbai" class="img-fluid imb">
                             </div>
                         </div>
                     </div>
@@ -171,7 +171,7 @@ gtag('config', 'G-189WWHXLSS');
                                         <a href="javascript:void(0);" class="read-more-link">Explore More <i
                                                 class="fa-solid fa-arrow-right-long ms-1"></i></a>
                                     </div>
-                                    <img src="assets\image\cms\cms3.webp" alt="vector" class="crm-vector-img">
+                                    <img src="assets\image\cms\cms3.webp" alt="CMS Experts in India" class="crm-vector-img">
                                 </div>
                             </div>
                             <div class="col-xl-12">
@@ -184,7 +184,7 @@ gtag('config', 'G-189WWHXLSS');
                                         <a href="javascript:void(0);" class="read-more-link">Explore More <i
                                                 class="fa-solid fa-arrow-right-long ms-1"></i></a>
                                     </div>
-                                    <img src="assets\image\cms\team.webp" alt="vector" class="crm-vector-img">
+                                    <img src="assets\image\cms\team.webp" alt="SEO-Friendly CMS Website Development" class="crm-vector-img">
                                 </div>
                             </div>
                         </div>
@@ -230,7 +230,7 @@ gtag('config', 'G-189WWHXLSS');
                 <div class="row align-items-center g-5 g-xl-3">
                     <div class="col-xl-6">
                         <div class="crm-title">
-                            <span class="crm-subtitle">CRM Support <img src="assets/image/arrow-red.png" alt="arrow"
+                            <span class="crm-subtitle">CRM Support <img src="assets/image/arrow-red.png" alt="Responsive CMS Website Design"
                                     class="ms-1"></span>
                             <h2 class="text-white mb-0">See where your efforts are paying off and adjust your strategy
                             </h2>
@@ -355,7 +355,7 @@ gtag('config', 'G-189WWHXLSS');
                         <div class="col-xl-6 col-lg-6 col-md-12">
                             <div class="app-two-single-feature bg-white d-md-flex align-items-start mb-30"
                                 data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
-                                <img src="assets\image\cms\digital-transformation.webp" style="margin-right: 10px;" />
+                                <img src="assets\image\cms\digital-transformation.webp" style="margin-right: 10px;" alt="CMS Web Development Agency" />
                                 <div class="app-two-single-feature-content ">
                                     <h3 class="h5">Latest Technology</h3>
                                     <p>
@@ -371,7 +371,7 @@ gtag('config', 'G-189WWHXLSS');
                         <div class="col-xl-6 col-lg-6 col-md-12">
                             <div class="app-two-single-feature bg-white d-md-flex align-items-start mb-30"
                                 data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
-                                <img src="assets\image\cms\online-support.webp" style="margin-right: 10px;" />
+                                <img src="assets\image\cms\online-support.webp" style="margin-right: 10px;" alt="CMS Website Design Company" />
                                 <div class="app-two-single-feature-content">
                                     <h3 class="h5">Migration Support</h3>
                                     <p> Seamless migration support ensures success of change initiatives undertaken by
@@ -385,7 +385,7 @@ gtag('config', 'G-189WWHXLSS');
                             <div class="app-two-single-feature bg-white d-md-flex align-items-start mb-30"
                                 data-aos="fade-left" data-aos-anchor="#example-anchor" data-aos-offset="500"
                                 data-aos-duration="500">
-                                <img src="assets\image\cms\maintenance_b.webp" style="margin-right: 10px;" />
+                                <img src="assets\image\cms\maintenance_b.webp" style="margin-right: 10px;" alt="CMS Website Redesign Services" />
                                 <div class="app-two-single-feature-content">
                                     <h3 class="h5"> Support and Maintenance</h3>
                                     <p>
@@ -402,7 +402,7 @@ gtag('config', 'G-189WWHXLSS');
                             <div class="app-two-single-feature bg-white d-md-flex align-items-start mb-30"
                                 data-aos="fade-left" data-aos-anchor="#example-anchor" data-aos-offset="500"
                                 data-aos-duration="500">
-                                <img src="assets\image\cms\discussion.webp" style="margin-right: 10px;" />
+                                <img src="assets\image\cms\discussion.webp" style="margin-right: 10px;" alt="CMS Website for Business" />
                                 <div class="app-two-single-feature-content">
                                     <h3 class="h5"> CMS Consultation</h3>
                                     <p>
@@ -474,7 +474,7 @@ gtag('config', 'G-189WWHXLSS');
                 </div>
                 <div class="col-lg-5 col-xl-5">
                     <div class="app-two-feature-two-img">
-                        <img src="assets\image\cms\cms_meeting.webp" alt="feature image" class="img-fluid"
+                        <img src="assets\image\cms\cms_meeting.webp" alt="CMS Website Optimization" class="img-fluid"
                             data-aos="fade-left" data-aos-anchor="#example-anchor" data-aos-offset="500"
                             data-aos-duration="500">
                     </div>
@@ -602,30 +602,7 @@ gtag('config', 'G-189WWHXLSS');
             </div>
         </div>
     </section>
-    <!-- <div class="cta9">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-5">
-            <div class="heading6-w">
-              <h2>Enquiry Now or reach out to us today!</h2>
-              <div class="space16"></div>
-              <p>Feel free to customize this paragraph to better reflect the specific services offered by
-                your IT solution &amp; the unique </p>
-
-              <a href="tel:+918080803374" target="_blank" class="btn btn-outline-info rounded-5 mt-30"> <i class="fa-light fa-phone-volume"></i> +91 8080 80 3374
-              </a>
-            </div>
-          </div>
-
-          <div class="col-md-7">
-            <div class="images">
-              <img src="assets/image/contact.webp" alt="image">
-
-            </div>
-          </div>
-        </div>
-      </div>
-    </div> -->
+     
 
     <?php include 'book-a-call.php'; ?>
     <?php include 'footer.php'; ?>

@@ -38,7 +38,7 @@
 
 <section class="pb-60">
   <div class="cover-image">
-    <img src="assets/image/casestudy/visitmadhisland/visitmadhisland01.webp" alt="image">
+    <img src="assets/image/casestudy/visitmadhisland/visitmadhisland01.webp" alt="Visit Madh Island case study">
   </div>
 </section>
 <section class="pb-60">
@@ -46,7 +46,7 @@
     <div class="row align-items-center">
 
       <div class="col-lg-6 col-md-6 ">
-        <img src="assets/image/casestudy/visitmadhisland/visitmadhisland02.webp" alt="image" class="dp-r-10" data-aos="fade-right">
+        <img src="assets/image/casestudy/visitmadhisland/visitmadhisland02.webp" alt="Visit Madh Island case study" class="dp-r-10" data-aos="fade-right">
       </div>
       <div class="col-lg-4 col-md-4 mob-pt-20">
         <div class="section-heading" data-aos="fade-left">
@@ -77,7 +77,7 @@
         </div>
       </div>
       <div class="col-lg-6 col-md-6 mb-20">
-        <img src="assets/image/casestudy/visitmadhisland/visitmadhisland05.webp" alt="image" class="dp-r-10" data-aos="zoom-in-right">
+        <img src="assets/image/casestudy/visitmadhisland/visitmadhisland05.webp" alt="Visit Madh Island case study" class="dp-r-10" data-aos="zoom-in-right">
       </div>
     </div>
   </div>
@@ -86,7 +86,7 @@
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-lg-12 col-md-12">
-        <img src="assets/image/casestudy/visitmadhisland/visitmadhisland06.webp" alt="image" class="dp-r-10" data-aos="zoom-out-up">
+        <img src="assets/image/casestudy/visitmadhisland/visitmadhisland06.webp" alt="Visit Madh Island case study" class="dp-r-10" data-aos="zoom-out-up">
       </div>
 
     </div>
@@ -110,7 +110,7 @@
         </div>
     <div class="row align-items-center">
       <div class="col-lg-12">
-        <img src="assets/image/casestudy/visitmadhisland/visitmadhisland03.webp" alt="image" class="dp-r-10" data-aos="zoom-in">
+        <img src="assets/image/casestudy/visitmadhisland/visitmadhisland03.webp" alt="Visit Madh Island case study" class="dp-r-10" data-aos="zoom-in">
       </div>
 
     </div>
@@ -130,7 +130,7 @@
       </div>
     </div>
   <div class="cover-image">
-    <img src="assets/image/casestudy/visitmadhisland/visitmadhisland04.webp" alt="image" data-aos="zoom-in">
+    <img src="assets/image/casestudy/visitmadhisland/visitmadhisland04.webp" alt="Visit Madh Island case study" data-aos="zoom-in">
   </div>
 </section>
 <?php include 'potfolio-slider.php'; ?>

@@ -103,11 +103,11 @@
 
                  <a href="app" target="_blank" class="APPS" contenteditable="false" style="cursor: pointer; ">
 
-                     <img src="assets/image/home/app0.webp" alt="image" class="lgs">
+                     <img src="assets/image/home/app0.webp" alt="Technofra app" class="lgs">
                  </a>
 
                  <a href="app" target="_blank" class="APPS" contenteditable="false" style="cursor: pointer;">
-                     <img src="assets/image/home/ios0.webp" alt="image" class="lgs">
+                     <img src="assets/image/home/ios0.webp" alt="Technofra app" class="lgs">
                  </a>
 
                  <div class="twc-socials">

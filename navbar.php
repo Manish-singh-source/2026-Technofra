@@ -267,34 +267,19 @@
 
     <div id="preloader" class="bg-light-subtle">
         <div class="preloader-wrap">
-            <img src="assets/image/favicon.png" alt="logo" class="img-fluid preloader-icon">
+            <img src="assets/image/favicon.png" alt="Technofra logo" class="img-fluid preloader-icon">
             <div class="loading-bar"></div>
         </div>
     </div>
-    <div class="main-wrapper">
-        <!-- <div class="header-top " style="border-bottom: #8080809e 0.3px solid;">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div>
-                            <ul class="nav_header_list">
-                                <li><a href="https://www.google.com/maps?ll=19.203165,72.834758&z=17&t=m&hl=en&gl=US&mapclient=embed&cid=14052366403472457656"><img src="assets/image/icons/pin.png" alt="image">Office No. 501, 5th Floor, Ghanshyam Enclave, New Link Road, Kandivali (West), Mumbai - 400067. Maharashtra - INDIA.</a></li>
-                                <li><a href="mailto:info@technofra.com"><img src="assets/image/icons/mail.png" alt="image">info@technofra.com</a></li>
-                            </ul>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </div> -->
+    <div class="main-wrapper">   
         <header class="main-header position-absolute w-100 ca-header">
             <nav class="navbar navbar-expand-xl navbar-dark sticky-header z-10">
                 <div class="container d-flex align-items-center justify-content-lg-between position-relative">
 
                     <a href="https://technofra.com/" class="navbar-brand d-flex align-items-center mb-md-0 text-decoration-none">
-                        <img src="assets/image/icons/technofra_logo.png" alt="logo"
+                        <img src="assets/image/icons/technofra_logo.png" alt="technofra logo"
                             class="img-fluid logo-white tech_logo" />
-                        <img src="assets/image/icons/technofra_logo.png" alt="logo"
+                        <img src="assets/image/icons/technofra_logo.png" alt="technofra logo"
                             class="img-fluid logo-color tech_logo" />
                     </a>
                     <a class="navbar-toggler position-absolute right-0 border-0" href="#offcanvasWithBackdrop">
@@ -581,7 +566,7 @@
     <div class="offcanvas dpbgback offcanvas-end" tabindex="-1" id="offcanvasWithBackdrop">
         <div class="offcanvas-header d-flex align-items-center mt-4">
             <a href="https://technofra.com/" class="d-flex align-items-center mb-md-0 text-decoration-none">
-                <img src="assets/image/icons/technofra_logo.png" alt="logo" class="img-fluid ps-2 tech_logo" />
+                <img src="assets/image/icons/technofra_logo.png" alt="technofra logo" class="img-fluid ps-2 tech_logo" />
             </a>
             <button type="button" class="close-btn text-danger" data-bs-dismiss="offcanvas" aria-label="Close">
                 <i class="flaticon-cancel"></i>

@@ -1,4 +1,4 @@
-﻿<?php include 'header.php'; ?>
+<?php include 'header.php'; ?>
 <title>Global Ocean Case Study | Technofra</title>
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-189WWHXLSS"></script>
@@ -40,7 +40,7 @@
 
 <section class="pb-60">
     <div class="cover-image">
-        <img src="assets/image/casestudy/Globalocean/Globalocean01.webp" alt="image">
+        <img src="assets/image/casestudy/Globalocean/Globalocean01.webp" alt="Global Ocean case study">
     </div>
 </section>
 
@@ -63,7 +63,7 @@
         </div>
         <div class="row align-items-center">
             <div class="col-lg-12 col-md-12">
-                <img src="assets/image/casestudy/Globalocean/Globalocean02.webp" alt="image" class="dp-r-10" data-aos="fade-up-right">
+                <img src="assets/image/casestudy/Globalocean/Globalocean02.webp" alt="Global Ocean case study" class="dp-r-10" data-aos="fade-up-right">
             </div>
 
         </div>
@@ -80,7 +80,7 @@
                 </div>
             </div>
             <div class="col-lg-6 col-md-6 mb-40">
-                <img src="assets/image/casestudy/Globalocean/Globalocean03.webp" alt="image" class="dp-r-10" data-aos="fade-up-left">
+                <img src="assets/image/casestudy/Globalocean/Globalocean03.webp" alt="Global Ocean case study" class="dp-r-10" data-aos="fade-up-left">
             </div>
         </div>
     </div>
@@ -90,7 +90,7 @@
     <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-6 col-md-6">
-                <img src="assets/image/casestudy/Globalocean/Globalocean07.webp" alt="image" class="dp-r-10" data-aos="fade-left">
+                <img src="assets/image/casestudy/Globalocean/Globalocean07.webp" alt="Global Ocean case study" class="dp-r-10" data-aos="fade-left">
             </div>
             <div class="col-lg-6 col-md-6">
                 <div class="section-heading text-center aos-init aos-animate" data-aos="fade-up">
@@ -107,7 +107,7 @@
     <div class="container">
         <div class="row justify-content-between align-items-center">
             <div class="col-lg-12 col-md-12">
-                <img src="assets/image/casestudy/Globalocean/Globalocean08.webp" alt="image" class="dp-r-10" data-aos="fade-left">
+                <img src="assets/image/casestudy/Globalocean/Globalocean08.webp" alt="Global Ocean case study" class="dp-r-10" data-aos="fade-left">
             </div>
 
 
@@ -130,7 +130,7 @@
         <div class="row">
 
             <div class="col-lg-12 col-md-12">
-                <img src="assets/image/casestudy/Globalocean/Globalocean04.webp" alt="image" class="dp-r-10" data-aos="fade-right">
+                <img src="assets/image/casestudy/Globalocean/Globalocean04.webp" alt="Global Ocean case study" class="dp-r-10" data-aos="fade-right">
             </div>
 
         </div>
@@ -148,7 +148,7 @@
                 </div>
             </div>
             <div class="col-lg-12 col-md-12">
-                <img src="assets/image/casestudy/Globalocean/Globalocean09.webp" alt="image" class="dp-r-10" data-aos="fade-left">
+                <img src="assets/image/casestudy/Globalocean/Globalocean09.webp" alt="Global Ocean case study" class="dp-r-10" data-aos="fade-left">
             </div>
 
         </div>
@@ -161,12 +161,12 @@
                 <div class="section-heading">
                     <h2> Elevate Your Brand with Custom Stationery </h2>
                     <p>
-                        Make a lasting impression with professionally designed stationery that reflects your brand’s identity. From business cards and letterheads to envelopes and notepads, our high-quality designs ensure consistency, professionalism, and brand recognition in every detail.
+                        Make a lasting impression with professionally designed stationery that reflects your brand�s identity. From business cards and letterheads to envelopes and notepads, our high-quality designs ensure consistency, professionalism, and brand recognition in every detail.
                     </p>
                 </div>
             </div>
             <div class="col-lg-12 col-md-12">
-                <img src="assets/image/casestudy/Globalocean/Globalocean05.webp" alt="image" class="dp-r-10" data-aos="fade-left">
+                <img src="assets/image/casestudy/Globalocean/Globalocean05.webp" alt="Global Ocean case study" class="dp-r-10" data-aos="fade-left">
             </div>
 
         </div>
@@ -176,7 +176,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-12 col-md-12">
-                <img src="assets/image/casestudy/Globalocean/Globalocean06.webp" alt="image" class="dp-r-10" data-aos="fade-left">
+                <img src="assets/image/casestudy/Globalocean/Globalocean06.webp" alt="Global Ocean case study" class="dp-r-10" data-aos="fade-left">
             </div>
 
         </div>

@@ -131,7 +131,7 @@ gtag('config', 'G-189WWHXLSS');
             <div class="col-lg-5 col-md-8 mt-5">
                 <div class="hero-app-img position-relative text-center">
 
-                    <img src="assets/image/api/wpgif.gif" alt="app screen" class="img-fluid" />
+                    <img src="assets/image/api/wpgif.gif" alt="WhatsApp Marketing Services" class="img-fluid" />
                 </div>
             </div>
         </div>
@@ -143,7 +143,7 @@ gtag('config', 'G-189WWHXLSS');
         <div class="row align-items-center justify-content-lg-between">
             <div class="col-lg-6 col-xl-6">
                 <div class="  position-relative text-center pe-5">
-                    <img src="assets/image/api/whatsapp.webp" alt="feature image" data-aos="fade-right"
+                    <img src="assets/image/api/whatsapp.webp" alt="WhatsApp Business API Services" data-aos="fade-right"
                         class="img-fluid" />
                 </div>
             </div>
@@ -209,27 +209,27 @@ gtag('config', 'G-189WWHXLSS');
             <div class="swiper-wrapper">
                 <div class="sc-feedback-card swiper-slide bg-white rounded bg-card">
                     <h5 class="sc-heading-color mb-3 mt-4 text-center">Two-Way Communication</h5>
-                    <img src="assets/image/api/two-way-communication.webp" alt="image">
+                    <img src="assets/image/api/two-way-communication.webp" alt="WhatsApp API Integration">
                 </div>
                 <div class="sc-feedback-card swiper-slide bg-white rounded bg-card">
                     <h5 class="sc-heading-color mb-3 mt-4 text-center">Automated Messaging</h5>
-                    <img src="assets/image/api/automated-messaging.webp" alt="image">
+                    <img src="assets/image/api/automated-messaging.webp" alt="WhatsApp Marketing Agency in Mumbai">
                 </div>
                 <div class="sc-feedback-card swiper-slide bg-white rounded bg-card">
                     <h5 class="sc-heading-color mb-3 mt-4 text-center">Transactional Messages </h5>
-                    <img src="assets/image/api/transactional-messages.webp" alt="image">
+                    <img src="assets/image/api/transactional-messages.webp" alt="WhatsApp Business API India">
                 </div>
                 <div class="sc-feedback-card swiper-slide bg-white rounded bg-card">
                     <h5 class="sc-heading-color mb-3 mt-4 text-center">Rich Media Support</h5>
-                    <img src="assets/image/api/rich-media-support.webp" alt="image">
+                    <img src="assets/image/api/rich-media-support.webp" alt="WhatsApp Automation Services">
                 </div>
                 <div class="sc-feedback-card swiper-slide bg-white rounded bg-card">
                     <h5 class="sc-heading-color mb-3 mt-4 text-center">End-to-End Encryption</h5>
-                    <img src="assets/image/api/end-to-end-encryption.webp" alt="image">
+                    <img src="assets/image/api/end-to-end-encryption.webp" alt="WhatsApp Chatbot Development">
                 </div>
                 <div class="sc-feedback-card swiper-slide bg-white rounded bg-card">
                     <h5 class="sc-heading-color mb-3 mt-4 text-center">Rich Interactive Features</h5>
-                    <img src="assets/image/api/rich-interactive-features.webp" alt="image">
+                    <img src="assets/image/api/rich-interactive-features.webp" alt="WhatsApp Lead Generation Services">
                 </div>
 
             </div>
@@ -256,7 +256,7 @@ gtag('config', 'G-189WWHXLSS');
                         </div>
                         <!-- Right side image -->
                         <div class="col-md-6">
-                            <img src="assets/image/api/wpkey1.webp" class="d-block w-100" alt="Image 1">
+                            <img src="assets/image/api/wpkey1.webp" class="d-block w-100" alt="WhatsApp CRM Integration">
                         </div>
                     </div>
                 </div>
@@ -277,7 +277,7 @@ gtag('config', 'G-189WWHXLSS');
                         </div>
                         <!-- Right side image -->
                         <div class="col-md-6">
-                            <img src="assets/image/api/wpkey2.webp" class="d-block w-100" alt="Image 2">
+                            <img src="assets/image/api/wpkey2.webp" class="d-block w-100" alt="WhatsApp Campaign Management">
                         </div>
                     </div>
                 </div>
@@ -297,7 +297,7 @@ gtag('config', 'G-189WWHXLSS');
                         </div>
                         <!-- Right side image -->
                         <div class="col-md-6">
-                            <img src="assets/image/api/wpkey3.webp" class="d-block w-100" alt="Image 3">
+                            <img src="assets/image/api/wpkey3.webp" class="d-block w-100" alt="WhatsApp Messaging Services">
                         </div>
                     </div>
                 </div>
@@ -314,7 +314,7 @@ gtag('config', 'G-189WWHXLSS');
                         </div>
                         <!-- Right side image -->
                         <div class="col-md-6">
-                            <img src="assets/image/api/wpkey4.webp" class="d-block w-100" alt="Image 3">
+                            <img src="assets/image/api/wpkey4.webp" class="d-block w-100" alt="WhatsApp API Provider India">
                         </div>
                     </div>
                 </div>
@@ -332,7 +332,7 @@ gtag('config', 'G-189WWHXLSS');
                         </div>
                         <!-- Right side image -->
                         <div class="col-md-6">
-                            <img src="assets/image/api/wpkey5.webp" class="d-block w-100" alt="Image 3">
+                            <img src="assets/image/api/wpkey5.webp" class="d-block w-100" alt="WhatsApp Business Solutions">
                         </div>
                     </div>
                 </div>
@@ -363,7 +363,7 @@ gtag('config', 'G-189WWHXLSS');
         <div class="row align-items-center justify-content-lg-between">
             <div class="col-lg-6 col-xl-6">
                 <div class="app-two-mockup position-relative text-center pe-5">
-                    <img src="assets/image/api/app-two-mockup.webp" alt="image" data-aos="fade-right"
+                    <img src="assets/image/api/app-two-mockup.webp" alt="WhatsApp Marketing Services" data-aos="fade-right"
                         class="img-fluid position-relative z-5" />
                 </div>
 
@@ -419,7 +419,7 @@ gtag('config', 'G-189WWHXLSS');
 
                 <div class="single-service p-lg-5 p-4 text-center mt-3 border-bottom border-end">
                     <div class="service-icon icon-center">
-                        <img src="assets/image/icons/Web_Development_icon.png" alt="service icon" width="65"
+                        <img src="assets/image/icons/Web_Development_icon.png" alt="WhatsApp Business API Services" width="65"
                             height="65" />
                     </div>
                     <div class="service-info-wrap">
@@ -435,7 +435,7 @@ gtag('config', 'G-189WWHXLSS');
             <div class="col-lg-6 col-md-6 p-0">
                 <div class="single-service p-lg-5 p-4 text-center mt-3 border-bottom ">
                     <div class="service-icon icon-center">
-                        <img src="assets/image/icons/promotion.png" alt="service icon" width="65" height="65" />
+                        <img src="assets/image/icons/promotion.png" alt="WhatsApp API Integration" width="65" height="65" />
                     </div>
                     <div class="service-info-wrap">
                         <h3 class="h5 ">Proactive notifications </h3>
@@ -447,7 +447,7 @@ gtag('config', 'G-189WWHXLSS');
             <div class="col-lg-6 col-md-6 p-0">
                 <div class="single-service p-lg-5 p-4 text-center border-end">
                     <div class="service-icon icon-center">
-                        <img src="assets/image/icons/promotion.png" alt="service icon" width="65" height="65" />
+                        <img src="assets/image/icons/promotion.png" alt="WhatsApp Marketing Agency in Mumbai" width="65" height="65" />
                     </div>
                     <div class="feature-info-wrap">
                         <h3 class="h5 ">Contextual promotional offers</h3>
@@ -461,7 +461,7 @@ gtag('config', 'G-189WWHXLSS');
             <div class="col-lg-6 col-md-6 p-0">
                 <div class="single-service p-lg-5 p-4 text-center ">
                     <div class="service-icon icon-center">
-                        <img src="assets/image/icons/app-development.png" alt="service icon" width="65" height="65" />
+                        <img src="assets/image/icons/app-development.png" alt="WhatsApp Business API India" width="65" height="65" />
                     </div>
                     <div class="feature-info-wrap">
                         <h3 class="h5 ">Rich media</h3>
@@ -609,7 +609,7 @@ gtag('config', 'G-189WWHXLSS');
             <div class="col-lg-6 col-md-7 mv-pt">
                 <div class="feature-img-wrap position-relative d-flex flex-column align-items-end">
 
-                    <img src="assets/image/api/enq.webp" alt="feature image" class="img-fluid rounded-custom"
+                    <img src="assets/image/api/enq.webp" alt="WhatsApp Automation Services" class="img-fluid rounded-custom"
                         data-aos="fade-up">
                 </div>
             </div>

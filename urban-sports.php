@@ -56,7 +56,7 @@ gtag('config', 'G-189WWHXLSS');
 
 <section class=" pb-60">
     <div class="cover-image">
-        <img src="assets/image/casestudy/urban/urban01.webp" alt="image">
+        <img src="assets/image/casestudy/urban/urban01.webp" alt="Urban Sports case study">
     </div>
 </section>
 
@@ -76,7 +76,7 @@ gtag('config', 'G-189WWHXLSS');
                 </div>
             </div>
             <div class="col-lg-6 col-md-6">
-                <img src="assets/image/casestudy/urban/urban02.webp" alt="image" class="dp-r-10 sbox"
+                <img src="assets/image/casestudy/urban/urban02.webp" alt="Urban Sports case study" class="dp-r-10 sbox"
                     data-aos="fade-left" data-aos-anchor="#example-anchor" data-aos-offset="500"
                     data-aos-duration="500">
             </div>
@@ -88,7 +88,7 @@ gtag('config', 'G-189WWHXLSS');
     <div class="container">
         <div class="row justify-content-between align-items-center">
             <div class="col-lg-6 col-md-6">
-                <img src="assets/image/casestudy/urban/urban06.webp" alt="image" class="dp-r-10 sbox">
+                <img src="assets/image/casestudy/urban/urban06.webp" alt="Urban Sports case study" class="dp-r-10 sbox">
             </div>
             <div class="col-lg-5 col-md-5 mob-pt-20">
                 <div class="feature-img-content">
@@ -121,7 +121,7 @@ gtag('config', 'G-189WWHXLSS');
                 </div>
             </div>
             <div class="col-lg-6 col-md-6">
-                <img src="assets/image/casestudy/urban/urban09.webp" alt="image" class="dp-r-10" data-aos="fade-right"
+                <img src="assets/image/casestudy/urban/urban09.webp" alt="Urban Sports case study" class="dp-r-10" data-aos="fade-right"
                     data-aos-offset="300" data-aos-easing="ease-in-sine">
             </div>
         </div>
@@ -143,7 +143,7 @@ gtag('config', 'G-189WWHXLSS');
         </div>
         <div class="row justify-content-between align-items-center">
             <div class="col-lg-12 col-md-12">
-                <img src="assets/image/casestudy/urban/urban07.webp" alt="image" class="dp-r-10 sbox" data-aos="fade-up"
+                <img src="assets/image/casestudy/urban/urban07.webp" alt="Urban Sports case study" class="dp-r-10 sbox" data-aos="fade-up"
                     data-aos-anchor-placement="center-bottom">
             </div>
         </div>
@@ -172,7 +172,7 @@ gtag('config', 'G-189WWHXLSS');
         </div>
         <div class="row justify-content-between align-items-center">
             <div class="col-lg-12 col-md-12">
-                <img src="assets/image/casestudy/urban/urban08.webp" alt="image" class="dp-r-10" data-aos="fade-right"
+                <img src="assets/image/casestudy/urban/urban08.webp" alt="Urban Sports case study" class="dp-r-10" data-aos="fade-right"
                     data-aos-offset="300" data-aos-easing="ease-in-sine">
             </div>
 
@@ -185,15 +185,15 @@ gtag('config', 'G-189WWHXLSS');
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-lg-4">
-                <img src="assets/image/casestudy/urban/urban03.webp" alt="image" class="dp-r-10" data-aos="fade-up"
+                <img src="assets/image/casestudy/urban/urban03.webp" alt="Urban Sports case study" class="dp-r-10" data-aos="fade-up"
                     data-aos-anchor-placement="center-bottom">
             </div>
             <div class="col-lg-4">
-                <img src="assets/image/casestudy/urban/urban04.webp" alt="image" class="dp-r-10" data-aos="fade-up"
+                <img src="assets/image/casestudy/urban/urban04.webp" alt="Urban Sports case study" class="dp-r-10" data-aos="fade-up"
                     data-aos-anchor-placement="center-bottom">
             </div>
             <div class="col-lg-4">
-                <img src="assets/image/casestudy/urban/urban05.webp" alt="image" class="dp-r-10" data-aos="fade-up"
+                <img src="assets/image/casestudy/urban/urban05.webp" alt="Urban Sports case study" class="dp-r-10" data-aos="fade-up"
                     data-aos-anchor-placement="center-bottom">
             </div>
         </div>

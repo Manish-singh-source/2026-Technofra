@@ -191,7 +191,7 @@
                 </div>
                 <div class="col-lg-5 col-md-8">
                     <div class="position-relative">
-                        <img src="assets/image/domainhosting/banner.webp" alt="Domain and hosting services" class="risk-hero-img img-fluid">
+                        <img src="assets/image/domainhosting/banner.webp" alt="Domain and Hosting Services, Web Hosting Services" class="risk-hero-img img-fluid">
 
                     </div>
                 </div>
@@ -206,7 +206,7 @@
         <div class="row align-items-center">
             <div class="col-lg-6">
                 <div class="position-relative">
-                    <img src="assets/image/domainhosting/host01.webp" alt="Reliable hosting infrastructure" class="rm-service-img img-fluid" data-aos="fade-right">
+                    <img src="assets/image/domainhosting/host01.webp" alt="Domain Registration Services, Domain and Hosting Company in Mumbai" class="rm-service-img img-fluid" data-aos="fade-right">
                 </div>
             </div>
             <div class="col-lg-6">
@@ -310,7 +310,7 @@
 
             </div>
             <div class="col-lg-6">
-                <img src="assets/image/domainhosting/home-doman03.webp" alt="Cloud hosting solutions" class="risk-sc-img img-fluid mt-3 mb-3 br-10" data-aos="fade-left" data-aos-anchor="#example-anchor" data-aos-offset="500" data-aos-duration="500">
+                <img src="assets/image/domainhosting/home-doman03.webp" alt="Website Hosting Services India, Secure Web Hosting Services" class="risk-sc-img img-fluid mt-3 mb-3 br-10" data-aos="fade-left" data-aos-anchor="#example-anchor" data-aos-offset="500" data-aos-duration="500">
             </div>
         </div>
     </div>
@@ -320,7 +320,7 @@
     <div class="container">
         <div class="row align-items-center dpreverse">
             <div class="col-lg-6 order">
-                <img src="assets/image/domainhosting/home-doman-04.webp" alt="VPS hosting service" class="risk-sc-img-two img-fluid br-10 mt-3 mb-3" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+                <img src="assets/image/domainhosting/home-doman-04.webp" alt="Fast Website Hosting Services, Affordable Hosting Services in India" class="risk-sc-img-two img-fluid br-10 mt-3 mb-3" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
             </div>
             <div class="col-lg-6 ">
                 <div class="position-relative" data-aos="fade-left" data-aos-anchor="#example-anchor" data-aos-offset="500" data-aos-duration="500">
@@ -359,7 +359,7 @@
 
             </div>
             <div class="col-lg-6">
-                <img src="assets/image/domainhosting/home-domn-04.webp" alt="Shared hosting plans" class="risk-sc-img img-fluid br-10 mt-3 mb-3" data-aos="fade-left" data-aos-anchor="#example-anchor" data-aos-offset="500" data-aos-duration="500">
+                <img src="assets/image/domainhosting/home-domn-04.webp" alt="Cloud Hosting Services, Website Hosting Company" class="risk-sc-img img-fluid br-10 mt-3 mb-3" data-aos="fade-left" data-aos-anchor="#example-anchor" data-aos-offset="500" data-aos-duration="500">
             </div>
         </div>
     </div>
@@ -371,7 +371,7 @@
         <div class="row justify-content-center">
             <div class="col-md-8 col-lg-6">
                 <div class="section-heading crm-title text-center  mb-5">
-                    <span class="crm-subtitle ">Our Services <img src="assets/image/arrow-red.png" alt="arrow"></span>
+                    <span class="crm-subtitle ">Our Services <img src="assets/image/arrow-red.png" alt="Domain and Hosting Packages, SSL Hosting Services"></span>
                     <h2>What We Offer for
                         Your Website
                     </h2>
@@ -484,7 +484,7 @@
         <div class="row g-4 justify-content-between">
             <div class="col-xl-5 col-lg-6">
                 <div class="dg-about-left pe-4">
-                    <img src="assets/image/domainhosting/hosting-botom01.webp" alt="Hosting company support" class="rounded-4 img-fluid br-10" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+                    <img src="assets/image/domainhosting/hosting-botom01.webp" alt="Business Email Hosting Services" class="rounded-4 img-fluid br-10" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
                 </div>
             </div>
             <div class="col-xl-7 col-lg-6">
@@ -518,7 +518,7 @@
 
                     <div class="dg-about-bottom position-relative mt-70">
 
-                        <img src="assets/image/domainhosting/hosting-bottom02.webp" alt="Hosting solutions" class="rounded-4 img-fluid br-10" data-aos="fade-up" data-aos-anchor-placement="top-center">
+                        <img src="assets/image/domainhosting/hosting-bottom02.webp" alt="Reliable Web Hosting Provide" class="rounded-4 img-fluid br-10" data-aos="fade-up" data-aos-anchor-placement="top-center">
                     </div>
                 </div>
             </div>

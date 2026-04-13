@@ -218,7 +218,7 @@
                 </div>
                 <div class="col-lg-6">
                     <div class="mt-5 mt-lg-0 event-hero-img">
-                        <img src="assets/image/api/sms-otp-banner.webp" class="img-fluid" alt="Event">
+                        <img src="assets/image/api/sms-otp-banner.webp" class="img-fluid" alt="SMS OTP Services">
                     </div>
                 </div>
             </div>
@@ -236,7 +236,7 @@
             <div class="col-lg-6 ">
                 <div class="pr-lg-4 position-relative" data-aos="fade-up">
                     <div class="bg-light-subtle text-center rounded-custom  pt-5 px-3 px-lg-5 mx-lg-auto">
-                        <img src="assets/image/api/sms01.webp" alt="image">
+                        <img src="assets/image/api/sms01.webp" alt="OTP SMS Gateway">
                     </div>
                 </div>
             </div>
@@ -279,23 +279,23 @@
             <div class="swiper-wrapper">
                 <div class="sc-feedback-card swiper-slide bg-white rounded bg-card">
                     <h5 class="sc-heading-color mb-3 mt-4 text-center">OTP for Authentication</h5>
-                    <img src="assets/image/api/promotional.png" alt="image">
+                    <img src="assets/image/api/promotional.png" alt="OTP SMS API Services">
                 </div>
                 <div class="sc-feedback-card swiper-slide bg-white rounded bg-card">
                     <h5 class="sc-heading-color mb-3 mt-4 text-center">Login OTP Notifications</h5>
-                    <img src="assets/image/api/sms_notification-1.webp" alt="image">
+                    <img src="assets/image/api/sms_notification-1.webp" alt="OTP SMS Service Company in Mumbai">
                 </div>
                 <div class="sc-feedback-card swiper-slide bg-white rounded bg-card">
                     <h5 class="sc-heading-color mb-3 mt-4 text-center">OTP Reminders</h5>
-                    <img src="assets/image/api/sms_reminders-1.webp" alt="image">
+                    <img src="assets/image/api/sms_reminders-1.webp" alt="Transactional SMS OTP Services">
                 </div>
                 <div class="sc-feedback-card swiper-slide bg-white rounded bg-card">
                     <h5 class="sc-heading-color mb-3 mt-4 text-center">Secure Transaction OTPs</h5>
-                    <img src="assets/image/api/transactional_msg.webp" alt="image">
+                    <img src="assets/image/api/transactional_msg.webp" alt="Secure OTP SMS Services">
                 </div>
                 <div class="sc-feedback-card swiper-slide bg-white rounded bg-card">
                     <h5 class="sc-heading-color mb-3 mt-4 text-center">Verification OTP Services</h5>
-                    <img src="assets/image/api/authentication.webp" alt="image">
+                    <img src="assets/image/api/authentication.webp" alt="Two Factor Authentication SMS">
                 </div>
 
             </div>
@@ -330,7 +330,7 @@
                 <div class="pr-lg-4 position-relative" data-aos="fade-up">
 
                     <div class="bg-light-subtle text-center shadow-sm rounded-custom overflow-hidden pt-5 px-3 px-lg-5 mx-lg-auto">
-                        <img src="assets/image/api/sms02.webp" alt="image">
+                        <img src="assets/image/api/sms02.webp" alt="Bulk OTP SMS Services">
 
                     </div>
                 </div>
@@ -345,7 +345,7 @@
         <div class="row align-items-center">
             <div class="col-lg-6 col-md-12">
                 <div class="ev-ab-img position-relative ms-0 ms-lg-5">
-                    <img src="assets/image/api/sms03.webp" alt="image">
+                    <img src="assets/image/api/sms03.webp" alt="SMS Gateway Services India">
 
                 </div>
             </div>
@@ -389,7 +389,7 @@
 
                 <div class="single-service p-lg-5 p-4 text-center mt-3 border-bottom border-end">
                     <div class="service-icon icon-center">
-                        <img src="assets/image/icons/mail-iocn.png" alt="service icon" width="65"
+                        <img src="assets/image/icons/mail-iocn.png" alt="Fast OTP SMS Delivery" width="65"
                             height="65" />
                     </div>
                     <div class="service-info-wrap">
@@ -404,7 +404,7 @@
             <div class="col-lg-4 col-md-6 p-0">
                 <div class="single-service p-lg-5 p-4 text-center mt-3 border-bottom border-end">
                     <div class="service-icon icon-center">
-                        <img src="assets/image/icons/pramotion-sms.png" alt="service icon" width="65"
+                        <img src="assets/image/icons/pramotion-sms.png" alt="OTP Verification Services" width="65"
                             height="65" />
                     </div>
                     <div class="service-info-wrap">
@@ -420,7 +420,7 @@
 
 
                     <div class="service-icon icon-center">
-                        <img src="assets/image/icons/verification.png" alt="service icon" width="65" height="65" />
+                        <img src="assets/image/icons/verification.png" alt="Cloud SMS Gateway Services" width="65" height="65" />
                     </div>
                     <div class="feature-info-wrap">
                         <h3 class="h5 ">2-6 Sec OTP Delivery</h3>
@@ -434,7 +434,7 @@
             <div class="col-lg-4 col-md-6 p-0">
                 <div class="single-service p-lg-5 p-4 text-center border-end">
                     <div class="service-icon icon-center">
-                        <img src="assets/image/icons/verification.png" alt="service icon" width="65" height="65" />
+                        <img src="assets/image/icons/verification.png" alt="Real-Time OTP Verification" width="65" height="65" />
                     </div>
 
                     <div class="service-info-wrap">
@@ -448,7 +448,7 @@
             <div class="col-lg-4 col-md-6 p-0">
                 <div class="single-service p-lg-5 p-4 text-center border-end">
                     <div class="service-icon icon-center">
-                        <img src="assets/image/icons/fail-over.png" alt="service icon" width="65"
+                        <img src="assets/image/icons/fail-over.png" alt="SMS OTP Services" width="65"
                             height="65" />
                     </div>
                     <div class="feature-info-wrap">
@@ -462,7 +462,7 @@
             <div class="col-lg-4 col-md-6 p-0">
                 <div class="single-service p-lg-5 p-4 text-center">
                     <div class="service-icon icon-center">
-                        <img src="assets/image/icons/pay-pel.png" alt="service icon" width="65" height="65" />
+                        <img src="assets/image/icons/pay-pel.png" alt="OTP SMS Gateway" width="65" height="65" />
                     </div>
                     <div class="feature-info-wrap">
                         <h3 class="h5 ">Pay Per Delivery</h3>
@@ -590,7 +590,7 @@
             <div class="col-lg-6 col-md-7 mv-pt">
                 <div class="feature-img-wrap position-relative d-flex flex-column align-items-end">
 
-                    <img src="assets/image/api/enq.webp" alt="feature image" class="img-fluid rounded-custom"
+                    <img src="assets/image/api/enq.webp" alt="OTP SMS API Services" class="img-fluid rounded-custom"
                         data-aos="fade-up">
                 </div>
             </div>

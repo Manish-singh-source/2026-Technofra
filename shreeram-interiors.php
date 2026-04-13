@@ -46,7 +46,7 @@ content="With our performance marketing services, we drive business growth. Expe
 
 <section class="pb-60 pt-80">
   <div class="cover-image">
-    <img src="assets/image/casestudy/shreeram/shreeram01.webp" alt="image">
+    <img src="assets/image/casestudy/shreeram/shreeram01.webp" alt="Shreeram Interiors case study">
   </div>
 </section>
 
@@ -55,7 +55,7 @@ content="With our performance marketing services, we drive business growth. Expe
 
     <div class="row justify-content-between align-items-center">
       <div class="col-lg-6 col-md-6">
-        <img src="assets/image/casestudy/shreeram/shreeram02.webp" alt="image" class="dp-r-10" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+        <img src="assets/image/casestudy/shreeram/shreeram02.webp" alt="Shreeram Interiors case study" class="dp-r-10" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
       </div>
       <div class="col-lg-5 col-md-5 mob-pt-20">
         <div class="feature-img-content">
@@ -91,7 +91,7 @@ content="With our performance marketing services, we drive business growth. Expe
         </div>
       </div>
       <div class="col-lg-6 col-md-6">
-        <img src="assets/image/casestudy/shreeram/shreeram03.webp" alt="image" class="dp-r-10 sbox" data-aos="fade-left" data-aos-anchor="#example-anchor" data-aos-offset="500" data-aos-duration="500">
+        <img src="assets/image/casestudy/shreeram/shreeram03.webp" alt="Shreeram Interiors case study" class="dp-r-10 sbox" data-aos="fade-left" data-aos-anchor="#example-anchor" data-aos-offset="500" data-aos-duration="500">
       </div>
     </div>
   </div>
@@ -101,7 +101,7 @@ content="With our performance marketing services, we drive business growth. Expe
 
     <div class="row justify-content-between align-items-center">
       <div class="col-lg-6 col-md-6">
-        <img src="assets/image/casestudy/shreeram/shreeram04.webp" alt="image" class="dp-r-10 sbox" class="dp-r-10" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+        <img src="assets/image/casestudy/shreeram/shreeram04.webp" alt="Shreeram Interiors case study" class="dp-r-10 sbox" class="dp-r-10" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
       </div>
       <div class="col-lg-5 col-md-5 mob-pt-20">
         <div class="feature-img-content">
@@ -136,7 +136,7 @@ content="With our performance marketing services, we drive business growth. Expe
         </div>
       </div>
       <div class="col-lg-6 col-md-6">
-        <img src="assets/image/casestudy/shreeram/shreeram05.webp" alt="image" class="dp-r-10 sbox" class="dp-r-10" data-aos="fade-left" data-aos-anchor="#example-anchor" data-aos-offset="500" data-aos-duration="500">
+        <img src="assets/image/casestudy/shreeram/shreeram05.webp" alt="Shreeram Interiors case study" class="dp-r-10 sbox" class="dp-r-10" data-aos="fade-left" data-aos-anchor="#example-anchor" data-aos-offset="500" data-aos-duration="500">
       </div>
     </div>
   </div>
@@ -146,10 +146,10 @@ content="With our performance marketing services, we drive business growth. Expe
  
     <div class="row align-items-center">
       <div class="col-lg-6 col-md-6">
-        <img src="assets/image/casestudy/shreeram/shreeram06.webp" alt="image" class="dp-r-10 sbox" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+        <img src="assets/image/casestudy/shreeram/shreeram06.webp" alt="Shreeram Interiors case study" class="dp-r-10 sbox" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
       </div>
       <div class="col-lg-6 col-md-6">
-        <img src="assets/image/casestudy/shreeram/shreeram07.webp" alt="image" class="dp-r-10 mob-pt-20 sbox" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+        <img src="assets/image/casestudy/shreeram/shreeram07.webp" alt="Shreeram Interiors case study" class="dp-r-10 mob-pt-20 sbox" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
       </div>
 
     </div>
@@ -160,7 +160,7 @@ content="With our performance marketing services, we drive business growth. Expe
  
     <div class="row align-items-center">
       <div class="col-lg-12 col-md-12">
-        <img src="assets/image/casestudy/shreeram/shreeram08.webp" alt="image" class="dp-r-10 sbox" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+        <img src="assets/image/casestudy/shreeram/shreeram08.webp" alt="Shreeram Interiors case study" class="dp-r-10 sbox" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
       </div>
     
 

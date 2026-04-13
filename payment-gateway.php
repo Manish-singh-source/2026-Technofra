@@ -74,8 +74,8 @@
             </div>
             <div class="col-lg-7">
                 <div class="payment-hero-img pt-120 text-center text-lg-end position-relative" >
-                    <img src="assets/image/paymentgetway/paybanner01.webp" class="img-fluid" alt="smile" />
-                    <img src="assets/image/paymentgetway/pay-hero-s.png" class="img-fluid h-shape" alt="smile" />
+                    <img src="assets/image/paymentgetway/paybanner01.webp" class="img-fluid" alt="Payment Gateway Services" />
+                    <img src="assets/image/paymentgetway/pay-hero-s.png" class="img-fluid h-shape" alt="Payment Gateway Integration" />
                 </div>
             </div>
         </div>
@@ -108,14 +108,14 @@
             <div class="col-lg-7">
                 <div class="payment-feature-img-right text-center position-relative mt-5 mt-lg-0" data-aos="fade-left">
                     <div class="payment-feature-mockup position-relative">
-                        <img src="assets/image/paymentgetway/pay01.webp" class="img-fluid" alt="Mocup" />
+                        <img src="assets/image/paymentgetway/pay01.webp" class="img-fluid" alt="Payment Gateway Company in Mumbai" />
                     </div>
                     <div class="payment-feture-shape">
-                        <img src="assets/image/paymentgetway/payment-ft-2.png" class="shape-one shadow-lg" alt="Tax" />
-                        <img src="assets/image/paymentgetway/payment-ft.png" class="shape-two shadow-lg" alt="Tax" />
-                        <img src="assets/image/paymentgetway/p-dot.png" class="shape-three" alt="dot" />
-                        <img src="assets/image/paymentgetway/blue-shape.png" class="shape-four" alt="shape" />
-                        <img src="assets/image/paymentgetway/pink-circle.png" class="shape-five" alt="shape" />
+                        <img src="assets/image/paymentgetway/payment-ft-2.png" class="shape-one shadow-lg" alt="Online Payment Gateway" />
+                        <img src="assets/image/paymentgetway/payment-ft.png" class="shape-two shadow-lg" alt="Ecommerce Payment Gateway" />
+                        <img src="assets/image/paymentgetway/p-dot.png" class="shape-three" alt="Payment Gateway Provider India" />
+                        <img src="assets/image/paymentgetway/blue-shape.png" class="shape-four" alt="UPI Payment Gateway Integration" />
+                        <img src="assets/image/paymentgetway/pink-circle.png" class="shape-five" alt="Secure Payment Gateway Services" />
                     </div>
                 </div>
             </div>
@@ -130,7 +130,7 @@
             <div class="col-lg-6 col-md-6 order-last order-md-first">
                 <div class="card-shape position-relative">
                     <div class="card-img mt-5 mt-lg-0">
-                        <img src="assets/image/paymentgetway/cr-card.webp" class="img-fluid" data-aos="fade-right" alt="card" />
+                        <img src="assets/image/paymentgetway/cr-card.webp" class="img-fluid" data-aos="fade-right" alt="Payment Gateway API Integration" />
                     </div>
                     <ul class="list-unstyled m-0">
                         <li>
@@ -189,25 +189,25 @@
                     <ul class="integration-list list-unstyled ">
                         <li>
                             <div class="integration-img">
-                                <img src="assets/image/paymentgetway/googlepay.webp" alt="integration" class="img-fluid" data-aos="fade-up">
+                                <img src="assets/image/paymentgetway/googlepay.webp" alt="Digital Payment Solutions" class="img-fluid" data-aos="fade-up">
 
                             </div>
                         </li>
                         <li>
                             <div class="integration-img">
-                                <img src="assets/image/paymentgetway/paypal.webp" alt="integration" class="img-fluid" data-aos="fade-up">
+                                <img src="assets/image/paymentgetway/paypal.webp" alt="Multi Payment Gateway Solutions" class="img-fluid" data-aos="fade-up">
 
                             </div>
                         </li>
                         <li>
                             <div class="integration-img">
-                                <img src="assets/image/paymentgetway/razorpay.webp" alt="integration" class="img-fluid" data-aos="fade-up">
+                                <img src="assets/image/paymentgetway/razorpay.webp" alt="Payment Processing Services" class="img-fluid" data-aos="fade-up">
 
                             </div>
                         </li>
                         <li>
                             <div class="integration-img">
-                                <img src="assets/image/paymentgetway/payu.webp" alt="integration" class="img-fluid" data-aos="fade-up">
+                                <img src="assets/image/paymentgetway/payu.webp" alt="Payment Gateway for Business" class="img-fluid" data-aos="fade-up">
 
                             </div>
                         </li>
@@ -215,25 +215,25 @@
                     <ul class="integration-list list-unstyled mt-4">
                         <li>
                             <div class="integration-img">
-                                <img src="assets/image/paymentgetway/stripe.webp" alt="integration" class="img-fluid" data-aos="fade-up">
+                                <img src="assets/image/paymentgetway/stripe.webp" alt="Payment Gateway Solutions India" class="img-fluid" data-aos="fade-up">
 
                             </div>
                         </li>
                         <li>
                             <div class="integration-img">
-                                <img src="assets/image/paymentgetway/phonepe.webp" alt="integration" class="img-fluid" data-aos="fade-up">
+                                <img src="assets/image/paymentgetway/phonepe.webp" alt="Payment Gateway Services" class="img-fluid" data-aos="fade-up">
 
                             </div>
                         </li>
                         <li>
                             <div class="integration-img">
-                                <img src="assets/image/paymentgetway/paytm.webp" alt="integration" class="img-fluid" data-aos="fade-up">
+                                <img src="assets/image/paymentgetway/paytm.webp" alt="Payment Gateway Integration" class="img-fluid" data-aos="fade-up">
 
                             </div>
                         </li>
                         <li>
                             <div class="integration-img">
-                                <img src="assets/image/paymentgetway/cashfree.webp" alt="integration" class="img-fluid" data-aos="fade-up">
+                                <img src="assets/image/paymentgetway/cashfree.webp" alt="Payment Gateway Company in Mumbai" class="img-fluid" data-aos="fade-up">
 
                             </div>
                         </li>
@@ -253,18 +253,18 @@
             <div class="col-lg-6">
                 <div class="benifits-left position-relative mb-5" data-aos="fade-right">
                     <div>
-                        <img src="assets/image/paymentgetway/smiling-girl.webp" class="img-fluid text-center" alt="girl" />
+                        <img src="assets/image/paymentgetway/smiling-girl.webp" class="img-fluid text-center" alt="Online Payment Gateway" />
                     </div>
                     <ul class="list-unstyled bi-right-shape">
-                        <li><img src="assets/image/paymentgetway/bi-shape.png" alt="shape" /></li>
+                        <li><img src="assets/image/paymentgetway/bi-shape.png" alt="Ecommerce Payment Gateway" /></li>
                         <li>
-                            <img src="assets/image/paymentgetway/bi-shape-2.png" alt="shape" />
+                            <img src="assets/image/paymentgetway/bi-shape-2.png" alt="Payment Gateway Provider India" />
                         </li>
                         <li>
-                            <img src="assets/image/paymentgetway/bi-shape-3.png" alt="shape" />
+                            <img src="assets/image/paymentgetway/bi-shape-3.png" alt="UPI Payment Gateway Integration" />
                         </li>
                         <li>
-                            <img src="assets/image/paymentgetway/bi-pink-dot.png" alt="shape" />
+                            <img src="assets/image/paymentgetway/bi-pink-dot.png" alt="Secure Payment Gateway Services" />
                         </li>
                     </ul>
                 </div>
@@ -282,7 +282,7 @@
                         <div class="col-lg-6">
                             <div class="single-benifit bg-white mb-4 mb-lg-0 tb-h-400" data-aos="fade-left" data-aos-anchor="#example-anchor" data-aos-offset="500" data-aos-duration="500">
                                 <div class="benifit-icon one">
-                                    <img src="assets/image/paymentgetway/send-money.webp" alt="icon" />
+                                    <img src="assets/image/paymentgetway/send-money.webp" alt="Payment Gateway API Integration" />
                                 </div>
                                 <h4 class="h5">Credit Sending</h4>
                                 <p class="m-0">
@@ -296,7 +296,7 @@
                         <div class="col-lg-6">
                             <div class="single-benifit bg-white tb-h-400" data-aos="fade-left" data-aos-anchor="#example-anchor" data-aos-offset="500" data-aos-duration="500">
                                 <div class="benifit-icon two">
-                                    <img src="assets/image/paymentgetway/protected.webp" alt="icon" />
+                                    <img src="assets/image/paymentgetway/protected.webp" alt="Digital Payment Solutions" />
                                 </div>
                                 <h4 class="h5">Always Protected</h4>
                                 <p class="m-0">
@@ -333,7 +333,7 @@
                         <div class="feature-grid position-relative">
                             <div class="feature-card border-line-style px-5 my-4"  data-aos="fade-up" data-aos-anchor-placement="top-bottom">
                                 <div class="feature-icon rounded bg-primary mb-32">
-                                    <img src="assets/image/paymentgetway/boost.webp" alt="image">
+                                    <img src="assets/image/paymentgetway/boost.webp" alt="Multi Payment Gateway Solutions">
                                 </div>
                                 <div class="feature-content">
                                     <h4 class="h5">Boost Conversion Rates</h4>
@@ -343,7 +343,7 @@
                             </div>
                             <div class="feature-card border-line-style px-5 my-4"   data-aos="fade-up" data-aos-anchor-placement="top-bottom">
                                 <div class="feature-icon rounded bg-danger mb-32">
-                                    <img src="assets/image/paymentgetway/securityfirst.webp" alt="image">
+                                    <img src="assets/image/paymentgetway/securityfirst.webp" alt="Payment Processing Services">
                                 </div>
                                 <div class="feature-content">
                                     <h4 class="h5">Security First</h4>
@@ -353,7 +353,7 @@
                             </div>
                             <div class="feature-card border-line-style px-5 my-4"   data-aos="fade-up" data-aos-anchor-placement="top-bottom">
                                 <div class="feature-icon rounded bg-dark mb-32">
-                                    <img src="assets/image/paymentgetway/customisedsolution.webp" alt="image">
+                                    <img src="assets/image/paymentgetway/customisedsolution.webp" alt="Payment Gateway for Business">
                                 </div>
                                 <div class="feature-content">
                                     <h4 class="h5">Customised Solutions</h4>
@@ -363,7 +363,7 @@
                             </div>
                             <div class="feature-card border-line-style px-5 my-4"   data-aos="fade-up" data-aos-anchor-placement="top-bottom">
                                 <div class="feature-icon rounded bg-success mb-32">
-                                    <img src="assets/image/paymentgetway/swiftpayment.webp" alt="image">
+                                    <img src="assets/image/paymentgetway/swiftpayment.webp" alt="Payment Gateway Solutions India">
                                 </div>
                                 <div class="feature-content">
                                     <h3 class="h5">Swift Payments</h3>
@@ -373,7 +373,7 @@
                             </div>
                             <div class="feature-card border-line-style px-5 my-4"   data-aos="fade-up" data-aos-anchor-placement="top-bottom">
                                 <div class="feature-icon rounded bg-primary mb-32">
-                                    <img src="assets/image/paymentgetway/success-rate.webp" alt="image">
+                                    <img src="assets/image/paymentgetway/success-rate.webp" alt="Payment Gateway Services">
                                 </div>
                                 <div class="feature-content">
                                     <h4 class="h5">High Success Rate</h4>
@@ -384,7 +384,7 @@
                             </div>
                             <div class="feature-card border-line-style px-5 my-4"   data-aos="fade-up" data-aos-anchor-placement="top-bottom">
                                 <div class="feature-icon rounded bg-warning mb-32">
-                                    <img src="assets/image/paymentgetway/diversegateway.webp" alt="image">
+                                    <img src="assets/image/paymentgetway/diversegateway.webp" alt="Payment Gateway Integration">
                                 </div>
                                 <div class="feature-content">
                                     <h4 class="h5">Diverse Gateway Options</h4>
@@ -618,7 +618,7 @@
                 </div>
             </div>
             <div class="col-lg-6 col-md-6">
-                <img src="assets/image/team/tam_grop.png" alt="image">
+                <img src="assets/image/team/tam_grop.png" alt="Payment Gateway Company in Mumbai">
             </div>
         </div>
     </div>

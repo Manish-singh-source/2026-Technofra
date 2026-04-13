@@ -106,7 +106,7 @@
                     data-aos="fade-up"
                     data-aos-delay="200">
             
-                    <img src="assets/image/api/ivr-banner.webp" alt="hero image"
+                    <img src="assets/image/api/ivr-banner.webp" alt="IVR Call Services"
                         class="img-fluid position-relative z-5">
                 </div>
             </div>
@@ -119,7 +119,7 @@
             <div class="col-lg-6 col-md-6 order-last order-md-first">
                 <div class="card-shape position-relative">
                     <div class="card-img mt-5 mt-lg-0">
-                        <img src="assets/image/api/ivr5.webp" class="img-fluid"  data-aos="fade-left" alt="card" />
+                        <img src="assets/image/api/ivr5.webp" class="img-fluid"  data-aos="fade-left" alt="IVR Service Provider" />
                     </div>
 
                 </div>
@@ -158,14 +158,14 @@
                 <ul class="list-unstyled d-flex flex-wrap list-two-col mt-5" data-aos="fade-up">
                     <li>
                         <div class="feature-icon d-inline-block bg-primary-soft rounded-circle mb-32">
-                            <img src="assets/image/api/callback.webp" alt="image">
+                            <img src="assets/image/api/callback.webp" alt="Interactive Voice Response Services">
                         </div>
                         <h3 class="h5">Streamline Call Routing</h3>
                         <p>IVR reduces wait times by directing callers to the right department quickly and efficiently.</p>
                     </li>
                     <li class="mv-pt">
                         <div class="feature-icon d-inline-block bg-success-soft rounded-circle mb-32 ">
-                            <img src="assets/image/api/customer-support.png" alt="image">
+                            <img src="assets/image/api/customer-support.png" alt="IVR Service Company in Mumbai">
                         </div>
                         <h3 class="h5 ">Enhance Customer Support</h3>
                         <p>With 24/7 automated responses, customers receive prompt and accurate assistance anytime, anywhere.</p>
@@ -180,7 +180,7 @@
 
                         <div class="position-relative mob-pt-20 mx-auto">
                             <img class="position-relative z-2 wp-100 h-auto" src="assets/image/api/ivr1.webp" style="border-radius: 10px;"
-                                alt="Image Description">
+                                alt="Cloud IVR Services">
 
                         </div>
                     </div>
@@ -195,7 +195,7 @@
         <div class="row justify-content-lg-between align-items-center">
             <div class="col-lg-6 col-12">
                 <div class="feature-img-holder mt-4 mt-lg-0 mt-xl-0">
-                    <img src="assets/image/api/ivr4.webp" class="img-fluid" data-aos="fade-left" alt="feature-image">
+                    <img src="assets/image/api/ivr4.webp" class="img-fluid" data-aos="fade-left" alt="AI IVR Solutions">
                 </div>
             </div>
             <div class="col-lg-5 col-12 mv-pt">
@@ -235,7 +235,7 @@
             </div>
             <div class="col-lg-6 col-12 order-lg-1 mv-pt">
                 <div class="feature-img-holder mt-4 mt-lg-0 mt-xl-0">
-                    <img src="assets/image/api/ivr3.webp" data-aos="fade-left" class="img-fluid" alt="feature-image">
+                    <img src="assets/image/api/ivr3.webp" data-aos="fade-left" class="img-fluid" alt="IVR Call Routing Services">
                 </div>
             </div>
 
@@ -263,7 +263,7 @@
                     <div
                         class="cta-card rounded-custom text-center custom-shadow p-5 bg-white mt-4 mt-lg-0 mt-md-0 z-2 tab-h-360 lh-350">
                         <div class="feature-icon d-inline-block bg-primary-soft rounded-circle mb-32">
-                            <img src="assets/image/api/callback.webp" alt="image">
+                            <img src="assets/image/api/callback.webp" alt="Hosted IVR Services">
                         </div>
                         <h3 class="h5">Request a Call Back</h3>
                         <p class="mb-0">Fill out the simple form below with your contact details and preferred
@@ -271,7 +271,7 @@
                     </div>
                     <!--pattern start-->
                     <div class="dot-shape-bg position-absolute z--1 left--40 top--40">
-                        <img src="assets/image/career/dot-big-square.svg" alt="shape">
+                        <img src="assets/image/career/dot-big-square.svg" alt="IVR System Development">
                     </div>
                     <!--pattern end-->
                 </div>
@@ -281,7 +281,7 @@
                     <div
                         class="cta-card rounded-custom text-center custom-shadow p-5 bg-white mt-4 mt-lg-0 mt-md-0 tab-h-360 lh-350">
                         <div class="feature-icon d-inline-block bg-danger-soft rounded-circle mb-32">
-                            <img src="assets/image/api/query.webp" alt="image">
+                            <img src="assets/image/api/query.webp" alt="IVR Call Center Solutions">
                         </div>
                         <h3 class="h5">Choose Your Query</h3>
                         <p class="mb-0">Select the reason for your call from the available options, ensuring we
@@ -293,7 +293,7 @@
                 <div class="position-relative" data-aos="fade-up" data-aos-delay="150">
                     <div class="cta-card rounded-custom text-center custom-shadow p-5 bg-white mt-4 mt-lg-0 tab-h-360 lh-350">
                         <div class="feature-icon d-inline-block bg-success-soft rounded-circle mb-32">
-                            <img src="assets/image/api/confirmation.webp" alt="image">
+                            <img src="assets/image/api/confirmation.webp" alt="Voice Call Automation Services">
                         </div>
                         <h3 class="h5">Confirmation</h3>
                         <p class="mb-0">Once submitted, you will receive a confirmation message, and our team
@@ -301,7 +301,7 @@
                     </div>
                     <!--pattern start-->
                     <div class="dot-shape-bg position-absolute z--1 right--40 bottom--40">
-                        <img src="assets/image/career/dot-big-square.svg" alt="shape">
+                        <img src="assets/image/career/dot-big-square.svg" alt="IVR Integration Services">
                     </div>
                     <!--pattern end-->
                 </div>
@@ -422,7 +422,7 @@
             </div>
             <div class="col-lg-6 col-md-7 mv-pt">
                 <div class="feature-img-wrap position-relative d-flex flex-column align-items-end">
-                    <img src="assets/image/api/enq.webp" alt="feature image" class="img-fluid rounded-custom" data-aos="fade-up">
+                    <img src="assets/image/api/enq.webp" alt="Smart IVR Solutions, Customer Support IVR System" class="img-fluid rounded-custom" data-aos="fade-up">
                 </div>
             </div>
         </div>

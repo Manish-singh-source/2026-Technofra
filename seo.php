@@ -640,7 +640,7 @@ gtag('config', 'G-189WWHXLSS');
             <div class="col-lg-5 col-xl-5">
                 <div class="seo-hero-panel">
                     <div class="seo-hero-graphic text-center">
-                        <img src="assets/image/digitalmarketing/seo.png" alt="SEO services banner" class="img-fluid">
+                        <img src="assets/image/digitalmarketing/seo.png" alt="SEO Services" class="img-fluid">
                     </div>
                     <div class="seo-hero-summary">
                         <div class="seo-hero-summary-item">
@@ -721,7 +721,7 @@ gtag('config', 'G-189WWHXLSS');
             <div class="col-lg-6">
                 <div class="text-center">
                     <img class="img-fluid rounded-6" src="assets/image/digitalmarketing/seo-about.png"
-                        alt="SEO strategy illustration">
+                        alt="SEO Company">
                 </div>
             </div>
         </div>
@@ -729,7 +729,7 @@ gtag('config', 'G-189WWHXLSS');
         <div class="row seo-pill-section">
             <div class="col-lg-12">
                 <div class="seo-pill-intro">
-                    <span class="crm-subtitle">SEO Focus Areas <img src="assets/image/arrow-red.png" alt="arrow"></span>
+                    <span class="crm-subtitle">SEO Focus Areas <img src="assets/image/arrow-red.png" alt="SEO Company in Mumbai"></span>
                     <p class="mb-0">Everything we improve is mapped around visibility, relevance, authority, and
                         conversion growth.</p>
                 </div>
@@ -778,7 +778,7 @@ gtag('config', 'G-189WWHXLSS');
             <div class="col-lg-7 m-auto text-center">
                 <div class="crm-title">
                     <span class="crm-subtitle crm-title">SEO Solutions <img src="assets/image/arrow-red.png"
-                            alt="arrow"></span>
+                            alt="Search Engine Optimization Services"></span>
                     <h2 class="tg-element-title">Core SEO Services We Offer</h2>
                 </div>
             </div>
@@ -787,7 +787,7 @@ gtag('config', 'G-189WWHXLSS');
         <div class="row g-4">
             <div class="col-lg-4 col-md-6">
                 <div class="seo-highlight-card">
-                    <img src="assets/image/digitalmarketing/sco.webp" alt="On-page SEO"
+                    <img src="assets/image/digitalmarketing/sco.webp" alt="SEO Agency India"
                         class="img-fluid rounded-3 mb-20">
                     <h4 >On-Page SEO</h4>
                     <p class="mb-0">We optimize titles, meta descriptions, headings, internal links, schema
@@ -797,7 +797,7 @@ gtag('config', 'G-189WWHXLSS');
             </div>
             <div class="col-lg-4 col-md-6">
                 <div class="seo-highlight-card">
-                    <img src="assets/image/digitalmarketing/wdd.webp" alt="Technical SEO"
+                    <img src="assets/image/digitalmarketing/wdd.webp" alt="Technical SEO Services"
                         class="img-fluid rounded-3 mb-20">
                     <h4 >Technical SEO</h4>
                     <p class="mb-0">From crawlability and indexing to page speed, mobile usability, structured data,
@@ -807,7 +807,7 @@ gtag('config', 'G-189WWHXLSS');
             </div>
             <div class="col-lg-4 col-md-6">
                 <div class="seo-highlight-card">
-                    <img src="assets/image/digitalmarketing/content-marketing.webp" alt="Content SEO"
+                    <img src="assets/image/digitalmarketing/content-marketing.webp" alt="Local SEO Services"
                         class="img-fluid rounded-3 mb-20">
                     <h4 >Content SEO</h4>
                     <p class="mb-0">We plan content clusters, service pages, blogs, FAQs, and supporting pages that help
@@ -817,7 +817,7 @@ gtag('config', 'G-189WWHXLSS');
             </div>
             <div class="col-lg-4 col-md-6">
                 <div class="seo-highlight-card">
-                    <img src="assets/image/digitalmarketing/ppc.webp" alt="Local SEO" class="img-fluid rounded-3 mb-20">
+                    <img src="assets/image/digitalmarketing/ppc.webp" alt="Ecommerce SEO Services" class="img-fluid rounded-3 mb-20">
                     <h4 >Local SEO</h4>
                     <p class="mb-0">For local businesses, we improve Google Business Profile visibility, location pages,
                         citations, reviews, and map pack relevance to bring more nearby leads and calls.</p>
@@ -825,7 +825,7 @@ gtag('config', 'G-189WWHXLSS');
             </div>
             <div class="col-lg-4 col-md-6">
                 <div class="seo-highlight-card">
-                    <img src="assets/image/digitalmarketing/email-marketing.webp" alt="Off-page SEO"
+                    <img src="assets/image/digitalmarketing/email-marketing.webp" alt="SEO Audit Services"
                         class="img-fluid rounded-3 mb-20">
                     <h4 >Off-Page SEO</h4>
                     <p class="mb-0">We support authority growth through ethical link acquisition, brand mentions,
@@ -834,7 +834,7 @@ gtag('config', 'G-189WWHXLSS');
             </div>
             <div class="col-lg-4 col-md-6">
                 <div class="seo-highlight-card">
-                    <img src="assets/image/digitalmarketing/smm.webp" alt="SEO reporting"
+                    <img src="assets/image/digitalmarketing/smm.webp" alt="On-Page SEO Services"
                         class="img-fluid rounded-3 mb-20">
                     <h4 >SEO Reporting and Growth Tracking</h4>
                     <p class="mb-0">We track rankings, traffic quality, landing page performance, conversions, and
@@ -852,7 +852,7 @@ gtag('config', 'G-189WWHXLSS');
                 <div class="seo-growth-panel">
                     <div class="crm-title">
                         <span class="crm-subtitle text-white">Why SEO Matters <img src="assets/image/arrow-red.png"
-                                alt="arrow"></span>
+                                alt="Off-Page SEO Services"></span>
                         <h2 class="text-white">Turn search demand into steady business growth</h2>
                     </div>
                     <p class="text-white">
@@ -936,7 +936,7 @@ gtag('config', 'G-189WWHXLSS');
         <div class="row">
             <div class="col-lg-7 m-auto text-center">
                 <div class="crm-title">
-                    <span class="crm-subtitle">Our Process <img src="assets/image/arrow-red.png" alt="arrow"></span>
+                    <span class="crm-subtitle">Our Process <img src="assets/image/arrow-red.png" alt="AI SEO Services"></span>
                     <h2 class="tg-element-title">How We Execute SEO Campaigns</h2>
                 </div>
             </div>
@@ -984,7 +984,7 @@ gtag('config', 'G-189WWHXLSS');
         <div class="row align-items-center">
             <div class="col-lg-6">
                 <div class="text-center text-lg-start mb-4 mb-lg-0">
-                    <img src="assets/image/digitalmarketing/why-seo.png" alt="SEO specialists"
+                    <img src="assets/image/digitalmarketing/why-seo.png" alt="Website Ranking Services"
                         class="img-fluid rounded-6">
                 </div>
             </div>
@@ -992,7 +992,7 @@ gtag('config', 'G-189WWHXLSS');
                 <div class="digi-how-works-left">
                     <div class="crm-title">
                         <span class="crm-subtitle">Why Technofra <img src="assets/image/arrow-red.png"
-                                alt="arrow"></span>
+                                alt="Organic SEO Services"></span>
                     </div>
                     <h2>Why businesses choose our SEO team</h2>
                     <p>
@@ -1005,7 +1005,7 @@ gtag('config', 'G-189WWHXLSS');
                 <div class="row pt-2">
                     <div class="col-md-6">
                         <div class="seo-why-card mb-30 mb-lg-0">
-                            <img src="assets/image/digitalmarketing/highest-quality-development.webp" alt="SEO planning"
+                            <img src="assets/image/digitalmarketing/highest-quality-development.webp" alt="SEO Services"
                                 class="img-fluid">
                             <div class="crypto-team-info pt-4 pb-1">
                                 <h4 class="text-white h5 fz-16">SEO strategy with execution</h4>
@@ -1017,7 +1017,7 @@ gtag('config', 'G-189WWHXLSS');
                     <div class="col-md-6">
                         <div class="seo-why-card">
                             <img src="assets/image/digitalmarketing/digital-marketing.jpg"
-                                alt="Reporting and optimization" class="img-fluid">
+                                alt="SEO Company" class="img-fluid">
                             <div class="crypto-team-info pt-4 pb-1">
                                 <h4 class="text-white h5 fz-16">Transparent growth reporting</h4>
                                 <p class="text-white-50 mb-0">We connect rankings, traffic and lead quality so progress

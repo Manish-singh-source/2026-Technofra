@@ -774,7 +774,7 @@ a:hover, .btn-link:hover {
         <!-- <div class="row justify-content-center">
             <div class="col-lg-6 crm-title col-md-10 pb-20">
                 <div class="section-heading text-center section-heading">
-                    <span class="crm-subtitle ">Contact Info <img src="assets/image/arrow-red.png" alt="arrow"></span>
+                    <span class="crm-subtitle ">Contact Info <img src="assets/image/arrow-red.png" alt="Contact Technofra, Contact Web Development Company in Mumbai, Get in Touch Digital Agency, Contact Digital Marketing Agency, IT Company Contact Mumbai"></span>
                     <h2 class="mt-2">
                         Contact & Join Together
                     </h2>
@@ -995,7 +995,7 @@ a:hover, .btn-link:hover {
             </div>
             <div class="col-lg-3">
                 <div class="contact-booking-illustration">
-                    <img src="assets/image/contact-gril.png" alt="image"
+                    <img src="assets/image/contact-gril.png" alt="Request Website Development Quote, Contact IT Services Company, Business Contact Information, Web Development Company Contact"
                         class="img-fluid ma-contact-img pe-none z-n1 d-none d-lg-block">
                 </div>
             </div>

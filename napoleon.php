@@ -52,7 +52,7 @@
 
 <section class="pb-60">
   <div class="cover-image">
-    <img src="assets/image/casestudy/nepoleon/nepoleon01.png" alt="image">
+    <img src="assets/image/casestudy/nepoleon/nepoleon01.png" alt="Napoleon case study">
   </div>
 </section>
 <section class="pb-60">
@@ -60,7 +60,7 @@
     <div class="row align-items-center">
 
       <div class="col-lg-7 col-md-7">
-        <img src="assets/image/casestudy/nepoleon/nepoleon02.png" alt="image" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+        <img src="assets/image/casestudy/nepoleon/nepoleon02.png" alt="Napoleon case study" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
       </div>
       <div class="col-lg-5 col-md-5">
         <div class="text-center section-heading" data-aos="fade-left" data-aos-anchor="#example-anchor" data-aos-offset="500" data-aos-duration="500">
@@ -80,13 +80,13 @@
   <div class="container">
     <div class="row align-items-center">
       <div class="col-lg-4 col-md-4">
-        <img src="assets/image/casestudy/nepoleon/nepoleon03.png" alt="image" class="dp-r-10" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
+        <img src="assets/image/casestudy/nepoleon/nepoleon03.png" alt="Napoleon case study" class="dp-r-10" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
       </div>
       <div class="col-lg-4 col-md-4">
-        <img src="assets/image/casestudy/nepoleon/nepoleon04.png" alt="image" class="dp-r-10 mob-pt-20" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
+        <img src="assets/image/casestudy/nepoleon/nepoleon04.png" alt="Napoleon case study" class="dp-r-10 mob-pt-20" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
       </div>
       <div class="col-lg-4 col-md-4">
-        <img src="assets/image/casestudy/nepoleon/nepoleon05.png" alt="image" class="dp-r-10 mob-pt-20" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
+        <img src="assets/image/casestudy/nepoleon/nepoleon05.png" alt="Napoleon case study" class="dp-r-10 mob-pt-20" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
       </div>
     </div>
   </div>
@@ -107,7 +107,7 @@
     </div>
     <div class="row align-items-center">
       <div class="col-lg-12 col-md-12">
-        <img src="assets/image/casestudy/nepoleon/nepoleon06.png" alt="image" class="dp-r-10" data-aos="fade-up" data-aos-anchor-placement="top-center">
+        <img src="assets/image/casestudy/nepoleon/nepoleon06.png" alt="Napoleon case study" class="dp-r-10" data-aos="fade-up" data-aos-anchor-placement="top-center">
       </div>
 
     </div>
@@ -126,7 +126,7 @@
         </div>
       </div>
       <div class="col-lg-6 col-md-6">
-        <img src="assets/image/casestudy/nepoleon/nepoleon09.webp" alt="image" class="dp-r-10" data-aos="fade-up" data-aos-anchor-placement="top-center">
+        <img src="assets/image/casestudy/nepoleon/nepoleon09.webp" alt="Napoleon case study" class="dp-r-10" data-aos="fade-up" data-aos-anchor-placement="top-center">
       </div>
 
     </div>
@@ -138,7 +138,7 @@
     <div class="row align-items-center">
 
       <div class="col-lg-6 col-md-6">
-        <img src="assets/image/casestudy/nepoleon/nepoleon07.webp" alt="image" class="dp-r-10" data-aos="fade-up" data-aos-anchor-placement="top-center">
+        <img src="assets/image/casestudy/nepoleon/nepoleon07.webp" alt="Napoleon case study" class="dp-r-10" data-aos="fade-up" data-aos-anchor-placement="top-center">
       </div>
       <div class="col-lg-6 col-md-6 mob-pt-20">
         <div class="text-center section-heading">
@@ -159,7 +159,7 @@
   <div class="container">
     <div class="row align-items-center">
       <div class="col-lg-12 col-md-12">
-        <img src="assets/image/casestudy/nepoleon/nepoleon08.png" alt="image" class="dp-r-10" data-aos="fade-up">
+        <img src="assets/image/casestudy/nepoleon/nepoleon08.png" alt="Napoleon case study" class="dp-r-10" data-aos="fade-up">
       </div>
 
     </div>
@@ -169,7 +169,7 @@
   <div class="container">
     <div class="row align-items-center">
       <div class="col-lg-12 col-md-12">
-        <img src="assets/image/casestudy/nepoleon/nepoleon10.png" alt="image" class="dp-r-10" data-aos="fade-up">
+        <img src="assets/image/casestudy/nepoleon/nepoleon10.png" alt="Napoleon case study" class="dp-r-10" data-aos="fade-up">
       </div>
 
     </div>

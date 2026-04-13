@@ -52,7 +52,7 @@ content="With our performance marketing services by Technofra, we drive business
 
 <section class="pt-70">
   <div class="cover-image">
-    <img src="assets/image/casestudy/instacraves/instacraves01.webp" alt="image">
+    <img src="assets/image/casestudy/instacraves/instacraves01.webp" alt="Instacraves case study">
   </div>
 </section>
 <section class="pt-70">
@@ -79,27 +79,27 @@ content="With our performance marketing services by Technofra, we drive business
 </section>
 <section class="pt-70">
   <div class="cover-image">
-    <img src="assets/image/casestudy/instacraves/instacraves03.webp" alt="image" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+    <img src="assets/image/casestudy/instacraves/instacraves03.webp" alt="Instacraves case study" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
   </div>
 </section>
 <section>
   <div class="cover-image">
-    <img src="assets/image/casestudy/instacraves/instacraves05.webp" alt="image">
+    <img src="assets/image/casestudy/instacraves/instacraves05.webp" alt="Instacraves case study">
   </div>
 </section>
 <section>
   <div class="cover-image">
-    <img src="assets/image/casestudy/instacraves/instacraves06.webp" alt="image">
+    <img src="assets/image/casestudy/instacraves/instacraves06.webp" alt="Instacraves case study">
   </div>
 </section>
 <section>
   <div class="cover-image">
-    <img src="assets/image/casestudy/instacraves/instacraves02.webp" alt="image">
+    <img src="assets/image/casestudy/instacraves/instacraves02.webp" alt="Instacraves case study">
   </div>
 </section>
 <section>
   <div class="cover-image">
-    <img src="assets/image/casestudy/instacraves/instacraves04.webp" alt="image">
+    <img src="assets/image/casestudy/instacraves/instacraves04.webp" alt="Instacraves case study">
   </div>
 </section>
 

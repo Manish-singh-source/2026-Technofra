@@ -36,7 +36,7 @@ gtag('config', 'G-189WWHXLSS');
 
 <section class="pb-60">
     <div class="cover-image">
-        <img src="assets/image/casestudy/creative/creative01.webp" alt="image">
+        <img src="assets/image/casestudy/creative/creative01.webp" alt="Creative Print Inks case study">
     </div>
 </section>
 
@@ -63,7 +63,7 @@ gtag('config', 'G-189WWHXLSS');
                 </div>
             </div>
             <div class="col-lg-6 col-md-6">
-                <img src="assets/image/casestudy/creative/creative02.webp" alt="image" class="dp-r-10"
+                <img src="assets/image/casestudy/creative/creative02.webp" alt="Creative Print Inks case study" class="dp-r-10"
                     data-aos="fade-left" data-aos-anchor="#example-anchor" data-aos-offset="500"
                     data-aos-duration="500">
             </div>
@@ -74,7 +74,7 @@ gtag('config', 'G-189WWHXLSS');
     <div class="container">
         <div class="row justify-content-between align-items-center">
             <div class="col-lg-12 col-md-12">
-                <img src="assets/image/casestudy/creative/creative04.webp" alt="image" class="dp-r-10"
+                <img src="assets/image/casestudy/creative/creative04.webp" alt="Creative Print Inks case study" class="dp-r-10"
                     data-aos="fade-up" data-aos-anchor-placement="center-bottom">
             </div>
         </div>
@@ -84,7 +84,7 @@ gtag('config', 'G-189WWHXLSS');
     <div class="container">
         <div class="row justify-content-between align-items-center">
             <div class="col-lg-6 col-md-6">
-                <img src="assets/image/casestudy/creative/creative03.webp" alt="image" class="dp-r-10"
+                <img src="assets/image/casestudy/creative/creative03.webp" alt="Creative Print Inks case study" class="dp-r-10"
                     data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
             </div>
             <div class="col-lg-5 col-md-5">
@@ -124,7 +124,7 @@ gtag('config', 'G-189WWHXLSS');
                 </div>
             </div>
             <div class="col-lg-6 col-md-6">
-                <img src="assets/image/casestudy/creative/creative06.webp" alt="image" class="dp-r-10"
+                <img src="assets/image/casestudy/creative/creative06.webp" alt="Creative Print Inks case study" class="dp-r-10"
                     data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
             </div>
         </div>
@@ -135,11 +135,11 @@ gtag('config', 'G-189WWHXLSS');
     <div class="container">
         <div class="row justify-content-between align-items-center">
             <div class="col-lg-6 col-md-6">
-                <img src="assets/image/casestudy/creative/creative05.webp" alt="image" class="dp-r-10"
+                <img src="assets/image/casestudy/creative/creative05.webp" alt="Creative Print Inks case study" class="dp-r-10"
                     data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
             </div>
             <div class="col-lg-6 col-md-6">
-                <img src="assets/image/casestudy/creative/creative07.webp" alt="image" class="dp-r-10"
+                <img src="assets/image/casestudy/creative/creative07.webp" alt="Creative Print Inks case study" class="dp-r-10"
                     data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
             </div>
         </div>

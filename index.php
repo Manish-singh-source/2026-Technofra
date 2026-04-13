@@ -782,50 +782,50 @@ gtag('config', 'G-189WWHXLSS');
             <div class="rnHeroLogoTrack">
                 <div class="rnHeroLogoGroup">
                     <div class="single-logo" data-link="#">
-                        <img src="assets/image/home/blueorbith.png" alt="logo" />
+                        <img src="assets/image/home/blueorbith.png" alt="Web Design &amp; Development Company" />
                     </div>
                     <div class="single-logo" data-link="#">
-                        <img src="assets/image/home/grid-infinity.png" alt="logo" />
+                        <img src="assets/image/home/grid-infinity.png" alt="Website Development Company in Mumbai" />
                     </div>
                     <div class="single-logo" data-link="#">
-                        <img src="assets/image/home/digikcon.png" alt="logo" />
+                        <img src="assets/image/home/digikcon.png" alt="Digital Marketing Agency" />
                     </div>
                     <div class="single-logo" data-link="#">
-                        <img src="assets/image/home/markidentitiez.png" alt="logo" />
+                        <img src="assets/image/home/markidentitiez.png" alt="IT Services Company" />
                     </div>
                     <div class="single-logo" data-link="#">
-                        <img src="assets/image/home/blueorbith.png" alt="logo" />
+                        <img src="assets/image/home/blueorbith.png" alt="Ecommerce Website Development" />
                     </div>
                     <div class="single-logo" data-link="#">
-                        <img src="assets/image/home/grid-infinity.png" alt="logo" />
+                        <img src="assets/image/home/grid-infinity.png" alt="Mobile App Development Company" />
                     </div>
                 </div>
 
                 <div class="rnHeroLogoGroup" aria-hidden="true">
                     <div class="single-logo" data-link="#">
-                        <img src="assets/image/home/digikcon.png" alt="logo" />
+                        <img src="assets/image/home/digikcon.png" alt="SEO Services" />
                     </div>
                     <div class="single-logo" data-link="#">
-                        <img src="assets/image/home/markidentitiez.png" alt="logo" />
+                        <img src="assets/image/home/markidentitiez.png" alt="Branding Agency" />
                     </div>
 
                     <div class="single-logo" data-link="#">
-                        <img src="assets/image/home/blueorbith.png" alt="logo" />
+                        <img src="assets/image/home/blueorbith.png" alt="UI UX Design Services" />
                     </div>
                     <div class="single-logo" data-link="#">
-                        <img src="assets/image/home/grid-infinity.png" alt="logo" />
+                        <img src="assets/image/home/grid-infinity.png" alt="Payment Gateway Integration" />
                     </div>
                     <div class="single-logo" data-link="#">
-                        <img src="assets/image/home/digikcon.png" alt="logo" />
+                        <img src="assets/image/home/digikcon.png" alt="Domain &amp; Hosting Services" />
                     </div>
                     <div class="single-logo" data-link="#">
-                        <img src="assets/image/home/markidentitiez.png" alt="logo" />
+                        <img src="assets/image/home/markidentitiez.png" alt="IT Infrastructure Services" />
                     </div>
                     <div class="single-logo" data-link="#">
-                        <img src="assets/image/home/digikcon.png" alt="logo" />
+                        <img src="assets/image/home/digikcon.png" alt="Web Development Company India" />
                     </div>
                     <div class="single-logo" data-link="#">
-                        <img src="assets/image/home/markidentitiez.png" alt="logo" />
+                        <img src="assets/image/home/markidentitiez.png" alt="Full Service Digital Agency" />
                     </div>
                 </div>
             </div>
@@ -859,7 +859,7 @@ gtag('config', 'G-189WWHXLSS');
             <!-- LEFT -->
             <div class="uxb_about_left_block">
                 <span class="crm-subtitle aos-init aos-animate pb-20" data-aos="fade-left" data-aos-duration="600">More
-                    About Us <img src="assets/image/arrow-red.png" alt="arrow"></span>
+                    About Us <img src="assets/image/arrow-red.png" alt="Best Digital Agency in Mumbai"></span>
                 <!-- <div class="uxb_about_mini_title"></div> -->
 
                 <h2 class="uxb_about_heading_title">
@@ -930,11 +930,11 @@ gtag('config', 'G-189WWHXLSS');
             <!-- RIGHT -->
             <div class="uxb_about_right_visual" data-aos="fade-left" data-aos-duration="600">
                 <div class="uxb_about_small_card_img">
-                    <img src="assets\image\home\about-02.webp" alt="Meeting Image">
+                    <img src="assets\image\home\about-02.webp" alt="Affordable Website Development Services">
                 </div>
 
                 <div class="uxb_about_big_image_holder">
-                    <img src="assets\image\home\about-01.webp" alt="Business Team">
+                    <img src="assets\image\home\about-01.webp" alt="Online Marketing Services">
                 </div>
 
                 <div class="uxb_about_trust_badge">
@@ -944,19 +944,19 @@ gtag('config', 'G-189WWHXLSS');
                     <div class="uxb_about_avatar_group_shell">
                         <div class="uxb_about_avatar_stack_list">
                             <div class="uxb_about_avatar_single">
-                                <img src="assets\image\clogos\1.png" alt="User 1">
+                                <img src="assets\image\clogos\1.png" alt="Custom Website Development">
                             </div>
                             <div class="uxb_about_avatar_single">
-                                <img src="assets\image\clogos\2.png" alt="User 2">
+                                <img src="assets\image\clogos\2.png" alt="Lead Generation Services">
                             </div>
                             <div class="uxb_about_avatar_single">
-                                <img src="assets\image\clogos\3.png" alt="User 3">
+                                <img src="assets\image\clogos\3.png" alt="Web Design &amp; Development Company">
                             </div>
                             <div class="uxb_about_avatar_single">
-                                <img src="assets\image\clogos\4.png" alt="User 4">
+                                <img src="assets\image\clogos\4.png" alt="Website Development Company in Mumbai">
                             </div>
                             <div class="uxb_about_avatar_single">
-                                <img src="assets\image\clogos\5.png" alt="User 4">
+                                <img src="assets\image\clogos\5.png" alt="Digital Marketing Agency">
                             </div>
                         </div>
 
@@ -1011,7 +1011,7 @@ gtag('config', 'G-189WWHXLSS');
         <div class="dd-section">
             <div class="dd-left">
                 <span class="crm-subtitle" data-aos="fade-left" data-aos-duration="600">Our Services <img
-                        src="assets/image/arrow-red.png" alt="arrow"></span>
+                        src="assets/image/arrow-red.png" alt="IT Services Company"></span>
                 <h2 class="dd-heading" data-aos="fade-up" data-aos-duration="600">
                     Services We Provide
                 </h2>
@@ -1027,10 +1027,10 @@ gtag('config', 'G-189WWHXLSS');
 
                 <div class="dd-image-row">
                     <div class="dd-image-box image-anime" data-aos="fade-up" data-aos-duration="600">
-                        <img src="assets\image\home\1.webp">
+                        <img src="assets\image\home\1.webp" alt="Ecommerce Website Development">
                     </div>
                     <div class="dd-image-box image-anime" data-aos="fade-up" data-aos-duration="600">
-                        <img src="assets\image\home\2.webp">
+                        <img src="assets\image\home\2.webp" alt="Mobile App Development Company">
                     </div>
                 </div>
 
@@ -1067,7 +1067,7 @@ gtag('config', 'G-189WWHXLSS');
                                     </p>
                                 </div>
                                 <div class="dd-card-back">
-                                    <img src="assets/image/home/ss1.webp">
+                                    <img src="assets/image/home/ss1.webp" alt="SEO Services">
                                 </div>
                             </div>
                         </div>
@@ -1088,7 +1088,7 @@ gtag('config', 'G-189WWHXLSS');
                                     </p>
                                 </div>
                                 <div class="dd-card-back">
-                                    <img src="assets/image/home/ss2.webp">
+                                    <img src="assets/image/home/ss2.webp" alt="Branding Agency">
                                 </div>
                             </div>
                         </div>
@@ -1107,7 +1107,7 @@ gtag('config', 'G-189WWHXLSS');
                                     </p>
                                 </div>
                                 <div class="dd-card-back">
-                                    <img src="assets/image/home/ss3.webp">
+                                    <img src="assets/image/home/ss3.webp" alt="UI UX Design Services">
                                 </div>
                             </div>
                         </div>
@@ -1130,7 +1130,7 @@ gtag('config', 'G-189WWHXLSS');
                                     </p>
                                 </div>
                                 <div class="dd-card-back">
-                                    <img src="assets\image\home\digitals.png">
+                                    <img src="assets\image\home\digitals.png" alt="Payment Gateway Integration">
                                 </div>
                             </div>
                         </div>
@@ -1149,7 +1149,7 @@ gtag('config', 'G-189WWHXLSS');
                                     </p>
                                 </div>
                                 <div class="dd-card-back">
-                                    <img src="assets\image\home\socails.png">
+                                    <img src="assets\image\home\socails.png" alt="Domain &amp; Hosting Services">
                                 </div>
                             </div>
                         </div>
@@ -1172,7 +1172,7 @@ gtag('config', 'G-189WWHXLSS');
 <section class="medlaunch-wrapper ptb-60">
     <div class="container">
         <div class="section-heading crm-title text-center" data-aos="fade-up" data-aos-duration="600">
-            <span class="crm-subtitle ">Why Technofra<img src="assets/image/arrow-red.png" alt="arrow"></span>
+            <span class="crm-subtitle ">Why Technofra<img src="assets/image/arrow-red.png" alt="IT Infrastructure Services"></span>
             <h2>Why Choose Us</h2>
         </div>
         <div class="medlaunch-grid " data-aos="fade-up" data-aos-duration="600">
@@ -1187,7 +1187,7 @@ gtag('config', 'G-189WWHXLSS');
 
             <div class="medlaunch-card medlaunch-image-card" data-aos="fade-up" data-aos-duration="600">
                 <img src="assets\image\home\support-team.webp" class="medlaunch-img"
-                    alt="Technofra support team assisting clients in real time">
+                    alt="Web Development Company India">
                 <div class="medlaunch-image-content">
                     <div class="medlaunch-label">Real-Time Support Team</div>
                     <h3 class="medlaunch-title">Always-On Client Support</h3>
@@ -1207,17 +1207,17 @@ gtag('config', 'G-189WWHXLSS');
                 </p>
 
                 <div class="medlaunch-users">
-                    <img src="https://i.pravatar.cc/100?img=4" class="medlaunch-user">
-                    <img src="https://i.pravatar.cc/100?img=3" class="medlaunch-user">
-                    <img src="https://i.pravatar.cc/100?img=2" class="medlaunch-user">
-                    <img src="https://i.pravatar.cc/100?img=1" class="medlaunch-user">
+                    <img src="https://i.pravatar.cc/100?img=4" class="medlaunch-user" alt="Full Service Digital Agency">
+                    <img src="https://i.pravatar.cc/100?img=3" class="medlaunch-user" alt="Best Digital Agency in Mumbai">
+                    <img src="https://i.pravatar.cc/100?img=2" class="medlaunch-user" alt="Affordable Website Development Services">
+                    <img src="https://i.pravatar.cc/100?img=1" class="medlaunch-user" alt="Online Marketing Services">
                     <span class="medlaunch-count">25k</span>
                 </div>
             </div>
 
             <div class="medlaunch-card medlaunch-image-card" data-aos="fade-up" data-aos-duration="600">
                 <img src="assets\image\home\ourteam.webp" class="medlaunch-img"
-                    alt="Technofra skilled team collaborating on digital solutions">
+                    alt="Custom Website Development">
                 <div class="medlaunch-image-content">
                     <div class="medlaunch-label">Our Skilled Team</div>
                     <h3 class="medlaunch-title">Expertise That Delivers</h3>
@@ -1336,7 +1336,7 @@ gtag('config', 'G-189WWHXLSS');
 
                 <div class="eep-center-circle"></div>
                 <div class="eep-person">
-                    <img src="assets/image/home/cont2.png" alt="Contact person" />
+                    <img src="assets/image/home/cont2.png" alt="Lead Generation Services" />
                 </div>
             </div>
         </div>
@@ -1397,7 +1397,7 @@ gtag('config', 'G-189WWHXLSS');
 
 <!-- <section class="indusSecWrap_v1">
     <div class="indusInnerBox_v1 container" data-aos="fade-up" data-aos-duration="600">
-        <span class="crm-subtitle "> Our Industries <img src="assets/image/arrow-red.png" alt="arrow"> </span>
+        <span class="crm-subtitle "> Our Industries <img src="assets/image/arrow-red.png" alt="Web Design &amp; Development Company"> </span>
         <h2 class="indusHeadingTxt_v1">Industries We Serve</h2>
 
         <div class="indusGridFlex_v1" data-aos="fade-up" data-aos-duration="600">
@@ -1471,7 +1471,7 @@ gtag('config', 'G-189WWHXLSS');
 <section class="tfxIndusSection">
     <div class="tfxIndusContainer container">
         <div class="section-heading crm-title text-center" data-aos="fade-up" data-aos-duration="600">
-            <span class="crm-subtitle">Our Industries <img src="assets/image/arrow-red.png" alt="arrow"></span>
+            <span class="crm-subtitle">Our Industries <img src="assets/image/arrow-red.png" alt="Website Development Company in Mumbai"></span>
             <h2 class="white">Industries We Serve</h2>
         </div>
         <!-- <h2 class="tfxIndusHeading">Industries We Serve</h2>
@@ -1731,7 +1731,7 @@ gtag('config', 'G-189WWHXLSS');
 <div class="mlp-containers ptb-60 ">
     <div class="container mlp-container">
         <div class="text-center">
-            <span class="crm-subtitle ">Client Review<img src="assets/image/arrow-red.png" alt="arrow"></span>
+            <span class="crm-subtitle ">Client Review<img src="assets/image/arrow-red.png" alt="Digital Marketing Agency"></span>
             <h2 class="dd-heading text-center" data-aos="fade-up" data-aos-duration="600">
                 Testimonials
             </h2>
@@ -1740,7 +1740,7 @@ gtag('config', 'G-189WWHXLSS');
         <div class="mlp-grid">
             <div class="mlp-card" data-aos="fade-up" data-aos-duration="600">
                 <div class="pb-20">
-                    <img src="assets\image\home\tclient.webp" alt="">
+                    <img src="assets\image\home\tclient.webp" alt="IT Services Company">
                 </div>
                 <h3>Join Us And Transform Your Business With Smart Technology Solutions</h3>
                 <p>Drive more growth and achieve success with innovative technology solutions.</p>
@@ -1752,22 +1752,22 @@ gtag('config', 'G-189WWHXLSS');
                     <div class="mlp-testimonial-track" id="testimonialTrack">
 
                         <div class="mlp-testimonial-item">
-                            <img src="assets\image\home\t1.webp">
+                            <img src="assets\image\home\t1.webp" alt="Ecommerce Website Development">
                             <p>Technofra delivered our website on time with excellent design and smooth functionality.
                             </p>
-                            <p><img src="assets\image\clogos\4.png" alt="" class="clogo"></p>
+                            <p><img src="assets\image\clogos\4.png" alt="Mobile App Development Company" class="clogo"></p>
                         </div>
 
                         <div class="mlp-testimonial-item">
-                            <img src="assets\image\home\t2.webp">
+                            <img src="assets\image\home\t2.webp" alt="SEO Services">
                             <p>Their team provided great support and helped us grow our business digitally.</p>
-                            <p><img src="assets\image\clogos\6.png" alt="" class="clogo"></p>
+                            <p><img src="assets\image\clogos\6.png" alt="Branding Agency" class="clogo"></p>
                         </div>
 
                         <div class="mlp-testimonial-item">
-                            <img src="assets\image\home\t3.webp">
+                            <img src="assets\image\home\t3.webp" alt="UI UX Design Services">
                             <p>We are very happy with the app development service and professional approach.</p>
-                            <p> <img src="assets\image\clogos\1.png" alt="" class="clogo"></p>
+                            <p> <img src="assets\image\clogos\1.png" alt="Payment Gateway Integration" class="clogo"></p>
                         </div>
 
                     </div>
@@ -1779,32 +1779,32 @@ gtag('config', 'G-189WWHXLSS');
                 <div class="clc-wrapper">
                     <div class="clc-circle-box">
                         <div class="clc-ring clc-ring-outer">
-                            <div class="clc-logo clc-o1"><img src="assets/image/clogos/1.png"></div>
-                            <div class="clc-logo clc-o2"><img src="assets/image/clogos/2.png"></div>
-                            <div class="clc-logo clc-o3"><img src="assets/image/clogos/3.png"></div>
-                            <div class="clc-logo clc-o4"><img src="assets/image/clogos/4.png"></div>
-                            <div class="clc-logo clc-o5"><img src="assets/image/clogos/5.png"></div>
-                            <div class="clc-logo clc-o6"><img src="assets/image/clogos/6.png"></div>
-                            <div class="clc-logo clc-o7"><img src="assets/image/clogos/17.png"></div>
-                            <div class="clc-logo clc-o8"><img src="assets/image/clogos/18.png"></div>
+                            <div class="clc-logo clc-o1"><img src="assets/image/clogos/1.png" alt="Domain &amp; Hosting Services"></div>
+                            <div class="clc-logo clc-o2"><img src="assets/image/clogos/2.png" alt="IT Infrastructure Services"></div>
+                            <div class="clc-logo clc-o3"><img src="assets/image/clogos/3.png" alt="Web Development Company India"></div>
+                            <div class="clc-logo clc-o4"><img src="assets/image/clogos/4.png" alt="Full Service Digital Agency"></div>
+                            <div class="clc-logo clc-o5"><img src="assets/image/clogos/5.png" alt="Best Digital Agency in Mumbai"></div>
+                            <div class="clc-logo clc-o6"><img src="assets/image/clogos/6.png" alt="Affordable Website Development Services"></div>
+                            <div class="clc-logo clc-o7"><img src="assets/image/clogos/17.png" alt="Online Marketing Services"></div>
+                            <div class="clc-logo clc-o8"><img src="assets/image/clogos/18.png" alt="Custom Website Development"></div>
                         </div>
 
 
                         <div class="clc-ring clc-ring-middle">
-                            <div class="clc-logo clc-m1"><img src="assets/image/clogos/7.png"></div>
-                            <div class="clc-logo clc-m2"><img src="assets/image/clogos/8.png"></div>
-                            <div class="clc-logo clc-m3"><img src="assets/image/clogos/9.png"></div>
-                            <div class="clc-logo clc-m4"><img src="assets/image/clogos/10.png"></div>
-                            <div class="clc-logo clc-m5"><img src="assets/image/clogos/11.png"></div>
-                            <div class="clc-logo clc-m6"><img src="assets/image/clogos/12.png"></div>
+                            <div class="clc-logo clc-m1"><img src="assets/image/clogos/7.png" alt="Lead Generation Services"></div>
+                            <div class="clc-logo clc-m2"><img src="assets/image/clogos/8.png" alt="Web Design &amp; Development Company"></div>
+                            <div class="clc-logo clc-m3"><img src="assets/image/clogos/9.png" alt="Website Development Company in Mumbai"></div>
+                            <div class="clc-logo clc-m4"><img src="assets/image/clogos/10.png" alt="Digital Marketing Agency"></div>
+                            <div class="clc-logo clc-m5"><img src="assets/image/clogos/11.png" alt="IT Services Company"></div>
+                            <div class="clc-logo clc-m6"><img src="assets/image/clogos/12.png" alt="Ecommerce Website Development"></div>
                         </div>
 
 
                         <div class="clc-ring clc-ring-inner">
-                            <div class="clc-logo clc-i1"><img src="assets/image/clogos/13.png"></div>
-                            <div class="clc-logo clc-i2"><img src="assets/image/clogos/14.png"></div>
-                            <div class="clc-logo clc-i3"><img src="assets/image/clogos/15.png"></div>
-                            <div class="clc-logo clc-i4"><img src="assets/image/clogos/16.png"></div>
+                            <div class="clc-logo clc-i1"><img src="assets/image/clogos/13.png" alt="Mobile App Development Company"></div>
+                            <div class="clc-logo clc-i2"><img src="assets/image/clogos/14.png" alt="SEO Services"></div>
+                            <div class="clc-logo clc-i3"><img src="assets/image/clogos/15.png" alt="Branding Agency"></div>
+                            <div class="clc-logo clc-i4"><img src="assets/image/clogos/16.png" alt="UI UX Design Services"></div>
                         </div>
 
                         <div class="clc-center"></div>
@@ -1825,7 +1825,7 @@ gtag('config', 'G-189WWHXLSS');
 <section class="faq-section tfx-faq-section ptb-60">
     <div class="container tfx-faq-shell">
         <div class="section-heading text-center" data-aos="fade-up" data-aos-duration="600">
-            <span class="crm-subtitle">FAQ<img src="assets/image/arrow-red.png" alt="arrow"></span>
+            <span class="crm-subtitle">FAQ<img src="assets/image/arrow-red.png" alt="Payment Gateway Integration"></span>
             <h2>Frequently Asked Questions</h2>
         </div>
 
@@ -2033,7 +2033,7 @@ gtag('config', 'G-189WWHXLSS');
         <div class="row">
             <div class="col-lg-8 m-auto text-center" data-aos="fade-up" data-aos-duration="600">
                 <div class=" crm-title">
-                    <span class="crm-subtitle ">Blog & News <img src="assets/image/arrow-red.png" alt="arrow"></span>
+                    <span class="crm-subtitle ">Blog & News <img src="assets/image/arrow-red.png" alt="Domain &amp; Hosting Services"></span>
                     <h2>
                         See Our Latest Blog & News
                     </h2>
@@ -2049,7 +2049,7 @@ gtag('config', 'G-189WWHXLSS');
                     <div class="swiper-slide">
                         <div class="cyber-single-article p-3 border">
                             <div class="image image-anime">
-                                <img src="assets/image/home/blog01.webp" alt="image">
+                                <img src="assets/image/home/blog01.webp" alt="IT Infrastructure Services">
                             </div>
                             <div class="article-content">
                                 <div class="article-info d-flex py-3">
@@ -2081,7 +2081,7 @@ gtag('config', 'G-189WWHXLSS');
                     <div class="swiper-slide">
                         <div class="cyber-single-article p-3 border">
                             <div class="image image-anime">
-                                <img src="assets/image/home/blog02.webp" alt="image">
+                                <img src="assets/image/home/blog02.webp" alt="Web Development Company India">
                             </div>
                             <div class="article-content">
                                 <div class="article-info d-flex py-3">
@@ -2114,7 +2114,7 @@ gtag('config', 'G-189WWHXLSS');
                     <div class="swiper-slide">
                         <div class="cyber-single-article p-3 border">
                             <div class="image image-anime">
-                                <img src="assets/image/home/blog03.webp" alt="image">
+                                <img src="assets/image/home/blog03.webp" alt="Full Service Digital Agency">
                             </div>
                             <div class="article-content">
                                 <div class="article-info d-flex py-3">
@@ -2145,7 +2145,7 @@ gtag('config', 'G-189WWHXLSS');
                     <!-- <div class="swiper-slide">
                         <div class="cyber-single-article p-3 border">
                             <div class="image image-anime">
-                                <img src="assets/image/home/blog03.webp" alt="image">
+                                <img src="assets/image/home/blog03.webp" alt="Best Digital Agency in Mumbai">
                             </div>
                             <div class="article-content">
                                 <div class="article-info d-flex py-3">
@@ -2176,7 +2176,7 @@ gtag('config', 'G-189WWHXLSS');
                     <div class="swiper-slide">
                         <div class="cyber-single-article p-3 border">
                             <div class="image image-anime">
-                                <img src="assets/image/home/blog03.webp" alt="image">
+                                <img src="assets/image/home/blog03.webp" alt="Affordable Website Development Services">
                             </div>
                             <div class="article-content">
                                 <div class="article-info d-flex py-3">
@@ -2207,7 +2207,7 @@ gtag('config', 'G-189WWHXLSS');
                     <div class="swiper-slide">
                         <div class="cyber-single-article p-3 border">
                             <div class="image image-anime">
-                                <img src="assets/image/home/blog03.webp" alt="image">
+                                <img src="assets/image/home/blog03.webp" alt="Online Marketing Services">
                             </div>
                             <div class="article-content">
                                 <div class="article-info d-flex py-3">

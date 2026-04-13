@@ -299,7 +299,7 @@ gtag('config', 'G-189WWHXLSS');
             </div>
             <div class="col-lg-5 col-md-8 mt-5">
                 <div class="position-relative text-center">
-                    <img src="assets/image/mobileapp/iphone2.webp" alt="app screen" class="img-fluid" />
+                    <img src="assets/image/mobileapp/iphone2.webp" alt="iOS App Development Company" class="img-fluid" />
                 </div>
             </div>
         </div>
@@ -340,102 +340,17 @@ gtag('config', 'G-189WWHXLSS');
             <div class="col-lg-6 col-md-12">
                 <div class="digi-why-left iosflex1" data-aos="fade-left" data-aos-offset="300"
                     data-aos-easing="ease-in-sine">
-                    <img src="assets\image\mobileapp\ios.png" class="img-fluid brad" alt="Girl" />
+                    <img src="assets\image\mobileapp\ios.png" class="img-fluid brad" alt="iOS App Development Services" />
 
                     </ul>
                 </div>
             </div>
         </div>
-        <!-- <div class="row justify-content-center mt-5">
-            <div class="col-lg-6 col-md-6 col-xl-3">
-                <div class="box1 digi-service-single bg-white p-4 mb-4 mb-xl-0" data-aos="fade-up"
-                    data-aos-anchor-placement="top-bottom">
-                    <img src="assets/image/mobileapp/d1.webp" alt="icon" style="border-radius: 5px;" />
-                    <h3 class="h5">Native iOS Development</h3>
-                    <p>
-                        Our native iOS development expertise spans the entire app development lifecycle.
-                    </p>
-
-                </div>
-            </div>
-            <div class="col-lg-6 col-md-6 col-xl-3">
-                <div class="digi-service-single bg-white p-4 mb-4 mb-xl-0" data-aos="fade-up"
-                    data-aos-anchor-placement="top-bottom">
-                    <img src="assets/image/mobileapp/d2.webp" alt="icon" style="border-radius: 5px;" />
-                    <h3 class="h5">Consumer Apps</h3>
-                    <p>
-                        Our custom consumer apps are easy to usr, highly functional, and beautifully designed
-                        with the ability to enhance consumer.
-                    </p>
-
-                </div>
-            </div>
-            <div class="col-lg-6 col-md-6 col-xl-3">
-                <div class="digi-service-single bg-white p-4 mb-4 mb-xl-0" data-aos="fade-up"
-                    data-aos-anchor-placement="top-bottom">
-                    <img src="assets/image/mobileapp/d3.webp" alt="icon" style="border-radius: 5px;" />
-                    <h3 class="h5">SMB/Enterprise Apps</h3>
-                    <p>
-                        Our custom SMB/enterprise apps can be securely seamlessly integrated with your
-                        organization’s IT infrastructure.
-
-
-                    </p>
-
-                </div>
-            </div>
-            <div class="col-lg-6 col-md-6 col-xl-3">
-                <div class="digi-service-single bg-white p-4 mb-4 mb-xl-0">
-                    <img src="assets/image/mobileapp/d4.webp" alt="icon" style="border-radius: 5px;" />
-                    <h3 class="h5">IoT Apps</h3>
-                    <p>
-                        We develop top-notch iOS apps that are compatible with multiple IoT devices containing
-                        embedded sensors , including.
-                    </p>
-
-                </div>
-            </div>
-        </div> -->
+       
     </div>
 
 </section>
-<!-- About -->
-<!-- <section class="feature-section ptb-60">
-    <div class="container">
-        <div class="feature-container mx-lg-5 position-relative  ptb-60 rounded-custom" data-aos="fade-up"
-            data-aos-anchor-placement="bottom-bottom">
-            <img src="assets/image/mobileapp/mob-call-bk.webp" alt="feature-bg"
-                class="feature-bg-mockup position-absolute w-100  left-0 right-0 top-0 bottom-0 rounded-custom dptab-h-400">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12 col-lg-6">
-                        <div class="feature-bg-img-content position-relative z-5 pl-20">
-                            <div class="section-heading">
-                                <h2 class="clr-black">Getting Started With Technofra Today!</h2>
-                                <p class="clr-black">Intrinsicly impact resource sucking initiatives with 24/7
-                                    relationships communicate integrated products via synergistic leadership skills.</p>
-                            </div>
-                            <div class="footer_app">
-                                <div class="d-flex">
-                                    <a href="javascript:void(0);" class="APPS" contenteditable="false"
-                                        style="cursor: pointer;">
-
-                                        <img src="assets/image/mobileapp/play-dark.png">
-                                    </a>
-                                    <a href="javascript:void(0);" class="APPS" contenteditable="false"
-                                        style="cursor: pointer;">
-                                        <img src="assets/image/mobileapp/ios-black-dark.png">
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section> -->
-<!-- Service -->
+ 
 
 <section class="hfz-services-section">
     <div class="hfz-container container">
@@ -445,7 +360,7 @@ gtag('config', 'G-189WWHXLSS');
             <div class="hfz-services-intro" data-aos="fade-up" data-aos-duration="600">
                 <div class="about-company-subtitle">
                     <span>Our Services</span>
-                    <img src="assets/image/arrow-red.png" alt="Arrow">
+                    <img src="assets/image/arrow-red.png" alt="Mobile App Development Company Mumbai">
                 </div>
                 <h2 class="hfz-section-title">iOS App Development Services We Offer</h2>
                 <p class="hfz-section-text">
@@ -508,96 +423,14 @@ gtag('config', 'G-189WWHXLSS');
         </div>
     </div>
 </section>
-<!-- <div class="aih-info-card-lg-area ah-bg ptb-60">
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-lg-9">
-                <div class="text-center  mb-40">
-                    <h2 class="aih-title aih-color-two fw-600">iOS App Development Services We Offer
-                    </h2>
-                    <p> Technofra provides complete iOS app development services—from UI/UX design and coding to
-                        testing, support, and maintenance—delivering high-quality apps from start to finish.
-                    </p>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-xl-4 col-md-6">
-                <div class="aih-info-card-item bgc-white aih-shadow-hover p-4 ptb-30 rounded-10 mt-20"
-                    data-aos="fade-up" data-aos-anchor-placement="center-bottom">
-                    <div class="d-flex align-items-center gap-2">
-                        <img src="assets/image/mobileapp/iodappdevelopment.webp" alt="image">
-                        <h5 class="aih-color-two fs-24 fw-600">Custom iOS App Development</h5>
-                    </div>
-                    <p class="ca-two-body-clr mt-20 mb-0">Tailored iOS applications designed to meet your unique
-                        business needs with seamless functionality and innovative features.</p>
-                </div>
-            </div>
-            <div class="col-xl-4 col-md-6">
-                <div class="aih-info-card-item bgc-white aih-shadow-hover p-4 ptb-30 rounded-10 mt-20"
-                    data-aos="fade-up" data-aos-anchor-placement="center-bottom">
-                    <div class="d-flex align-items-center gap-2">
-                        <img src="assets/image/mobileapp/iwatch .webp" alt="image">
-                        <h5 class="aih-color-two fs-24 fw-600">iWatch App Development </h5>
-                    </div>
-                    <p class="ca-two-body-clr mt-20 mb-0">Create feature-rich, user-friendly apps optimized for Apple
-                        Watch, enhancing convenience and user engagement on the go.</p>
-                </div>
-            </div>
-            <div class="col-xl-4 col-md-6">
-                <div class="aih-info-card-item bgc-white aih-shadow-hover p-4 ptb-30 rounded-10 mt-20"
-                    data-aos="fade-up" data-aos-anchor-placement="center-bottom">
-                    <div class="d-flex align-items-center gap-2">
-                        <img src="assets/image/mobileapp/apple-tv.webp" alt="image">
-                        <h5 class="aih-color-two fs-24 fw-600">Apple TV App Development</h5>
-                    </div>
-                    <p class="ca-two-body-clr mt-20 mb-0">Deliver immersive entertainment experiences with robust and
-                        visually captivating apps designed specifically for Apple TV.</p>
-                </div>
-            </div>
-            <div class="col-xl-4 col-md-6">
-                <div class="aih-info-card-item bgc-white aih-shadow-hover p-4 ptb-30 rounded-10 mt-20"
-                    data-aos="fade-up" data-aos-anchor-placement="center-bottom">
-                    <div class="d-flex align-items-center gap-2">
-                        <img src="assets/image/mobileapp/ipad.webp" alt="image">
-                        <h5 class="aih-color-two fs-24 fw-600">iPad App Development</h5>
-                    </div>
-                    <p class="ca-two-body-clr mt-20 mb-0">Build high-performance iPad apps that enhance productivity,
-                        creativity, and user experiences with innovative design and functionality.</p>
-                </div>
-            </div>
-            <div class="col-xl-4 col-md-6">
-                <div class="aih-info-card-item bgc-white aih-shadow-hover p-4 ptb-30 rounded-10 mt-20"
-                    data-aos="fade-up" data-aos-anchor-placement="center-bottom">
-                    <div class="d-flex align-items-center gap-2">
-                        <img src="assets/image/mobileapp/integration.webp" alt="image">
-                        <h5 class="aih-color-two fs-24 fw-600">Integration and Migration</h5>
-                    </div>
-                    <p class="ca-two-body-clr mt-20 mb-0">Smoothly integrate and migrate your apps to iOS platforms,
-                        ensuring a seamless transition and improved performance.</p>
-                </div>
-            </div>
-            <div class="col-xl-4 col-md-6">
-                <div class="aih-info-card-item bgc-white aih-shadow-hover p-4 ptb-30 rounded-10 mt-20"
-                    data-aos="fade-up" data-aos-anchor-placement="center-bottom">
-                    <div class="d-flex align-items-center gap-2">
-                        <img src="assets/image/mobileapp/iosapp.webp" alt="image">
-                        <h5 class="aih-color-two fs-24 fw-600">Enterprise iOS Apps</h5>
-                    </div>
-                    <p class="ca-two-body-clr mt-20 mb-0"> Develop secure, scalable enterprise iOS apps to streamline
-                        operations and boost productivity for your business.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-</div> -->
+ 
 <!-- Service -->
 <section class="officeSection_v1" data-aos="fade-up" data-aos-offset="300" data-aos-easing="ease-in-sine">
     <div class="officeContainer_v1 container">
         <div class="section-heading text-center">
             <div class="about-company-subtitle">
                 <span>Process</span>
-                <img src="assets/image/arrow-red.png" alt="Arrow">
+                <img src="assets/image/arrow-red.png" alt="iOS App Development in India">
             </div>
             <h2>Mobile App Development Process</h2>
         </div>
@@ -645,7 +478,7 @@ gtag('config', 'G-189WWHXLSS');
             <!-- Center Image -->
             <div class="officeCenter_v1">
                 <div class="officeImageBox_v1">
-                    <img src="assets\image\mobileapp\iosappd.png" alt="Mobile App Development Process" class="brad">
+                    <img src="assets\image\mobileapp\iosappd.png" alt="iOS App Design Company" class="brad">
                 </div>
             </div>
 
@@ -693,10 +526,10 @@ gtag('config', 'G-189WWHXLSS');
 </section>
 
 <!-- <div class="year_mage dpdestopblock">
-    <img src="assets/image/mobileapp/mob-app-process.webp" alt="image">
+    <img src="assets/image/mobileapp/mob-app-process.webp" alt="iOS App Maintenance Services">
 </div>
 <div class="year_mage dpmobblock">
-    <img src="assets/image/mobileapp/mob-mobvie-app-process.png" alt="image">
+    <img src="assets/image/mobileapp/mob-mobvie-app-process.png" alt="Secure iOS App Development">
 </div> -->
 
 <div class="ca-service-section pt-60 pb-80 bgc-secondary">
@@ -722,7 +555,7 @@ gtag('config', 'G-189WWHXLSS');
                 <div class="bgc-white padding-6 rounded-3 d-flex flex-wrap flex-md-nowrap gap-4 position-relative">
                     <div
                         class="d-grid place-content-center width-20 height-20 rounded-circle bgc-warning flex-shrink-0">
-                        <img src="assets/image/mobileapp/icon-book.png" alt="icon" class="img-fluid h-icon">
+                        <img src="assets/image/mobileapp/icon-book.png" alt="Mobile App Development Company Mumbai" class="img-fluid h-icon">
                     </div>
                     <div class="flex-grow-1">
                         <h6 class="heading-6 clr-text font-weight-bold">
@@ -741,7 +574,7 @@ gtag('config', 'G-189WWHXLSS');
                 <div class="bgc-white padding-6 rounded-3 d-flex flex-wrap flex-md-nowrap gap-4 position-relative">
                     <div
                         class="d-grid place-content-center width-20 height-20 rounded-circle bgc-warning flex-shrink-0">
-                        <img src="assets/image/mobileapp/icon-pen-pencil.png" alt="icon" class="img-fluid h-icon">
+                        <img src="assets/image/mobileapp/icon-pen-pencil.png" alt="iOS App Development Agency" class="img-fluid h-icon">
                     </div>
                     <div class="flex-grow-1">
                         <h6 class="heading-6 clr-text font-weight-bold">
@@ -759,7 +592,7 @@ gtag('config', 'G-189WWHXLSS');
             <div class="col-md-6 col-xl-4">
                 <div class="bgc-white padding-6 rounded-3 d-flex flex-wrap flex-md-nowrap gap-4 position-relative">
                     <div class="d-grid place-content-center width-20 height-20 rounded-circle bgc-danger flex-shrink-0">
-                        <img src="assets/image/mobileapp/icon-shield.png" alt="icon" class="img-fluid h-icon">
+                        <img src="assets/image/mobileapp/icon-shield.png" alt="iOS App Development Company" class="img-fluid h-icon">
                     </div>
                     <div class="flex-grow-1">
                         <h6 class="heading-6 clr-text font-weight-bold">
@@ -778,7 +611,7 @@ gtag('config', 'G-189WWHXLSS');
                 <div class="bgc-white padding-6 rounded-3 d-flex flex-wrap flex-md-nowrap gap-4 position-relative">
                     <div
                         class="d-grid place-content-center width-20 height-20 rounded-circle bgc-warning flex-shrink-0">
-                        <img src="assets/image/mobileapp/icon-security.png" alt="icon" class="img-fluid h-icon">
+                        <img src="assets/image/mobileapp/icon-security.png" alt="iOS App Development Services" class="img-fluid h-icon">
                     </div>
                     <div class="flex-grow-1">
                         <h6 class="heading-6 clr-text font-weight-bold">
@@ -796,7 +629,7 @@ gtag('config', 'G-189WWHXLSS');
             <div class="col-md-6 col-xl-4">
                 <div class="bgc-white padding-6 rounded-3 d-flex flex-wrap flex-md-nowrap gap-4 position-relative">
                     <div class="d-grid place-content-center width-20 height-20 rounded-circle bgc-danger flex-shrink-0">
-                        <img src="assets/image/mobileapp/icon-settings.png" alt="icon" class="img-fluid h-icon">
+                        <img src="assets/image/mobileapp/icon-settings.png" alt="iPhone App Development" class="img-fluid h-icon">
                     </div>
                     <div class="flex-grow-1">
                         <h6 class="heading-6 clr-text font-weight-bold">
@@ -815,7 +648,7 @@ gtag('config', 'G-189WWHXLSS');
                 <div class="bgc-white padding-6 rounded-3 d-flex flex-wrap flex-md-nowrap gap-4 position-relative">
                     <div
                         class="d-grid place-content-center width-20 height-20 rounded-circle bgc-warning flex-shrink-0">
-                        <img src="assets/image/mobileapp/icon-award.png" alt="icon" class="img-fluid h-icon">
+                        <img src="assets/image/mobileapp/icon-award.png" alt="Custom iOS App Development" class="img-fluid h-icon">
                     </div>
                     <div class="flex-grow-1">
                         <h6 class="heading-6 clr-text font-weight-bold">
@@ -837,89 +670,14 @@ gtag('config', 'G-189WWHXLSS');
 
 
 
-<!-- <div class="it-company-project-area pt-60 pb-60 ">
-    <div class="container">
-        <div class="row align-items-center">
-            <div class="col-xl-6 col-lg-8">
-                <h2 class="it-company-title it-company-color fs-40 flh-56 mb-0">What Amazing Feedback Client Use Quickly
-                </h2>
-            </div>
-            <div class="col-xl-6 col-lg-4">
-                <div class="d-flex align-items-center justify-content-end gap-4">
-                    <div
-                        class="it-slider-nav it-company-swiper-button-prev bg-black text-white d-flex align-items-center justify-content-center rounded-circle">
-                        <i class="fas fa-arrow-left"></i>
-                    </div>
-                    <div
-                        class="it-slider-nav it-company-swiper-button-next bg-black text-white d-flex align-items-center justify-content-center rounded-circle">
-                        <i class="fas fa-arrow-right"></i>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-12">
-                <div class="it-company-project-slider mt-50 swiper">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <div class="it-company-project-item position-relative rounded-10 overflow-hidden">
-                                <img src="assets/image/mobileapp/capture6.webp" alt="image" class="w-100 img-fluid">
-                                <div
-                                    class="it-company-project-content w-100 h-100 d-flex flex-column justify-content-end gap-4 pl-40  position-absolute">
-
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="it-company-project-item position-relative rounded-10 overflow-hidden">
-                                <img src="assets/image/mobileapp/capture7.webp" alt="image" class="w-100 img-fluid">
-                                <div
-                                    class="it-company-project-content w-100 h-100 d-flex flex-column justify-content-end gap-4 pl-40   position-absolute">
-
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="it-company-project-item position-relative rounded-10 overflow-hidden">
-                                <img src="assets/image/mobileapp/capture8.webp" alt="image" class="w-100 img-fluid">
-                                <div
-                                    class="it-company-project-content w-100 h-100 d-flex flex-column justify-content-end gap-4 pl-40  position-absolute">
-
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="it-company-project-item position-relative rounded-10 overflow-hidden">
-                                <img src="assets/image/mobileapp/capture9.webp" alt="image" class="w-100 img-fluid">
-                                <div
-                                    class="it-company-project-content w-100 h-100 d-flex flex-column justify-content-end gap-4 pl-40  position-absolute">
-
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="it-company-project-item position-relative rounded-10 overflow-hidden">
-                                <img src="assets/image/mobileapp/capture10.webp" alt="image" class="w-100 img-fluid">
-                                <div
-                                    class="it-company-project-content w-100 h-100 d-flex flex-column justify-content-end gap-4 pl-40  position-absolute">
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </div>
-</div> -->
+ 
 
 <section class="medx-section-root">
     <div class="medx-container-wrap container">
         <div class="section-heading text-center">
             <div class="about-company-subtitle">
                 <span>Apps</span>
-                <img src="assets/image/arrow-red.png" alt="Arrow">
+                <img src="assets/image/arrow-red.png" alt="Mobile App Development Company Mumbai">
             </div>
             <h2>Designed for Easy Mobile Access</h2>
         </div>
@@ -929,19 +687,19 @@ gtag('config', 'G-189WWHXLSS');
                 <div class="medx-phone-holder">
 
                     <img src="assets/image/mobileapp/capture2.webp" class="medx-phone-image" id="phoneBg"
-                        alt="Phone screen">
+                        alt="iOS App Development Agency">
 
                     <div class="medx-slider-shell">
                         <div class="medx-slider-track" id="medxSliderTrack">
-                            <div class="medx-slide-card"><img src="assets/image/mobileapp/capture2.webp" alt=""></div>
-                            <div class="medx-slide-card"><img src="assets/image/mobileapp/capture3.webp" alt=""></div>
-                            <div class="medx-slide-card"><img src="assets/image/mobileapp/capture4.webp" alt=""></div>
-                            <div class="medx-slide-card"><img src="assets/image/mobileapp/capture5.webp" alt=""></div>
-                            <div class="medx-slide-card"><img src="assets/image/mobileapp/capture6.webp" alt=""></div>
-                            <div class="medx-slide-card"><img src="assets/image/mobileapp/capture7.webp" alt=""></div>
-                            <div class="medx-slide-card"><img src="assets/image/mobileapp/capture8.webp" alt=""></div>
-                            <div class="medx-slide-card"><img src="assets/image/mobileapp/capture9.webp" alt=""></div>
-                            <div class="medx-slide-card"><img src="assets/image/mobileapp/capture10.webp" alt=""></div>
+                            <div class="medx-slide-card"><img src="assets/image/mobileapp/capture2.webp" alt="iOS App Development Company"></div>
+                            <div class="medx-slide-card"><img src="assets/image/mobileapp/capture3.webp" alt="iOS App Development Services"></div>
+                            <div class="medx-slide-card"><img src="assets/image/mobileapp/capture4.webp" alt="iPhone App Development"></div>
+                            <div class="medx-slide-card"><img src="assets/image/mobileapp/capture5.webp" alt="Custom iOS App Development"></div>
+                            <div class="medx-slide-card"><img src="assets/image/mobileapp/capture6.webp" alt="iOS Developers in Mumbai"></div>
+                            <div class="medx-slide-card"><img src="assets/image/mobileapp/capture7.webp" alt="iOS App Development in India"></div>
+                            <div class="medx-slide-card"><img src="assets/image/mobileapp/capture8.webp" alt="iOS App Design Company"></div>
+                            <div class="medx-slide-card"><img src="assets/image/mobileapp/capture9.webp" alt="iOS App Maintenance Services"></div>
+                            <div class="medx-slide-card"><img src="assets/image/mobileapp/capture10.webp" alt="Secure iOS App Development"></div>
                         </div>
                     </div>
 
@@ -950,7 +708,7 @@ gtag('config', 'G-189WWHXLSS');
 
             <div class="medx-content-column" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine">
                 <div class="medx-hero-wrapper">
-                    <img src="assets/image/mobileapp/mob2.png" class="medx-hero-image" alt="Medical app">
+                    <img src="assets/image/mobileapp/mob2.png" class="medx-hero-image" alt="Mobile App Development Company Mumbai">
                     <p class="medx-hero-text">
                         User-friendly mobile app with fast access, secure data, real-time updates, personalization,
                         smooth performance, and 24/7 availability.
@@ -991,7 +749,7 @@ gtag('config', 'G-189WWHXLSS');
             <div class="section-heading text-center">
                 <div class="about-company-subtitle">
                     <span>FAQ</span>
-                    <img src="assets/image/arrow-red.png" alt="Arrow">
+                    <img src="assets/image/arrow-red.png" alt="iOS App Development Agency">
                 </div>
                 <h2>Frequently Asked Questions</h2>
             </div>
@@ -1100,31 +858,7 @@ gtag('config', 'G-189WWHXLSS');
     </div>
 </section>
 
-<!-- <section class="cta-subscribe bg-darks text-white ptb-40 position-relative">
-    <div class="container">
-        <div class="row justify-content-between">
-
-            <div class="col-lg-5 col-md-5">
-                <div class="subscribe-info-wrap  position-relative z-2 mt-60">
-                    <div class="mb-20">
-                        <h2 class="white">Book a One Call with Our Expert Team</h2>
-                        <p>Want better messaging? Talk to our team to improve how you communicate and make a bigger
-                            impact. Get started today.</p>
-
-                    </div>
-                    <a href="tel:+918080803374" target="_blank" class="btn btn-outline-info rounded-5"> <i
-                            class="fa-light fa-phone-volume"></i> +91 8080 80 3374
-
-                    </a>
-                </div>
-            </div>
-            <div class="col-lg-6 col-md-6">
-                <img src="assets\image\teams\team.png" alt="image">
-            </div>
-        </div>
-    </div>
-
-</section> -->
+ 
 
 <?php include 'book-a-call.php'; ?>
 <?php include 'footer.php'; ?>

@@ -188,7 +188,7 @@ gtag('config', 'G-189WWHXLSS');
         <div class="row justify-content-between align-items-center">
             <div class="col-lg-5 col-xl-5 col-xl-5 col-md-10">
                 <div class="hero-content-wrap mt-5 crm-title mt-lg-0 mt-xl-0">
-                    <!-- <span class="crm-subtitle ">Build your best quality app <img src="assets/image/mobileapp/shape/arrow-red.png" alt="arrow"></span> -->
+                    <!-- <span class="crm-subtitle ">Build your best quality app <img src="assets/image/mobileapp/shape/arrow-red.png" alt="Android App Development Company"></span> -->
                     <h1 class="display-5 fw-bold " style=" color:white;">
                         Android App Development <span class="text-orange fw-bold">Services</span>
                     </h1>
@@ -200,7 +200,7 @@ gtag('config', 'G-189WWHXLSS');
             </div>
             <div class="col-lg-5 col-md-8 mt-5">
                 <div class="position-relative text-center">
-                    <img src="assets/image/mobileapp/android2.webp" class="img-fluid" alt="girl" />
+                    <img src="assets/image/mobileapp/android2.webp" class="img-fluid" alt="Android App Development Services" />
                 </div>
             </div>
         </div>
@@ -215,7 +215,7 @@ gtag('config', 'G-189WWHXLSS');
                 data-aos-easing="ease-in-sine">
                 <div class="app-two-feature-three-img position-relative text-center mt-5 mt-lg-0" data-aos="fade-right"
                     data-aos-offset="500" data-aos-easing="ease-in-sine">
-                    <img src="assets\image\mobileapp\android.png" alt="app screen" class="position-relative z-5 brad" />
+                    <img src="assets\image\mobileapp\android.png" alt="Custom Android App Development" class="position-relative z-5 brad" />
                 </div>
             </div>
             <div class="col-lg-6 col-xl-6 col-sm-12">
@@ -256,7 +256,7 @@ gtag('config', 'G-189WWHXLSS');
             <div class="hfz-services-intro" data-aos="fade-up" data-aos-duration="600">
                 <div class="about-company-subtitle">
                     <span>Our Services</span>
-                    <img src="assets/image/arrow-red.png" alt="Arrow">
+                    <img src="assets/image/arrow-red.png" alt="Android Developers in Mumbai">
                 </div>
                 <h2 class="hfz-section-title">Our Offerings</h2>
                 <p class="hfz-section-text">
@@ -317,153 +317,7 @@ gtag('config', 'G-189WWHXLSS');
     </div>
 </section>
 
-
-<!-- <section class="services-icon pt-60 pb-60">
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-lg-6 col-md-10">
-                <div class="section-heading text-center">
-                    <h2>Our Offerings</h2>
-                    <p>
-                        Transforming Visionary App Ideas Into Captivating Realities with Android App Development
-                        Services
-                    </p>
-                </div>
-
-            </div>
-        </div>
-        <div class="row justify-content-center">
-            <div class="col-lg-4 col-md-6 p-0">
-                <div class="single-service p-lg-5 p-4 text-center mt-3 border-bottom border-end">
-                    <div class="service-icon icon-center">
-                        <img src="assets/image/icons/consulting.png" alt="service icon" width="65" height="65" />
-                    </div>
-                    <div class="service-info-wrap">
-                        <h3 class="h5">Android App Consulting</h3>
-                        <p>
-                            Leverage the expertise and experience of Android app consultants to create a trailblazing
-                            solution that captivates and conquers the mobile application ecosystem.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6 p-0">
-                <div class="single-service p-lg-5 p-4 text-center mt-3 border-bottom border-end">
-                    <div class="service-icon icon-center">
-                        <img src="assets/image/icons/development.png" alt="service icon" width="65" height="65" />
-                    </div>
-                    <div class="service-info-wrap">
-                        <h3 class="h5">eCommerce App </h3>
-                        <p>
-                            Make online shopping experiences delightful for customers with Android eCommerce App
-                            Development and convert an online store into a powerful sales engine.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6 p-0">
-                <div class="single-service p-lg-5 p-4 text-center mt-3 border-bottom">
-                    <div class="service-icon icon-center">
-                        <img src="assets/image/icons/ecommerce.png" alt="service icon" width="65" height="65" />
-                    </div>
-                    <div class="service-info-wrap">
-                        <h3 class="h5">eCommerce App </h3>
-                        <p>
-                            Make online shopping experiences delightful for customers with Android eCommerce App
-                            Development and convert an online store into a powerful sales engine.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6 p-0">
-                <div class="single-service p-lg-5 p-4 text-center border-end">
-                    <div class="service-icon icon-center">
-                        <img src="assets/image/icons/solutions.png" alt="service icon" width="65" height="65" />
-                    </div>
-                    <div class="feature-info-wrap">
-                        <h3 class="h5">Enterprise Mobility Solutions</h3>
-                        <p>
-                            Embrace the future of mobility with enterprise-grade Android application solutions designed
-                            to streamline business processes, improve collaboration, and strengthen data security.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6 p-0">
-                <div class="single-service p-lg-5 p-4 text-center border-end">
-                    <div class="service-icon icon-center">
-                        <img src="assets/image/icons/testing.png" alt="service icon" width="65" height="65" />
-                    </div>
-                    <div class="feature-info-wrap">
-                        <h3 class="h5">Android App QA & Testing</h3>
-                        <p>
-                            Partner with seasoned QA experts who can assess every single aspect of an Android
-                            application under various scenarios to eliminate any bugs, glitches, or performance issues.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6 p-0">
-                <div class="single-service p-lg-5 p-4 text-center">
-                    <div class="service-icon icon-center">
-                        <img src="assets/image/icons/maintenance.png" alt="service icon" width="65" height="65" />
-                    </div>
-                    <div class="feature-info-wrap">
-                        <h3 class="h5">Android App Support & Maintenance</h3>
-                        <p>
-                            Bid adieu to sudden crashes and glitches with Android app maintenance & support, and ensure
-                            seamless application functionality, performance, and user satisfaction.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section> -->
-
-
-<!-- <div class="year_mage dpdestopblock">
-    <img src="assets/image/mobileapp/mob-app-process.webp" alt="image">
-</div>
-<div class="year_mage dpmobblock">
-    <img src="assets/image/mobileapp/mob-mobvie-app-process.png" alt="image">
-</div> -->
-
-<!-- <section class="feature-section ptb-60">
-    <div class="container">
-        <div class="feature-container mx-lg-5 position-relative  ptb-60 rounded-custom" data-aos="fade-up"
-            data-aos-anchor-placement="top-bottom">
-            <img src="assets/image/mobileapp/mob-call-bk.webp" alt="feature-bg"
-                class="feature-bg-mockup position-absolute w-100  left-0 right-0 top-0 bottom-0 rounded-custom">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12 col-lg-6">
-                        <div class="feature-bg-img-content position-relative z-5 pl-20">
-                            <div class="section-heading">
-                                <h2 class="clr-black">Getting Started With Technofra Today!</h2>
-                                <p class="clr-black">Intrinsicly impact resource sucking initiatives with 24/7
-                                    relationships communicate integrated products via synergistic leadership skills.</p>
-                            </div>
-                            <div class="footer_app">
-                                <div class="d-flex">
-                                    <a href="javascript:void(0);" class="APPS" contenteditable="false"
-                                        style="cursor: pointer;">
-
-                                        <img src="assets/image/mobileapp/play-dark.png">
-                                    </a>
-                                    <a href="javascript:void(0);" class="APPS" contenteditable="false"
-                                        style="cursor: pointer;">
-                                        <img src="assets/image/mobileapp/ios-black-dark.png">
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section> -->
+ 
 
 <section class="officeSection_v1">
     <div class="officeContainer_v1 container">
@@ -471,7 +325,7 @@ gtag('config', 'G-189WWHXLSS');
             data-aos-easing="ease-in-sine">
             <div class="about-company-subtitle">
                 <span>Process</span>
-                <img src="assets/image/arrow-red.png" alt="Arrow">
+                <img src="assets/image/arrow-red.png" alt="Android App Development in India">
             </div>
             <h2>Mobile App Development Process</h2>
         </div>
@@ -519,7 +373,7 @@ gtag('config', 'G-189WWHXLSS');
             <!-- Center Image -->
             <div class="officeCenter_v1" data-aos="fade-up" data-aos-offset="500" data-aos-easing="ease-in-sine">
                 <div class="officeImageBox_v1">
-                    <img src="assets\image\mobileapp\andappd.png" alt="Mobile App Development Process" class="brad">
+                    <img src="assets\image\mobileapp\andappd.png" alt="AI Android App Development" class="brad">
                 </div>
             </div>
 
@@ -635,7 +489,7 @@ gtag('config', 'G-189WWHXLSS');
             </div>
             <div class="col-lg-6 col-md-12" data-aos="fade-left" data-aos-offset="500" data-aos-easing="ease-in-sine">
                 <div class="digi-why-left">
-                    <img src="assets/image/mobileapp/android2.png" class="img-fluid brad" alt="Girl" />
+                    <img src="assets/image/mobileapp/android2.png" class="img-fluid brad" alt="Android App Design Company" />
 
                 </div>
             </div>
@@ -643,83 +497,7 @@ gtag('config', 'G-189WWHXLSS');
     </div>
 </section>
 
-<!-- <div class="it-company-project-area pt-60 ">
-    <div class="container">
-        <div class="row align-items-center">
-            <div class="col-xl-6 col-lg-8">
-                <h2 class="it-company-title it-company-color fs-40 fw-600 flh-56 mb-0">
-                    Userfriendly interface design
-                </h2>
-            </div>
-            <div class="col-xl-6 col-lg-4">
-                <div class="d-flex align-items-center justify-content-end gap-4">
-                    <div
-                        class="it-slider-nav it-company-swiper-button-prev bg-black text-white d-flex align-items-center justify-content-center rounded-circle">
-                        <i class="fas fa-arrow-left"></i>
-                    </div>
-                    <div
-                        class="it-slider-nav it-company-swiper-button-next bg-black text-white d-flex align-items-center justify-content-center rounded-circle">
-                        <i class="fas fa-arrow-right"></i>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-12">
-                <div class="it-company-project-slider mt-50 swiper">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <div class="it-company-project-item position-relative rounded-10 overflow-hidden">
-                                <img src="assets/image/mobileapp/capture1.webp" alt="image" class="w-100 img-fluid">
-                                <div
-                                    class="it-company-project-content w-100 h-100 d-flex flex-column justify-content-end gap-4 pl-40  position-absolute">
-
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="it-company-project-item position-relative rounded-10 overflow-hidden">
-                                <img src="assets/image/mobileapp/capture2.webp" alt="image" class="w-100 img-fluid">
-                                <div
-                                    class="it-company-project-content w-100 h-100 d-flex flex-column justify-content-end gap-4 pl-40   position-absolute">
-
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="it-company-project-item position-relative rounded-10 overflow-hidden">
-                                <img src="assets/image/mobileapp/capture3.webp" alt="image" class="w-100 img-fluid">
-                                <div
-                                    class="it-company-project-content w-100 h-100 d-flex flex-column justify-content-end gap-4 pl-40  position-absolute">
-
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="it-company-project-item position-relative rounded-10 overflow-hidden">
-                                <img src="assets/image/mobileapp/capture4.webp" alt="image" class="w-100 img-fluid">
-                                <div
-                                    class="it-company-project-content w-100 h-100 d-flex flex-column justify-content-end gap-4 pl-40  position-absolute">
-
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="it-company-project-item position-relative rounded-10 overflow-hidden">
-                                <img src="assets/image/mobileapp/capture5.webp" alt="image" class="w-100 img-fluid">
-                                <div
-                                    class="it-company-project-content w-100 h-100 d-flex flex-column justify-content-end gap-4 pl-40  position-absolute">
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </div>
-</div> -->
+ 
 
 <section class="medx-section-root bgw">
     <div class="medx-container-wrap container">
@@ -728,7 +506,7 @@ gtag('config', 'G-189WWHXLSS');
             data-aos-easing="ease-in-sine">
             <div class="about-company-subtitle">
                 <span>Apps</span>
-                <img src="assets/image/arrow-red.png" alt="Arrow">
+                <img src="assets/image/arrow-red.png" alt="Secure Android App Development">
             </div>
             <h2> Smart & Simple Mobile App Experience</h2>
         </div>
@@ -738,19 +516,19 @@ gtag('config', 'G-189WWHXLSS');
                 <div class="medx-phone-holder">
 
                     <img src="assets/image/mobileapp/capture2.webp" class="medx-phone-image" id="phoneBg"
-                        alt="Phone screen">
+                        alt="Mobile App Development Company Mumbai">
 
                     <div class="medx-slider-shell">
                         <div class="medx-slider-track" id="medxSliderTrack">
-                            <div class="medx-slide-card"><img src="assets/image/mobileapp/capture2.webp" alt=""></div>
-                            <div class="medx-slide-card"><img src="assets/image/mobileapp/capture3.webp" alt=""></div>
-                            <div class="medx-slide-card"><img src="assets/image/mobileapp/capture4.webp" alt=""></div>
-                            <div class="medx-slide-card"><img src="assets/image/mobileapp/capture5.webp" alt=""></div>
-                            <div class="medx-slide-card"><img src="assets/image/mobileapp/capture6.webp" alt=""></div>
-                            <div class="medx-slide-card"><img src="assets/image/mobileapp/capture7.webp" alt=""></div>
-                            <div class="medx-slide-card"><img src="assets/image/mobileapp/capture8.webp" alt=""></div>
-                            <div class="medx-slide-card"><img src="assets/image/mobileapp/capture9.webp" alt=""></div>
-                            <div class="medx-slide-card"><img src="assets/image/mobileapp/capture10.webp" alt=""></div>
+                            <div class="medx-slide-card"><img src="assets/image/mobileapp/capture2.webp" alt="Android App Development Agency"></div>
+                            <div class="medx-slide-card"><img src="assets/image/mobileapp/capture3.webp" alt="Android App Performance Optimization"></div>
+                            <div class="medx-slide-card"><img src="assets/image/mobileapp/capture4.webp" alt="Android Application Development"></div>
+                            <div class="medx-slide-card"><img src="assets/image/mobileapp/capture5.webp" alt="Android App Development Company"></div>
+                            <div class="medx-slide-card"><img src="assets/image/mobileapp/capture6.webp" alt="Android App Development Services"></div>
+                            <div class="medx-slide-card"><img src="assets/image/mobileapp/capture7.webp" alt="Custom Android App Development"></div>
+                            <div class="medx-slide-card"><img src="assets/image/mobileapp/capture8.webp" alt="Android Developers in Mumbai"></div>
+                            <div class="medx-slide-card"><img src="assets/image/mobileapp/capture9.webp" alt="Android App Development in India"></div>
+                            <div class="medx-slide-card"><img src="assets/image/mobileapp/capture10.webp" alt="AI Android App Development"></div>
                         </div>
                     </div>
 
@@ -759,7 +537,7 @@ gtag('config', 'G-189WWHXLSS');
 
             <div class="medx-content-column" data-aos="fade-left" data-aos-offset="500" data-aos-easing="ease-in-sine">
                 <div class="medx-hero-wrapper">
-                    <img src="assets/image/mobileapp/mob2.png" class="medx-hero-image" alt="Medical app">
+                    <img src="assets/image/mobileapp/mob2.png" class="medx-hero-image" alt="Android App Design Company">
                     <p class="medx-hero-text">
                         User-friendly mobile app with fast access, secure data, real-time updates, personalization,
                         smooth performance, and 24/7 availability.
@@ -799,7 +577,7 @@ gtag('config', 'G-189WWHXLSS');
             <div class="section-heading text-center">
                 <div class="about-company-subtitle">
                     <span>FAQ</span>
-                    <img src="assets/image/arrow-red.png" alt="Arrow">
+                    <img src="assets/image/arrow-red.png" alt="Secure Android App Development">
                 </div>
                 <h2>Frequently Asked Questions</h2>
             </div>
@@ -901,30 +679,7 @@ gtag('config', 'G-189WWHXLSS');
         </div>
     </div>
 </section>
-<!-- <section class="cta-subscribe bg-dark text-white ptb-40 position-relative">
-    <div class="container">
-        <div class="row justify-content-between">
-
-            <div class="col-lg-5 col-md-5">
-                <div class="subscribe-info-wrap  position-relative z-2 mt-60">
-                    <div class="mb-20">
-                        <h2 class="white">Book a One Call with Our Expert Team</h2>
-                        <p>Want better messaging? Talk to our team to improve how you communicate and make a bigger
-                            impact. Get started today.</p>
-
-                    </div>
-                    <a href="tel:+918080803374" target="_blank" class="btn btn-outline-info rounded-5"> <i
-                            class="fa-light fa-phone-volume"></i> +91 8080 80 3374
-                    </a>
-                </div>
-            </div>
-            <div class="col-lg-6 col-md-6">
-                <img src="assets\image\teams\team.png" alt="image">
-            </div>
-        </div>
-    </div>
-
-</section> -->
+ 
 
 
 <?php include 'book-a-call.php'; ?>

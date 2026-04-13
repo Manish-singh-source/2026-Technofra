@@ -296,7 +296,7 @@ a,
             <div class="col-lg-6">
                 <div class="about-company-subtitle">
                     <span>Careers at Technofra</span>
-                    <img src="assets/image/arrow-red.png" alt="Arrow">
+                    <img src="assets/image/arrow-red.png" alt="Careers at Technofra">
                 </div>
 
                 <h2 class="hr-heading" data-aos="fade-right" data-aos-duration="900">
@@ -324,24 +324,17 @@ a,
                     </li>
                 </ul>
 
-                <!-- <div class="mt-4 d-flex align-items-center gap-4 hr-cta-group">
-                    <a href="enquirynow" class="hr-main-btn" data-aos="fade-up" data-aos-duration="600">
-                        Join Our Team
-                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
-                    </a>
-                    <a href="about" class="btn btn-outline-info  " data-aos="fade-up"
-                        data-aos-duration="600">Explore More</a>
-                </div> -->
+            
             </div>
 
             <!-- RIGHT SIDE -->
             <div class="col-lg-6">
                 <div class="hr-image-layout">
                     <div class="hr-image-card" data-aos="fade-left" data-aos-duration="600">
-                        <img src="assets/image/career/ab1.webp" alt="Career at Technofra">
+                        <img src="assets/image/career/ab1.webp" alt="IT Jobs in Mumbai">
                     </div>
                     <div class="hr-image-card">
-                        <img src="assets/image/career/ab2.webp" alt="Team at Technofra" data-aos="fade-left"
+                        <img src="assets/image/career/ab2.webp" alt="Digital Marketing Jobs" data-aos="fade-left"
                             data-aos-duration="600">
                     </div>
                     <div class="hr-stat-card" data-aos="fade-left" data-aos-duration="600">
@@ -349,7 +342,7 @@ a,
                         <p>Successful Hires</p>
                     </div>
                     <div class="hr-image-card">
-                        <img src="assets/image/career/ab3.webp" alt="Opportunities at Technofra" data-aos="fade-left"
+                        <img src="assets/image/career/ab3.webp" alt="Web Developer Jobs" data-aos="fade-left"
                             data-aos-duration="600">
                     </div>
                 </div>
@@ -370,7 +363,7 @@ a,
         <!-- LEFT -->
         <div class="wd-job-image-wrapper" data-aos="fade-right" data-aos-duration="600">
             <div class="wd-job-image-box">
-                <img src="assets\image\career\cj1.png">
+                <img src="assets\image\career\cj1.png" alt="Graphic Designer Jobs">
             </div>
             <div class="wd-job-red-bar"></div>
         </div>
@@ -379,7 +372,7 @@ a,
         <div class="wd-job-content-box" data-aos="fade-left" data-aos-duration="600">
             <div class="about-company-subtitle">
                 <span>Job Openings</span>
-                <img src="assets/image/arrow-red.png" alt="Arrow">
+                <img src="assets/image/arrow-red.png" alt="UI UX Designer Jobs">
             </div>
 
             <h2 class="wd-job-title">Website Developer</h2>
@@ -431,7 +424,7 @@ a,
         <div class="wd-job-content-box" data-aos="fade-right" data-aos-duration="600">
             <div class="about-company-subtitle">
                 <span>Job Openings</span>
-                <img src="assets/image/arrow-red.png" alt="Arrow">
+                <img src="assets/image/arrow-red.png" alt="Digital Agency Careers">
             </div>
 
             <h2 class="wd-job-title">Graphic Designer</h2>
@@ -491,7 +484,7 @@ a,
         <!-- RIGHT -->
         <div class="wd-job-image-wrapper" data-aos="fade-left" data-aos-duration="600">
             <div class="wd-job-image-box">
-                <img src="assets/image/career/cj4.png">
+                <img src="assets/image/career/cj4.png" alt="Job Openings in Mumbai">
             </div>
             <div class="wd-job-red-bar"></div>
         </div>
@@ -506,7 +499,7 @@ a,
         <!-- LEFT -->
         <div class="wd-job-image-wrapper" data-aos="fade-right" data-aos-duration="600">
             <div class="wd-job-image-box">
-                <img src="assets/image/career/cj3.png">
+                <img src="assets/image/career/cj3.png" alt="Hiring Web Developers">
             </div>
             <div class="wd-job-red-bar"></div>
         </div>
@@ -515,7 +508,7 @@ a,
         <div class="wd-job-content-box" data-aos="fade-left" data-aos-duration="600">
             <div class="about-company-subtitle">
                 <span>Job Openings</span>
-                <img src="assets/image/arrow-red.png" alt="Arrow">
+                <img src="assets/image/arrow-red.png" alt="IT Company Jobs India">
             </div>
 
             <h2 class="wd-job-title">Social Media Marketing Executive</h2>
@@ -579,7 +572,7 @@ a,
         <div class="wd-job-content-box" data-aos="fade-right" data-aos-duration="600">
             <div class="about-company-subtitle">
                 <span>Job Openings</span>
-                <img src="assets/image/arrow-red.png" alt="Arrow">
+                <img src="assets/image/arrow-red.png" alt="Apply for Jobs in Mumbai">
             </div>
 
             <h2 class="wd-job-title">App Developer</h2>
@@ -638,7 +631,7 @@ a,
         <!-- RIGHT -->
         <div class="wd-job-image-wrapper" data-aos="fade-left" data-aos-duration="600">
             <div class="wd-job-image-box">
-                <img src="assets/image/career/cj2.png">
+                <img src="assets/image/career/cj2.png" alt="Marketing Jobs Mumbai">
             </div>
             <div class="wd-job-red-bar"></div>
         </div>
@@ -818,7 +811,7 @@ a,
             <div class="col-xl-7 ">
                 <div class="ins-title text-center">
                     <span class="crm-subtitle ">Join Our Team</span> <img src="assets/image/arrow-red.png"
-                        alt="arrow"></span>
+                        alt="Freshers Jobs IT Company"></span>
                     <h2>
                         Why Join Technofra
                     </h2>
@@ -894,7 +887,7 @@ a,
             class="aos-init aos-animate">
             <div class="col-xl-7 ">
                 <div class="ins-title text-center">
-                    <span class="crm-subtitle ">Our Team <img src="assets/image/arrow-red.png" alt="arrow"></span>
+                    <span class="crm-subtitle ">Our Team <img src="assets/image/arrow-red.png" alt="Job Opportunities in Digital Agency"></span>
                     <h2>
                         Meet Our Leadership Team
                     </h2>
@@ -906,7 +899,7 @@ a,
 
             <article class="about-team-card" data-aos="fade-up" data-aos-duration="600" class="aos-init aos-animate">
                 <div class="about-team-image-box">
-                    <img class="about-team-image" src="assets\image\teams\shyam.webp">
+                    <img class="about-team-image" src="assets\image\teams\shyam.webp" alt="IT Careers Mumbai">
                 </div>
                 <h3 class="about-team-member-name">Shyam Jaiswar</h3>
                 <p class="about-team-member-role">Business Developer Head</p>
@@ -917,7 +910,7 @@ a,
 
             <article class="about-team-card" data-aos="fade-up" data-aos-duration="600" class="aos-init aos-animate">
                 <div class="about-team-image-box">
-                    <img class="about-team-image" src="assets/image/teams/khushi.webp">
+                    <img class="about-team-image" src="assets/image/teams/khushi.webp" alt="Careers at Technofra">
                 </div>
                 <h3 class="about-team-member-name">Khushi Yadav</h3>
                 <p class="about-team-member-role">Digital-Marketing Head</p>
@@ -928,7 +921,7 @@ a,
 
             <article class="about-team-card" data-aos="fade-up" data-aos-duration="600" class="aos-init aos-animate">
                 <div class="about-team-image-box">
-                    <img class="about-team-image" src="assets/image/teams/manish.webp">
+                    <img class="about-team-image" src="assets/image/teams/manish.webp" alt="IT Jobs in Mumbai">
                 </div>
                 <h3 class="about-team-member-name">Manish Singh</h3>
                 <p class="about-team-member-role">Web Developer Head</p>
@@ -939,7 +932,7 @@ a,
 
             <!-- <article class="about-team-card" data-aos="fade-up" data-aos-duration="600" class="aos-init aos-animate">
                 <div class="about-team-image-box">
-                    <img class="about-team-image" src="assets\image\teams\pradnya.webp">
+                    <img class="about-team-image" src="assets\image\teams\pradnya.webp" alt="Digital Marketing Jobs">
                 </div>
                 <h3 class="about-team-member-name">Pradnya Jagdale</h3>
                 <p class="about-team-member-role">Web Developer</p>
@@ -950,7 +943,7 @@ a,
 
             <!-- <article class="about-team-card" data-aos="fade-up" data-aos-duration="600" class="aos-init aos-animate">
                 <div class="about-team-image-box">
-                    <img class="about-team-image" src="assets\image\teams\saurabh.webp">
+                    <img class="about-team-image" src="assets\image\teams\saurabh.webp" alt="Web Developer Jobs">
                 </div>
                 <h3 class="about-team-member-name">Saurabh Damale</h3>
                 <p class="about-team-member-role">Full-Stack Developer Head</p>
@@ -962,7 +955,7 @@ a,
 
             <!-- <article class="about-team-card" data-aos="fade-up" data-aos-duration="600" class="aos-init aos-animate">
                 <div class="about-team-image-box">
-                    <img class="about-team-image" src="assets\image\teams\roshan.webp">
+                    <img class="about-team-image" src="assets\image\teams\roshan.webp" alt="Graphic Designer Jobs">
                 </div>
                 <h3 class="about-team-member-name">Roshan Yadav</h3>
                 <p class="about-team-member-role">Digital-Marketing Head</p>
@@ -974,7 +967,7 @@ a,
 
             <article class="about-team-card" data-aos="fade-up" data-aos-duration="600" class="aos-init aos-animate">
                 <div class="about-team-image-box">
-                    <img class="about-team-image" src="assets\image\teams\shubham.webp">
+                    <img class="about-team-image" src="assets\image\teams\shubham.webp" alt="UI UX Designer Jobs">
                 </div>
                 <h3 class="about-team-member-name">Shubham Shinde</h3>
                 <p class="about-team-member-role">APP Developer Head</p>
@@ -985,7 +978,7 @@ a,
 
             <article class="about-team-card" data-aos="fade-up" data-aos-duration="600" class="aos-init aos-animate">
                 <div class="about-team-image-box">
-                    <img class="about-team-image" src="assets\image\teams\anjali.webp">
+                    <img class="about-team-image" src="assets\image\teams\anjali.webp" alt="Digital Agency Careers">
                 </div>
                 <h3 class="about-team-member-name">Anjali Jaiswar</h3>
                 <p class="about-team-member-role">Graphic Designing Head</p>

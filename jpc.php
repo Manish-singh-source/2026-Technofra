@@ -53,7 +53,7 @@ gtag('config', 'G-189WWHXLSS');
 
 <section class="pt-80">
     <div class="cover-image">
-        <img src="assets/image/casestudy/jpc/jpc01.webp" alt="image">
+        <img src="assets/image/casestudy/jpc/jpc01.webp" alt="JPC case study">
     </div>
 </section>
 
@@ -78,7 +78,7 @@ gtag('config', 'G-189WWHXLSS');
                 </div>
             </div>
             <div class="col-lg-6 col-md-6">
-                <img src="assets/image/casestudy/jpc/jpc02.webp" alt="image" class="dp-r-10" data-aos="fade-left"
+                <img src="assets/image/casestudy/jpc/jpc02.webp" alt="JPC case study" class="dp-r-10" data-aos="fade-left"
                     data-aos-anchor="#example-anchor" data-aos-offset="500" data-aos-duration="500">
             </div>
         </div>
@@ -89,7 +89,7 @@ gtag('config', 'G-189WWHXLSS');
 
         <div class="row justify-content-between align-items-center">
             <div class="col-lg-6 col-md-6">
-                <img src="assets/image/casestudy/jpc/jpc07.webp" alt="image" class="dp-r-10" data-aos="fade-right"
+                <img src="assets/image/casestudy/jpc/jpc07.webp" alt="JPC case study" class="dp-r-10" data-aos="fade-right"
                     data-aos-offset="300" data-aos-easing="ease-in-sine">
             </div>
             <div class="col-lg-5 col-md-5">
@@ -114,7 +114,7 @@ gtag('config', 'G-189WWHXLSS');
     <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-12 col-md-12">
-                <img src="assets/image/casestudy/jpc/jpc10.webp" alt="image" class="dp-r-10" data-aos="fade-up"
+                <img src="assets/image/casestudy/jpc/jpc10.webp" alt="JPC case study" class="dp-r-10" data-aos="fade-up"
                     data-aos-duration="2000">
             </div>
 
@@ -127,7 +127,7 @@ gtag('config', 'G-189WWHXLSS');
     <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-12 col-md-12">
-                <img src="assets/image/casestudy/jpc/jpc03.webp" alt="image" class="dp-r-10" data-aos="fade-up"
+                <img src="assets/image/casestudy/jpc/jpc03.webp" alt="JPC case study" class="dp-r-10" data-aos="fade-up"
                     data-aos-duration="2000">
             </div>
 
@@ -138,15 +138,15 @@ gtag('config', 'G-189WWHXLSS');
     <div class="container">
         <div class="row ">
             <div class="col-lg-4 col-md-4">
-                <img src="assets/image/casestudy/jpc/jpc04.webp" alt="image" class="dp-r-10 mt-40" data-aos="fade-up"
+                <img src="assets/image/casestudy/jpc/jpc04.webp" alt="JPC case study" class="dp-r-10 mt-40" data-aos="fade-up"
                     data-aos-anchor-placement="top-bottom">
             </div>
             <div class="col-lg-4 col-md-4">
-                <img src="assets/image/casestudy/jpc/jpc05.webp" alt="image" class="dp-r-10 mt-40" data-aos="fade-up"
+                <img src="assets/image/casestudy/jpc/jpc05.webp" alt="JPC case study" class="dp-r-10 mt-40" data-aos="fade-up"
                     data-aos-anchor-placement="top-bottom">
             </div>
             <div class="col-lg-4 col-md-4">
-                <img src="assets/image/casestudy/jpc/jpc06.webp" alt="image" class="dp-r-10 mt-40" data-aos="fade-up"
+                <img src="assets/image/casestudy/jpc/jpc06.webp" alt="JPC case study" class="dp-r-10 mt-40" data-aos="fade-up"
                     data-aos-anchor-placement="top-bottom">
             </div>
         </div>
@@ -171,7 +171,7 @@ gtag('config', 'G-189WWHXLSS');
         </div>
         <div class="row align-items-center">
             <div class="col-lg-12 col-md-12">
-                <img src="assets/image/casestudy/jpc/jpc08.webp" alt="image" class="dp-r-10" data-aos="fade-up"
+                <img src="assets/image/casestudy/jpc/jpc08.webp" alt="JPC case study" class="dp-r-10" data-aos="fade-up"
                     data-aos-anchor-placement="center-bottom">
             </div>
 
@@ -183,7 +183,7 @@ gtag('config', 'G-189WWHXLSS');
 
         <div class="row align-items-center">
             <div class="col-lg-12 col-md-12">
-                <img src="assets/image/casestudy/jpc/jpc09.webp" alt="image" class="dp-r-10" data-aos="fade-up"
+                <img src="assets/image/casestudy/jpc/jpc09.webp" alt="JPC case study" class="dp-r-10" data-aos="fade-up"
                     data-aos-anchor-placement="center-bottom">
             </div>
 

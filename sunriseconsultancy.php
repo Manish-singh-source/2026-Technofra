@@ -39,7 +39,7 @@ gtag('config', 'G-189WWHXLSS');
 
 <section class="pb-60">
     <div class="cover-image">
-        <img src="assets\image\casestudy\sunriseconsultancy\1.png" alt="image">
+        <img src="assets\image\casestudy\sunriseconsultancy\1.png" alt="Sunrise Consultancy case study">
     </div>
 </section>
 
@@ -65,7 +65,7 @@ gtag('config', 'G-189WWHXLSS');
         </div>
         <div class="row align-items-center">
             <div class="col-lg-12 col-md-12">
-                <img src="assets\image\casestudy\sunriseconsultancy\2.png" alt="image" class="dp-r-10" data-aos="zoom-in-up">
+                <img src="assets\image\casestudy\sunriseconsultancy\2.png" alt="Sunrise Consultancy case study" class="dp-r-10" data-aos="zoom-in-up">
             </div>
         </div>
     </div>
@@ -85,7 +85,7 @@ gtag('config', 'G-189WWHXLSS');
         </div>
         <div class="row align-items-center">
             <div class="col-lg-12 col-md-12">
-                <img src="assets\image\casestudy\sunriseconsultancy\3.png" alt="image" class="dp-r-10"
+                <img src="assets\image\casestudy\sunriseconsultancy\3.png" alt="Sunrise Consultancy case study" class="dp-r-10"
                     data-aos="zoom-out-right">
             </div>
 
@@ -98,7 +98,7 @@ gtag('config', 'G-189WWHXLSS');
 
         <div class="row align-items-center">
             <div class="col-lg-6 col-md-6 mb-20">
-                <img src="assets\image\casestudy\sunriseconsultancy\4.png" alt="image" class="dp-r-10"
+                <img src="assets\image\casestudy\sunriseconsultancy\4.png" alt="Sunrise Consultancy case study" class="dp-r-10"
                     data-aos="zoom-in-right">
             </div>
             <div class="col-lg-6 col-md-6">
@@ -146,7 +146,7 @@ gtag('config', 'G-189WWHXLSS');
                 </div>
             </div>
             <div class="col-lg-6 col-md-6 mb-20">
-                <img src="assets/image/casestudy/sanjayagencies/sanjayagencies03.webp" alt="image" class="dp-r-10"
+                <img src="assets/image/casestudy/sanjayagencies/sanjayagencies03.webp" alt="Sunrise Consultancy case study" class="dp-r-10"
                     data-aos="zoom-in-left">
             </div>
         </div>
@@ -156,7 +156,7 @@ gtag('config', 'G-189WWHXLSS');
     <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-12 col-md-12">
-                <img src="assets\image\casestudy\sunriseconsultancy\5.png" alt="image" class="dp-r-10"
+                <img src="assets\image\casestudy\sunriseconsultancy\5.png" alt="Sunrise Consultancy case study" class="dp-r-10"
                     data-aos="fade-up-right">
             </div>
 
@@ -179,7 +179,7 @@ gtag('config', 'G-189WWHXLSS');
                 </div>
             </div>
             <div class="col-lg-6 col-md-6">
-                <img src="assets\image\casestudy\sunriseconsultancy\6.png" alt="image"
+                <img src="assets\image\casestudy\sunriseconsultancy\6.png" alt="Sunrise Consultancy case study"
                     class="dp-r-10 aos-init aos-animate" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
             </div>
         </div>
@@ -194,13 +194,13 @@ gtag('config', 'G-189WWHXLSS');
     <div class="container">
         <div class="row" data-aos="zoom-out-up">
             <div class="col-lg-4 col-md-4">
-                <img src="assets\image\casestudy\sunriseconsultancy\7.png" alt="image" class="dp-r-10 mb-4">
+                <img src="assets\image\casestudy\sunriseconsultancy\7.png" alt="Sunrise Consultancy case study" class="dp-r-10 mb-4">
             </div>
             <div class="col-lg-4 col-md-4">
-                <img src="assets\image\casestudy\sunriseconsultancy\8.png" alt="image" class="dp-r-10 mb-4">
+                <img src="assets\image\casestudy\sunriseconsultancy\8.png" alt="Sunrise Consultancy case study" class="dp-r-10 mb-4">
             </div>
             <div class="col-lg-4 col-md-4">
-                <img src="assets\image\casestudy\sunriseconsultancy\9.png" alt="image" class="dp-r-10 mb-4">
+                <img src="assets\image\casestudy\sunriseconsultancy\9.png" alt="Sunrise Consultancy case study" class="dp-r-10 mb-4">
             </div>
 
         </div>

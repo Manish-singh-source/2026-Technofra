@@ -1,4 +1,4 @@
-﻿<?php include 'header.php'; ?>
+<?php include 'header.php'; ?>
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-189WWHXLSS"></script>
 <script>
@@ -39,7 +39,7 @@ gtag('config', 'G-189WWHXLSS');
 
 <section class="pb-60">
     <div class="cover-image">
-        <img src="assets/image/casestudy/rupalplastic/rupalplastic01.png" alt="image">
+        <img src="assets/image/casestudy/rupalplastic/rupalplastic01.png" alt="Rupal Plastic case study">
     </div>
 </section>
 
@@ -66,13 +66,13 @@ gtag('config', 'G-189WWHXLSS');
         </div>
         <div class="row align-items-center">
             <div class="col-lg-12 col-md-12">
-                <img src="assets/image/casestudy/rupalplastic/rupalplastic02.png" alt="image" class="dp-r-10"
+                <img src="assets/image/casestudy/rupalplastic/rupalplastic02.png" alt="Rupal Plastic case study" class="dp-r-10"
                     data-aos="fade-up-right">
             </div>
         </div>
         <div class="row align-items-center pt-60">
             <div class="col-lg-12 col-md-12">
-                <img src="assets/image/casestudy/rupalplastic/rupalplastic04.png" alt="image" class="dp-r-10"
+                <img src="assets/image/casestudy/rupalplastic/rupalplastic04.png" alt="Rupal Plastic case study" class="dp-r-10"
                     data-aos="fade-up-left">
             </div>
 
@@ -94,7 +94,7 @@ gtag('config', 'G-189WWHXLSS');
         </div>
         <div class="row align-items-center">
             <div class="col-lg-12 col-md-12">
-                <img src="assets/image/casestudy/rupalplastic/rupalplastic03.png" alt="image" class="dp-r-10"
+                <img src="assets/image/casestudy/rupalplastic/rupalplastic03.png" alt="Rupal Plastic case study" class="dp-r-10"
                     data-aos="zoom-in">
             </div>
 
@@ -119,7 +119,7 @@ gtag('config', 'G-189WWHXLSS');
         </div>
         <div class="row align-items-center">
             <div class="col-lg-12 col-md-12">
-                <img src="assets/image/casestudy/rupalplastic/rupalplastic03.webp" alt="image" class="dp-r-10"
+                <img src="assets/image/casestudy/rupalplastic/rupalplastic03.webp" alt="Rupal Plastic case study" class="dp-r-10"
                     data-aos="fade-up-left">
             </div>
 
@@ -144,7 +144,7 @@ gtag('config', 'G-189WWHXLSS');
                 </div>
             </div>
             <div class="col-lg-6 col-md-6">
-                <img src="assets/image/casestudy/rupalplastic/rupal09.webp" alt="image"
+                <img src="assets/image/casestudy/rupalplastic/rupal09.webp" alt="Rupal Plastic case study"
                     class="dp-r-10 aos-init aos-animate" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
             </div>
         </div>
@@ -156,7 +156,7 @@ gtag('config', 'G-189WWHXLSS');
     <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-12 col-md-12">
-                <img src="assets/image/casestudy/rupalplastic/rupal08.png" alt="image" class="dp-r-10"
+                <img src="assets/image/casestudy/rupalplastic/rupal08.png" alt="Rupal Plastic case study" class="dp-r-10"
                     data-aos="fade-up-right">
             </div>
 

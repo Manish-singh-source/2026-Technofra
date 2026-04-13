@@ -36,7 +36,7 @@ gtag('config', 'G-189WWHXLSS');
 <?php include 'navbar.php'; ?>
 <section class="pb-60">
     <div class="cover-image">
-        <img src="assets/image/casestudy/ish/ish01.webp" alt="image">
+        <img src="assets/image/casestudy/ish/ish01.webp" alt="ISH case study">
     </div>
 </section>
 <section class="counter-with-video pb-60">
@@ -59,7 +59,7 @@ gtag('config', 'G-189WWHXLSS');
         </div>
         <div class="row align-items-center">
             <div class="col-lg-12 col-md-12">
-                <img src="assets/image/casestudy/ish/ish02.webp" alt="image" class="dp-r-10" data-aos="zoom-in">
+                <img src="assets/image/casestudy/ish/ish02.webp" alt="ISH case study" class="dp-r-10" data-aos="zoom-in">
             </div>
         </div>
     </div>
@@ -68,7 +68,7 @@ gtag('config', 'G-189WWHXLSS');
     <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-6 col-md-6 mb-20">
-                <img src="assets/image/casestudy/ish/ish03.webp" alt="image" class="dp-r-10" data-aos="zoom-in-right">
+                <img src="assets/image/casestudy/ish/ish03.webp" alt="ISH case study" class="dp-r-10" data-aos="zoom-in-right">
             </div>
             <div class="col-lg-6 col-md-6">
                 <div class="section-heading" data-aos="fade-left">
@@ -91,7 +91,7 @@ gtag('config', 'G-189WWHXLSS');
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-lg-12 col-md-12">
-                <img src="assets/image/casestudy/ish/ish07.webp" alt="image" class="dp-r-10" data-aos="zoom-out-up">
+                <img src="assets/image/casestudy/ish/ish07.webp" alt="ISH case study" class="dp-r-10" data-aos="zoom-out-up">
             </div>
 
         </div>
@@ -101,7 +101,7 @@ gtag('config', 'G-189WWHXLSS');
     <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-12 col-md-12">
-                <img src="assets/image/casestudy/ish/ish06.webp" alt="image" class="dp-r-10" data-aos="zoom-out-up">
+                <img src="assets/image/casestudy/ish/ish06.webp" alt="ISH case study" class="dp-r-10" data-aos="zoom-out-up">
             </div>
 
         </div>
@@ -125,7 +125,7 @@ gtag('config', 'G-189WWHXLSS');
         </div>
         <div class="row align-items-center">
             <div class="col-lg-12 col-md-12">
-                <img src="assets/image/casestudy/ish/ish04.webp" alt="image" class="dp-r-10" data-aos="zoom-out">
+                <img src="assets/image/casestudy/ish/ish04.webp" alt="ISH case study" class="dp-r-10" data-aos="zoom-out">
             </div>
 
         </div>
@@ -137,7 +137,7 @@ gtag('config', 'G-189WWHXLSS');
     <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-12 col-md-12">
-                <img src="assets/image/casestudy/ish/ish05.webp" alt="image" class="dp-r-10" data-aos="zoom-out-up">
+                <img src="assets/image/casestudy/ish/ish05.webp" alt="ISH case study" class="dp-r-10" data-aos="zoom-out-up">
             </div>
 
         </div>

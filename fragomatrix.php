@@ -1,4 +1,4 @@
-﻿<?php include 'header.php'; ?>
+<?php include 'header.php'; ?>
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-189WWHXLSS"></script>
 <script>
@@ -70,7 +70,7 @@
 
 <section class="pb-60">
     <div class="cover-image">
-        <img src="assets/image/casestudy/frago/fragomatrix01.webp" alt="image">
+        <img src="assets/image/casestudy/frago/fragomatrix01.webp" alt="Fragomatrix case study">
     </div>
 </section>
 
@@ -92,7 +92,7 @@
         </div>
         <div class="row">
             <div class="col-lg-12 col-md-12">
-                <img src="assets/image/casestudy/frago/fragomatrix05.webp" alt="image" class="dp-r-10" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+                <img src="assets/image/casestudy/frago/fragomatrix05.webp" alt="Fragomatrix case study" class="dp-r-10" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
             </div>
 
         </div>
@@ -113,7 +113,7 @@
         </div>
         <div class="row">
             <div class="col-lg-12 col-md-12">
-                <img src="assets/image/casestudy/frago/fragomatrix06.webp" alt="image" class="dp-r-10" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+                <img src="assets/image/casestudy/frago/fragomatrix06.webp" alt="Fragomatrix case study" class="dp-r-10" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
             </div>
 
         </div>
@@ -123,7 +123,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-12 col-md-12">
-                <img src="assets/image/casestudy/frago/fragomatrix08.webp" alt="image" class="dp-r-10" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+                <img src="assets/image/casestudy/frago/fragomatrix08.webp" alt="Fragomatrix case study" class="dp-r-10" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
             </div>
 
 
@@ -135,7 +135,7 @@
         <div class="row">
 
             <div class="col-lg-12 col-md-12">
-                <img src="assets/image/casestudy/frago/fragomatrix09.webp" alt="image" class="dp-r-10" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+                <img src="assets/image/casestudy/frago/fragomatrix09.webp" alt="Fragomatrix case study" class="dp-r-10" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
             </div>
 
         </div>
@@ -155,7 +155,7 @@
                 </div>
             </div>
             <div class="col-lg-6 col-md-6">
-                <img src="assets/image/casestudy/frago/fragomatrix07.webp" alt="image" class="dp-r-10 aos-init aos-animate" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+                <img src="assets/image/casestudy/frago/fragomatrix07.webp" alt="Fragomatrix case study" class="dp-r-10 aos-init aos-animate" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
             </div>
         </div>
     </div>
@@ -165,17 +165,17 @@
         <div class="row justify-content-center">
             <div class="col-lg-6 col-md-6">
                 <div class="image-hover">
-                    <img src="assets/image/casestudy/frago/fragomatrix02.webp" alt="image" class="dp-r-10 mb-30">
+                    <img src="assets/image/casestudy/frago/fragomatrix02.webp" alt="Fragomatrix case study" class="dp-r-10 mb-30">
                 </div>
             </div>
             <div class="col-lg-6 col-md-6">
                 <div class="image-hover">
-                    <img src="assets/image/casestudy/frago/fragomatrix03.webp" alt="image" class="dp-r-10 mb-30">
+                    <img src="assets/image/casestudy/frago/fragomatrix03.webp" alt="Fragomatrix case study" class="dp-r-10 mb-30">
                 </div>
             </div>
             <div class="col-lg-6 col-md-6">
                 <div class="image-hover">
-                    <img src="assets/image/casestudy/frago/fragomatrix04.webp" alt="image" class="dp-r-10 mb-30">
+                    <img src="assets/image/casestudy/frago/fragomatrix04.webp" alt="Fragomatrix case study" class="dp-r-10 mb-30">
                 </div>
             </div>
         </div>

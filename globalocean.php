@@ -1,4 +1,4 @@
-﻿<?php include 'header.php'; ?>
+<?php include 'header.php'; ?>
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-189WWHXLSS"></script>
 <script>
@@ -39,7 +39,7 @@
 
 <section class="pb-60">
     <div class="cover-image">
-        <img src="assets/image/casestudy/Globalocean/Globalocean01.webp" alt="image">
+        <img src="assets/image/casestudy/Globalocean/Globalocean01.webp" alt="Global Ocean case study">
     </div>
 </section>
 
@@ -61,7 +61,7 @@
         </div>
         <div class="row align-items-center">
             <div class="col-lg-12 col-md-12">
-                <img src="assets/image/casestudy/Globalocean/Globalocean02.webp" alt="image" class="dp-r-10" data-aos="fade-up-right">
+                <img src="assets/image/casestudy/Globalocean/Globalocean02.webp" alt="Global Ocean case study" class="dp-r-10" data-aos="fade-up-right">
             </div>
 
         </div>
@@ -72,7 +72,7 @@
 
         <div class="row justify-content-between align-items-center">
             <div class="col-lg-6 col-md-6 mb-40">
-                <img src="assets/image/casestudy/Globalocean/Globalocean03.webp" alt="image" class="dp-r-10" data-aos="fade-up-left">
+                <img src="assets/image/casestudy/Globalocean/Globalocean03.webp" alt="Global Ocean case study" class="dp-r-10" data-aos="fade-up-left">
             </div>
             <div class="col-lg-5 col-md-5">
                 <div class="section-heading aos-init aos-animate" data-aos="fade-up">
@@ -104,7 +104,7 @@
         <div class="row">
 
             <div class="col-lg-12 col-md-12">
-                <img src="assets/image/casestudy/Globalocean/Globalocean04.webp" alt="image" class="dp-r-10" data-aos="fade-right">
+                <img src="assets/image/casestudy/Globalocean/Globalocean04.webp" alt="Global Ocean case study" class="dp-r-10" data-aos="fade-right">
             </div>
 
         </div>
@@ -114,7 +114,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-12 col-md-12">
-                <img src="assets/image/casestudy/Globalocean/Globalocean05.webp" alt="image" class="dp-r-10" data-aos="fade-left">
+                <img src="assets/image/casestudy/Globalocean/Globalocean05.webp" alt="Global Ocean case study" class="dp-r-10" data-aos="fade-left">
             </div>
 
         </div>

@@ -46,7 +46,7 @@
 
 <section class="pb-60">
   <div class="cover-image">
-    <img src="assets/image/casestudy/aakriti/aakriti-space01.webp" alt="image">
+    <img src="assets/image/casestudy/aakriti/aakriti-space01.webp" alt="Aakriti Space case study">
   </div>
 </section>
 <section class="counter-with-video pb-60">
@@ -67,13 +67,13 @@
     </div>
     <div class="row  justify-content-center">
       <div class="col-lg-4 col-md-4">
-        <img src="assets/image/casestudy/aakriti/aakriti-space02.webp" alt="image" class="dp-r-10" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+        <img src="assets/image/casestudy/aakriti/aakriti-space02.webp" alt="Aakriti Space case study" class="dp-r-10" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
       </div>
       <div class="col-lg-4 col-md-4">
-        <img src="assets/image/casestudy/aakriti/aakriti-space03.webp" alt="image" class="dp-r-10 mob-pt-20" data-aos="fade-zoom-in" ata-aos-easing="ease-in-back" data-aos-delay="300" data-aos-offset="0">
+        <img src="assets/image/casestudy/aakriti/aakriti-space03.webp" alt="Aakriti Space case study" class="dp-r-10 mob-pt-20" data-aos="fade-zoom-in" ata-aos-easing="ease-in-back" data-aos-delay="300" data-aos-offset="0">
       </div>
       <div class="col-lg-4 col-md-4">
-        <img src="assets/image/casestudy/aakriti/aakriti-space04.webp" alt="image" class="dp-r-10 mob-pt-20" data-aos="fade-left" data-aos-anchor="#example-anchor" data-aos-offset="500" data-aos-duration="500">
+        <img src="assets/image/casestudy/aakriti/aakriti-space04.webp" alt="Aakriti Space case study" class="dp-r-10 mob-pt-20" data-aos="fade-left" data-aos-anchor="#example-anchor" data-aos-offset="500" data-aos-duration="500">
       </div>
 
     </div>
@@ -97,7 +97,7 @@
     </div>
     <div class="row align-items-center">
       <div class="col-lg-12 col-md-12">
-        <img src="assets/image/casestudy/aakriti/aakriti-space05.webp" alt="image" class="dp-r-10" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+        <img src="assets/image/casestudy/aakriti/aakriti-space05.webp" alt="Aakriti Space case study" class="dp-r-10" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
       </div>
 
     </div>
@@ -109,7 +109,7 @@
 
     <div class="row align-items-center dpreverse">
       <div class="col-lg-7 col-md-7">
-        <img src="assets/image/casestudy/aakriti/aakriti-space06.webp" alt="image" class="dp-r-10" data-aos="zoom-out-right">
+        <img src="assets/image/casestudy/aakriti/aakriti-space06.webp" alt="Aakriti Space case study" class="dp-r-10" data-aos="zoom-out-right">
       </div>
       <div class="col-lg-5 col-md-5">
         <div class=" section-heading" data-aos="zoom-out-left">
@@ -150,7 +150,7 @@
         </div>
       </div>
       <div class="col-lg-6 col-md-6">
-        <img src="assets/image/casestudy/aakriti/aakriti-space15.webp" alt="image" class="dp-r-10" data-aos="zoom-out-right">
+        <img src="assets/image/casestudy/aakriti/aakriti-space15.webp" alt="Aakriti Space case study" class="dp-r-10" data-aos="zoom-out-right">
       </div>
     </div>
   </div>
@@ -161,7 +161,7 @@
 
     <div class="row align-items-center">
       <div class="col-lg-12 col-md-12">
-        <img src="assets/image/casestudy/aakriti/aakriti-space14.webp" alt="image" class="dp-r-10" data-aos="zoom-out-right">
+        <img src="assets/image/casestudy/aakriti/aakriti-space14.webp" alt="Aakriti Space case study" class="dp-r-10" data-aos="zoom-out-right">
       </div>
     </div>
   </div>
@@ -170,22 +170,22 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-4 col-md-4">
-        <img src="assets/image/casestudy/aakriti/aakriti-space08.webp" alt="image" class="dp-r-10 mb-4" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+        <img src="assets/image/casestudy/aakriti/aakriti-space08.webp" alt="Aakriti Space case study" class="dp-r-10 mb-4" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
       </div>
       <div class="col-lg-4 col-md-4">
-        <img src="assets/image/casestudy/aakriti/aakriti-space09.webp" alt="image" class="dp-r-10 mb-4" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+        <img src="assets/image/casestudy/aakriti/aakriti-space09.webp" alt="Aakriti Space case study" class="dp-r-10 mb-4" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
       </div>
       <div class="col-lg-4 col-md-4">
-        <img src="assets/image/casestudy/aakriti/aakriti-space10.webp" alt="image" class="dp-r-10 mb-4" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+        <img src="assets/image/casestudy/aakriti/aakriti-space10.webp" alt="Aakriti Space case study" class="dp-r-10 mb-4" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
       </div>
       <div class="col-lg-4 col-md-4">
-        <img src="assets/image/casestudy/aakriti/aakriti-space11.webp" alt="image" class="dp-r-10 mb-4" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+        <img src="assets/image/casestudy/aakriti/aakriti-space11.webp" alt="Aakriti Space case study" class="dp-r-10 mb-4" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
       </div>
       <div class="col-lg-4 col-md-4">
-        <img src="assets/image/casestudy/aakriti/aakriti-space12.webp" alt="image" class="dp-r-10 mb-4" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+        <img src="assets/image/casestudy/aakriti/aakriti-space12.webp" alt="Aakriti Space case study" class="dp-r-10 mb-4" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
       </div>
       <div class="col-lg-4 col-md-4">
-        <img src="assets/image/casestudy/aakriti/aakriti-space13.webp" alt="image" class="dp-r-10 mb-4" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+        <img src="assets/image/casestudy/aakriti/aakriti-space13.webp" alt="Aakriti Space case study" class="dp-r-10 mb-4" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
       </div>
     </div>
   </div>

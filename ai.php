@@ -45,17 +45,17 @@
         <div class="row">
             <div class="col-lg-12">
                 <div class="position-relative mt-40">
-                    <img src="assets/image/ai/ai-banner.webp" alt="image" class="aih-hero-img img-fluid">
+                    <img src="assets/image/ai/ai-banner.webp" alt="AI Development Services" class="aih-hero-img img-fluid">
                     <div class="aih-counter-box d-flex align-items-center gap-10 flex-wrap position-absolute">
                         <a href="#" class="aih-arrow-btn d-inline-flex align-items-center justify-content-center position-relative">
                             <svg width="24" height="39" viewBox="0 0 24 39" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M13.5 2C13.5 1.17157 12.8284 0.5 12 0.5C11.1716 0.5 10.5 1.17157 10.5 2L13.5 2ZM10.9393 38.0607C11.5251 38.6464 12.4749 38.6464 13.0607 38.0607L22.6066 28.5147C23.1924 27.9289 23.1924 26.9792 22.6066 26.3934C22.0208 25.8076 21.0711 25.8076 20.4853 26.3934L12 34.8787L3.51472 26.3934C2.92893 25.8076 1.97919 25.8076 1.3934 26.3934C0.807613 26.9792 0.807613 27.9289 1.3934 28.5147L10.9393 38.0607ZM10.5 2L10.5 37L13.5 37L13.5 2L10.5 2Z" fill="#00E1BE" />
                             </svg>
-                            <img class="aih-arrow-btn-img rotate-ani position-absolute" src="assets/image/ai/arrow-btn.png" alt="image">
+                            <img class="aih-arrow-btn-img rotate-ani position-absolute" src="assets/image/ai/arrow-btn.png" alt="Artificial Intelligence Solutions">
                         </a>
                         <div class="aih-hero-counter aih-bg-color  rounded-16">
 
-                            <img src="assets/image/ai/ai-banner02.webp" alt="image" class="br-10">
+                            <img src="assets/image/ai/ai-banner02.webp" alt="AI Development Company" class="br-10">
                         </div>
                     </div>
                     <a href="contact" class="btn aih-btn aih-bg-color aih-color-two ff-poppins fs-20 fw-600 d-inline-flex align-items-center gap-2 position-absolute">
@@ -75,9 +75,9 @@
         <div class="row align-items-center g-xxl-0">
             <div class="col-lg-6">
                 <div class="position-relative" data-aos="fade-right">
-                    <img src="assets/image/ai/ai02.webp" alt="image" class="aih-info-card-img img-fluid b-r">
-                    <img src="assets/image/ai/ai03.webp" alt="image" class="aih-info-card-img s-one position-absolute b-r">
-                    <img src="assets/image/ai/ai01.webp" alt="image" class="aih-info-card-img s-three position-absolute b-r">
+                    <img src="assets/image/ai/ai02.webp" alt="AI Development Company in Mumbai" class="aih-info-card-img img-fluid b-r">
+                    <img src="assets/image/ai/ai03.webp" alt="AI Services India" class="aih-info-card-img s-one position-absolute b-r">
+                    <img src="assets/image/ai/ai01.webp" alt="AI Automation Services" class="aih-info-card-img s-three position-absolute b-r">
                 </div>
             </div>
             <div class="col-lg-6">
@@ -90,45 +90,18 @@
                     </div>
                     <ul class="list-unstyled d-flex flex-wrap list-two-col mt-5 aos-init aos-animate" data-aos="fade-up">
                         <li>
-                            <span class="d-block mb-4"><img src="assets/image/ai/info_icon.svg" alt="image"></span>
+                            <span class="d-block mb-4"><img src="assets/image/ai/info_icon.svg" alt="Generative AI Development"></span>
                             <h3 class="h5">Innovative AI for Smarter Decisions</h3>
                             <p>Our advanced AI-driven tools and solutions are designed to transform businesses by enabling smarter.</p>
                         </li>
                         <li>
-                            <span class="d-block mb-4"><img src="assets/image/ai/info_icon_2.svg" alt="image"></span>
+                            <span class="d-block mb-4"><img src="assets/image/ai/info_icon_2.svg" alt="AI Chatbot Development"></span>
                             <h3 class="h5">Tailored Solutions for Every Need</h3>
                             <p>From automation to predictive analytics, we create custom AI solutions that fit your unique business goals.</p>
                         </li>
                     </ul>
              
-                <!-- <div class="mb-4 aos-init aos-animate" data-aos="fade-up">
-
-                    <h2 class="aih-title aih-color-two  fw-600 mb-20 ">
-                        Redefining Possibilities with <span class="aih-color">Artificial Intelligence</span></h2>
-                    <p class="aih-color-three mb-20">At Technofra, we are committed to redefining the future through AI innovation. Our mission is to help businesses unlock their full potential with intelligent technologies that drive efficiency, growth, and success.</p>
-                </div>
-                <div class="row">
-                    <div class="col-lg-6">
-                        <div class="aih-info-card-item bgc-white aih-shadow-hover p-4 ptb-30 rounded-10 mt-20">
-                            <img src="assets/image/ai/info_icon.svg" alt="image">
-                            <h5 class="aih-color-two fs-24 fw-600 mt-30 mb-20">Innovative AI for Smarter Decisions</h5>
-                            <p class="ca-two-body-clr pb-20">Our advanced AI-driven tools and solutions are designed to transform businesses by enabling smarter.</p>
-                            <a href="#" class="d-inline-flex align-items-center gap-2 aih-color-two fs-16 fw-600">
-
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="aih-info-card-item bgc-white aih-shadow-hover p-4 ptb-30 rounded-10 mt-20">
-                            <img src="assets/image/ai/info_icon_2.svg" alt="image">
-                            <h5 class="aih-color-two fs-24 fw-600 mt-30 mb-20">Tailored Solutions for Every Need</h5>
-                            <p class="ca-two-body-clr pb-20">From automation to predictive analytics, we create custom AI solutions that fit your unique business goals.</p>
-                            <a href="javascript:void(0);" class="d-inline-flex align-items-center gap-2 aih-color-two fs-16 fw-600">
-
-                            </a>
-                        </div>
-                    </div>
-                </div> -->
+               
             </div>
         </div>
     </div>
@@ -156,7 +129,7 @@
                                     fill="#666666"></path>
                             </svg>
                             <img class="aih-arrow-btn-img rotate-ani position-absolute"
-                                src="assets/image/ai/arrow-btn.png" alt="image">
+                                src="assets/image/ai/arrow-btn.png" alt="AI Software Development">
                         </a>
                     </div>
                 </div>
@@ -170,32 +143,32 @@
                         <li class="nav-item">
                             <a class="nav-link active" href="#tab-1" data-bs-toggle="tab"
                                 data-bs-target="#tab-1" role="tab" aria-selected="false">
-                                <img src="assets/image/ai/ft-icon-1.png" alt="image">
-                                <img src="assets/image/ai/ft-icon-1-gd.png" alt="image" class="active">
+                                <img src="assets/image/ai/ft-icon-1.png" alt="Intelligent Automation Solutions">
+                                <img src="assets/image/ai/ft-icon-1-gd.png" alt="AI Business Solutions" class="active">
                                 <p>Content Generator AI</p>
                             </a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#tab-2" data-bs-toggle="tab" data-bs-target="#tab-2"
                                 role="tab" aria-selected="false">
-                                <img src="assets/image/ai/ft-icon-2.png" alt="image">
-                                <img src="assets/image/ai/ft-icon-2-gd.png" alt="image" class="active">
+                                <img src="assets/image/ai/ft-icon-2.png" alt="AI Development Services">
+                                <img src="assets/image/ai/ft-icon-2-gd.png" alt="Artificial Intelligence Solutions" class="active">
                                 <p>Image Generator AI</p>
                             </a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#tab-3" data-bs-toggle="tab" data-bs-target="#tab-3"
                                 role="tab" aria-selected="false">
-                                <img src="assets/image/ai/ft-icon-3.png" alt="image">
-                                <img src="assets/image/ai/ft-icon-3-gd.png" alt="image" class="active">
+                                <img src="assets/image/ai/ft-icon-3.png" alt="AI Development Company">
+                                <img src="assets/image/ai/ft-icon-3-gd.png" alt="AI Development Company in Mumbai" class="active">
                                 <p>Video Generator AI</p>
                             </a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#tab-4" data-bs-toggle="tab" data-bs-target="#tab-4"
                                 role="tab" aria-selected="false">
-                                <img src="assets/image/ai/ft-icon-4.png" alt="image">
-                                <img src="assets/image/ai/ft-icon-4-gd.png" alt="image" class="active">
+                                <img src="assets/image/ai/ft-icon-4.png" alt="AI Services India">
+                                <img src="assets/image/ai/ft-icon-4-gd.png" alt="AI Automation Services" class="active">
                                 <p>Copywriting AI</p>
                             </a>
                         </li>
@@ -207,7 +180,7 @@
                                 <div class="row align-items-center">
                                     <div class="col-lg-6">
                                         <div class="ail-op-bg p-4 rounded-10">
-                                            <img src="assets/image/ai/ai-content-generator.webp" alt="image"
+                                            <img src="assets/image/ai/ai-content-generator.webp" alt="Generative AI Development"
                                                 class="w-100 img-fluid">
                                         </div>
                                     </div>
@@ -246,7 +219,7 @@
                                 <div class="row align-items-center">
                                     <div class="col-lg-6">
                                         <div class="ail-op-bg p-4 rounded-10">
-                                            <img src="assets/image/ai/ai-image-generator.webp" alt="image"
+                                            <img src="assets/image/ai/ai-image-generator.webp" alt="AI Chatbot Development"
                                                 class="w-100 img-fluid">
                                         </div>
                                     </div>
@@ -286,7 +259,7 @@
                                 <div class="row align-items-center">
                                     <div class="col-lg-6">
                                         <div class="ail-op-bg p-4 rounded-10">
-                                            <img src="assets/image/ai/ai-video-generator.webp" alt="image"
+                                            <img src="assets/image/ai/ai-video-generator.webp" alt="AI Integration Services"
                                                 class="w-100 img-fluid">
                                         </div>
                                     </div>
@@ -325,7 +298,7 @@
                                 <div class="row align-items-center">
                                     <div class="col-lg-6">
                                         <div class="ail-op-bg p-4 rounded-10">
-                                            <img src="assets/image/ai/ai-copywriting.webp" alt="image"
+                                            <img src="assets/image/ai/ai-copywriting.webp" alt="AI Consulting Services"
                                                 class="w-100 img-fluid">
                                         </div>
                                     </div>
@@ -377,7 +350,7 @@
             <div class="col-xl-4 col-md-6">
                 <div class="aih-info-card-item hg-350 bgc-white aih-shadow-hover p-4 ptb-30 rounded-10 mt-20"  data-aos="fade-up" data-aos-anchor-placement="top-bottom">
                     <div class="d-flex align-items-center gap-2">
-                        <img src="assets/image/ai/chatgpt-ai.webp" alt="image">
+                        <img src="assets/image/ai/chatgpt-ai.webp" alt="AI Software Development">
                         <h5 class="aih-color-two fs-24 fw-600">ChatGPT</h5>
                     </div>
                     <p class="ca-two-body-clr mt-20 mb-0">
@@ -387,7 +360,7 @@
             <div class="col-xl-4 col-md-6">
                 <div class="aih-info-card-item hg-350 bgc-white aih-shadow-hover p-4 ptb-30 rounded-10 mt-20"  data-aos="fade-up" data-aos-anchor-placement="top-bottom">
                     <div class="d-flex align-items-center gap-2">
-                        <img src="assets/image/ai/gemini-ai.webp" alt="image">
+                        <img src="assets/image/ai/gemini-ai.webp" alt="Intelligent Automation Solutions">
                         <h5 class="aih-color-two fs-24 fw-600"> Gemini</h5>
                     </div>
                     <p class="ca-two-body-clr mt-20 mb-0">Gemini efficiently transitions interoperable resources using principle-driven metrics, fostering functional and enthusiastic improvements in processes for optimized outcomes and streamlined solutions.</p>
@@ -396,7 +369,7 @@
             <div class="col-xl-4 col-md-6">
                 <div class="aih-info-card-item hg-350 bgc-white aih-shadow-hover p-4 ptb-30 rounded-10 mt-20"  data-aos="fade-up" data-aos-anchor-placement="top-bottom">
                     <div class="d-flex align-items-center gap-2">
-                        <img src="assets/image/ai/co-pilot-ai.webp" alt="image">
+                        <img src="assets/image/ai/co-pilot-ai.webp" alt="AI Business Solutions">
                         <h5 class="aih-color-two fs-24 fw-600">Co Pilot</h5>
                     </div>
                     <p class="ca-two-body-clr mt-20 mb-0">Microsoft is a leading technology company known for its software products like Windows, Office Suite, and Azure cloud services. It also develops hardware, including Surface devices and Xbox gaming consoles.</p>
@@ -405,7 +378,7 @@
             <div class="col-xl-4 col-md-6">
                 <div class="aih-info-card-item hg-350 bgc-white aih-shadow-hover p-4 ptb-30 rounded-10 mt-20"  data-aos="fade-up" data-aos-anchor-placement="top-bottom">
                     <div class="d-flex align-items-center gap-2">
-                        <img src="assets/image/ai/open-ai.webp" alt="image">
+                        <img src="assets/image/ai/open-ai.webp" alt="AI Development Services">
                         <h5 class="aih-color-two fs-24 fw-600">OpenAI</h5>
                     </div>
                     <p class="ca-two-body-clr mt-20 mb-0">OpenAI is an artificial intelligence research organization focused on developing and promoting AI technologies for the benefit of humanity. It aims to ensure that AI is safe, fair, and accessible.</p>
@@ -414,7 +387,7 @@
             <div class="col-xl-4 col-md-6">
                 <div class="aih-info-card-item hg-350 bgc-white aih-shadow-hover p-4 ptb-30 rounded-10 mt-20"  data-aos="fade-up" data-aos-anchor-placement="top-bottom">
                     <div class="d-flex align-items-center gap-2">
-                        <img src="assets/image/ai/town-ai.webp" alt="image">
+                        <img src="assets/image/ai/town-ai.webp" alt="Artificial Intelligence Solutions">
                         <h5 class="aih-color-two fs-24 fw-600">AI Town</h5>
                     </div>
                     <p class="ca-two-body-clr mt-20 mb-0">AI Town is a concept that envisions a community where artificial intelligence enhances daily life, providing smart solutions for transportation, healthcare, education, and more, fostering innovation and improving quality of life.</p>
@@ -423,7 +396,7 @@
             <div class="col-xl-4 col-md-6">
                 <div class="aih-info-card-item hg-350 bgc-white aih-shadow-hover p-4 ptb-30 rounded-10 mt-20"  data-aos="fade-up" data-aos-anchor-placement="top-bottom">
                     <div class="d-flex align-items-center gap-2">
-                        <img src="assets/image/ai/amazon-ai.webp" alt="image">
+                        <img src="assets/image/ai/amazon-ai.webp" alt="AI Development Company">
                         <h5 class="aih-color-two fs-24 fw-600">Amazon</h5>
                     </div>
                     <p class="ca-two-body-clr mt-20 mb-0">Amazon, a global leader in e-commerce, cloud computing (AWS), entertainment (Prime Video), and consumer electronics, transforms retail and digital services with innovative products and services worldwide.</p>
@@ -432,7 +405,7 @@
             <div class="col-xl-4 col-md-6">
                 <div class="aih-info-card-item hg-350 bgc-white aih-shadow-hover p-4 ptb-30 rounded-10 mt-20"  data-aos="fade-up" data-aos-anchor-placement="top-bottom">
                     <div class="d-flex align-items-center gap-2">
-                        <img src="assets/image/ai/braina-ai.webp" alt="image">
+                        <img src="assets/image/ai/braina-ai.webp" alt="AI Development Company in Mumbai">
                         <h5 class="aih-color-two fs-24 fw-600">Braina</h5>
                     </div>
                     <p class="ca-two-body-clr mt-20 mb-0">Braina AI is an intelligent virtual assistant that uses natural language processing to perform tasks such as voice commands, automation, and information retrieval, enhancing productivity and simplifying various digital interactions.</p>
@@ -441,7 +414,7 @@
             <div class="col-xl-4 col-md-6">
                 <div class="aih-info-card-item hg-350 bgc-white aih-shadow-hover p-4 ptb-30 rounded-10 mt-20"  data-aos="fade-up" data-aos-anchor-placement="top-bottom">
                     <div class="d-flex align-items-center gap-2">
-                        <img src="assets/image/ai/deepbrain-ai.webp" alt="image">
+                        <img src="assets/image/ai/deepbrain-ai.webp" alt="AI Services India">
                         <h5 class="aih-color-two fs-24 fw-600">DeepBrain AI</h5>
                     </div>
                     <p class="ca-two-body-clr mt-20 mb-0">DeepBrain AI specializes in AI-driven speech synthesis and deep learning, creating realistic voiceovers, virtual assistants, and customer service solutions using advanced neural networks for seamless, human-like interactions.</p>
@@ -450,7 +423,7 @@
             <div class="col-xl-4 col-md-6">
                 <div class="aih-info-card-item hg-350 bgc-white aih-shadow-hover p-4 ptb-30 rounded-10 mt-20"  data-aos="fade-up" data-aos-anchor-placement="top-bottom">
                     <div class="d-flex align-items-center gap-2">
-                        <img src="assets/image/ai/figure-ai.webp" alt="image">
+                        <img src="assets/image/ai/figure-ai.webp" alt="AI Automation Services">
                         <h5 class="aih-color-two fs-24 fw-600">Figure AI</h5>
                     </div>
                     <p class="ca-two-body-clr mt-20 mb-0">Figure AI is a robotics and AI company developing humanoid robots designed to perform tasks like assistance, labor, and automation. Their goal is to integrate AI-powered robots into various industries for efficiency.</p>
@@ -476,37 +449,37 @@
             <ul class="list list-row align-items-center gap-4 scroller-x__list">
                 <li>
                     <div class="aiart-image-slider-item">
-                        <img src="assets/image/ai/a1.webp" alt="image" class="img-fluid">
+                        <img src="assets/image/ai/a1.webp" alt="Generative AI Development" class="img-fluid">
                     </div>
                 </li>
                 <li>
                     <div class="aiart-image-slider-item">
-                        <img src="assets/image/ai/a2.webp" alt="image" class="img-fluid">
+                        <img src="assets/image/ai/a2.webp" alt="AI Chatbot Development" class="img-fluid">
                     </div>
                 </li>
                 <li>
                     <div class="aiart-image-slider-item">
-                        <img src="assets/image/ai/a3.webp" alt="image" class="img-fluid">
+                        <img src="assets/image/ai/a3.webp" alt="AI Integration Services" class="img-fluid">
                     </div>
                 </li>
                 <li>
                     <div class="aiart-image-slider-item">
-                        <img src="assets/image/ai/a4.webp" alt="image" class="img-fluid">
+                        <img src="assets/image/ai/a4.webp" alt="AI Consulting Services" class="img-fluid">
                     </div>
                 </li>
                 <li>
                     <div class="aiart-image-slider-item">
-                        <img src="assets/image/ai/a5.webp" alt="image" class="img-fluid">
+                        <img src="assets/image/ai/a5.webp" alt="AI Software Development" class="img-fluid">
                     </div>
                 </li>
                 <li>
                     <div class="aiart-image-slider-item">
-                        <img src="assets/image/ai/a6.webp" alt="image" class="img-fluid">
+                        <img src="assets/image/ai/a6.webp" alt="Intelligent Automation Solutions" class="img-fluid">
                     </div>
                 </li>
                 <li>
                     <div class="aiart-image-slider-item">
-                        <img src="assets/image/ai/a7.webp" alt="image" class="img-fluid">
+                        <img src="assets/image/ai/a7.webp" alt="AI Business Solutions" class="img-fluid">
                     </div>
                 </li>
 
@@ -647,7 +620,7 @@
                 </div>
             </div>
             <div class="col-lg-6 col-md-6">
-                <img src="assets/image/team/tam_grop.png" alt="image">
+                <img src="assets/image/team/tam_grop.png" alt="AI Development Services">
             </div>
         </div>
     </div>

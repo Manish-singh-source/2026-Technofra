@@ -388,7 +388,7 @@
                 <div class="col-lg-6">
                     <div class="hero-content-wrap text-xl-start text-lg-start mt-5 mt-lg-0 mt-xl-0"
                         data-aos="fade-up">
-                        <img src="assets/image/shopify/shopify-logo.webp" alt="image">
+                        <img src="assets/image/shopify/shopify-logo.webp" alt="Shopify Website Design Company">
                         <h1 class="fw-bold display-5 mb-3">Shopify Website Development Services</h1>
                         <p class="lead">Get the best out of your business with Shopify eCommerce development
                             solutions and rival the best in the world of eCommerce with enhanced growth and success.
@@ -402,7 +402,7 @@
                         <div class="hero-screen-wrap">
 
                             <div class="">
-                                <img src="assets/image/shopify/banner.webp" class="img-fluid" alt="hero image">
+                                <img src="assets/image/shopify/banner.webp" class="img-fluid" alt="Shopify Ecommerce Development">
                             </div>
                         </div>
                     </div>
@@ -422,19 +422,19 @@
                 <div class="row justify-content-between">
                     <div class="col-xxl-4 col-xl-5 col-lg-6 col-md-8 col-sm-10">
                         <div class="it-company-about-testimonial it-company-bg-three rounded-16 position-relative">
-                            <!-- <img src="assets/img/it_company/about_testi_icon.png" alt="image" class="mb-20"> -->
+                          
                             <h5 class="text-white fs-24 flh-28 mb-20">
 
                                 Why Shopify
                             </h5>
                             <p class="it-company-color fw-500 flh-24 mb-20">Technofra offers custom Shopify development, seamless integrations, and expert support for your business.</p>
 
-                            <img src="assets\image\shopify\t_about.webp" alt="image" class="position-absolute t_about_img">
+                            <img src="assets\image\shopify\t_about.webp" alt="Custom Shopify Development" class="position-absolute t_about_img">
                         </div>
                     </div>
                     <div class="col-xxl-7 col-xl-6">
                         <div class="it-company-about-box it-company-bg d-inline-flex align-items-center gap-5 rounded-16 p-5">
-                            <h3 class="it-company-color-two fs-72"><img src="assets\image/shopify\shop.webp" alt="image"></h3>
+                            <h3 class="it-company-color-two fs-72"><img src="assets\image\shopify\shop.webp" alt="Shopify Store Development"></h3>
                             <div class="it-about-content">
                                 <h5 class="text-white fs-24 flh-28 mb-20">
                                     Benefits of Shopify
@@ -500,21 +500,21 @@
                         <div class="pay-gw-payment-item bg-white p-4 rounded-3 mt-20">
                             <h4 class="pay-gw-color fs-20 ff-risk-pri mb-20">Unlock Flexible Payments</h4>
                             <p class="mb-30">With Shopify, you can easily accept multiple payment methods, including credit cards, ACH, and digital wallets, for one-time or recurring payments—giving your customers the flexibility they need.</p>
-                            <img src="assets\image\shopify\payment-1.webp" alt="image" class="img-fluid w-100">
+                            <img src="assets\image\shopify\payment-1.webp" alt="Shopify Website Development" class="img-fluid w-100">
                         </div>
                     </div>
                     <div class="col-lg-4">
                         <div class="pay-gw-payment-item pay-bg-color p-4 rounded-3 mt-20">
                             <h4 class="text-white fs-20 ff-risk-pri mb-20">Approve more Customers</h4>
                             <p class="text-white mb-30">Shopify's built-in features allow you to streamline customer onboarding and approval processes by offering secure payment methods like card and ACH, enhancing trust and customer satisfaction.</p>
-                            <img src="assets\image\shopify\payment-2.webp" alt="image" class="img-fluid w-100">
+                            <img src="assets\image\shopify\payment-2.webp" alt="Shopify Development Company" class="img-fluid w-100">
                         </div>
                     </div>
                     <div class="col-lg-4">
                         <div class="pay-gw-payment-item bg-white p-4 rounded-3 mt-20">
                             <h4 class="pay-gw-color fs-20 ff-risk-pri mb-20">Scale your Business</h4>
                             <p class="mb-30">Leverage Shopify's robust payment processing to handle both one-time and recurring payments efficiently, helping you grow your business while providing a seamless checkout experience for your customers.</p>
-                            <img src="assets\image\shopify\payment-3.webp" alt="image" class="img-fluid w-100">
+                            <img src="assets\image\shopify\payment-3.webp" alt="Ecommerce Website Development Shopify" class="img-fluid w-100">
                         </div>
                     </div>
 
@@ -593,19 +593,19 @@
                         <div class="ca-two-min-testimonial swiper">
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide">
-                                    <img src="assets\image/shopify\noti.webp" alt="not found" class="border border-2 rounded-3">
+                                    <img src="assets\image/shopify\noti.webp" alt="Shopify Store Development" class="border border-2 rounded-3">
                                 </div>
                                 <div class="swiper-slide">
-                                    <img src="assets\image/shopify\noti1.webp" alt="not found" class="border border-2 rounded-3">
+                                    <img src="assets\image/shopify\noti1.webp" alt="Shopify Ecommerce Development" class="border border-2 rounded-3">
                                 </div>
                                 <div class="swiper-slide">
-                                    <img src="assets\image/shopify\noti2.webp" alt="not found" class="border border-2 rounded-3">
+                                    <img src="assets\image/shopify\noti2.webp" alt="Shopify Store Development" class="border border-2 rounded-3">
                                 </div>
                                 <div class="swiper-slide">
-                                    <img src="assets\image/shopify\noti3.webp" alt="not found" class="border border-2 rounded-3">
+                                    <img src="assets\image/shopify\noti3.webp" alt="Shopify Website Development in Mumbai" class="border border-2 rounded-3">
                                 </div>
                                 <div class="swiper-slide">
-                                    <img src="assets\image/shopify\noti4.webp" alt="not found" class="border border-2 rounded-3">
+                                    <img src="assets\image/shopify\noti4.webp" alt="Shopify Development Agency in Mumbai" class="border border-2 rounded-3">
                                 </div>
                             </div>
                         </div>
@@ -652,7 +652,7 @@
                 </div>
                 <div class="col-lg-5 col-md-6">
                     <div class="feature-content-wrap crm-title" data-aos="fade-up" data-aos-delay="50">
-                        <!-- <span class="crm-subtitle">Why Choose Us<img src="assets/image/arrow-red.png" alt="arrow"></span> -->
+                         
                         <h2>Why Choose Technofra For Shopify Development Services </h2>
                         <p>Intrinsicly network transparent services whereas B2C ROI. Globally create installed base
                             quality vectors after innovative. </p>
@@ -772,30 +772,6 @@
                 </div>
             </div>
         </div>
-    </section>
-    <!-- <div class="cta9">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-5">
-                    <div class="heading6-w">
-                        <h2>Enquiry Now or reach out to us today!</h2>
-                        <div class="space16"></div>
-                        <p>Feel free to customize this paragraph to better reflect the specific services offered by
-                            your IT solution &amp; the unique </p>
-                        <form class="crm-hero-form d-flex align-items-center pt-60">
-                            <a href="tel:+918080803374" target="_blank" class="btn btn-outline-info rounded-5" contenteditable="false" style="cursor: pointer;"> <i class="fa-light fa-phone-volume"></i>+91 8080 80 3374</a>
-                        </form>
-                    </div>
-                </div>
-
-                <div class="col-md-7">
-                    <div class="images">
-                        <img src="assets/image/contact.webp" alt="image">
-
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div> -->
+    </section>    
     <?php include 'book-a-call.php'; ?>
     <?php include 'footer.php'; ?>

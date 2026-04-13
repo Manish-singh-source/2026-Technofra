@@ -342,7 +342,7 @@
                         </div>
                         <div class="qty-portfolio__img">
                             <a href="frizcoolindia" class="qty-portfolio__img-link">
-                                <img src="assets/image/casestudy/Frizschool/main.png" alt="image" class="img-fluid">
+                                <img src="assets/image/casestudy/Frizschool/main.png" alt="Web Development Portfolio" class="img-fluid">
                             </a>
                         </div>
                         <div class="qty-portfolio__body">
@@ -371,7 +371,7 @@
                         </div>
                         <div class="qty-portfolio__img">
                             <a href="shivam" class="qty-portfolio__img-link">
-                                <img src="assets/image/casestudy/shivam/shivam.png" alt="image" class="img-fluid">
+                                <img src="assets/image/casestudy/shivam/shivam.png" alt="Website Design Portfolio" class="img-fluid">
                             </a>
                         </div>
                         <div class="qty-portfolio__body">
@@ -400,7 +400,7 @@
                         </div>
                         <div class="qty-portfolio__img">
                             <a href="pentacledesigns" class="qty-portfolio__img-link">
-                                <img src="assets/image/casestudy/pentacledesigns.webp" alt="image" class="img-fluid">
+                                <img src="assets/image/casestudy/pentacledesigns.webp" alt="Digital Agency Portfolio" class="img-fluid">
                             </a>
                         </div>
                         <div class="qty-portfolio__body">
@@ -429,7 +429,7 @@
                         </div>
                         <div class="qty-portfolio__img">
                             <a href="texon" class="qty-portfolio__img-link">
-                                <img src="assets/image/casestudy/texon/banner.png" alt="image" class="img-fluid">
+                                <img src="assets/image/casestudy/texon/banner.png" alt="Web Development Portfolio Mumbai" class="img-fluid">
                             </a>
                         </div>
                         <div class="qty-portfolio__body">
@@ -458,7 +458,7 @@
                         </div>
                         <div class="qty-portfolio__img">
                             <a href="dynarx" class="qty-portfolio__img-link">
-                                <img src="assets/image/casestudy/dynarx.png" alt="image" class="img-fluid">
+                                <img src="assets/image/casestudy/dynarx.png" alt="Website Design Portfolio India" class="img-fluid">
                             </a>
                         </div>
                         <div class="qty-portfolio__body">
@@ -486,7 +486,7 @@
                         </div>
                         <div class="qty-portfolio__img">
                             <a href="karantelecom" class="qty-portfolio__img-link">
-                                <img src="assets/image/casestudy/karantelecom.png" alt="image" class="img-fluid">
+                                <img src="assets/image/casestudy/karantelecom.png" alt="Ecommerce Website Portfolio" class="img-fluid">
                             </a>
                         </div>
                         <div class="qty-portfolio__body">
@@ -514,7 +514,7 @@
                         </div>
                         <div class="qty-portfolio__img">
                             <a href="sunriseconsultancy" class="qty-portfolio__img-link">
-                                <img src="assets\image\casestudy\sunriseconsultancy.png" alt="image" class="img-fluid">
+                                <img src="assets\image\casestudy\sunriseconsultancy.png" alt="UI UX Design Portfolio" class="img-fluid">
                             </a>
                         </div>
                         <div class="qty-portfolio__body">
@@ -542,7 +542,7 @@
                         </div>
                         <div class="qty-portfolio__img">
                             <a href="lifelike" class="qty-portfolio__img-link">
-                                <img src="assets/image/casestudy/lifelike.png" alt="image" class="img-fluid">
+                                <img src="assets/image/casestudy/lifelike.png" alt="Digital Marketing Case Studies" class="img-fluid">
                             </a>
                         </div>
                         <div class="qty-portfolio__body">
@@ -570,7 +570,7 @@
                         </div>
                         <div class="qty-portfolio__img">
                             <a href="torshaapharma" class="qty-portfolio__img-link">
-                                <img src="assets/image/casestudy/torshaa.png" alt="image" class="img-fluid">
+                                <img src="assets/image/casestudy/torshaa.png" alt="Branding Portfolio" class="img-fluid">
                             </a>
                         </div>
                         <div class="qty-portfolio__body">
@@ -599,7 +599,7 @@
                         </div>
                         <div class="qty-portfolio__img">
                             <a href="Jaijagannathpuri" class="qty-portfolio__img-link">
-                                <img src="assets/image/casestudy/jaijagannath.webp" alt="image" class="img-fluid">
+                                <img src="assets/image/casestudy/jaijagannath.webp" alt="Our Work Portfolio" class="img-fluid">
                             </a>
                         </div>
                         <div class="qty-portfolio__body">
@@ -627,7 +627,7 @@
                         </div>
                         <div class="qty-portfolio__img">
                             <a href="aspirias" class="qty-portfolio__img-link">
-                                <img src="assets/image/casestudy/aspirias.webp" alt="image" class="img-fluid">
+                                <img src="assets/image/casestudy/aspirias.webp" alt="Professional Web Development Projects" class="img-fluid">
                             </a>
                         </div>
                         <div class="qty-portfolio__body">
@@ -655,7 +655,7 @@
                         </div>
                         <div class="qty-portfolio__img">
                             <a href="wotm" class="qty-portfolio__img-link">
-                                <img src="assets/image/casestudy/wotm.png" alt="image" class="img-fluid">
+                                <img src="assets/image/casestudy/wotm.png" alt="Creative Digital Agency Portfolio" class="img-fluid">
                             </a>
                         </div>
                         <div class="qty-portfolio__body">
@@ -683,7 +683,7 @@
                         </div>
                         <div class="qty-portfolio__img">
                             <a href="vlegends" class="qty-portfolio__img-link">
-                                <img src="assets\image\casestudy\vlegends.webp" alt="image" class="img-fluid">
+                                <img src="assets\image\casestudy\vlegends.webp" alt="Client Project Showcase" class="img-fluid">
                             </a>
                         </div>
                         <div class="qty-portfolio__body">
@@ -711,7 +711,7 @@
                         </div>
                         <div class="qty-portfolio__img">
                             <a href="transhubtech" class="qty-portfolio__img-link">
-                                <img src="assets\image\casestudy\transhubtech.webp" alt="image" class="img-fluid">
+                                <img src="assets\image\casestudy\transhubtech.webp" alt="Business Website Portfolio" class="img-fluid">
                             </a>
                         </div>
                         <div class="qty-portfolio__body">
@@ -740,7 +740,7 @@
                         </div>
                         <div class="qty-portfolio__img">
                             <a href="srb-computers" class="qty-portfolio__img-link">
-                                <img src="assets\image\casestudy\portfolio.webp" alt="image" class="img-fluid">
+                                <img src="assets\image\casestudy\portfolio.webp" alt="Web Design Case Studies" class="img-fluid">
                             </a>
                         </div>
                         <div class="qty-portfolio__body">
@@ -768,7 +768,7 @@
                         </div>
                         <div class="qty-portfolio__img">
                             <a href="aeritx" class="qty-portfolio__img-link">
-                                <img src="assets\image\casestudy\aeritx.webp" alt="image" class="img-fluid">
+                                <img src="assets\image\casestudy\aeritx.webp" alt="Web Development Portfolio" class="img-fluid">
                             </a>
                         </div>
                         <div class="qty-portfolio__body">
@@ -796,7 +796,7 @@
                         </div>
                         <div class="qty-portfolio__img">
                             <a href="yash-tools" class="qty-portfolio__img-link">
-                                <img src="assets/image/casestudy/yashtools.webp" alt="image" class="img-fluid">
+                                <img src="assets/image/casestudy/yashtools.webp" alt="Website Design Portfolio" class="img-fluid">
                             </a>
                         </div>
                         <div class="qty-portfolio__body">
@@ -824,7 +824,7 @@
                         </div>
                         <div class="qty-portfolio__img">
                             <a href="chem-pharma" class="qty-portfolio__img-link">
-                                <img src="assets/image/casestudy/chempharma.webp" alt="image" class="img-fluid">
+                                <img src="assets/image/casestudy/chempharma.webp" alt="Digital Agency Portfolio" class="img-fluid">
                             </a>
                         </div>
                         <div class="qty-portfolio__body">
@@ -850,7 +850,7 @@
                         </div>
                         <div class="qty-portfolio__img">
                             <a href="dipuenterprises" class="qty-portfolio__img-link">
-                                <img src="assets/image/casestudy/dipu.webp" alt="image" class="img-fluid">
+                                <img src="assets/image/casestudy/dipu.webp" alt="Web Development Portfolio Mumbai" class="img-fluid">
                             </a>
                         </div>
                         <div class="qty-portfolio__body">
@@ -878,7 +878,7 @@
                         </div>
                         <div class="qty-portfolio__img">
                             <a href="global-ocean" class="qty-portfolio__img-link">
-                                <img src="assets/image/casestudy/globalocean.webp" alt="image" class="img-fluid">
+                                <img src="assets/image/casestudy/globalocean.webp" alt="Website Design Portfolio India" class="img-fluid">
                             </a>
                         </div>
                         <div class="qty-portfolio__body">
@@ -906,7 +906,7 @@
                         </div>
                         <div class="qty-portfolio__img">
                             <a href="ish" class="qty-portfolio__img-link">
-                                <img src="assets/image/casestudy/ish.webp" alt="image" class="img-fluid">
+                                <img src="assets/image/casestudy/ish.webp" alt="Ecommerce Website Portfolio" class="img-fluid">
                             </a>
                         </div>
                         <div class="qty-portfolio__body">
@@ -934,7 +934,7 @@
                         </div>
                         <div class="qty-portfolio__img">
                             <a href="rupalplastic" class="qty-portfolio__img-link">
-                                <img src="assets/image/casestudy/rupalplastic.png" alt="image" class="img-fluid">
+                                <img src="assets/image/casestudy/rupalplastic.png" alt="UI UX Design Portfolio" class="img-fluid">
                             </a>
                         </div>
                         <div class="qty-portfolio__body">
@@ -962,7 +962,7 @@
                         </div>
                         <div class="qty-portfolio__img">
                             <a href="sanjay-agencies" class="qty-portfolio__img-link">
-                                <img src="assets/image/casestudy/sanjayagencies.webp" alt="image" class="img-fluid">
+                                <img src="assets/image/casestudy/sanjayagencies.webp" alt="Digital Marketing Case Studies" class="img-fluid">
                             </a>
                         </div>
                         <div class="qty-portfolio__body">
@@ -990,7 +990,7 @@
                         </div>
                         <div class="qty-portfolio__img">
                             <a href="sukanya" class="qty-portfolio__img-link">
-                                <img src="assets/image/casestudy/sukanya.webp" alt="image" class="img-fluid">
+                                <img src="assets/image/casestudy/sukanya.webp" alt="Branding Portfolio" class="img-fluid">
                             </a>
                         </div>
                         <div class="qty-portfolio__body">
@@ -1018,7 +1018,7 @@
                         </div>
                         <div class="qty-portfolio__img">
                             <a href="visitmadhisland" class="qty-portfolio__img-link">
-                                <img src="assets/image/casestudy/visitmadh.webp" alt="image" class="img-fluid">
+                                <img src="assets/image/casestudy/visitmadh.webp" alt="Our Work Portfolio" class="img-fluid">
                             </a>
                         </div>
                         <div class="qty-portfolio__body">
@@ -1046,7 +1046,7 @@
                         </div>
                         <div class="qty-portfolio__img">
                             <a href="aakriti-space" class="qty-portfolio__img-link">
-                                <img src="assets/image/casestudy/aakriti.webp" alt="image" class="img-fluid">
+                                <img src="assets/image/casestudy/aakriti.webp" alt="Professional Web Development Projects" class="img-fluid">
                             </a>
                         </div>
                         <div class="qty-portfolio__body">
@@ -1074,7 +1074,7 @@
                         </div>
                         <div class="qty-portfolio__img">
                             <a href="instacraves" class="qty-portfolio__img-link">
-                                <img src="assets/image/casestudy/Instacraves.webp" alt="image" class="img-fluid">
+                                <img src="assets/image/casestudy/Instacraves.webp" alt="Creative Digital Agency Portfolio" class="img-fluid">
                             </a>
                         </div>
                         <div class="qty-portfolio__body">
@@ -1102,7 +1102,7 @@
                         </div>
                         <div class="qty-portfolio__img">
                             <a href="napoleon" class="qty-portfolio__img-link">
-                                <img src="assets/image/casestudy/naploean.png" alt="image" class="img-fluid">
+                                <img src="assets/image/casestudy/naploean.png" alt="Client Project Showcase" class="img-fluid">
                             </a>
                         </div>
                         <div class="qty-portfolio__body">
@@ -1130,7 +1130,7 @@
                         </div>
                         <div class="qty-portfolio__img">
                             <a href="deltacab" class="qty-portfolio__img-link">
-                                <img src="assets/image/casestudy/delta.webp" alt="image" class="img-fluid">
+                                <img src="assets/image/casestudy/delta.webp" alt="Business Website Portfolio" class="img-fluid">
                             </a>
                         </div>
                         <div class="qty-portfolio__body">
@@ -1158,7 +1158,7 @@
                         </div>
                         <div class="qty-portfolio__img">
                             <a href="fragomatrix" class="qty-portfolio__img-link">
-                                <img src="assets/image/casestudy/fragomatrix.webp" alt="image" class="img-fluid">
+                                <img src="assets/image/casestudy/fragomatrix.webp" alt="Web Design Case Studies" class="img-fluid">
                             </a>
                         </div>
                         <div class="qty-portfolio__body">
@@ -1186,7 +1186,7 @@
                         </div>
                         <div class="qty-portfolio__img">
                             <a href="jpc" class="qty-portfolio__img-link">
-                                <img src="assets/image/casestudy/jpc.webp" alt="image" class="img-fluid">
+                                <img src="assets/image/casestudy/jpc.webp" alt="Web Development Portfolio" class="img-fluid">
                             </a>
                         </div>
                         <div class="qty-portfolio__body">
@@ -1215,7 +1215,7 @@
                         </div>
                         <div class="qty-portfolio__img">
                             <a href="spaceage" class="qty-portfolio__img-link">
-                                <img src="assets/image/casestudy/Spacage.webp" alt="image" class="img-fluid">
+                                <img src="assets/image/casestudy/Spacage.webp" alt="Website Design Portfolio" class="img-fluid">
                             </a>
                         </div>
                         <div class="qty-portfolio__body">
@@ -1243,7 +1243,7 @@
                         </div>
                         <div class="qty-portfolio__img">
                             <a href="travest" class="qty-portfolio__img-link">
-                                <img src="assets/image/casestudy/trevest-holiday.webp" alt="image" class="img-fluid">
+                                <img src="assets/image/casestudy/trevest-holiday.webp" alt="Digital Agency Portfolio" class="img-fluid">
                             </a>
                         </div>
                         <div class="qty-portfolio__body">
@@ -1271,7 +1271,7 @@
                         </div>
                         <div class="qty-portfolio__img">
                             <a href="shreeram-interiors" class="qty-portfolio__img-link">
-                                <img src="assets/image/casestudy/shreeram-interior.webp" alt="image" class="img-fluid">
+                                <img src="assets/image/casestudy/shreeram-interior.webp" alt="Web Development Portfolio Mumbai" class="img-fluid">
                             </a>
                         </div>
                         <div class="qty-portfolio__body">
@@ -1300,7 +1300,7 @@
                         </div>
                         <div class="qty-portfolio__img">
                             <a href="mehtas-group" class="qty-portfolio__img-link">
-                                <img src="assets/image/casestudy/mehtagroup.webp" alt="image" class="img-fluid">
+                                <img src="assets/image/casestudy/mehtagroup.webp" alt="Website Design Portfolio India" class="img-fluid">
                             </a>
                         </div>
                         <div class="qty-portfolio__body">
@@ -1328,7 +1328,7 @@
                         </div>
                         <div class="qty-portfolio__img">
                             <a href="mateo" class="qty-portfolio__img-link">
-                                <img src="assets/image/casestudy/Mateo.webp" alt="image" class="img-fluid">
+                                <img src="assets/image/casestudy/Mateo.webp" alt="Ecommerce Website Portfolio" class="img-fluid">
                             </a>
                         </div>
                         <div class="qty-portfolio__body">
@@ -1356,7 +1356,7 @@
                         </div>
                         <div class="qty-portfolio__img">
                             <a href="manvi-interior" class="qty-portfolio__img-link">
-                                <img src="assets/image/casestudy/manvi-interior.webp" alt="image" class="img-fluid">
+                                <img src="assets/image/casestudy/manvi-interior.webp" alt="UI UX Design Portfolio" class="img-fluid">
                             </a>
                         </div>
                         <div class="qty-portfolio__body">
@@ -1384,7 +1384,7 @@
                         </div>
                         <div class="qty-portfolio__img">
                             <a href="urcfo" class="qty-portfolio__img-link">
-                                <img src="assets/image/casestudy/urcfo.webp" alt="image" class="img-fluid">
+                                <img src="assets/image/casestudy/urcfo.webp" alt="Digital Marketing Case Studies" class="img-fluid">
                             </a>
                         </div>
                         <div class="qty-portfolio__body">
@@ -1412,7 +1412,7 @@
                         </div>
                         <div class="qty-portfolio__img">
                             <a href="urban-sports" class="qty-portfolio__img-link">
-                                <img src="assets/image/casestudy/urban-sports.webp" alt="image" class="img-fluid">
+                                <img src="assets/image/casestudy/urban-sports.webp" alt="Branding Portfolio" class="img-fluid">
                             </a>
                         </div>
                         <div class="qty-portfolio__body">
@@ -1441,7 +1441,7 @@
                         </div>
                         <div class="qty-portfolio__img">
                             <a href="viraj-prints" class="qty-portfolio__img-link">
-                                <img src="assets/image/casestudy/viraj-prints.webp" alt="image" class="img-fluid">
+                                <img src="assets/image/casestudy/viraj-prints.webp" alt="Our Work Portfolio" class="img-fluid">
                             </a>
                         </div>
                         <div class="qty-portfolio__body">
@@ -1469,7 +1469,7 @@
                         </div>
                         <div class="qty-portfolio__img">
                             <a href="vpsons" class="qty-portfolio__img-link">
-                                <img src="assets/image/casestudy/vp&son.webp" alt="image" class="img-fluid">
+                                <img src="assets/image/casestudy/vp&son.webp" alt="Professional Web Development Projects" class="img-fluid">
                             </a>
                         </div>
                         <div class="qty-portfolio__body">
@@ -1497,7 +1497,7 @@
                         </div>
                         <div class="qty-portfolio__img">
                             <a href="linkpromotions" class="qty-portfolio__img-link">
-                                <img src="assets/image/casestudy/link-promtion.webp" alt="image" class="img-fluid">
+                                <img src="assets/image/casestudy/link-promtion.webp" alt="Creative Digital Agency Portfolio" class="img-fluid">
                             </a>
                         </div>
                         <div class="qty-portfolio__body">
@@ -1525,7 +1525,7 @@
                         </div>
                         <div class="qty-portfolio__img">
                             <a href="rnisargfoundation" class="qty-portfolio__img-link">
-                                <img src="assets/image/casestudy/rnisargfoundation.webp" alt="image" class="img-fluid">
+                                <img src="assets/image/casestudy/rnisargfoundation.webp" alt="Client Project Showcase" class="img-fluid">
                             </a>
                         </div>
                         <div class="qty-portfolio__body">
@@ -1553,7 +1553,7 @@
                         </div>
                         <div class="qty-portfolio__img">
                             <a href="creativeprintinks" class="qty-portfolio__img-link">
-                                <img src="assets/image/casestudy/creative-print-ink.png" alt="image" class="img-fluid">
+                                <img src="assets/image/casestudy/creative-print-ink.png" alt="Business Website Portfolio" class="img-fluid">
                             </a>
                         </div>
                         <div class="qty-portfolio__body">
@@ -1581,7 +1581,7 @@
                         </div>
                         <div class="qty-portfolio__img">
                             <a href="rajprbha" class="qty-portfolio__img-link">
-                                <img src="assets/image/casestudy/rajprbha.webp" alt="image" class="img-fluid">
+                                <img src="assets/image/casestudy/rajprbha.webp" alt="Web Design Case Studies" class="img-fluid">
                             </a>
                         </div>
                         <div class="qty-portfolio__body">
@@ -1609,7 +1609,7 @@
                         </div>
                         <div class="qty-portfolio__img">
                             <a href="finwert" class="qty-portfolio__img-link">
-                                <img src="assets/image/casestudy/finwert.webp" alt="image" class="img-fluid">
+                                <img src="assets/image/casestudy/finwert.webp" alt="Web Development Portfolio" class="img-fluid">
                             </a>
                         </div>
                         <div class="qty-portfolio__body">
@@ -1637,7 +1637,7 @@
                         </div>
                         <div class="qty-portfolio__img">
                             <a href="shahkatariya" class="qty-portfolio__img-link">
-                                <img src="assets/image/casestudy/shahkathariya.webp" alt="image" class="img-fluid">
+                                <img src="assets/image/casestudy/shahkathariya.webp" alt="Website Design Portfolio" class="img-fluid">
                             </a>
                         </div>
                         <div class="qty-portfolio__body">

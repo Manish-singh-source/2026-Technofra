@@ -72,7 +72,7 @@
                     data-aos="fade-up"
                     data-aos-delay="200">
      
-                    <img src="assets/image/api/formint-bn1.webp" alt="hero image"
+                    <img src="assets/image/api/formint-bn1.webp" alt="Email Form Integration Services, Contact Form Development"
                         class="img-fluid position-relative z-5">
                 </div>
             </div>
@@ -86,7 +86,7 @@
             <div class="col-lg-6 col-md-6 order-last order-md-first">
                 <div class="card-shape position-relative">
                     <div class="card-img mt-5 mt-lg-0">
-                        <img src="assets/image/api/formint.webp" class="img-fluid" alt="card" height="500px" />
+                        <img src="assets/image/api/formint.webp" class="img-fluid" alt="Website Contact Form Services" height="500px" />
                     </div>
 
                 </div>
@@ -149,7 +149,7 @@
             <div class="col-lg-6 col-md-7 mv-pt">
                 <div class="feature-img-wrap position-relative d-flex flex-column align-items-end">
 
-                    <img src="assets/image/api/formint2.webp" alt="feature image" class="img-fluid rounded-custom"
+                    <img src="assets/image/api/formint2.webp" alt="Email Form Development Company in Mumbai, Lead Generation Forms" class="img-fluid rounded-custom"
                         data-aos="fade-up">
                 </div>
             </div>
@@ -183,7 +183,7 @@
                 <div class="pr-lg-4 mv-pt">
                     <div class="bg-light-subtle text-center rounded-custom overflow-hidden p-lg-5 p-3 mx-lg-auto"
                         data-aos="fade-up" data-aos-delay="50">
-                        <img src="assets/image/api/formint3.webp" alt="image" class="img-fluid">
+                        <img src="assets/image/api/formint3.webp" alt="CRM Form Integration Services" class="img-fluid">
 
                     </div>
                 </div>
@@ -213,7 +213,7 @@
 
                 <div class="single-service p-lg-5 p-4 text-center mt-3 border-bottom border-end">
                     <div class="service-icon icon-center">
-                        <img src="assets/image/icons/em1.png" alt="service icon" width="65"
+                        <img src="assets/image/icons/em1.png" alt="Web Form Development Services" width="65"
                             height="65" />
                     </div>
                     <div class="service-info-wrap">
@@ -228,7 +228,7 @@
             <div class="col-lg-4 col-md-6 p-0">
                 <div class="single-service p-lg-5 p-4 text-center mt-3 border-bottom border-end">
                     <div class="service-icon icon-center">
-                        <img src="assets/image/icons/em2.png" alt="service icon" width="65"
+                        <img src="assets/image/icons/em2.png" alt="Conversion Optimized Forms" width="65"
                             height="65" />
                     </div>
                     <div class="service-info-wrap">
@@ -242,7 +242,7 @@
             <div class="col-lg-4 col-md-6 p-0">
                 <div class="single-service p-lg-5 p-4 text-center mt-3 border-bottom">
                 <div class="service-icon icon-center">
-                        <img src="assets/image/icons/em4.png" alt="service icon" width="65" height="65" />
+                        <img src="assets/image/icons/em4.png" alt="Email Lead Capture Forms" width="65" height="65" />
                     </div>
                     <div class="feature-info-wrap">
                         <h3 class="h5 ">Data Synchronization</h3>
@@ -256,7 +256,7 @@
             <div class="col-lg-4 col-md-6 p-0">
                 <div class="single-service p-lg-5 p-4 text-center border-end">
                     <div class="service-icon icon-center">
-                        <img src="assets/image/icons/em3.png" alt="service icon" width="65" height="65" />
+                        <img src="assets/image/icons/em3.png" alt="Contact Form Integration Company" width="65" height="65" />
                     </div>
 
                     <div class="service-info-wrap">
@@ -270,7 +270,7 @@
             <div class="col-lg-4 col-md-6 p-0">
                 <div class="single-service p-lg-5 p-4 text-center border-end">
                     <div class="service-icon icon-center">
-                        <img src="assets/image/icons/em5.png" alt="service icon" width="65"
+                        <img src="assets/image/icons/em5.png" alt="Automated Email Forms" width="65"
                             height="65" />
                     </div>
                     <div class="feature-info-wrap">
@@ -284,7 +284,7 @@
             <div class="col-lg-4 col-md-6 p-0">
                 <div class="single-service p-lg-5 p-4 text-center">
                     <div class="service-icon icon-center">
-                        <img src="assets/image/icons/em6.png" alt="service icon" width="65" height="65" />
+                        <img src="assets/image/icons/em6.png" alt="Secure Contact Form Development, Mobile-Friendly Contact Forms" width="65" height="65" />
                     </div>
                     <div class="feature-info-wrap">
                         <h3 class="h5 ">Enhanced Security</h3>
@@ -411,7 +411,7 @@
             <div class="col-lg-6 col-md-7 mv-pt">
                 <div class="feature-img-wrap position-relative d-flex flex-column align-items-end">
 
-                    <img src="assets/image/api/enq.webp" alt="feature image" class="img-fluid rounded-custom"
+                    <img src="assets/image/api/enq.webp" alt="Lead Generation Form Development" class="img-fluid rounded-custom"
                         data-aos="fade-up">
                 </div>
             </div>

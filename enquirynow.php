@@ -63,13 +63,7 @@ gtag('config', 'G-189WWHXLSS');
                         can connect you with the most suitable team and solution from the start.</p>
 
                     <div class="quote-highlights">
-                        <!-- <div class="quote-highlight-item">
-                            <span class="quote-highlight-icon"><i class="fas fa-layer-group"></i></span>
-                            <div>
-                                <h3>Tailored recommendations</h3>
-                                <p>We align the quotation to your business type, technical needs, and growth priorities.</p>
-                            </div>
-                        </div> -->
+                      
                         <div class="quote-highlight-item">
                             <span class="quote-highlight-icon"><i class="fas fa-clock"></i></span>
                             <div>
@@ -241,14 +235,6 @@ gtag('config', 'G-189WWHXLSS');
     </div>
 </section>
 
-<!-- <section class="quote-map-section">
-    <div class="container">
-        <div class="quote-map-shell">
-            <iframe
-                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3767.817656548082!2d72.834758!3d19.203165!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b6ca84bfbc29%3A0xc30408ca949bffb8!2sTechnofra%20%7C%20Web%20Development%20%7C%20Digital%20Marketing%20Agency%20in%20Mumbai!5e0!3m2!1sen!2sus!4v1732790645015!5m2!1sen!2sus"
-                allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
-    </div>
-</section> -->
+
 
 <?php include 'footer.php'; ?>

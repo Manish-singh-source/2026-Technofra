@@ -57,7 +57,7 @@
 
 <section class="pb-60">
   <div class="cover-image">
-    <img src="assets/image/casestudy/spaceage/spaceage01.webp" alt="image">
+    <img src="assets/image/casestudy/spaceage/spaceage01.webp" alt="Spaceage case study">
   </div>
 </section>
 <section class="counter-with-video">
@@ -82,18 +82,18 @@
 
     <div class="row justify-content-between align-items-center">
       <div class="col-lg-6 col-md-6">
-        <img src="assets/image/casestudy/spaceage/spaceage02.webp" alt="image" class="dp-r-10 mt-30" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
+        <img src="assets/image/casestudy/spaceage/spaceage02.webp" alt="Spaceage case study" class="dp-r-10 mt-30" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
       </div>
       <div class="col-lg-6 col-md-6">
-        <img src="assets/image/casestudy/spaceage/spaceage03.webp" alt="image" class="dp-r-10 mt-30" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
+        <img src="assets/image/casestudy/spaceage/spaceage03.webp" alt="Spaceage case study" class="dp-r-10 mt-30" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
       </div>
     </div>
     <div class="row justify-content-between align-items-center">
       <div class="col-lg-6 col-md-6">
-        <img src="assets/image/casestudy/spaceage/spaceage04.webp" alt="image" class="dp-r-10 mt-30" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
+        <img src="assets/image/casestudy/spaceage/spaceage04.webp" alt="Spaceage case study" class="dp-r-10 mt-30" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
       </div>
       <div class="col-lg-6 col-md-6">
-        <img src="assets/image/casestudy/spaceage/spaceage05.webp" alt="image" class="dp-r-10 mt-30" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
+        <img src="assets/image/casestudy/spaceage/spaceage05.webp" alt="Spaceage case study" class="dp-r-10 mt-30" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
       </div>
     </div>
   </div>
@@ -103,7 +103,7 @@
 
     <div class="row justify-content-between align-items-center pt-60">
       <div class="col-lg-6 col-md-6">
-        <img src="assets/image/casestudy/spaceage/spaceage06.webp" alt="image" class="dp-r-10" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+        <img src="assets/image/casestudy/spaceage/spaceage06.webp" alt="Spaceage case study" class="dp-r-10" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
       </div>
       <div class="col-lg-6 col-md-6 mob-pt-20">
         <div class="feature-img-content">
@@ -126,7 +126,7 @@
   <div class="container">
     <div class="row align-items-center">
       <div class="col-lg-12 col-md-12">
-        <img src="assets/image/casestudy/spaceage/spaceage09.webp" alt="image" class="dp-r-10" data-aos="zoom-in-up">
+        <img src="assets/image/casestudy/spaceage/spaceage09.webp" alt="Spaceage case study" class="dp-r-10" data-aos="zoom-in-up">
       </div>
     </div>
   </div>
@@ -145,7 +145,7 @@
         </div>
       </div>
       <div class="col-lg-12 col-md-12">
-        <img src="assets/image/casestudy/spaceage/spaceage07.webp" alt="image" class="dp-r-10" data-aos="zoom-in-up">
+        <img src="assets/image/casestudy/spaceage/spaceage07.webp" alt="Spaceage case study" class="dp-r-10" data-aos="zoom-in-up">
       </div>
     </div>
   </div>
@@ -154,7 +154,7 @@
   <div class="container">
     <div class="row align-items-center">
       <div class="col-lg-12 col-md-12">
-        <img src="assets/image/casestudy/spaceage/spaceage08.webp" alt="image" class="dp-r-10" data-aos="zoom-in-up">
+        <img src="assets/image/casestudy/spaceage/spaceage08.webp" alt="Spaceage case study" class="dp-r-10" data-aos="zoom-in-up">
       </div>
     </div>
   </div>

@@ -52,7 +52,7 @@ gtag('config', 'G-189WWHXLSS');
 
 <section class="pb-60">
     <div class="cover-image">
-        <img src="assets/image/casestudy/vpsons/vpsons01.webp" alt="image">
+        <img src="assets/image/casestudy/vpsons/vpsons01.webp" alt="VP Sons case study">
     </div>
 </section>
 
@@ -73,15 +73,15 @@ gtag('config', 'G-189WWHXLSS');
         </div>
         <div class="row justify-content-center">
             <div class="col-lg-4 col-4">
-                <img src="assets/image/casestudy/vpsons/vpsons02.webp" alt="image" class="dp-r-10" data-aos="fade-right"
+                <img src="assets/image/casestudy/vpsons/vpsons02.webp" alt="VP Sons case study" class="dp-r-10" data-aos="fade-right"
                     data-aos-offset="300" data-aos-easing="ease-in-sine">
             </div>
             <div class="col-lg-4 col-4">
-                <img src="assets/image/casestudy/vpsons/vpsons03.webp" alt="image" class="dp-r-10"
+                <img src="assets/image/casestudy/vpsons/vpsons03.webp" alt="VP Sons case study" class="dp-r-10"
                     data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-offset="0">
             </div>
             <div class="col-lg-4 col-4">
-                <img src="assets/image/casestudy/vpsons/vpsons04.webp" alt="image" class="dp-r-10" data-aos="fade-left"
+                <img src="assets/image/casestudy/vpsons/vpsons04.webp" alt="VP Sons case study" class="dp-r-10" data-aos="fade-left"
                     data-aos-anchor="#example-anchor" data-aos-offset="500" data-aos-duration="500">
             </div>
         </div>
@@ -105,7 +105,7 @@ gtag('config', 'G-189WWHXLSS');
                 </div>
             </div>
             <div class="col-lg-6 col-md-6">
-                <img src="assets/image/casestudy/vpsons/vpsons05.webp" alt="image" class="dp-r-10" data-aos="fade-left"
+                <img src="assets/image/casestudy/vpsons/vpsons05.webp" alt="VP Sons case study" class="dp-r-10" data-aos="fade-left"
                     data-aos-anchor="#example-anchor" data-aos-offset="500" data-aos-duration="500">
             </div>
         </div>
@@ -115,11 +115,11 @@ gtag('config', 'G-189WWHXLSS');
     <div class="container">
         <div class="row justify-content-between align-items-center">
             <div class="col-lg-6 col-md-6">
-                <img src="assets/image/casestudy/vpsons/vpsons08.webp" alt="image" class="dp-r-10" data-aos="fade-up"
+                <img src="assets/image/casestudy/vpsons/vpsons08.webp" alt="VP Sons case study" class="dp-r-10" data-aos="fade-up"
                     data-aos-anchor-placement="top-bottom">
             </div>
             <div class="col-lg-6 col-md-6">
-                <img src="assets/image/casestudy/vpsons/vpsons09.webp" alt="image" class="dp-r-10" data-aos="fade-up"
+                <img src="assets/image/casestudy/vpsons/vpsons09.webp" alt="VP Sons case study" class="dp-r-10" data-aos="fade-up"
                     data-aos-anchor-placement="top-bottom">
             </div>
         </div>
@@ -129,7 +129,7 @@ gtag('config', 'G-189WWHXLSS');
     <div class="container">
         <div class="row justify-content-between align-items-center">
             <div class="col-lg-6 col-md-6">
-                <img src="assets/image/casestudy/vpsons/vpsons06.webp" alt="image" class="dp-r-10" data-aos="fade-right"
+                <img src="assets/image/casestudy/vpsons/vpsons06.webp" alt="VP Sons case study" class="dp-r-10" data-aos="fade-right"
                     data-aos-offset="300" data-aos-easing="ease-in-sine">
             </div>
             <div class="col-lg-5 col-md-5">
@@ -164,7 +164,7 @@ gtag('config', 'G-189WWHXLSS');
 
             </div>
             <div class="col-lg-12 col-md-12">
-                <img src="assets/image/casestudy/vpsons/vpsons07.webp" alt="image" class="dp-r-10" data-aos="fade-up"
+                <img src="assets/image/casestudy/vpsons/vpsons07.webp" alt="VP Sons case study" class="dp-r-10" data-aos="fade-up"
                     data-aos-anchor-placement="top-bottom">
             </div>
         </div>

@@ -56,7 +56,7 @@
 
 <section class="pb-60">
   <div class="cover-image">
-    <img src="assets/image/casestudy/linkpro/linkpro01.webp" alt="image">
+    <img src="assets/image/casestudy/linkpro/linkpro01.webp" alt="Link Promotions case study">
   </div>
 </section>
 
@@ -75,7 +75,7 @@
         </div>
       </div>
       <div class="col-lg-6 col-md-6">
-        <img src="assets/image/casestudy/linkpro/linkpro02.webp" alt="image" class="dp-r-10" data-aos="fade-left" data-aos-anchor="#example-anchor" data-aos-offset="500" data-aos-duration="500">
+        <img src="assets/image/casestudy/linkpro/linkpro02.webp" alt="Link Promotions case study" class="dp-r-10" data-aos="fade-left" data-aos-anchor="#example-anchor" data-aos-offset="500" data-aos-duration="500">
       </div>
     </div>
   </div>
@@ -84,7 +84,7 @@
   <div class="container">
     <div class="row justify-content-between align-items-center dpreverse">
       <div class="col-lg-6 col-md-6 mob-pt-20">
-        <img src="assets/image/casestudy/linkpro/linkpro03.webp" alt="image" class="dp-r-10" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+        <img src="assets/image/casestudy/linkpro/linkpro03.webp" alt="Link Promotions case study" class="dp-r-10" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
       </div>
       <div class="col-lg-5 col-md-5">
         <div class="feature-img-content">
@@ -119,7 +119,7 @@
         </div>
       </div>
       <div class="col-lg-6 col-md-6">
-        <img src="assets/image/casestudy/linkpro/linkpro04.webp" alt="image" class="dp-r-10" data-aos="fade-left" data-aos-anchor="#example-anchor" data-aos-offset="500" data-aos-duration="500">
+        <img src="assets/image/casestudy/linkpro/linkpro04.webp" alt="Link Promotions case study" class="dp-r-10" data-aos="fade-left" data-aos-anchor="#example-anchor" data-aos-offset="500" data-aos-duration="500">
       </div>
     </div>
   </div>
@@ -136,7 +136,7 @@
         </div>
       </div>
       <div class="col-lg-6 ">
-        <img src="assets/image/casestudy/linkpro/linkpro06.webp" alt="image" class="dp-r-10" data-aos="fade-left" data-aos-anchor="#example-anchor" data-aos-offset="500" data-aos-duration="500">
+        <img src="assets/image/casestudy/linkpro/linkpro06.webp" alt="Link Promotions case study" class="dp-r-10" data-aos="fade-left" data-aos-anchor="#example-anchor" data-aos-offset="500" data-aos-duration="500">
       </div>
 
     </div>
@@ -146,7 +146,7 @@
   <div class="container">
     <div class="row justify-content-between align-items-center">
       <div class="col-lg-6 ">
-        <img src="assets/image/casestudy/linkpro/linkpro08.webp" alt="image" class="dp-r-10" data-aos="fade-left" data-aos-anchor="#example-anchor" data-aos-offset="500" data-aos-duration="500">
+        <img src="assets/image/casestudy/linkpro/linkpro08.webp" alt="Link Promotions case study" class="dp-r-10" data-aos="fade-left" data-aos-anchor="#example-anchor" data-aos-offset="500" data-aos-duration="500">
       </div>
       <div class="col-lg-5 ">
         <div class="section-heading text-center aos-init aos-animate" data-aos="fade-up">
@@ -168,7 +168,7 @@
         </div>
       </div>
       <div class="col-lg-12 col-md-12">
-        <img src="assets/image/casestudy/linkpro/linkpro09.webp" alt="image" class="dp-r-10" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+        <img src="assets/image/casestudy/linkpro/linkpro09.webp" alt="Link Promotions case study" class="dp-r-10" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
       </div>
     </div>
   </div>
@@ -177,7 +177,7 @@
   <div class="container">
     <div class="row justify-content-between align-items-center">
       <div class="col-lg-12 col-md-12">
-        <img src="assets/image/casestudy/linkpro/linkpro07.webp" alt="image" class="dp-r-10" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+        <img src="assets/image/casestudy/linkpro/linkpro07.webp" alt="Link Promotions case study" class="dp-r-10" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
       </div>
     </div>
   </div>

@@ -62,8 +62,8 @@ gtag('config', 'G-189WWHXLSS');
 <div class="main-wrapper ail-main-bg aiart">
 
     <div class="aiart-hreo-area bg-black pt-200 pb-60 position-relative z-1 overflow-hidden">
-        <img src="assets/image/uiux/hero-1.png" alt="image" class="shape-1 z--1 position-absolute">
-        <img src="assets/image/uiux/hero-2.png" alt="image" class="shape-2 z--1 position-absolute">
+        <img src="assets/image/uiux/hero-1.png" alt="UI UX Design Services" class="shape-1 z--1 position-absolute">
+        <img src="assets/image/uiux/hero-2.png" alt="UI UX Design Company" class="shape-2 z--1 position-absolute">
         <div class="container">
             <div class="position-relative">
                 <div class="row">
@@ -72,7 +72,7 @@ gtag('config', 'G-189WWHXLSS');
 
                             Design <br>
                             <span class="pr-40 pb-20 rounded-3 txte-white">Transform</span> <br>
-                            <span class="title-img"><img src="assets/image/uiux/figma.png" alt="image"></span>
+                            <span class="title-img"><img src="assets/image/uiux/figma.png" alt="UI UX Design Agency"></span>
                             <span class="bg-black fs-130 pr-40 pb-20 rounded-3"><span
                                     class="aiart-outline-text">Innovate</span></span>
                         </h1>
@@ -130,7 +130,7 @@ gtag('config', 'G-189WWHXLSS');
                     </div>
                     <div class="col-xl-4 col-lg-4">
                         <div class="aiart-hero-right">
-                            <img src="assets/image/uiux/banner01.webp" alt="image"
+                            <img src="assets/image/uiux/banner01.webp" alt="UI UX Design Company in Mumbai"
                                 class="aiart-hero-img position-absolute img-fluid z--1">
                             <a href="contact"
                                 class="aiart-un-btn aiart-gd-bg text-white fw-700 rounded-circle d-flex align-items-center justify-content-center flex-column gap-0 position-absolute">
@@ -163,60 +163,60 @@ gtag('config', 'G-189WWHXLSS');
                             <div class="swiper-slide">
                                 <div class="single-logo">
                                     <img src="assets/image/uiux/ui-ux-logo-01.png" class="img-fluid" height="30"
-                                        alt="logo">
+                                        alt="UI UX Designers in India">
                                 </div>
                             </div>
                             <div class="swiper-slide">
                                 <div class="single-logo">
-                                    <img src="assets/image/uiux/ui-ux-logo-02.png" class="img-fluid" alt="logo"
+                                    <img src="assets/image/uiux/ui-ux-logo-02.png" class="img-fluid" alt="User Experience Design Services"
                                         height="30">
                                 </div>
                             </div>
                             <div class="swiper-slide">
                                 <div class="single-logo">
-                                    <img src="assets/image/uiux/ui-ux-logo-03.png" class="img-fluid" alt="logo"
+                                    <img src="assets/image/uiux/ui-ux-logo-03.png" class="img-fluid" alt="Mobile-First UI UX Design"
                                         height="30">
                                 </div>
                             </div>
                             <div class="swiper-slide">
                                 <div class="single-logo">
-                                    <img src="assets/image/uiux/ui-ux-logo-04.png" class="img-fluid" alt="logo"
+                                    <img src="assets/image/uiux/ui-ux-logo-04.png" class="img-fluid" alt="UX Research & Design Services"
                                         height="30">
                                 </div>
                             </div>
                             <div class="swiper-slide">
                                 <div class="single-logo">
-                                    <img src="assets/image/uiux/ui-ux-logo-05.png" class="img-fluid" alt="logo"
+                                    <img src="assets/image/uiux/ui-ux-logo-05.png" class="img-fluid" alt="UI UX for Web and Mobile Apps"
                                         height="30">
                                 </div>
                             </div>
                             <div class="swiper-slide">
                                 <div class="single-logo">
-                                    <img src="assets/image/uiux/ui-ux-logo-06.png" class="img-fluid" alt="logo"
+                                    <img src="assets/image/uiux/ui-ux-logo-06.png" class="img-fluid" alt="Conversion-Focused UI UX Design"
                                         height="30">
                                 </div>
                             </div>
                             <div class="swiper-slide">
                                 <div class="single-logo">
-                                    <img src="assets/image/uiux/ui-ux-logo-07.png" class="img-fluid" alt="logo"
+                                    <img src="assets/image/uiux/ui-ux-logo-07.png" class="img-fluid" alt="UI UX Redesign Services"
                                         height="30">
                                 </div>
                             </div>
                             <div class="swiper-slide">
                                 <div class="single-logo">
-                                    <img src="assets/image/uiux/ui-ux-logo-08.png" class="img-fluid" alt="logo"
+                                    <img src="assets/image/uiux/ui-ux-logo-08.png" class="img-fluid" alt="UX Optimization Services"
                                         height="30">
                                 </div>
                             </div>
                             <div class="swiper-slide">
                                 <div class="single-logo">
-                                    <img src="assets/image/uiux/ui-ux-logo-09.png" class="img-fluid" alt="logo"
+                                    <img src="assets/image/uiux/ui-ux-logo-09.png" class="img-fluid" alt="UI UX Design for Startups"
                                         height="30">
                                 </div>
                             </div>
                             <div class="swiper-slide">
                                 <div class="single-logo">
-                                    <img src="assets/image/uiux/ui-ux-logo-10.png" class="img-fluid" alt="logo"
+                                    <img src="assets/image/uiux/ui-ux-logo-10.png" class="img-fluid" alt="Human-Centered Design Services"
                                         height="30">
                                 </div>
                             </div>
@@ -242,14 +242,14 @@ gtag('config', 'G-189WWHXLSS');
                     </div>
                     <ul class="list-unstyled d-flex flex-wrap list-two-col mt-5" data-aos="fade-up" data-aos-delay="50">
                         <li>
-                            <img src="assets/image/uiux/user-interface.png" style="margin-bottom:10px" ;>
+                            <img src="assets/image/uiux/user-interface.png" alt="UI UX Design Services" style="margin-bottom:10px" ;>
 
                             <p>
                                 We create a look and feel that enhances the overall user experience.
                             </p>
                         </li>
                         <li>
-                            <img src="assets/image/uiux/user-experience.png" style="margin-bottom:10px" ;>
+                            <img src="assets/image/uiux/user-experience.png" alt="UI UX Design Company" style="margin-bottom:10px" ;>
 
                             <p>
                                 We define how end users interact with the product.
@@ -430,7 +430,7 @@ gtag('config', 'G-189WWHXLSS');
     </section>
 
     <div class="aiart-community-area pt-60 pb-60 position-relative z-1">
-        <img src="assets/image/uiux/com-2.png" alt="image" class="shape-1 position-absolute z--1">
+        <img src="assets/image/uiux/com-2.png" alt="UI UX Design Agency" class="shape-1 position-absolute z--1">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -443,7 +443,7 @@ gtag('config', 'G-189WWHXLSS');
                 </div>
             </div>
             <div class="position-relative z-1">
-                <img src="assets/image/uiux/fii.webp" alt="image" class="aiart-com-img position-absolute z--1 img-fluid"
+                <img src="assets/image/uiux/fii.webp" alt="UI UX Design Company in Mumbai" class="aiart-com-img position-absolute z--1 img-fluid"
                     style="border-radius:20px" ;>
                 <div class="row justify-content-center g-0">
                     <div class="col-xl-9">
@@ -507,42 +507,42 @@ gtag('config', 'G-189WWHXLSS');
                 <ul class="list list-row align-items-center gap-4 scroller-x__list">
                     <li>
                         <div class="aiart-image-slider-item">
-                            <img src="assets/image/uiux/ad1.webp" alt="image" class="img-fluid">
+                            <img src="assets/image/uiux/ad1.webp" alt="UI UX Designers in India" class="img-fluid">
                         </div>
                     </li>
                     <li>
                         <div class="aiart-image-slider-item">
-                            <img src="assets/image/uiux/ad2.webp" alt="image" class="img-fluid">
+                            <img src="assets/image/uiux/ad2.webp" alt="User Experience Design Services" class="img-fluid">
                         </div>
                     </li>
                     <li>
                         <div class="aiart-image-slider-item">
-                            <img src="assets/image/uiux/ad3.webp" alt="image" class="img-fluid">
+                            <img src="assets/image/uiux/ad3.webp" alt="Mobile-First UI UX Design" class="img-fluid">
                         </div>
                     </li>
                     <li>
                         <div class="aiart-image-slider-item">
-                            <img src="assets/image/uiux/ad4.webp" alt="image" class="img-fluid">
+                            <img src="assets/image/uiux/ad4.webp" alt="UX Research & Design Services" class="img-fluid">
                         </div>
                     </li>
                     <li>
                         <div class="aiart-image-slider-item">
-                            <img src="assets/image/uiux/ad5.webp" alt="image" class="img-fluid">
+                            <img src="assets/image/uiux/ad5.webp" alt="UI UX for Web and Mobile Apps" class="img-fluid">
                         </div>
                     </li>
                     <li>
                         <div class="aiart-image-slider-item">
-                            <img src="assets/image/uiux/ad6.webp" alt="image" class="img-fluid">
+                            <img src="assets/image/uiux/ad6.webp" alt="Conversion-Focused UI UX Design" class="img-fluid">
                         </div>
                     </li>
                     <li>
                         <div class="aiart-image-slider-item">
-                            <img src="assets/image/uiux/ad7.webp" alt="image" class="img-fluid">
+                            <img src="assets/image/uiux/ad7.webp" alt="UI UX Redesign Services" class="img-fluid">
                         </div>
                     </li>
                     <li>
                         <div class="aiart-image-slider-item">
-                            <img src="assets/image/uiux/ad8.webp" alt="image" class="img-fluid">
+                            <img src="assets/image/uiux/ad8.webp" alt="UX Optimization Services" class="img-fluid">
                         </div>
                     </li>
                 </ul>

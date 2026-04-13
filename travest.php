@@ -57,7 +57,7 @@
 
 <section class="pb-60 ">
   <div class="cover-image">
-    <img src="assets/image/casestudy/travest/travest01.webp" alt="image">
+    <img src="assets/image/casestudy/travest/travest01.webp" alt="Travest case study">
   </div>
 </section>
 <section class="pb-60">
@@ -76,13 +76,13 @@
     </div>
     <div class="row align-items-center">
       <div class="col-lg-4 col-md-4">
-        <img src="assets/image/casestudy/travest/travest02.webp" alt="image" class="dp-r-10" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+        <img src="assets/image/casestudy/travest/travest02.webp" alt="Travest case study" class="dp-r-10" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
       </div>
       <div class="col-lg-4 col-md-4">
-        <img src="assets/image/casestudy/travest/travest03.webp" alt="image" class="dp-r-10" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-offset="0">
+        <img src="assets/image/casestudy/travest/travest03.webp" alt="Travest case study" class="dp-r-10" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-offset="0">
       </div>
       <div class="col-lg-4 col-md-4">
-        <img src="assets/image/casestudy/travest/travest04.webp" alt="image" class="dp-r-10" data-aos="fade-left" data-aos-anchor="#example-anchor" data-aos-offset="500" data-aos-duration="500">
+        <img src="assets/image/casestudy/travest/travest04.webp" alt="Travest case study" class="dp-r-10" data-aos="fade-left" data-aos-anchor="#example-anchor" data-aos-offset="500" data-aos-duration="500">
       </div>
     </div>
   </div>
@@ -91,7 +91,7 @@
   <div class="container">
     <div class="row justify-content-between align-items-center">
       <div class="col-lg-6 col-md-6">
-        <img src="assets/image/casestudy/travest/travest05.webp" alt="image" class="dp-r-10" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+        <img src="assets/image/casestudy/travest/travest05.webp" alt="Travest case study" class="dp-r-10" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
       </div>
       <div class="col-lg-5 col-md-5 mob-pt-20">
         <div class="feature-img-content">
@@ -124,7 +124,7 @@
         </div>
       </div>
       <div class="col-lg-6 col-md-6">
-        <img src="assets/image/casestudy/travest/travest08.webp" alt="image" class="dp-r-10" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+        <img src="assets/image/casestudy/travest/travest08.webp" alt="Travest case study" class="dp-r-10" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
       </div>
     </div>
   </div>
@@ -142,7 +142,7 @@
         </div>
       </div>
       <div class="col-lg-12 col-md-12">
-        <img src="assets/image/casestudy/travest/travest06.webp" alt="image" class="dp-r-10" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+        <img src="assets/image/casestudy/travest/travest06.webp" alt="Travest case study" class="dp-r-10" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
       </div>
 
     </div>
@@ -153,7 +153,7 @@
 
     <div class="row align-items-center">
       <div class="col-lg-12 col-md-12">
-        <img src="assets/image/casestudy/travest/travest07.webp" alt="image" class="dp-r-10" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+        <img src="assets/image/casestudy/travest/travest07.webp" alt="Travest case study" class="dp-r-10" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
       </div>
 
     </div>

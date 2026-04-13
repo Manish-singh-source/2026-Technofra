@@ -45,7 +45,7 @@ gtag('config', 'G-189WWHXLSS');
 <?php include 'navbar.php'; ?>
 <section class="pb-60">
     <div class="cover-image">
-        <img src="assets\image\casestudy\srbcomputers\banner.webp" alt="image">
+        <img src="assets\image\casestudy\srbcomputers\banner.webp" alt="SRB Computers case study">
     </div>
 </section>
 <section class="counter-with-video pb-60">
@@ -68,15 +68,15 @@ gtag('config', 'G-189WWHXLSS');
         </div>
         <div class="row  justify-content-center">
             <div class="col-lg-4 col-md-4">
-                <img src="assets\image\casestudy\srbcomputers\p2.webp" alt="image" class="dp-r-10" data-aos="fade-right"
+                <img src="assets\image\casestudy\srbcomputers\p2.webp" alt="SRB Computers case study" class="dp-r-10" data-aos="fade-right"
                     data-aos-offset="300" data-aos-easing="ease-in-sine">
             </div>
             <div class="col-lg-4 col-md-4">
-                <img src="assets\image\casestudy\srbcomputers\p3.webp" alt="image" class="dp-r-10 mob-pt-20"
+                <img src="assets\image\casestudy\srbcomputers\p3.webp" alt="SRB Computers case study" class="dp-r-10 mob-pt-20"
                     data-aos="fade-zoom-in" ata-aos-easing="ease-in-back" data-aos-delay="300" data-aos-offset="0">
             </div>
             <div class="col-lg-4 col-md-4">
-                <img src="assets\image\casestudy\srbcomputers\p1.webp" alt="image" class="dp-r-10 mob-pt-20"
+                <img src="assets\image\casestudy\srbcomputers\p1.webp" alt="SRB Computers case study" class="dp-r-10 mob-pt-20"
                     data-aos="fade-left" data-aos-anchor="#example-anchor" data-aos-offset="500"
                     data-aos-duration="500">
             </div>
@@ -103,7 +103,7 @@ gtag('config', 'G-189WWHXLSS');
         </div>
         <div class="row align-items-center">
             <div class="col-lg-12 col-md-12">
-                <img src="assets\image\casestudy\srbcomputers\responsive1.webp" alt="image" class="dp-r-10"
+                <img src="assets\image\casestudy\srbcomputers\responsive1.webp" alt="SRB Computers case study" class="dp-r-10"
                     data-aos="fade-up" data-aos-anchor-placement="top-bottom">
             </div>
 
@@ -116,7 +116,7 @@ gtag('config', 'G-189WWHXLSS');
 
         <div class="row align-items-center dpreverse">
             <div class="col-lg-7 col-md-7">
-                <img src="assets\image\casestudy\srbcomputers\ab2.webp" alt="image" class="dp-r-10"
+                <img src="assets\image\casestudy\srbcomputers\ab2.webp" alt="SRB Computers case study" class="dp-r-10"
                     data-aos="zoom-out-right">
             </div>
             <div class="col-lg-5 col-md-5">
@@ -169,7 +169,7 @@ gtag('config', 'G-189WWHXLSS');
                 </div>
             </div>
             <div class="col-lg-6 col-md-6">
-                <img src="assets\image\casestudy\srbcomputers\ab3.webp" alt="image" class="dp-r-10"
+                <img src="assets\image\casestudy\srbcomputers\ab3.webp" alt="SRB Computers case study" class="dp-r-10"
                     data-aos="zoom-out-right">
             </div>
         </div>
@@ -181,7 +181,7 @@ gtag('config', 'G-189WWHXLSS');
 
         <div class="row align-items-center">
             <div class="col-lg-12 col-md-12">
-                <img src="assets\image\casestudy\srbcomputers\responsive2.webp" alt="image" class="dp-r-10"
+                <img src="assets\image\casestudy\srbcomputers\responsive2.webp" alt="SRB Computers case study" class="dp-r-10"
                     data-aos="zoom-out-right">
             </div>
         </div>
@@ -192,7 +192,7 @@ gtag('config', 'G-189WWHXLSS');
 
         <div class="row align-items-center">
             <div class="col-lg-12 col-md-12">
-                <img src="assets\image\casestudy\srbcomputers\responsive3.webp" alt="image" class="dp-r-10"
+                <img src="assets\image\casestudy\srbcomputers\responsive3.webp" alt="SRB Computers case study" class="dp-r-10"
                     data-aos="zoom-out-right">
             </div>
         </div>
@@ -202,27 +202,27 @@ gtag('config', 'G-189WWHXLSS');
     <div class="container">
         <div class="row">
             <div class="col-lg-4 col-md-4">
-                <img src="assets\image\casestudy\srbcomputers\sr1.webp" alt="image" class="dp-r-10 mb-4"
+                <img src="assets\image\casestudy\srbcomputers\sr1.webp" alt="SRB Computers case study" class="dp-r-10 mb-4"
                     data-aos="fade-up" data-aos-anchor-placement="top-bottom">
             </div>
             <div class="col-lg-4 col-md-4">
-                <img src="assets\image\casestudy\srbcomputers\sr2.webp" alt="image" class="dp-r-10 mb-4"
+                <img src="assets\image\casestudy\srbcomputers\sr2.webp" alt="SRB Computers case study" class="dp-r-10 mb-4"
                     data-aos="fade-up" data-aos-anchor-placement="top-bottom">
             </div>
             <div class="col-lg-4 col-md-4">
-                <img src="assets\image\casestudy\srbcomputers\sr3.webp" alt="image" class="dp-r-10 mb-4"
+                <img src="assets\image\casestudy\srbcomputers\sr3.webp" alt="SRB Computers case study" class="dp-r-10 mb-4"
                     data-aos="fade-up" data-aos-anchor-placement="top-bottom">
             </div>
             <div class="col-lg-4 col-md-4">
-                <img src="assets\image\casestudy\srbcomputers\sr4.webp" alt="image" class="dp-r-10 mb-4"
+                <img src="assets\image\casestudy\srbcomputers\sr4.webp" alt="SRB Computers case study" class="dp-r-10 mb-4"
                     data-aos="fade-up" data-aos-anchor-placement="top-bottom">
             </div>
             <div class="col-lg-4 col-md-4">
-                <img src="assets\image\casestudy\srbcomputers\sr5.webp" alt="image" class="dp-r-10 mb-4"
+                <img src="assets\image\casestudy\srbcomputers\sr5.webp" alt="SRB Computers case study" class="dp-r-10 mb-4"
                     data-aos="fade-up" data-aos-anchor-placement="top-bottom">
             </div>
             <div class="col-lg-4 col-md-4">
-                <img src="assets\image\casestudy\srbcomputers\sr6.webp" alt="image" class="dp-r-10 mb-4"
+                <img src="assets\image\casestudy\srbcomputers\sr6.webp" alt="SRB Computers case study" class="dp-r-10 mb-4"
                     data-aos="fade-up" data-aos-anchor-placement="top-bottom">
             </div>
         </div>

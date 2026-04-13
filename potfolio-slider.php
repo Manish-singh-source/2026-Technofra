@@ -24,7 +24,7 @@
 
                         </div>
                         <div class="slider-img">
-                            <img src="assets/image/casestudy/Frizschool/main.png" alt="image">
+                            <img src="assets/image/casestudy/Frizschool/main.png" alt="Portfolio Slider case study">
                         </div>
                         <div class="heading">
                             <div class="dpflex">
@@ -45,7 +45,7 @@
 
                         </div>
                         <div class="slider-img">
-                            <img src="assets/image/casestudy/shivam/shivam.png" s alt="image">
+                            <img src="assets/image/casestudy/shivam/shivam.png" s alt="Portfolio Slider case study">
                         </div>
                         <div class="heading">
                             <div class="dpflex">
@@ -66,7 +66,7 @@
 
                         </div>
                         <div class="slider-img">
-                            <img src=assets/image/casestudy/texon/banner.png alt="image">
+                            <img src=assets/image/casestudy/texon/banner.png alt="Portfolio Slider case study">
                         </div>
                         <div class="heading">
                             <div class="dpflex">
@@ -87,7 +87,7 @@
 
                         </div>
                         <div class="slider-img">
-                            <img src=assets/image/casestudy/dynarx.png alt="image">
+                            <img src=assets/image/casestudy/dynarx.png alt="Portfolio Slider case study">
                         </div>
                         <div class="heading">
                             <div class="dpflex">
@@ -107,7 +107,7 @@
 
                         </div>
                         <div class="slider-img">
-                            <img src=assets/image/casestudy/torshaa.png alt="image">
+                            <img src=assets/image/casestudy/torshaa.png alt="Portfolio Slider case study">
                         </div>
                         <div class="heading">
                             <div class="dpflex">
@@ -127,7 +127,7 @@
 
                         </div>
                         <div class="slider-img">
-                            <img src=assets\image\casestudy\sunriseconsultancy.png alt="image">
+                            <img src=assets\image\casestudy\sunriseconsultancy.png alt="Portfolio Slider case study">
                         </div>
                         <div class="heading">
                             <div class="dpflex">
@@ -147,7 +147,7 @@
 
                         </div>
                         <div class="slider-img">
-                            <img src=assets/image/casestudy/karantelecom.png alt="image">
+                            <img src=assets/image/casestudy/karantelecom.png alt="Portfolio Slider case study">
                         </div>
                         <div class="heading">
                             <div class="dpflex">
@@ -167,7 +167,7 @@
 
                         </div>
                         <div class="slider-img">
-                            <img src=assets/image/casestudy/pentacledesigns.webp alt="image">
+                            <img src=assets/image/casestudy/pentacledesigns.webp alt="Portfolio Slider case study">
                         </div>
                         <div class="heading">
                             <div class="dpflex">
@@ -188,7 +188,7 @@
 
                         </div>
                         <div class="slider-img">
-                            <img src=assets/image/casestudy/lifelike.png alt="image">
+                            <img src=assets/image/casestudy/lifelike.png alt="Portfolio Slider case study">
                         </div>
                         <div class="heading">
                             <div class="dpflex">
@@ -209,7 +209,7 @@
 
                         </div>
                         <div class="slider-img">
-                            <img src=assets/image/casestudy/sukanya.webp alt="image">
+                            <img src=assets/image/casestudy/sukanya.webp alt="Portfolio Slider case study">
                         </div>
                         <div class="heading">
                             <div class="dpflex">
@@ -229,7 +229,7 @@
 
                         </div>
                         <div class="slider-img">
-                            <img src=assets/image/casestudy/wotm.png alt="image">
+                            <img src=assets/image/casestudy/wotm.png alt="Portfolio Slider case study">
                         </div>
                         <div class="heading">
                             <div class="dpflex">
@@ -249,7 +249,7 @@
 
                         </div>
                         <div class="slider-img">
-                            <img src="assets/image/casestudy/aspirias.webp" alt="image">
+                            <img src="assets/image/casestudy/aspirias.webp" alt="Portfolio Slider case study">
                         </div>
                         <div class="heading">
                             <div class="dpflex">
@@ -268,7 +268,7 @@
 
                         </div>
                         <div class="slider-img">
-                            <img src="assets/image/casestudy/ish.webp" alt="image">
+                            <img src="assets/image/casestudy/ish.webp" alt="Portfolio Slider case study">
                         </div>
                         <div class="heading">
                             <div class="dpflex">
@@ -287,7 +287,7 @@
 
                         </div>
                         <div class="slider-img">
-                            <img src="assets/image/casestudy/visitmadhisland.webp" alt="image">
+                            <img src="assets/image/casestudy/visitmadhisland.webp" alt="Portfolio Slider case study">
                         </div>
                         <div class="heading">
                             <div class="dpflex">
@@ -307,7 +307,7 @@
 
                         </div>
                         <div class="slider-img">
-                            <img src="assets/image/casestudy/aeritx.webp" alt="image">
+                            <img src="assets/image/casestudy/aeritx.webp" alt="Portfolio Slider case study">
                         </div>
                         <div class="heading">
                             <div class="dpflex">
@@ -327,7 +327,7 @@
 
                         </div>
                         <div class="slider-img">
-                            <img src="assets/image/casestudy/vp&son.webp" alt="image">
+                            <img src="assets/image/casestudy/vp&son.webp" alt="Portfolio Slider case study">
                         </div>
                         <div class="heading">
                             <div class="dpflex">
@@ -347,7 +347,7 @@
 
                         </div>
                         <div class="slider-img">
-                            <img src="assets\image\casestudy\portfolio.webp" alt="image">
+                            <img src="assets\image\casestudy\portfolio.webp" alt="Portfolio Slider case study">
                         </div>
                         <div class="heading">
                             <div class="dpflex">
@@ -367,7 +367,7 @@
 
                         </div>
                         <div class="slider-img">
-                            <img src="assets/image/casestudy/urbon.webp" alt="image">
+                            <img src="assets/image/casestudy/urbon.webp" alt="Portfolio Slider case study">
                         </div>
                         <div class="heading">
                             <div class="dpflex">
@@ -387,7 +387,7 @@
 
                         </div>
                         <div class="slider-img">
-                            <img src="assets/image/casestudy/rnisargfoundation.webp" alt="image">
+                            <img src="assets/image/casestudy/rnisargfoundation.webp" alt="Portfolio Slider case study">
                         </div>
                         <div class="heading">
                             <div class="dpflex">
@@ -407,7 +407,7 @@
 
                         </div>
                         <div class="slider-img">
-                            <img src="assets/image/casestudy/jaijagannath.webp" alt="image">
+                            <img src="assets/image/casestudy/jaijagannath.webp" alt="Portfolio Slider case study">
                         </div>
                         <div class="heading">
                             <div class="dpflex">
@@ -428,7 +428,7 @@
 
                         </div>
                         <div class="slider-img">
-                            <img src="assets/image/casestudy/trevest-holiday.webp" alt="image">
+                            <img src="assets/image/casestudy/trevest-holiday.webp" alt="Portfolio Slider case study">
                         </div>
                         <div class="heading">
                             <div class="dpflex">
@@ -448,7 +448,7 @@
 
                         </div>
                         <div class="slider-img">
-                            <img src="assets/image/casestudy/fragomatrix.webp" alt="image">
+                            <img src="assets/image/casestudy/fragomatrix.webp" alt="Portfolio Slider case study">
                         </div>
                         <div class="heading">
                             <div class="dpflex">
@@ -468,7 +468,7 @@
 
                         </div>
                         <div class="slider-img">
-                            <img src="assets/image/casestudy/naploean.webp" alt="image">
+                            <img src="assets/image/casestudy/naploean.webp" alt="Portfolio Slider case study">
                         </div>
                         <div class="heading">
                             <div class="dpflex">
@@ -488,7 +488,7 @@
 
                         </div>
                         <div class="slider-img">
-                            <img src="assets/image/casestudy/sanjayagencies.webp" alt="image">
+                            <img src="assets/image/casestudy/sanjayagencies.webp" alt="Portfolio Slider case study">
                         </div>
                         <div class="heading">
                             <div class="dpflex">
@@ -508,7 +508,7 @@
 
                         </div>
                         <div class="slider-img">
-                            <img src="assets/image/casestudy/yashtools.webp" alt="image">
+                            <img src="assets/image/casestudy/yashtools.webp" alt="Portfolio Slider case study">
                         </div>
                         <div class="heading">
                             <div class="dpflex">
@@ -528,7 +528,7 @@
 
                         </div>
                         <div class="slider-img">
-                            <img src="assets\image\casestudy\vlegends.webp" alt="image">
+                            <img src="assets\image\casestudy\vlegends.webp" alt="Portfolio Slider case study">
                         </div>
                         <div class="heading">
                             <div class="dpflex">
@@ -547,7 +547,7 @@
                             <span class="portdot"></span>
                         </div>
                         <div class="slider-img">
-                            <img src="assets\image\casestudy\transhubtech.webp" alt="image">
+                            <img src="assets\image\casestudy\transhubtech.webp" alt="Portfolio Slider case study">
                         </div>
                         <div class="heading">
                             <div class="dpflex">
@@ -566,7 +566,7 @@
                             <span class="portdot"></span>
                         </div>
                         <div class="slider-img">
-                            <img src="assets/image/casestudy/jpc.webp" alt="image">
+                            <img src="assets/image/casestudy/jpc.webp" alt="Portfolio Slider case study">
                         </div>
                         <div class="heading">
                             <div class="dpflex">
@@ -586,7 +586,7 @@
 
                         </div>
                         <div class="slider-img">
-                            <img src="assets/image/casestudy/link-promtion.webp" alt="image">
+                            <img src="assets/image/casestudy/link-promtion.webp" alt="Portfolio Slider case study">
                         </div>
                         <div class="heading">
                             <div class="dpflex">
@@ -606,7 +606,7 @@
 
                         </div>
                         <div class="slider-img">
-                            <img src="assets/image/casestudy/urcfo.webp" alt="image">
+                            <img src="assets/image/casestudy/urcfo.webp" alt="Portfolio Slider case study">
                         </div>
                         <div class="heading">
                             <div class="dpflex">
@@ -625,7 +625,7 @@
                             <span class="portdot"></span>
                         </div>
                         <div class="slider-img">
-                            <img src="assets/image/casestudy/viraj-prints.webp" alt="image">
+                            <img src="assets/image/casestudy/viraj-prints.webp" alt="Portfolio Slider case study">
                         </div>
                         <div class="heading">
                             <div class="dpflex">
@@ -645,7 +645,7 @@
 
                         </div>
                         <div class="slider-img">
-                            <img src="assets/image/casestudy/delta.webp" alt="image">
+                            <img src="assets/image/casestudy/delta.webp" alt="Portfolio Slider case study">
                         </div>
                         <div class="heading">
                             <div class="dpflex">

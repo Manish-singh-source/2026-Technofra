@@ -45,7 +45,7 @@
 
 <section class="pb-60">
     <div class="cover-image">
-        <img src="assets/image/casestudy/chempharma/chempharma01.webp" alt="image">
+        <img src="assets/image/casestudy/chempharma/chempharma01.webp" alt="Chem Pharma case study">
     </div>
 </section>
 <section class="counter-with-video pb-60">
@@ -64,7 +64,7 @@
             </div>
         </div>
         <div class="col-lg-12 col-md-12">
-            <img src="assets/image/casestudy/chempharma/chempharma02.webp" alt="image" class="dp-r-10" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+            <img src="assets/image/casestudy/chempharma/chempharma02.webp" alt="Chem Pharma case study" class="dp-r-10" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
         </div>
     </div>
 </section>
@@ -82,7 +82,7 @@
         </div>
         <div class="row">
             <div class="col-lg-12 col-md-12">
-                <img src="assets/image/casestudy/chempharma/chempharma08.webp" alt="image" class="dp-r-10" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+                <img src="assets/image/casestudy/chempharma/chempharma08.webp" alt="Chem Pharma case study" class="dp-r-10" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
             </div>
 
         </div>
@@ -104,7 +104,7 @@
         </div>
         <div class="row">
             <div class="col-lg-12 col-md-12">
-                <img src="assets/image/casestudy/chempharma/chempharma03.webp" alt="image" class="dp-r-10" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+                <img src="assets/image/casestudy/chempharma/chempharma03.webp" alt="Chem Pharma case study" class="dp-r-10" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
             </div>
 
         </div>
@@ -125,7 +125,7 @@
         </div>
         <div class="row align-items-center">
             <div class="col-lg-12 col-md-12">
-                <img src="assets/image/casestudy/chempharma/chempharma04.webp" alt="image" class="dp-r-10" data-aos="zoom-out-right">
+                <img src="assets/image/casestudy/chempharma/chempharma04.webp" alt="Chem Pharma case study" class="dp-r-10" data-aos="zoom-out-right">
             </div>
 
         </div>
@@ -147,7 +147,7 @@
         </div>
         <div class="row align-items-center">
             <div class="col-lg-12 col-md-12">
-                <img src="assets/image/casestudy/chempharma/chempharma05.webp" alt="image" class="dp-r-10" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+                <img src="assets/image/casestudy/chempharma/chempharma05.webp" alt="Chem Pharma case study" class="dp-r-10" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
             </div>
 
         </div>
@@ -170,7 +170,7 @@
                 </div>
             </div>
             <div class="col-lg-6 col-md-6">
-                <img src="assets/image/casestudy/chempharma/chempharma06.webp" alt="image" class="dp-r-10" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+                <img src="assets/image/casestudy/chempharma/chempharma06.webp" alt="Chem Pharma case study" class="dp-r-10" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
             </div>
         </div>
     </div>
@@ -190,7 +190,7 @@
         </div>
         <div class="row align-items-center">
             <div class="col-lg-12 col-md-12">
-                <img src="assets/image/casestudy/chempharma/chempharma07.webp" alt="image" class="dp-r-10" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+                <img src="assets/image/casestudy/chempharma/chempharma07.webp" alt="Chem Pharma case study" class="dp-r-10" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
             </div>
 
         </div>

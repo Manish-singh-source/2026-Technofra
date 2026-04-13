@@ -84,7 +84,7 @@
                     data-aos="fade-up"
                     data-aos-delay="200">
                  
-                    <img src="assets/image/api/chatbot1.webp" alt="hero image"
+                    <img src="assets/image/api/chatbot1.webp" alt="Chatbot Development Services"
                         class="img-fluid position-relative z-5">
                 </div>
             </div>
@@ -99,7 +99,7 @@
             <div class="col-lg-6 ">
                 <div class="pr-lg-4 position-relative" data-aos="fade-up">
                     <div class="bg-light-subtle text-center rounded-custom  pt-5 px-3 px-lg-5 mx-lg-auto">
-                        <img src="assets/image/api/chatbot2.webp" alt="image">
+                        <img src="assets/image/api/chatbot2.webp" alt="AI Chatbot Development">
                     </div>
                 </div>
             </div>
@@ -141,23 +141,23 @@
             <div class="swiper-wrapper">
                 <div class="sc-feedback-card swiper-slide bg-white rounded bg-card">
                     <h5 class="sc-heading-color mb-3 mt-4 text-center"> Chatbot Team Inbox</h5>
-                    <img src="assets/image/api/chat1.webp" alt="image">
+                    <img src="assets/image/api/chat1.webp" alt="Chatbot Development Company">
                 </div>
                 <div class="sc-feedback-card swiper-slide bg-white rounded bg-card">
                     <h5 class="sc-heading-color mb-3 mt-4 text-center"> Chatbot Broadcasting</h5>
-                    <img src="assets/image/api/chat2.webp" alt="image">
+                    <img src="assets/image/api/chat2.webp" alt="Chatbot Development Company in Mumbai">
                 </div>
                 <div class="sc-feedback-card swiper-slide bg-white rounded bg-card">
                     <h5 class="sc-heading-color mb-3 mt-4 text-center"> Chatbot Commerce</h5>
-                    <img src="assets/image/api/chat3.webp" alt="image">
+                    <img src="assets/image/api/chat3.webp" alt="AI Chatbot Services">
                 </div>
                 <div class="sc-feedback-card swiper-slide bg-white rounded bg-card">
                     <h5 class="sc-heading-color mb-3 mt-4 text-center"> Chatbot</h5>
-                    <img src="assets/image/api/chat4.webp" alt="image">
+                    <img src="assets/image/api/chat4.webp" alt="Conversational AI Chatbot">
                 </div>
                 <div class="sc-feedback-card swiper-slide bg-white rounded bg-card">
                     <h5 class="sc-heading-color mb-3 mt-4 text-center">Authentication & Verification</h5>
-                    <img src="assets/image/api/chat5.webp" alt="image">
+                    <img src="assets/image/api/chat5.webp" alt="Chatbot Automation Services">
                 </div>
 
             </div>
@@ -185,7 +185,7 @@
             </div>
             <div class="col-lg-6 col-xl-6">
                 <div class="  position-relative text-center pe-5">
-                    <img src="assets/image/api/chatbot6.webp" alt="feature image" class="img-fluid" />
+                    <img src="assets/image/api/chatbot6.webp" alt="WhatsApp Chatbot Development" class="img-fluid" />
                 </div>
             </div>
         </div>
@@ -213,7 +213,7 @@
 
                 <div class="single-service p-lg-5 p-4 text-center mt-3 border-bottom border-end">
                     <div class="service-icon icon-center">
-                        <img src="assets/image/icons/chfe1.png" alt="service icon" width="65"
+                        <img src="assets/image/icons/chfe1.png" alt="Lead Generation Chatbot" width="65"
                             height="65" />
                     </div>
                     <div class="service-info-wrap">
@@ -228,7 +228,7 @@
             <div class="col-lg-4 col-md-6 p-0">
                 <div class="single-service p-lg-5 p-4 text-center mt-3 border-bottom border-end">
                 <div class="service-icon icon-center">
-                        <img src="assets/image/icons/chfe6.png" alt="service icon" width="65" height="65" />
+                        <img src="assets/image/icons/chfe6.png" alt="Customer Support Chatbot" width="65" height="65" />
                     </div>
                     <div class="feature-info-wrap">
                         <h3 class="h5 ">Forms and Data Collection</h3>
@@ -242,7 +242,7 @@
             <div class="col-lg-4 col-md-6 p-0">
                 <div class="single-service p-lg-5 p-4 text-center mt-3 border-bottom">
                     <div class="service-icon icon-center">
-                        <img src="assets/image/icons/chfe3.png" alt="service icon" width="65" height="65" />
+                        <img src="assets/image/icons/chfe3.png" alt="NLP Chatbot Development" width="65" height="65" />
                     </div>
 
                     <div class="service-info-wrap">
@@ -257,7 +257,7 @@
             <div class="col-lg-4 col-md-6 p-0">
                 <div class="single-service p-lg-5 p-4 text-center border-end">
                     <div class="service-icon icon-center">
-                        <img src="assets/image/icons/chfe4.png" alt="service icon" width="65" height="65" />
+                        <img src="assets/image/icons/chfe4.png" alt="Chatbot Integration Services" width="65" height="65" />
                     </div>
                     <div class="feature-info-wrap">
                         <h3 class="h5 ">Multilingual Support</h3>
@@ -270,7 +270,7 @@
             <div class="col-lg-4 col-md-6 p-0">
                 <div class="single-service p-lg-5 p-4 text-center border-end">
                     <div class="service-icon icon-center">
-                        <img src="assets/image/icons/chfe5.png" alt="service icon" width="65"
+                        <img src="assets/image/icons/chfe5.png" alt="AI Virtual Assistant Development" width="65"
                             height="65" />
                     </div>
                     <div class="feature-info-wrap">
@@ -285,7 +285,7 @@
                 <div class="single-service p-lg-5 p-4 text-center">
                   
                     <div class="service-icon icon-center">
-                        <img src="assets/image/icons/chfe2.png" alt="service icon" width="65"
+                        <img src="assets/image/icons/chfe2.png" alt="Chatbot Solutions for Business" width="65"
                             height="65" />
                     </div>
                     <div class="service-info-wrap">
@@ -305,7 +305,7 @@
         <div class="row align-items-lg-center justify-content-between">
             <div class="col-lg-6 ">
                 <div class=" position-relative text-center pe-5">
-                    <img src="assets/image/api/chatbot5.webp" alt="feature image" class="img-fluid b-r" />
+                    <img src="assets/image/api/chatbot5.webp" alt="Chatbot Development Services" class="img-fluid b-r" />
                 </div>
             </div>
             <div class="col-lg-6   mb-7 mb-lg-0">
@@ -444,7 +444,7 @@
             <div class="col-lg-6 col-md-7 mv-pt">
                 <div class="feature-img-wrap position-relative d-flex flex-column align-items-end">
 
-                    <img src="assets/image/api/enq.webp" alt="feature image" class="img-fluid rounded-custom"
+                    <img src="assets/image/api/enq.webp" alt="AI Chatbot Development" class="img-fluid rounded-custom"
                         data-aos="fade-up">
                 </div>
             </div>

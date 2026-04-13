@@ -134,15 +134,15 @@ gtag('config', 'G-189WWHXLSS');
                     <div class="carousel-inner">
                         <div class="carousel-item active">
                             <img src="assets/image/casestudy/texon/admin.png" class="d-block w-100 dp-r-12"
-                                alt="Dashboard 1" data-aos="fade" data-aos-anchor-placement="top-bottom">
+                                alt="Texon admin dashboard" data-aos="fade" data-aos-anchor-placement="top-bottom">
                         </div>
                         <div class="carousel-item">
                             <img src="assets/image/casestudy/texon/admin1.png" class="d-block w-100 dp-r-12"
-                                alt="Dashboard 2" data-aos="fade" data-aos-anchor-placement="top-bottom">
+                                alt="Texon analytics dashboard" data-aos="fade" data-aos-anchor-placement="top-bottom">
                         </div>
                         <div class="carousel-item">
                             <img src="assets/image/casestudy/texon/admi2.png" class="d-block w-100 dp-r-12"
-                                alt="Dashboard 3" data-aos="fade" data-aos-anchor-placement="top-bottom">
+                                alt="Texon reporting dashboard" data-aos="fade" data-aos-anchor-placement="top-bottom">
                         </div>
                     </div>
                 </div>

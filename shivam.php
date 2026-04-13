@@ -116,22 +116,22 @@
                 </div>
             </div>
             <div class="col-lg-4 col-md-4">
-                <img src="assets/image/casestudy/shivam/b1.png" alt="image" class="dp-r-10 mb-20 sbox" data-aos="fade-up" data-aos-duration="3000">
+                <img src="assets/image/casestudy/shivam/b1.png" alt="Shivam case study" class="dp-r-10 mb-20 sbox" data-aos="fade-up" data-aos-duration="3000">
             </div>
             <div class="col-lg-4 col-md-4">
-                <img src="assets/image/casestudy/shivam/b2.png" alt="image" class="dp-r-10 mb-20 sbox" data-aos="fade-up" data-aos-duration="3000">
+                <img src="assets/image/casestudy/shivam/b2.png" alt="Shivam case study" class="dp-r-10 mb-20 sbox" data-aos="fade-up" data-aos-duration="3000">
             </div>
             <div class="col-lg-4 col-md-4">
-                <img src="assets/image//casestudy/shivam/b3.png" alt="image" class="dp-r-10 mb-20 sbox" data-aos="fade-up" data-aos-duration="3000">
+                <img src="assets/image//casestudy/shivam/b3.png" alt="Shivam case study" class="dp-r-10 mb-20 sbox" data-aos="fade-up" data-aos-duration="3000">
             </div>
             <div class="col-lg-4 col-md-4">
-                <img src="assets/image//casestudy/shivam/b4.png" alt="image" class="dp-r-10 mb-20 sbox" data-aos="fade-up" data-aos-duration="3000">
+                <img src="assets/image//casestudy/shivam/b4.png" alt="Shivam case study" class="dp-r-10 mb-20 sbox" data-aos="fade-up" data-aos-duration="3000">
             </div>
             <div class="col-lg-4 col-md-4">
-                <img src="assets/image//casestudy/shivam/b5.png" alt="image" class="dp-r-10 mb-20 sbox" data-aos="fade-up" data-aos-duration="3000">
+                <img src="assets/image//casestudy/shivam/b5.png" alt="Shivam case study" class="dp-r-10 mb-20 sbox" data-aos="fade-up" data-aos-duration="3000">
             </div>
             <div class="col-lg-4 col-md-4">
-                <img src="assets/image//casestudy/shivam/b6.png" alt="image" class="dp-r-10 mb-20 sbox" data-aos="fade-up" data-aos-duration="3000">
+                <img src="assets/image//casestudy/shivam/b6.png" alt="Shivam case study" class="dp-r-10 mb-20 sbox" data-aos="fade-up" data-aos-duration="3000">
             </div>
 
         </div>

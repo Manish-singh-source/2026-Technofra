@@ -44,7 +44,7 @@
 
 <section class="pb-60">
     <div class="cover-image">
-        <img src="assets/image/casestudy/Jaijagannathpuri/Jaijagannathpuri01.webp" alt="image">
+        <img src="assets/image/casestudy/Jaijagannathpuri/Jaijagannathpuri01.webp" alt="Jai Jagannath Puri case study">
     </div>
 </section>
 
@@ -53,7 +53,7 @@
 
         <div class="row justify-content-between align-items-center">
             <div class="col-lg-6 col-md-6">
-                <img src="assets/image/casestudy/Jaijagannathpuri/Jaijagannathpuri05.png" alt="image" class="dp-r-10" data-aos="fade-right">
+                <img src="assets/image/casestudy/Jaijagannathpuri/Jaijagannathpuri05.png" alt="Jai Jagannath Puri case study" class="dp-r-10" data-aos="fade-right">
             </div>
             <div class="col-lg-5 col-md-5">
                 <div class="feature-img-content">
@@ -102,7 +102,7 @@
                 </div>
             </div>
             <div class="col-lg-6 col-md-6">
-                <img src="assets/image/casestudy/Jaijagannathpuri/Jaijagannathpuri02.webp" alt="image" class="dp-r-10" data-aos="fade-laft">
+                <img src="assets/image/casestudy/Jaijagannathpuri/Jaijagannathpuri02.webp" alt="Jai Jagannath Puri case study" class="dp-r-10" data-aos="fade-laft">
             </div>
         </div>
     </div>
@@ -112,7 +112,7 @@
    
         <div class="row">
             <div class="col-lg-12 col-md-12">
-                <img src="assets/image/casestudy/Jaijagannathpuri/jaijagannath05.webp" alt="image" class="dp-r-10" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+                <img src="assets/image/casestudy/Jaijagannathpuri/jaijagannath05.webp" alt="Jai Jagannath Puri case study" class="dp-r-10" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
             </div>
 
         </div>
@@ -132,7 +132,7 @@
                 </div>
             </div>
             <div class="col-lg-6 col-md-6">
-                <img src="assets/image/casestudy/Jaijagannathpuri/jaijagannath06.webp" alt="image" class="dp-r-10" data-aos="fade-laft">
+                <img src="assets/image/casestudy/Jaijagannathpuri/jaijagannath06.webp" alt="Jai Jagannath Puri case study" class="dp-r-10" data-aos="fade-laft">
             </div>
         </div>
     </div>
@@ -141,7 +141,7 @@
     <div class="container">
         <div class="row justify-content-between align-items-center">
             <div class="col-lg-6 col-md-6">
-                <img src="assets/image/casestudy/Jaijagannathpuri/jaijagannath07.webp" alt="image" class="dp-r-10" data-aos="fade-right">
+                <img src="assets/image/casestudy/Jaijagannathpuri/jaijagannath07.webp" alt="Jai Jagannath Puri case study" class="dp-r-10" data-aos="fade-right">
             </div>
             <div class="col-lg-5 col-md-5">
                 <div class="feature-img-content">
@@ -164,7 +164,7 @@
    
         <div class="row">
             <div class="col-lg-12 col-md-12">
-                <img src="assets/image/casestudy/Jaijagannathpuri/jaijagannath08.webp" alt="image" class="dp-r-10" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+                <img src="assets/image/casestudy/Jaijagannathpuri/jaijagannath08.webp" alt="Jai Jagannath Puri case study" class="dp-r-10" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
             </div>
 
         </div>
@@ -187,7 +187,7 @@
         </div>
         <div class="row align-items-center">
             <div class="col-lg-12 col-md-12">
-                <img src="assets/image/casestudy/Jaijagannathpuri/Jaijagannathpuri03.webp" alt="image" class="dp-r-10" data-aos="zoom-in">
+                <img src="assets/image/casestudy/Jaijagannathpuri/Jaijagannathpuri03.webp" alt="Jai Jagannath Puri case study" class="dp-r-10" data-aos="zoom-in">
             </div>
 
         </div>
@@ -199,7 +199,7 @@
 
         <div class="row align-items-center">
             <div class="col-lg-12 col-md-12">
-                <img src="assets/image/casestudy/Jaijagannathpuri/Jaijagannathpuri04.webp" alt="image" class="dp-r-10" data-aos="zoom-in">
+                <img src="assets/image/casestudy/Jaijagannathpuri/Jaijagannathpuri04.webp" alt="Jai Jagannath Puri case study" class="dp-r-10" data-aos="zoom-in">
             </div>
 
         </div>

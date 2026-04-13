@@ -71,7 +71,7 @@
                     <div class="col-lg-6 col-md-8 mt-5">
                         <div class="hero-img position-relative circle-shape-images">
 
-                            <img src="assets/image/api/google-anyltices.webp" alt="hero img" class="img-fluid position-relative z-5" style="border-radius: 5px;">
+                            <img src="assets/image/api/google-anyltices.webp" alt="Google Analytics Services" class="img-fluid position-relative z-5" style="border-radius: 5px;">
                         </div>
                     </div>
                 </div>
@@ -106,7 +106,7 @@
                     <div class="col-lg-6 col-md-8">
                         <div class="feature-shape-img position-relative mt-5 mt-lg-0">
                         
-                            <img src="assets/image/api/dashkit.webp" data-aos="fade-right" class="img-fluid dp-r-10" alt="softtent">
+                            <img src="assets/image/api/dashkit.webp" data-aos="fade-right" class="img-fluid dp-r-10" alt="GA4 Setup Services">
                         </div>
                     </div>
                 </div>
@@ -120,7 +120,7 @@
                 <div class="row justify-content-lg-between align-items-center">
                     <div class="col-lg-6 col-12 order-1 order-lg-0">
                         <div class="feature-img-holder mt-5 mt-lg-0 mt-xl-0">
-                            <img src="assets/image/api/widget-7.webp" class="img-fluid" data-aos="fade-right" alt="feature-image">
+                            <img src="assets/image/api/widget-7.webp" class="img-fluid" data-aos="fade-right" alt="Google Analytics Setup Services">
                         </div>
                     </div>
                     <div class="col-lg-5 col-12">
@@ -149,7 +149,7 @@
         <section class="feature-section pt-60 pb-60">
             <div class="container-fluid">
                 <div class="feature-container mx-lg-5 position-relative bg-gradient ptb-50 rounded-custom" data-aos="zoom-in">
-                    <img src="assets/image/api/feature-bg-1.webp" alt="feature-bg" class="feature-bg-mockup position-absolute w-100 h-100 left-0 right-0 top-0 bottom-0 rounded-custom">
+                    <img src="assets/image/api/feature-bg-1.webp" alt="Google Analytics Services in Mumbai" class="feature-bg-mockup position-absolute w-100 h-100 left-0 right-0 top-0 bottom-0 rounded-custom">
                     <div class="container">
                         <div class="row">
                             <div class="col-12 col-lg-6">
@@ -193,7 +193,7 @@
                         <div class="position-relative">
                             <div class="cta-card rounded-custom text-center custom-shadow p-5 bg-white mt-4 mt-lg-0 mt-md-0 z-2">
                                 <div class="feature-icon d-inline-block bg-primary-soft rounded-circle mb-32">
-                                    <img src="assets/image/api/webtraffic.webp" class="fa-2x" alt="image">
+                                    <img src="assets/image/api/webtraffic.webp" class="fa-2x" alt="Website Analytics Services">
                                 </div>
                                 <h3 class="h5">Website Traffic Analysis</h3>
                                 <p class="mb-0">Gain insights into the number of visitors, traffic sources, and user behavior on your site.</p>
@@ -201,7 +201,7 @@
                         
                             <div class="dot-shape-bg position-absolute z--1 left--40 top--40">
 
-                                <img src="assets/image/career/dot-big-square.svg" alt="shape">
+                                <img src="assets/image/career/dot-big-square.svg" alt="Conversion Tracking Services">
                             </div>
                           
                         </div>
@@ -210,7 +210,7 @@
                         <div class="position-relative">
                             <div class="cta-card rounded-custom text-center custom-shadow p-5 bg-white mt-4 mt-lg-0 mt-md-0">
                                 <div class="feature-icon d-inline-block bg-danger-soft rounded-circle mb-32">
-                                    <img src="assets/image/api/audienceseg.webp" class="fa-2x" alt="image">
+                                    <img src="assets/image/api/audienceseg.webp" class="fa-2x" alt="Google Tag Manager Integration">
 
                                 </div>
                                 <h3 class="h5">Audience Segmentation</h3>
@@ -222,14 +222,14 @@
                         <div class="position-relative">
                             <div class="cta-card rounded-custom text-center custom-shadow p-5 bg-white mt-4 mt-lg-0">
                                 <div class="feature-icon d-inline-block bg-success-soft rounded-circle mb-32">
-                                    <img src="assets/image/api/conversiontraffic.webp" class="fa-2x" alt="image">
+                                    <img src="assets/image/api/conversiontraffic.webp" class="fa-2x" alt="GA4 Tracking Setup">
                                 </div>
                                 <h3 class="h5">Conversion Tracking</h3>
                                 <p class="mb-0">Track and measure key business goals like form submissions, purchases, or downloads to optimize conversions.</p>
                             </div>
                       
                             <div class="dot-shape-bg position-absolute z--1 right--40 bottom--40">
-                                <img src="assets/image/career/dot-big-square.svg" alt="shape">
+                                <img src="assets/image/career/dot-big-square.svg" alt="Website Performance Analytics">
                             </div>
                          
                         </div>
@@ -272,8 +272,8 @@
                         <div class="feature-img-holder p-lg-5 pt-3">
                             <div class="p-lg-5 p-3 bg-dangers position-relative rounded-custom d-block feature-img-wrap">
                                 <div class="position-relative">
-                                    <img src="assets/image/api/widget-5.png" class="img-fluid rounded-custom position-relative" alt="feature-image" data-aos="fade-up" data-aos-delay="50" />
-                                    <img src="assets/image/api/widget-3.png" class="img-fluid rounded-custom shadow position-absolute bottom--100 right--100 hide-medium" alt="feature-image" data-aos="fade-up" data-aos-delay="100" />
+                                    <img src="assets/image/api/widget-5.png" class="img-fluid rounded-custom position-relative" alt="Google Analytics Audit Services" data-aos="fade-up" data-aos-delay="50" />
+                                    <img src="assets/image/api/widget-3.png" class="img-fluid rounded-custom shadow position-absolute bottom--100 right--100 hide-medium" alt="Analytics Dashboard Setup" data-aos="fade-up" data-aos-delay="100" />
                                 </div>
                                 <div class="position-absolute bg-dark-soft z--1 dot-mask dm-size-12 dm-wh-250 top-left"></div>
                             </div>
@@ -398,7 +398,7 @@
                     <div class="col-lg-6 col-md-7 mv-pt">
                         <div class="feature-img-wrap position-relative d-flex flex-column align-items-end">
 
-                            <img src="assets/image/api/enq.webp" alt="feature image" class="img-fluid rounded-custom"
+                            <img src="assets/image/api/enq.webp" alt="Data Analytics for Websites" class="img-fluid rounded-custom"
                                 data-aos="fade-up">
                         </div>
                     </div>

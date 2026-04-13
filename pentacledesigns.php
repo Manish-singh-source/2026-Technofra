@@ -45,7 +45,7 @@ gtag('config', 'G-189WWHXLSS');
 
 <section class="pb-60">
     <div class="cover-image">
-        <img src="assets/image/casestudy/pentacledesigns/pentacledesigns1.webp" alt="image">
+        <img src="assets/image/casestudy/pentacledesigns/pentacledesigns1.webp" alt="Pentacle Designs case study">
     </div>
 </section>
 <section class="counter-with-video pb-60">
@@ -67,7 +67,7 @@ gtag('config', 'G-189WWHXLSS');
             </div>
         </div>
         <div class="col-lg-12 col-md-12">
-            <img src="assets/image/casestudy/pentacledesigns/pentacledesigns6.webp" alt="image" class="dp-r-10"
+            <img src="assets/image/casestudy/pentacledesigns/pentacledesigns6.webp" alt="Pentacle Designs case study" class="dp-r-10"
                 data-aos="fade-up" data-aos-anchor-placement="top-bottom">
         </div>
     </div>
@@ -89,7 +89,7 @@ gtag('config', 'G-189WWHXLSS');
         </div>
         <div class="row">
             <div class="col-lg-12 col-md-12">
-                <img src="assets/image/casestudy/pentacledesigns/pentacledesigns2.webp" alt="image" class="dp-r-10"
+                <img src="assets/image/casestudy/pentacledesigns/pentacledesigns2.webp" alt="Pentacle Designs case study" class="dp-r-10"
                     data-aos="fade-up" data-aos-anchor-placement="top-bottom">
             </div>
 
@@ -111,7 +111,7 @@ gtag('config', 'G-189WWHXLSS');
         </div>
         <div class="row align-items-center">
             <div class="col-lg-12 col-md-12">
-                <img src="assets/image/casestudy/pentacledesigns/pentacledesigns3.webp" alt="image" class="dp-r-10"
+                <img src="assets/image/casestudy/pentacledesigns/pentacledesigns3.webp" alt="Pentacle Designs case study" class="dp-r-10"
                     data-aos="zoom-out-right">
             </div>
 
@@ -136,7 +136,7 @@ gtag('config', 'G-189WWHXLSS');
         </div>
         <div class="row align-items-center">
             <div class="col-lg-12 col-md-12">
-                <img src="assets/image/casestudy/pentacledesigns/pentacledesigns4.webp" alt="image" class="dp-r-10"
+                <img src="assets/image/casestudy/pentacledesigns/pentacledesigns4.webp" alt="Pentacle Designs case study" class="dp-r-10"
                     data-aos="fade-up" data-aos-anchor-placement="top-bottom">
             </div>
 
@@ -164,7 +164,7 @@ gtag('config', 'G-189WWHXLSS');
 
             </div>
             <div class="col-lg-6 col-md-6">
-                <img src="assets/image/casestudy/pentacledesigns/pentacledesigns7.webp" alt="image" class="dp-r-10"
+                <img src="assets/image/casestudy/pentacledesigns/pentacledesigns7.webp" alt="Pentacle Designs case study" class="dp-r-10"
                     data-aos="fade-up" data-aos-anchor-placement="top-bottom">
             </div>
         </div>
@@ -187,7 +187,7 @@ gtag('config', 'G-189WWHXLSS');
         </div>
         <div class="row align-items-center">
             <div class="col-lg-12 col-md-12">
-                <img src="assets/image/casestudy/pentacledesigns/pentacledesigns5.webp" alt="image" class="dp-r-10"
+                <img src="assets/image/casestudy/pentacledesigns/pentacledesigns5.webp" alt="Pentacle Designs case study" class="dp-r-10"
                     data-aos="fade-up" data-aos-anchor-placement="top-bottom">
             </div>
 

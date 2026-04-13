@@ -48,7 +48,7 @@ content="With our performance marketing services , we drive business growth. Exp
 
 <section class=" pb-60">
   <div class="cover-image">
-    <img src="assets/image/casestudy/viraj/viraj01.webp" alt="image">
+    <img src="assets/image/casestudy/viraj/viraj01.webp" alt="Viraj Prints case study">
   </div>
 </section>
 <section class="counter-with-video ptb-60">
@@ -82,7 +82,7 @@ content="With our performance marketing services , we drive business growth. Exp
   <div class="container">
     <div class="row justify-content-between align-items-center">
       <div class="col-lg-12 col-md-12">
-        <img src="assets/image/casestudy/viraj/viraj02.webp" alt="image" class="dp-r-10">
+        <img src="assets/image/casestudy/viraj/viraj02.webp" alt="Viraj Prints case study" class="dp-r-10">
       </div>
     </div>
   </div>
@@ -101,7 +101,7 @@ content="With our performance marketing services , we drive business growth. Exp
         </div>
       </div>
       <div class="col-lg-6 col-md-6">
-        <img src="assets/image/casestudy/viraj/viraj03.webp" alt="image" class="dp-r-10"  data-aos="fade-left" data-aos-anchor="#example-anchor" data-aos-offset="500" data-aos-duration="500">
+        <img src="assets/image/casestudy/viraj/viraj03.webp" alt="Viraj Prints case study" class="dp-r-10"  data-aos="fade-left" data-aos-anchor="#example-anchor" data-aos-offset="500" data-aos-duration="500">
       </div>
     </div>
   </div>
@@ -121,13 +121,13 @@ content="With our performance marketing services , we drive business growth. Exp
     </div>
     <div class="row justify-content-center">
       <div class="col-lg-4 ">
-        <img src="assets/image/casestudy/viraj/viraj04.webp" alt="image" class="dp-r-10" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+        <img src="assets/image/casestudy/viraj/viraj04.webp" alt="Viraj Prints case study" class="dp-r-10" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
       </div>
       <div class="col-lg-4 ">
-        <img src="assets/image/casestudy/viraj/viraj05.webp" alt="image" class="dp-r-10" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+        <img src="assets/image/casestudy/viraj/viraj05.webp" alt="Viraj Prints case study" class="dp-r-10" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
       </div>
       <div class="col-lg-4 ">
-        <img src="assets/image/casestudy/viraj/viraj06.webp" alt="image" class="dp-r-10" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+        <img src="assets/image/casestudy/viraj/viraj06.webp" alt="Viraj Prints case study" class="dp-r-10" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
       </div>
     </div>
   </div>
@@ -136,7 +136,7 @@ content="With our performance marketing services , we drive business growth. Exp
   <div class="container">
     <div class="row justify-content-between align-items-center">
       <div class="col-lg-12 col-md-12">
-        <img src="assets/image/casestudy/viraj/viraj07.webp" alt="image" class="dp-r-10" data-aos="zoom-out-down">
+        <img src="assets/image/casestudy/viraj/viraj07.webp" alt="Viraj Prints case study" class="dp-r-10" data-aos="zoom-out-down">
       </div>
     </div>
   </div>

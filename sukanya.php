@@ -1,4 +1,4 @@
-﻿<?php include 'header.php'; ?>
+<?php include 'header.php'; ?>
 <title>Sukanya India Case Study | Technofra</title>
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-189WWHXLSS"></script>
@@ -59,7 +59,7 @@
 <section class="pb-60">
   <div class="row">
     <div class="col-lg-12">
-      <img src="assets/image/casestudy/sukanya/sukanya01.webp" alt="image">
+      <img src="assets/image/casestudy/sukanya/sukanya01.webp" alt="Sukanya case study">
     </div>
   </div>
 </section>
@@ -69,19 +69,19 @@
   <div class="container">
     <div class="row align-items-center">
       <div class="col-lg-7 col-md-12">
-        <img src="assets/image/casestudy/sukanya/sukanya02.webp" alt="image" class="dp-r-10" data-aos="zoom-in-right">
+        <img src="assets/image/casestudy/sukanya/sukanya02.webp" alt="Sukanya case study" class="dp-r-10" data-aos="zoom-in-right">
       </div>
       <div class="col-lg-5 mob-pt-20">
 
         <div class="section-heading mb-5 " data-aos="zoom-in-left">
           <h2>Crafting Elegance Since 2001</h2>
           <p>
-           Established in 2001, Sukanya has emerged as a distinguished brand in women’s nightwear, combining elegance with comfort under the visionary guidance of Owner-CEO Babu Bhai. With exclusive labels such as Sukanya, Jigna, and Lunica, the brand is synonymous with superior quality and contemporary loungewear design.
+           Established in 2001, Sukanya has emerged as a distinguished brand in women�s nightwear, combining elegance with comfort under the visionary guidance of Owner-CEO Babu Bhai. With exclusive labels such as Sukanya, Jigna, and Lunica, the brand is synonymous with superior quality and contemporary loungewear design.
           </p>
 
         </div>
         <div class=" it-company-bg d-inline-flex align-items-center gap-5 dp-r-10 p-5 mob-pt-20">
-          <h3 class="it-company-color-two fs-72"><img src="assets\image/shopify\shop.webp" alt="image"></h3>
+          <h3 class="it-company-color-two fs-72"><img src="assets\image/shopify\shop.webp" alt="Sukanya case study"></h3>
           <div class="it-about-content">
             <h5 class="text-white fs-24 flh-28 mb-20">
               Benefits of Shopify
@@ -99,11 +99,11 @@
   <div class="container">
     <div class="row align-items-center">
     <div class="col-lg-6">
-        <img src="assets/image/casestudy/sukanya/sukanya06.webp" alt="image" class="dp-r-10" data-aos="fade-left">
+        <img src="assets/image/casestudy/sukanya/sukanya06.webp" alt="Sukanya case study" class="dp-r-10" data-aos="fade-left">
       </div>
       
       <div class="col-lg-6">
-        <img src="assets/image/casestudy/sukanya/sukanya07.webp" alt="image" class="dp-r-10" data-aos="fade-left">
+        <img src="assets/image/casestudy/sukanya/sukanya07.webp" alt="Sukanya case study" class="dp-r-10" data-aos="fade-left">
       </div>
     </div>
   </div>
@@ -112,7 +112,7 @@
 <section class="pb-60">
   <div class="row">
     <div class="col-lg-12">
-      <img src="assets/image/casestudy/sukanya/sukanya03.webp" alt="image">
+      <img src="assets/image/casestudy/sukanya/sukanya03.webp" alt="Sukanya case study">
     </div>
   </div>
 </section>
@@ -169,7 +169,7 @@
         </div>
       </div>
       <div class="col-lg-7">
-        <img src="assets/image/casestudy/sukanya/sukanya04.webp" alt="image" class="dp-r-10" data-aos="fade-left">
+        <img src="assets/image/casestudy/sukanya/sukanya04.webp" alt="Sukanya case study" class="dp-r-10" data-aos="fade-left">
       </div>
     </div>
   </div>
@@ -177,7 +177,7 @@
 <section>
   <div class="row">
     <div class="col-lg-12">
-      <img src="assets/image/casestudy/sukanya/sukanya05.webp" alt="image">
+      <img src="assets/image/casestudy/sukanya/sukanya05.webp" alt="Sukanya case study">
     </div>
   </div>
 </section>

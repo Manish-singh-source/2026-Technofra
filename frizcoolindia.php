@@ -98,7 +98,7 @@ gtag('config', 'G-189WWHXLSS');
                 </div>
             </div>
             <div class="col-lg-12 col-md-12">
-                <img src="assets/image/casestudy/Frizschool/new.png" alt="image" class="dp-r-10 mb-20 sbox"
+                <img src="assets/image/casestudy/Frizschool/new.png" alt="Frizcool India case study" class="dp-r-10 mb-20 sbox"
                     data-aos="fade-up" data-aos-duration="3000">
             </div>
 

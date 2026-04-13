@@ -1,4 +1,4 @@
-﻿<?php include 'header.php'; ?>
+<?php include 'header.php'; ?>
 <title>Finwert Case Study | Technofra</title>
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-189WWHXLSS"></script>
@@ -36,7 +36,7 @@
 
 <section class="pb-60">
     <div class="cover-image">
-        <img src="assets/image/casestudy/finwert/finwert01.webp" alt="image">
+        <img src="assets/image/casestudy/finwert/finwert01.webp" alt="Finwert case study">
     </div>
 </section>
 
@@ -59,7 +59,7 @@
         </div>
         <div class="row align-items-center">
             <div class="col-lg-12 col-md-12">
-                <img src="assets/image/casestudy/finwert/finwert02.webp" alt="image" class="dp-r-10" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
+                <img src="assets/image/casestudy/finwert/finwert02.webp" alt="Finwert case study" class="dp-r-10" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
             </div>
 
         </div>
@@ -83,7 +83,7 @@
         </div>
         <div class="row align-items-center">
             <div class="col-lg-12 col-md-12">
-                <img src="assets/image/casestudy/finwert/finwert03.webp" alt="image" class="dp-r-10 sbox" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
+                <img src="assets/image/casestudy/finwert/finwert03.webp" alt="Finwert case study" class="dp-r-10 sbox" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
             </div>
 
         </div>
@@ -106,7 +106,7 @@
         </div>
         <div class="row align-items-center">
             <div class="col-lg-12 col-md-12">
-                <img src="assets/image/casestudy/finwert/finwert04.webp" alt="image" class="dp-r-10 sbox" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
+                <img src="assets/image/casestudy/finwert/finwert04.webp" alt="Finwert case study" class="dp-r-10 sbox" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
             </div>
 
         </div>
@@ -119,7 +119,7 @@
     <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-12 col-md-12">
-                <img src="assets/image/casestudy/finwert/finwert05.webp" alt="image" class="dp-r-10 sbox" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
+                <img src="assets/image/casestudy/finwert/finwert05.webp" alt="Finwert case study" class="dp-r-10 sbox" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
             </div>
 
         </div>

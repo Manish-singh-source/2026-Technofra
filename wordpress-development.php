@@ -248,13 +248,13 @@ gtag('config', 'G-189WWHXLSS');
                 <div class="col-lg-6">
                     <div class="hero-content-wrap text-center text-xl-start text-lg-start mt-5 mt-lg-0 mt-xl-0"
                         data-aos="fade-up">
-                        <img src="assets\image/wordpress\wordpress1.webp" alt="image">
+                        <img src="assets\image/wordpress\wordpress1.webp" alt="WordPress Development Company">
                         <h1 class="fw-bold display-5 mb-3">Best WordPress Development Company for Scalable Business
                             Websites</h1>
                         <p class="lead">Looking for a reliable WordPress development company? Technofra delivers
                             high-performing, secure, and scalable WordPress solutions tailored to your business needs.
                         </p>
-                        <img src="https://avada.com/wp-content/uploads/2021/06/small-separator.png" alt="image">
+                        <img src="https://avada.com/wp-content/uploads/2021/06/small-separator.png" alt="WordPress SEO optimization">
                         <div class="d-flex">
                             <div class="cre">
                                 <span class="cre1">1500+</span>
@@ -275,7 +275,8 @@ gtag('config', 'G-189WWHXLSS');
                                     <img src="assets/myimg/shopify.png" alt="hero image" class="position-relative img-fluid">
                                 </div> -->
                             <div class="">
-                                <img src="assets\image/wordpress\wordpress.webp" class="img-fluid" alt="hero image">
+                                <img src="assets\image/wordpress\wordpress.webp" class="img-fluid"
+                                    alt="WordPress Website Development Services">
                             </div>
                         </div>
                     </div>
@@ -350,7 +351,7 @@ gtag('config', 'G-189WWHXLSS');
                                 <h6 class="mb-0">Customization</h6>
                             </li>
                         </ul>
-                        <img src="assets\image/wordpress\about.webp" alt="feature image"
+                        <img src="assets\image/wordpress\about.webp" alt="Custom WordPress Development"
                             class="img-fluid rounded-custom">
                     </div>
                 </div>
@@ -370,7 +371,7 @@ gtag('config', 'G-189WWHXLSS');
                         <h2>Market–leading WordPress Development <br> Capabilities</h2>
                         <p class="mt-3">Acquire unmatched custom WordPress development services with optimum creativity
                             and flexibility, to <br> deliver high-quality WordPress web products</p>
-                        <img src="assets\image/wordpress\Group.webp" class="img-fluid mt-3" alt="image">
+                        <img src="assets\image/wordpress\Group.webp" class="img-fluid mt-3" alt="WordPress Developers in Mumbai">
                     </div>
                 </div>
             </div>
@@ -463,47 +464,47 @@ gtag('config', 'G-189WWHXLSS');
                                     <!-- Image 1 -->
                                     <div class="tab-pane fade show active" id="image1" role="tabpanel"
                                         aria-labelledby="tab1">
-                                        <img src="assets\image/wordpress\live-visual.webp" alt="Image 1"
+                                        <img src="assets\image\wordpress\live-visual.webp" alt="WordPress Experts in India"
                                             class="img-fluid" />
                                     </div>
                                     <!-- Image 2 -->
                                     <div class="tab-pane fade" id="image2" role="tabpanel" aria-labelledby="tab2">
-                                        <img src="assets\image/wordpress\layout-builder-4.webp" alt="Image 2"
+                                        <img src="assets\image\wordpress\layout-builder-4.webp" alt="SEO-Friendly WordPress Development"
                                             class="img-fluid" />
                                     </div>
                                     <!-- Image 3 -->
                                     <div class="tab-pane fade" id="image3" role="tabpanel" aria-labelledby="tab3">
-                                        <img src="assets\image/wordpress\header-builder-5.webp" alt="Image 3"
+                                        <img src="assets\image\wordpress\header-builder-5.webp" alt="Responsive WordPress Website Design"
                                             class="img-fluid" />
                                     </div>
                                     <!-- Image 4 -->
                                     <div class="tab-pane fade" id="image4" role="tabpanel" aria-labelledby="tab4">
-                                        <img src="assets\image/wordpress\mega-menu-feature.webp" alt="Image 4"
+                                        <img src="assets\image\wordpress\mega-menu-feature.webp" alt="Hire WordPress Developers"
                                             class="img-fluid" />
                                     </div>
                                     <!-- Image 5 -->
                                     <div class="tab-pane fade" id="image5" role="tabpanel" aria-labelledby="tab5">
-                                        <img src="assets\image/wordpress\footer-builder-5.webp" alt="Image 5"
+                                        <img src="assets\image\wordpress\footer-builder-5.webp" alt="WordPress Website Design Company"
                                             class="img-fluid" />
                                     </div>
                                     <!-- Image 6 -->
                                     <div class="tab-pane fade" id="image6" role="tabpanel" aria-labelledby="tab6">
-                                        <img src="assets\image/wordpress\form-builder.webp" alt="Image 6"
+                                        <img src="assets\image\wordpress\form-builder.webp" alt="WordPress CMS Development"
                                             class="img-fluid" />
                                     </div>
                                     <!-- Image 7 -->
                                     <div class="tab-pane fade" id="image7" role="tabpanel" aria-labelledby="tab7">
-                                        <img src="assets\image/wordpress\off-canvas-feature.webp" alt="Image 7"
+                                        <img src="assets\image\wordpress\off-canvas-feature.webp" alt="WordPress Website Redesign Services"
                                             class="img-fluid" />
                                     </div>
                                     <!-- Image 8 -->
                                     <div class="tab-pane fade" id="image8" role="tabpanel" aria-labelledby="tab8">
-                                        <img src="assets\image/wordpress\setup-wizard-1.webp" alt="Image 8"
+                                        <img src="assets\image\wordpress\setup-wizard-1.webp" alt="WordPress Performance Optimization"
                                             class="img-fluid" />
                                     </div>
                                     <!-- Image 9 -->
                                     <div class="tab-pane fade" id="image9" role="tabpanel" aria-labelledby="tab9">
-                                        <img src="assets\image/wordpress\performance-wizard.webp" alt="Image 9"
+                                        <img src="assets\image\wordpress\performance-wizard.webp" alt="Fast Loading WordPress Website"
                                             class="img-fluid" />
                                     </div>
                                 </div>
@@ -532,7 +533,7 @@ gtag('config', 'G-189WWHXLSS');
             </div>
             <div class="row">
                 <div class="col-lg-12">
-                    <img src="assets\image/wordpress\work-process2.webp" alt="image">
+                    <img src="assets\image/wordpress\work-process2.webp" alt="Secure WordPress Development">
                 </div>
             </div>
 
@@ -567,7 +568,7 @@ gtag('config', 'G-189WWHXLSS');
                         <div class="service10-slider" data-aos="fade-up" data-aos-duration="800">
                             <div class="case8-box">
                                 <div class="image">
-                                    <img src="assets\image\wordpress\seo.webp" alt="image">
+                                    <img src="assets\image\wordpress\seo.webp" alt="WordPress Development Agency">
                                 </div>
                                 <div class="hover-area">
                                     <div class="hover-heaer">
@@ -580,7 +581,7 @@ gtag('config', 'G-189WWHXLSS');
                             </div>
                             <div class="case8-box">
                                 <div class="image">
-                                    <img src="assets\image\wordpress\customizable design.webp" alt="image">
+                                    <img src="assets\image\wordpress\customizable design.webp" alt="Customizable WordPress website design">
                                 </div>
                                 <div class="hover-area">
                                     <div class="hover-heaer">
@@ -592,7 +593,7 @@ gtag('config', 'G-189WWHXLSS');
                             </div>
                             <div class="case8-box">
                                 <div class="image">
-                                    <img src="assets\image\wordpress\scalability.webp" alt="image">
+                                    <img src="assets\image\wordpress\scalability.webp" alt="Scalable WordPress website solutions">
                                 </div>
                                 <div class="hover-area">
                                     <div class="hover-heaer">
@@ -605,7 +606,7 @@ gtag('config', 'G-189WWHXLSS');
                             </div>
                             <div class="case8-box">
                                 <div class="image">
-                                    <img src="assets\image\wordpress\user friendly interface.webp" alt="image">
+                                    <img src="assets\image\wordpress\user friendly interface.webp" alt="User-friendly WordPress interface">
                                 </div>
                                 <div class="hover-area">
                                     <div class="hover-heaer">
@@ -618,7 +619,7 @@ gtag('config', 'G-189WWHXLSS');
 
                             <div class="case8-box">
                                 <div class="image">
-                                    <img src="assets\image\wordpress\powerful pligins.webp" alt="image">
+                                    <img src="assets\image\wordpress\powerful pligins.webp" alt="Powerful WordPress plugins">
                                 </div>
                                 <div class="hover-area">
                                     <div class="hover-heaer">
@@ -632,7 +633,7 @@ gtag('config', 'G-189WWHXLSS');
 
                             <div class="case8-box">
                                 <div class="image">
-                                    <img src="assets/image/home/google-form.webp" alt="image">
+                                    <img src="assets/image/home/google-form.webp" alt="Secure and reliable WordPress website">
                                 </div>
                                 <div class="hover-area">
                                     <div class="hover-heaer">
@@ -678,103 +679,7 @@ gtag('config', 'G-189WWHXLSS');
             </div>
         </div>
     </section>
-    <!--integration details section start-->
-    <!-- <section class="integration-details bg-light-subtle pt-60 pb-60">
-        <div class="container-fluid">
-            <div class="row justify-content-between">
-                <div class="col-lg-6">
-                    <div class="p-5 sticky-sidebar rounded-custom mt-5 mt-lg-0">
-                        <span class="pps header">100+</span>
-                        <h2 class="mb-3">Ready to Launch Websites!</h2>
-                        <div class="d-flex align-items-center gap-2 kdg">
-                            <img src="assets/image/wordpress/integration.webp" alt="image">
-
-                            <h5 class="aih-color-two  fw-600">Stunning <br>Designs</h5>
-                        </div>
-                        <div class="d-flex align-items-center gap-2 kdg">
-                            <img src="assets/image/wordpress/iodappdevelopment.webp" alt="image">
-                            <h5 class="aih-color-two  fw-600">Full <br>Customization</h5>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6 pe-5">
-                    <div class="row">
-                        <div class="col-6">
-                            <a href="aakriti-space">
-                                <img src="assets/image/casestudy/aakriti.webp" class="pti" alt="image">
-                            </a>
-                        </div>
-                        <div class="col-6">
-                            <a href="creativeprintinks">
-                                <img src="assets/image/casestudy/creative-print-ink.png" class="pti" alt="image">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-6">
-                            <a href="deltacab">
-                                <img src="assets/image/casestudy/delta.webp" class="pti" alt="image">
-                            </a>
-                        </div>
-                        <div class="col-6">
-                            <a href="dipuenterprises">
-                                <img src="assets/image/casestudy/dipu.webp" class="pti" alt="image">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-6">
-                            <a href="finwert">
-                                <img src="assets/image/casestudy/finwert.webp" class="pti" alt="image">
-                            </a>
-                        </div>
-                        <div class="col-6">
-                            <a href="fragomatrix">
-                                <img src="assets/image/casestudy/fragomatrix.webp" class="pti" alt="image">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-6">
-                            <a href="globalocean">
-                                <img src="assets/image/casestudy/globalocean.webp" class="pti" alt="image">
-                            </a>
-                        </div>
-                        <div class="col-6">
-                            <a href="instacraves">
-                                <img src="assets/image/casestudy/Instacraves.webp" class="pti" alt="image">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-6">
-                            <a href="ish">
-                                <img src="assets/image/casestudy/ish.webp" class="pti" alt="image">
-                            </a>
-                        </div>
-                        <div class="col-6">
-                            <a href="sukanya">
-                                <img src="assets/image/casestudy/sukanya.webp" class="pti" class="pti" alt="image">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-6">
-                            <a href="viraj-prints">
-                                <img src="assets/image/casestudy/vp&son.webp" class="pti" alt="image">
-                            </a>
-                        </div>
-                        <div class="col-6">
-                            <a href="urban-sports">
-                                <img src="assets/image/casestudy/urban-sports.webp" class="pti" alt="image">
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section> -->
-    <!--integration details section end-->
+     
     <?php include 'potfolio-slider.php'; ?>
 
 
@@ -887,37 +792,7 @@ gtag('config', 'G-189WWHXLSS');
     <!--faq section end-->
 
 
-    <!-- <div class="cta9">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-5">
-                    <div class="heading6-w">
-                        <h2>Start Planning For
-                            Your Next Project</h2>
-                        <div class="space16"></div>
-                        <p>Feel free to customize this paragraph to better reflect the specific services offered by
-                            your IT solution &amp; the unique </p>
-
-                        <form class="crm-hero-form d-flex align-items-center pt-60">
-                            <a href="tel:+918080803374" target="_blank" class="btn btn-outline-info rounded-5"
-                                contenteditable="false" style="cursor: pointer;"> <i
-                                    class="fa-light fa-phone-volume"></i> +91 8080 80 3374
-
-                            </a>
-                        </form>
-
-                    </div>
-                </div>
-
-                <div class="col-md-7">
-                    <div class="images">
-                        <img src="assets/image/contact.webp" alt="image">
-
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div> -->
+   
 
 
 

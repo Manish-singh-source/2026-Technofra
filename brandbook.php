@@ -137,23 +137,7 @@
 <div class="row gy-5 gy-lg-0 align-items-center" style="gap: 40px;">
     <div class="col-lg-7">
         <div class="ca-hero dp-hero bgc-primary">
-            <div class="col-lg-7 col-xl-7 col-xxl-7">
-                <!-- <div class="follow-nav margin-top-10 margin-top-xxl-0">
-                    <div class="d-flex gap-4 align-items-center">
-                        <div class="follow-nav__text font-weight-bold clr-white">
-                            <a class="number" href="callto:(8080) 80 3374 / 75">
-                                (8080) 80 3374 / 75
-                            </a>
-                        </div>
-                        <div class="follow-nav__dash"></div>
-                    </div>
-                    <ul class="list list-row gap-4">
-                        <li>
-                            <a class="email" href="mailto:info@technofra.com">info@technofra.com</a>
-                        </li>
-
-                    </ul>
-                </div> -->
+            <div class="col-lg-7 col-xl-7 col-xxl-7">              
                 <div class="hero-contact-info">
                     <a class="number" href="callto:(8080) 80 3374 / 75">
                         (8080) 80 3374 / 75

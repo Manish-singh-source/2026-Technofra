@@ -40,7 +40,7 @@ gtag('config', 'G-189WWHXLSS');
 
 <section class="pb-60">
     <div class="cover-image">
-        <img src="assets/image/casestudy/sanjayagencies/sanjayagencies01.webp" alt="image">
+        <img src="assets/image/casestudy/sanjayagencies/sanjayagencies01.webp" alt="Sanjay Agencies case study">
     </div>
 </section>
 
@@ -66,7 +66,7 @@ gtag('config', 'G-189WWHXLSS');
         </div>
         <div class="row align-items-center">
             <div class="col-lg-12 col-md-12">
-                <img src="assets/image/casestudy/sanjayagencies/sanjayagencies02.webp" alt="image" class="dp-r-10"
+                <img src="assets/image/casestudy/sanjayagencies/sanjayagencies02.webp" alt="Sanjay Agencies case study" class="dp-r-10"
                     data-aos="zoom-in-up">
             </div>
         </div>
@@ -87,7 +87,7 @@ gtag('config', 'G-189WWHXLSS');
         </div>
         <div class="row align-items-center">
             <div class="col-lg-12 col-md-12">
-                <img src="assets/image/casestudy/sanjayagencies/sanjay02.webp" alt="image" class="dp-r-10"
+                <img src="assets/image/casestudy/sanjayagencies/sanjay02.webp" alt="Sanjay Agencies case study" class="dp-r-10"
                     data-aos="zoom-out-right">
             </div>
 
@@ -100,7 +100,7 @@ gtag('config', 'G-189WWHXLSS');
 
         <div class="row align-items-center">
             <div class="col-lg-6 col-md-6 mb-20">
-                <img src="assets/image/casestudy/sanjayagencies/sanjayagencies04.webp" alt="image" class="dp-r-10"
+                <img src="assets/image/casestudy/sanjayagencies/sanjayagencies04.webp" alt="Sanjay Agencies case study" class="dp-r-10"
                     data-aos="zoom-in-right">
             </div>
             <div class="col-lg-6 col-md-6">
@@ -155,7 +155,7 @@ gtag('config', 'G-189WWHXLSS');
                 </div>
             </div>
             <div class="col-lg-6 col-md-6 mb-20">
-                <img src="assets/image/casestudy/sanjayagencies/sanjayagencies03.webp" alt="image" class="dp-r-10"
+                <img src="assets/image/casestudy/sanjayagencies/sanjayagencies03.webp" alt="Sanjay Agencies case study" class="dp-r-10"
                     data-aos="zoom-in-left">
             </div>
         </div>
@@ -165,7 +165,7 @@ gtag('config', 'G-189WWHXLSS');
     <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-12 col-md-12">
-                <img src="assets/image/casestudy/sanjayagencies/sanjay03.webp" alt="image" class="dp-r-10" data-aos="fade-up-right">
+                <img src="assets/image/casestudy/sanjayagencies/sanjay03.webp" alt="Sanjay Agencies case study" class="dp-r-10" data-aos="fade-up-right">
             </div>
 
         </div>
@@ -175,7 +175,7 @@ gtag('config', 'G-189WWHXLSS');
     <div class="container">
         <div class="row align-items-center justify-content-between">
             <div class="col-lg-6 col-md-6">
-                <img src="assets/image/casestudy/sanjayagencies/sanjay04.webp" alt="image"
+                <img src="assets/image/casestudy/sanjayagencies/sanjay04.webp" alt="Sanjay Agencies case study"
                     class="dp-r-10 aos-init aos-animate" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
             </div>
             <div class="col-lg-5 col-md-5">
@@ -203,13 +203,13 @@ gtag('config', 'G-189WWHXLSS');
     <div class="container">
         <div class="row" data-aos="zoom-out-up">
             <div class="col-lg-4 col-md-4">
-                <img src="assets/image/casestudy/sanjayagencies/sanjayagencies05.webp" alt="image" class="dp-r-10 mb-4">
+                <img src="assets/image/casestudy/sanjayagencies/sanjayagencies05.webp" alt="Sanjay Agencies case study" class="dp-r-10 mb-4">
             </div>
             <div class="col-lg-4 col-md-4">
-                <img src="assets/image/casestudy/sanjayagencies/sanjayagencies06.webp" alt="image" class="dp-r-10 mb-4">
+                <img src="assets/image/casestudy/sanjayagencies/sanjayagencies06.webp" alt="Sanjay Agencies case study" class="dp-r-10 mb-4">
             </div>
             <div class="col-lg-4 col-md-4">
-                <img src="assets/image/casestudy/sanjayagencies/sanjayagencies07.webp" alt="image" class="dp-r-10 mb-4">
+                <img src="assets/image/casestudy/sanjayagencies/sanjayagencies07.webp" alt="Sanjay Agencies case study" class="dp-r-10 mb-4">
             </div>
 
         </div>

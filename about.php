@@ -207,7 +207,7 @@ gtag('config', 'G-189WWHXLSS');
                 <!-- Left Side -->
                 <div class="about-company-left" data-aos="fade-right" data-aos-duration="600">
                     <div class="about-company-image-box">
-                        <img src="assets/image/about/abs1.png" alt="About Company Image">
+                        <img src="assets/image/about/abs1.png" alt="About Technofra">
                     </div>
 
                     <div class="about-company-stats">
@@ -227,7 +227,7 @@ gtag('config', 'G-189WWHXLSS');
                 <div class="about-company-right" data-aos="fade-left" data-aos-duration="600">
                     <div class="about-company-subtitle">
                         <span>About Company</span>
-                        <img src="assets/image/arrow-red.png" alt="Arrow">
+                        <img src="assets/image/arrow-red.png" alt="Digital Agency in Mumbai">
                     </div>
 
                     <h2 class="about-company-title">
@@ -282,52 +282,7 @@ gtag('config', 'G-189WWHXLSS');
         </div>
     </section>
 
-    <!-- <section class="hfz-about-section">
-        <div class="hfz-container container">
-            <div class="hfz-about-grid">
-                <div>
-                    <div class="hfz-about-image-wrap">
-                        <img class="hfz-about-image"
-                            src="https://images.unsplash.com/photo-1520607162513-77705c0f0d4a?auto=format&fit=crop&w=1200&q=80"
-                            alt="About" />
-                        <a href="#" class="hfz-play-btn">
-                            <i class="fa-solid fa-play"></i>
-                        </a>
-                    </div>
-
-                    <div class="hfz-about-stats">
-                        <div class="hfz-stat">
-                            <i class="fa-regular fa-star"></i>
-                            <div>
-                                <strong>25</strong>
-                                <span>Years of Experience</span>
-                            </div>
-                        </div>
-
-                        <div class="hfz-stat">
-                            <i class="fa-regular fa-paper-plane"></i>
-                            <div>
-                                <strong>350</strong>
-                                <span>Completed Projects</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div>
-                    <div class="hfz-section-subtitle">About Us</div>
-                    <h2 class="hfz-section-title">Discover The World of Financial Planner</h2>
-                    <p class="hfz-section-text">
-                        Far far away, behind the word mountains, far from the countries
-                        Vokalia and Consonantia, there live the blind texts. Separated they
-                        live in Bookmarksgrove right at the coast of the Semantics Far far
-                        away, behind the word mountains
-                    </p>
-                    <a href="#" class="hfz-btn hfz-btn-read">Read More</a>
-                </div>
-            </div>
-        </div>
-    </section> -->
+   
 
     <!-- SERVICES -->
     <section class="ptb-50">
@@ -336,14 +291,14 @@ gtag('config', 'G-189WWHXLSS');
                 <div class="hfz-services-intro" data-aos="fade-up" data-aos-duration="600">
                     <div class="about-company-subtitle">
                         <span>Our Purpose</span>
-                        <img src="assets/image/arrow-red.png" alt="Arrow">
+                        <img src="assets/image/arrow-red.png" alt="IT Services Company">
                     </div>
                     <h2 class="hfz-section-title">Mission & Vision</h2>
                     <p class="hfz-section-text">
                         Technofra, established in 2012, is driven by a clear mission and vision to deliver innovative
                         digital solutions that empower businesses globally.
                     </p>
-                    <!-- <a href="https://technofra.com/" class="hfz-btn hfz-btn-view">View All</a> -->
+            
                 </div>
 
                 <div class="hfz-service-card" data-aos="fade-up" data-aos-duration="600">
@@ -366,32 +321,7 @@ gtag('config', 'G-189WWHXLSS');
                     </p>
                 </div>
 
-                <!-- <div class="hfz-service-card">
-                    <i class="fa-solid fa-city"></i>
-                    <h4>Audit &amp; Assurance</h4>
-                    <p>
-                        We bring the right people together to challenge established thinking
-                        and drive transform in 2020
-                    </p>
-                </div>
-
-                <div class="hfz-service-card">
-                    <i class="fa-solid fa-coins"></i>
-                    <h4>Financial Plan</h4>
-                    <p>
-                        We bring the right people together to challenge established thinking
-                        and drive transform in 2020
-                    </p>
-                </div>
-
-                <div class="hfz-service-card">
-                    <i class="fa-solid fa-chart-column"></i>
-                    <h4>Profit Planning</h4>
-                    <p>
-                        We bring the right people together to challenge established thinking
-                        and drive transform in 2020
-                    </p>
-                </div> -->
+                
             </div>
         </div>
     </section>
@@ -408,7 +338,7 @@ gtag('config', 'G-189WWHXLSS');
                 <div class="col-xl-7 ">
                     <div class="ins-title text-center">
                         <span class="crm-subtitle ">Company Journey <img src="assets/image/arrow-red.png"
-                                alt="arrow"></span>
+                                alt="Full Service Digital Agency"></span>
                         <h2>
                             Our Journey Timeline
                         </h2>
@@ -420,7 +350,7 @@ gtag('config', 'G-189WWHXLSS');
                 <!-- card 1 -->
                 <div class="cht-card">
                     <div class="cht-card-img">
-                        <img src="assets\image\about\t1.webp">
+                        <img src="assets\image\about\t1.webp" alt="Digital Solutions Company">
                     </div>
 
                     <div class="cht-card-content">
@@ -443,7 +373,7 @@ gtag('config', 'G-189WWHXLSS');
                 <div class="cht-card">
 
                     <div class="cht-card-img">
-                        <img src="assets\image\about\t2.webp">
+                        <img src="assets\image\about\t2.webp" alt="Trusted Digital Agency">
                     </div>
 
                     <div class="cht-card-content">
@@ -466,7 +396,7 @@ gtag('config', 'G-189WWHXLSS');
                 <div class="cht-card">
 
                     <div class="cht-card-img">
-                        <img src="assets\image\about\t3.webp">
+                        <img src="assets\image\about\t3.webp" alt="Technology Solutions Provider">
                     </div>
 
                     <div class="cht-card-content">
@@ -489,7 +419,7 @@ gtag('config', 'G-189WWHXLSS');
                 <div class="cht-card">
 
                     <div class="cht-card-img">
-                        <img src="assets\image\about\t4.webp">
+                        <img src="assets\image\about\t4.webp" alt="Branding and Marketing Company">
                     </div>
 
                     <div class="cht-card-content">
@@ -509,26 +439,7 @@ gtag('config', 'G-189WWHXLSS');
 
                 <!-- card 5 -->
 
-                <!-- <div class="cht-card">
-
-                    <div class="cht-card-img">
-                        <img src="https://images.unsplash.com/photo-1455390582262-044cdead277a">
-                    </div>
-
-                    <div class="cht-card-content">
-                        <div class="cht-card-date">August</div>
-                        <div class="cht-card-desc">
-                            This is a placeholder text. All phrases can be replaced with your own.
-                        </div>
-                    </div>
-
-                    <div class="cht-bottom">
-                        <div class="cht-line-connector"></div>
-                        <div class="cht-marker"></div>
-                        <div class="cht-year">2022</div>
-                    </div>
-
-                </div> -->
+               
 
             </div>
 
@@ -543,7 +454,7 @@ gtag('config', 'G-189WWHXLSS');
             class="aos-init aos-animate">
             <div class="col-xl-7 ">
                 <div class="ins-title text-center">
-                    <span class="crm-subtitle ">Our Team <img src="assets/image/arrow-red.png" alt="arrow"></span>
+                    <span class="crm-subtitle ">Our Team <img src="assets/image/arrow-red.png" alt="Digital Transformation Company"></span>
                     <h2>
                         Meet Our Leadership
                     </h2>
@@ -554,7 +465,7 @@ gtag('config', 'G-189WWHXLSS');
         <div class="about-team-grid">
             <article class="about-team-card" data-aos="fade-up" data-aos-duration="800" class="aos-init aos-animate">
                 <div class="about-team-image-box">
-                    <img class="about-team-image" src="assets/image/teams/gopalsir.webp">
+                    <img class="about-team-image" src="assets/image/teams/gopalsir.webp" alt="Experienced Web Development Company">
                 </div>
                 <h3 class="about-team-member-name">Gopal Giri</h3>
                 <p class="about-team-member-role">Director & Co-Founder</p>
@@ -565,7 +476,7 @@ gtag('config', 'G-189WWHXLSS');
 
             <article class="about-team-card" data-aos="fade-up" data-aos-duration="800" class="aos-init aos-animate">
                 <div class="about-team-image-box">
-                    <img class="about-team-image" src="assets/image/teams/bhavna.webp">
+                    <img class="about-team-image" src="assets/image/teams/bhavna.webp" alt="Professional Digital Services Company">
                 </div>
                 <h3 class="about-team-member-name">Bhavna Giri</h3>
                 <p class="about-team-member-role">CEO & Co-Founder</p>
@@ -576,7 +487,7 @@ gtag('config', 'G-189WWHXLSS');
 
             <article class="about-team-card" data-aos="fade-up" data-aos-duration="800" class="aos-init aos-animate">
                 <div class="about-team-image-box">
-                    <img class="about-team-image" src="assets/image/teams/khushi.webp">
+                    <img class="about-team-image" src="assets/image/teams/khushi.webp" alt="Business Growth Solutions Company">
                 </div>
                 <h3 class="about-team-member-name">Khushi Yadav</h3>
                 <p class="about-team-member-role">Digital Marketing Head</p>
@@ -587,7 +498,7 @@ gtag('config', 'G-189WWHXLSS');
 
             <article class="about-team-card" data-aos="fade-up" data-aos-duration="800" class="aos-init aos-animate">
                 <div class="about-team-image-box">
-                    <img class="about-team-image" src="assets/image/teams/manish.webp">
+                    <img class="about-team-image" src="assets/image/teams/manish.webp" alt="Digital Agency India">
                 </div>
                 <h3 class="about-team-member-name">Manish Singh</h3>
                 <p class="about-team-member-role">Web Developer Head</p>

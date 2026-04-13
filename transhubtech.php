@@ -1,4 +1,4 @@
-﻿<?php include 'header.php'; ?>
+<?php include 'header.php'; ?>
 <title>Transhubtech | Technofra</title>
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-189WWHXLSS"></script>
@@ -40,7 +40,7 @@ gtag('config', 'G-189WWHXLSS');
 
 <section class=" pb-60">
     <div class="cover-image">
-        <img src="assets/image/casestudy/transhubtech/transhub-banner.webp" alt="image">
+        <img src="assets/image/casestudy/transhubtech/transhub-banner.webp" alt="Transhub Tech case study">
     </div>
 </section>
 
@@ -86,7 +86,7 @@ gtag('config', 'G-189WWHXLSS');
                 </div>
             </div>
             <div class="col-lg-6 col-md-6 mb-40">
-                <img src="assets\image\casestudy\transhubtech\responsive1.webp" alt="image" class="dp-r-10"
+                <img src="assets\image\casestudy\transhubtech\responsive1.webp" alt="Transhub Tech case study" class="dp-r-10"
                     data-aos="fade-up-left">
             </div>
         </div>
@@ -97,7 +97,7 @@ gtag('config', 'G-189WWHXLSS');
     <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-6 col-md-6">
-                <img src="assets\image\casestudy\transhubtech\responsive 2.webp" alt="image" class="dp-r-10"
+                <img src="assets\image\casestudy\transhubtech\responsive 2.webp" alt="Transhub Tech case study" class="dp-r-10"
                     data-aos="fade-left">
             </div>
             <div class="col-lg-6 col-md-6">
@@ -117,7 +117,7 @@ gtag('config', 'G-189WWHXLSS');
     <div class="container">
         <div class="row justify-content-between align-items-center">
             <div class="col-lg-12 col-md-12">
-                <img src="assets/image/casestudy/Globalocean/Globalocean08.webp" alt="image" class="dp-r-10"
+                <img src="assets/image/casestudy/Globalocean/Globalocean08.webp" alt="Transhub Tech case study" class="dp-r-10"
                     data-aos="fade-left">
             </div>
 
@@ -143,7 +143,7 @@ gtag('config', 'G-189WWHXLSS');
                 </div>
             </div>
             <div class="col-lg-6 col-md-6">
-                <img src="assets\image\casestudy\transhubtech\technology.webp" alt="image" class="dp-r-10" data-aos="fade-right">
+                <img src="assets\image\casestudy\transhubtech\technology.webp" alt="Transhub Tech case study" class="dp-r-10" data-aos="fade-right">
             </div>
 
         </div>
@@ -166,7 +166,7 @@ gtag('config', 'G-189WWHXLSS');
         <div class="row">
 
             <div class="col-lg-12 col-md-12">
-                <img src="assets\image\casestudy\transhubtech\why-trs.webp" alt="image" class="dp-r-10"
+                <img src="assets\image\casestudy\transhubtech\why-trs.webp" alt="Transhub Tech case study" class="dp-r-10"
                     data-aos="fade-right">
             </div>
 
@@ -188,7 +188,7 @@ gtag('config', 'G-189WWHXLSS');
                 </div>
             </div> -->
             <div class="col-lg-12 col-md-12">
-                <img src="assets\image\casestudy\transhubtech\ser.webp" alt="image" class="dp-r-10"
+                <img src="assets\image\casestudy\transhubtech\ser.webp" alt="Transhub Tech case study" class="dp-r-10"
                     data-aos="fade-left">
             </div>
 
@@ -202,14 +202,14 @@ gtag('config', 'G-189WWHXLSS');
                 <div class="section-heading">
                     <h2> Elevate Your Brand with Custom Stationery </h2>
                     <p>
-                        Make a lasting impression with professionally designed stationery that reflects your brand’s
+                        Make a lasting impression with professionally designed stationery that reflects your brand�s
                         identity. From business cards and letterheads to envelopes and notepads, our high-quality
                         designs ensure consistency, professionalism, and brand recognition in every detail.
                     </p>
                 </div>
             </div>
             <div class="col-lg-12 col-md-12">
-                <img src="assets/image/casestudy/Globalocean/Globalocean05.webp" alt="image" class="dp-r-10"
+                <img src="assets/image/casestudy/Globalocean/Globalocean05.webp" alt="Transhub Tech case study" class="dp-r-10"
                     data-aos="fade-left">
             </div>
 
@@ -220,7 +220,7 @@ gtag('config', 'G-189WWHXLSS');
     <div class="container">
         <div class="row">
             <div class="col-lg-12 col-md-12">
-                <img src="assets/image/casestudy/Globalocean/Globalocean06.webp" alt="image" class="dp-r-10"
+                <img src="assets/image/casestudy/Globalocean/Globalocean06.webp" alt="Transhub Tech case study" class="dp-r-10"
                     data-aos="fade-left">
             </div>
 

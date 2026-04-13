@@ -94,7 +94,7 @@ gtag('config', 'G-189WWHXLSS');
                             <h6 class="mb-0">Error Troubleshooting</h6>
                         </li>
                     </ul>
-                    <img src="assets/image/websitemaintenance/banner.webp" alt="feature image"
+                    <img src="assets/image/websitemaintenance/banner.webp" alt="Website Maintenance Services, Website Maintenance Company"
                         class="img-fluid rounded-custom" width="500px">
                 </div>
             </div>
@@ -118,7 +118,7 @@ gtag('config', 'G-189WWHXLSS');
             <div class="col-lg-4 col-md-6 p-0">
                 <div class="single-service p-lg-5 p-4 dvs text-center mt-3 border-bottom border-end">
                     <div class="service-icon icon-center">
-                        <img src="assets/image/icons/updates.png" alt="service icon" width="65" height="65" />
+                        <img src="assets/image/icons/updates.png" alt="Website Support &amp; Maintenance, Website Maintenance Company in Mumbai" width="65" height="65" />
                     </div>
                     <div class="service-info-wrap">
                         <h3 class="h5">Weekly Updates</h3>
@@ -132,7 +132,7 @@ gtag('config', 'G-189WWHXLSS');
             <div class="col-lg-4 col-md-6 p-0">
                 <div class="single-service p-lg-5 p-4 dvs text-center mt-3 border-bottom border-end">
                     <div class="service-icon icon-center">
-                        <img src="assets/image/icons/Optimization.png" alt="service icon" width="65" height="65" />
+                        <img src="assets/image/icons/Optimization.png" alt="Website Maintenance Services in India, SEO Website Maintenance Services" width="65" height="65" />
                     </div>
                     <div class="feature-info-wrap">
                         <h3 class="h5"> Database Optimization</h3>
@@ -146,7 +146,7 @@ gtag('config', 'G-189WWHXLSS');
             <div class="col-lg-4 col-md-6 p-0">
                 <div class="single-service p-lg-5 p-4 dvs text-center mt-3 border-bottom">
                     <div class="service-icon icon-center">
-                        <img src="assets/image/icons/security.png" alt="service icon" width="65" height="65" />
+                        <img src="assets/image/icons/security.png" alt="Website Performance Optimization, Website Security Maintenance" width="65" height="65" />
                     </div>
                     <div class="service-info-wrap">
                         <h3 class="h5"> Bulletproof Security</h3>
@@ -160,7 +160,7 @@ gtag('config', 'G-189WWHXLSS');
             <div class="col-lg-4 col-md-6 p-0">
                 <div class="single-service p-lg-5 p-4 dvs text-center border-end">
                     <div class="service-icon icon-center">
-                        <img src="assets/image/icons/Monitoring.png" alt="service icon" width="65" height="65" />
+                        <img src="assets/image/icons/Monitoring.png" alt="Website AMC Services, Website Speed Optimization Services" width="65" height="65" />
                     </div>
                     <div class="feature-info-wrap">
                         <h3 class="h5"> Uptime Monitoring</h3>
@@ -175,7 +175,7 @@ gtag('config', 'G-189WWHXLSS');
             <div class="col-lg-4 col-md-6 p-0">
                 <div class="single-service p-lg-5 p-4 dvs text-center border-end">
                     <div class="service-icon icon-center">
-                        <img src="assets/image/icons/backup.png" alt="service icon" width="65" height="65" />
+                        <img src="assets/image/icons/backup.png" alt="Website Management Services" width="65" height="65" />
                     </div>
                     <div class="service-info-wrap">
                         <h3 class="h5"> Offsite Backups</h3>
@@ -189,7 +189,7 @@ gtag('config', 'G-189WWHXLSS');
             <div class="col-lg-4 col-md-6 p-0">
                 <div class="single-service p-lg-5 p-4 dvs text-center">
                     <div class="service-icon icon-center">
-                        <img src="assets/image/icons/quick.png" alt="service icon" width="65" height="65" />
+                        <img src="assets/image/icons/quick.png" alt="Technical Website Maintenance" width="65" height="65" />
                     </div>
                     <div class="feature-info-wrap">
                         <h3 class="h5"> Unlimited Quick Fixes</h3>

@@ -719,7 +719,7 @@
                 <div class="col-xl-4 col-lg-4">
                     <div class="ca-two-info-card ca-two-border ca-two-border-color rounded-16 padding-6 pt-40  mt-20">
                         <div class="d-flex align-items-center gap-8">
-                            <img src="assets/image/branding/icon01.png" alt="" class="ca-two-info-icon">
+                            <img src="assets/image/branding/icon01.png" alt="Branding Agency" class="ca-two-info-icon">
                             <div class="ca-two-card-content">
                                 <h5 class="clr-text ca-two-body-clr-two fs-20 mb-20">Brand Idea</h5>
                                 <p class=" flh-24 fch-55 mb-0">Visual communication and problem-solving</p>
@@ -730,7 +730,7 @@
                 <div class="col-xl-4 col-lg-4">
                     <div class="ca-two-info-card ca-two-border ca-two-border-color rounded-16 padding-6 pt-40  mt-20">
                         <div class="d-flex align-items-center gap-8">
-                            <img src="assets/image/branding/icon02.png" alt="" class="ca-two-info-icon">
+                            <img src="assets/image/branding/icon02.png" alt="Branding Services" class="ca-two-info-icon">
                             <div class="ca-two-card-content">
                                 <h5 class="clr-text ca-two-body-clr-two fs-20 mb-20">Brand Design</h5>
                                 <p class=" flh-24 fch-55 mb-0">How design is implemented on the web.</p>
@@ -741,7 +741,7 @@
                 <div class="col-xl-4 col-lg-4">
                     <div class="ca-two-info-card ca-two-border ca-two-border-color rounded-16 padding-6 pt-40  mt-20">
                         <div class="d-flex align-items-center gap-8">
-                            <img src="assets/image/branding/icon03.png" alt="" class="ca-two-info-icon">
+                            <img src="assets/image/branding/icon03.png" alt="Brand Identity Design" class="ca-two-info-icon">
                             <div class="ca-two-card-content">
                                 <h5 class="clr-text ca-two-body-clr-two fs-20 mb-20">Story Telling</h5>
                                 <p class=" flh-24 fch-55 mb-0">User Interface and User Experience Design.</p>
@@ -775,7 +775,7 @@
             </div>
 
             <div class="col-lg-6 col-12">
-                <img src="assets/image/branding/butterfly-video.gif" class="img-fluid rounded-custom position-relative aos-init aos-animate" alt="feature-image" data-aos="fade-up" data-aos-delay="50">
+                <img src="assets/image/branding/butterfly-video.gif" class="img-fluid rounded-custom position-relative aos-init aos-animate" alt="Branding Agency in Mumbai" data-aos="fade-up" data-aos-delay="50">
             </div>
 
         </div>
@@ -797,49 +797,39 @@
                 <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-inner">
                         <div class="carousel-item active" data-bs-interval="1000">
-                            <img src="assets/image/branding/bottle02.webp" class="d-block w-100" alt="image">
+                            <img src="assets/image/branding/bottle02.webp" class="d-block w-100" alt="Branding Company in India">
                         </div>
-                        <!-- <div class="carousel-item" data-bs-interval="6000">
-                            <video class="d-block w-100" autoplay loop muted>
-                                <source src="assets/image/branding/bottle02.mp4" type="video/mp4">
-                                Your browser does not support the video tag.
-                            </video>
-                        </div> -->
+                    
                         <div class="carousel-item" data-bs-interval="2000">
-                            <img src="assets/image/branding/bottle01.gif" class="d-block w-100" alt="image">
+                            <img src="assets/image/branding/bottle01.gif" class="d-block w-100" alt="Digital Branding Services">
                         </div>
                         <div class="carousel-item" data-bs-interval="2000">
-                            <img src="assets/image/branding/bottle03.webp" class="d-block w-100" alt="image">
+                            <img src="assets/image/branding/bottle03.webp" class="d-block w-100" alt="Creative Branding Agency">
                         </div>
                         <div class="carousel-item" data-bs-interval="2000">
-                            <img src="assets/image/branding/bottle04.webp" class="d-block w-100" alt="image">
+                            <img src="assets/image/branding/bottle04.webp" class="d-block w-100" alt="Brand Strategy Services">
                         </div>
                         <div class="carousel-item" data-bs-interval="2000">
-                            <img src="assets/image/branding/bottle05.webp" class="d-block w-100" alt="image">
+                            <img src="assets/image/branding/bottle05.webp" class="d-block w-100" alt="Corporate Branding Services">
                         </div>
                         <div class="carousel-item" data-bs-interval="2000">
-                            <img src="assets/image/branding/bottle06.webp" class="d-block w-100" alt="image">
+                            <img src="assets/image/branding/bottle06.webp" class="d-block w-100" alt="Brand Development Company">
                         </div>
                         <div class="carousel-item" data-bs-interval="2000">
-                            <img src="assets/image/branding/bottle07.webp" class="d-block w-100" alt="image">
+                            <img src="assets/image/branding/bottle07.webp" class="d-block w-100" alt="Personal Branding Services">
                         </div>
                         <div class="carousel-item" data-bs-interval="2000">
-                            <img src="assets/image/branding/bottle08.webp" class="d-block w-100" alt="image">
+                            <img src="assets/image/branding/bottle08.webp" class="d-block w-100" alt="UI/UX Branding Design">
                         </div>
-                        <!-- <div class="carousel-item" data-bs-interval="6000">
-                            <video class="d-block w-100" autoplay loop muted>
-                                <source src="assets/image/branding/bottle007.mp4" type="video/mp4">
-                                Your browser does not support the video tag.
-                            </video>
-                        </div> -->
+                      
 
                     </div>
                     <button class="carousel-control-prev dpstylebtn" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
-                        <img src="assets/image/branding/arrow.png" alt="">
+                        <img src="assets/image/branding/arrow.png" alt="Brand Positioning Strategy">
                         <span class="visually-hidden">Previous</span>
                     </button>
                     <button class="carousel-control-next dpstylebtn" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
-                        <img src="assets/image/branding/arrow1.png" alt="">
+                        <img src="assets/image/branding/arrow1.png" alt="Branding Agency">
                         <span class="visually-hidden">Next</span>
                     </button>
                 </div>
@@ -852,31 +842,31 @@
                     <div class="carousel-inner">
 
                         <div class="carousel-item active" data-bs-interval="2000">
-                            <img src="assets/image/branding/ish01.webp" class="d-block w-100" alt="image">
+                            <img src="assets/image/branding/ish01.webp" class="d-block w-100" alt="Branding Services">
                         </div>
                         <div class="carousel-item" data-bs-interval="2000">
-                            <img src="assets/image/branding/ish02.webp" class="d-block w-100" alt="image">
+                            <img src="assets/image/branding/ish02.webp" class="d-block w-100" alt="Brand Identity Design">
                         </div>
                         <div class="carousel-item" data-bs-interval="2000">
-                            <img src="assets/image/branding/ish03.webp" class="d-block w-100" alt="image">
+                            <img src="assets/image/branding/ish03.webp" class="d-block w-100" alt="Branding Agency in Mumbai">
                         </div>
                         <div class="carousel-item" data-bs-interval="2000">
-                            <img src="assets/image/branding/ish04.webp" class="d-block w-100" alt="image">
+                            <img src="assets/image/branding/ish04.webp" class="d-block w-100" alt="Branding Company in India">
                         </div>
                         <div class="carousel-item" data-bs-interval="2000">
-                            <img src="assets/image/branding/ish05.webp" class="d-block w-100" alt="image">
+                            <img src="assets/image/branding/ish05.webp" class="d-block w-100" alt="Digital Branding Services">
                         </div>
                         <div class="carousel-item" data-bs-interval="2000">
-                            <img src="assets/image/branding/ish06.webp" class="d-block w-100" alt="image">
+                            <img src="assets/image/branding/ish06.webp" class="d-block w-100" alt="Creative Branding Agency">
                         </div>
 
                     </div>
                     <button class="carousel-control-prev dpstylebtn" type="button" data-bs-target="#carouselExampleInterval2" data-bs-slide="prev">
-                        <img src="assets/image/branding/arrow.png" alt="">
+                        <img src="assets/image/branding/arrow.png" alt="Brand Strategy Services">
                         <span class="visually-hidden">Previous</span>
                     </button>
                     <button class="carousel-control-next dpstylebtn" type="button" data-bs-target="#carouselExampleInterval2" data-bs-slide="next">
-                        <img src="assets/image/branding/arrow1.png" alt="">
+                        <img src="assets/image/branding/arrow1.png" alt="Corporate Branding Services">
                         <span class="visually-hidden">Next</span>
                     </button>
                 </div>
@@ -907,19 +897,19 @@
                             </video>
                         </div>
                         <div class="carousel-item" data-bs-interval="4000">
-                            <img src="assets/image/branding/Packaging02.gif" class="d-block w-100" alt="image">
+                            <img src="assets/image/branding/Packaging02.gif" class="d-block w-100" alt="Brand Development Company">
                         </div>
                         <div class="carousel-item" data-bs-interval="2000">
-                            <img src="assets/image/branding/Packaging03.jpg" class="d-block w-100" alt="image">
+                            <img src="assets/image/branding/Packaging03.jpg" class="d-block w-100" alt="Personal Branding Services">
                         </div>
                         <div class="carousel-item" data-bs-interval="2000">
-                            <img src="assets/image/branding/Packaging04.jpg" class="d-block w-100" alt="image">
+                            <img src="assets/image/branding/Packaging04.jpg" class="d-block w-100" alt="UI/UX Branding Design">
                         </div>
                         <div class="carousel-item" data-bs-interval="2000">
-                            <img src="assets/image/branding/Packaging05.jpg" class="d-block w-100" alt="image">
+                            <img src="assets/image/branding/Packaging05.jpg" class="d-block w-100" alt="Brand Positioning Strategy">
                         </div>
                         <div class="carousel-item" data-bs-interval="2000">
-                            <img src="assets/image/branding/Packaging06.jpg" class="d-block w-100" alt="image">
+                            <img src="assets/image/branding/Packaging06.jpg" class="d-block w-100" alt="Branding Agency">
                         </div>
 
                         <div class="carousel-item" data-bs-interval="8000">
@@ -931,11 +921,11 @@
 
                     </div>
                     <button class="carousel-control-prev dpstylebtn" type="button" data-bs-target="#carouselExampleInterval3" data-bs-slide="prev">
-                        <img src="assets/image/branding/arrow.png" alt="">
+                        <img src="assets/image/branding/arrow.png" alt="Branding Services">
                         <span class="visually-hidden">Previous</span>
                     </button>
                     <button class="carousel-control-next dpstylebtn" type="button" data-bs-target="#carouselExampleInterval3" data-bs-slide="next">
-                        <img src="assets/image/branding/arrow1.png" alt="">
+                        <img src="assets/image/branding/arrow1.png" alt="Brand Identity Design">
                         <span class="visually-hidden">Next</span>
                     </button>
                 </div>
@@ -946,30 +936,30 @@
                 <div id="carouselExampleInterval4" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-inner">
                         <div class="carousel-item active" data-bs-interval="2000">
-                            <img src="assets/image/branding/pets01.png" class="d-block w-100" alt="image">
+                            <img src="assets/image/branding/pets01.png" class="d-block w-100" alt="Branding Agency in Mumbai">
                         </div>
                         <div class="carousel-item" data-bs-interval="2000">
-                            <img src="assets/image/branding/pets02.png" class="d-block w-100" alt="image">
+                            <img src="assets/image/branding/pets02.png" class="d-block w-100" alt="Branding Company in India">
                         </div>
                         <div class="carousel-item" data-bs-interval="2000">
-                            <img src="assets/image/branding/pets03.png" class="d-block w-100" alt="image">
+                            <img src="assets/image/branding/pets03.png" class="d-block w-100" alt="Digital Branding Services">
                         </div>
                         <div class="carousel-item" data-bs-interval="2000">
-                            <img src="assets/image/branding/pets04.png" class="d-block w-100" alt="image">
+                            <img src="assets/image/branding/pets04.png" class="d-block w-100" alt="Creative Branding Agency">
                         </div>
                         <div class="carousel-item" data-bs-interval="2000">
-                            <img src="assets/image/branding/pets05.png" class="d-block w-100" alt="image">
+                            <img src="assets/image/branding/pets05.png" class="d-block w-100" alt="Brand Strategy Services">
                         </div>
                         <div class="carousel-item" data-bs-interval="2000">
-                            <img src="assets/image/branding/pets06.png" class="d-block w-100" alt="image">
+                            <img src="assets/image/branding/pets06.png" class="d-block w-100" alt="Corporate Branding Services">
                         </div>
                     </div>
                     <button class="carousel-control-prev dpstylebtn" type="button" data-bs-target="#carouselExampleInterval4" data-bs-slide="prev">
-                        <img src="assets/image/branding/arrow.png" alt="">
+                        <img src="assets/image/branding/arrow.png" alt="Brand Development Company">
                         <span class="visually-hidden">Previous</span>
                     </button>
                     <button class="carousel-control-next dpstylebtn" type="button" data-bs-target="#carouselExampleInterval4" data-bs-slide="next">
-                        <img src="assets/image/branding/arrow1.png" alt="">
+                        <img src="assets/image/branding/arrow1.png" alt="Personal Branding Services">
                         <span class="visually-hidden">Next</span>
                     </button>
                 </div>
@@ -995,10 +985,10 @@
                 <div id="carouselExampleInterval5" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-inner">
                         <div class="carousel-item active" data-bs-interval="2000">
-                            <img src="assets/image/branding/logo01.png" class="d-block w-100" alt="image">
+                            <img src="assets/image/branding/logo01.png" class="d-block w-100" alt="UI/UX Branding Design">
                         </div>
                         <div class="carousel-item" data-bs-interval="2000">
-                            <img src="assets/image/branding/logo03.png" class="d-block w-100" alt="image">
+                            <img src="assets/image/branding/logo03.png" class="d-block w-100" alt="Brand Positioning Strategy">
                         </div>
                         <div class="carousel-item" data-bs-interval="10000">
                             <video class="d-block w-100" autoplay loop muted>
@@ -1008,11 +998,11 @@
                         </div>
                     </div>
                     <button class="carousel-control-prev dpstylebtn" type="button" data-bs-target="#carouselExampleInterval5" data-bs-slide="prev">
-                        <img src="assets/image/branding/arrow.png" alt="">
+                        <img src="assets/image/branding/arrow.png" alt="Branding Agency">
                         <span class="visually-hidden">Previous</span>
                     </button>
                     <button class="carousel-control-next dpstylebtn" type="button" data-bs-target="#carouselExampleInterval5" data-bs-slide="next">
-                        <img src="assets/image/branding/arrow1.png" alt="">
+                        <img src="assets/image/branding/arrow1.png" alt="Branding Services">
                         <span class="visually-hidden">Next</span>
                     </button>
                 </div>
@@ -1024,27 +1014,27 @@
                 <div id="carouselExampleInterval6" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-inner">
                         <div class="carousel-item active" data-bs-interval="2000">
-                            <img src="assets/image/branding/digital01.png" class="d-block w-100" alt="image">
+                            <img src="assets/image/branding/digital01.png" class="d-block w-100" alt="Brand Identity Design">
                         </div>
                         <div class="carousel-item" data-bs-interval="2000">
-                            <img src="assets/image/branding/digital02.png" class="d-block w-100" alt="image">
+                            <img src="assets/image/branding/digital02.png" class="d-block w-100" alt="Branding Agency in Mumbai">
                         </div>
                         <div class="carousel-item" data-bs-interval="2000">
-                            <img src="assets/image/branding/digital03.png" class="d-block w-100" alt="image">
+                            <img src="assets/image/branding/digital03.png" class="d-block w-100" alt="Branding Company in India">
                         </div>
                         <div class="carousel-item" data-bs-interval="2000">
-                            <img src="assets/image/branding/digital04.png" class="d-block w-100" alt="image">
+                            <img src="assets/image/branding/digital04.png" class="d-block w-100" alt="Digital Branding Services">
                         </div>
                         <div class="carousel-item" data-bs-interval="2000">
-                            <img src="assets/image/branding/digital05.png" class="d-block w-100" alt="image">
+                            <img src="assets/image/branding/digital05.png" class="d-block w-100" alt="Creative Branding Agency">
                         </div>
                     </div>
                     <button class="carousel-control-prev dpstylebtn" type="button" data-bs-target="#carouselExampleInterval6" data-bs-slide="prev">
-                        <img src="assets/image/branding/arrow.png" alt="">
+                        <img src="assets/image/branding/arrow.png" alt="Brand Strategy Services">
                         <span class="visually-hidden">Previous</span>
                     </button>
                     <button class="carousel-control-next dpstylebtn" type="button" data-bs-target="#carouselExampleInterval6" data-bs-slide="next">
-                        <img src="assets/image/branding/arrow1.png" alt="">
+                        <img src="assets/image/branding/arrow1.png" alt="Corporate Branding Services">
                         <span class="visually-hidden">Next</span>
                     </button>
                 </div>
@@ -1068,21 +1058,21 @@
                 <div id="carouselExampleInterval7" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-inner">
                         <div class="carousel-item active" data-bs-interval="2000">
-                            <img src="assets/image/branding/Visual01.png" class="d-block w-100" alt="image">
+                            <img src="assets/image/branding/Visual01.png" class="d-block w-100" alt="Brand Development Company">
                         </div>
                         <div class="carousel-item" data-bs-interval="2000">
-                            <img src="assets/image/branding/Visual02.png" class="d-block w-100" alt="image">
+                            <img src="assets/image/branding/Visual02.png" class="d-block w-100" alt="Personal Branding Services">
                         </div>
                         <div class="carousel-item" data-bs-interval="2000">
-                            <img src="assets/image/branding/Visual03.png" class="d-block w-100" alt="image">
+                            <img src="assets/image/branding/Visual03.png" class="d-block w-100" alt="UI/UX Branding Design">
                         </div>
                     </div>
                     <button class="carousel-control-prev dpstylebtn" type="button" data-bs-target="#carouselExampleInterval7" data-bs-slide="prev">
-                        <img src="assets/image/branding/arrow.png" alt="">
+                        <img src="assets/image/branding/arrow.png" alt="Brand Positioning Strategy">
                         <span class="visually-hidden">Previous</span>
                     </button>
                     <button class="carousel-control-next dpstylebtn" type="button" data-bs-target="#carouselExampleInterval7" data-bs-slide="next">
-                        <img src="assets/image/branding/arrow1.png" alt="">
+                        <img src="assets/image/branding/arrow1.png" alt="Branding Agency">
                         <span class="visually-hidden">Next</span>
                     </button>
                 </div>
@@ -1095,7 +1085,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
-                <img class="dpdestopblock" src="assets\image\branding\map.webp" alt="image">
+                <img class="dpdestopblock" src="assets\image\branding\map.webp" alt="Branding Services">
 
             </div>
         </div>
@@ -1109,7 +1099,7 @@
             <div class="col-lg-3">
                 <div class="swiper-slide mob-pt-40">
                     <div class="rotate-text">Brand Strategy <br> & Development</div>
-                    <img src="assets/image/branding/serv1.png" alt="Icon" class="custom-image dbb-p-60">
+                    <img src="assets/image/branding/serv1.png" alt="Brand Identity Design" class="custom-image dbb-p-60">
                     <h2 class="brandi">Our strategic <br><span class="highlight" style="font-size: 22px;">BRAND DEVELOPMENT</span></h2>
                     <p>We begin with in-depth market research to understand your industry, target audience, and competitors. Based on this, we develop a highly impactful brand strategy that positions your business for success.</p>
                 </div>
@@ -1117,7 +1107,7 @@
             <div class="col-lg-3">
                 <div class="swiper-slide mob-pt-40">
                     <div class="rotate-text">Brand Strategy <br> & Development</div>
-                    <img src="assets/image/branding/serv2.png" alt="Icon" class="custom-image dbb-p-60">
+                    <img src="assets/image/branding/serv2.png" alt="Branding Agency in Mumbai" class="custom-image dbb-p-60">
                     <h2 class="brandi">Improve the <br><span class="highlight" style="font-size: 22px;">AESTHETICS OF YOUR BRAND</span></h2>
                     <p>Our talented designers turn your brand into live with eye catchy visual logos, color palettes, typography, and brand guidelines. We ensure consistency across all touchpoints to create an impressive brand experience.</p>
                 </div>
@@ -1125,7 +1115,7 @@
             <div class="col-lg-3">
                 <div class="swiper-slide mob-pt-40">
                     <div class="rotate-text">Brand Strategy <br> & Development</div>
-                    <img src="assets/image/branding/serv3.png" alt="Icon" class="custom-image dbb-p-60">
+                    <img src="assets/image/branding/serv3.png" alt="Branding Company in India" class="custom-image dbb-p-60">
                     <h2 class="brandi">Stay ahead of the <br> <span class="highlight" style="font-size: 22px;">COMPETITION</span></h2>
                     <p>With our result driven digital marketing strategies take your brand to the next level. From Social Media management to Search engine Optimization ( SEO ), we will help you to connect with your audience across digital channels.</p>
                 </div>
@@ -1133,7 +1123,7 @@
             <div class="col-lg-3">
                 <div class="swiper-slide mob-pt-40">
                     <div class="rotate-text">Brand Strategy <br> & Development</div>
-                    <img src="assets/image/branding/serv4.png" alt="Icon" class="custom-image dbb-p-60">
+                    <img src="assets/image/branding/serv4.png" alt="Digital Branding Services" class="custom-image dbb-p-60">
                     <h2 class="brandi">A <br><span class="highlight" style="font-size: 22px;">COMPANY'S ONLINE PRESENCE</span></h2>
                     <p>Website is the first point of contact between your brand and your audience, so it is crucial to make great impression. Our specialized team can create user friendly websites that not look only great but also perform smoothly across all devices.</p>
                 </div>
@@ -1159,15 +1149,14 @@
             <div class="row">
                 <div class="col-xl-3 col-lg-3">
                     <div class="mobcenter  dpb-r-10 mt-20 pb-2">
-                        <img src="assets/image/branding/s01.png" alt="image">
+                        <img src="assets/image/branding/s01.png" alt="Creative Branding Agency">
                     </div>
                     <div class="mobcenter  dpb-r-10 mt-20 pb-2">
-                        <!-- <img src="assets/image/branding/brand-messaging.png" alt="image"> -->
                         <figure class="ls-izmir ls-border-bottom-left ls-image-rotate-right ls-gradient-bottom-right" tabindex="0" style="--primary-color: #00c6ff; --secondary-color: #0072ff; --image-opacity: .1;  --border-margin: 30px;--padding: 20px;">
-                            <img src="assets/image/branding/brand-messaging.png" alt="sample119">
+                            <img src="assets/image/branding/brand-messaging.png" alt="Corporate Branding Services">
                             <figcaption class="ls-layout-bottom-left">
                                 <div class="ls-reveal-right ls-delay-100">
-                                    <img src="assets/image/branding/brand-messaging02.png" alt="sample119">
+                                    <img src="assets/image/branding/brand-messaging02.png" alt="Brand Development Company">
                                     <h4>
                                         Easy to Use
                                     </h4>
@@ -1178,12 +1167,12 @@
                 </div>
                 <div class="col-xl-3 col-lg-3">
                     <div class="mobcenter  dpb-r-10 mt-20 pb-2">
-                        <!-- <img src="assets/image/branding/logo_desgin.png" alt="image"> -->
-                        <figure class="ls-izmir ls-border-bottom-left ls-image-rotate-right ls-gradient-bottom-right" tabindex="0" style="--primary-color: #00c6ff; --secondary-color: #0072ff; --image-opacity: .1;  --border-margin: 30px;--padding: 20px;">
-                            <img src="assets/image/branding/logo_desgin.png" alt="sample119">
+                       
+                    <figure class="ls-izmir ls-border-bottom-left ls-image-rotate-right ls-gradient-bottom-right" tabindex="0" style="--primary-color: #00c6ff; --secondary-color: #0072ff; --image-opacity: .1;  --border-margin: 30px;--padding: 20px;">
+                            <img src="assets/image/branding/logo_desgin.png" alt="UI/UX Branding Design">
                             <figcaption class="ls-layout-bottom-left">
                                 <div class="ls-reveal-right ls-delay-100">
-                                    <img src="assets/image/branding/logo_desgin02.png" alt="sample119">
+                                    <img src="assets/image/branding/logo_desgin02.png" alt="Brand Positioning Strategy">
                                     <h4>
                                         Easy to Use
                                     </h4>
@@ -1192,12 +1181,11 @@
                         </figure>
                     </div>
                     <div class="mobcenter  dpb-r-10 mt-20 pb-2">
-                        <!-- <img src="assets/image/branding/pakaging-design.png" alt="image"> -->
                         <figure class="ls-izmir ls-border-bottom-left ls-image-rotate-right ls-gradient-bottom-right" tabindex="0" style="--primary-color: #00c6ff; --secondary-color: #0072ff; --image-opacity: .1;  --border-margin: 30px;--padding: 20px;">
-                            <img src="assets/image/branding/pakaging-design.png" alt="sample119">
+                            <img src="assets/image/branding/pakaging-design.png" alt="Branding Services">
                             <figcaption class="ls-layout-bottom-left">
                                 <div class="ls-reveal-right ls-delay-100">
-                                    <img src="assets/image/branding/pakaging-design02.png" alt="sample119">
+                                    <img src="assets/image/branding/pakaging-design02.png" alt="Brand Identity Design">
                                     <h4>
                                         Easy to Use
                                     </h4>
@@ -1209,12 +1197,11 @@
                 </div>
                 <div class="col-xl-3 col-lg-3">
                     <div class="mobcenter  dpb-r-10 mt-20 pb-2">
-                        <!-- <img src="assets/image/branding/brand-stategy.png" alt="image"> -->
                         <figure class="ls-izmir ls-border-bottom-left ls-image-rotate-right ls-gradient-bottom-right" tabindex="0" style="--primary-color: #00c6ff; --secondary-color: #0072ff; --image-opacity: .1;  --border-margin: 30px;--padding: 20px;">
-                            <img src="assets/image/branding/brand-stategy.png" alt="sample119">
+                            <img src="assets/image/branding/brand-stategy.png" alt="Branding Company in India">
                             <figcaption class="ls-layout-bottom-left">
                                 <div class="ls-reveal-right ls-delay-100">
-                                    <img src="assets/image/branding/brand-stategy02.png" alt="sample119">
+                                    <img src="assets/image/branding/brand-stategy02.png" alt="Digital Branding Services">
                                     <h4>
                                         Easy to Use
                                     </h4>
@@ -1223,13 +1210,12 @@
                         </figure>
                     </div>
                     <div class="mobcenter  dpb-r-10 mt-20 pb-2">
-                        <!-- <img src="assets/image/branding/digital-design.png" alt="image"> -->
                         <figure class="ls-izmir ls-border-bottom-left ls-image-rotate-right ls-gradient-bottom-right" tabindex="0" style="--primary-color: #00c6ff; --secondary-color: #0072ff; --image-opacity: .1;  --border-margin: 30px;--padding: 20px;">
-                            <img src="assets/image/branding/digital-design.png" alt="sample119">
+                            <img src="assets/image/branding/digital-design.png" alt="Brand Strategy Services">
                             <figcaption class="ls-layout-bottom-left">
 
                                 <div class="ls-reveal-right ls-delay-100">
-                                    <img src="assets/image/branding/digital-design02.png" alt="sample119">
+                                    <img src="assets/image/branding/digital-design02.png" alt="Corporate Branding Services">
                                     <h4>
 
                                         Easy to Use
@@ -1242,12 +1228,11 @@
                 </div>
                 <div class="col-xl-3 col-lg-3">
                     <div class="mobcenter   mt-20 pb-2">
-                        <!-- <img src="assets/image/branding/visual-identity.png" alt="image"> -->
                         <figure class="ls-izmir ls-border-bottom-left ls-image-rotate-right ls-gradient-bottom-right" tabindex="0" style="--primary-color: #00c6ff; --secondary-color: #0072ff; --image-opacity: .1;  --border-margin: 30px;--padding: 20px;">
-                            <img src="assets/image/branding/visual-identity.png" alt="sample119">
+                            <img src="assets/image/branding/visual-identity.png" alt="Personal Branding Services">
                             <figcaption class="ls-layout-bottom-left">
                                 <div class="ls-reveal-right ls-delay-100">
-                                    <img src="assets/image/branding/visual-identity02.png" alt="sample119">
+                                    <img src="assets/image/branding/visual-identity02.png" alt="UI/UX Branding Design">
                                     <h4>
                                         Easy to Use
                                     </h4>
@@ -1257,7 +1242,7 @@
                     </div>
                     <div class="mobcenter  dpb-r-10 mt-20 pb-2">
 
-                        <img src="assets/image/branding/s02.png" alt="image">
+                        <img src="assets/image/branding/s02.png" alt="Brand Positioning Strategy">
 
                     </div>
                 </div>

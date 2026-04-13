@@ -51,7 +51,7 @@ content="With our performance marketing services by Technofra, we drive business
 
 <section class="pb-60">
   <div class="cover-image">
-    <img src="assets/image/casestudy/manvi/manvi01.webp" alt="image">
+    <img src="assets/image/casestudy/manvi/manvi01.webp" alt="Manvi Interior case study">
   </div>
 </section>
 
@@ -73,7 +73,7 @@ content="With our performance marketing services by Technofra, we drive business
         </div>
       </div>
       <div class="col-lg-6 col-md-6">
-        <img src="assets/image/casestudy/manvi/manvi02.webp" alt="image" class="dp-r-10" data-aos="fade-left" data-aos-anchor="#example-anchor" data-aos-offset="500" data-aos-duration="500">
+        <img src="assets/image/casestudy/manvi/manvi02.webp" alt="Manvi Interior case study" class="dp-r-10" data-aos="fade-left" data-aos-anchor="#example-anchor" data-aos-offset="500" data-aos-duration="500">
       </div>
     </div>
   </div>
@@ -83,7 +83,7 @@ content="With our performance marketing services by Technofra, we drive business
 
     <div class="row justify-content-between align-items-center">
       <div class="col-lg-6 col-md-6">
-        <img src="assets/image/casestudy/manvi/manvi03.webp" alt="image" class="dp-r-10"  data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+        <img src="assets/image/casestudy/manvi/manvi03.webp" alt="Manvi Interior case study" class="dp-r-10"  data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
       </div>
       <div class="col-lg-5 col-md-5">
         <div class="feature-img-content">
@@ -108,7 +108,7 @@ content="With our performance marketing services by Technofra, we drive business
 
     <div class="row align-items-center">
       <div class="col-lg-12 col-md-12">
-        <img src="assets/image/casestudy/manvi/manvi04.webp" alt="image" class="dp-r-10">
+        <img src="assets/image/casestudy/manvi/manvi04.webp" alt="Manvi Interior case study" class="dp-r-10">
       </div>
 
     </div>
@@ -160,10 +160,10 @@ content="With our performance marketing services by Technofra, we drive business
     </div>
     <div class="row justify-content-center">
       <div class="col-lg-5 col-12">
-        <img src="assets/image/casestudy/manvi/manvi05.webp" alt="image" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+        <img src="assets/image/casestudy/manvi/manvi05.webp" alt="Manvi Interior case study" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
       </div>
       <div class="col-lg-5 col-12">
-        <img src="assets/image/casestudy/manvi/manvi06.webp" alt="image" data-aos="fade-left" data-aos-anchor="#example-anchor" data-aos-offset="500" data-aos-duration="500">
+        <img src="assets/image/casestudy/manvi/manvi06.webp" alt="Manvi Interior case study" data-aos="fade-left" data-aos-anchor="#example-anchor" data-aos-offset="500" data-aos-duration="500">
       </div>
     </div>
   </div>
@@ -173,7 +173,7 @@ content="With our performance marketing services by Technofra, we drive business
 
     <div class="row align-items-center">
       <div class="col-lg-12 col-md-12">
-        <img src="assets/image/casestudy/manvi/manvi07.webp" alt="image" class="dp-r-10"  data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+        <img src="assets/image/casestudy/manvi/manvi07.webp" alt="Manvi Interior case study" class="dp-r-10"  data-aos="fade-up" data-aos-anchor-placement="center-bottom">
       </div>
 
     </div>

@@ -1,4 +1,4 @@
-ï»¿<?php include 'header.php'; ?>
+<?php include 'header.php'; ?>
 <title>Dipu Enterprises Pvt. Ltd. Case Study | Technofra</title>
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-189WWHXLSS"></script>
@@ -36,7 +36,7 @@
 
 <section class="pb-60">
     <div class="cover-image">
-        <img src="assets/image/casestudy/dipuenterprises/dipuenterprises01.webp" alt="image">
+        <img src="assets/image/casestudy/dipuenterprises/dipuenterprises01.webp" alt="Dipu Enterprises case study">
     </div>
 </section>
 
@@ -54,7 +54,7 @@
         </div>
         <div class="row align-items-center">
             <div class="col-lg-12 col-md-12">
-                <img src="assets/image/casestudy/dipuenterprises/dipuenterprises02.webp" alt="image" class="dp-r-10" data-aos="zoom-in">
+                <img src="assets/image/casestudy/dipuenterprises/dipuenterprises02.webp" alt="Dipu Enterprises case study" class="dp-r-10" data-aos="zoom-in">
             </div>
 
         </div>
@@ -73,14 +73,14 @@
                     </h2>
 
                     <div class="space16"></div>
-                    <p>In todayâ€™s digital world, your audience accesses your content from a variety of devices. Our responsive design ensures your portfolio looks stunning and functions seamlessly on desktops, tablets, and smartphones alike. Experience a user-friendly interface tailored to captivate and engage visitors, no matter how they view it.</p>
+                    <p>In today’s digital world, your audience accesses your content from a variety of devices. Our responsive design ensures your portfolio looks stunning and functions seamlessly on desktops, tablets, and smartphones alike. Experience a user-friendly interface tailored to captivate and engage visitors, no matter how they view it.</p>
 
                 </div>
             </div>
         </div>
         <div class="row align-items-center">
             <div class="col-lg-12 col-md-12">
-                <img src="assets/image/casestudy/dipuenterprises/dipuenterprises03.webp" alt="image" class="dp-r-10" data-aos="zoom-in">
+                <img src="assets/image/casestudy/dipuenterprises/dipuenterprises03.webp" alt="Dipu Enterprises case study" class="dp-r-10" data-aos="zoom-in">
             </div>
 
         </div>
@@ -104,7 +104,7 @@
         </div>
         <div class="row align-items-center">
             <div class="col-lg-12 col-md-12">
-                <img src="assets/image/casestudy/dipuenterprises/dipuenterprises04.webp" alt="image" class="dp-r-10" data-aos="zoom-in">
+                <img src="assets/image/casestudy/dipuenterprises/dipuenterprises04.webp" alt="Dipu Enterprises case study" class="dp-r-10" data-aos="zoom-in">
             </div>
 
         </div>
@@ -118,12 +118,12 @@
                 <div class="section-heading">
                     <h2> Elevate Your Brand with Custom Stationery </h2>
                     <p>
-                        Make a lasting impression with professionally designed stationery that reflects your brandâ€™s identity. From business cards and letterheads to envelopes and notepads, our high-quality designs ensure consistency, professionalism, and brand recognition in every detail.
+                        Make a lasting impression with professionally designed stationery that reflects your brand’s identity. From business cards and letterheads to envelopes and notepads, our high-quality designs ensure consistency, professionalism, and brand recognition in every detail.
                     </p>
                 </div>
             </div>
             <div class="col-lg-12 col-md-12">
-                <img src="assets/image/casestudy/dipuenterprises/dipuenterprises05.webp" alt="image" class="dp-r-10" data-aos="zoom-in-up">
+                <img src="assets/image/casestudy/dipuenterprises/dipuenterprises05.webp" alt="Dipu Enterprises case study" class="dp-r-10" data-aos="zoom-in-up">
             </div>
 
         </div>
@@ -133,7 +133,7 @@
     <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-12 col-md-12">
-                <img src="assets/image/casestudy/dipuenterprises/dipuenterprises07.webp" alt="image" class="dp-r-10" data-aos="zoom-in-up">
+                <img src="assets/image/casestudy/dipuenterprises/dipuenterprises07.webp" alt="Dipu Enterprises case study" class="dp-r-10" data-aos="zoom-in-up">
             </div>
         </div>
     </div>
@@ -142,7 +142,7 @@
     <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-12 col-md-12">
-                <img src="assets/image/casestudy/dipuenterprises/dipuenterprises06.webp" alt="image" class="dp-r-10" data-aos="zoom-in-up">
+                <img src="assets/image/casestudy/dipuenterprises/dipuenterprises06.webp" alt="Dipu Enterprises case study" class="dp-r-10" data-aos="zoom-in-up">
             </div>
 
         </div>

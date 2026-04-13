@@ -49,14 +49,14 @@ content="With our performance marketing services  , we drive business growth. Ex
 
 <section class=" pb-60">
   <div class="cover-image">
-    <img src="assets/image/casestudy/urcfo/urcfo01.webp" alt="image">
+    <img src="assets/image/casestudy/urcfo/urcfo01.webp" alt="UR CFO case study">
   </div>
 </section>
 <section class="pb-60">
   <div class="container">
     <div class="row justify-content-between align-items-center">
       <div class="col-lg-12 col-md-12">
-        <img src="assets/image/casestudy/urcfo/urcfo06.webp" alt="image" class="dp-r-10" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+        <img src="assets/image/casestudy/urcfo/urcfo06.webp" alt="UR CFO case study" class="dp-r-10" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
       </div>
     </div>
   </div>
@@ -79,7 +79,7 @@ content="With our performance marketing services  , we drive business growth. Ex
         </div>
       </div>
       <div class="col-lg-6 col-md-6">
-        <img src="assets/image/casestudy/urcfo/urcfo02.webp" alt="image" class="dp-r-10" data-aos="zoom-out-left">
+        <img src="assets/image/casestudy/urcfo/urcfo02.webp" alt="UR CFO case study" class="dp-r-10" data-aos="zoom-out-left">
       </div>
     </div>
   </div>
@@ -89,7 +89,7 @@ content="With our performance marketing services  , we drive business growth. Ex
 
     <div class="row justify-content-center">
       <div class="col-lg-4 ">
-        <img src="assets/image/casestudy/urcfo/urcfo04.webp" alt="image"  data-aos="zoom-out-right">
+        <img src="assets/image/casestudy/urcfo/urcfo04.webp" alt="UR CFO case study"  data-aos="zoom-out-right">
       </div>
       <div class="col-lg-4 mob-pt-20">
         <div class="feature-img-content">
@@ -105,7 +105,7 @@ content="With our performance marketing services  , we drive business growth. Ex
         </div>
       </div>
       <div class="col-lg-4 ">
-        <img src="assets/image/casestudy/urcfo/urcfo05.webp" alt="image" data-aos="zoom-out-left">
+        <img src="assets/image/casestudy/urcfo/urcfo05.webp" alt="UR CFO case study" data-aos="zoom-out-left">
       </div>
     </div>
   </div>
@@ -115,7 +115,7 @@ content="With our performance marketing services  , we drive business growth. Ex
   <div class="container">
     <div class="row justify-content-between align-items-center">
       <div class="col-lg-12 col-md-12">
-        <img src="assets/image/casestudy/urcfo/urcfo07.webp" alt="image" class="dp-r-10" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+        <img src="assets/image/casestudy/urcfo/urcfo07.webp" alt="UR CFO case study" class="dp-r-10" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
       </div>
     </div>
   </div>
@@ -124,7 +124,7 @@ content="With our performance marketing services  , we drive business growth. Ex
   <div class="container">
     <div class="row justify-content-between align-items-center">
       <div class="col-lg-12 col-md-12">
-        <img src="assets/image/casestudy/urcfo/urcfo03.webp" alt="image" class="dp-r-10" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+        <img src="assets/image/casestudy/urcfo/urcfo03.webp" alt="UR CFO case study" class="dp-r-10" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
       </div>
     </div>
   </div>
