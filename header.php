@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" data-bs-theme="light">
 <head>
+    <?php $deferCustomCss = $deferCustomCss ?? false; ?>
     <!--required meta tags-->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -20,7 +21,12 @@
     <link rel="stylesheet" href="assets/css/main.css">
     <!-- endbuild -->
     <!--custom css start-->
+    <?php if ($deferCustomCss): ?>
+    <link rel="preload" as="style" href="assets/css/custom.css" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="assets/css/custom.css"></noscript>
+    <?php else: ?>
     <link rel="stylesheet" href="assets/css/custom.css">
+    <?php endif; ?>
     <!--custom css end-->
     <link rel="preload" as="style" href="assets_01/css/magnific-popup.css"
         onload="this.onload=null;this.rel='stylesheet'">
@@ -34,7 +40,8 @@
     <noscript><link rel="stylesheet" href="assets_01/css/nice-select.css"></noscript>
     <noscript><link rel="stylesheet" href="assets_01/css/slick-slider.css"></noscript>
     <noscript><link rel="stylesheet" href="assets_01/css/owl.carousel.min.css"></noscript>
-    <link rel="stylesheet" href="assets_01/css/main.css">
+    <link rel="preload" as="style" href="assets_01/css/main.css" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="assets_01/css/main.css"></noscript>
 
 
     <script type="application/ld+json">

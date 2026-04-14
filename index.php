@@ -3,6 +3,7 @@ session_start();
 
 $bookCallStatus = $_SESSION['book_call_status'] ?? null;
 unset($_SESSION['book_call_status']);
+$deferCustomCss = true;
 
 include 'header.php';
 ?>
@@ -102,6 +103,114 @@ gtag('config', 'G-189WWHXLSS');
 
 .tfx-faq-shell {     
     margin: 0 auto;
+}
+
+.rnHeroSlider {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    min-height: 919px;
+    overflow: hidden;
+    background: #000;
+}
+
+.rnHeroSlide {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity .8s ease, visibility .8s ease;
+}
+
+.rnHeroSlide.rnHeroActive {
+    opacity: 1;
+    visibility: visible;
+    z-index: 2;
+}
+
+.rnHeroSlide video,
+.rnHeroSlide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.rnHeroOverlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to top, rgba(0, 0, 0, .72) 0%, rgba(0, 0, 0, .30) 30%, rgba(0, 0, 0, .12) 55%, rgba(0, 0, 0, .10) 100%);
+    z-index: 1;
+    pointer-events: none;
+}
+
+.rnHeroContent {
+    position: absolute;
+    left: 315px;
+    top: 270px;
+    z-index: 6;
+    color: #fff;
+    max-width: 35%;
+}
+
+.rnHeroContent h1 {
+    font-size: 45px;
+    line-height: 1.09;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin-bottom: 18px;
+    color: #fff;
+}
+
+.rnHeroButtons {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+.rnHeroButtons a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 138px;
+    height: 48px;
+}
+
+.rnHeroNavigation span,
+.rnHeroTabItem {
+    will-change: transform;
+}
+
+@media (max-width: 991px) {
+    .rnHeroSlider {
+        min-height: 760px;
+    }
+
+    .rnHeroContent {
+        left: 32px;
+        right: 32px;
+        top: 220px;
+        max-width: min(620px, calc(100% - 64px));
+    }
+}
+
+@media (max-width: 767px) {
+    .rnHeroSlider {
+        min-height: 620px;
+    }
+
+    .rnHeroContent {
+        left: 20px;
+        right: 20px;
+        top: 180px;
+        max-width: calc(100% - 40px);
+    }
+
+    .rnHeroContent h1 {
+        font-size: 32px;
+    }
 }
 
 .tfx-faq-grid {
@@ -661,7 +770,7 @@ gtag('config', 'G-189WWHXLSS');
 <?php include 'navbar.php'; ?>
 <section class="rnHeroSlider">
     <div class="rnHeroSlide rnHeroActive">
-        <video autoplay muted loop playsinline>
+        <video autoplay muted loop playsinline preload="metadata">
             <source src="assets/video/technofra_hero.mp4" type="video/mp4" />
         </video>
         <div class="rnHeroOverlay"></div>
@@ -682,8 +791,7 @@ gtag('config', 'G-189WWHXLSS');
     </div>
 
     <div class="rnHeroSlide rnHeroSlidebg">
-        <video autoplay muted loop playsinline>
-            <source src="assets/video/app-dev-vnew.mp4" type="video/mp4" />
+        <video muted loop playsinline preload="none" data-src="assets/video/app-dev-vnew.mp4">
         </video>
         <div class="rnHeroOverlay"></div>
 
@@ -701,8 +809,7 @@ gtag('config', 'G-189WWHXLSS');
     </div>
 
     <div class="rnHeroSlide rnHeroSlidebg">
-        <video autoplay muted loop playsinline>
-            <source src="assets/video/branding-vnew.mp4" type="video/mp4" />
+        <video muted loop playsinline preload="none" data-src="assets/video/branding-vnew.mp4">
         </video>
         <div class="rnHeroOverlay"></div>
 
@@ -720,8 +827,7 @@ gtag('config', 'G-189WWHXLSS');
     </div>
 
     <div class="rnHeroSlide rnHeroSlidebg">
-        <video autoplay muted loop playsinline>
-            <source src="assets/video/ui-ux-vnew.mp4" type="video/mp4" />
+        <video muted loop playsinline preload="none" data-src="assets/video/ui-ux-vnew.mp4">
         </video>
         <div class="rnHeroOverlay"></div>
 
@@ -739,8 +845,7 @@ gtag('config', 'G-189WWHXLSS');
     </div>
 
     <div class="rnHeroSlide rnHeroSlidebg">
-        <video autoplay muted loop playsinline>
-            <source src="assets/video/payment-vnew.mp4" type="video/mp4" />
+        <video muted loop playsinline preload="none" data-src="assets/video/payment-vnew.mp4">
         </video>
         <div class="rnHeroOverlay"></div>
 
@@ -758,8 +863,7 @@ gtag('config', 'G-189WWHXLSS');
     </div>
 
     <div class="rnHeroSlide rnHeroSlidebg">
-        <video autoplay muted loop playsinline>
-            <source src="assets/video/digital-marketing.mp4" type="video/mp4" />
+        <video muted loop playsinline preload="none" data-src="assets/video/digital-marketing.mp4">
         </video>
         <div class="rnHeroOverlay"></div>
 
@@ -782,50 +886,50 @@ gtag('config', 'G-189WWHXLSS');
             <div class="rnHeroLogoTrack">
                 <div class="rnHeroLogoGroup">
                     <div class="single-logo" data-link="#">
-                        <img src="assets/image/home/blueorbith.png" alt="Web Design &amp; Development Company" />
+                        <img loading="lazy" decoding="async" src="assets/image/home/blueorbith.png" alt="Web Design &amp; Development Company" />
                     </div>
                     <div class="single-logo" data-link="#">
-                        <img src="assets/image/home/grid-infinity.png" alt="Website Development Company in Mumbai" />
+                        <img loading="lazy" decoding="async" src="assets/image/home/grid-infinity.png" alt="Website Development Company in Mumbai" />
                     </div>
                     <div class="single-logo" data-link="#">
-                        <img src="assets/image/home/digikcon.png" alt="Digital Marketing Agency" />
+                        <img loading="lazy" decoding="async" src="assets/image/home/digikcon.png" alt="Digital Marketing Agency" />
                     </div>
                     <div class="single-logo" data-link="#">
-                        <img src="assets/image/home/markidentitiez.png" alt="IT Services Company" />
+                        <img loading="lazy" decoding="async" src="assets/image/home/markidentitiez.png" alt="IT Services Company" />
                     </div>
                     <div class="single-logo" data-link="#">
-                        <img src="assets/image/home/blueorbith.png" alt="Ecommerce Website Development" />
+                        <img loading="lazy" decoding="async" src="assets/image/home/blueorbith.png" alt="Ecommerce Website Development" />
                     </div>
                     <div class="single-logo" data-link="#">
-                        <img src="assets/image/home/grid-infinity.png" alt="Mobile App Development Company" />
+                        <img loading="lazy" decoding="async" src="assets/image/home/grid-infinity.png" alt="Mobile App Development Company" />
                     </div>
                 </div>
 
                 <div class="rnHeroLogoGroup" aria-hidden="true">
                     <div class="single-logo" data-link="#">
-                        <img src="assets/image/home/digikcon.png" alt="SEO Services" />
+                        <img loading="lazy" decoding="async" src="assets/image/home/digikcon.png" alt="SEO Services" />
                     </div>
                     <div class="single-logo" data-link="#">
-                        <img src="assets/image/home/markidentitiez.png" alt="Branding Agency" />
+                        <img loading="lazy" decoding="async" src="assets/image/home/markidentitiez.png" alt="Branding Agency" />
                     </div>
 
                     <div class="single-logo" data-link="#">
-                        <img src="assets/image/home/blueorbith.png" alt="UI UX Design Services" />
+                        <img loading="lazy" decoding="async" src="assets/image/home/blueorbith.png" alt="UI UX Design Services" />
                     </div>
                     <div class="single-logo" data-link="#">
-                        <img src="assets/image/home/grid-infinity.png" alt="Payment Gateway Integration" />
+                        <img loading="lazy" decoding="async" src="assets/image/home/grid-infinity.png" alt="Payment Gateway Integration" />
                     </div>
                     <div class="single-logo" data-link="#">
-                        <img src="assets/image/home/digikcon.png" alt="Domain &amp; Hosting Services" />
+                        <img loading="lazy" decoding="async" src="assets/image/home/digikcon.png" alt="Domain &amp; Hosting Services" />
                     </div>
                     <div class="single-logo" data-link="#">
-                        <img src="assets/image/home/markidentitiez.png" alt="IT Infrastructure Services" />
+                        <img loading="lazy" decoding="async" src="assets/image/home/markidentitiez.png" alt="IT Infrastructure Services" />
                     </div>
                     <div class="single-logo" data-link="#">
-                        <img src="assets/image/home/digikcon.png" alt="Web Development Company India" />
+                        <img loading="lazy" decoding="async" src="assets/image/home/digikcon.png" alt="Web Development Company India" />
                     </div>
                     <div class="single-logo" data-link="#">
-                        <img src="assets/image/home/markidentitiez.png" alt="Full Service Digital Agency" />
+                        <img loading="lazy" decoding="async" src="assets/image/home/markidentitiez.png" alt="Full Service Digital Agency" />
                     </div>
                 </div>
             </div>
@@ -859,7 +963,7 @@ gtag('config', 'G-189WWHXLSS');
             <!-- LEFT -->
             <div class="uxb_about_left_block">
                 <span class="crm-subtitle aos-init aos-animate pb-20" data-aos="fade-left" data-aos-duration="600">More
-                    About Us <img src="assets/image/arrow-red.png" alt="Best Digital Agency in Mumbai"></span>
+                    About Us <img loading="lazy" decoding="async" src="assets/image/arrow-red.png" alt="Best Digital Agency in Mumbai"></span>
                 <!-- <div class="uxb_about_mini_title"></div> -->
 
                 <h2 class="uxb_about_heading_title">
@@ -930,11 +1034,11 @@ gtag('config', 'G-189WWHXLSS');
             <!-- RIGHT -->
             <div class="uxb_about_right_visual" data-aos="fade-left" data-aos-duration="600">
                 <div class="uxb_about_small_card_img">
-                    <img src="assets\image\home\about-02.webp" alt="Affordable Website Development Services">
+                    <img loading="lazy" decoding="async" src="assets\image\home\about-02.webp" alt="Affordable Website Development Services">
                 </div>
 
                 <div class="uxb_about_big_image_holder">
-                    <img src="assets\image\home\about-01.webp" alt="Online Marketing Services">
+                    <img loading="lazy" decoding="async" src="assets\image\home\about-01.webp" alt="Online Marketing Services">
                 </div>
 
                 <div class="uxb_about_trust_badge">
@@ -944,19 +1048,19 @@ gtag('config', 'G-189WWHXLSS');
                     <div class="uxb_about_avatar_group_shell">
                         <div class="uxb_about_avatar_stack_list">
                             <div class="uxb_about_avatar_single">
-                                <img src="assets\image\clogos\1.webp" alt="Custom Website Development">
+                                <img loading="lazy" decoding="async" src="assets\image\clogos\1.webp" alt="Custom Website Development">
                             </div>
                             <div class="uxb_about_avatar_single">
-                                <img src="assets\image\clogos\2.webp" alt="Lead Generation Services">
+                                <img loading="lazy" decoding="async" src="assets\image\clogos\2.webp" alt="Lead Generation Services">
                             </div>
                             <div class="uxb_about_avatar_single">
-                                <img src="assets\image\clogos\3.webp" alt="Web Design &amp; Development Company">
+                                <img loading="lazy" decoding="async" src="assets\image\clogos\3.webp" alt="Web Design &amp; Development Company">
                             </div>
                             <div class="uxb_about_avatar_single">
-                                <img src="assets\image\clogos\4.webp" alt="Website Development Company in Mumbai">
+                                <img loading="lazy" decoding="async" src="assets\image\clogos\4.webp" alt="Website Development Company in Mumbai">
                             </div>
                             <div class="uxb_about_avatar_single">
-                                <img src="assets\image\clogos\5.webp" alt="Digital Marketing Agency">
+                                <img loading="lazy" decoding="async" src="assets\image\clogos\5.webp" alt="Digital Marketing Agency">
                             </div>
                         </div>
 
@@ -1027,10 +1131,10 @@ gtag('config', 'G-189WWHXLSS');
 
                 <div class="dd-image-row">
                     <div class="dd-image-box image-anime" data-aos="fade-up" data-aos-duration="600">
-                        <img src="assets\image\home\1.webp" alt="Ecommerce Website Development">
+                        <img loading="lazy" decoding="async" src="assets\image\home\1.webp" alt="Ecommerce Website Development">
                     </div>
                     <div class="dd-image-box image-anime" data-aos="fade-up" data-aos-duration="600">
-                        <img src="assets\image\home\2.webp" alt="Mobile App Development Company">
+                        <img loading="lazy" decoding="async" src="assets\image\home\2.webp" alt="Mobile App Development Company">
                     </div>
                 </div>
 
@@ -1067,7 +1171,7 @@ gtag('config', 'G-189WWHXLSS');
                                     </p>
                                 </div>
                                 <div class="dd-card-back">
-                                    <img src="assets/image/home/ss1.webp" alt="SEO Services">
+                                    <img loading="lazy" decoding="async" src="assets/image/home/ss1.webp" alt="SEO Services">
                                 </div>
                             </div>
                         </div>
@@ -1088,7 +1192,7 @@ gtag('config', 'G-189WWHXLSS');
                                     </p>
                                 </div>
                                 <div class="dd-card-back">
-                                    <img src="assets/image/home/ss2.webp" alt="Branding Agency">
+                                    <img loading="lazy" decoding="async" src="assets/image/home/ss2.webp" alt="Branding Agency">
                                 </div>
                             </div>
                         </div>
@@ -1107,7 +1211,7 @@ gtag('config', 'G-189WWHXLSS');
                                     </p>
                                 </div>
                                 <div class="dd-card-back">
-                                    <img src="assets/image/home/ss3.webp" alt="UI UX Design Services">
+                                    <img loading="lazy" decoding="async" src="assets/image/home/ss3.webp" alt="UI UX Design Services">
                                 </div>
                             </div>
                         </div>
@@ -1130,7 +1234,7 @@ gtag('config', 'G-189WWHXLSS');
                                     </p>
                                 </div>
                                 <div class="dd-card-back">
-                                    <img src="assets\image\home\digitals.webp" alt="Payment Gateway Integration">
+                                    <img loading="lazy" decoding="async" src="assets\image\home\digitals.webp" alt="Payment Gateway Integration">
                                 </div>
                             </div>
                         </div>
@@ -1149,7 +1253,7 @@ gtag('config', 'G-189WWHXLSS');
                                     </p>
                                 </div>
                                 <div class="dd-card-back">
-                                    <img src="assets\image\home\socails.webp" alt="Domain &amp; Hosting Services">
+                                    <img loading="lazy" decoding="async" src="assets\image\home\socails.webp" alt="Domain &amp; Hosting Services">
                                 </div>
                             </div>
                         </div>
@@ -1172,7 +1276,7 @@ gtag('config', 'G-189WWHXLSS');
 <section class="medlaunch-wrapper ptb-60">
     <div class="container">
         <div class="section-heading crm-title text-center" data-aos="fade-up" data-aos-duration="600">
-            <span class="crm-subtitle ">Why Technofra<img src="assets/image/arrow-red.png" alt="IT Infrastructure Services"></span>
+            <span class="crm-subtitle ">Why Technofra<img loading="lazy" decoding="async" src="assets/image/arrow-red.png" alt="IT Infrastructure Services"></span>
             <h2>Why Choose Us</h2>
         </div>
         <div class="medlaunch-grid " data-aos="fade-up" data-aos-duration="600">
@@ -1186,7 +1290,7 @@ gtag('config', 'G-189WWHXLSS');
             </div>
 
             <div class="medlaunch-card medlaunch-image-card" data-aos="fade-up" data-aos-duration="600">
-                <img src="assets\image\home\support-team.webp" class="medlaunch-img"
+                <img loading="lazy" decoding="async" src="assets\image\home\support-team.webp" class="medlaunch-img"
                     alt="Web Development Company India">
                 <div class="medlaunch-image-content">
                     <div class="medlaunch-label">Real-Time Support Team</div>
@@ -1207,16 +1311,16 @@ gtag('config', 'G-189WWHXLSS');
                 </p>
 
                 <div class="medlaunch-users">
-                    <img src="https://i.pravatar.cc/100?img=4" class="medlaunch-user" alt="Full Service Digital Agency">
-                    <img src="https://i.pravatar.cc/100?img=3" class="medlaunch-user" alt="Best Digital Agency in Mumbai">
-                    <img src="https://i.pravatar.cc/100?img=2" class="medlaunch-user" alt="Affordable Website Development Services">
-                    <img src="https://i.pravatar.cc/100?img=1" class="medlaunch-user" alt="Online Marketing Services">
+                    <img loading="lazy" decoding="async" src="https://i.pravatar.cc/100?img=4" class="medlaunch-user" alt="Full Service Digital Agency">
+                    <img loading="lazy" decoding="async" src="https://i.pravatar.cc/100?img=3" class="medlaunch-user" alt="Best Digital Agency in Mumbai">
+                    <img loading="lazy" decoding="async" src="https://i.pravatar.cc/100?img=2" class="medlaunch-user" alt="Affordable Website Development Services">
+                    <img loading="lazy" decoding="async" src="https://i.pravatar.cc/100?img=1" class="medlaunch-user" alt="Online Marketing Services">
                     <span class="medlaunch-count">25k</span>
                 </div>
             </div>
 
             <div class="medlaunch-card medlaunch-image-card" data-aos="fade-up" data-aos-duration="600">
-                <img src="assets\image\home\ourteam.webp" class="medlaunch-img"
+                <img loading="lazy" decoding="async" src="assets\image\home\ourteam.webp" class="medlaunch-img"
                     alt="Custom Website Development">
                 <div class="medlaunch-image-content">
                     <div class="medlaunch-label">Our Skilled Team</div>
@@ -1336,7 +1440,7 @@ gtag('config', 'G-189WWHXLSS');
 
                 <div class="eep-center-circle"></div>
                 <div class="eep-person">
-                    <img src="assets/image/home/cont2.png" alt="Lead Generation Services" />
+                    <img loading="lazy" decoding="async" src="assets/image/home/cont2.png" alt="Lead Generation Services" />
                 </div>
             </div>
         </div>
@@ -1397,7 +1501,7 @@ gtag('config', 'G-189WWHXLSS');
 
 <!-- <section class="indusSecWrap_v1">
     <div class="indusInnerBox_v1 container" data-aos="fade-up" data-aos-duration="600">
-        <span class="crm-subtitle "> Our Industries <img src="assets/image/arrow-red.png" alt="Web Design &amp; Development Company"> </span>
+        <span class="crm-subtitle "> Our Industries <img loading="lazy" decoding="async" src="assets/image/arrow-red.png" alt="Web Design &amp; Development Company"> </span>
         <h2 class="indusHeadingTxt_v1">Industries We Serve</h2>
 
         <div class="indusGridFlex_v1" data-aos="fade-up" data-aos-duration="600">
@@ -1471,7 +1575,7 @@ gtag('config', 'G-189WWHXLSS');
 <section class="tfxIndusSection">
     <div class="tfxIndusContainer container">
         <div class="section-heading crm-title text-center" data-aos="fade-up" data-aos-duration="600">
-            <span class="crm-subtitle">Our Industries <img src="assets/image/arrow-red.png" alt="Website Development Company in Mumbai"></span>
+            <span class="crm-subtitle">Our Industries <img loading="lazy" decoding="async" src="assets/image/arrow-red.png" alt="Website Development Company in Mumbai"></span>
             <h2 class="white">Industries We Serve</h2>
         </div>
         <!-- <h2 class="tfxIndusHeading">Industries We Serve</h2>
@@ -1731,7 +1835,7 @@ gtag('config', 'G-189WWHXLSS');
 <div class="mlp-containers ptb-60 ">
     <div class="container mlp-container">
         <div class="text-center">
-            <span class="crm-subtitle ">Client Review<img src="assets/image/arrow-red.png" alt="Digital Marketing Agency"></span>
+            <span class="crm-subtitle ">Client Review<img loading="lazy" decoding="async" src="assets/image/arrow-red.png" alt="Digital Marketing Agency"></span>
             <h2 class="dd-heading text-center" data-aos="fade-up" data-aos-duration="600">
                 Testimonials
             </h2>
@@ -1740,7 +1844,7 @@ gtag('config', 'G-189WWHXLSS');
         <div class="mlp-grid">
             <div class="mlp-card" data-aos="fade-up" data-aos-duration="600">
                 <div class="pb-20">
-                    <img src="assets\image\home\tclient.webp" alt="IT Services Company">
+                    <img loading="lazy" decoding="async" src="assets\image\home\tclient.webp" alt="IT Services Company">
                 </div>
                 <h3>Join Us And Transform Your Business With Smart Technology Solutions</h3>
                 <p>Drive more growth and achieve success with innovative technology solutions.</p>
@@ -1752,22 +1856,22 @@ gtag('config', 'G-189WWHXLSS');
                     <div class="mlp-testimonial-track" id="testimonialTrack">
 
                         <div class="mlp-testimonial-item">
-                            <img src="assets\image\home\t1.webp" alt="Ecommerce Website Development">
+                            <img loading="lazy" decoding="async" src="assets\image\home\t1.webp" alt="Ecommerce Website Development">
                             <p>Technofra delivered our website on time with excellent design and smooth functionality.
                             </p>
-                            <p><img src="assets\image\clogos\4.webp" alt="Mobile App Development Company" class="clogo"></p>
+                            <p><img loading="lazy" decoding="async" src="assets\image\clogos\4.webp" alt="Mobile App Development Company" class="clogo"></p>
                         </div>
 
                         <div class="mlp-testimonial-item">
-                            <img src="assets\image\home\t2.webp" alt="SEO Services">
+                            <img loading="lazy" decoding="async" src="assets\image\home\t2.webp" alt="SEO Services">
                             <p>Their team provided great support and helped us grow our business digitally.</p>
-                            <p><img src="assets\image\clogos\6.webp" alt="Branding Agency" class="clogo"></p>
+                            <p><img loading="lazy" decoding="async" src="assets\image\clogos\6.webp" alt="Branding Agency" class="clogo"></p>
                         </div>
 
                         <div class="mlp-testimonial-item">
-                            <img src="assets\image\home\t3.webp" alt="UI UX Design Services">
+                            <img loading="lazy" decoding="async" src="assets\image\home\t3.webp" alt="UI UX Design Services">
                             <p>We are very happy with the app development service and professional approach.</p>
-                            <p> <img src="assets\image\clogos\1.webp" alt="Payment Gateway Integration" class="clogo"></p>
+                            <p> <img loading="lazy" decoding="async" src="assets\image\clogos\1.webp" alt="Payment Gateway Integration" class="clogo"></p>
                         </div>
 
                     </div>
@@ -1779,32 +1883,32 @@ gtag('config', 'G-189WWHXLSS');
                 <div class="clc-wrapper">
                     <div class="clc-circle-box">
                         <div class="clc-ring clc-ring-outer">
-                            <div class="clc-logo clc-o1"><img src="assets/image/clogos/1.webp" alt="Domain &amp; Hosting Services"></div>
-                            <div class="clc-logo clc-o2"><img src="assets/image/clogos/2.webp" alt="IT Infrastructure Services"></div>
-                            <div class="clc-logo clc-o3"><img src="assets/image/clogos/3.webp" alt="Web Development Company India"></div>
-                            <div class="clc-logo clc-o4"><img src="assets/image/clogos/4.webp" alt="Full Service Digital Agency"></div>
-                            <div class="clc-logo clc-o5"><img src="assets/image/clogos/5.webp" alt="Best Digital Agency in Mumbai"></div>
-                            <div class="clc-logo clc-o6"><img src="assets/image/clogos/6.webp" alt="Affordable Website Development Services"></div>
-                            <div class="clc-logo clc-o7"><img src="assets/image/clogos/17.webp" alt="Online Marketing Services"></div>
-                            <div class="clc-logo clc-o8"><img src="assets/image/clogos/18.webp" alt="Custom Website Development"></div>
+                            <div class="clc-logo clc-o1"><img loading="lazy" decoding="async" src="assets/image/clogos/1.webp" alt="Domain &amp; Hosting Services"></div>
+                            <div class="clc-logo clc-o2"><img loading="lazy" decoding="async" src="assets/image/clogos/2.webp" alt="IT Infrastructure Services"></div>
+                            <div class="clc-logo clc-o3"><img loading="lazy" decoding="async" src="assets/image/clogos/3.webp" alt="Web Development Company India"></div>
+                            <div class="clc-logo clc-o4"><img loading="lazy" decoding="async" src="assets/image/clogos/4.webp" alt="Full Service Digital Agency"></div>
+                            <div class="clc-logo clc-o5"><img loading="lazy" decoding="async" src="assets/image/clogos/5.webp" alt="Best Digital Agency in Mumbai"></div>
+                            <div class="clc-logo clc-o6"><img loading="lazy" decoding="async" src="assets/image/clogos/6.webp" alt="Affordable Website Development Services"></div>
+                            <div class="clc-logo clc-o7"><img loading="lazy" decoding="async" src="assets/image/clogos/17.webp" alt="Online Marketing Services"></div>
+                            <div class="clc-logo clc-o8"><img loading="lazy" decoding="async" src="assets/image/clogos/18.webp" alt="Custom Website Development"></div>
                         </div>
 
 
                         <div class="clc-ring clc-ring-middle">
-                            <div class="clc-logo clc-m1"><img src="assets/image/clogos/7.webp" alt="Lead Generation Services"></div>
-                            <div class="clc-logo clc-m2"><img src="assets/image/clogos/8.webp" alt="Web Design &amp; Development Company"></div>
-                            <div class="clc-logo clc-m3"><img src="assets/image/clogos/9.webp" alt="Website Development Company in Mumbai"></div>
-                            <div class="clc-logo clc-m4"><img src="assets/image/clogos/10.webp" alt="Digital Marketing Agency"></div>
-                            <div class="clc-logo clc-m5"><img src="assets/image/clogos/11.webp" alt="IT Services Company"></div>
-                            <div class="clc-logo clc-m6"><img src="assets/image/clogos/12.webp" alt="Ecommerce Website Development"></div>
+                            <div class="clc-logo clc-m1"><img loading="lazy" decoding="async" src="assets/image/clogos/7.webp" alt="Lead Generation Services"></div>
+                            <div class="clc-logo clc-m2"><img loading="lazy" decoding="async" src="assets/image/clogos/8.webp" alt="Web Design &amp; Development Company"></div>
+                            <div class="clc-logo clc-m3"><img loading="lazy" decoding="async" src="assets/image/clogos/9.webp" alt="Website Development Company in Mumbai"></div>
+                            <div class="clc-logo clc-m4"><img loading="lazy" decoding="async" src="assets/image/clogos/10.webp" alt="Digital Marketing Agency"></div>
+                            <div class="clc-logo clc-m5"><img loading="lazy" decoding="async" src="assets/image/clogos/11.webp" alt="IT Services Company"></div>
+                            <div class="clc-logo clc-m6"><img loading="lazy" decoding="async" src="assets/image/clogos/12.webp" alt="Ecommerce Website Development"></div>
                         </div>
 
 
                         <div class="clc-ring clc-ring-inner">
-                            <div class="clc-logo clc-i1"><img src="assets/image/clogos/13.webp" alt="Mobile App Development Company"></div>
-                            <div class="clc-logo clc-i2"><img src="assets/image/clogos/14.webp" alt="SEO Services"></div>
-                            <div class="clc-logo clc-i3"><img src="assets/image/clogos/15.webp" alt="Branding Agency"></div>
-                            <div class="clc-logo clc-i4"><img src="assets/image/clogos/16.webp" alt="UI UX Design Services"></div>
+                            <div class="clc-logo clc-i1"><img loading="lazy" decoding="async" src="assets/image/clogos/13.webp" alt="Mobile App Development Company"></div>
+                            <div class="clc-logo clc-i2"><img loading="lazy" decoding="async" src="assets/image/clogos/14.webp" alt="SEO Services"></div>
+                            <div class="clc-logo clc-i3"><img loading="lazy" decoding="async" src="assets/image/clogos/15.webp" alt="Branding Agency"></div>
+                            <div class="clc-logo clc-i4"><img loading="lazy" decoding="async" src="assets/image/clogos/16.webp" alt="UI UX Design Services"></div>
                         </div>
 
                         <div class="clc-center"></div>
@@ -1825,7 +1929,7 @@ gtag('config', 'G-189WWHXLSS');
 <section class="faq-section tfx-faq-section ptb-60">
     <div class="container tfx-faq-shell">
         <div class="section-heading text-center" data-aos="fade-up" data-aos-duration="600">
-            <span class="crm-subtitle">FAQ<img src="assets/image/arrow-red.png" alt="Payment Gateway Integration"></span>
+            <span class="crm-subtitle">FAQ<img loading="lazy" decoding="async" src="assets/image/arrow-red.png" alt="Payment Gateway Integration"></span>
             <h2>Frequently Asked Questions</h2>
         </div>
 
@@ -2033,7 +2137,7 @@ gtag('config', 'G-189WWHXLSS');
         <div class="row">
             <div class="col-lg-8 m-auto text-center" data-aos="fade-up" data-aos-duration="600">
                 <div class=" crm-title">
-                    <span class="crm-subtitle ">Blog & News <img src="assets/image/arrow-red.png" alt="Domain &amp; Hosting Services"></span>
+                    <span class="crm-subtitle ">Blog & News <img loading="lazy" decoding="async" src="assets/image/arrow-red.png" alt="Domain &amp; Hosting Services"></span>
                     <h2>
                         See Our Latest Blog & News
                     </h2>
@@ -2049,7 +2153,7 @@ gtag('config', 'G-189WWHXLSS');
                     <div class="swiper-slide">
                         <div class="cyber-single-article p-3 border">
                             <div class="image image-anime">
-                                <img src="assets/image/home/blog01.webp" alt="IT Infrastructure Services">
+                                <img loading="lazy" decoding="async" src="assets/image/home/blog01.webp" alt="IT Infrastructure Services">
                             </div>
                             <div class="article-content">
                                 <div class="article-info d-flex py-3">
@@ -2081,7 +2185,7 @@ gtag('config', 'G-189WWHXLSS');
                     <div class="swiper-slide">
                         <div class="cyber-single-article p-3 border">
                             <div class="image image-anime">
-                                <img src="assets/image/home/blog02.webp" alt="Web Development Company India">
+                                <img loading="lazy" decoding="async" src="assets/image/home/blog02.webp" alt="Web Development Company India">
                             </div>
                             <div class="article-content">
                                 <div class="article-info d-flex py-3">
@@ -2114,7 +2218,7 @@ gtag('config', 'G-189WWHXLSS');
                     <div class="swiper-slide">
                         <div class="cyber-single-article p-3 border">
                             <div class="image image-anime">
-                                <img src="assets/image/home/blog03.webp" alt="Full Service Digital Agency">
+                                <img loading="lazy" decoding="async" src="assets/image/home/blog03.webp" alt="Full Service Digital Agency">
                             </div>
                             <div class="article-content">
                                 <div class="article-info d-flex py-3">
@@ -2145,7 +2249,7 @@ gtag('config', 'G-189WWHXLSS');
                     <!-- <div class="swiper-slide">
                         <div class="cyber-single-article p-3 border">
                             <div class="image image-anime">
-                                <img src="assets/image/home/blog03.webp" alt="Best Digital Agency in Mumbai">
+                                <img loading="lazy" decoding="async" src="assets/image/home/blog03.webp" alt="Best Digital Agency in Mumbai">
                             </div>
                             <div class="article-content">
                                 <div class="article-info d-flex py-3">
@@ -2176,7 +2280,7 @@ gtag('config', 'G-189WWHXLSS');
                     <div class="swiper-slide">
                         <div class="cyber-single-article p-3 border">
                             <div class="image image-anime">
-                                <img src="assets/image/home/blog03.webp" alt="Affordable Website Development Services">
+                                <img loading="lazy" decoding="async" src="assets/image/home/blog03.webp" alt="Affordable Website Development Services">
                             </div>
                             <div class="article-content">
                                 <div class="article-info d-flex py-3">
@@ -2207,7 +2311,7 @@ gtag('config', 'G-189WWHXLSS');
                     <div class="swiper-slide">
                         <div class="cyber-single-article p-3 border">
                             <div class="image image-anime">
-                                <img src="assets/image/home/blog03.webp" alt="Online Marketing Services">
+                                <img loading="lazy" decoding="async" src="assets/image/home/blog03.webp" alt="Online Marketing Services">
                             </div>
                             <div class="article-content">
                                 <div class="article-info d-flex py-3">
@@ -2609,14 +2713,33 @@ function rnHeroPauseAllVideos() {
         const video = slide.querySelector("video");
         if (video) {
             video.pause();
-            video.currentTime = 0;
         }
     });
+}
+
+function rnHeroEnsureVideoLoaded(video) {
+    if (!video || video.dataset.loaded === "true") {
+        return;
+    }
+
+    const videoSrc = video.dataset.src;
+    if (!videoSrc) {
+        video.dataset.loaded = "true";
+        return;
+    }
+
+    const source = document.createElement("source");
+    source.src = videoSrc;
+    source.type = "video/mp4";
+    video.appendChild(source);
+    video.load();
+    video.dataset.loaded = "true";
 }
 
 function rnHeroPlayActiveVideo() {
     const activeVideo = rnHeroSlides[rnHeroIndex].querySelector("video");
     if (activeVideo) {
+        rnHeroEnsureVideoLoaded(activeVideo);
         activeVideo.play().catch(() => {});
     }
 }
