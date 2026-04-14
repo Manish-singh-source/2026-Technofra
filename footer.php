@@ -302,7 +302,76 @@
      <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" />
  </a>
 
- <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+ <script>
+(function(w, d) {
+    const captchaNodes = Array.from(d.querySelectorAll('.g-recaptcha'));
+
+    if (!captchaNodes.length) {
+        return;
+    }
+
+    let recaptchaLoaded = false;
+
+    function loadRecaptcha() {
+        if (recaptchaLoaded) {
+            return;
+        }
+
+        recaptchaLoaded = true;
+        const script = d.createElement('script');
+        script.src = 'https://www.google.com/recaptcha/api.js';
+        script.async = true;
+        script.defer = true;
+        d.head.appendChild(script);
+    }
+
+    function scheduleRecaptchaLoad() {
+        if ('requestIdleCallback' in w) {
+            requestIdleCallback(loadRecaptcha, {
+                timeout: 4000
+            });
+        } else {
+            setTimeout(loadRecaptcha, 2500);
+        }
+    }
+
+    if ('IntersectionObserver' in w) {
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach((entry) => {
+                if (entry.isIntersecting) {
+                    loadRecaptcha();
+                    observer.disconnect();
+                }
+            });
+        }, {
+            rootMargin: '300px 0px'
+        });
+
+        captchaNodes.forEach((node) => observer.observe(node));
+    }
+
+    d.addEventListener('focusin', function(event) {
+        if (event.target.closest('.company-profile-modal, form, .g-recaptcha')) {
+            loadRecaptcha();
+        }
+    }, {
+        once: true
+    });
+
+    d.addEventListener('pointerdown', function(event) {
+        if (event.target.closest('[data-bs-target], .company-profile-modal, form, .g-recaptcha')) {
+            loadRecaptcha();
+        }
+    }, {
+        once: true,
+        passive: true
+    });
+
+    w.addEventListener('load', scheduleRecaptchaLoad, {
+        once: true
+    });
+})(window, document);
+ </script>
 
  <script>
 window.addEventListener("load", function() {

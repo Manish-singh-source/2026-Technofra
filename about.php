@@ -13,16 +13,35 @@ gtag('config', 'G-189WWHXLSS');
 </script>
 <!-- MS Clarity -->
 <script type="text/javascript">
-(function(c, l, a, r, i, t, y) {
-    c[a] = c[a] || function() {
-        (c[a].q = c[a].q || []).push(arguments)
-    };
-    t = l.createElement(r);
-    t.async = 1;
-    t.src = "https://www.clarity.ms/tag/" + i;
-    y = l.getElementsByTagName(r)[0];
-    y.parentNode.insertBefore(t, y);
-})(window, document, "clarity", "script", "mxzdn16ndk");
+(function(w, d, tagId) {
+    function loadClarity() {
+        if (w.__clarityLoaded) {
+            return;
+        }
+
+        w.__clarityLoaded = true;
+        w.clarity = w.clarity || function() {
+            (w.clarity.q = w.clarity.q || []).push(arguments);
+        };
+
+        const script = d.createElement("script");
+        script.async = true;
+        script.src = "https://www.clarity.ms/tag/" + tagId;
+        d.head.appendChild(script);
+    }
+
+    w.addEventListener("load", function() {
+        if ("requestIdleCallback" in w) {
+            requestIdleCallback(loadClarity, {
+                timeout: 2500
+            });
+        } else {
+            setTimeout(loadClarity, 1500);
+        }
+    }, {
+        once: true
+    });
+})(window, document, "mxzdn16ndk");
 </script>
 <!--END MS Clarity -->
 <title>About Technofra - Leading Web & Digital Solutions Provider </title>

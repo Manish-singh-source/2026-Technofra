@@ -1,12 +1,23 @@
 <!DOCTYPE html>
 <html lang="en" data-bs-theme="light">
-<head>
+    <head>
+    <?php $deferMainCss = $deferMainCss ?? false; ?>
     <?php $deferCustomCss = $deferCustomCss ?? false; ?>
+    <?php $loadCustomCss = $loadCustomCss ?? true; ?>
+    <?php $loadMagnificCss = $loadMagnificCss ?? true; ?>
+    <?php $loadNiceSelectCss = $loadNiceSelectCss ?? true; ?>
+    <?php $loadSlickCss = $loadSlickCss ?? true; ?>
+    <?php $loadOwlCss = $loadOwlCss ?? true; ?>
+    <?php $loadLegacyThemeCss = $loadLegacyThemeCss ?? true; ?>
     <!--required meta tags-->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
     <link rel="icon" href="assets/image/favicon.png" type="image/png" sizes="16x16">
+    <link rel="preload" href="assets/fonts/fa-solid-900.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="assets/fonts/fa-brands-400.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="assets/fonts/fa-regular-400.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="assets/fonts/flaticon_quiety.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preload" as="style"
@@ -18,30 +29,45 @@
     </noscript>
 
     <!--build:css-->
+    <?php if ($deferMainCss): ?>
+    <link rel="preload" as="style" href="assets/css/main.css" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="assets/css/main.css"></noscript>
+    <?php else: ?>
     <link rel="stylesheet" href="assets/css/main.css">
+    <?php endif; ?>
     <!-- endbuild -->
     <!--custom css start-->
-    <?php if ($deferCustomCss): ?>
+    <?php if ($loadCustomCss && $deferCustomCss): ?>
     <link rel="preload" as="style" href="assets/css/custom.css" onload="this.onload=null;this.rel='stylesheet'">
     <noscript><link rel="stylesheet" href="assets/css/custom.css"></noscript>
-    <?php else: ?>
+    <?php elseif ($loadCustomCss): ?>
     <link rel="stylesheet" href="assets/css/custom.css">
     <?php endif; ?>
     <!--custom css end-->
+    <?php if ($loadMagnificCss): ?>
     <link rel="preload" as="style" href="assets_01/css/magnific-popup.css"
         onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="assets_01/css/magnific-popup.css"></noscript>
+    <?php endif; ?>
+    <?php if ($loadNiceSelectCss): ?>
     <link rel="preload" as="style" href="assets_01/css/nice-select.css"
         onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="assets_01/css/nice-select.css"></noscript>
+    <?php endif; ?>
+    <?php if ($loadSlickCss): ?>
     <link rel="preload" as="style" href="assets_01/css/slick-slider.css"
         onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="assets_01/css/slick-slider.css"></noscript>
+    <?php endif; ?>
+    <?php if ($loadOwlCss): ?>
     <link rel="preload" as="style" href="assets_01/css/owl.carousel.min.css"
         onload="this.onload=null;this.rel='stylesheet'">
-    <noscript><link rel="stylesheet" href="assets_01/css/magnific-popup.css"></noscript>
-    <noscript><link rel="stylesheet" href="assets_01/css/nice-select.css"></noscript>
-    <noscript><link rel="stylesheet" href="assets_01/css/slick-slider.css"></noscript>
     <noscript><link rel="stylesheet" href="assets_01/css/owl.carousel.min.css"></noscript>
+    <?php endif; ?>
+    <?php if ($loadLegacyThemeCss): ?>
     <link rel="preload" as="style" href="assets_01/css/main.css" onload="this.onload=null;this.rel='stylesheet'">
     <noscript><link rel="stylesheet" href="assets_01/css/main.css"></noscript>
+    <?php endif; ?>
 
 
     <script type="application/ld+json">
