@@ -814,26 +814,26 @@ if (navClose && rightMenu) {
  </script>
 
  <!--build:js-->
- <script src="assets/js/vendors/jquery-3.6.0.min.js"></script>
- <script src="assets/js/vendors/bootstrap.bundle.min.js"></script>
- <script src="assets/js/vendors/swiper-bundle.min.js"></script>
- <script src="assets/js/vendors/jquery.magnific-popup.min.js"></script>
- <script src="assets/js/vendors/parallax.min.js"></script>
- <script src="assets/js/vendors/aos.js"></script>
- <script src="assets/js/vendors/massonry.min.js"></script>
- <script src="assets/js/app.js"></script>
+ <script defer src="assets_01/js/jquery-3-7-1.min.js"></script>
+ <script defer src="assets/js/vendors/bootstrap.bundle.min.js"></script>
+ <script defer src="assets/js/vendors/swiper-bundle.min.js"></script>
+ <script defer src="assets/js/vendors/jquery.magnific-popup.min.js"></script>
+ <script defer src="assets/js/vendors/parallax.min.js"></script>
+ <script defer src="assets/js/vendors/aos.js"></script>
+ <script defer src="assets/js/vendors/massonry.min.js"></script>
+ <script defer src="assets/js/app.js"></script>
  <!--endbuild-->
- <script src="assets_01/js/jquery.magnific-popup.js"></script>
- <script src="assets_01/js/owl.carousel.min.js"></script>
- <script src="assets_01/js/slick-slider.js"></script>
- <script src="assets_01/js/gsap.min.js"></script>
- <script src="assets_01/js/ScrollTrigger.min.js"></script>
- <script src="assets_01/js/Splitetext.js"></script>
- <script src="assets_01/js/text-animation.js"></script>
- <script src="assets_01/js/SmoothScroll.js"></script>
- <script src="assets_01/js/jquery.lineProgressbar.js"></script>
- <script src="assets_01/js/ripple-btn.js"></script>
- <script src="assets_01/js/main.js"></script>
+ <script defer src="assets_01/js/jquery.magnific-popup.js"></script>
+ <script defer src="assets_01/js/owl.carousel.min.js"></script>
+ <script defer src="assets_01/js/slick-slider.js"></script>
+ <script defer src="assets_01/js/gsap.min.js"></script>
+ <script defer src="assets_01/js/ScrollTrigger.min.js"></script>
+ <script defer src="assets_01/js/Splitetext.js"></script>
+ <script defer src="assets_01/js/text-animation.js"></script>
+ <script defer src="assets_01/js/SmoothScroll.js"></script>
+ <script defer src="assets_01/js/jquery.lineProgressbar.js"></script>
+ <script defer src="assets_01/js/ripple-btn.js"></script>
+ <script defer src="assets_01/js/main.js"></script>
  </body>
 
 

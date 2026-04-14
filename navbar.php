@@ -1,4 +1,3 @@
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
 .services-mega-menu {
     min-width: min(980px, calc(100vw - 2rem));
@@ -780,20 +779,42 @@
 
 
     <script>
-    if ($('.menu-sidebar').length) {
-        //Show Form
-        $('.menu-sidebar').on('click', function(e) {
-            e.preventDefault();
-            $('body').toggleClass('side-content-visible');
+    (function() {
+        const menuSidebarTriggers = document.querySelectorAll('.menu-sidebar');
+
+        if (!menuSidebarTriggers.length) {
+            return;
+        }
+
+        menuSidebarTriggers.forEach(function(trigger) {
+            trigger.addEventListener('click', function(e) {
+                e.preventDefault();
+                document.body.classList.toggle('side-content-visible');
+            });
         });
-        //Hide Form
-        $('.hidden-bar .inner-box .cross-icon,.form-back-drop,.close-menu').on('click', function(e) {
-            e.preventDefault();
-            $('body').removeClass('side-content-visible');
+
+        document.querySelectorAll('.hidden-bar .inner-box .cross-icon, .form-back-drop, .close-menu').forEach(
+            function(closeTrigger) {
+                closeTrigger.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    document.body.classList.remove('side-content-visible');
+                });
+            }
+        );
+
+        document.querySelectorAll('.fullscreen-menu .navigation li.dropdown > a').forEach(function(link) {
+            link.addEventListener('click', function(e) {
+                const subMenu = this.nextElementSibling;
+
+                if (!subMenu || subMenu.tagName !== 'UL') {
+                    return;
+                }
+
+                e.preventDefault();
+
+                const shouldOpen = subMenu.style.display !== 'block';
+                subMenu.style.display = shouldOpen ? 'block' : 'none';
+            });
         });
-        //Dropdown Menu
-        $('.fullscreen-menu .navigation li.dropdown > a').on('click', function() {
-            $(this).next('ul').slideToggle(500);
-        });
-    }
+    })();
     </script>

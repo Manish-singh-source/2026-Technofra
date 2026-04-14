@@ -521,11 +521,25 @@ gtag('config', 'G-189WWHXLSS');
 
 
 <script>
-$('.cs_hover_active').on('mouseenter', function() {
-    $(this).addClass('active').siblings().removeClass('active');
-}).on('mouseleave', function() {
-    $(this).removeClass('active');
-});
+(function() {
+    const hoverCards = document.querySelectorAll('.cs_hover_active');
+
+    hoverCards.forEach(function(card) {
+        card.addEventListener('mouseenter', function() {
+            hoverCards.forEach(function(item) {
+                if (item !== card) {
+                    item.classList.remove('active');
+                }
+            });
+
+            card.classList.add('active');
+        });
+
+        card.addEventListener('mouseleave', function() {
+            card.classList.remove('active');
+        });
+    });
+})();
 </script>
 
 

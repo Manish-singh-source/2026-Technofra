@@ -6,12 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
     <link rel="icon" href="assets/image/favicon.png" type="image/png" sizes="16x16">
-    <link
-        href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700;9..40,800&amp;display=swap"
-        rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;display=swap"
-        rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Lily+Script+One&amp;display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preload" as="style"
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700;9..40,800&amp;family=Lily+Script+One&amp;family=Open+Sans:wght@400;500;600;700&amp;family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;family=Poppins:wght@400;500;600;700;800&amp;display=swap"
+        onload="this.onload=null;this.rel='stylesheet'">
+    <noscript>
+        <link rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700;9..40,800&amp;family=Lily+Script+One&amp;family=Open+Sans:wght@400;500;600;700&amp;family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;family=Poppins:wght@400;500;600;700;800&amp;display=swap">
+    </noscript>
 
     <!--build:css-->
     <link rel="stylesheet" href="assets/css/main.css">
@@ -19,14 +22,19 @@
     <!--custom css start-->
     <link rel="stylesheet" href="assets/css/custom.css">
     <!--custom css end-->
-    <link rel="stylesheet" href="assets_01/css/fontawesome.css">
-    <link rel="stylesheet" href="assets_01/css/magnific-popup.css">
-    <link rel="stylesheet" href="assets_01/css/nice-select.css">
-    <link rel="stylesheet" href="assets_01/css/slick-slider.css">
-    <link rel="stylesheet" href="assets_01/css/owl.carousel.min.css">
+    <link rel="preload" as="style" href="assets_01/css/magnific-popup.css"
+        onload="this.onload=null;this.rel='stylesheet'">
+    <link rel="preload" as="style" href="assets_01/css/nice-select.css"
+        onload="this.onload=null;this.rel='stylesheet'">
+    <link rel="preload" as="style" href="assets_01/css/slick-slider.css"
+        onload="this.onload=null;this.rel='stylesheet'">
+    <link rel="preload" as="style" href="assets_01/css/owl.carousel.min.css"
+        onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="assets_01/css/magnific-popup.css"></noscript>
+    <noscript><link rel="stylesheet" href="assets_01/css/nice-select.css"></noscript>
+    <noscript><link rel="stylesheet" href="assets_01/css/slick-slider.css"></noscript>
+    <noscript><link rel="stylesheet" href="assets_01/css/owl.carousel.min.css"></noscript>
     <link rel="stylesheet" href="assets_01/css/main.css">
-    <!--=====JQUERY=======-->
-    <script src="assets_01/js/jquery-3-7-1.min.js"></script>
 
 
     <script type="application/ld+json">
