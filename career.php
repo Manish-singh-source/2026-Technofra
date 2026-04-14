@@ -1,15 +1,83 @@
 <?php include 'header.php'; ?>
 <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-189WWHXLSS"></script>
 <script>
-window.dataLayer = window.dataLayer || [];
+(function(w, d, ids) {
+    w.__techGtagIds = w.__techGtagIds || [];
 
-function gtag() {
-    dataLayer.push(arguments);
-}
-gtag('js', new Date());
+    ids.forEach(function(id) {
+        if (w.__techGtagIds.indexOf(id) === -1) {
+            w.__techGtagIds.push(id);
+        }
+    });
 
-gtag('config', 'G-189WWHXLSS');
+    function ensureConfigs() {
+        w.dataLayer = w.dataLayer || [];
+        w.gtag = w.gtag || function() {
+            w.dataLayer.push(arguments);
+        };
+
+        if (!w.__techGtagBootstrapped) {
+            w.__techGtagBootstrapped = true;
+            w.gtag('js', new Date());
+        }
+
+        w.__techGtagConfigured = w.__techGtagConfigured || {};
+        w.__techGtagIds.forEach(function(id) {
+            if (!w.__techGtagConfigured[id]) {
+                w.gtag('config', id);
+                w.__techGtagConfigured[id] = true;
+            }
+        });
+    }
+
+    function loadGtag() {
+        ensureConfigs();
+
+        if (w.__techGtagScriptLoading || w.__techGtagScriptLoaded) {
+            return;
+        }
+
+        w.__techGtagScriptLoading = true;
+
+        const script = d.createElement('script');
+        script.async = true;
+        script.src = 'https://www.googletagmanager.com/gtag/js?id=' + encodeURIComponent(w.__techGtagIds[0]);
+        script.onload = function() {
+            w.__techGtagScriptLoading = false;
+            w.__techGtagScriptLoaded = true;
+            ensureConfigs();
+        };
+        script.onerror = function() {
+            w.__techGtagScriptLoading = false;
+        };
+        d.head.appendChild(script);
+    }
+
+    function scheduleGtagLoad() {
+        if ('requestIdleCallback' in w) {
+            requestIdleCallback(loadGtag, {
+                timeout: 3500
+            });
+        } else {
+            setTimeout(loadGtag, 1800);
+        }
+    }
+
+    w.addEventListener('load', scheduleGtagLoad, {
+        once: true
+    });
+
+    d.addEventListener('pointerdown', loadGtag, {
+        once: true,
+        passive: true,
+        capture: true
+    });
+
+    d.addEventListener('focusin', loadGtag, {
+        once: true,
+        capture: true
+    });
+})(window, document, ['G-189WWHXLSS']);
 </script>
 <!-- MS Clarity -->
 <script type="text/javascript">

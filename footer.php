@@ -325,16 +325,6 @@
         d.head.appendChild(script);
     }
 
-    function scheduleRecaptchaLoad() {
-        if ('requestIdleCallback' in w) {
-            requestIdleCallback(loadRecaptcha, {
-                timeout: 4000
-            });
-        } else {
-            setTimeout(loadRecaptcha, 2500);
-        }
-    }
-
     if ('IntersectionObserver' in w) {
         const observer = new IntersectionObserver((entries) => {
             entries.forEach((entry) => {
@@ -367,9 +357,6 @@
         passive: true
     });
 
-    w.addEventListener('load', scheduleRecaptchaLoad, {
-        once: true
-    });
 })(window, document);
  </script>
 
@@ -388,68 +375,144 @@ window.addEventListener("load", function() {
 
     originalCards.forEach(card => track.appendChild(card.cloneNode(true)));
     originalCards.forEach(card => track.appendChild(card.cloneNode(true)));
+    track.style.willChange = "transform";
 
-    const allCards = track.children;
-    const cardWidth = allCards[0].offsetWidth + gap;
+    requestAnimationFrame(() => {
+        const allCards = track.children;
+        const firstCard = allCards[0];
 
-    let position = originalCount;
-    let lastIndex = -1;
-
-    const speed = 0.006;
-    const changeStartPoint = 0.18;
-
-    track.style.transform = `translateX(-${position * cardWidth}px)`;
-
-    const firstImg = originalCards[0].querySelector("img");
-    if (firstImg) {
-        phoneBg.src = firstImg.src;
-    }
-
-    function animateSlider() {
-        position += speed;
-
-        if (position >= originalCount * 2) {
-            position = originalCount;
+        if (!firstCard) {
+            return;
         }
+
+        const cardWidth = firstCard.getBoundingClientRect().width + gap;
+        let position = originalCount;
+        let lastIndex = -1;
+
+        const speed = 0.006;
+        const changeStartPoint = 0.18;
 
         track.style.transform = `translateX(-${position * cardWidth}px)`;
 
-        const integerPart = Math.floor(position);
-        const decimalPart = position - integerPart;
-
-        let activeIndex;
-        if (decimalPart >= changeStartPoint) {
-            activeIndex = (integerPart + 1) % originalCount;
-        } else {
-            activeIndex = integerPart % originalCount;
+        const firstImg = originalCards[0].querySelector("img");
+        if (firstImg) {
+            phoneBg.src = firstImg.src;
         }
 
-        if (activeIndex !== lastIndex) {
-            const activeImg = originalCards[activeIndex].querySelector("img");
-            if (activeImg) {
-                phoneBg.src = activeImg.src;
+        function animateSlider() {
+            position += speed;
+
+            if (position >= originalCount * 2) {
+                position = originalCount;
             }
-            lastIndex = activeIndex;
+
+            track.style.transform = `translateX(-${position * cardWidth}px)`;
+
+            const integerPart = Math.floor(position);
+            const decimalPart = position - integerPart;
+
+            let activeIndex;
+            if (decimalPart >= changeStartPoint) {
+                activeIndex = (integerPart + 1) % originalCount;
+            } else {
+                activeIndex = integerPart % originalCount;
+            }
+
+            if (activeIndex !== lastIndex) {
+                const activeImg = originalCards[activeIndex].querySelector("img");
+                if (activeImg) {
+                    phoneBg.src = activeImg.src;
+                }
+                lastIndex = activeIndex;
+            }
+
+            requestAnimationFrame(animateSlider);
         }
 
-        requestAnimationFrame(animateSlider);
-    }
-
-    animateSlider();
+        animateSlider();
+    });
 });
  </script>
 
  <!-- Google tag (gtag.js) -->
- <script async src="https://www.googletagmanager.com/gtag/js?id=G-7DCEZBZGJN"></script>
  <script>
-window.dataLayer = window.dataLayer || [];
+(function(w, d, ids) {
+    w.__techGtagIds = w.__techGtagIds || [];
 
-function gtag() {
-    dataLayer.push(arguments);
-}
-gtag('js', new Date());
+    ids.forEach(function(id) {
+        if (w.__techGtagIds.indexOf(id) === -1) {
+            w.__techGtagIds.push(id);
+        }
+    });
 
-gtag('config', 'G-7DCEZBZGJN');
+    function ensureConfigs() {
+        w.dataLayer = w.dataLayer || [];
+        w.gtag = w.gtag || function() {
+            w.dataLayer.push(arguments);
+        };
+
+        if (!w.__techGtagBootstrapped) {
+            w.__techGtagBootstrapped = true;
+            w.gtag('js', new Date());
+        }
+
+        w.__techGtagConfigured = w.__techGtagConfigured || {};
+        w.__techGtagIds.forEach(function(id) {
+            if (!w.__techGtagConfigured[id]) {
+                w.gtag('config', id);
+                w.__techGtagConfigured[id] = true;
+            }
+        });
+    }
+
+    function loadGtag() {
+        ensureConfigs();
+
+        if (w.__techGtagScriptLoading || w.__techGtagScriptLoaded) {
+            return;
+        }
+
+        w.__techGtagScriptLoading = true;
+
+        const script = d.createElement('script');
+        script.async = true;
+        script.src = 'https://www.googletagmanager.com/gtag/js?id=' + encodeURIComponent(w.__techGtagIds[0]);
+        script.onload = function() {
+            w.__techGtagScriptLoading = false;
+            w.__techGtagScriptLoaded = true;
+            ensureConfigs();
+        };
+        script.onerror = function() {
+            w.__techGtagScriptLoading = false;
+        };
+        d.head.appendChild(script);
+    }
+
+    function scheduleGtagLoad() {
+        if ('requestIdleCallback' in w) {
+            requestIdleCallback(loadGtag, {
+                timeout: 3500
+            });
+        } else {
+            setTimeout(loadGtag, 1800);
+        }
+    }
+
+    w.addEventListener('load', scheduleGtagLoad, {
+        once: true
+    });
+
+    d.addEventListener('pointerdown', loadGtag, {
+        once: true,
+        passive: true,
+        capture: true
+    });
+
+    d.addEventListener('focusin', loadGtag, {
+        once: true,
+        capture: true
+    });
+})(window, document, ['G-7DCEZBZGJN']);
  </script>
 
  <script>
