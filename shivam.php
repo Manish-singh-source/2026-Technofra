@@ -55,7 +55,7 @@
 
 <section class=" pb-60">
     <div class="cover-image">
-        <img src="assets/image/casestudy/shivam/banner.png" alt="Shivam Industries" data-aos="fade" data-aos-anchor-placement="top-bottom">
+        <img src="assets/image/casestudy/shivam/banner.webp" alt="Shivam Industries" data-aos="fade" data-aos-anchor-placement="top-bottom">
     </div>
 </section>
 
@@ -76,7 +76,7 @@
             </div>
         </div>
         <div class="col-lg-12 col-md-12">
-            <img src="assets/image/casestudy/shivam/about.png" alt="Texon Corporation" class="dp-r-10" data-aos="fade"
+            <img src="assets/image/casestudy/shivam/about.webp" alt="Texon Corporation" class="dp-r-10" data-aos="fade"
                 data-aos-anchor-placement="top-bottom">
         </div>
     </div>
@@ -96,7 +96,7 @@
         </div>
         <div class="row">
             <div class="col-lg-12 col-md-12">
-                <img src="assets/image/casestudy/shivam/resp.png" alt="Iodine Chemistry" class="dp-r-10"
+                <img src="assets/image/casestudy/shivam/resp.webp" alt="Iodine Chemistry" class="dp-r-10"
                     data-aos="fade" data-aos-anchor-placement="top-bottom">
             </div>
         </div>
@@ -116,22 +116,22 @@
                 </div>
             </div>
             <div class="col-lg-4 col-md-4">
-                <img src="assets/image/casestudy/shivam/b1.png" alt="Shivam case study" class="dp-r-10 mb-20 sbox" data-aos="fade-up" data-aos-duration="3000">
+                <img src="assets/image/casestudy/shivam/b1.webp" alt="Shivam case study" class="dp-r-10 mb-20 sbox" data-aos="fade-up" data-aos-duration="3000">
             </div>
             <div class="col-lg-4 col-md-4">
-                <img src="assets/image/casestudy/shivam/b2.png" alt="Shivam case study" class="dp-r-10 mb-20 sbox" data-aos="fade-up" data-aos-duration="3000">
+                <img src="assets/image/casestudy/shivam/b2.webp" alt="Shivam case study" class="dp-r-10 mb-20 sbox" data-aos="fade-up" data-aos-duration="3000">
             </div>
             <div class="col-lg-4 col-md-4">
-                <img src="assets/image//casestudy/shivam/b3.png" alt="Shivam case study" class="dp-r-10 mb-20 sbox" data-aos="fade-up" data-aos-duration="3000">
+                <img src="assets/image//casestudy/shivam/b3.webp" alt="Shivam case study" class="dp-r-10 mb-20 sbox" data-aos="fade-up" data-aos-duration="3000">
             </div>
             <div class="col-lg-4 col-md-4">
-                <img src="assets/image//casestudy/shivam/b4.png" alt="Shivam case study" class="dp-r-10 mb-20 sbox" data-aos="fade-up" data-aos-duration="3000">
+                <img src="assets/image//casestudy/shivam/b4.webp" alt="Shivam case study" class="dp-r-10 mb-20 sbox" data-aos="fade-up" data-aos-duration="3000">
             </div>
             <div class="col-lg-4 col-md-4">
-                <img src="assets/image//casestudy/shivam/b5.png" alt="Shivam case study" class="dp-r-10 mb-20 sbox" data-aos="fade-up" data-aos-duration="3000">
+                <img src="assets/image//casestudy/shivam/b5.webp" alt="Shivam case study" class="dp-r-10 mb-20 sbox" data-aos="fade-up" data-aos-duration="3000">
             </div>
             <div class="col-lg-4 col-md-4">
-                <img src="assets/image//casestudy/shivam/b6.png" alt="Shivam case study" class="dp-r-10 mb-20 sbox" data-aos="fade-up" data-aos-duration="3000">
+                <img src="assets/image//casestudy/shivam/b6.webp" alt="Shivam case study" class="dp-r-10 mb-20 sbox" data-aos="fade-up" data-aos-duration="3000">
             </div>
 
         </div>
@@ -152,7 +152,7 @@
         </div>
         <div class="row align-items-center">
             <div class="col-lg-12 col-md-12">
-                <img src="assets/image/casestudy/shivam/shiv.png" alt="Sustainability" class="dp-r-10"
+                <img src="assets/image/casestudy/shivam/shiv.webp" alt="Sustainability" class="dp-r-10"
                     data-aos="fade" data-aos-anchor-placement="top-bottom">
             </div>
         </div>

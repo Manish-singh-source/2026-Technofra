@@ -976,7 +976,7 @@
                                 <strong>Audience-first content</strong>
                                 <span>Execution focused on brand tone, search opportunity, and lead quality.</span>
                             </div>
-                            <img src="assets/image/digitalmarketing/social-media.png" alt="content distribution" class="img-fluid" style="max-width: 58px;">
+                            <img src="assets/image/digitalmarketing/social-media.webp" alt="content distribution" class="img-fluid" style="max-width: 58px;">
                         </div>
                     </div>
                 </div>
@@ -1004,7 +1004,7 @@
             </div>
             <div class="col-lg-6">
                 <div class="cm-insight-panel">
-                    <img class="img-fluid" src="assets/image/digitalmarketing/about-content.png" alt="Content marketing strategy illustration">
+                    <img class="img-fluid" src="assets/image/digitalmarketing/about-content.webp" alt="Content marketing strategy illustration">
                     <div class="cm-insight-points">
                         <div class="cm-insight-point">
                             <i class="fa-solid fa-user-group"></i>
@@ -1285,7 +1285,7 @@
         <div class="row align-items-center gy-4">
             <div class="col-lg-6">
                 <div class="cm-why-media">
-                    <img src="assets/image/digitalmarketing/content-wy.png" alt="Content marketing specialists" class="img-fluid">
+                    <img src="assets/image/digitalmarketing/content-wy.webp" alt="Content marketing specialists" class="img-fluid">
                     <div class="cm-why-float">
                         <strong class="text-white">Content with intent</strong>
                         <span>Every asset is mapped to audience needs, search opportunities, and business goals.</span>

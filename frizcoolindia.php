@@ -52,7 +52,7 @@ gtag('config', 'G-189WWHXLSS');
 
 <section class="pb-60">
     <div class="cover-image">
-        <img src="assets/image/casestudy/Frizschool/banner.png" alt="I-Friz Cool (I) PVT. LTD." data-aos="fade"
+        <img src="assets/image/casestudy/Frizschool/banner.webp" alt="I-Friz Cool (I) PVT. LTD." data-aos="fade"
             data-aos-anchor-placement="top-bottom">
     </div>
 </section>
@@ -76,7 +76,7 @@ gtag('config', 'G-189WWHXLSS');
         </div>
         <div class="row pt-30">
             <div class="col-lg-12 col-md-12">
-                <img src="assets/image/casestudy/Frizschool/about.png" alt="Iodine Chemistry" class="dp-r-10"
+                <img src="assets/image/casestudy/Frizschool/about.webp" alt="Iodine Chemistry" class="dp-r-10"
                     data-aos="fade" data-aos-anchor-placement="top-bottom">
             </div>
         </div>
@@ -98,7 +98,7 @@ gtag('config', 'G-189WWHXLSS');
                 </div>
             </div>
             <div class="col-lg-12 col-md-12">
-                <img src="assets/image/casestudy/Frizschool/new.png" alt="Frizcool India case study" class="dp-r-10 mb-20 sbox"
+                <img src="assets/image/casestudy/Frizschool/new.webp" alt="Frizcool India case study" class="dp-r-10 mb-20 sbox"
                     data-aos="fade-up" data-aos-duration="3000">
             </div>
 
@@ -129,7 +129,7 @@ gtag('config', 'G-189WWHXLSS');
             </div>
         </div>
         <div class="col-lg-12 col-md-12">
-            <img src="assets/image/casestudy/Frizschool/logo.png" alt="Texon Corporation" class="dp-r-10"
+            <img src="assets/image/casestudy/Frizschool/logo.webp" alt="Texon Corporation" class="dp-r-10"
                 data-aos="fade" data-aos-anchor-placement="top-bottom">
         </div>
     </div>
@@ -157,7 +157,7 @@ gtag('config', 'G-189WWHXLSS');
         </div>
         <div class="row align-items-center">
             <div class="col-lg-12 col-md-12">
-                <img src="assets/image/casestudy/Frizschool/last.png" alt="Sustainability" class="dp-r-10"
+                <img src="assets/image/casestudy/Frizschool/last.webp" alt="Sustainability" class="dp-r-10"
                     data-aos="fade" data-aos-anchor-placement="top-bottom">
             </div>
         </div>

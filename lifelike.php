@@ -50,7 +50,7 @@ gtag('config', 'G-189WWHXLSS');
 
 <section class="pb-60">
     <div class="cover-image">
-        <img src="assets/image/casestudy/lifelike/lifelike1.png" alt="Life Like Studio">
+        <img src="assets/image/casestudy/lifelike/lifelike1.webp" alt="Life Like Studio">
     </div>
 </section>
 
@@ -72,15 +72,15 @@ gtag('config', 'G-189WWHXLSS');
         </div>
         <div class="row align-items-center">
             <div class="col-lg-12 col-md-4">
-                <img src="assets/image/casestudy/lifelike/lifelike2.png" alt="Design Sketch" class="dp-r-10"
+                <img src="assets/image/casestudy/lifelike/lifelike2.webp" alt="Design Sketch" class="dp-r-10"
                     data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
             </div>
             <!-- <div class="col-lg-4 col-md-4">
-                <img src="assets/image/casestudy/lifelike/lifelike3.png" alt="Before / After" class="dp-r-10"
+                <img src="assets/image/casestudy/lifelike/lifelike3.webp" alt="Before / After" class="dp-r-10"
                     data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-offset="0">
             </div>
             <div class="col-lg-4 col-md-4">
-                <img src="assets/image/casestudy/lifelike/lifelike4.png" alt="Finished Space" class="dp-r-10"
+                <img src="assets/image/casestudy/lifelike/lifelike4.webp" alt="Finished Space" class="dp-r-10"
                     data-aos="fade-left" data-aos-offset="500" data-aos-duration="500">
             </div> -->
         </div>
@@ -91,7 +91,7 @@ gtag('config', 'G-189WWHXLSS');
     <div class="container">
         <div class="row justify-content-between align-items-center">
             <div class="col-lg-6 col-md-6">
-                <img src="assets/image/casestudy/lifelike/lifelike3.png" alt="Design Philosophy" class="dp-r-10"
+                <img src="assets/image/casestudy/lifelike/lifelike3.webp" alt="Design Philosophy" class="dp-r-10"
                     data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
             </div>
             <div class="col-lg-5 col-md-5 mob-pt-20">
@@ -126,7 +126,7 @@ gtag('config', 'G-189WWHXLSS');
                 </div>
             </div>
             <div class="col-lg-6 col-md-6">
-                <img src="assets/image/casestudy/lifelike/lifelike4.png" alt="Natural Materials" class="dp-r-10"
+                <img src="assets/image/casestudy/lifelike/lifelike4.webp" alt="Natural Materials" class="dp-r-10"
                     data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
             </div>
         </div>
@@ -147,7 +147,7 @@ gtag('config', 'G-189WWHXLSS');
                 </div>
             </div>
             <div class="col-lg-12 col-md-12">
-                <img src="assets/image/casestudy/lifelike/lifelike5.png" alt="On-site Execution" class="dp-r-10"
+                <img src="assets/image/casestudy/lifelike/lifelike5.webp" alt="On-site Execution" class="dp-r-10"
                     data-aos="fade-up" data-aos-anchor-placement="top-bottom">
             </div>
         </div>
@@ -158,7 +158,7 @@ gtag('config', 'G-189WWHXLSS');
     <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-12 col-md-12">
-                <img src="assets/image/casestudy/lifelike/lifelike6.png" alt="Portfolio Showcase" class="dp-r-10"
+                <img src="assets/image/casestudy/lifelike/lifelike6.webp" alt="Portfolio Showcase" class="dp-r-10"
                     data-aos="fade-up" data-aos-anchor-placement="top-bottom">
             </div>
         </div>

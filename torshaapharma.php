@@ -56,7 +56,7 @@ gtag('config', 'G-189WWHXLSS');
 
 <section class=" pb-60">
     <div class="cover-image">
-        <img src="assets/image/casestudy/torshaa/torshaa1.png" alt="Torshaa Pharma">
+        <img src="assets/image/casestudy/torshaa/torshaa1.webp" alt="Torshaa Pharma">
     </div>
 </section>
 
@@ -78,7 +78,7 @@ gtag('config', 'G-189WWHXLSS');
                 </div>
             </div>
             <div class="col-lg-6 col-md-6">
-                <img src="assets/image/casestudy/torshaa/torshaa2.png" alt="About Torshaa Pharma" class="dp-r-10 sbox"
+                <img src="assets/image/casestudy/torshaa/torshaa2.webp" alt="About Torshaa Pharma" class="dp-r-10 sbox"
                     data-aos="fade-left" data-aos-duration="500">
             </div>
         </div>
@@ -89,7 +89,7 @@ gtag('config', 'G-189WWHXLSS');
     <div class="container">
         <div class="row justify-content-between align-items-center">
             <div class="col-lg-6 col-md-6">
-                <img src="assets/image/casestudy/torshaa/torshaa3.png" alt="Manufacturing Partners"
+                <img src="assets/image/casestudy/torshaa/torshaa3.webp" alt="Manufacturing Partners"
                     class="dp-r-10 sbox">
             </div>
             <div class="col-lg-5 col-md-5 mob-pt-20">
@@ -125,7 +125,7 @@ gtag('config', 'G-189WWHXLSS');
         </div>
         <div class="row justify-content-between align-items-center">
             <div class="col-lg-12 col-md-12">
-                <img src="assets/image/casestudy/torshaa/torshaa5.png" alt="APIs & Intermediates" class="dp-r-10"
+                <img src="assets/image/casestudy/torshaa/torshaa5.webp" alt="APIs & Intermediates" class="dp-r-10"
                     data-aos="fade-up">
             </div>
         </div>
@@ -146,7 +146,7 @@ gtag('config', 'G-189WWHXLSS');
                 </div>
             </div>
             <div class="col-lg-6 col-md-6">
-                <img src="assets/image/casestudy/torshaa/torshaa4.png" alt="Regulatory Services" class="dp-r-10"
+                <img src="assets/image/casestudy/torshaa/torshaa4.webp" alt="Regulatory Services" class="dp-r-10"
                     data-aos="fade-right" data-aos-duration="500">
             </div>
         </div>
@@ -170,7 +170,7 @@ gtag('config', 'G-189WWHXLSS');
         </div>
         <div class="row justify-content-between align-items-center">
             <div class="col-lg-12 col-md-12">
-                <img src="assets/image/casestudy/torshaa/torshaa6.png" alt="Mission" class="dp-r-10 sbox"
+                <img src="assets/image/casestudy/torshaa/torshaa6.webp" alt="Mission" class="dp-r-10 sbox"
                     data-aos="fade-up">
             </div>
         </div>
@@ -181,13 +181,13 @@ gtag('config', 'G-189WWHXLSS');
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-lg-4">
-                <img src="assets/image/casestudy/torshaa/torshaa7.png" alt="Team" class="dp-r-10" data-aos="fade-up">
+                <img src="assets/image/casestudy/torshaa/torshaa7.webp" alt="Team" class="dp-r-10" data-aos="fade-up">
             </div>
             <div class="col-lg-4">
-                <img src="assets/image/casestudy/torshaa/torshaa8.png" alt="Team" class="dp-r-10" data-aos="fade-up">
+                <img src="assets/image/casestudy/torshaa/torshaa8.webp" alt="Team" class="dp-r-10" data-aos="fade-up">
             </div>
             <div class="col-lg-4">
-                <img src="assets/image/casestudy/torshaa/torshaa9.png" alt="Team" class="dp-r-10" data-aos="fade-up">
+                <img src="assets/image/casestudy/torshaa/torshaa9.webp" alt="Team" class="dp-r-10" data-aos="fade-up">
             </div>
         </div>
     </div>

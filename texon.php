@@ -55,7 +55,7 @@ gtag('config', 'G-189WWHXLSS');
 
 <section class=" pb-60">
     <div class="cover-image">
-        <img src="assets/image/casestudy/texon/banner1.png" alt="Texon Corporation" data-aos="fade"
+        <img src="assets/image/casestudy/texon/banner1.webp" alt="Texon Corporation" data-aos="fade"
             data-aos-anchor-placement="top-bottom">
     </div>
 </section>
@@ -80,7 +80,7 @@ gtag('config', 'G-189WWHXLSS');
             </div>
         </div>
         <div class="col-lg-12 col-md-12">
-            <img src="assets/image/casestudy/texon/about.png" alt="Texon Corporation" class="dp-r-10" data-aos="fade"
+            <img src="assets/image/casestudy/texon/about.webp" alt="Texon Corporation" class="dp-r-10" data-aos="fade"
                 data-aos-anchor-placement="top-bottom">
         </div>
     </div>
@@ -100,7 +100,7 @@ gtag('config', 'G-189WWHXLSS');
         </div>
         <div class="row">
             <div class="col-lg-12 col-md-12">
-                <img src="assets/image/casestudy/texon/sec1.png" alt="Iodine Chemistry" class="dp-r-10" data-aos="fade"
+                <img src="assets/image/casestudy/texon/sec1.webp" alt="Iodine Chemistry" class="dp-r-10" data-aos="fade"
                     data-aos-anchor-placement="top-bottom">
             </div>
         </div>
@@ -133,15 +133,15 @@ gtag('config', 'G-189WWHXLSS');
                     </div>
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <img src="assets/image/casestudy/texon/admin.png" class="d-block w-100 dp-r-12"
+                            <img src="assets/image/casestudy/texon/admin.webp" class="d-block w-100 dp-r-12"
                                 alt="Texon admin dashboard" data-aos="fade" data-aos-anchor-placement="top-bottom">
                         </div>
                         <div class="carousel-item">
-                            <img src="assets/image/casestudy/texon/admin1.png" class="d-block w-100 dp-r-12"
+                            <img src="assets/image/casestudy/texon/admin1.webp" class="d-block w-100 dp-r-12"
                                 alt="Texon analytics dashboard" data-aos="fade" data-aos-anchor-placement="top-bottom">
                         </div>
                         <div class="carousel-item">
-                            <img src="assets/image/casestudy/texon/admi2.png" class="d-block w-100 dp-r-12"
+                            <img src="assets/image/casestudy/texon/admi2.webp" class="d-block w-100 dp-r-12"
                                 alt="Texon reporting dashboard" data-aos="fade" data-aos-anchor-placement="top-bottom">
                         </div>
                     </div>
@@ -166,7 +166,7 @@ gtag('config', 'G-189WWHXLSS');
         </div>
         <div class="row align-items-center">
             <div class="col-lg-12 col-md-12">
-                <img src="assets/image/casestudy/texon/res.png" alt="Sustainability" class="dp-r-10" data-aos="fade"
+                <img src="assets/image/casestudy/texon/res.webp" alt="Sustainability" class="dp-r-10" data-aos="fade"
                     data-aos-anchor-placement="top-bottom">
             </div>
         </div>

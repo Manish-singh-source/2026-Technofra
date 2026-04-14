@@ -579,7 +579,7 @@
             <div class="col-lg-5 col-xl-5">
                 <div class="ppc-hero-panel">
                     <div class="ppc-hero-graphic">
-                        <img src="assets/image/digitalmarketing/ppc-banner.png" alt="PPC advertising banner" class="img-fluid">
+                        <img src="assets/image/digitalmarketing/ppc-banner.webp" alt="PPC advertising banner" class="img-fluid">
                     </div>
                     <div class="ppc-hero-summary">
                         <div class="ppc-hero-summary-item">
@@ -649,7 +649,7 @@
             </div>
             <div class="col-lg-6">
                 <div class="text-center">
-                    <img class="img-fluid rounded-3" src="assets/image/digitalmarketing/about-ppc.png" alt="PPC strategy illustration">
+                    <img class="img-fluid rounded-3" src="assets/image/digitalmarketing/about-ppc.webp" alt="PPC strategy illustration">
                 </div>
             </div>
         </div>
@@ -712,42 +712,42 @@
         <div class="row g-4">
             <div class="col-lg-4 col-md-6">
                 <div class="ppc-highlight-card">
-                    <img src="assets/image/digitalmarketing/ppc1.png" alt="Google Search Ads" class="img-fluid rounded-3 mb-20">
+                    <img src="assets/image/digitalmarketing/ppc1.webp" alt="Google Search Ads" class="img-fluid rounded-3 mb-20">
                     <h4 class="mb-15">Google Search Ads</h4>
                     <p class="mb-0">We build high-intent search campaigns using keyword targeting, compelling ad copy, ad extensions, and smart bidding strategies to capture users already looking for your services.</p>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6">
                 <div class="ppc-highlight-card">
-                    <img src="assets/image/digitalmarketing/ppc2.png" alt="Display and Remarketing Ads" class="img-fluid rounded-3 mb-20">
+                    <img src="assets/image/digitalmarketing/ppc2.webp" alt="Display and Remarketing Ads" class="img-fluid rounded-3 mb-20">
                     <h4 class="mb-15">Display and Remarketing Ads</h4>
                     <p class="mb-0">Stay visible across the web with banner ads and remarketing campaigns that reconnect with previous visitors and move them back into your sales funnel.</p>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6">
                 <div class="ppc-highlight-card">
-                    <img src="assets/image/digitalmarketing/ppc3.png" alt="Meta Ads Management" class="img-fluid rounded-3 mb-20">
+                    <img src="assets/image/digitalmarketing/ppc3.webp" alt="Meta Ads Management" class="img-fluid rounded-3 mb-20">
                     <h4 class="mb-15">Meta Ads Management</h4>
                     <p class="mb-0">We run Facebook and Instagram ad campaigns for lead generation, ecommerce sales, awareness, and retargeting with creative testing and audience refinement.</p>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6">
                 <div class="ppc-highlight-card">
-                    <img src="assets/image/digitalmarketing/ppc4.png" alt="Shopping Ads" class="img-fluid rounded-3 mb-20">
+                    <img src="assets/image/digitalmarketing/ppc4.webp" alt="Shopping Ads" class="img-fluid rounded-3 mb-20">
                     <h4 class="mb-15">Shopping and Ecommerce Ads</h4>
                     <p class="mb-0">For product-based businesses, we manage shopping feeds, product ads, campaign structure, and bidding to improve visibility and online sales performance.</p>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6">
                 <div class="ppc-highlight-card">
-                    <img src="assets/image/digitalmarketing/ppc5.png" alt="Landing Page Optimization" class="img-fluid rounded-3 mb-20">
+                    <img src="assets/image/digitalmarketing/ppc5.webp" alt="Landing Page Optimization" class="img-fluid rounded-3 mb-20">
                     <h4 class="mb-15">Landing Page Optimization</h4>
                     <p class="mb-0">Clicks only matter when they convert. We improve landing page messaging, form experience, CTA placement, and alignment between ads and page intent.</p>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6">
                 <div class="ppc-highlight-card">
-                    <img src="assets/image/digitalmarketing/ppc6.png" alt="Conversion Tracking and Reporting" class="img-fluid rounded-3 mb-20">
+                    <img src="assets/image/digitalmarketing/ppc6.webp" alt="Conversion Tracking and Reporting" class="img-fluid rounded-3 mb-20">
                     <h4 class="mb-15">Conversion Tracking and Reporting</h4>
                     <p class="mb-0">We set up tracking for calls, form submissions, purchases, and key actions so your campaign decisions are based on actual performance data.</p>
                 </div>
@@ -877,7 +877,7 @@
         <div class="row align-items-center">
             <div class="col-lg-6">
                 <div class="text-center text-lg-start mb-4 mb-lg-0">
-                    <img src="assets/image/digitalmarketing/why-ppc.png" alt="PPC specialists" class="img-fluid rounded-3">
+                    <img src="assets/image/digitalmarketing/why-ppc.webp" alt="PPC specialists" class="img-fluid rounded-3">
                 </div>
             </div>
             <div class="col-lg-6">
@@ -903,7 +903,7 @@
                     </div>
                     <div class="col-md-6">
                         <div class="ppc-why-card">
-                            <img src="assets/image/digitalmarketing/digital-marketing.jpg" alt="PPC reporting and optimization" class="img-fluid">
+                            <img src="assets/image/digitalmarketing/digital-marketing.webp" alt="PPC reporting and optimization" class="img-fluid">
                             <div class="crypto-team-info pt-4 pb-1">
                                 <h4 class="text-white h5 fz-16">Clear reports with optimization focus</h4>
                                 <p class="text-white-50 mb-0">Performance updates tied to click quality, conversion actions, budget use, and next-step improvements.</p>

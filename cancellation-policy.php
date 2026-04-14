@@ -23,7 +23,7 @@
 </style>
 <?php include 'navbar.php'; ?>
 <section class="cyber-store-product">
-    <div class="store-bg-header" style="background: url('assets/image/bedcrum.png')no-repeat center center">
+    <div class="store-bg-header" style="background: url('assets/image/bedcrum.webp')no-repeat center center">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-md-8 col-lg-6">

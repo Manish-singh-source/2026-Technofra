@@ -96,12 +96,12 @@ gtag('config', 'G-189WWHXLSS');
                 <div class="section-heading mb-5 " data-aos="zoom-in-left">
                     <h2>Download Application</h2>
                     <p>
-                        Aeritx provides two smart mobile applications—a Shopping App and a Delivery App—available for
+                        Aeritx provides two smart mobile applicationsï¿½a Shopping App and a Delivery Appï¿½available for
                         both Android and iOS. The Shopping App lets users easily browse and place orders, while the
                         Delivery App helps manage deliveries with real-time tracking and route updates, offering a
                         complete solution for seamless shopping and delivery.
                     </p>
-                    <p>Download now – click the buttons below to get started! </p>
+                    <p>Download now ï¿½ click the buttons below to get started! </p>
                 </div>
                 <a href="https://aeritx.com/" target="blank" class=" btn btn-outline-info mt-20"> <i
                         class="fab fa-google-play" style="font-size:24px;"></i> &nbsp;&nbsp;Download <br> &nbsp; &nbsp;
@@ -110,7 +110,7 @@ gtag('config', 'G-189WWHXLSS');
                         style="font-size:25px;"></i>&nbsp;&nbsp; Download <br> &nbsp; &nbsp;&nbsp;&nbsp;App Store</a>
             </div>
             <div class="col-lg-7 col-md-12">
-                <img src="assets\image\casestudy\aeritx\ban1.png" alt="Aeritx case study" class="dp-r-10" data-aos="zoom-in-right">
+                <img src="assets\image\casestudy\aeritx\ban1.webp" alt="Aeritx case study" class="dp-r-10" data-aos="zoom-in-right">
             </div>
         </div>
     </div>
@@ -124,7 +124,7 @@ gtag('config', 'G-189WWHXLSS');
             </div>
 
             <div class="col-lg-6">
-                <img src="assets\image\casestudy\aeritx\bn2.png" alt="Aeritx case study" class="dp-r-10" data-aos="fade-left">
+                <img src="assets\image\casestudy\aeritx\bn2.webp" alt="Aeritx case study" class="dp-r-10" data-aos="fade-left">
             </div>
         </div>
     </div>
@@ -133,7 +133,7 @@ gtag('config', 'G-189WWHXLSS');
 <section class="pb-60">
     <div class="row">
         <div class="col-lg-12">
-            <img src="assets\image\casestudy\aeritx\ban2.png" alt="Aeritx case study">
+            <img src="assets\image\casestudy\aeritx\ban2.webp" alt="Aeritx case study">
         </div>
     </div>
 </section>

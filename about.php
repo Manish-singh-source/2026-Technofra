@@ -207,7 +207,7 @@ gtag('config', 'G-189WWHXLSS');
                 <!-- Left Side -->
                 <div class="about-company-left" data-aos="fade-right" data-aos-duration="600">
                     <div class="about-company-image-box">
-                        <img src="assets/image/about/abs1.png" alt="About Technofra">
+                        <img src="assets/image/about/abs1.webp" alt="About Technofra">
                     </div>
 
                     <div class="about-company-stats">

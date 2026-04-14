@@ -944,19 +944,19 @@ gtag('config', 'G-189WWHXLSS');
                     <div class="uxb_about_avatar_group_shell">
                         <div class="uxb_about_avatar_stack_list">
                             <div class="uxb_about_avatar_single">
-                                <img src="assets\image\clogos\1.png" alt="Custom Website Development">
+                                <img src="assets\image\clogos\1.webp" alt="Custom Website Development">
                             </div>
                             <div class="uxb_about_avatar_single">
-                                <img src="assets\image\clogos\2.png" alt="Lead Generation Services">
+                                <img src="assets\image\clogos\2.webp" alt="Lead Generation Services">
                             </div>
                             <div class="uxb_about_avatar_single">
-                                <img src="assets\image\clogos\3.png" alt="Web Design &amp; Development Company">
+                                <img src="assets\image\clogos\3.webp" alt="Web Design &amp; Development Company">
                             </div>
                             <div class="uxb_about_avatar_single">
-                                <img src="assets\image\clogos\4.png" alt="Website Development Company in Mumbai">
+                                <img src="assets\image\clogos\4.webp" alt="Website Development Company in Mumbai">
                             </div>
                             <div class="uxb_about_avatar_single">
-                                <img src="assets\image\clogos\5.png" alt="Digital Marketing Agency">
+                                <img src="assets\image\clogos\5.webp" alt="Digital Marketing Agency">
                             </div>
                         </div>
 
@@ -1130,7 +1130,7 @@ gtag('config', 'G-189WWHXLSS');
                                     </p>
                                 </div>
                                 <div class="dd-card-back">
-                                    <img src="assets\image\home\digitals.png" alt="Payment Gateway Integration">
+                                    <img src="assets\image\home\digitals.webp" alt="Payment Gateway Integration">
                                 </div>
                             </div>
                         </div>
@@ -1149,7 +1149,7 @@ gtag('config', 'G-189WWHXLSS');
                                     </p>
                                 </div>
                                 <div class="dd-card-back">
-                                    <img src="assets\image\home\socails.png" alt="Domain &amp; Hosting Services">
+                                    <img src="assets\image\home\socails.webp" alt="Domain &amp; Hosting Services">
                                 </div>
                             </div>
                         </div>
@@ -1755,19 +1755,19 @@ gtag('config', 'G-189WWHXLSS');
                             <img src="assets\image\home\t1.webp" alt="Ecommerce Website Development">
                             <p>Technofra delivered our website on time with excellent design and smooth functionality.
                             </p>
-                            <p><img src="assets\image\clogos\4.png" alt="Mobile App Development Company" class="clogo"></p>
+                            <p><img src="assets\image\clogos\4.webp" alt="Mobile App Development Company" class="clogo"></p>
                         </div>
 
                         <div class="mlp-testimonial-item">
                             <img src="assets\image\home\t2.webp" alt="SEO Services">
                             <p>Their team provided great support and helped us grow our business digitally.</p>
-                            <p><img src="assets\image\clogos\6.png" alt="Branding Agency" class="clogo"></p>
+                            <p><img src="assets\image\clogos\6.webp" alt="Branding Agency" class="clogo"></p>
                         </div>
 
                         <div class="mlp-testimonial-item">
                             <img src="assets\image\home\t3.webp" alt="UI UX Design Services">
                             <p>We are very happy with the app development service and professional approach.</p>
-                            <p> <img src="assets\image\clogos\1.png" alt="Payment Gateway Integration" class="clogo"></p>
+                            <p> <img src="assets\image\clogos\1.webp" alt="Payment Gateway Integration" class="clogo"></p>
                         </div>
 
                     </div>
@@ -1779,32 +1779,32 @@ gtag('config', 'G-189WWHXLSS');
                 <div class="clc-wrapper">
                     <div class="clc-circle-box">
                         <div class="clc-ring clc-ring-outer">
-                            <div class="clc-logo clc-o1"><img src="assets/image/clogos/1.png" alt="Domain &amp; Hosting Services"></div>
-                            <div class="clc-logo clc-o2"><img src="assets/image/clogos/2.png" alt="IT Infrastructure Services"></div>
-                            <div class="clc-logo clc-o3"><img src="assets/image/clogos/3.png" alt="Web Development Company India"></div>
-                            <div class="clc-logo clc-o4"><img src="assets/image/clogos/4.png" alt="Full Service Digital Agency"></div>
-                            <div class="clc-logo clc-o5"><img src="assets/image/clogos/5.png" alt="Best Digital Agency in Mumbai"></div>
-                            <div class="clc-logo clc-o6"><img src="assets/image/clogos/6.png" alt="Affordable Website Development Services"></div>
-                            <div class="clc-logo clc-o7"><img src="assets/image/clogos/17.png" alt="Online Marketing Services"></div>
-                            <div class="clc-logo clc-o8"><img src="assets/image/clogos/18.png" alt="Custom Website Development"></div>
+                            <div class="clc-logo clc-o1"><img src="assets/image/clogos/1.webp" alt="Domain &amp; Hosting Services"></div>
+                            <div class="clc-logo clc-o2"><img src="assets/image/clogos/2.webp" alt="IT Infrastructure Services"></div>
+                            <div class="clc-logo clc-o3"><img src="assets/image/clogos/3.webp" alt="Web Development Company India"></div>
+                            <div class="clc-logo clc-o4"><img src="assets/image/clogos/4.webp" alt="Full Service Digital Agency"></div>
+                            <div class="clc-logo clc-o5"><img src="assets/image/clogos/5.webp" alt="Best Digital Agency in Mumbai"></div>
+                            <div class="clc-logo clc-o6"><img src="assets/image/clogos/6.webp" alt="Affordable Website Development Services"></div>
+                            <div class="clc-logo clc-o7"><img src="assets/image/clogos/17.webp" alt="Online Marketing Services"></div>
+                            <div class="clc-logo clc-o8"><img src="assets/image/clogos/18.webp" alt="Custom Website Development"></div>
                         </div>
 
 
                         <div class="clc-ring clc-ring-middle">
-                            <div class="clc-logo clc-m1"><img src="assets/image/clogos/7.png" alt="Lead Generation Services"></div>
-                            <div class="clc-logo clc-m2"><img src="assets/image/clogos/8.png" alt="Web Design &amp; Development Company"></div>
-                            <div class="clc-logo clc-m3"><img src="assets/image/clogos/9.png" alt="Website Development Company in Mumbai"></div>
-                            <div class="clc-logo clc-m4"><img src="assets/image/clogos/10.png" alt="Digital Marketing Agency"></div>
-                            <div class="clc-logo clc-m5"><img src="assets/image/clogos/11.png" alt="IT Services Company"></div>
-                            <div class="clc-logo clc-m6"><img src="assets/image/clogos/12.png" alt="Ecommerce Website Development"></div>
+                            <div class="clc-logo clc-m1"><img src="assets/image/clogos/7.webp" alt="Lead Generation Services"></div>
+                            <div class="clc-logo clc-m2"><img src="assets/image/clogos/8.webp" alt="Web Design &amp; Development Company"></div>
+                            <div class="clc-logo clc-m3"><img src="assets/image/clogos/9.webp" alt="Website Development Company in Mumbai"></div>
+                            <div class="clc-logo clc-m4"><img src="assets/image/clogos/10.webp" alt="Digital Marketing Agency"></div>
+                            <div class="clc-logo clc-m5"><img src="assets/image/clogos/11.webp" alt="IT Services Company"></div>
+                            <div class="clc-logo clc-m6"><img src="assets/image/clogos/12.webp" alt="Ecommerce Website Development"></div>
                         </div>
 
 
                         <div class="clc-ring clc-ring-inner">
-                            <div class="clc-logo clc-i1"><img src="assets/image/clogos/13.png" alt="Mobile App Development Company"></div>
-                            <div class="clc-logo clc-i2"><img src="assets/image/clogos/14.png" alt="SEO Services"></div>
-                            <div class="clc-logo clc-i3"><img src="assets/image/clogos/15.png" alt="Branding Agency"></div>
-                            <div class="clc-logo clc-i4"><img src="assets/image/clogos/16.png" alt="UI UX Design Services"></div>
+                            <div class="clc-logo clc-i1"><img src="assets/image/clogos/13.webp" alt="Mobile App Development Company"></div>
+                            <div class="clc-logo clc-i2"><img src="assets/image/clogos/14.webp" alt="SEO Services"></div>
+                            <div class="clc-logo clc-i3"><img src="assets/image/clogos/15.webp" alt="Branding Agency"></div>
+                            <div class="clc-logo clc-i4"><img src="assets/image/clogos/16.webp" alt="UI UX Design Services"></div>
                         </div>
 
                         <div class="clc-center"></div>

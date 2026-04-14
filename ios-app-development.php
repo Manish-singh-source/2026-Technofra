@@ -281,7 +281,7 @@ gtag('config', 'G-189WWHXLSS');
 
 <!-- Hero -->
 <section class="hero-section pt-60 pb-60 bg-purple text-white" style="background:
-        url('assets/image/mobileapp/iosban.png')no-repeat
+        url('assets/image/mobileapp/iosban.webp')no-repeat
         center center / cover">
     <div class="container">
         <div class="row justify-content-between align-items-center">
@@ -340,7 +340,7 @@ gtag('config', 'G-189WWHXLSS');
             <div class="col-lg-6 col-md-12">
                 <div class="digi-why-left iosflex1" data-aos="fade-left" data-aos-offset="300"
                     data-aos-easing="ease-in-sine">
-                    <img src="assets\image\mobileapp\ios.png" class="img-fluid brad" alt="iOS App Development Services" />
+                    <img src="assets\image\mobileapp\ios.webp" class="img-fluid brad" alt="iOS App Development Services" />
 
                     </ul>
                 </div>
@@ -478,7 +478,7 @@ gtag('config', 'G-189WWHXLSS');
             <!-- Center Image -->
             <div class="officeCenter_v1">
                 <div class="officeImageBox_v1">
-                    <img src="assets\image\mobileapp\iosappd.png" alt="iOS App Design Company" class="brad">
+                    <img src="assets\image\mobileapp\iosappd.webp" alt="iOS App Design Company" class="brad">
                 </div>
             </div>
 
@@ -529,7 +529,7 @@ gtag('config', 'G-189WWHXLSS');
     <img src="assets/image/mobileapp/mob-app-process.webp" alt="iOS App Maintenance Services">
 </div>
 <div class="year_mage dpmobblock">
-    <img src="assets/image/mobileapp/mob-mobvie-app-process.png" alt="Secure iOS App Development">
+    <img src="assets/image/mobileapp/mob-mobvie-app-process.webp" alt="Secure iOS App Development">
 </div> -->
 
 <div class="ca-service-section pt-60 pb-80 bgc-secondary">
@@ -708,7 +708,7 @@ gtag('config', 'G-189WWHXLSS');
 
             <div class="medx-content-column" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine">
                 <div class="medx-hero-wrapper">
-                    <img src="assets/image/mobileapp/mob2.png" class="medx-hero-image" alt="Mobile App Development Company Mumbai">
+                    <img src="assets/image/mobileapp/mob2.webp" class="medx-hero-image" alt="Mobile App Development Company Mumbai">
                     <p class="medx-hero-text">
                         User-friendly mobile app with fast access, secure data, real-time updates, personalization,
                         smooth performance, and 24/7 availability.

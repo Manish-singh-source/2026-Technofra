@@ -59,7 +59,7 @@
 <section class="pb-60">
   <div class="row">
     <div class="col-lg-12">
-      <img src="assets/image/casestudy/wotm/w1.png" alt="WOTM case study">
+      <img src="assets/image/casestudy/wotm/w1.webp" alt="WOTM case study">
     </div>
   </div>
 </section>
@@ -69,12 +69,12 @@
   <div class="container">
     <div class="row align-items-center">
       <div class="col-lg-7 col-md-12">
-        <img src="assets/image/casestudy/wotm/w5.png" alt="WOTM case study" class="dp-r-10" data-aos="zoom-in-right">
+        <img src="assets/image/casestudy/wotm/w5.webp" alt="WOTM case study" class="dp-r-10" data-aos="zoom-in-right">
       </div>
       <div class="col-lg-5 mob-pt-20">
 
         <div class="section-heading mb-5 " data-aos="zoom-in-left">
-          <h2>About WOTM — We Own The Move</h2>
+          <h2>About WOTM ï¿½ We Own The Move</h2>
           <p>
            WOTM is a lifestyle brand that blends style and function, offering everyday essentials designed for real-life movement. Created by Inoviz Ideas Pvt. Ltd., the company behind Storehaus, Echt, and Narradora.in, WOTM focuses on versatile designs and quality materials that adapt to your day.
           </p>
@@ -99,11 +99,11 @@
   <div class="container">
     <div class="row align-items-center">
     <div class="col-lg-6">
-        <img src="assets/image/casestudy/wotm/w7.png" alt="WOTM case study" class="dp-r-10" data-aos="fade-left">
+        <img src="assets/image/casestudy/wotm/w7.webp" alt="WOTM case study" class="dp-r-10" data-aos="fade-left">
       </div>
       
       <div class="col-lg-6">
-        <img src="assets/image/casestudy/wotm/w4.png" alt="WOTM case study" class="dp-r-10" data-aos="fade-left">
+        <img src="assets/image/casestudy/wotm/w4.webp" alt="WOTM case study" class="dp-r-10" data-aos="fade-left">
       </div>
     </div>
   </div>
@@ -112,7 +112,7 @@
 <section class="pb-60">
   <div class="row">
     <div class="col-lg-12">
-      <img src="assets/image/casestudy/wotm/w2.png" alt="WOTM case study">
+      <img src="assets/image/casestudy/wotm/w2.webp" alt="WOTM case study">
     </div>
   </div>
 </section>
@@ -169,7 +169,7 @@
         </div>
       </div>
       <div class="col-lg-7">
-        <img src="assets/image/casestudy/wotm/w6.png" alt="WOTM case study" class="dp-r-10" data-aos="fade-left">
+        <img src="assets/image/casestudy/wotm/w6.webp" alt="WOTM case study" class="dp-r-10" data-aos="fade-left">
       </div>
     </div>
   </div>
@@ -177,7 +177,7 @@
 <section>
   <div class="row">
     <div class="col-lg-12">
-      <img src="assets/image/casestudy/wotm/w3.png" alt="WOTM case study">
+      <img src="assets/image/casestudy/wotm/w3.webp" alt="WOTM case study">
     </div>
   </div>
 </section>

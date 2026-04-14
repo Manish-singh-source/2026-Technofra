@@ -835,7 +835,7 @@ gtag('config', 'G-189WWHXLSS');
             </div>
             <div class="col-lg-6">
                 <div class="text-center">
-                    <img class="img-fluid rounded-6" src="assets/image/digitalmarketing/about-social.png"
+                    <img class="img-fluid rounded-6" src="assets/image/digitalmarketing/about-social.webp"
                         alt="Social media strategy illustration">
                 </div>
             </div>
@@ -952,7 +952,7 @@ gtag('config', 'G-189WWHXLSS');
         <div class="row g-4">
             <div class="col-lg-4 col-md-6">
                 <div class="smm-highlight-card bg-white rounded-3 p-4">
-                    <img src="assets/image/digitalmarketing/smm-1.png" alt="Content strategy and planning"
+                    <img src="assets/image/digitalmarketing/smm-1.webp" alt="Content strategy and planning"
                         class="img-fluid rounded-6 mb-20">
                     <h4 class="mb-15">Content Strategy and Planning</h4>
                     <p class="mb-0">We create monthly content plans aligned with your industry, audience interests,
@@ -961,7 +961,7 @@ gtag('config', 'G-189WWHXLSS');
             </div>
             <div class="col-lg-4 col-md-6">
                 <div class="smm-highlight-card bg-white rounded-3 p-4">
-                    <img src="assets/image/digitalmarketing/smm-2.png" alt="Creative post design"
+                    <img src="assets/image/digitalmarketing/smm-2.webp" alt="Creative post design"
                         class="img-fluid rounded-6 mb-20">
                     <h4 class="mb-15">Creative Post Design</h4>
                     <p class="mb-0">Our team develops branded static posts, carousels, stories, and promotional
@@ -970,7 +970,7 @@ gtag('config', 'G-189WWHXLSS');
             </div>
             <div class="col-lg-4 col-md-6">
                 <div class="smm-highlight-card bg-white rounded-3 p-4">
-                    <img src="assets/image/digitalmarketing/smm-3.png" alt="Instagram and Facebook marketing"
+                    <img src="assets/image/digitalmarketing/smm-3.webp" alt="Instagram and Facebook marketing"
                         class="img-fluid rounded-6 mb-20">
                     <h4 class="mb-15">Instagram and Facebook Marketing</h4>
                     <p class="mb-0">We manage platform-specific content and promotional campaigns designed to increase
@@ -979,7 +979,7 @@ gtag('config', 'G-189WWHXLSS');
             </div>
             <div class="col-lg-4 col-md-6">
                 <div class="smm-highlight-card bg-white rounded-3 p-4">
-                    <img src="assets/image/digitalmarketing/smm-4.png" alt="LinkedIn brand marketing"
+                    <img src="assets/image/digitalmarketing/smm-4.webp" alt="LinkedIn brand marketing"
                         class="img-fluid rounded-6 mb-20">
                     <h4 class="mb-15">LinkedIn Brand Marketing</h4>
                     <p class="mb-0">For B2B brands and professionals, we plan authority-building LinkedIn content that
@@ -988,7 +988,7 @@ gtag('config', 'G-189WWHXLSS');
             </div>
             <div class="col-lg-4 col-md-6">
                 <div class="smm-highlight-card bg-white rounded-3 p-4">
-                    <img src="assets/image/digitalmarketing/smm-5.png" alt="Reels and short video ideas"
+                    <img src="assets/image/digitalmarketing/smm-5.webp" alt="Reels and short video ideas"
                         class="img-fluid rounded-6 mb-20">
                     <h4 class="mb-15">Reels and Short Video Ideas</h4>
                     <p class="mb-0">We help shape short-form video concepts, hooks, scripts, and posting direction so
@@ -997,7 +997,7 @@ gtag('config', 'G-189WWHXLSS');
             </div>
             <div class="col-lg-4 col-md-6">
                 <div class="smm-highlight-card bg-white rounded-3 p-4">
-                    <img src="assets/image/digitalmarketing/smm-6.png" alt="Social media reporting"
+                    <img src="assets/image/digitalmarketing/smm-6.webp" alt="Social media reporting"
                         class="img-fluid rounded-6 mb-20">
                     <h4 class="mb-15">Analytics and Reporting</h4>
                     <p class="mb-0">We track reach, engagement, profile activity, audience growth, and campaign response
@@ -1124,7 +1124,7 @@ gtag('config', 'G-189WWHXLSS');
         <div class="row align-items-center">
             <div class="col-lg-6">
                 <div class="text-center text-lg-start mb-4 mb-lg-0">
-                    <img src="assets/image/digitalmarketing/why-smm.png" alt="Social media marketing specialists"
+                    <img src="assets/image/digitalmarketing/why-smm.webp" alt="Social media marketing specialists"
                         class="img-fluid rounded-6">
                 </div>
             </div>
@@ -1154,7 +1154,7 @@ gtag('config', 'G-189WWHXLSS');
                     </div>
                     <div class="col-md-6">
                         <div class="single-crypto-team bg-soft-black p-15">
-                            <img src="assets/image/digitalmarketing/why.png" alt="Social media reporting and growth"
+                            <img src="assets/image/digitalmarketing/why.webp" alt="Social media reporting and growth"
                                 class="img-fluid">
                             <div class="crypto-team-info pt-4 pb-1">
                                 <h4 class="text-white h5 fz-16">Reporting guided by audience response</h4>

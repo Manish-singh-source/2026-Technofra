@@ -324,7 +324,7 @@ a,
                     </li>
                 </ul>
 
-            
+
             </div>
 
             <!-- RIGHT SIDE -->
@@ -363,7 +363,7 @@ a,
         <!-- LEFT -->
         <div class="wd-job-image-wrapper" data-aos="fade-right" data-aos-duration="600">
             <div class="wd-job-image-box">
-                <img src="assets\image\career\cj1.png" alt="Graphic Designer Jobs">
+                <img src="assets\image\career\cj1.webp" alt="Graphic Designer Jobs">
             </div>
             <div class="wd-job-red-bar"></div>
         </div>
@@ -484,7 +484,7 @@ a,
         <!-- RIGHT -->
         <div class="wd-job-image-wrapper" data-aos="fade-left" data-aos-duration="600">
             <div class="wd-job-image-box">
-                <img src="assets/image/career/cj4.png" alt="Job Openings in Mumbai">
+                <img src="assets/image/career/cj4.webp" alt="Job Openings in Mumbai">
             </div>
             <div class="wd-job-red-bar"></div>
         </div>
@@ -499,7 +499,7 @@ a,
         <!-- LEFT -->
         <div class="wd-job-image-wrapper" data-aos="fade-right" data-aos-duration="600">
             <div class="wd-job-image-box">
-                <img src="assets/image/career/cj3.png" alt="Hiring Web Developers">
+                <img src="assets/image/career/cj3.webp" alt="Hiring Web Developers">
             </div>
             <div class="wd-job-red-bar"></div>
         </div>
@@ -631,7 +631,7 @@ a,
         <!-- RIGHT -->
         <div class="wd-job-image-wrapper" data-aos="fade-left" data-aos-duration="600">
             <div class="wd-job-image-box">
-                <img src="assets/image/career/cj2.png" alt="Marketing Jobs Mumbai">
+                <img src="assets/image/career/cj2.webp" alt="Marketing Jobs Mumbai">
             </div>
             <div class="wd-job-red-bar"></div>
         </div>
@@ -887,7 +887,8 @@ a,
             class="aos-init aos-animate">
             <div class="col-xl-7 ">
                 <div class="ins-title text-center">
-                    <span class="crm-subtitle ">Our Team <img src="assets/image/arrow-red.png" alt="Job Opportunities in Digital Agency"></span>
+                    <span class="crm-subtitle ">Our Team <img src="assets/image/arrow-red.png"
+                            alt="Job Opportunities in Digital Agency"></span>
                     <h2>
                         Meet Our Leadership Team
                     </h2>

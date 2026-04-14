@@ -24,7 +24,7 @@
 
                         </div>
                         <div class="slider-img">
-                            <img src="assets/image/casestudy/Frizschool/main.png" alt="Portfolio Slider case study">
+                            <img src="assets/image/casestudy/Frizschool/main.webp" alt="Portfolio Slider case study">
                         </div>
                         <div class="heading">
                             <div class="dpflex">
@@ -45,7 +45,7 @@
 
                         </div>
                         <div class="slider-img">
-                            <img src="assets/image/casestudy/shivam/shivam.png" s alt="Portfolio Slider case study">
+                            <img src="assets/image/casestudy/shivam/shivam.webp" s alt="Portfolio Slider case study">
                         </div>
                         <div class="heading">
                             <div class="dpflex">
@@ -66,7 +66,7 @@
 
                         </div>
                         <div class="slider-img">
-                            <img src=assets/image/casestudy/texon/banner.png alt="Portfolio Slider case study">
+                            <img src=assets/image/casestudy/texon/banner.webp alt="Portfolio Slider case study">
                         </div>
                         <div class="heading">
                             <div class="dpflex">
@@ -87,7 +87,7 @@
 
                         </div>
                         <div class="slider-img">
-                            <img src=assets/image/casestudy/dynarx.png alt="Portfolio Slider case study">
+                            <img src=assets/image/casestudy/dynarx.webp alt="Portfolio Slider case study">
                         </div>
                         <div class="heading">
                             <div class="dpflex">
@@ -107,7 +107,7 @@
 
                         </div>
                         <div class="slider-img">
-                            <img src=assets/image/casestudy/torshaa.png alt="Portfolio Slider case study">
+                            <img src=assets/image/casestudy/torshaa.webp alt="Portfolio Slider case study">
                         </div>
                         <div class="heading">
                             <div class="dpflex">
@@ -127,7 +127,7 @@
 
                         </div>
                         <div class="slider-img">
-                            <img src=assets\image\casestudy\sunriseconsultancy.png alt="Portfolio Slider case study">
+                            <img src=assets\image\casestudy\sunriseconsultancy.webp alt="Portfolio Slider case study">
                         </div>
                         <div class="heading">
                             <div class="dpflex">
@@ -147,7 +147,7 @@
 
                         </div>
                         <div class="slider-img">
-                            <img src=assets/image/casestudy/karantelecom.png alt="Portfolio Slider case study">
+                            <img src=assets/image/casestudy/karantelecom.webp alt="Portfolio Slider case study">
                         </div>
                         <div class="heading">
                             <div class="dpflex">
@@ -188,7 +188,7 @@
 
                         </div>
                         <div class="slider-img">
-                            <img src=assets/image/casestudy/lifelike.png alt="Portfolio Slider case study">
+                            <img src=assets/image/casestudy/lifelike.webp alt="Portfolio Slider case study">
                         </div>
                         <div class="heading">
                             <div class="dpflex">
@@ -229,7 +229,7 @@
 
                         </div>
                         <div class="slider-img">
-                            <img src=assets/image/casestudy/wotm.png alt="Portfolio Slider case study">
+                            <img src=assets/image/casestudy/wotm.webp alt="Portfolio Slider case study">
                         </div>
                         <div class="heading">
                             <div class="dpflex">

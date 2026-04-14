@@ -484,7 +484,7 @@ gtag('config', 'G-189WWHXLSS');
 }
 
 .baner {
-    background: url('assets/image/websitemaintenance/banner011.png')no-repeat;
+    background: url('assets/image/websitemaintenance/banner011.webp')no-repeat;
     background-size: cover;
     background-attachment: fixed;
 }
@@ -1368,7 +1368,7 @@ article {
         <div class="row">
             <div class="col-lg-12">
                 <div class="section-title">
-                    <!-- <span class="crm-subtitle ">Tech Stack <img src="assets/image/arrow-red.png" alt="arrow"></span> -->
+                    <!-- <span class="crm-subtitle ">Tech Stack <img src="assets/image/arrow-red.webp" alt="arrow"></span> -->
                     <h2 class="pb-20">Technologies We Employ and Utilize</h2>
                     <p class="mb-20">Technofra choose the newest and most reliable technology that fits your business
                         goals perfectly.</p>

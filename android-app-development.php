@@ -182,13 +182,13 @@ gtag('config', 'G-189WWHXLSS');
 </style>
 <?php include 'navbar.php'; ?>
 <section class="hero-section ptb-50 bg-purple text-white" style="background:
-        url('assets/image/mobileapp/and2.png')no-repeat
+        url('assets/image/mobileapp/and2.webp')no-repeat
         center center / cover">
     <div class="container">
         <div class="row justify-content-between align-items-center">
             <div class="col-lg-5 col-xl-5 col-xl-5 col-md-10">
                 <div class="hero-content-wrap mt-5 crm-title mt-lg-0 mt-xl-0">
-                    <!-- <span class="crm-subtitle ">Build your best quality app <img src="assets/image/mobileapp/shape/arrow-red.png" alt="Android App Development Company"></span> -->
+                    <!-- <span class="crm-subtitle ">Build your best quality app <img src="assets/image/mobileapp/shape/arrow-red.webp" alt="Android App Development Company"></span> -->
                     <h1 class="display-5 fw-bold " style=" color:white;">
                         Android App Development <span class="text-orange fw-bold">Services</span>
                     </h1>
@@ -215,7 +215,7 @@ gtag('config', 'G-189WWHXLSS');
                 data-aos-easing="ease-in-sine">
                 <div class="app-two-feature-three-img position-relative text-center mt-5 mt-lg-0" data-aos="fade-right"
                     data-aos-offset="500" data-aos-easing="ease-in-sine">
-                    <img src="assets\image\mobileapp\android.png" alt="Custom Android App Development" class="position-relative z-5 brad" />
+                    <img src="assets\image\mobileapp\android.webp" alt="Custom Android App Development" class="position-relative z-5 brad" />
                 </div>
             </div>
             <div class="col-lg-6 col-xl-6 col-sm-12">
@@ -373,7 +373,7 @@ gtag('config', 'G-189WWHXLSS');
             <!-- Center Image -->
             <div class="officeCenter_v1" data-aos="fade-up" data-aos-offset="500" data-aos-easing="ease-in-sine">
                 <div class="officeImageBox_v1">
-                    <img src="assets\image\mobileapp\andappd.png" alt="AI Android App Development" class="brad">
+                    <img src="assets\image\mobileapp\andappd.webp" alt="AI Android App Development" class="brad">
                 </div>
             </div>
 
@@ -489,7 +489,7 @@ gtag('config', 'G-189WWHXLSS');
             </div>
             <div class="col-lg-6 col-md-12" data-aos="fade-left" data-aos-offset="500" data-aos-easing="ease-in-sine">
                 <div class="digi-why-left">
-                    <img src="assets/image/mobileapp/android2.png" class="img-fluid brad" alt="Android App Design Company" />
+                    <img src="assets/image/mobileapp/android22.webp" class="img-fluid brad" alt="Android App Design Company" />
 
                 </div>
             </div>
@@ -537,7 +537,7 @@ gtag('config', 'G-189WWHXLSS');
 
             <div class="medx-content-column" data-aos="fade-left" data-aos-offset="500" data-aos-easing="ease-in-sine">
                 <div class="medx-hero-wrapper">
-                    <img src="assets/image/mobileapp/mob2.png" class="medx-hero-image" alt="Android App Design Company">
+                    <img src="assets/image/mobileapp/mob2.webp" class="medx-hero-image" alt="Android App Design Company">
                     <p class="medx-hero-text">
                         User-friendly mobile app with fast access, secure data, real-time updates, personalization,
                         smooth performance, and 24/7 availability.
