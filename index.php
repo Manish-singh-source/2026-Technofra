@@ -4,6 +4,14 @@ session_start();
 $bookCallStatus = $_SESSION['book_call_status'] ?? null;
 unset($_SESSION['book_call_status']);
 $deferCustomCss = true;
+$loadJqueryVendor = false;
+$loadSwiperVendor = false;
+$loadMagnificVendor = false;
+$loadParallaxVendor = false;
+$loadAosVendor = false;
+$loadMassonryVendor = false;
+$loadAppBundle = false;
+$loadLegacyThemeBundle = false;
 
 include 'header.php';
 ?>
@@ -2657,12 +2665,17 @@ if (statsWrap) {
 
 
 
-<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script defer src="assets/js/vendors/swiper-bundle.min.js"></script>
+<script defer src="assets/js/vendors/aos.js"></script>
 
 <script>
-const homeBlogSwiperElement = document.getElementById("homeBlogSwiper");
+function initHomeBlogSwiper() {
+    const homeBlogSwiperElement = document.getElementById("homeBlogSwiper");
 
-if (homeBlogSwiperElement && typeof Swiper !== "undefined") {
+    if (!homeBlogSwiperElement || typeof Swiper === "undefined") {
+        return;
+    }
+
     const totalBlogSlides = homeBlogSwiperElement.querySelectorAll(".swiper-slide").length;
 
     new Swiper(homeBlogSwiperElement, {
@@ -2697,6 +2710,38 @@ if (homeBlogSwiperElement && typeof Swiper !== "undefined") {
         }
     });
 }
+
+function initHomeAos() {
+    const startAos = function() {
+        if (typeof AOS === "undefined") {
+            return;
+        }
+
+        AOS.init({
+            duration: 600,
+            once: true,
+            offset: 24,
+            easing: "ease-out-cubic"
+        });
+    };
+
+    if ("requestIdleCallback" in window) {
+        requestIdleCallback(startAos, {
+            timeout: 600
+        });
+    } else {
+        setTimeout(startAos, 180);
+    }
+}
+
+document.addEventListener("DOMContentLoaded", function() {
+    initHomeBlogSwiper();
+    window.addEventListener("load", initHomeAos, {
+        once: true
+    });
+}, {
+    once: true
+});
 </script>
 
 <script>
@@ -2836,6 +2881,7 @@ rnHeroStartAutoSlide();
     const userTimezoneInput = document.getElementById("userTimezoneInput");
     const selectedLocalTimeNote = document.getElementById("selectedLocalTimeNote");
     const viewerTimezoneNote = document.getElementById("viewerTimezoneNote");
+    const bookCallSection = document.getElementById("book-call-widget");
 
     const istTimezone = "Asia/Kolkata";
     const userTimezone = Intl.DateTimeFormat().resolvedOptions().timeZone || "Local Time";
@@ -2845,6 +2891,7 @@ rnHeroStartAutoSlide();
     let selectedDate = null;
     let selectedTime = null;
     let bookedSlots = [];
+    let bookCallInitialized = false;
     const countryCodes = [{
             name: "Afghanistan",
             code: "+93"
@@ -3928,93 +3975,127 @@ rnHeroStartAutoSlide();
         }
     }
 
-    prevMonth.addEventListener("click", () => {
-        const istToday = getIstToday();
-        const previousMonth = new Date(viewYear, viewMonth - 1, 1);
-        if (previousMonth < new Date(istToday.getFullYear(), istToday.getMonth(), 1)) {
+    function initializeBookCallWidget() {
+        if (bookCallInitialized) {
             return;
         }
 
-        viewMonth--;
-        if (viewMonth < 0) {
-            viewMonth = 11;
-            viewYear--;
-        }
-        renderCalendar();
-    });
+        bookCallInitialized = true;
 
-    nextMonth.addEventListener("click", () => {
-        viewMonth++;
-        if (viewMonth > 11) {
-            viewMonth = 0;
-            viewYear++;
-        }
-        renderCalendar();
-    });
+        prevMonth.addEventListener("click", () => {
+            const istToday = getIstToday();
+            const previousMonth = new Date(viewYear, viewMonth - 1, 1);
+            if (previousMonth < new Date(istToday.getFullYear(), istToday.getMonth(), 1)) {
+                return;
+            }
 
-    timeTrigger.addEventListener("click", () => {
-        if (!selectedDate) return;
-        renderTimeSlots();
-        timeDropdown.classList.toggle("show");
-    });
+            viewMonth--;
+            if (viewMonth < 0) {
+                viewMonth = 11;
+                viewYear--;
+            }
+            renderCalendar();
+        });
 
-    document.addEventListener("click", (e) => {
-        if (
-            !timeTrigger.contains(e.target) &&
-            !timeDropdown.contains(e.target)
-        ) {
-            timeDropdown.classList.remove("show");
-        }
-    });
+        nextMonth.addEventListener("click", () => {
+            viewMonth++;
+            if (viewMonth > 11) {
+                viewMonth = 0;
+                viewYear++;
+            }
+            renderCalendar();
+        });
 
-    bookCallBtn.addEventListener("click", function(e) {
-        e.preventDefault();
-
-        if (!selectedDate || !selectedTime) {
-            alert("Please select a date and time first.");
-            return;
-        }
-
-        if (bookedSlots.includes(selectedTime)) {
-            alert("This time slot is already booked. Please select another time.");
-            selectedTime = null;
-            selectedTimeText.textContent = "Select Time";
-            updateBookingSummary();
+        timeTrigger.addEventListener("click", () => {
+            if (!selectedDate) return;
             renderTimeSlots();
-            return;
-        }
+            timeDropdown.classList.toggle("show");
+        });
 
+        document.addEventListener("click", (e) => {
+            if (
+                !timeTrigger.contains(e.target) &&
+                !timeDropdown.contains(e.target)
+            ) {
+                timeDropdown.classList.remove("show");
+            }
+        });
+
+        bookCallBtn.addEventListener("click", function(e) {
+            e.preventDefault();
+
+            if (!selectedDate || !selectedTime) {
+                alert("Please select a date and time first.");
+                return;
+            }
+
+            if (bookedSlots.includes(selectedTime)) {
+                alert("This time slot is already booked. Please select another time.");
+                selectedTime = null;
+                selectedTimeText.textContent = "Select Time";
+                updateBookingSummary();
+                renderTimeSlots();
+                return;
+            }
+
+            updateBookingSummary();
+            openModal();
+        });
+
+        document.querySelector(".eep-book-form").addEventListener("submit", function() {
+            const rawPhone = bookCallPhone.value.trim();
+            const selectedCode = bookCallCountryCode.value.trim();
+
+            if (rawPhone !== "" && selectedCode !== "" && !rawPhone.startsWith("+")) {
+                bookCallPhone.value = `${selectedCode} ${rawPhone}`;
+            }
+        });
+
+        bookCallClose.addEventListener("click", closeModal);
+        bookCallModal.addEventListener("click", (e) => {
+            if (e.target === bookCallModal) {
+                closeModal();
+            }
+        });
+
+        document.addEventListener("keydown", (e) => {
+            if (e.key === "Escape" && bookCallModal.classList.contains("show")) {
+                closeModal();
+            }
+        });
+
+        populateCountryCodes();
+        viewerTimezoneNote.textContent = userTimezone === istTimezone ? "." : ` Your local timezone: ${userTimezone}.`;
         updateBookingSummary();
-        openModal();
-    });
+        renderTimeSlots();
+        renderCalendar();
+    }
 
-    document.querySelector(".eep-book-form").addEventListener("submit", function() {
-        const rawPhone = bookCallPhone.value.trim();
-        const selectedCode = bookCallCountryCode.value.trim();
+    if (bookCallSection && "IntersectionObserver" in window) {
+        const widgetObserver = new IntersectionObserver((entries) => {
+            entries.forEach((entry) => {
+                if (entry.isIntersecting) {
+                    initializeBookCallWidget();
+                    widgetObserver.disconnect();
+                }
+            });
+        }, {
+            rootMargin: "250px 0px"
+        });
 
-        if (rawPhone !== "" && selectedCode !== "" && !rawPhone.startsWith("+")) {
-            bookCallPhone.value = `${selectedCode} ${rawPhone}`;
-        }
-    });
-
-    bookCallClose.addEventListener("click", closeModal);
-    bookCallModal.addEventListener("click", (e) => {
-        if (e.target === bookCallModal) {
-            closeModal();
-        }
-    });
-
-    document.addEventListener("keydown", (e) => {
-        if (e.key === "Escape" && bookCallModal.classList.contains("show")) {
-            closeModal();
-        }
-    });
-
-    populateCountryCodes();
-    viewerTimezoneNote.textContent = userTimezone === istTimezone ? "." : ` Your local timezone: ${userTimezone}.`;
-    updateBookingSummary();
-    renderTimeSlots();
-    renderCalendar();
+        widgetObserver.observe(bookCallSection);
+        bookCallSection.addEventListener("pointerdown", initializeBookCallWidget, {
+            once: true,
+            passive: true
+        });
+        bookCallSection.addEventListener("focusin", initializeBookCallWidget, {
+            once: true
+        });
+    } else {
+        window.addEventListener("load", initializeBookCallWidget, {
+            once: true
+        });
+    }
 })();
 </script>
 <?php include 'footer.php'; ?>

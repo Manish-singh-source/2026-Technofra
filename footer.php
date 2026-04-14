@@ -790,6 +790,44 @@ if (navClose && rightMenu) {
 
  <script>
 (function() {
+    const preloader = document.getElementById('preloader');
+
+    if (!preloader) {
+        return;
+    }
+
+    let hidden = false;
+
+    function hidePreloader() {
+        if (hidden) {
+            return;
+        }
+
+        hidden = true;
+        preloader.style.display = 'none';
+        preloader.setAttribute('aria-hidden', 'true');
+    }
+
+    if (document.readyState === 'complete' || document.readyState === 'interactive') {
+        requestAnimationFrame(hidePreloader);
+    } else {
+        document.addEventListener('DOMContentLoaded', function() {
+            requestAnimationFrame(hidePreloader);
+        }, {
+            once: true
+        });
+    }
+
+    window.addEventListener('load', hidePreloader, {
+        once: true
+    });
+
+    setTimeout(hidePreloader, 1800);
+})();
+ </script>
+
+ <script>
+(function() {
     const companyProfileForm = document.getElementById('companyProfileForm');
     const companyProfileSubmitBtn = document.getElementById('companyProfileSubmitBtn');
 
@@ -813,16 +851,45 @@ if (navClose && rightMenu) {
 })();
  </script>
 
+ <?php
+ $loadBootstrapScript = $loadBootstrapScript ?? true;
+ $loadSwiperVendor = $loadSwiperVendor ?? true;
+ $loadMagnificVendor = $loadMagnificVendor ?? true;
+ $loadParallaxVendor = $loadParallaxVendor ?? true;
+ $loadAosVendor = $loadAosVendor ?? true;
+ $loadMassonryVendor = $loadMassonryVendor ?? true;
+ $loadAppBundle = $loadAppBundle ?? true;
+ $loadLegacyThemeBundle = $loadLegacyThemeBundle ?? true;
+ $loadJqueryVendor = $loadJqueryVendor ?? ($loadAppBundle || $loadLegacyThemeBundle || $loadMagnificVendor || $loadParallaxVendor || $loadMassonryVendor);
+ ?>
+
  <!--build:js-->
+ <?php if ($loadJqueryVendor): ?>
  <script defer src="assets_01/js/jquery-3-7-1.min.js"></script>
+ <?php endif; ?>
+ <?php if ($loadBootstrapScript): ?>
  <script defer src="assets/js/vendors/bootstrap.bundle.min.js"></script>
+ <?php endif; ?>
+ <?php if ($loadSwiperVendor): ?>
  <script defer src="assets/js/vendors/swiper-bundle.min.js"></script>
+ <?php endif; ?>
+ <?php if ($loadMagnificVendor): ?>
  <script defer src="assets/js/vendors/jquery.magnific-popup.min.js"></script>
+ <?php endif; ?>
+ <?php if ($loadParallaxVendor): ?>
  <script defer src="assets/js/vendors/parallax.min.js"></script>
+ <?php endif; ?>
+ <?php if ($loadAosVendor): ?>
  <script defer src="assets/js/vendors/aos.js"></script>
+ <?php endif; ?>
+ <?php if ($loadMassonryVendor): ?>
  <script defer src="assets/js/vendors/massonry.min.js"></script>
+ <?php endif; ?>
+ <?php if ($loadAppBundle): ?>
  <script defer src="assets/js/app.js"></script>
+ <?php endif; ?>
  <!--endbuild-->
+ <?php if ($loadLegacyThemeBundle): ?>
  <script defer src="assets_01/js/jquery.magnific-popup.js"></script>
  <script defer src="assets_01/js/owl.carousel.min.js"></script>
  <script defer src="assets_01/js/slick-slider.js"></script>
@@ -834,6 +901,7 @@ if (navClose && rightMenu) {
  <script defer src="assets_01/js/jquery.lineProgressbar.js"></script>
  <script defer src="assets_01/js/ripple-btn.js"></script>
  <script defer src="assets_01/js/main.js"></script>
+ <?php endif; ?>
  </body>
 
 
