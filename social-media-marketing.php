@@ -32,12 +32,12 @@ gtag('config', 'G-189WWHXLSS');
 
 <!-- Meta Description -->
 <meta name="description"
-    content="Boost your brand with our social media marketing services. As a leading agency, we specialize in management, advertising, and consulting for small businesses.">
+    content="Top social media marketing agency in Mumbai. Technofra offers SMM, management & advertising services to grow your brand and generate leads.">
 
 <!-- Open Graph -->
 <meta property="og:title" content="Social Media Marketing Agency in Mumbai, India | Technofra">
 <meta property="og:description"
-    content="Boost your brand with our social media marketing services. As a leading agency, we specialize in management, advertising, and consulting for small businesses.">
+    content="Technofra is a leading social media marketing agency in Mumbai, India, offering social media management and advertising services to boost engagement, leads, and brand growth.">
 <link rel="canonical" href="https://technofra.com/social-media-marketing">
 
 <style>

@@ -34,12 +34,12 @@ gtag('config', 'G-189WWHXLSS');
 
 <!-- Meta Description -->
 <meta name="description"
-    content="The best digital marketing company in Mumbai. Our agency offers comprehensive digital marketing services, including online and internet marketing solutions.">
+    content="Technofra is a leading digital marketing agency in Mumbai, India, offering SEO, PPC, and online marketing services. Grow your business with data-driven strategies and high-converting campaigns.">
 
 <!-- Open Graph -->
 <meta property="og:title" content="Digital Marketing Agency in Mumbai, India | Technofra">
 <meta property="og:description"
-    content="The best digital marketing company in Mumbai. Our agency offers comprehensive digital marketing services, including online and internet marketing solutions.">
+    content="Top digital marketing agency in Mumbai. Technofra delivers SEO, PPC & online marketing services to drive traffic, leads, and business growth.">
 
 <link rel="canonical" href="https://technofra.com/digital-marketing">
 

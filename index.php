@@ -2075,7 +2075,7 @@ img {
                         <span class="eep-pill-icon">
                             <i class="fa-solid fa-calendar-check"></i>
                         </span>
-                        <span id="selectedDateText" class="eep-selected-date-text">Select date</span>
+                        <span id="selectedDateText" class="eep-selected-date-text">Select Date</span>
                     </div>
 
                     <div class="eep-time-picker-wrap">

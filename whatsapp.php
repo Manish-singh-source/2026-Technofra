@@ -8,12 +8,12 @@
 
 <!-- Meta Description -->
 <meta name="description"
-  content="Get expert API integration services & solutions in India. We specialize in third-party API integration and consulting services for seamless business operations.">
+  content="Top API integration company in Mumbai. Technofra provides WhatsApp, payment gateway & third-party API solutions to automate and scale your business.">
 
 <!-- Open Graph -->
 <meta property="og:title" content="API Integration Services in Mumbai, India | Technofra">
 <meta property="og:description"
-  content="Get expert API integration services & solutions in India. We specialize in third-party API integration and consulting services for seamless business operations.">
+  content="Technofra offers expert API integration services in Mumbai, India, including WhatsApp API, payment gateway, and third-party integrations. We deliver secure, scalable solutions to automate and grow your business.">
 
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-189WWHXLSS"></script>

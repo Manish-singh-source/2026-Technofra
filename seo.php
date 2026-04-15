@@ -33,12 +33,12 @@ gtag('config', 'G-189WWHXLSS');
 
 <!-- Meta Description -->
 <meta name="description"
-    content="Top SEO company in Mumbai offering expert SEO services, including local SEO, eCommerce SEO, and professional SEO strategies. Boost your online presence today!">
+    content="Technofra is a leading SEO company in Mumbai, India, offering expert SEO services, including local SEO and eCommerce SEO. Our data-driven SEO strategies help businesses increase rankings, traffic, and conversions.">
 
 <!-- Open Graph -->
 <meta property="og:title" content="SEO Company in Mumbai, India | Technofra">
 <meta property="og:description"
-    content="Top SEO company in Mumbai offering expert SEO services, including local SEO, eCommerce SEO, and professional SEO strategies. Boost your online presence today!">
+    content="Top SEO company in Mumbai. Technofra offers local & eCommerce SEO services to boost rankings, traffic, and business growth.">
 <link rel="canonical" href="https://technofra.com/seo">
 
 <style>

@@ -34,12 +34,12 @@ gtag('config', 'G-189WWHXLSS');
 
 <!-- Meta Description -->
 <meta name="description"
-    content="Get expert Shopify website development with the best Shopify development company. We offer Shopify ecommerce development services. Contact our Shopify agency now!">
+    content="Technofra is a leading Shopify website development company in Mumbai, India, offering custom Shopify development services. We build high-converting eCommerce stores that drive sales and business growth.">
 
 <!-- Open Graph -->
 <meta property="og:title" content="Shopify Website Development Company in Mumbai, India | Technofra">
 <meta property="og:description"
-    content="Get expert Shopify website development with the best Shopify development company. We offer Shopify ecommerce development services. Contact our Shopify agency now!">
+    content="Build high-converting Shopify eCommerce stores with expert development services in Mumbai, India. Get custom Shopify solutions designed to boost sales and grow your online business.">
 <link rel="canonical" href="https://technofra.com/shopify-website-development">
 
 

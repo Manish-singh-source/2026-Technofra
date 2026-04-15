@@ -98,7 +98,7 @@ $htmlbody = '
                                                             <tbody>
                                                                 <tr>
                                                                     <td valign="middle" align="left" style="width:75%">
-                                                                        <img style="display: inline-block; position: relative; max-width: 100%" src="https://technofra.com/assets/image/technofra-logo.png" width="40%" height="40%" border="0">
+                                                                        <img style="display: inline-block; position: relative; max-width: 100%" src="https://technofra.com/assets/image/icons/technofra_logo.png" width="40%" height="40%" border="0">
                                                                     </td>
                                                                     <td valign="middle" align="left"></td>
                                                                 </tr>
@@ -261,7 +261,7 @@ $client_htmlbody = '
                                                             <tbody>
                                                                 <tr>
                                                                     <td valign="middle" align="left" style="width:75%">
-                                                                        <img style="display: inline-block; position: relative; max-width: 100%" src="https://technofra.com/assets/image/technofra-logo.png" width="inherit" height="inherit" border="0">
+                                                                        <img style="display: inline-block; position: relative; max-width: 100%" src="https://technofra.com/assets/image/icons/technofra_logo.png" width="inherit" height="inherit" border="0">
                                                                     </td>
                                                                     <td valign="middle" align="left"></td>
                                                                 </tr>

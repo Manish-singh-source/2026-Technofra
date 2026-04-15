@@ -116,7 +116,7 @@ $htmlbody = '
                             <tbody>
                                 <tr>
                                     <td style="background:#000000; padding:18px 24px;">
-                                        <img src="https://technofra.com/assets/image/technofra-logo.png" alt="Technofra" style="max-width:220px; width:100%; height:auto;">
+                                        <img src="https://technofra.com/assets/image/icons/technofra_logo.png" alt="Technofra" style="max-width:220px; width:100%; height:auto;">
                                     </td>
                                 </tr>
                                 <tr>
@@ -184,7 +184,7 @@ $client_htmlbody = '
                             <tbody>
                                 <tr>
                                     <td style="background:#000000; padding:18px 24px;">
-                                        <img src="https://technofra.com/assets/image/technofra-logo.png" alt="Technofra" style="max-width:220px; width:100%; height:auto;">
+                                        <img src="https://technofra.com/assets/image/icons/technofra_logo.png" alt="Technofra" style="max-width:220px; width:100%; height:auto;">
                                     </td>
                                 </tr>
                                 <tr>
