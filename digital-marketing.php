@@ -41,7 +41,7 @@ gtag('config', 'G-189WWHXLSS');
 <meta property="og:description"
     content="The best digital marketing company in Mumbai. Our agency offers comprehensive digital marketing services, including online and internet marketing solutions.">
 
-<link rel="canonical" href="https://technofra.com/digital-marketing.php">
+<link rel="canonical" href="https://technofra.com/digital-marketing">
 
 
 <style>

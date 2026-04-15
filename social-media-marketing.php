@@ -38,7 +38,7 @@ gtag('config', 'G-189WWHXLSS');
 <meta property="og:title" content="Social Media Marketing Agency in Mumbai, India | Technofra">
 <meta property="og:description"
     content="Boost your brand with our social media marketing services. As a leading agency, we specialize in management, advertising, and consulting for small businesses.">
-<link rel="canonical" href="https://technofra.com/social-media-marketing.php">
+<link rel="canonical" href="https://technofra.com/social-media-marketing">
 
 <style>
 :root {

@@ -27,7 +27,7 @@ gtag('config', 'G-189WWHXLSS');
     <!--END MS Clarity -->
 
     <title>CMS Website development</title>
-    <link rel="canonical" href="https://technofra.com/CMS-website-design.php">
+    <link rel="canonical" href="https://technofra.com/cms-website-design">
 
 
 

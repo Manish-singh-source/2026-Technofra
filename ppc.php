@@ -27,7 +27,7 @@
 <meta name="description" content="Drive instant traffic and qualified leads with Technofra PPC services. We manage Google Ads, Meta Ads, remarketing, display campaigns, and conversion tracking.">
 <meta property="og:title" content="PPC Services Company | Technofra">
 <meta property="og:description" content="Technofra builds performance-driven PPC campaigns across Google and social platforms to increase visibility, leads, and return on ad spend.">
-<link rel="canonical" href="https://technofra.com/ppc.php">
+<link rel="canonical" href="https://technofra.com/ppc">
 
 <style>
     .ca-hero {

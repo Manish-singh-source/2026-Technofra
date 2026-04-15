@@ -27,7 +27,7 @@
 <meta name="description" content="Attract, educate, and convert your audience with Technofra content marketing services. We create blogs, website copy, landing pages, lead magnets, and content strategies that support growth.">
 <meta property="og:title" content="Content Marketing Services Company in Mumbai | Technofra">
 <meta property="og:description" content="Technofra helps brands grow with strategic content marketing including blog writing, website content, campaign copy, content planning, and performance-led content execution.">
-<link rel="canonical" href="https://technofra.com/content-marketing.php">
+<link rel="canonical" href="https://technofra.com/content-marketing">
 
 <style>
    :root {

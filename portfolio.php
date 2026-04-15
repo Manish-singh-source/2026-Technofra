@@ -30,7 +30,7 @@
 <meta property="og:title" content="Our Work | Technofra Portfolio – Web, App & Digital Projects">
 <meta property="og:description" content="Explore Technofra’s portfolio showcasing our work in web design, app development, branding, and digital marketing. See how we bring ideas to life!">
 
-<link rel="canonical" href="https://technofra.com/shopify-website-development.php">
+<link rel="canonical" href="https://technofra.com/portfolio">
 <style>
     .manish {
         padding: 15px;

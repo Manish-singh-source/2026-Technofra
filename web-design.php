@@ -46,7 +46,7 @@ gtag('config', 'G-189WWHXLSS');
 <meta property="og:description"
     content="Technofra is a leading website design and development company in Mumbai, India. We build fast, responsive, and business-focused websites to grow your online presence.">
 
-<link rel="canonical" href="https://technofra.com/web-design.php">
+<link rel="canonical" href="https://technofra.com/web-design">
 
 <style>
 .nav-lin.active {

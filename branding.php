@@ -30,7 +30,7 @@
 <meta property="og:description" content="Create a strong brand identity with Technofra. We offer logo design, branding, social media creatives, brochures, and corporate identity solutions.">
 
  
-<link rel="canonical" href="https://technofra.com/branding.php">
+<link rel="canonical" href="https://technofra.com/branding">
  
 
 <style>
