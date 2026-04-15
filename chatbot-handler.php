@@ -121,6 +121,333 @@ function chatbotGetConversationMessages()
     return is_array($messages) ? $messages : [];
 }
 
+function chatbotStoreLeadSnapshot(array $lead)
+{
+    if (session_status() !== PHP_SESSION_ACTIVE) {
+        return;
+    }
+
+    $_SESSION['tf_chatbot_lead'] = $lead;
+}
+
+function chatbotGetLeadSnapshot()
+{
+    $lead = $_SESSION['tf_chatbot_lead'] ?? [];
+
+    return is_array($lead) ? $lead : [];
+}
+
+function chatbotGetLeadQuestionMap()
+{
+    return [
+        'name' => "What's your name?",
+        'email' => "What's your email ID?",
+        'phone' => "What's your contact number?",
+        'requirement' => 'What do you need help with?',
+    ];
+}
+
+function chatbotGetLeadQuestion($field)
+{
+    $questions = chatbotGetLeadQuestionMap();
+
+    return $questions[$field] ?? 'Please share your requirement.';
+}
+
+function chatbotGetCurrentLeadField(array $lead)
+{
+    foreach (array_keys(chatbotGetLeadQuestionMap()) as $field) {
+        if (trim((string) ($lead[$field] ?? '')) === '') {
+            return $field;
+        }
+    }
+
+    return null;
+}
+
+function chatbotPushUserHistoryMessage($text, $storeConversation = false)
+{
+    $html = nl2br(chatbotEscape($text));
+    chatbotStoreRenderedMessage('user', $html);
+
+    if ($storeConversation) {
+        chatbotStoreConversationMessage('user', $text);
+    }
+
+    return $html;
+}
+
+function chatbotPushBotHistoryMessage($text, $storeConversation = false)
+{
+    $html = chatbotFormatReplyHtml($text);
+    chatbotStoreRenderedMessage('bot', $html);
+
+    if ($storeConversation) {
+        chatbotStoreConversationMessage('assistant', $text);
+    }
+
+    return $html;
+}
+
+function chatbotEnsureLeadOpeningHistory()
+{
+    $history = $_SESSION['tf_chatbot_history'] ?? [];
+
+    if (is_array($history) && !empty($history)) {
+        return;
+    }
+
+    chatbotPushBotHistoryMessage('Ready to scale? 🚀');
+
+    $currentField = chatbotGetCurrentLeadField(chatbotGetLeadSnapshot());
+
+    if ($currentField !== null) {
+        chatbotPushBotHistoryMessage(chatbotGetLeadQuestion($currentField));
+    }
+}
+
+function chatbotValidateLeadAnswer($field, $value)
+{
+    $value = chatbotSanitizeText((string) $value, $field === 'requirement' ? 1200 : 150);
+
+    if ($field === 'name') {
+        if ($value === '' || strlen($value) < 2 || !preg_match('/[A-Za-z]/', $value)) {
+            return [
+                'ok' => false,
+                'value' => '',
+                'message' => 'Please enter your full name.',
+            ];
+        }
+
+        return [
+            'ok' => true,
+            'value' => $value,
+            'message' => '',
+        ];
+    }
+
+    if ($field === 'email') {
+        if ($value === '' || !filter_var($value, FILTER_VALIDATE_EMAIL)) {
+            return [
+                'ok' => false,
+                'value' => '',
+                'message' => 'Please enter a valid email address.',
+            ];
+        }
+
+        return [
+            'ok' => true,
+            'value' => $value,
+            'message' => '',
+        ];
+    }
+
+    if ($field === 'phone') {
+        if ($value === '' || !preg_match('/^[0-9+\-\s()]{7,20}$/', $value)) {
+            return [
+                'ok' => false,
+                'value' => '',
+                'message' => 'Please enter a valid contact number.',
+            ];
+        }
+
+        return [
+            'ok' => true,
+            'value' => $value,
+            'message' => '',
+        ];
+    }
+
+    if ($value === '' || strlen($value) < 3) {
+        return [
+            'ok' => false,
+            'value' => '',
+            'message' => 'Please briefly share what you need help with.',
+        ];
+    }
+
+    return [
+        'ok' => true,
+        'value' => $value,
+        'message' => '',
+    ];
+}
+
+function chatbotHandleLeadCaptureMessage($message, $page)
+{
+    $lead = chatbotGetLeadSnapshot();
+    $currentField = chatbotGetCurrentLeadField($lead);
+
+    if ($currentField === null) {
+        return [
+            'handled' => false,
+        ];
+    }
+
+    $storeConversation = $currentField === 'requirement';
+    chatbotPushUserHistoryMessage($message, $storeConversation);
+
+    $validation = chatbotValidateLeadAnswer($currentField, $message);
+
+    if (!$validation['ok']) {
+        $replyText = $validation['message'] . "\n" . chatbotGetLeadQuestion($currentField);
+        $replyHtml = chatbotPushBotHistoryMessage($replyText);
+
+        return [
+            'handled' => true,
+            'reply_text' => $replyText,
+            'reply_html' => $replyHtml,
+            'continue_to_ai' => false,
+            'user_already_stored' => true,
+            'lead' => chatbotGetLeadSnapshot(),
+        ];
+    }
+
+    $lead[$currentField] = $validation['value'];
+    chatbotStoreLeadSnapshot($lead);
+    $nextField = chatbotGetCurrentLeadField($lead);
+
+    if ($nextField !== null) {
+        $replyText = chatbotGetLeadQuestion($nextField);
+        $replyHtml = chatbotPushBotHistoryMessage($replyText);
+
+        return [
+            'handled' => true,
+            'reply_text' => $replyText,
+            'reply_html' => $replyHtml,
+            'continue_to_ai' => false,
+            'user_already_stored' => true,
+            'lead' => $lead,
+        ];
+    }
+
+    $saveResult = chatbotPersistLead($lead, $page, $message);
+
+    if (!$saveResult['ok']) {
+        $replyText = $saveResult['message'];
+        $replyHtml = chatbotPushBotHistoryMessage($replyText);
+
+        return [
+            'handled' => true,
+            'reply_text' => $replyText,
+            'reply_html' => $replyHtml,
+            'continue_to_ai' => false,
+            'user_already_stored' => true,
+            'lead' => chatbotGetLeadSnapshot(),
+        ];
+    }
+
+    return [
+        'handled' => true,
+        'reply_text' => '',
+        'reply_html' => '',
+        'continue_to_ai' => true,
+        'ack_text' => 'Thanks ' . $lead['name'] . ', your details have been saved. Let me help you with that.',
+        'user_already_stored' => true,
+        'lead' => chatbotGetLeadSnapshot(),
+    ];
+}
+
+function chatbotGetSessionToken()
+{
+    if (session_status() === PHP_SESSION_ACTIVE) {
+        $existing = $_SESSION['tf_chatbot_session_token'] ?? '';
+
+        if (is_string($existing) && trim($existing) !== '') {
+            return trim($existing);
+        }
+
+        $sessionId = session_id();
+        $token = is_string($sessionId) && trim($sessionId) !== '' ? trim($sessionId) : '';
+
+        if ($token === '') {
+            try {
+                $token = bin2hex(random_bytes(16));
+            } catch (Exception $exception) {
+                $token = uniqid('tf-chat-', true);
+            }
+        }
+
+        $_SESSION['tf_chatbot_session_token'] = $token;
+
+        return $token;
+    }
+
+    try {
+        return bin2hex(random_bytes(16));
+    } catch (Exception $exception) {
+        return uniqid('tf-chat-', true);
+    }
+}
+
+function chatbotHasAnyLeadField(array $lead)
+{
+    foreach (['name', 'email', 'phone', 'requirement'] as $field) {
+        if (trim((string) ($lead[$field] ?? '')) !== '') {
+            return true;
+        }
+    }
+
+    return false;
+}
+
+function chatbotGetLatestUserMessage()
+{
+    $messages = chatbotGetConversationMessages();
+
+    for ($index = count($messages) - 1; $index >= 0; $index--) {
+        $entry = $messages[$index];
+
+        if (!is_array($entry) || ($entry['role'] ?? '') !== 'user') {
+            continue;
+        }
+
+        $text = chatbotSanitizeText((string) ($entry['text'] ?? ''), 1200);
+
+        if ($text !== '') {
+            return $text;
+        }
+    }
+
+    return '';
+}
+
+function chatbotBuildConversationExcerpt($latestUserMessage = '')
+{
+    $lines = [];
+
+    foreach (chatbotGetConversationMessages() as $entry) {
+        if (!is_array($entry) || !isset($entry['role'], $entry['text'])) {
+            continue;
+        }
+
+        $role = $entry['role'] === 'assistant' ? 'Assistant' : 'Visitor';
+        $text = chatbotSanitizeText((string) $entry['text'], 600);
+
+        if ($text === '') {
+            continue;
+        }
+
+        $lines[] = $role . ': ' . $text;
+    }
+
+    $latestUserMessage = chatbotSanitizeText((string) $latestUserMessage, 600);
+
+    if ($latestUserMessage !== '') {
+        $lastLine = end($lines);
+
+        if (!is_string($lastLine) || $lastLine !== 'Visitor: ' . $latestUserMessage) {
+            $lines[] = 'Visitor: ' . $latestUserMessage;
+        }
+    }
+
+    if (count($lines) > 10) {
+        $lines = array_slice($lines, -10);
+    }
+
+    return chatbotSanitizeText(implode("\n", $lines), 5000);
+}
+
 function chatbotFormatReplyHtml($text)
 {
     $text = trim($text);
@@ -566,6 +893,248 @@ function chatbotGetOpenAiModel()
     return trim((string) $model) !== '' ? trim((string) $model) : 'gpt-5.4-mini';
 }
 
+function chatbotGetDbConfig()
+{
+    static $dbConfig = null;
+
+    if ($dbConfig !== null) {
+        return $dbConfig;
+    }
+
+    $dbConfig = [];
+    $config = chatbotGetLocalConfig();
+
+    if (isset($config['db']) && is_array($config['db'])) {
+        $dbConfig = $config['db'];
+
+        return $dbConfig;
+    }
+
+    $bookCallConfigPath = __DIR__ . DIRECTORY_SEPARATOR . 'book-call-config.php';
+
+    if (is_file($bookCallConfigPath)) {
+        $loaded = include $bookCallConfigPath;
+
+        if (is_array($loaded) && isset($loaded['db']) && is_array($loaded['db'])) {
+            $dbConfig = $loaded['db'];
+        }
+    }
+
+    return $dbConfig;
+}
+
+function chatbotOpenDatabaseConnection(&$errorMessage = '')
+{
+    mysqli_report(MYSQLI_REPORT_OFF);
+
+    $db = chatbotGetDbConfig();
+    $dbHost = trim((string) ($db['host'] ?? 'localhost'));
+    $dbPort = (int) ($db['port'] ?? 3306);
+    $dbUser = (string) ($db['username'] ?? 'root');
+    $dbPass = (string) ($db['password'] ?? '');
+    $dbName = (string) ($db['database'] ?? '');
+
+    $hostCandidates = array_values(array_unique(array_filter([
+        $dbHost,
+        $dbHost === '127.0.0.1' ? 'localhost' : null,
+        $dbHost === 'localhost' ? '127.0.0.1' : null,
+    ])));
+
+    $lastConnectError = '';
+
+    foreach ($hostCandidates as $hostCandidate) {
+        $connection = @new mysqli($hostCandidate, $dbUser, $dbPass, $dbName, $dbPort);
+
+        if (!$connection->connect_errno) {
+            $connection->set_charset('utf8mb4');
+
+            return $connection;
+        }
+
+        $lastConnectError = sprintf(
+            '[%s:%d] (%d) %s',
+            $hostCandidate,
+            $dbPort,
+            $connection->connect_errno,
+            $connection->connect_error
+        );
+    }
+
+    $errorMessage = $lastConnectError !== '' ? $lastConnectError : 'Missing database configuration.';
+
+    return null;
+}
+
+function chatbotPersistLead(array $lead, $page, $latestUserMessage = '')
+{
+    $name = chatbotSanitizeText((string) ($lead['name'] ?? ''), 150);
+    $email = chatbotSanitizeText((string) ($lead['email'] ?? ''), 150);
+    $phone = chatbotSanitizeText((string) ($lead['phone'] ?? ''), 25);
+    $requirement = chatbotSanitizeText((string) ($lead['requirement'] ?? ''), 1200);
+    $sourcePage = chatbotSanitizeText((string) $page, 120);
+    $latestUserMessage = chatbotSanitizeText((string) $latestUserMessage, 1200);
+
+    if ($name === '') {
+        return [
+            'ok' => false,
+            'message' => 'Please enter your name before saving chat details.',
+        ];
+    }
+
+    if ($email === '' || !filter_var($email, FILTER_VALIDATE_EMAIL)) {
+        return [
+            'ok' => false,
+            'message' => 'Please enter a valid email address before saving chat details.',
+        ];
+    }
+
+    if ($phone === '' || !preg_match('/^[0-9+\-\s()]{7,20}$/', $phone)) {
+        return [
+            'ok' => false,
+            'message' => 'Please enter a valid contact number before saving chat details.',
+        ];
+    }
+
+    if ($requirement === '') {
+        $requirement = $latestUserMessage !== '' ? $latestUserMessage : chatbotGetLatestUserMessage();
+    }
+
+    if ($requirement === '') {
+        $requirement = 'General enquiry';
+    }
+
+    if ($sourcePage === '') {
+        $sourcePage = 'index';
+    }
+
+    $conversationExcerpt = chatbotBuildConversationExcerpt($latestUserMessage);
+    $lastUserMessage = $latestUserMessage !== '' ? $latestUserMessage : chatbotGetLatestUserMessage();
+    $sessionToken = chatbotGetSessionToken();
+    $dbError = '';
+    $mysqli = chatbotOpenDatabaseConnection($dbError);
+
+    if (!$mysqli instanceof mysqli) {
+        error_log('Chatbot lead DB connection failed: ' . $dbError);
+
+        return [
+            'ok' => false,
+            'message' => 'Database connection failed while saving chatbot lead.',
+        ];
+    }
+
+    $createTableSql = "CREATE TABLE IF NOT EXISTS chatbot_leads (
+        id INT UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY,
+        session_token VARCHAR(128) NOT NULL,
+        name VARCHAR(150) NOT NULL,
+        email VARCHAR(150) NOT NULL,
+        phone VARCHAR(25) NOT NULL,
+        requirement TEXT NOT NULL,
+        source_page VARCHAR(120) NOT NULL DEFAULT 'index',
+        conversation_excerpt TEXT NOT NULL,
+        last_user_message TEXT NOT NULL,
+        created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+        updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+        UNIQUE KEY unique_session_token (session_token)
+    ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4";
+
+    if (!$mysqli->query($createTableSql)) {
+        $mysqli->close();
+
+        return [
+            'ok' => false,
+            'message' => 'Could not prepare chatbot lead storage in the database.',
+        ];
+    }
+
+    $select = $mysqli->prepare('SELECT id FROM chatbot_leads WHERE session_token = ? LIMIT 1');
+
+    if (!$select) {
+        $mysqli->close();
+
+        return [
+            'ok' => false,
+            'message' => 'Could not verify the existing chatbot lead.',
+        ];
+    }
+
+    $select->bind_param('s', $sessionToken);
+    $select->execute();
+    $select->store_result();
+    $hasExistingLead = $select->num_rows > 0;
+    $select->close();
+
+    if ($hasExistingLead) {
+        $statement = $mysqli->prepare(
+            'UPDATE chatbot_leads SET name = ?, email = ?, phone = ?, requirement = ?, source_page = ?, conversation_excerpt = ?, last_user_message = ? WHERE session_token = ?'
+        );
+    } else {
+        $statement = $mysqli->prepare(
+            'INSERT INTO chatbot_leads (name, email, phone, requirement, source_page, conversation_excerpt, last_user_message, session_token) VALUES (?, ?, ?, ?, ?, ?, ?, ?)'
+        );
+    }
+
+    if (!$statement) {
+        $mysqli->close();
+
+        return [
+            'ok' => false,
+            'message' => 'Could not prepare the chatbot lead save query.',
+        ];
+    }
+
+    $statement->bind_param(
+        'ssssssss',
+        $name,
+        $email,
+        $phone,
+        $requirement,
+        $sourcePage,
+        $conversationExcerpt,
+        $lastUserMessage,
+        $sessionToken
+    );
+
+    if (!$statement->execute()) {
+        $statement->close();
+        $mysqli->close();
+
+        return [
+            'ok' => false,
+            'message' => 'Chatbot lead data could not be saved right now. Please try again.',
+        ];
+    }
+
+    $statement->close();
+    $mysqli->close();
+
+    $snapshot = [
+        'name' => $name,
+        'email' => $email,
+        'phone' => $phone,
+        'requirement' => $requirement,
+        'source_page' => $sourcePage,
+    ];
+
+    chatbotStoreLeadSnapshot($snapshot);
+
+    return [
+        'ok' => true,
+        'message' => 'Chat details saved successfully. Our team can now follow up in MyCRM.',
+        'lead' => $snapshot,
+    ];
+}
+
+function chatbotRefreshSavedLead($page, $latestUserMessage = '')
+{
+    $lead = chatbotGetLeadSnapshot();
+
+    if (!chatbotHasAnyLeadField($lead)) {
+        return;
+    }
+
+    chatbotPersistLead($lead, $page, $latestUserMessage);
+}
+
 function chatbotBuildSystemPrompt($pageLabel)
 {
     return implode("\n", [
@@ -780,6 +1349,7 @@ if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
 
 $input = chatbotGetJsonInput();
 $action = chatbotSanitizeText((string) ($input['action'] ?? $_POST['action'] ?? 'message'), 20);
+chatbotEnsureLeadOpeningHistory();
 
 if ($action === 'history') {
     $history = $_SESSION['tf_chatbot_history'] ?? [];
@@ -787,11 +1357,13 @@ if ($action === 'history') {
     chatbotRespond([
         'success' => true,
         'history' => is_array($history) ? $history : [],
+        'lead' => chatbotGetLeadSnapshot(),
     ]);
 }
 
-$message = chatbotSanitizeText((string) ($input['message'] ?? $_POST['message'] ?? ''), 1200);
 $page = chatbotSanitizeText((string) ($input['page'] ?? $_POST['page'] ?? ''), 120);
+
+$message = chatbotSanitizeText((string) ($input['message'] ?? $_POST['message'] ?? ''), 1200);
 
 if ($message === '') {
     chatbotRespond([
@@ -801,7 +1373,24 @@ if ($message === '') {
 }
 
 $pageLabel = chatbotPageLabel($page);
-$userHtml = nl2br(chatbotEscape($message));
+if (chatbotGetCurrentLeadField(chatbotGetLeadSnapshot()) !== null) {
+    $leadFlowResult = chatbotHandleLeadCaptureMessage($message, $page);
+
+    if ($leadFlowResult['handled'] && !$leadFlowResult['continue_to_ai']) {
+        chatbotRespond([
+            'success' => true,
+            'reply' => $leadFlowResult['reply_html'],
+            'is_ai' => false,
+            'lead' => $leadFlowResult['lead'] ?? chatbotGetLeadSnapshot(),
+        ]);
+    }
+}
+
+if (!empty($leadFlowResult['user_already_stored'])) {
+    // User bubble was already added during guided lead capture.
+} else {
+    chatbotPushUserHistoryMessage($message, true);
+}
 $directReply = chatbotBuildFallbackReply($message, $pageLabel, false);
 $aiResult = [
     'ok' => false,
@@ -825,16 +1414,21 @@ if ($replyText === '' && $aiResult['ok']) {
 if ($replyText === '') {
     $replyText = chatbotBuildFallbackReply($message, $pageLabel);
 }
+
+if (isset($leadFlowResult) && !empty($leadFlowResult['continue_to_ai']) && !empty($leadFlowResult['ack_text'])) {
+    $replyText = $leadFlowResult['ack_text'] . "\n" . $replyText;
+}
+
 $replyHtml = chatbotFormatReplyHtml($replyText);
 $isAiReply = $directReply === '' && $aiResult['ok'] && !chatbotLooksGenericReply($replyText);
 
-chatbotStoreRenderedMessage('user', $userHtml);
 chatbotStoreRenderedMessage('bot', $replyHtml);
-chatbotStoreConversationMessage('user', $message);
 chatbotStoreConversationMessage('assistant', $replyText);
+chatbotRefreshSavedLead($page, $message);
 
 chatbotRespond([
     'success' => true,
     'reply' => $replyHtml,
     'is_ai' => $isAiReply,
+    'lead' => chatbotGetLeadSnapshot(),
 ]);

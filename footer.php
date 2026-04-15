@@ -272,8 +272,8 @@
      <div class="tf-chatbot-box" id="tfChatbotBox">
          <div class="tf-chatbot-header">
              <div>
-                 <h4>Technofra Support</h4>
-                 <span>AI support assistant</span>
+                 <h4><img src="assets/image/icons/technofra_logo.png" alt="technofra logo" width="250" height="45" class="img-fluid ps-2 tech_logo" /></h4>
+                 <!-- <span>AI support assistant</span> -->
              </div>
              <button class="tf-chatbot-close" id="tfChatbotClose" aria-label="Close chat">×</button>
          </div>
@@ -302,7 +302,7 @@
  </div>
 
  </div>
- <a href="https://wa.me/918080721003" class="whatsapp-float" target="_blank" rel="noopener noreferrer"
+ <a href="https://wa.me/918080803374" class="whatsapp-float" target="_blank" rel="noopener noreferrer"
      aria-label="Chat on WhatsApp">
      <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" />
  </a>
@@ -593,7 +593,6 @@ if (navClose && rightMenu) {
     const endpoint = widget.dataset.endpoint || "chatbot-handler.php";
     const currentPage = widget.dataset.page || window.location.pathname;
     const defaultButtonText = sendBtn.textContent;
-    const introMessages = body.querySelectorAll(".tf-msg-bot");
     let historyLoaded = false;
     let isSending = false;
 
@@ -605,9 +604,18 @@ if (navClose && rightMenu) {
 
     closeBtn.innerHTML = "&times;";
 
-    if (introMessages.length > 0) {
-        introMessages[0].innerHTML = "Hello.<br>I am Technofra's AI assistant. Please share your requirement, and I will guide you with the most relevant next step.";
+    function setDefaultIntro() {
+        body.innerHTML = [
+            '<div class="tf-msg tf-msg-bot">Ready to scale? 🚀</div>',
+            '<div class="tf-msg tf-msg-bot">What\'s your name?</div>'
+        ].join("");
+
+        if (quickActions) {
+            quickActions.remove();
+        }
     }
+
+    setDefaultIntro();
 
     function toggleChat(forceOpen) {
         if (typeof forceOpen === "boolean") {
@@ -701,6 +709,7 @@ if (navClose && rightMenu) {
             });
 
             if (!Array.isArray(data.history) || !data.history.length) {
+                setDefaultIntro();
                 return;
             }
 
@@ -711,6 +720,7 @@ if (navClose && rightMenu) {
             });
         } catch (error) {
             historyLoaded = false;
+            setDefaultIntro();
         }
     }
 
@@ -765,19 +775,6 @@ if (navClose && rightMenu) {
     });
 
     sendBtn.addEventListener("click", sendMessage);
-
-    if (quickActions) {
-        quickActions.addEventListener("click", function(event) {
-            const chip = event.target.closest(".tf-chatbot-chip");
-
-            if (!chip || isSending) {
-                return;
-            }
-
-            input.value = chip.dataset.prompt || "";
-            sendMessage();
-        });
-    }
 
     input.addEventListener("keydown", function(e) {
         if (e.key === "Enter") {
