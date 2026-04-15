@@ -18,31 +18,6 @@ if (is_dir($chatbotSessionPath) && is_writable($chatbotSessionPath)) {
 
 header('Content-Type: application/json; charset=utf-8');
 
-function chatbotInitializeSessionState()
-{
-    if (session_status() !== PHP_SESSION_ACTIVE) {
-        return;
-    }
-
-    $sessionVersion = 'guided-lead-v1';
-    $storedVersion = $_SESSION['tf_chatbot_flow_version'] ?? '';
-
-    if ($storedVersion === $sessionVersion) {
-        return;
-    }
-
-    unset(
-        $_SESSION['tf_chatbot_history'],
-        $_SESSION['tf_chatbot_messages'],
-        $_SESSION['tf_chatbot_lead'],
-        $_SESSION['tf_chatbot_session_token']
-    );
-
-    $_SESSION['tf_chatbot_flow_version'] = $sessionVersion;
-}
-
-chatbotInitializeSessionState();
-
 function chatbotRespond($payload, $statusCode = 200)
 {
     if (ob_get_length()) {
@@ -709,7 +684,7 @@ function chatbotBuildFallbackReply($message, $pageLabel, $allowGeneric = true)
     $isInternship = chatbotKeywordMatch($normalized, ['internship', 'intern', 'trainee', 'fresher job', 'fresher opening']);
     $isCareerApply = chatbotKeywordMatch($normalized, ['apply', 'application', 'resume', 'cv', 'how to apply', 'apply kaise', 'apply kaise kare', 'send cv']);
     $isCareerSalary = chatbotKeywordMatch($normalized, ['salary', 'package', 'ctc', 'stipend', 'pay scale', 'kitni salary']);
-    $isApi = chatbotKeywordMatch($normalized, [' api', 'api ', 'api?', 'apis', 'integration api', 'rest api', 'developer api', 'business api']);
+    $isApi = chatbotKeywordMatch($normalized, [' api', 'Api', 'api ', 'api?', 'apis', 'integration api', 'rest api', 'developer api', 'business api', 'What type api', 'API']);
     $isCompanyInfo = chatbotKeywordMatch($normalized, ['about', 'company', 'who are you', 'technofra kya hai', 'about technofra']);
     $isLocation = chatbotKeywordMatch($normalized, ['address', 'location', 'office', 'where are you', 'kaha ho', 'kahan ho']);
     $isHosting = chatbotKeywordMatch($normalized, ['domain', 'hosting', 'server', 'ssl']);
@@ -1387,6 +1362,12 @@ if ($action === 'history') {
 }
 
 $page = chatbotSanitizeText((string) ($input['page'] ?? $_POST['page'] ?? ''), 120);
+$leadInput = [
+    'name' => chatbotSanitizeText((string) ($input['name'] ?? $_POST['name'] ?? ''), 150),
+    'email' => chatbotSanitizeText((string) ($input['email'] ?? $_POST['email'] ?? ''), 150),
+    'phone' => chatbotSanitizeText((string) ($input['phone'] ?? $_POST['phone'] ?? ''), 25),
+    'requirement' => chatbotSanitizeText((string) ($input['requirement'] ?? $_POST['requirement'] ?? ''), 1200),
+];
 
 $message = chatbotSanitizeText((string) ($input['message'] ?? $_POST['message'] ?? ''), 1200);
 
