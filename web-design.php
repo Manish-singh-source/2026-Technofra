@@ -4,6 +4,7 @@ session_start();
 $bookCallStatus = $_SESSION['book_call_status'] ?? null;
 unset($_SESSION['book_call_status']);
 
+ $skipAutoCanonical = true;
 include 'header.php';
 ?>
 <!-- Google tag (gtag.js) -->

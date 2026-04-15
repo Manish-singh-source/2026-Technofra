@@ -9,9 +9,19 @@
     <?php $loadSlickCss = $loadSlickCss ?? true; ?>
     <?php $loadOwlCss = $loadOwlCss ?? true; ?>
     <?php $loadLegacyThemeCss = $loadLegacyThemeCss ?? true; ?>
+    <?php
+    $skipAutoCanonical = $skipAutoCanonical ?? false;
+    $canonicalBaseUrl = 'https://technofra.com';
+    $canonicalScript = basename($_SERVER['SCRIPT_NAME'] ?? 'index.php', '.php');
+    $canonicalPath = $canonicalScript === 'index' ? '/' : '/' . rawurlencode($canonicalScript);
+    $canonicalUrl = $canonicalBaseUrl . $canonicalPath;
+    ?>
     <!--required meta tags-->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <?php if (!$skipAutoCanonical): ?>
+    <link rel="canonical" href="<?php echo htmlspecialchars($canonicalUrl, ENT_QUOTES, 'UTF-8'); ?>">
+    <?php endif; ?>
     
     <link rel="icon" href="assets/image/favicon.png" type="image/png" sizes="16x16">
     <link rel="preload" href="assets/fonts/fa-solid-900.woff2" as="font" type="font/woff2" crossorigin>
