@@ -25,7 +25,7 @@ gtag('config', 'G-189WWHXLSS');
 })(window, document, "clarity", "script", "mxzdn16ndk");
 </script>
 <!--END MS Clarity -->
-<<!-- Meta Keywords -->
+<!-- Meta Keywords -->
 <meta name="keywords"
   content="mobile app development company, mobile app development services, ios app development, app development services, mobile app development agency">
 

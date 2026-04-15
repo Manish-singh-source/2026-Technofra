@@ -889,11 +889,13 @@ article {
             <div class="col-lg-6">
                 <div class="hero-content-wrap">
 
-                    <h1 class="fw-bold display-5 white">Web Design and Development Company</h1>
-                    <p class="lead mt-3">At Technofra, we specialize in creating stunning, high-performance websites
-                        that drive traffic, engage visitors, and convert leads. With 14+ years of experience and a team
-                        of dedicated professionals, we offer tailored website development services to meet the unique
-                        needs of businesses of all sizes.</p>
+                    <h1 class="fw-bold display-5 white">Web Design & Development Company in Mumbai</h1>
+                    <p class="lead mt-3">
+                        At Technofra, we specialize in creating stunning, high-performance websites that drive traffic,
+                        engage visitors, and convert leads into customers. With over 14 years of experience and a team
+                        of skilled professionals, we offer custom website design and development services tailored to
+                        meet the unique needs of businesses of all sizes.
+                    </p>
                     <div class="mt-5">
                         <div class="d-flex align-items-center gap-3 flex-wrap flex-md-nowrap mt-4">
                             <p class="text-black fs-14 mb-0">Types of Website: </p>
