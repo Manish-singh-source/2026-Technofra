@@ -18,6 +18,31 @@ if (is_dir($chatbotSessionPath) && is_writable($chatbotSessionPath)) {
 
 header('Content-Type: application/json; charset=utf-8');
 
+function chatbotInitializeSessionState()
+{
+    if (session_status() !== PHP_SESSION_ACTIVE) {
+        return;
+    }
+
+    $sessionVersion = 'guided-lead-v1';
+    $storedVersion = $_SESSION['tf_chatbot_flow_version'] ?? '';
+
+    if ($storedVersion === $sessionVersion) {
+        return;
+    }
+
+    unset(
+        $_SESSION['tf_chatbot_history'],
+        $_SESSION['tf_chatbot_messages'],
+        $_SESSION['tf_chatbot_lead'],
+        $_SESSION['tf_chatbot_session_token']
+    );
+
+    $_SESSION['tf_chatbot_flow_version'] = $sessionVersion;
+}
+
+chatbotInitializeSessionState();
+
 function chatbotRespond($payload, $statusCode = 200)
 {
     if (ob_get_length()) {
