@@ -228,23 +228,128 @@ function chatbotKeywordMatch($text, $keywords)
     return false;
 }
 
-function chatbotBuildFallbackReply($message, $pageLabel)
+function chatbotGetServiceCatalog()
+{
+    return [
+        'Website Development' => 'https://technofra.com/web-design',
+        'App Development' => 'https://technofra.com/android-app-development',
+        'Branding & UI/UX' => 'https://technofra.com/branding',
+        'Digital Marketing & SEO' => 'https://technofra.com/digital-marketing',
+        'Social Media Marketing' => 'https://technofra.com/social-media-marketing',
+        'Payment Gateway Integration' => 'https://technofra.com/payment-gateway',
+        'Chatbot Solutions' => 'https://technofra.com/chatbot',
+        'WhatsApp Solutions' => 'https://technofra.com/whatsapp',
+        'SMS / OTP Solutions' => 'https://technofra.com/sms-otp',
+        'Google Forms Integration' => 'https://technofra.com/google-forms',
+        'Domain & Hosting' => 'https://technofra.com/domain-hosting-services',
+    ];
+}
+
+function chatbotBuildServiceListReply()
+{
+    $lines = [
+        'Technofra provides the following core services:',
+    ];
+
+    foreach (chatbotGetServiceCatalog() as $label => $url) {
+        $lines[] = '- ' . $label . ': [[' . $label . '|' . $url . ']]';
+    }
+
+    $lines[] = 'If you want, tell me your exact requirement and I will suggest the most suitable service for you.';
+
+    return implode("\n", $lines);
+}
+
+function chatbotBuildFallbackReply($message, $pageLabel, $allowGeneric = true)
 {
     $normalized = function_exists('mb_strtolower') ? mb_strtolower($message, 'UTF-8') : strtolower($message);
 
-    $isGreeting = chatbotKeywordMatch($normalized, ['hi', 'hello', 'hey', 'namaste']);
-    $isWebsite = chatbotKeywordMatch($normalized, ['website', 'web design', 'web development', 'wordpress', 'shopify', 'landing page']);
-    $isApp = chatbotKeywordMatch($normalized, ['app', 'android', 'ios', 'mobile app']);
-    $isBranding = chatbotKeywordMatch($normalized, ['branding', 'logo', 'brand', 'ui', 'ux', 'design']);
-    $isMarketing = chatbotKeywordMatch($normalized, ['seo', 'marketing', 'social media', 'ppc', 'ads', 'google']);
-    $isPayment = chatbotKeywordMatch($normalized, ['payment', 'gateway', 'razorpay', 'payu', 'upi']);
-    $isChatbot = chatbotKeywordMatch($normalized, ['chatbot', 'bot', 'automation', 'whatsapp']);
-    $isPricing = chatbotKeywordMatch($normalized, ['price', 'pricing', 'cost', 'budget', 'quote', 'package']);
-    $isSupport = chatbotKeywordMatch($normalized, ['help', 'support', 'issue', 'problem', 'assist']);
-    $isContact = chatbotKeywordMatch($normalized, ['call', 'phone', 'email', 'contact', 'callback', 'talk']);
+    $isGreeting = chatbotKeywordMatch($normalized, ['hi', 'hello', 'hey', 'namaste', 'hii', 'helo']);
+    $isServicesQuery = chatbotKeywordMatch($normalized, [
+        'services',
+        'service',
+        'konsi service',
+        'kon si service',
+        'kaunsi service',
+        'kya service',
+        'kya kya karte',
+        'what services',
+        'what do you do',
+        'what do you provide',
+        'provide',
+        'offer',
+        'konsi konsi',
+        'kaun kaun si',
+        'kya kya',
+    ]);
+    $isWebsite = chatbotKeywordMatch($normalized, [
+        'website',
+        'web design',
+        'web development',
+        'wordpress',
+        'shopify',
+        'landing page',
+        'website banani',
+        'website banana',
+        'site banana',
+        'site design',
+    ]);
+    $isApp = chatbotKeywordMatch($normalized, [
+        'app',
+        'android',
+        'ios',
+        'mobile app',
+        'application',
+        'app development',
+    ]);
+    $isBranding = chatbotKeywordMatch($normalized, [
+        'branding',
+        'logo',
+        'brand',
+        'ui',
+        'ux',
+        'design',
+        'brand identity',
+        'creative',
+    ]);
+    $isMarketing = chatbotKeywordMatch($normalized, [
+        'seo',
+        'marketing',
+        'social media',
+        'ppc',
+        'ads',
+        'google',
+        'lead generation',
+        'promotion',
+        'digital marketing',
+    ]);
+    $isPayment = chatbotKeywordMatch($normalized, [
+        'payment',
+        'gateway',
+        'razorpay',
+        'payu',
+        'upi',
+        'integration',
+        'payment gateway',
+    ]);
+    $isWhatsApp = chatbotKeywordMatch($normalized, ['whatsapp', 'wa bot', 'whatsapp api']);
+    $isChatbot = chatbotKeywordMatch($normalized, ['chatbot', 'bot', 'automation']);
+    $isPricing = chatbotKeywordMatch($normalized, ['price', 'pricing', 'cost', 'budget', 'quote', 'package', 'kitna', 'charges', 'rate']);
+    $isSupport = chatbotKeywordMatch($normalized, ['help', 'support', 'issue', 'problem', 'assist', 'solve']);
+    $isContact = chatbotKeywordMatch($normalized, ['call', 'phone', 'email', 'contact', 'callback', 'talk', 'number', 'contact no', 'phone no']);
+    $isPortfolio = chatbotKeywordMatch($normalized, ['portfolio', 'work', 'projects', 'case studies', 'samples']);
+    $isCompanyInfo = chatbotKeywordMatch($normalized, ['about', 'company', 'who are you', 'technofra kya hai', 'about technofra']);
+    $isLocation = chatbotKeywordMatch($normalized, ['address', 'location', 'office', 'where are you', 'kaha ho', 'kahan ho']);
+    $isHosting = chatbotKeywordMatch($normalized, ['domain', 'hosting', 'server', 'ssl']);
+    $isForms = chatbotKeywordMatch($normalized, ['google form', 'forms', 'email form', 'form integration']);
+    $isSmsOtp = chatbotKeywordMatch($normalized, ['sms', 'otp', 'verification', 'authentication']);
 
     if ($isGreeting) {
         return 'Hello, and welcome to Technofra.' . "\n" . 'Please share your requirement, and I will guide you with the most relevant next step.';
+    }
+
+    if ($isServicesQuery) {
+        return chatbotBuildServiceListReply();
     }
 
     if ($isWebsite) {
@@ -267,6 +372,10 @@ function chatbotBuildFallbackReply($message, $pageLabel)
         return 'Yes, we provide secure payment gateway integrations for websites and applications.' . "\n" . 'Please review our [[Payment Gateway Solutions|https://technofra.com/payment-gateway]] page for more information.';
     }
 
+    if ($isWhatsApp) {
+        return 'Yes, we provide WhatsApp API and business automation solutions for customer engagement, notifications, and support workflows.' . "\n" . 'You can review our [[WhatsApp Solutions|https://technofra.com/whatsapp]] page for more details.';
+    }
+
     if ($isChatbot) {
         return 'Yes, we can set up website chatbots, WhatsApp automation, and customer support workflows.' . "\n" . 'You can explore our [[Chatbot Solutions|https://technofra.com/chatbot]] page for relevant use cases.';
     }
@@ -276,14 +385,54 @@ function chatbotBuildFallbackReply($message, $pageLabel)
     }
 
     if ($isContact) {
-        return 'You can connect with our team through the [[Contact Page|https://technofra.com/contact]], schedule a discussion via [[Book a Call|https://technofra.com/book-a-call]], or message us on [[WhatsApp|https://wa.me/918080721003]].';
+        return 'You can connect with our team on +91 8080 80 3374 or +91 8080 80 3375.' . "\n" . 'You may also use our [[Contact Page|https://technofra.com/contact]], schedule a discussion via [[Book a Call|https://technofra.com/book-a-call]], or message us on [[WhatsApp|https://wa.me/918080721003]].';
     }
 
     if ($isSupport) {
         return 'I am here to assist you.' . "\n" . 'Please share your requirement, business goal, or issue in one line so I can guide you more precisely.';
     }
 
+    if ($isPortfolio) {
+        return 'Yes, you can review our recent work and portfolio examples here: [[Portfolio|https://technofra.com/portfolio]].' . "\n" . 'If you share your industry or requirement, I can also suggest the most relevant service category.';
+    }
+
+    if ($isCompanyInfo) {
+        return 'Technofra is a digital solutions company that helps businesses with website development, app development, branding, marketing, payment integrations, automation, and support solutions.' . "\n" . 'If you would like, I can also list our core services for you.';
+    }
+
+    if ($isLocation) {
+        return 'Our office is located at Office No. 501, 5th Floor, Ghanshyam Enclave, New Link Road, Kandivali (West), Mumbai - 400067, Maharashtra, India.' . "\n" . 'For direct discussion, you may also use our [[Contact Page|https://technofra.com/contact]].';
+    }
+
+    if ($isHosting) {
+        return 'Yes, we also provide domain registration, hosting, SSL, and related setup support.' . "\n" . 'Please review our [[Domain & Hosting|https://technofra.com/domain-hosting-services]] page for details.';
+    }
+
+    if ($isForms) {
+        return 'We can help with Google Forms, email forms, and business form integrations.' . "\n" . 'Relevant pages: [[Google Forms Integration|https://technofra.com/google-forms]] and [[Email Form Solutions|https://technofra.com/email-form]].';
+    }
+
+    if ($isSmsOtp) {
+        return 'Yes, we provide SMS and OTP based verification solutions for websites and applications.' . "\n" . 'Please review our [[SMS / OTP Solutions|https://technofra.com/sms-otp]] page.';
+    }
+
+    if (!$allowGeneric) {
+        return '';
+    }
+
     return 'Thank you for your message. You are currently browsing our ' . $pageLabel . '.' . "\n" . 'Please let me know whether you need website development, app development, branding, marketing, payment integration, or chatbot support.';
+}
+
+function chatbotLooksGenericReply($text)
+{
+    $normalized = function_exists('mb_strtolower') ? mb_strtolower($text, 'UTF-8') : strtolower($text);
+
+    return chatbotKeywordMatch($normalized, [
+        'you are currently browsing our',
+        'please let me know whether you need',
+        'thank you for your message',
+        'our team will get back to you shortly',
+    ]);
 }
 
 function chatbotGetLocalConfig()
@@ -349,6 +498,9 @@ function chatbotBuildSystemPrompt($pageLabel)
         'Answer directly based on the user question.',
         'Keep replies concise, practical, confident, and professional.',
         'Avoid casual phrasing, slang, or overly friendly filler.',
+        'Understand Hindi, Hinglish, and short informal phrasing from Indian users.',
+        'If the user asks for services, list the actual Technofra services clearly instead of giving a generic fallback.',
+        'If the user asks for contact number, provide the numbers +91 8080 80 3374 and +91 8080 80 3375.',
         'If the user asks about pricing, explain that pricing depends on scope and recommend contact or book-a-call.',
         'If the user asks something unrelated to Technofra services, still answer briefly and then bring the conversation back to how Technofra can help.',
         'Never claim fake guarantees, fake pricing, or unavailable company details.',
@@ -356,7 +508,7 @@ function chatbotBuildSystemPrompt($pageLabel)
         'Do not output raw HTML.',
         'Do not expose raw URLs directly in the visible reply.',
         'If a link is helpful, use this exact format: [[Label|URL]].',
-        'Use at most 2 links in one reply.',
+        'Use at most 3 links in one reply.',
         'Available links:',
         '[[Contact Page|https://technofra.com/contact]]',
         '[[Book a Call|https://technofra.com/book-a-call]]',
@@ -364,8 +516,15 @@ function chatbotBuildSystemPrompt($pageLabel)
         '[[App Development|https://technofra.com/android-app-development]]',
         '[[Branding Services|https://technofra.com/branding]]',
         '[[Digital Marketing|https://technofra.com/digital-marketing]]',
+        '[[Social Media Marketing|https://technofra.com/social-media-marketing]]',
         '[[Payment Gateway Solutions|https://technofra.com/payment-gateway]]',
         '[[Chatbot Solutions|https://technofra.com/chatbot]]',
+        '[[WhatsApp Solutions|https://technofra.com/whatsapp]]',
+        '[[SMS / OTP Solutions|https://technofra.com/sms-otp]]',
+        '[[Google Forms Integration|https://technofra.com/google-forms]]',
+        '[[Email Form Solutions|https://technofra.com/email-form]]',
+        '[[Domain & Hosting|https://technofra.com/domain-hosting-services]]',
+        '[[Portfolio|https://technofra.com/portfolio]]',
         '[[WhatsApp|https://wa.me/918080721003]]',
     ]);
 }
@@ -561,9 +720,31 @@ if ($message === '') {
 
 $pageLabel = chatbotPageLabel($page);
 $userHtml = nl2br(chatbotEscape($message));
-$aiResult = chatbotRequestAiReply($message, $pageLabel);
-$replyText = $aiResult['ok'] ? $aiResult['text'] : chatbotBuildFallbackReply($message, $pageLabel);
+$directReply = chatbotBuildFallbackReply($message, $pageLabel, false);
+$aiResult = [
+    'ok' => false,
+    'text' => '',
+];
+
+if ($directReply === '') {
+    $aiResult = chatbotRequestAiReply($message, $pageLabel);
+}
+
+$replyText = $directReply;
+
+if ($replyText === '' && $aiResult['ok']) {
+    $replyText = $aiResult['text'];
+
+    if (chatbotLooksGenericReply($replyText)) {
+        $replyText = chatbotBuildFallbackReply($message, $pageLabel);
+    }
+}
+
+if ($replyText === '') {
+    $replyText = chatbotBuildFallbackReply($message, $pageLabel);
+}
 $replyHtml = chatbotFormatReplyHtml($replyText);
+$isAiReply = $directReply === '' && $aiResult['ok'] && !chatbotLooksGenericReply($replyText);
 
 chatbotStoreRenderedMessage('user', $userHtml);
 chatbotStoreRenderedMessage('bot', $replyHtml);
@@ -573,5 +754,5 @@ chatbotStoreConversationMessage('assistant', $replyText);
 chatbotRespond([
     'success' => true,
     'reply' => $replyHtml,
-    'is_ai' => $aiResult['ok'],
+    'is_ai' => $isAiReply,
 ]);
