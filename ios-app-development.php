@@ -25,11 +25,21 @@ gtag('config', 'G-189WWHXLSS');
 })(window, document, "clarity", "script", "mxzdn16ndk");
 </script>
 <!--END MS Clarity -->
-<title>iOS App Development Agency  | Technofra</title>
+<<!-- Meta Keywords -->
+<meta name="keywords"
+  content="mobile app development company, mobile app development services, ios app development, app development services, mobile app development agency">
+
+<!-- Title -->
+<title>Mobile App Development Company in Mumbai, India | Android & iOS Services – Technofra</title>
+
+<!-- Meta Description -->
 <meta name="description"
-    content="Best mobile app development Agency. we are expert in native, hybrid, and cross-platform mobile app development services by Technofra. Contact us today!">
+  content="Looking for a top mobile app development company? Our agency offers expert mobile app development services, including Android and iOS app development.">
 
-
+<!-- Open Graph -->
+<meta property="og:title" content="Mobile App Development Company in Mumbai, India">
+<meta property="og:description"
+  content="Looking for a top mobile app development company? Our agency offers expert mobile app development services, including Android and iOS app development.">
 <style>
 .dpbg-white {
     background-color: #ecf5fb !important;

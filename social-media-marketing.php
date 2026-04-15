@@ -23,12 +23,21 @@ gtag('config', 'G-189WWHXLSS');
     y.parentNode.insertBefore(t, y);
 })(window, document, "clarity", "script", "mxzdn16ndk");
 </script>
-<title>Social Media Marketing Services Company | Technofra</title>
+<!-- Meta Keywords -->
+<meta name="keywords"
+    content="social media marketing, social media marketing company, social media marketing services, social media management, social media advertising, social media agency, social media marketing agency, social media marketing agency for small business, social media advertising agencies, social media marketing consultants">
+
+<!-- Title -->
+<title>Social Media Marketing Agency in Mumbai, India | SMM Services – Technofra</title>
+
+<!-- Meta Description -->
 <meta name="description"
-    content="Build brand presence and generate engagement with Technofra social media marketing services. We manage content strategy, creative posting, paid promotions, reels, and performance reporting.">
-<meta property="og:title" content="Social Media Marketing Services Company | Technofra">
+    content="Boost your brand with our social media marketing services. As a leading agency, we specialize in management, advertising, and consulting for small businesses.">
+
+<!-- Open Graph -->
+<meta property="og:title" content="Social Media Marketing Agency in Mumbai, India | Technofra">
 <meta property="og:description"
-    content="Technofra helps brands grow on Instagram, Facebook, LinkedIn, and more with strategic social media marketing, content planning, creative execution, and ad support.">
+    content="Boost your brand with our social media marketing services. As a leading agency, we specialize in management, advertising, and consulting for small businesses.">
 <link rel="canonical" href="https://technofra.com/social-media-marketing.php">
 
 <style>

@@ -70,7 +70,7 @@
                          <li>
                              <i class="fa-solid fa-phone"></i>
                              <span>
-                                 <a href="tel:+918080803374">  +91 8080 80 3374</a><br>
+                                 <a href="tel:+918080803374"> +91 8080 80 3374</a><br>
                                  <a href="tel:+918080803375"> +91 8080 80 3375</a> <br>
                                  <!-- <a href="tel:+64225055648"> New Zealand : +64 22 505 5648</a> -->
                              </span>
@@ -83,11 +83,11 @@
                                  <!-- <a href="mailto:info@technofra.co.nz">info@technofra.co.nz</a> -->
                              </span>
                          </li>
-                          <li>
+                         <li>
                              <i class="fa-solid fa-globe"></i>
                              <span> <a href="https://technofra.com/#">www.technofra.com</a> </span>
                          </li>
-                           <!--<li>
+                         <!--<li>
                              <i class="fa-brands fa-x-twitter"></i>
                              <span><a href="https://x.com/Technofra_">twitter.com/Technofra</a></span>
                          </li> -->
@@ -373,63 +373,100 @@ window.addEventListener("load", function() {
 
     if (!originalCount) return;
 
-    originalCards.forEach(card => track.appendChild(card.cloneNode(true)));
-    originalCards.forEach(card => track.appendChild(card.cloneNode(true)));
+    const firstCard = originalCards[0];
+
+    if (!firstCard) {
+        return;
+    }
+
+    const cardWidth = firstCard.getBoundingClientRect().width + gap;
+
+    if (!cardWidth) {
+        return;
+    }
+
+    const cloneFragment = document.createDocumentFragment();
+    originalCards.forEach(card => cloneFragment.appendChild(card.cloneNode(true)));
+    originalCards.forEach(card => cloneFragment.appendChild(card.cloneNode(true)));
+    track.appendChild(cloneFragment);
     track.style.willChange = "transform";
 
-    requestAnimationFrame(() => {
-        const allCards = track.children;
-        const firstCard = allCards[0];
+    let position = originalCount;
+    let lastIndex = -1;
+    let animationFrameId = 0;
+    let isAnimating = false;
 
-        if (!firstCard) {
+    const speed = 0.006;
+    const changeStartPoint = 0.18;
+
+    function updatePhoneBackground(activeIndex) {
+        if (activeIndex === lastIndex) {
             return;
         }
 
-        const cardWidth = firstCard.getBoundingClientRect().width + gap;
-        let position = originalCount;
-        let lastIndex = -1;
+        const activeImg = originalCards[activeIndex] && originalCards[activeIndex].querySelector("img");
+        if (activeImg && phoneBg.src !== activeImg.src) {
+            phoneBg.src = activeImg.src;
+        }
 
-        const speed = 0.006;
-        const changeStartPoint = 0.18;
+        lastIndex = activeIndex;
+    }
+
+    function animateSlider() {
+        if (!isAnimating) {
+            return;
+        }
+
+        position += speed;
+
+        if (position >= originalCount * 2) {
+            position = originalCount;
+        }
 
         track.style.transform = `translateX(-${position * cardWidth}px)`;
 
-        const firstImg = originalCards[0].querySelector("img");
-        if (firstImg) {
-            phoneBg.src = firstImg.src;
+        const integerPart = Math.floor(position);
+        const decimalPart = position - integerPart;
+        const activeIndex = decimalPart >= changeStartPoint ?
+            (integerPart + 1) % originalCount :
+            integerPart % originalCount;
+
+        updatePhoneBackground(activeIndex);
+        animationFrameId = requestAnimationFrame(animateSlider);
+    }
+
+    function startSlider() {
+        if (isAnimating || document.hidden) {
+            return;
         }
 
-        function animateSlider() {
-            position += speed;
+        isAnimating = true;
+        animationFrameId = requestAnimationFrame(animateSlider);
+    }
 
-            if (position >= originalCount * 2) {
-                position = originalCount;
-            }
-
-            track.style.transform = `translateX(-${position * cardWidth}px)`;
-
-            const integerPart = Math.floor(position);
-            const decimalPart = position - integerPart;
-
-            let activeIndex;
-            if (decimalPart >= changeStartPoint) {
-                activeIndex = (integerPart + 1) % originalCount;
-            } else {
-                activeIndex = integerPart % originalCount;
-            }
-
-            if (activeIndex !== lastIndex) {
-                const activeImg = originalCards[activeIndex].querySelector("img");
-                if (activeImg) {
-                    phoneBg.src = activeImg.src;
-                }
-                lastIndex = activeIndex;
-            }
-
-            requestAnimationFrame(animateSlider);
+    function stopSlider() {
+        if (!isAnimating) {
+            return;
         }
 
-        animateSlider();
+        isAnimating = false;
+        cancelAnimationFrame(animationFrameId);
+    }
+
+    track.style.transform = `translateX(-${position * cardWidth}px)`;
+    updatePhoneBackground(0);
+    startSlider();
+
+    document.addEventListener("visibilitychange", function() {
+        if (document.hidden) {
+            stopSlider();
+        } else {
+            startSlider();
+        }
+    });
+
+    window.addEventListener("pagehide", stopSlider, {
+        once: true
     });
 });
  </script>
@@ -554,6 +591,12 @@ if (navClose && rightMenu) {
     let historyLoaded = false;
     let isSending = false;
 
+    function scrollBodyToBottom() {
+        requestAnimationFrame(function() {
+            body.scrollTop = body.scrollHeight;
+        });
+    }
+
     closeBtn.innerHTML = "&times;";
 
     if (introMessages.length > 0) {
@@ -585,7 +628,7 @@ if (navClose && rightMenu) {
         }
 
         body.appendChild(message);
-        body.scrollTop = body.scrollHeight;
+        scrollBodyToBottom();
         return message;
     }
 
@@ -594,7 +637,7 @@ if (navClose && rightMenu) {
         typingMessage.className = "tf-msg tf-msg-bot tf-msg-typing";
         typingMessage.innerHTML = "<span></span><span></span><span></span>";
         body.appendChild(typingMessage);
-        body.scrollTop = body.scrollHeight;
+        scrollBodyToBottom();
         return typingMessage;
     }
 
@@ -698,6 +741,7 @@ if (navClose && rightMenu) {
         } finally {
             setSendingState(false);
             input.focus();
+            scrollBodyToBottom();
         }
     }
 
@@ -734,8 +778,7 @@ if (navClose && rightMenu) {
  </script>
 
  <script>
-(function() {
-    return;
+/* Removed duplicate chatbot fallback block that never executes.
     const toggleBtn = document.getElementById("tfChatbotToggle");
     const closeBtn = document.getElementById("tfChatbotClose");
     const chatBox = document.getElementById("tfChatbotBox");
@@ -800,7 +843,7 @@ if (navClose && rightMenu) {
             chatBox.classList.remove("active");
         }
     });
-})();
+*/
  </script>
 
  <script>

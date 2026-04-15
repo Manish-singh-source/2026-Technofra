@@ -25,12 +25,23 @@ gtag('config', 'G-189WWHXLSS');
 })(window, document, "clarity", "script", "mxzdn16ndk");
 </script>
 <!--END MS Clarity -->
-<title>Android App Development Company | Technofra</title>
-<meta name="description"
-    content="Best mobile app development company. we are expert in native, hybrid, and cross-platform mobile app development services. Contact us today!">
+<!-- Meta Keywords -->
+<meta name="keywords"
+    content="mobile app development company, mobile app development services, android app development, app development services, mobile app development agency">
 
+<!-- Title -->
+<title>Mobile App Development Company in Mumbai, India | Android & iOS Services – Technofra</title>
+
+<!-- Meta Description -->
+<meta name="description"
+    content="Looking for a top mobile app development company? Our agency offers expert mobile app development services, including Android and iOS app development.">
+
+<!-- Open Graph -->
+<meta property="og:title" content="Mobile App Development Company in Mumbai, India">
+<meta property="og:description"
+    content="Looking for a top mobile app development company? Our agency offers expert mobile app development services, including Android and iOS app development.">
 <style>
-.dpbg-white {
+<style>.dpbg-white {
     background-color: #f2f3f6 !important;
 }
 
@@ -200,7 +211,8 @@ gtag('config', 'G-189WWHXLSS');
             </div>
             <div class="col-lg-5 col-md-8 mt-5">
                 <div class="position-relative text-center">
-                    <img src="assets/image/mobileapp/android2.webp" class="img-fluid" alt="Android App Development Services" />
+                    <img src="assets/image/mobileapp/android2.webp" class="img-fluid"
+                        alt="Android App Development Services" />
                 </div>
             </div>
         </div>
@@ -215,7 +227,8 @@ gtag('config', 'G-189WWHXLSS');
                 data-aos-easing="ease-in-sine">
                 <div class="app-two-feature-three-img position-relative text-center mt-5 mt-lg-0" data-aos="fade-right"
                     data-aos-offset="500" data-aos-easing="ease-in-sine">
-                    <img src="assets\image\mobileapp\android.webp" alt="Custom Android App Development" class="position-relative z-5 brad" />
+                    <img src="assets\image\mobileapp\android.webp" alt="Custom Android App Development"
+                        class="position-relative z-5 brad" />
                 </div>
             </div>
             <div class="col-lg-6 col-xl-6 col-sm-12">
@@ -279,7 +292,8 @@ gtag('config', 'G-189WWHXLSS');
                 <i class="fa-solid fa-cart-shopping"></i>
                 <h4>eCommerce App</h4>
                 <p>
-                    Create delightful online shopping experiences with Android eCommerce app development and turn your store into a powerful sales engine
+                    Create delightful online shopping experiences with Android eCommerce app development and turn your
+                    store into a powerful sales engine
                 </p>
             </div>
 
@@ -317,7 +331,7 @@ gtag('config', 'G-189WWHXLSS');
     </div>
 </section>
 
- 
+
 
 <section class="officeSection_v1">
     <div class="officeContainer_v1 container">
@@ -489,7 +503,8 @@ gtag('config', 'G-189WWHXLSS');
             </div>
             <div class="col-lg-6 col-md-12" data-aos="fade-left" data-aos-offset="500" data-aos-easing="ease-in-sine">
                 <div class="digi-why-left">
-                    <img src="assets/image/mobileapp/android22.webp" class="img-fluid brad" alt="Android App Design Company" />
+                    <img src="assets/image/mobileapp/android22.webp" class="img-fluid brad"
+                        alt="Android App Design Company" />
 
                 </div>
             </div>
@@ -497,7 +512,7 @@ gtag('config', 'G-189WWHXLSS');
     </div>
 </section>
 
- 
+
 
 <section class="medx-section-root bgw">
     <div class="medx-container-wrap container">
@@ -520,15 +535,24 @@ gtag('config', 'G-189WWHXLSS');
 
                     <div class="medx-slider-shell">
                         <div class="medx-slider-track" id="medxSliderTrack">
-                            <div class="medx-slide-card"><img src="assets/image/mobileapp/capture2.webp" alt="Android App Development Agency"></div>
-                            <div class="medx-slide-card"><img src="assets/image/mobileapp/capture3.webp" alt="Android App Performance Optimization"></div>
-                            <div class="medx-slide-card"><img src="assets/image/mobileapp/capture4.webp" alt="Android Application Development"></div>
-                            <div class="medx-slide-card"><img src="assets/image/mobileapp/capture5.webp" alt="Android App Development Company"></div>
-                            <div class="medx-slide-card"><img src="assets/image/mobileapp/capture6.webp" alt="Android App Development Services"></div>
-                            <div class="medx-slide-card"><img src="assets/image/mobileapp/capture7.webp" alt="Custom Android App Development"></div>
-                            <div class="medx-slide-card"><img src="assets/image/mobileapp/capture8.webp" alt="Android Developers in Mumbai"></div>
-                            <div class="medx-slide-card"><img src="assets/image/mobileapp/capture9.webp" alt="Android App Development in India"></div>
-                            <div class="medx-slide-card"><img src="assets/image/mobileapp/capture10.webp" alt="AI Android App Development"></div>
+                            <div class="medx-slide-card"><img src="assets/image/mobileapp/capture2.webp"
+                                    alt="Android App Development Agency"></div>
+                            <div class="medx-slide-card"><img src="assets/image/mobileapp/capture3.webp"
+                                    alt="Android App Performance Optimization"></div>
+                            <div class="medx-slide-card"><img src="assets/image/mobileapp/capture4.webp"
+                                    alt="Android Application Development"></div>
+                            <div class="medx-slide-card"><img src="assets/image/mobileapp/capture5.webp"
+                                    alt="Android App Development Company"></div>
+                            <div class="medx-slide-card"><img src="assets/image/mobileapp/capture6.webp"
+                                    alt="Android App Development Services"></div>
+                            <div class="medx-slide-card"><img src="assets/image/mobileapp/capture7.webp"
+                                    alt="Custom Android App Development"></div>
+                            <div class="medx-slide-card"><img src="assets/image/mobileapp/capture8.webp"
+                                    alt="Android Developers in Mumbai"></div>
+                            <div class="medx-slide-card"><img src="assets/image/mobileapp/capture9.webp"
+                                    alt="Android App Development in India"></div>
+                            <div class="medx-slide-card"><img src="assets/image/mobileapp/capture10.webp"
+                                    alt="AI Android App Development"></div>
                         </div>
                     </div>
 
@@ -537,7 +561,8 @@ gtag('config', 'G-189WWHXLSS');
 
             <div class="medx-content-column" data-aos="fade-left" data-aos-offset="500" data-aos-easing="ease-in-sine">
                 <div class="medx-hero-wrapper">
-                    <img src="assets/image/mobileapp/mob2.webp" class="medx-hero-image" alt="Android App Design Company">
+                    <img src="assets/image/mobileapp/mob2.webp" class="medx-hero-image"
+                        alt="Android App Design Company">
                     <p class="medx-hero-text">
                         User-friendly mobile app with fast access, secure data, real-time updates, personalization,
                         smooth performance, and 24/7 availability.
@@ -679,7 +704,7 @@ gtag('config', 'G-189WWHXLSS');
         </div>
     </div>
 </section>
- 
+
 
 
 <?php include 'book-a-call.php'; ?>

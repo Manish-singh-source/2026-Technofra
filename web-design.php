@@ -33,9 +33,17 @@ gtag('config', 'G-189WWHXLSS');
 </script>
 <!--END MS Clarity -->
 <title>Creative Website Design & Development Agency</title>
-<meta property="og:title" content="Website design & development Agency | Technofra">
+<!-- Final Optimized Keywords -->
+<!-- Meta Keywords -->
+<meta name="keywords"
+    content="website development company, website development services, website design and development, website development agency, building website for business">
+
+<!-- Open Graph Title -->
+<meta property="og:title" content="Website Design & Development Company in Mumbai, India | Technofra">
+
+<!-- Open Graph Description -->
 <meta property="og:description"
-    content="Boost your online presence with the top website development agency. We offer premium website design & development services.">
+    content="Technofra is a leading website design and development company in Mumbai, India. We build fast, responsive, and business-focused websites to grow your online presence.">
 
 <link rel="canonical" href="https://technofra.com/web-design.php">
 
@@ -1107,7 +1115,8 @@ article {
 
                                                 <div class="col-lg-6">
                                                     <img src="assets/image/websitedevlopment/e-commerce-website-design.webp"
-                                                        alt="E-commerce Website Design" class="img-fluid rounded-4 lead">
+                                                        alt="E-commerce Website Design"
+                                                        class="img-fluid rounded-4 lead">
                                                 </div>
 
                                                 <div class="col-lg-6">
@@ -1164,7 +1173,8 @@ article {
 
                                                 <div class="col-lg-6">
                                                     <img src="assets/image/websitedevlopment/responsive-website-design.webp"
-                                                        alt="Responsive Website Developer" class="img-fluid rounded-4 lead">
+                                                        alt="Responsive Website Developer"
+                                                        class="img-fluid rounded-4 lead">
                                                 </div>
 
                                                 <div class="col-lg-6">
@@ -1226,7 +1236,7 @@ article {
                                                     <h5 class="heading-5 font-weight-semibold margin-bottom-5 clr-text">
                                                         Graphics Design
                                                     </h5>
-                                                   
+
                                                     <p class="clr-paragraph margin-bottom-8">
                                                         Improve your website's visual appeal with our graphic design
                                                         services. We create custom banners, icons, page visuals, and
@@ -1264,7 +1274,8 @@ article {
                     data-aos-easing="ease-in-sine">
                     <div class="game-feature d-flex align-items-center mb-4">
                         <div class="game-feature-icon flex-shrink-0">
-                            <img src="assets/image/icons/why-solution.png" class="img-fluid" alt="Web Development Agency" />
+                            <img src="assets/image/icons/why-solution.png" class="img-fluid"
+                                alt="Web Development Agency" />
                         </div>
                         <div class="ms-3">
                             <h5 class="text-white">Custom Solutions</h5>
@@ -1275,7 +1286,8 @@ article {
                     </div>
                     <div class="game-feature d-flex align-items-center mb-4">
                         <div class="game-feature-icon flex-shrink-0">
-                            <img src="assets/image/icons/why-expertise.png" class="img-fluid" alt="Responsive Web Development" />
+                            <img src="assets/image/icons/why-expertise.png" class="img-fluid"
+                                alt="Responsive Web Development" />
                         </div>
                         <div class="ms-3">
                             <h5 class="text-white">Proven Expertise</h5>
@@ -1355,8 +1367,10 @@ article {
 
         <div class="row">
             <div class="col-lg-12">
-                <img class="dpdestopblock" src="assets/image/websitedevlopment/website_processing.webp" alt="Web Design & Development Agency">
-                <img class="dpmobblock" src="assets/image/websitedevlopment/mob_website_processing.webp" alt="Creative Web Design Agency">
+                <img class="dpdestopblock" src="assets/image/websitedevlopment/website_processing.webp"
+                    alt="Web Design & Development Agency">
+                <img class="dpmobblock" src="assets/image/websitedevlopment/mob_website_processing.webp"
+                    alt="Creative Web Design Agency">
             </div>
         </div>
 
@@ -1525,8 +1539,8 @@ article {
                                             <ul class="integration-list list-unstyled mb-0">
                                                 <li>
                                                     <div class="single-integration bg-white">
-                                                        <img src="assets/image/technology/mobile/Ionic.png"
-                                                            alt="Ionic" class="img-fluid">
+                                                        <img src="assets/image/technology/mobile/Ionic.png" alt="Ionic"
+                                                            class="img-fluid">
                                                         <h6 class="mb-0 mt-4">Ionic</h6>
                                                     </div>
                                                 </li>
@@ -2186,8 +2200,8 @@ article {
                                             <ul class="integration-list list-unstyled mb-0">
                                                 <li>
                                                     <div class="single-integration bg-white">
-                                                        <img src="assets/image/technology/quality/jest.png"
-                                                            alt="Jest" class="img-fluid">
+                                                        <img src="assets/image/technology/quality/jest.png" alt="Jest"
+                                                            class="img-fluid">
                                                         <h6 class="mb-0 mt-4">Jest</h6>
                                                     </div>
                                                 </li>
@@ -2210,8 +2224,8 @@ article {
                                             <ul class="integration-list list-unstyled mb-0">
                                                 <li>
                                                     <div class="single-integration bg-white">
-                                                        <img src="assets/image/technology/quality/meter.png"
-                                                            alt="Meter" class="img-fluid">
+                                                        <img src="assets/image/technology/quality/meter.png" alt="Meter"
+                                                            class="img-fluid">
                                                         <h6 class="mb-0 mt-4">Meter</h6>
                                                     </div>
                                                 </li>
@@ -2360,29 +2374,35 @@ article {
                         <div class="swiper-slide text-center swiper-slide-duplicate swiper-slide-duplicate-prev"
                             data-swiper-slide-index="1" style="width: 240px; margin-right: 24px;" role="group"
                             aria-label="2 / 6">
-                            <img src="assets/image/client/belting-enterprice.webp" alt="Best Web Development Company" class="img-fluid">
+                            <img src="assets/image/client/belting-enterprice.webp" alt="Best Web Development Company"
+                                class="img-fluid">
                         </div>
                         <div class="swiper-slide text-center swiper-slide-duplicate swiper-slide-duplicate-active"
                             data-swiper-slide-index="2" style="width: 240px; margin-right: 24px;" role="group"
                             aria-label="3 / 6">
-                            <img src="assets/image/client/delta.webp" alt="Web Design & Development Agency" class="img-fluid">
+                            <img src="assets/image/client/delta.webp" alt="Web Design & Development Agency"
+                                class="img-fluid">
                         </div>
                         <div class="swiper-slide text-center swiper-slide-duplicate swiper-slide-duplicate-next"
                             data-swiper-slide-index="3" style="width: 240px; margin-right: 24px;" role="group"
                             aria-label="4 / 6">
-                            <img src="assets/image/client/dipu-logo.webp" alt="Creative Web Design Agency" class="img-fluid">
+                            <img src="assets/image/client/dipu-logo.webp" alt="Creative Web Design Agency"
+                                class="img-fluid">
                         </div>
                         <div class="swiper-slide text-center swiper-slide-duplicate" data-swiper-slide-index="4"
                             style="width: 240px; margin-right: 24px;" role="group" aria-label="5 / 6">
-                            <img src="assets/image/client/ish-logo.webp" alt="Modern Website Design Services" class="img-fluid">
+                            <img src="assets/image/client/ish-logo.webp" alt="Modern Website Design Services"
+                                class="img-fluid">
                         </div>
                         <div class="swiper-slide text-center swiper-slide-duplicate" data-swiper-slide-index="5"
                             style="width: 240px; margin-right: 24px;" role="group" aria-label="6 / 6">
-                            <img src="assets/image/client/JPC_logo.webp" alt="Custom Website Development" class="img-fluid">
+                            <img src="assets/image/client/JPC_logo.webp" alt="Custom Website Development"
+                                class="img-fluid">
                         </div>
                         <div class="swiper-slide text-center" data-swiper-slide-index="0"
                             style="width: 240px; margin-right: 24px;" role="group" aria-label="1 / 6">
-                            <img src="assets/image/client/belting-enterprice.webp" alt="Website Development Services" class="img-fluid">
+                            <img src="assets/image/client/belting-enterprice.webp" alt="Website Development Services"
+                                class="img-fluid">
                         </div>
                         <div class="swiper-slide text-center swiper-slide-prev" data-swiper-slide-index="1"
                             style="width: 240px; margin-right: 24px;" role="group" aria-label="2 / 6">
@@ -2398,7 +2418,8 @@ article {
                         </div>
                         <div class="swiper-slide text-center" data-swiper-slide-index="4"
                             style="width: 240px; margin-right: 24px;" role="group" aria-label="5 / 6">
-                            <img src="assets/image/client/JPC_logo.webp" alt="Website Design Services" class="img-fluid">
+                            <img src="assets/image/client/JPC_logo.webp" alt="Website Design Services"
+                                class="img-fluid">
                         </div>
                         <div class="swiper-slide text-center" data-swiper-slide-index="5"
                             style="width: 240px; margin-right: 24px;" role="group" aria-label="6 / 6">
@@ -2406,12 +2427,14 @@ article {
                         </div>
                         <div class="swiper-slide text-center swiper-slide-duplicate" data-swiper-slide-index="0"
                             style="width: 240px; margin-right: 24px;" role="group" aria-label="1 / 6">
-                            <img src="assets/image/client/belting-enterprice.webp" alt="Web Page Development" class="img-fluid">
+                            <img src="assets/image/client/belting-enterprice.webp" alt="Web Page Development"
+                                class="img-fluid">
                         </div>
                         <div class="swiper-slide text-center swiper-slide-duplicate swiper-slide-duplicate-prev"
                             data-swiper-slide-index="1" style="width: 240px; margin-right: 24px;" role="group"
                             aria-label="2 / 6">
-                            <img src="assets/image/client/delta.webp" alt="Web Design & Development Agency" class="img-fluid">
+                            <img src="assets/image/client/delta.webp" alt="Web Design & Development Agency"
+                                class="img-fluid">
                         </div>
                         <div class="swiper-slide text-center swiper-slide-duplicate swiper-slide-duplicate-active"
                             data-swiper-slide-index="2" style="width: 240px; margin-right: 24px;" role="group"
@@ -2421,11 +2444,13 @@ article {
                         <div class="swiper-slide text-center swiper-slide-duplicate swiper-slide-duplicate-next"
                             data-swiper-slide-index="3" style="width: 240px; margin-right: 24px;" role="group"
                             aria-label="4 / 6">
-                            <img src="assets/image/client/ish-logo.webp" alt="Best Website Developers" class="img-fluid">
+                            <img src="assets/image/client/ish-logo.webp" alt="Best Website Developers"
+                                class="img-fluid">
                         </div>
                         <div class="swiper-slide text-center swiper-slide-duplicate" data-swiper-slide-index="4"
                             role="group" aria-label="5 / 6" style="width: 240px; margin-right: 24px;">
-                            <img src="assets/image/client/tricil.webp" alt="Best Web Development Company" class="img-fluid">
+                            <img src="assets/image/client/tricil.webp" alt="Best Web Development Company"
+                                class="img-fluid">
                         </div>
                     </div>
                     <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>

@@ -1,7 +1,19 @@
 ﻿<?php include 'header.php'; ?>
-<title>Best WhatsApp API – Enhance Customer Engagement & Support</title>
+<!-- Meta Keywords -->
+<meta name="keywords"
+  content="whatsapp api integration, api integration, api integration services, payment gateway api, third party api, api integration solution, api consulting services">
+
+<!-- Title -->
+<title>API Integration Services in Mumbai, India | WhatsApp API – Technofra</title>
+
+<!-- Meta Description -->
 <meta name="description"
-    content="Integrate WhatsApp API to your website for seamless WhatsApp conversations with customers.">
+  content="Get expert API integration services & solutions in India. We specialize in third-party API integration and consulting services for seamless business operations.">
+
+<!-- Open Graph -->
+<meta property="og:title" content="API Integration Services in Mumbai, India | Technofra">
+<meta property="og:description"
+  content="Get expert API integration services & solutions in India. We specialize in third-party API integration and consulting services for seamless business operations.">
 
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-189WWHXLSS"></script>

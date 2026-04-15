@@ -24,12 +24,22 @@ gtag('config', 'G-189WWHXLSS');
 })(window, document, "clarity", "script", "mxzdn16ndk");
 </script>
 <title>SEO Services Company | Technofra</title>
+<!-- Meta Keywords -->
+<meta name="keywords"
+    content="seo services, seo company in mumbai, seo agency in mumbai, local seo services, best seo agency, seo strategy, seo professionals, ecommerce seo">
+
+<!-- Title -->
+<title>SEO Company in Mumbai, India | Local & eCommerce SEO Services – Technofra</title>
+
+<!-- Meta Description -->
 <meta name="description"
-    content="Boost your rankings, traffic, and leads with Technofra SEO services. We offer on-page SEO, technical SEO, local SEO, off-page SEO, and content strategy.">
-<meta property="og:title" content="SEO Services Company | Technofra">
+    content="Top SEO company in Mumbai offering expert SEO services, including local SEO, eCommerce SEO, and professional SEO strategies. Boost your online presence today!">
+
+<!-- Open Graph -->
+<meta property="og:title" content="SEO Company in Mumbai, India | Technofra">
 <meta property="og:description"
-    content="Technofra helps brands grow through result-driven SEO strategies including technical SEO, on-page SEO, local SEO, and link building.">
-<link rel="canonical" href="https://technofra.com/seo.php">
+    content="Top SEO company in Mumbai offering expert SEO services, including local SEO, eCommerce SEO, and professional SEO strategies. Boost your online presence today!">
+<link rel="canonical" href="https://technofra.com/seo">
 
 <style>
 .ca-hero {
@@ -465,8 +475,9 @@ gtag('config', 'G-189WWHXLSS');
     background: #0b1f37;
     height: 100%;
 }
-.digi-how-works-left{
-    padding-bottom:20px ;
+
+.digi-how-works-left {
+    padding-bottom: 20px;
 }
 
 .seo-why-card img {
@@ -729,7 +740,8 @@ gtag('config', 'G-189WWHXLSS');
         <div class="row seo-pill-section">
             <div class="col-lg-12">
                 <div class="seo-pill-intro">
-                    <span class="crm-subtitle">SEO Focus Areas <img src="assets/image/arrow-red.png" alt="SEO Company in Mumbai"></span>
+                    <span class="crm-subtitle">SEO Focus Areas <img src="assets/image/arrow-red.png"
+                            alt="SEO Company in Mumbai"></span>
                     <p class="mb-0">Everything we improve is mapped around visibility, relevance, authority, and
                         conversion growth.</p>
                 </div>
@@ -754,7 +766,8 @@ gtag('config', 'G-189WWHXLSS');
                 <div class="col-lg-9 col-md-9">
                     <div class="cyber-cta-info position-relative">
                         <div>
-                            <h2 class="text-white">Need more qualified traffic, leads, and better search performance? </h2>
+                            <h2 class="text-white">Need more qualified traffic, leads, and better search performance?
+                            </h2>
                             <p class="lead text-white mb-0">
                                 Talk to Technofra and build an SEO strategy tailored to your goals.
                             </p>
@@ -789,7 +802,7 @@ gtag('config', 'G-189WWHXLSS');
                 <div class="seo-highlight-card">
                     <img src="assets/image/digitalmarketing/sco.webp" alt="SEO Agency India"
                         class="img-fluid rounded-3 mb-20">
-                    <h4 >On-Page SEO</h4>
+                    <h4>On-Page SEO</h4>
                     <p class="mb-0">We optimize titles, meta descriptions, headings, internal links, schema
                         opportunities, image alt text, and landing page relevance so each page clearly targets the right
                         search intent.</p>
@@ -799,7 +812,7 @@ gtag('config', 'G-189WWHXLSS');
                 <div class="seo-highlight-card">
                     <img src="assets/image/digitalmarketing/wdd.webp" alt="Technical SEO Services"
                         class="img-fluid rounded-3 mb-20">
-                    <h4 >Technical SEO</h4>
+                    <h4>Technical SEO</h4>
                     <p class="mb-0">From crawlability and indexing to page speed, mobile usability, structured data,
                         redirects, canonicals, and Core Web Vitals, we improve the technical base that search engines
                         rely on.</p>
@@ -809,7 +822,7 @@ gtag('config', 'G-189WWHXLSS');
                 <div class="seo-highlight-card">
                     <img src="assets/image/digitalmarketing/content-marketing.webp" alt="Local SEO Services"
                         class="img-fluid rounded-3 mb-20">
-                    <h4 >Content SEO</h4>
+                    <h4>Content SEO</h4>
                     <p class="mb-0">We plan content clusters, service pages, blogs, FAQs, and supporting pages that help
                         your website rank for short-tail and long-tail keywords with useful, conversion-focused content.
                     </p>
@@ -817,8 +830,9 @@ gtag('config', 'G-189WWHXLSS');
             </div>
             <div class="col-lg-4 col-md-6">
                 <div class="seo-highlight-card">
-                    <img src="assets/image/digitalmarketing/ppc.webp" alt="Ecommerce SEO Services" class="img-fluid rounded-3 mb-20">
-                    <h4 >Local SEO</h4>
+                    <img src="assets/image/digitalmarketing/ppc.webp" alt="Ecommerce SEO Services"
+                        class="img-fluid rounded-3 mb-20">
+                    <h4>Local SEO</h4>
                     <p class="mb-0">For local businesses, we improve Google Business Profile visibility, location pages,
                         citations, reviews, and map pack relevance to bring more nearby leads and calls.</p>
                 </div>
@@ -827,7 +841,7 @@ gtag('config', 'G-189WWHXLSS');
                 <div class="seo-highlight-card">
                     <img src="assets/image/digitalmarketing/email-marketing.webp" alt="SEO Audit Services"
                         class="img-fluid rounded-3 mb-20">
-                    <h4 >Off-Page SEO</h4>
+                    <h4>Off-Page SEO</h4>
                     <p class="mb-0">We support authority growth through ethical link acquisition, brand mentions,
                         citations, and outreach activities that strengthen domain trust over time.</p>
                 </div>
@@ -836,7 +850,7 @@ gtag('config', 'G-189WWHXLSS');
                 <div class="seo-highlight-card">
                     <img src="assets/image/digitalmarketing/smm.webp" alt="On-Page SEO Services"
                         class="img-fluid rounded-3 mb-20">
-                    <h4 >SEO Reporting and Growth Tracking</h4>
+                    <h4>SEO Reporting and Growth Tracking</h4>
                     <p class="mb-0">We track rankings, traffic quality, landing page performance, conversions, and
                         search trends so you always know what is improving and where to scale next.</p>
                 </div>
@@ -936,7 +950,8 @@ gtag('config', 'G-189WWHXLSS');
         <div class="row">
             <div class="col-lg-7 m-auto text-center">
                 <div class="crm-title">
-                    <span class="crm-subtitle">Our Process <img src="assets/image/arrow-red.png" alt="AI SEO Services"></span>
+                    <span class="crm-subtitle">Our Process <img src="assets/image/arrow-red.png"
+                            alt="AI SEO Services"></span>
                     <h2 class="tg-element-title">How We Execute SEO Campaigns</h2>
                 </div>
             </div>
@@ -1016,8 +1031,8 @@ gtag('config', 'G-189WWHXLSS');
                     </div>
                     <div class="col-md-6">
                         <div class="seo-why-card">
-                            <img src="assets/image/digitalmarketing/digital-marketing.jpg"
-                                alt="SEO Company" class="img-fluid">
+                            <img src="assets/image/digitalmarketing/digital-marketing.jpg" alt="SEO Company"
+                                class="img-fluid">
                             <div class="crypto-team-info pt-4 pb-1">
                                 <h4 class="text-white h5 fz-16">Transparent growth reporting</h4>
                                 <p class="text-white-50 mb-0">We connect rankings, traffic and lead quality so progress
