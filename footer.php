@@ -273,7 +273,7 @@
          <div class="tf-chatbot-header">
              <div>
                  <h4>Technofra Support</h4>
-                 <span>Live support assistant</span>
+                 <span>AI support assistant</span>
              </div>
              <button class="tf-chatbot-close" id="tfChatbotClose" aria-label="Close chat">×</button>
          </div>
@@ -281,7 +281,7 @@
          <div class="tf-chatbot-body" id="tfChatbotBody">
              <div class="tf-msg tf-msg-bot">
                  Hi 👋<br>
-                 Welcome to Technofra. How can we help you today?
+                 I am Technofra's AI assistant. How can I help you today?
              </div>
              <div class="tf-msg tf-msg-bot">
                  You can ask about Website Development, App Development, Branding, UI/UX, Payment Integration, or
@@ -600,7 +600,7 @@ if (navClose && rightMenu) {
     closeBtn.innerHTML = "&times;";
 
     if (introMessages.length > 0) {
-        introMessages[0].innerHTML = "Hi there!<br>Welcome to Technofra. How can we help you today?";
+        introMessages[0].innerHTML = "Hi there!<br>I am Technofra's AI assistant. How can I help you today?";
     }
 
     function toggleChat(forceOpen) {

@@ -42,7 +42,7 @@ function chatbotGetJsonInput()
     return is_array($decoded) ? $decoded : [];
 }
 
-function chatbotSanitizeText($value, $maxLength = 500)
+function chatbotSanitizeText($value, $maxLength = 1000)
 {
     $value = trim($value);
     $value = preg_replace('/\s+/', ' ', $value) ?? '';
@@ -74,7 +74,7 @@ function chatbotPageLabel($page)
     return trim($label) !== '' ? $label . ' page' : 'current page';
 }
 
-function chatbotStoreMessage($role, $html)
+function chatbotStoreRenderedMessage($role, $html)
 {
     if (session_status() !== PHP_SESSION_ACTIVE) {
         return;
@@ -94,6 +94,58 @@ function chatbotStoreMessage($role, $html)
     }
 }
 
+function chatbotStoreConversationMessage($role, $text)
+{
+    if (session_status() !== PHP_SESSION_ACTIVE) {
+        return;
+    }
+
+    if (!isset($_SESSION['tf_chatbot_messages']) || !is_array($_SESSION['tf_chatbot_messages'])) {
+        $_SESSION['tf_chatbot_messages'] = [];
+    }
+
+    $_SESSION['tf_chatbot_messages'][] = [
+        'role' => $role,
+        'text' => $text,
+    ];
+
+    if (count($_SESSION['tf_chatbot_messages']) > 12) {
+        $_SESSION['tf_chatbot_messages'] = array_slice($_SESSION['tf_chatbot_messages'], -12);
+    }
+}
+
+function chatbotGetConversationMessages()
+{
+    $messages = $_SESSION['tf_chatbot_messages'] ?? [];
+
+    return is_array($messages) ? $messages : [];
+}
+
+function chatbotFormatReplyHtml($text)
+{
+    $text = trim($text);
+
+    if ($text === '') {
+        return 'Sorry, I could not generate a reply right now.';
+    }
+
+    $escaped = chatbotEscape($text);
+
+    // Turn plain URLs into safe clickable links while keeping the rest escaped.
+    $escaped = preg_replace_callback(
+        '~(https?://[^\s<]+)~i',
+        function ($matches) {
+            $url = $matches[1];
+            $safeUrl = chatbotEscape($url);
+
+            return '<a href="' . $safeUrl . '" target="_blank" rel="noopener noreferrer">' . $safeUrl . '</a>';
+        },
+        $escaped
+    ) ?? $escaped;
+
+    return nl2br($escaped);
+}
+
 function chatbotKeywordMatch($text, $keywords)
 {
     foreach ($keywords as $keyword) {
@@ -105,7 +157,7 @@ function chatbotKeywordMatch($text, $keywords)
     return false;
 }
 
-function chatbotBuildReply($message, $pageLabel)
+function chatbotBuildFallbackReply($message, $pageLabel)
 {
     $normalized = function_exists('mb_strtolower') ? mb_strtolower($message, 'UTF-8') : strtolower($message);
 
@@ -121,48 +173,286 @@ function chatbotBuildReply($message, $pageLabel)
     $isContact = chatbotKeywordMatch($normalized, ['call', 'phone', 'email', 'contact', 'callback', 'talk']);
 
     if ($isGreeting) {
-        return 'Hello! Welcome to Technofra.<br>Tell us what you need help with, and we will guide you right away.';
+        return 'Hello! Welcome to Technofra.' . "\n" . 'Tell me what you need help with, and I will guide you right away.';
     }
 
     if ($isWebsite) {
-        return 'We can help with website design, WordPress, Shopify, and custom business websites.<br><a href="web-design">Explore website services</a> or <a href="contact">send your requirement</a>.';
+        return 'We can help with website design, WordPress, Shopify, and custom business websites.' . "\n" . 'You can explore our website services here: https://technofra.com/web-design';
     }
 
     if ($isApp) {
-        return 'Our team builds Android and iOS apps for businesses, startups, and service brands.<br><a href="android-app-development">View app development</a> or <a href="book-a-call">book a quick call</a>.';
+        return 'Our team builds Android and iOS apps for businesses, startups, and service brands.' . "\n" . 'See app development details here: https://technofra.com/android-app-development';
     }
 
     if ($isBranding) {
-        return 'Branding, UI/UX, logo systems, and digital experience design are all available at Technofra.<br><a href="branding">See branding services</a> and <a href="ui-ux">browse UI/UX</a>.';
+        return 'Technofra also handles branding, UI/UX, logo systems, and digital experience design.' . "\n" . 'Branding page: https://technofra.com/branding';
     }
 
     if ($isMarketing) {
-        return 'We support SEO, social media marketing, content marketing, and ad campaigns to grow your brand online.<br><a href="digital-marketing">Open digital marketing</a> or <a href="seo">check SEO services</a>.';
+        return 'We support SEO, social media marketing, content marketing, and paid ad campaigns.' . "\n" . 'Digital marketing page: https://technofra.com/digital-marketing';
     }
 
     if ($isPayment) {
-        return 'Yes, we do secure payment gateway integrations for websites and apps, including business workflow setup.<br><a href="payment-gateway">View payment solutions</a>.';
+        return 'Yes, we do secure payment gateway integrations for websites and apps.' . "\n" . 'Learn more: https://technofra.com/payment-gateway';
     }
 
     if ($isChatbot) {
-        return 'Yes, we can set up website chatbots, WhatsApp automation, and customer support workflows for your business.<br><a href="chatbot">See chatbot services</a> or <a href="whatsapp">view WhatsApp solutions</a>.';
+        return 'Yes, we can set up website chatbots, WhatsApp automation, and customer support workflows.' . "\n" . 'Chatbot solutions: https://technofra.com/chatbot';
     }
 
     if ($isPricing) {
-        return 'Pricing depends on the scope, features, and timeline.<br>Share your requirement here or on <a href="contact">the contact page</a>, and our team can prepare a custom quote.';
+        return 'Pricing depends on scope, features, and timeline.' . "\n" . 'Share your requirement on https://technofra.com/contact and our team can prepare a quote.';
     }
 
     if ($isContact) {
-        return 'You can connect with Technofra on <a href="contact">the contact page</a>, book a slot on <a href="book-a-call">Book a Call</a>, or message us on <a href="https://wa.me/918080721003" target="_blank" rel="noopener noreferrer">WhatsApp</a>.';
+        return 'You can connect with Technofra on https://technofra.com/contact, book a slot on https://technofra.com/book-a-call, or message us on WhatsApp: https://wa.me/918080721003';
     }
 
     if ($isSupport) {
-        return 'We are here to help.<br>Please share your requirement, goal, or issue in one line, and we will guide you with the best next step.';
+        return 'I am here to help.' . "\n" . 'Please share your requirement, business goal, or issue in one line so I can guide you better.';
     }
 
-    $safePageLabel = chatbotEscape($pageLabel);
+    return 'Thanks for your message. You are currently browsing our ' . $pageLabel . '.' . "\n" . 'Tell me whether you need website development, app development, branding, marketing, payment integration, or chatbot setup.';
+}
 
-    return 'Thanks for your message. You are currently browsing our ' . $safePageLabel . '.<br>Tell us whether you need website development, app development, branding, marketing, payment integration, or chatbot setup.';
+function chatbotGetLocalConfig()
+{
+    static $config = null;
+
+    if ($config !== null) {
+        return $config;
+    }
+
+    $config = [];
+    $configPath = __DIR__ . DIRECTORY_SEPARATOR . 'chatbot-config.php';
+
+    if (is_file($configPath)) {
+        $loaded = include $configPath;
+
+        if (is_array($loaded)) {
+            $config = $loaded;
+        }
+    }
+
+    return $config;
+}
+
+function chatbotGetOpenAiApiKey()
+{
+    $config = chatbotGetLocalConfig();
+    $sources = [
+        $config['openai_api_key'] ?? null,
+        getenv('OPENAI_API_KEY'),
+        $_ENV['OPENAI_API_KEY'] ?? null,
+        $_SERVER['OPENAI_API_KEY'] ?? null,
+    ];
+
+    foreach ($sources as $candidate) {
+        if (is_string($candidate) && trim($candidate) !== '') {
+            return trim($candidate);
+        }
+    }
+
+    return '';
+}
+
+function chatbotGetOpenAiModel()
+{
+    $config = chatbotGetLocalConfig();
+    $model = $config['openai_model'] ?? getenv('OPENAI_CHATBOT_MODEL');
+
+    if (!is_string($model) || trim($model) === '') {
+        $model = $_ENV['OPENAI_CHATBOT_MODEL'] ?? $_SERVER['OPENAI_CHATBOT_MODEL'] ?? 'gpt-5.4-mini';
+    }
+
+    return trim((string) $model) !== '' ? trim((string) $model) : 'gpt-5.4-mini';
+}
+
+function chatbotBuildSystemPrompt($pageLabel)
+{
+    return implode("\n", [
+        'You are the live AI website assistant for Technofra, a digital services company.',
+        'Current page context: ' . $pageLabel . '.',
+        'Technofra services include website development, WordPress, Shopify, mobile app development, branding, UI/UX, SEO, social media marketing, content marketing, payment gateway integration, WhatsApp solutions, chatbot setup, API integrations, domain and hosting, and IT support.',
+        'Reply like a helpful sales + support assistant.',
+        'Answer based on the user question directly and naturally.',
+        'Keep replies concise, practical, and conversion-focused.',
+        'If the user asks about pricing, explain that pricing depends on scope and recommend contact or book-a-call.',
+        'If the user asks something unrelated to Technofra services, still answer briefly and then bring the conversation back to how Technofra can help.',
+        'Never claim fake guarantees, fake pricing, or unavailable company details.',
+        'Do not use markdown tables.',
+        'Do not output raw HTML. Plain text only.',
+        'When useful, mention these links in plain text:',
+        'Contact: https://technofra.com/contact',
+        'Book a Call: https://technofra.com/book-a-call',
+        'Website Services: https://technofra.com/web-design',
+        'App Development: https://technofra.com/android-app-development',
+        'Branding: https://technofra.com/branding',
+        'Digital Marketing: https://technofra.com/digital-marketing',
+        'Payment Gateway: https://technofra.com/payment-gateway',
+        'Chatbot: https://technofra.com/chatbot',
+        'WhatsApp: https://technofra.com/whatsapp',
+    ]);
+}
+
+function chatbotBuildOpenAiInput($message, $pageLabel)
+{
+    $items = [
+        [
+            'role' => 'system',
+            'content' => [
+                [
+                    'type' => 'input_text',
+                    'text' => chatbotBuildSystemPrompt($pageLabel),
+                ],
+            ],
+        ],
+    ];
+
+    foreach (chatbotGetConversationMessages() as $entry) {
+        if (!isset($entry['role'], $entry['text'])) {
+            continue;
+        }
+
+        $role = $entry['role'] === 'assistant' ? 'assistant' : 'user';
+        $text = chatbotSanitizeText((string) $entry['text'], 1200);
+
+        if ($text === '') {
+            continue;
+        }
+
+        $items[] = [
+            'role' => $role,
+            'content' => [
+                [
+                    'type' => 'input_text',
+                    'text' => $text,
+                ],
+            ],
+        ];
+    }
+
+    $items[] = [
+        'role' => 'user',
+        'content' => [
+            [
+                'type' => 'input_text',
+                'text' => $message,
+            ],
+        ],
+    ];
+
+    return $items;
+}
+
+function chatbotExtractOpenAiText(array $responseData)
+{
+    if (isset($responseData['output']) && is_array($responseData['output'])) {
+        $parts = [];
+
+        foreach ($responseData['output'] as $outputItem) {
+            if (!is_array($outputItem) || ($outputItem['type'] ?? '') !== 'message') {
+                continue;
+            }
+
+            foreach (($outputItem['content'] ?? []) as $contentItem) {
+                if (!is_array($contentItem)) {
+                    continue;
+                }
+
+                if (($contentItem['type'] ?? '') === 'output_text' && isset($contentItem['text'])) {
+                    $parts[] = (string) $contentItem['text'];
+                }
+            }
+        }
+
+        $joined = trim(implode("\n", $parts));
+
+        if ($joined !== '') {
+            return $joined;
+        }
+    }
+
+    if (isset($responseData['output_text']) && is_string($responseData['output_text'])) {
+        return trim($responseData['output_text']);
+    }
+
+    return '';
+}
+
+function chatbotRequestAiReply($message, $pageLabel)
+{
+    $apiKey = chatbotGetOpenAiApiKey();
+
+    if ($apiKey === '' || !function_exists('curl_init')) {
+        return [
+            'ok' => false,
+            'text' => '',
+        ];
+    }
+
+    $payload = [
+        'model' => chatbotGetOpenAiModel(),
+        'input' => chatbotBuildOpenAiInput($message, $pageLabel),
+        'max_output_tokens' => 320,
+    ];
+
+    $ch = curl_init('https://api.openai.com/v1/responses');
+
+    if ($ch === false) {
+        return [
+            'ok' => false,
+            'text' => '',
+        ];
+    }
+
+    curl_setopt_array($ch, [
+        CURLOPT_POST => true,
+        CURLOPT_RETURNTRANSFER => true,
+        CURLOPT_TIMEOUT => 25,
+        CURLOPT_CONNECTTIMEOUT => 10,
+        CURLOPT_HTTPHEADER => [
+            'Content-Type: application/json',
+            'Authorization: Bearer ' . $apiKey,
+        ],
+        CURLOPT_POSTFIELDS => json_encode($payload, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES),
+    ]);
+
+    $rawResponse = curl_exec($ch);
+    $httpCode = (int) curl_getinfo($ch, CURLINFO_HTTP_CODE);
+    $curlError = curl_error($ch);
+    curl_close($ch);
+
+    if (!is_string($rawResponse) || $rawResponse === '') {
+        return [
+            'ok' => false,
+            'text' => '',
+            'error' => $curlError,
+        ];
+    }
+
+    $decoded = json_decode($rawResponse, true);
+
+    if (!is_array($decoded) || $httpCode >= 400) {
+        return [
+            'ok' => false,
+            'text' => '',
+        ];
+    }
+
+    $replyText = chatbotExtractOpenAiText($decoded);
+
+    if ($replyText === '') {
+        return [
+            'ok' => false,
+            'text' => '',
+        ];
+    }
+
+    return [
+        'ok' => true,
+        'text' => $replyText,
+    ];
 }
 
 if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
@@ -180,11 +470,11 @@ if ($action === 'history') {
 
     chatbotRespond([
         'success' => true,
-        'history' => $history,
+        'history' => is_array($history) ? $history : [],
     ]);
 }
 
-$message = chatbotSanitizeText((string) ($input['message'] ?? $_POST['message'] ?? ''));
+$message = chatbotSanitizeText((string) ($input['message'] ?? $_POST['message'] ?? ''), 1200);
 $page = chatbotSanitizeText((string) ($input['page'] ?? $_POST['page'] ?? ''), 120);
 
 if ($message === '') {
@@ -194,13 +484,19 @@ if ($message === '') {
     ], 422);
 }
 
+$pageLabel = chatbotPageLabel($page);
 $userHtml = nl2br(chatbotEscape($message));
-$replyHtml = chatbotBuildReply($message, chatbotPageLabel($page));
+$aiResult = chatbotRequestAiReply($message, $pageLabel);
+$replyText = $aiResult['ok'] ? $aiResult['text'] : chatbotBuildFallbackReply($message, $pageLabel);
+$replyHtml = chatbotFormatReplyHtml($replyText);
 
-chatbotStoreMessage('user', $userHtml);
-chatbotStoreMessage('bot', $replyHtml);
+chatbotStoreRenderedMessage('user', $userHtml);
+chatbotStoreRenderedMessage('bot', $replyHtml);
+chatbotStoreConversationMessage('user', $message);
+chatbotStoreConversationMessage('assistant', $replyText);
 
 chatbotRespond([
     'success' => true,
     'reply' => $replyHtml,
+    'is_ai' => $aiResult['ok'],
 ]);

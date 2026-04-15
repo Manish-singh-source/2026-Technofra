@@ -7,3 +7,6 @@
 
 # Large video files
 assets/video/videodg.mov
+
+# Local chatbot secrets
+chatbot-config.php
