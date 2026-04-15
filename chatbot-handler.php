@@ -194,6 +194,11 @@ function chatbotGetUrlLabel($url)
         'https://technofra.com/payment-gateway' => 'Payment Gateway Solutions',
         'https://technofra.com/chatbot' => 'Chatbot Solutions',
         'https://technofra.com/whatsapp' => 'WhatsApp Solutions',
+        'https://technofra.com/career' => 'Career Opportunities',
+        'https://technofra.com/sms-otp' => 'SMS / OTP Solutions',
+        'https://technofra.com/google-forms' => 'Google Forms Integration',
+        'https://technofra.com/domain-hosting-services' => 'Domain & Hosting',
+        'https://technofra.com/portfolio' => 'Portfolio',
         'https://wa.me/918080721003' => 'WhatsApp',
     ];
 
@@ -242,6 +247,16 @@ function chatbotGetServiceCatalog()
         'SMS / OTP Solutions' => 'https://technofra.com/sms-otp',
         'Google Forms Integration' => 'https://technofra.com/google-forms',
         'Domain & Hosting' => 'https://technofra.com/domain-hosting-services',
+    ];
+}
+
+function chatbotGetGeneralResourceCatalog()
+{
+    return [
+        'Career Opportunities' => 'https://technofra.com/career',
+        'Portfolio' => 'https://technofra.com/portfolio',
+        'Contact Page' => 'https://technofra.com/contact',
+        'Book a Call' => 'https://technofra.com/book-a-call',
     ];
 }
 
@@ -338,18 +353,73 @@ function chatbotBuildFallbackReply($message, $pageLabel, $allowGeneric = true)
     $isSupport = chatbotKeywordMatch($normalized, ['help', 'support', 'issue', 'problem', 'assist', 'solve']);
     $isContact = chatbotKeywordMatch($normalized, ['call', 'phone', 'email', 'contact', 'callback', 'talk', 'number', 'contact no', 'phone no']);
     $isPortfolio = chatbotKeywordMatch($normalized, ['portfolio', 'work', 'projects', 'case studies', 'samples']);
+    $isCareer = chatbotKeywordMatch($normalized, ['career', 'careers', 'job', 'jobs', 'opening', 'openings', 'vacancy', 'vacancies', 'hiring', 'recruitment']);
+    $isInternship = chatbotKeywordMatch($normalized, ['internship', 'intern', 'trainee', 'fresher job', 'fresher opening']);
+    $isCareerApply = chatbotKeywordMatch($normalized, ['apply', 'application', 'resume', 'cv', 'how to apply', 'apply kaise', 'apply kaise kare', 'send cv']);
+    $isCareerSalary = chatbotKeywordMatch($normalized, ['salary', 'package', 'ctc', 'stipend', 'pay scale', 'kitni salary']);
+    $isApi = chatbotKeywordMatch($normalized, [' api', 'api ', 'api?', 'apis', 'integration api', 'rest api', 'developer api', 'business api']);
     $isCompanyInfo = chatbotKeywordMatch($normalized, ['about', 'company', 'who are you', 'technofra kya hai', 'about technofra']);
     $isLocation = chatbotKeywordMatch($normalized, ['address', 'location', 'office', 'where are you', 'kaha ho', 'kahan ho']);
     $isHosting = chatbotKeywordMatch($normalized, ['domain', 'hosting', 'server', 'ssl']);
     $isForms = chatbotKeywordMatch($normalized, ['google form', 'forms', 'email form', 'form integration']);
     $isSmsOtp = chatbotKeywordMatch($normalized, ['sms', 'otp', 'verification', 'authentication']);
+    $isTimelineQuery = chatbotKeywordMatch($normalized, ['time', 'timeline', 'duration', 'how long', 'kitne din', 'kitna time', 'kab tak', 'delivery time']);
+    $isDocumentQuery = chatbotKeywordMatch($normalized, ['documents', 'document', 'doc', 'kyc', 'requirements', 'requirement', 'kya chahiye', 'papers']);
+    $isResultsQuery = chatbotKeywordMatch($normalized, ['results', 'result', 'ranking', 'rank', 'kab tak', 'how soon', 'kitne time', 'kitna time']);
+    $isWhatsAppApiPricing = $isWhatsApp && ($isPricing || chatbotKeywordMatch($normalized, ['conversation price', 'per message', 'whatsapp api cost', 'whatsapp api charges']));
+    $isSmsOtpPricing = $isSmsOtp && ($isPricing || chatbotKeywordMatch($normalized, ['per sms', 'otp cost', 'sms api cost', 'sms charges']));
+    $isApiPricing = $isApi && $isPricing;
+    $isWebsiteTimeline = $isWebsite && $isTimelineQuery;
+    $isAppPricing = $isApp && $isPricing;
+    $isSeoTiming = $isMarketing && $isResultsQuery;
+    $isPaymentDocuments = $isPayment && $isDocumentQuery;
 
     if ($isGreeting) {
         return 'Hello, and welcome to Technofra.' . "\n" . 'Please share your requirement, and I will guide you with the most relevant next step.';
     }
 
+    if ($isInternship) {
+        return 'Yes, if internship or trainee roles are available, they will be listed on our [[Career Opportunities|https://technofra.com/career]] page.' . "\n" . 'You can review openings there, and if needed, I can also guide you on the application process.';
+    }
+
+    if ($isCareer && $isCareerApply) {
+        return 'You can apply for relevant roles through our [[Career Opportunities|https://technofra.com/career]] page.' . "\n" . 'Please keep your updated resume ready, and if you need direct assistance, you may also use our [[Contact Page|https://technofra.com/contact]].';
+    }
+
+    if ($isCareer && $isCareerSalary) {
+        return 'Compensation, salary, or stipend details usually depend on the role, experience level, and current opening.' . "\n" . 'The best next step is to review the role on our [[Career Opportunities|https://technofra.com/career]] page and then connect with our team through the [[Contact Page|https://technofra.com/contact]].';
+    }
+
     if ($isServicesQuery) {
         return chatbotBuildServiceListReply();
+    }
+
+    if ($isWhatsAppApiPricing) {
+        return 'WhatsApp API pricing depends on the use case, conversation type, messaging volume, and implementation scope.' . "\n" . 'Please review our [[WhatsApp Solutions|https://technofra.com/whatsapp]] page, and for an exact estimate you can use [[Book a Call|https://technofra.com/book-a-call]].';
+    }
+
+    if ($isSmsOtpPricing) {
+        return 'SMS and OTP pricing usually depends on message volume, delivery region, sender setup, and integration requirements.' . "\n" . 'Please review our [[SMS / OTP Solutions|https://technofra.com/sms-otp]] page, and for an accurate quote you can connect through [[Contact Page|https://technofra.com/contact]].';
+    }
+
+    if ($isApiPricing) {
+        return 'API integration pricing depends on the specific platform, workflow complexity, security requirements, and support scope.' . "\n" . 'If you share the exact API requirement, I can point you to the right service, or you can connect through our [[Contact Page|https://technofra.com/contact]].';
+    }
+
+    if ($isWebsiteTimeline) {
+        return 'Website delivery time depends on the scope, number of pages, design approvals, and required integrations.' . "\n" . 'In most cases, a standard business website can be planned faster than a custom or e-commerce build. Please share your requirement through our [[Website Services|https://technofra.com/web-design]] page or [[Book a Call|https://technofra.com/book-a-call]] for a realistic timeline.';
+    }
+
+    if ($isAppPricing) {
+        return 'Android or iOS app pricing depends on the feature set, design scope, admin panel needs, and third-party integrations.' . "\n" . 'For a reliable estimate, please share your app requirement through our [[App Development|https://technofra.com/android-app-development]] page or our [[Contact Page|https://technofra.com/contact]].';
+    }
+
+    if ($isSeoTiming) {
+        return 'SEO results usually depend on the current website condition, competition level, target keywords, and content strategy.' . "\n" . 'It is best treated as a structured growth process rather than an instant result service. You can review our [[Digital Marketing|https://technofra.com/digital-marketing]] offering or use [[Book a Call|https://technofra.com/book-a-call]] for a proper discussion.';
+    }
+
+    if ($isPaymentDocuments) {
+        return 'Payment gateway setup usually requires business and KYC-related details such as company or personal identity information, bank details, website or app information, and compliance documents depending on the provider.' . "\n" . 'For provider-specific guidance, please review our [[Payment Gateway Solutions|https://technofra.com/payment-gateway]] page or connect via our [[Contact Page|https://technofra.com/contact]].';
     }
 
     if ($isWebsite) {
@@ -394,6 +464,14 @@ function chatbotBuildFallbackReply($message, $pageLabel, $allowGeneric = true)
 
     if ($isPortfolio) {
         return 'Yes, you can review our recent work and portfolio examples here: [[Portfolio|https://technofra.com/portfolio]].' . "\n" . 'If you share your industry or requirement, I can also suggest the most relevant service category.';
+    }
+
+    if ($isCareer) {
+        return 'You can explore current career opportunities and job-related details on our [[Career Opportunities|https://technofra.com/career]] page.' . "\n" . 'If you want, I can also help you with the application or contact process.';
+    }
+
+    if ($isApi) {
+        return 'Yes, we support API-based integrations for websites and applications, including payment gateway, WhatsApp, SMS / OTP, and other business workflow integrations.' . "\n" . 'Relevant pages: [[WhatsApp Solutions|https://technofra.com/whatsapp]], [[SMS / OTP Solutions|https://technofra.com/sms-otp]], and [[Payment Gateway Solutions|https://technofra.com/payment-gateway]].';
     }
 
     if ($isCompanyInfo) {
@@ -502,6 +580,9 @@ function chatbotBuildSystemPrompt($pageLabel)
         'If the user asks for services, list the actual Technofra services clearly instead of giving a generic fallback.',
         'If the user asks for contact number, provide the numbers +91 8080 80 3374 and +91 8080 80 3375.',
         'If the user asks about pricing, explain that pricing depends on scope and recommend contact or book-a-call.',
+        'If the user asks about careers, jobs, internships, how to apply, salary, stipend, or openings, answer directly and guide them to Career Opportunities or Contact Page.',
+        'If the user asks about WhatsApp API pricing, SMS / OTP pricing, or API integration pricing, answer specifically instead of giving a broad services reply.',
+        'If the user asks about website delivery time, app pricing, SEO result timing, or payment gateway document requirements, answer that specific practical question first.',
         'If the user asks something unrelated to Technofra services, still answer briefly and then bring the conversation back to how Technofra can help.',
         'Never claim fake guarantees, fake pricing, or unavailable company details.',
         'Do not use markdown tables.',
@@ -525,6 +606,7 @@ function chatbotBuildSystemPrompt($pageLabel)
         '[[Email Form Solutions|https://technofra.com/email-form]]',
         '[[Domain & Hosting|https://technofra.com/domain-hosting-services]]',
         '[[Portfolio|https://technofra.com/portfolio]]',
+        '[[Career Opportunities|https://technofra.com/career]]',
         '[[WhatsApp|https://wa.me/918080721003]]',
     ]);
 }
