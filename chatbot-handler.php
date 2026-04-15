@@ -129,21 +129,92 @@ function chatbotFormatReplyHtml($text)
         return 'Sorry, I could not generate a reply right now.';
     }
 
+    $replacements = [];
+
+    $text = preg_replace_callback(
+        '/\[\[([^\]|]+)\|([^\]]+)\]\]/',
+        function ($matches) use (&$replacements) {
+            $label = trim((string) $matches[1]);
+            $url = trim((string) $matches[2]);
+            $token = '%%CHATBOT_LINK_' . count($replacements) . '%%';
+
+            $replacements[$token] = chatbotBuildAnchorTag($url, $label);
+
+            return $token;
+        },
+        $text
+    ) ?? $text;
+
+    $text = preg_replace_callback(
+        '~(https?://[^\s<]+?)([.,!?)]?)(?=\s|$)~i',
+        function ($matches) use (&$replacements) {
+            $url = trim((string) $matches[1]);
+            $suffix = $matches[2] ?? '';
+            $token = '%%CHATBOT_URL_' . count($replacements) . '%%';
+
+            $replacements[$token] = chatbotBuildAnchorTag($url, chatbotGetUrlLabel($url)) . chatbotEscape($suffix);
+
+            return $token;
+        },
+        $text
+    ) ?? $text;
+
     $escaped = chatbotEscape($text);
 
-    // Turn plain URLs into safe clickable links while keeping the rest escaped.
-    $escaped = preg_replace_callback(
-        '~(https?://[^\s<]+)~i',
-        function ($matches) {
-            $url = $matches[1];
-            $safeUrl = chatbotEscape($url);
-
-            return '<a href="' . $safeUrl . '" target="_blank" rel="noopener noreferrer">' . $safeUrl . '</a>';
-        },
-        $escaped
-    ) ?? $escaped;
+    if (!empty($replacements)) {
+        $escaped = strtr($escaped, $replacements);
+    }
 
     return nl2br($escaped);
+}
+
+function chatbotNormalizeUrl($url)
+{
+    return rtrim(trim((string) $url), '/');
+}
+
+function chatbotBuildAnchorTag($url, $label)
+{
+    $safeUrl = chatbotEscape($url);
+    $safeLabel = chatbotEscape($label !== '' ? $label : 'Learn more');
+
+    return '<a href="' . $safeUrl . '" target="_blank" rel="noopener noreferrer">' . $safeLabel . '</a>';
+}
+
+function chatbotGetUrlLabel($url)
+{
+    $normalized = chatbotNormalizeUrl($url);
+    $knownLabels = [
+        'https://technofra.com/contact' => 'Contact Page',
+        'https://technofra.com/book-a-call' => 'Book a Call',
+        'https://technofra.com/web-design' => 'Website Services',
+        'https://technofra.com/android-app-development' => 'App Development',
+        'https://technofra.com/branding' => 'Branding Services',
+        'https://technofra.com/digital-marketing' => 'Digital Marketing',
+        'https://technofra.com/payment-gateway' => 'Payment Gateway Solutions',
+        'https://technofra.com/chatbot' => 'Chatbot Solutions',
+        'https://technofra.com/whatsapp' => 'WhatsApp Solutions',
+        'https://wa.me/918080721003' => 'WhatsApp',
+    ];
+
+    if (isset($knownLabels[$normalized])) {
+        return $knownLabels[$normalized];
+    }
+
+    $path = parse_url($normalized, PHP_URL_PATH);
+
+    if (is_string($path) && trim($path, '/') !== '') {
+        $slug = basename($path);
+        $slug = preg_replace('/\.php$/i', '', $slug) ?? $slug;
+        $slug = str_replace(['-', '_'], ' ', $slug);
+        $slug = trim($slug);
+
+        if ($slug !== '') {
+            return ucwords($slug);
+        }
+    }
+
+    return 'Learn more';
 }
 
 function chatbotKeywordMatch($text, $keywords)
@@ -173,46 +244,46 @@ function chatbotBuildFallbackReply($message, $pageLabel)
     $isContact = chatbotKeywordMatch($normalized, ['call', 'phone', 'email', 'contact', 'callback', 'talk']);
 
     if ($isGreeting) {
-        return 'Hello! Welcome to Technofra.' . "\n" . 'Tell me what you need help with, and I will guide you right away.';
+        return 'Hello, and welcome to Technofra.' . "\n" . 'Please share your requirement, and I will guide you with the most relevant next step.';
     }
 
     if ($isWebsite) {
-        return 'We can help with website design, WordPress, Shopify, and custom business websites.' . "\n" . 'You can explore our website services here: https://technofra.com/web-design';
+        return 'We can certainly help with website design, WordPress, Shopify, and custom business websites.' . "\n" . 'Please review our [[Website Services|https://technofra.com/web-design]] page, or share your requirement and I will suggest the right solution.';
     }
 
     if ($isApp) {
-        return 'Our team builds Android and iOS apps for businesses, startups, and service brands.' . "\n" . 'See app development details here: https://technofra.com/android-app-development';
+        return 'Our team develops Android and iOS applications for startups, businesses, and enterprise use cases.' . "\n" . 'You can explore our [[App Development|https://technofra.com/android-app-development]] services for more details.';
     }
 
     if ($isBranding) {
-        return 'Technofra also handles branding, UI/UX, logo systems, and digital experience design.' . "\n" . 'Branding page: https://technofra.com/branding';
+        return 'Yes, we also provide branding, UI/UX, logo systems, and digital experience design support.' . "\n" . 'Please have a look at our [[Branding Services|https://technofra.com/branding]] page.';
     }
 
     if ($isMarketing) {
-        return 'We support SEO, social media marketing, content marketing, and paid ad campaigns.' . "\n" . 'Digital marketing page: https://technofra.com/digital-marketing';
+        return 'We support SEO, social media marketing, content marketing, and paid performance campaigns.' . "\n" . 'You may review our [[Digital Marketing|https://technofra.com/digital-marketing]] services for a detailed overview.';
     }
 
     if ($isPayment) {
-        return 'Yes, we do secure payment gateway integrations for websites and apps.' . "\n" . 'Learn more: https://technofra.com/payment-gateway';
+        return 'Yes, we provide secure payment gateway integrations for websites and applications.' . "\n" . 'Please review our [[Payment Gateway Solutions|https://technofra.com/payment-gateway]] page for more information.';
     }
 
     if ($isChatbot) {
-        return 'Yes, we can set up website chatbots, WhatsApp automation, and customer support workflows.' . "\n" . 'Chatbot solutions: https://technofra.com/chatbot';
+        return 'Yes, we can set up website chatbots, WhatsApp automation, and customer support workflows.' . "\n" . 'You can explore our [[Chatbot Solutions|https://technofra.com/chatbot]] page for relevant use cases.';
     }
 
     if ($isPricing) {
-        return 'Pricing depends on scope, features, and timeline.' . "\n" . 'Share your requirement on https://technofra.com/contact and our team can prepare a quote.';
+        return 'Pricing depends on the project scope, features, and delivery timeline.' . "\n" . 'If you share your requirement through our [[Contact Page|https://technofra.com/contact]], our team can prepare a suitable estimate.';
     }
 
     if ($isContact) {
-        return 'You can connect with Technofra on https://technofra.com/contact, book a slot on https://technofra.com/book-a-call, or message us on WhatsApp: https://wa.me/918080721003';
+        return 'You can connect with our team through the [[Contact Page|https://technofra.com/contact]], schedule a discussion via [[Book a Call|https://technofra.com/book-a-call]], or message us on [[WhatsApp|https://wa.me/918080721003]].';
     }
 
     if ($isSupport) {
-        return 'I am here to help.' . "\n" . 'Please share your requirement, business goal, or issue in one line so I can guide you better.';
+        return 'I am here to assist you.' . "\n" . 'Please share your requirement, business goal, or issue in one line so I can guide you more precisely.';
     }
 
-    return 'Thanks for your message. You are currently browsing our ' . $pageLabel . '.' . "\n" . 'Tell me whether you need website development, app development, branding, marketing, payment integration, or chatbot setup.';
+    return 'Thank you for your message. You are currently browsing our ' . $pageLabel . '.' . "\n" . 'Please let me know whether you need website development, app development, branding, marketing, payment integration, or chatbot support.';
 }
 
 function chatbotGetLocalConfig()
@@ -274,24 +345,28 @@ function chatbotBuildSystemPrompt($pageLabel)
         'You are the live AI website assistant for Technofra, a digital services company.',
         'Current page context: ' . $pageLabel . '.',
         'Technofra services include website development, WordPress, Shopify, mobile app development, branding, UI/UX, SEO, social media marketing, content marketing, payment gateway integration, WhatsApp solutions, chatbot setup, API integrations, domain and hosting, and IT support.',
-        'Reply like a helpful sales + support assistant.',
-        'Answer based on the user question directly and naturally.',
-        'Keep replies concise, practical, and conversion-focused.',
+        'Reply like a polished, professional sales and support assistant for a premium digital agency.',
+        'Answer directly based on the user question.',
+        'Keep replies concise, practical, confident, and professional.',
+        'Avoid casual phrasing, slang, or overly friendly filler.',
         'If the user asks about pricing, explain that pricing depends on scope and recommend contact or book-a-call.',
         'If the user asks something unrelated to Technofra services, still answer briefly and then bring the conversation back to how Technofra can help.',
         'Never claim fake guarantees, fake pricing, or unavailable company details.',
         'Do not use markdown tables.',
-        'Do not output raw HTML. Plain text only.',
-        'When useful, mention these links in plain text:',
-        'Contact: https://technofra.com/contact',
-        'Book a Call: https://technofra.com/book-a-call',
-        'Website Services: https://technofra.com/web-design',
-        'App Development: https://technofra.com/android-app-development',
-        'Branding: https://technofra.com/branding',
-        'Digital Marketing: https://technofra.com/digital-marketing',
-        'Payment Gateway: https://technofra.com/payment-gateway',
-        'Chatbot: https://technofra.com/chatbot',
-        'WhatsApp: https://technofra.com/whatsapp',
+        'Do not output raw HTML.',
+        'Do not expose raw URLs directly in the visible reply.',
+        'If a link is helpful, use this exact format: [[Label|URL]].',
+        'Use at most 2 links in one reply.',
+        'Available links:',
+        '[[Contact Page|https://technofra.com/contact]]',
+        '[[Book a Call|https://technofra.com/book-a-call]]',
+        '[[Website Services|https://technofra.com/web-design]]',
+        '[[App Development|https://technofra.com/android-app-development]]',
+        '[[Branding Services|https://technofra.com/branding]]',
+        '[[Digital Marketing|https://technofra.com/digital-marketing]]',
+        '[[Payment Gateway Solutions|https://technofra.com/payment-gateway]]',
+        '[[Chatbot Solutions|https://technofra.com/chatbot]]',
+        '[[WhatsApp|https://wa.me/918080721003]]',
     ]);
 }
 

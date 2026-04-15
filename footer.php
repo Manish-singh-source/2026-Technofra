@@ -281,11 +281,16 @@
          <div class="tf-chatbot-body" id="tfChatbotBody">
              <div class="tf-msg tf-msg-bot">
                  Hi 👋<br>
-                 I am Technofra's AI assistant. How can I help you today?
+                 I am Technofra's AI assistant. Please share your requirement, and I will guide you with the most relevant next step.
              </div>
              <div class="tf-msg tf-msg-bot">
-                 You can ask about Website Development, App Development, Branding, UI/UX, Payment Integration, or
-                 Chatbot setup.
+                 You can ask about website development, app development, branding, UI/UX, payment integration, or chatbot solutions.
+             </div>
+             <div class="tf-chatbot-quick-actions" id="tfChatbotQuickActions">
+                 <button type="button" class="tf-chatbot-chip" data-prompt="I need help with website development.">Website Project</button>
+                 <button type="button" class="tf-chatbot-chip" data-prompt="I want to discuss app development requirements.">App Development</button>
+                 <button type="button" class="tf-chatbot-chip" data-prompt="Please share your pricing process.">Pricing</button>
+                 <button type="button" class="tf-chatbot-chip" data-prompt="I want your contact details.">Contact Team</button>
              </div>
          </div>
 
@@ -579,6 +584,7 @@ if (navClose && rightMenu) {
     const sendBtn = document.getElementById("tfChatbotSend");
     const input = document.getElementById("tfChatbotInput");
     const body = document.getElementById("tfChatbotBody");
+    const quickActions = document.getElementById("tfChatbotQuickActions");
 
     if (!widget || !toggleBtn || !closeBtn || !chatBox || !sendBtn || !input || !body) {
         return;
@@ -600,7 +606,7 @@ if (navClose && rightMenu) {
     closeBtn.innerHTML = "&times;";
 
     if (introMessages.length > 0) {
-        introMessages[0].innerHTML = "Hi there!<br>I am Technofra's AI assistant. How can I help you today?";
+        introMessages[0].innerHTML = "Hello.<br>I am Technofra's AI assistant. Please share your requirement, and I will guide you with the most relevant next step.";
     }
 
     function toggleChat(forceOpen) {
@@ -759,6 +765,19 @@ if (navClose && rightMenu) {
     });
 
     sendBtn.addEventListener("click", sendMessage);
+
+    if (quickActions) {
+        quickActions.addEventListener("click", function(event) {
+            const chip = event.target.closest(".tf-chatbot-chip");
+
+            if (!chip || isSending) {
+                return;
+            }
+
+            input.value = chip.dataset.prompt || "";
+            sendMessage();
+        });
+    }
 
     input.addEventListener("keydown", function(e) {
         if (e.key === "Enter") {

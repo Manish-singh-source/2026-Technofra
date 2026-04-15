@@ -5627,6 +5627,16 @@
      word-wrap: break-word;
  }
 
+ .tf-msg a {
+     color: #0b84ff;
+     font-weight: 600;
+     text-decoration: none;
+ }
+
+ .tf-msg a:hover {
+     text-decoration: underline;
+ }
+
  .tf-msg-bot {
      background: rgb(255 255 255);
      color: #2f2727;
@@ -5638,6 +5648,31 @@
      background: linear-gradient(135deg, #00c2ff, #008cff);
      color: #ffffff;
      border-top-right-radius: 4px;
+ }
+
+ .tf-chatbot-quick-actions {
+     display: flex;
+     flex-wrap: wrap;
+     gap: 8px;
+     margin: 2px 0 4px;
+ }
+
+ .tf-chatbot-chip {
+     border: 1px solid rgba(255, 255, 255, 0.16);
+     background: rgba(255, 255, 255, 0.08);
+     color: #f4f8ff;
+     border-radius: 999px;
+     padding: 9px 12px;
+     font-size: 12px;
+     line-height: 1.2;
+     cursor: pointer;
+     transition: background 0.2s ease, border-color 0.2s ease, transform 0.2s ease;
+ }
+
+ .tf-chatbot-chip:hover {
+     background: rgba(0, 194, 255, 0.16);
+     border-color: rgba(0, 194, 255, 0.45);
+     transform: translateY(-1px);
  }
 
  .tf-chatbot-footer {
