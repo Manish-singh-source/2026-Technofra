@@ -20545,7 +20545,7 @@ fieldset:disabled .btn {
 }
 
 .fw-bold {
-    font-weight: 800 !important
+    font-weight: 600 !important
 }
 
 .fw-bolder {
@@ -29056,7 +29056,7 @@ h1,
 h2,
 h3,
 h4 {
-    font-weight: 700
+    font-weight: 600
 }
 
 @media(min-width: 320px)and (max-width: 767px) {

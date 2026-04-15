@@ -295,10 +295,9 @@ gtag('config', 'G-189WWHXLSS');
         center center / cover">
     <div class="container">
         <div class="row justify-content-between align-items-center">
-            <div class="col-lg-5 col-xl-5 col-xl-5 col-md-10">
+            <div class="col-lg-6">
                 <div class="hero-content-wrap mt-5 crm-title mt-lg-0 mt-xl-0">
-                    <h1 class="fw-bold display-5">iOS APP DEVELOPMENT
-                        SERVICES</h1>
+                    <h1 class="display-5">iOS App Development Services</h1>
                     <p class="lead">
                         Make the most of iOS mobile app development to bring truly useful and captivating
                         products to
@@ -307,7 +306,7 @@ gtag('config', 'G-189WWHXLSS');
 
                 </div>
             </div>
-            <div class="col-lg-5 col-md-8 mt-5">
+            <div class="col-lg-6 col-md-8 mt-5">
                 <div class="position-relative text-center">
                     <img src="assets/image/mobileapp/iphone2.webp" alt="iOS App Development Company" class="img-fluid" />
                 </div>

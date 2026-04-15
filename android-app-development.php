@@ -197,11 +197,11 @@ gtag('config', 'G-189WWHXLSS');
         center center / cover">
     <div class="container">
         <div class="row justify-content-between align-items-center">
-            <div class="col-lg-5 col-xl-5 col-xl-5 col-md-10">
+            <div class="col-lg-6 ">
                 <div class="hero-content-wrap mt-5 crm-title mt-lg-0 mt-xl-0">
                     <!-- <span class="crm-subtitle ">Build your best quality app <img src="assets/image/mobileapp/shape/arrow-red.webp" alt="Android App Development Company"></span> -->
-                    <h1 class="display-5 fw-bold " style=" color:white;">
-                        Android App Development <span class="text-orange fw-bold">Services</span>
+                    <h1 class="display-5" style=" color:white;">
+                        Android App Development Company in Mumbai</span>
                     </h1>
                     <p class="m-0">
                         Technofra offers expert Android app development services, creating innovative, user-friendly,
@@ -209,7 +209,7 @@ gtag('config', 'G-189WWHXLSS');
                     </p>
                 </div>
             </div>
-            <div class="col-lg-5 col-md-8 mt-5">
+            <div class="col-lg-6 col-md-8 mt-5">
                 <div class="position-relative text-center">
                     <img src="assets/image/mobileapp/android2.webp" class="img-fluid"
                         alt="Android App Development Services" />
