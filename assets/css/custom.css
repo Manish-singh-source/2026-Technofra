@@ -2917,6 +2917,13 @@
      font-size: 16px;
  }
 
+ .twc-socials a svg {
+     width: 16px;
+     height: 16px;
+     fill: currentColor;
+     display: block;
+ }
+
  .twc-socials a:hover {
      transform: translateY(-2px);
      border-color: rgba(255, 255, 255, 0.35);
@@ -3150,6 +3157,11 @@
          width: 36px;
          height: 36px;
          font-size: 15px;
+     }
+
+     .twc-socials a svg {
+         width: 15px;
+         height: 15px;
      }
 
      .twc-brands-grid {

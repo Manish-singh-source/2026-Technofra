@@ -113,7 +113,11 @@
                  <div class="twc-socials">
                      <a href="https://hk.linkedin.com/company/technofra" target="_blank"><i
                              class="fa-brands fa-linkedin-in"></i></a>
-                     <a href="https://x.com/Technofra_" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                     <a href="https://x.com/Technofra_" target="_blank" aria-label="X">
+                         <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                             <path d="M18.244 2H21.5l-7.116 8.133L22.75 22h-6.553l-5.13-6.71L5.194 22H1.936l7.61-8.698L1.5 2h6.72l4.637 6.11L18.244 2Zm-1.142 18.05h1.804L7.228 3.844H5.292L17.102 20.05Z" />
+                         </svg>
+                     </a>
                      <a href="https://www.facebook.com/Technofra/" target="_blank"><i class="fab fa-facebook-f"></i></a>
                      <a href="https://www.instagram.com/technofra.company/" target="_blank"><i
                              class="fa-brands fa-instagram"></i></a>

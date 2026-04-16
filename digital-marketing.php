@@ -115,7 +115,7 @@ gtag('config', 'G-189WWHXLSS');
             </div>
             <div class="col-md-4 col-lg-2">
                 <div class="margin-bottom-6 text-center text-xl-end">
-                    <img src="assets/image/digitalmarketing/user-group.webp" alt="Digital Marketing Agency"
+                    <img src="assets/image/digitalmarketing/user-group.png" alt="Digital Marketing Agency"
                         class="img-fluid">
                 </div>
                 <p
@@ -588,7 +588,7 @@ gtag('config', 'G-189WWHXLSS');
         <div class="row">
             <div class="col-lg-7 m-auto text-center">
                 <div class="crm-title">
-                    <span class="crm-subtitle crm-title ">Services <img src="assets/image/arrow-red.webp"
+                    <span class="crm-subtitle crm-title ">Services <img src="assets/image/arrow-red.png"
                             alt="PPC Advertising Services"></span>
                     <h2 class="tg-element-title">Best Digital Marketing Services by Technofra</h2>
                 </div>
@@ -703,7 +703,7 @@ gtag('config', 'G-189WWHXLSS');
                 <div class="digi-how-works-left">
                     <div class="crm-title">
                         <span class="crm-subtitle ">Trusted digital marketing partner <img
-                                src="assets/image/arrow-red.webp" alt="ROI Focused Digital Marketing"></span>
+                                src="assets/image/arrow-red.png" alt="ROI Focused Digital Marketing"></span>
                     </div>
                     <h2>
                         Why choose our
