@@ -799,12 +799,7 @@ img {
 }
 
 .rnHeroContent {
-<<<<<<< HEAD
     position: absolute;   
-=======
-    position: absolute;
-   
->>>>>>> b3a3b63 (updated file)
     top: 270px;
     z-index: 6;
     color: #fff;
