@@ -502,21 +502,7 @@
 
                     <div class="action-btns">
                         <!-- Theme Toggle Button -->
-                        <span class="form-check d-inline-block">
-                            <input class="form-check-input d-none tt-x" type="checkbox" value="" id="flexCheckDefault">
-                            <label class="form-check-label" for="flexCheckDefault">
-                                <span class="btn btn-link p-1 tt-theme-toggle">
-                                    <span class="tt-theme-light" data-bs-toggle="tooltip" data-bs-placement="left"
-                                        data-bs-title="Light">
-                                        <i class="flaticon-sun-1 fs-lg"></i>
-                                    </span>
-                                    <span class="tt-theme-dark" data-bs-toggle="tooltip" data-bs-placement="left"
-                                        data-bs-title="Dark">
-                                        <i class="flaticon-moon-1 fs-lg"></i>
-                                    </span>
-                                </span>
-                            </label>
-                        </span>
+                        
 
                         <!-- ENQUIRY NOW Button -->
                         <a href="enquirynow" class="btn btn-outline-info mob_non tab-non">ENQUIRY NOW</a>
