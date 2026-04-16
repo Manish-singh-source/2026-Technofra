@@ -31,17 +31,14 @@ Disallow: /global-ocean
 Disallow: /vpsons
 Disallow: /cgi-bin/
 Disallow: /performance-marketing
-Disallow: /seo-services
 Disallow: /api-integration
 Disallow: /mobile-app-development
 Disallow: /mobileapp.aspx
-Disallow: /social-media-marketing
 Disallow: /globalocean/contact
 Disallow: /e-commerce-website-design
 Disallow: /mobile-app-development-indore
 Disallow: /TP5M.aspx
 Disallow: /TP3M.aspx
-Disallow: /social-media-marketing-indore
 Disallow: /globalocean/tracking
 Disallow: /assets/images/about/technofra-brochure.pdf
 Disallow: /pdf/3.%20Uniroyal.pdf
