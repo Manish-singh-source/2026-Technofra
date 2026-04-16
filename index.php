@@ -799,7 +799,12 @@ img {
 }
 
 .rnHeroContent {
+<<<<<<< HEAD
     position: absolute;   
+=======
+    position: absolute;
+   
+>>>>>>> b3a3b63 (updated file)
     top: 270px;
     z-index: 6;
     color: #fff;
@@ -4819,6 +4824,28 @@ rnHeroStartAutoSlide();
             once: true
         });
     }
+})();
+</script>
+<script>
+(() => {
+    const stickyNav = document.querySelector("nav.sticky-header");
+
+    if (!stickyNav) {
+        return;
+    }
+
+    const syncStickyState = () => {
+        if (window.scrollY < 2) {
+            stickyNav.classList.remove("affix");
+        } else {
+            stickyNav.classList.add("affix");
+        }
+    };
+
+    syncStickyState();
+    window.addEventListener("scroll", syncStickyState, {
+        passive: true
+    });
 })();
 </script>
 <?php include 'footer.php'; ?>
