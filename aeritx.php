@@ -163,33 +163,7 @@ gtag('config', 'G-189WWHXLSS');
                         </p>
 
                     </div>
-                    <!-- <div class="row">
-                        <div class="col-lg-6 mob-pt-20">
-                            <div class="bg-white cyber-about-box mb-4 p-4 mb-lg-0" data-aos="fade-up"
-                                data-aos-duration="3000">
-                                <div class="cyber-about-icon">
-                                    <i class="fas fa-thumbs-up"></i>
-                                </div>
-                                <h5 class="h-6">Success Project</h5>
-                                <p>
-                                    Empowering women through Sukanya clothing a true success story!
-                                </p>
-
-                            </div>
-                        </div>
-                        <div class="col-lg-6">
-                            <div class="bg-white cyber-about-box p-4" data-aos="fade-up" data-aos-duration="3000">
-                                <div class="cyber-about-icon">
-                                    <i class="fas fa-user"></i>
-                                </div>
-                                <h5 class="h-6">Team Consultancy</h5>
-                                <p>
-                                    Sukanya Women's Clothing - Elegant Styles by Team Consultancy
-                                </p>
-
-                            </div>
-                        </div>
-                    </div> -->
+                 
 
                 </div>
             </div>

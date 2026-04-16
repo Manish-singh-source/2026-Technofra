@@ -34,12 +34,12 @@ gtag('config', 'G-189WWHXLSS');
 
 <!-- Meta Description -->
 <meta name="description"
-    content="Technofra is a top mobile app development company in Mumbai, India, offering custom Android & iOS app development services. We build scalable, high-performance apps that drive business growth.">
+    content="Launch high-performance mobile apps with Technofra. We provide Android & iOS app development services focused on speed, scalability, and user experience.">
 
 <!-- Open Graph -->
 <meta property="og:title" content="Mobile App Development Company in Mumbai, India | Android & iOS Services – Technofra">
 <meta property="og:description"
-    content="Technofra is a top mobile app development company in Mumbai, India, offering custom Android & iOS app development services. We build scalable, high-performance apps that drive business growth.">
+    content="Launch high-performance mobile apps with Technofra. We provide Android & iOS app development services focused on speed, scalability, and user experience.">
 <style>
 <style>.dpbg-white {
     background-color: #f2f3f6 !important;

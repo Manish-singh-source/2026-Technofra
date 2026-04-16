@@ -2188,77 +2188,7 @@ img {
     </div>
 </div>
 
-<!-- <section class="indusSecWrap_v1">
-    <div class="indusInnerBox_v1 container" data-aos="fade-up" data-aos-duration="600">
-        <span class="crm-subtitle "> Our Industries <img loading="lazy" decoding="async" src="assets/image/arrow-red.png" alt="Web Design &amp; Development Company"> </span>
-        <h2 class="indusHeadingTxt_v1">Industries We Serve</h2>
 
-        <div class="indusGridFlex_v1" data-aos="fade-up" data-aos-duration="600">
-
-            <div class="indusCardBox_v1">
-                <div class="indusIconWrap_v1 clr_defence_v1"><i class="fa-solid fa-scale-balanced"></i></div>
-                <div class="indusTitleTxt_v1">Attorney</div>
-            </div>
-
-            <div class="indusCardBox_v1">
-                <div class="indusIconWrap_v1 clr_consumer_v1"><i class="fa-solid fa-user-gear"></i></div>
-                <div class="indusTitleTxt_v1">Auto Repair</div>
-            </div>
-
-            <div class="indusCardBox_v1">
-                <div class="indusIconWrap_v1 clr_aviation_v1"><i class="fa-solid fa-hard-hat"></i></div>
-                <div class="indusTitleTxt_v1">Construction</div>
-            </div>
-
-            <div class="indusCardBox_v1">
-                <div class="indusIconWrap_v1 clr_bank_v1"><i class="fa-solid fa-tooth"></i></div>
-                <div class="indusTitleTxt_v1">Dental</div>
-            </div>
-
-            <div class="indusCardBox_v1">
-                <div class="indusIconWrap_v1 clr_ayush_v1"><i class="fa-solid fa-golf-ball-tee"></i></div>
-                <div class="indusTitleTxt_v1">Golf Cart</div>
-            </div>
-
-            <div class="indusCardBox_v1">
-                <div class="indusIconWrap_v1 clr_auto_v1"><i class="fa-solid fa-fan"></i></div>
-                <div class="indusTitleTxt_v1">HVAC</div>
-            </div>
-
-            <div class="indusCardBox_v1">
-                <div class="indusIconWrap_v1 clr_agri_v1"><i class="fa-solid fa-tree"></i></div>
-                <div class="indusTitleTxt_v1">Landscaping</div>
-            </div>
-
-            <div class="indusCardBox_v1">
-                <div class="indusIconWrap_v1 clr_cement_v1"><i class="fa-solid fa-wrench"></i></div>
-                <div class="indusTitleTxt_v1">Plumber</div>
-            </div>
-
-            <div class="indusCardBox_v1">
-                <div class="indusIconWrap_v1 clr_ecom_v1"><i class="fa-solid fa-utensils"></i></div>
-                <div class="indusTitleTxt_v1">Restaurant</div>
-            </div>
-
-            <div class="indusCardBox_v1">
-                <div class="indusIconWrap_v1 clr_bio_v1"><i class="fa-solid fa-house"></i></div>
-                <div class="indusTitleTxt_v1">Roofing</div>
-            </div>
-
-            <div class="indusCardBox_v1">
-                <div class="indusIconWrap_v1 clr_autoComp_v1"><i class="fa-solid fa-truck"></i></div>
-                <div class="indusTitleTxt_v1">Trucking</div>
-            </div>
-
-            <div class="indusCardBox_v1">
-                <div class="indusIconWrap_v1 clr_chem_v1"><i class="fa-solid fa-bug"></i></div>
-                <div class="indusTitleTxt_v1">Pest Control</div>
-            </div>
-
-        </div>
-
-    </div>
-</section> -->
 
 
 <section class="tfxIndusSection">

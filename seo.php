@@ -33,12 +33,12 @@ gtag('config', 'G-189WWHXLSS');
 
 <!-- Meta Description -->
 <meta name="description"
-    content="Technofra is a leading SEO company in Mumbai, India, offering expert SEO services, including local SEO and eCommerce SEO. Our data-driven SEO strategies help businesses increase rankings, traffic, and conversions.">
+    content="Improve rankings and generate organic traffic with Technofra. Our SEO services include local SEO, eCommerce SEO, and data-driven strategies for long-term growth.">
 
 <!-- Open Graph -->
 <meta property="og:title" content="SEO Company in Mumbai, India | Technofra">
 <meta property="og:description"
-    content="Top SEO company in Mumbai. Technofra offers local & eCommerce SEO services to boost rankings, traffic, and business growth.">
+    content="Improve rankings and generate organic traffic with Technofra. Our SEO services include local SEO, eCommerce SEO, and data-driven strategies for long-term growth.s">
 <link rel="canonical" href="https://technofra.com/seo">
 
 <style>
@@ -619,9 +619,9 @@ gtag('config', 'G-189WWHXLSS');
                     <div class="seo-hero-copy">
                         <h1 class="fw-bold display-5 clr-white">SEO Services Company for Business Growth</h1>
                         <p class="lead clr-white margin-bottom-10 font-weight-medium">
-                            Grow your visibility, rankings, and qualified leads with a focused SEO strategy. Technofra
-                            helps businesses improve search presence through technical fixes, content planning, keyword
-                            targeting, and authority building.
+                            Technofra is a leading SEO company in Mumbai, India, It Improve rankings and generate
+                            organic traffic. Our SEO services include local SEO, eCommerce SEO, and data-driven
+                            strategies for long-term growth..
                         </p>
                     </div>
                     <div class="d-flex gap-8 flex-wrap">

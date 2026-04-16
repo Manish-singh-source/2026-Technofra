@@ -27,14 +27,14 @@ gtag('config', 'G-189WWHXLSS');
 
 <!-- Meta Keywords -->
 <meta name="keywords"
-    content="digital marketing, digital marketing company, digital marketing agency, digital marketing services, online marketing agency, internet marketing company">
+    content="Drive traffic, leads, and ROI with Technofra’s digital marketing services. We specialize in SEO, PPC, and performance marketing strategies that scale your business.">
 
 <!-- Title -->
 <title>Digital Marketing Agency in Mumbai, India | SEO, PPC & Online Marketing – Technofra</title>
 
 <!-- Meta Description -->
 <meta name="description"
-    content="Technofra is a leading digital marketing agency in Mumbai, India, offering SEO, PPC, and online marketing services. Grow your business with data-driven strategies and high-converting campaigns.">
+    content="Drive traffic, leads, and ROI with Technofra’s digital marketing services. We specialize in SEO, PPC, and performance marketing strategies that scale your business.">
 
 <!-- Open Graph -->
 <meta property="og:title" content="Digital Marketing Agency in Mumbai, India | Technofra">
@@ -92,9 +92,10 @@ gtag('config', 'G-189WWHXLSS');
             <div class="col-lg-6 col-xl-6 col-xxl-5">
                 <h1 class="fw-bold display-5 clr-white"> Digital Marketing </h1>
                 <p class="lead clr-white margin-bottom-10 font-weight-medium">
-                    At Technofra, we specialize in comprehensive digital marketing services designed to elevate your
-                    online presence and drive business growth. Our expert team leverages the latest strategies in online
-                    marketing to ensure your brand reaches its target audience effectively.
+                    Technofra is a leading digital marketing agency in Mumbai, India, offering SEO, PPC, and online
+                    marketing services. Grow your business with data-driven strategies and high-converting campaigns.
+                    Our expert team uses the latest online marketing strategies to effectively reach your target
+                    audience.
 
                 </p>
                 <div class="d-flex gap-8 flex-wrap">

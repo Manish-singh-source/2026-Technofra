@@ -34,12 +34,12 @@ gtag('config', 'G-189WWHXLSS');
 
 <!-- Meta Description -->
 <meta name="description"
-    content="Technofra is a leading Shopify website development company in Mumbai, India, offering custom Shopify development services. We build high-converting eCommerce stores that drive sales and business growth.">
+    content="Build high-converting Shopify stores with Technofra. We design and develop scalable eCommerce solutions that drive sales and business growth.">
 
 <!-- Open Graph -->
 <meta property="og:title" content="Shopify Website Development Company in Mumbai, India | Technofra">
 <meta property="og:description"
-    content="Build high-converting Shopify eCommerce stores with expert development services in Mumbai, India. Get custom Shopify solutions designed to boost sales and grow your online business.">
+    content="Build high-converting Shopify stores with Technofra. We design and develop scalable eCommerce solutions that drive sales and business growth.">
 <link rel="canonical" href="https://technofra.com/shopify-website-development">
 
 
@@ -400,8 +400,9 @@ video.vid.img-fluid.bra.VPY_from_APL1 {
                     <div class="hero-content-wrap text-xl-start text-lg-start mt-5 mt-lg-0 mt-xl-0" data-aos="fade-up">
                         <img src="assets/image/shopify/shopify-logo.webp" alt="Shopify Website Design Company">
                         <h1 class="fw-bold display-5 mb-3">Shopify Website Development Company in Mumbai</h1>
-                        <p class="lead">Get the best out of your business with Shopify eCommerce development
-                            solutions and rival the best in the world of eCommerce with enhanced growth and success.
+                        <p class="lead">Build high-converting Shopify eCommerce stores with expert development services
+                            in Mumbai, India. Get custom Shopify solutions designed to boost sales and grow your online
+                            business.
 
                         </p>
                         <img src="assets/image/shopify/reviews-google.webp" class="mb-3 mt-3" style="width: 40%;"

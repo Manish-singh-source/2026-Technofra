@@ -32,12 +32,12 @@ gtag('config', 'G-189WWHXLSS');
 
 <!-- Meta Description -->
 <meta name="description"
-    content="Top social media marketing agency in Mumbai. Technofra offers SMM, management & advertising services to grow your brand and generate leads.">
+    content="Grow your brand and generate leads with Technofra’s social media marketing services. We manage, optimize, and scale your campaigns across platforms.">
 
 <!-- Open Graph -->
 <meta property="og:title" content="Social Media Marketing Agency in Mumbai, India | Technofra">
 <meta property="og:description"
-    content="Technofra is a leading social media marketing agency in Mumbai, India, offering social media management and advertising services to boost engagement, leads, and brand growth.">
+    content="Grow your brand and generate leads with Technofra’s social media marketing services. We manage, optimize, and scale your campaigns across platforms.">
 <link rel="canonical" href="https://technofra.com/social-media-marketing">
 
 <style>
@@ -689,9 +689,9 @@ gtag('config', 'G-189WWHXLSS');
                     <div class="smm-hero-copy">
                         <h1 class="fw-bold display-5 clr-white">Social Media Marketing Services</h1>
                         <p class="lead margin-bottom-10 font-weight-medium">
-                            Grow your brand presence, audience engagement, and customer trust with strategic social
-                            media marketing. Technofra helps businesses create consistent content, run platform-specific
-                            campaigns, and turn attention into enquiries and sales.
+                            Grow your brand presence, audience engagement, and customer trust with top social media
+                            marketing agency in Mumbai. Technofra offers SMM, management & advertising services to grow
+                            your brand and generate leads.
                         </p>
                     </div>
                     <div class="smm-hero-actions d-flex gap-8 flex-wrap">
