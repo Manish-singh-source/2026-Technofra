@@ -718,6 +718,19 @@ img {
 
 @media (max-width: 576px) {
 
+     
+
+    .offcanvas.dpbgback,
+    .offcanvas.dpbgback .offcanvas-header,
+    .offcanvas.dpbgback .offcanvas-body {
+        background-color: #000000 !important;
+        color: #ffffff !important;
+    }
+
+    .offcanvas.dpbgback .main-menu li a.nav-link {
+        color: #737373 !important;
+    }
+
     .eep-calendar-info {
         display: grid !important;
     }
@@ -848,6 +861,18 @@ img {
 }
 
 @media (max-width: 767px) {
+    
+    .offcanvas.dpbgback,
+    .offcanvas.dpbgback .offcanvas-header,
+    .offcanvas.dpbgback .offcanvas-body {
+        background-color: #000000 !important;
+        color: #ffffff !important;
+    }
+
+    .offcanvas.dpbgback .main-menu li a.nav-link {
+        color: #737373 !important;
+    }
+
     .rnHeroSlider {
         min-height: 620px;
     }
