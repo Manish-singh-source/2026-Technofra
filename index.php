@@ -799,8 +799,7 @@ img {
 }
 
 .rnHeroContent {
-    position: absolute;
-    left: 315px;
+    position: absolute;   
     top: 270px;
     z-index: 6;
     color: #fff;
@@ -1920,7 +1919,7 @@ img {
                     </a>
 
                     <!-- 05 -->
-                    <a href="social-media-marketing">
+                    <a href="smm">
                         <div class="dd-card" data-aos="fade-up" data-aos-duration="600">
                             <div class="dd-card-inner">
                                 <div class="dd-card-front">

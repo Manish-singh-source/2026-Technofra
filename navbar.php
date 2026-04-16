@@ -409,7 +409,7 @@
                                                 </span>
                                                 <div class="drop-title">Paid Marketing (PPC)</div>
                                             </a>
-                                            <a href="social-media-marketing" class="dropdown-link">
+                                            <a href="smm" class="dropdown-link">
                                                 <span class="me-2">
                                                     <i class="fas fa-share-alt"></i>
                                                 </span>
@@ -677,7 +677,7 @@
                                     </span>
                                     <div class="drop-title">Paid Marketing (PPC)</div>
                                 </a>
-                                <a href="social-media-marketing" class="dropdown-link">
+                                <a href="smm" class="dropdown-link">
                                     <span class="me-2">
                                         <i class="fas fa-share-alt"></i>
                                     </span>

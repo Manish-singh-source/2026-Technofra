@@ -37,7 +37,7 @@ gtag('config', 'G-189WWHXLSS');
 <!-- Final Optimized Keywords -->
 <!-- Meta Keywords -->
 <meta name="keywords"
-    content="website development company, website development services, website design and development, website development agency, building website for business">
+    content="Build fast, scalable, and SEO-friendly websites with Technofra. Our Mumbai-based team delivers custom website development solutions designed to grow your business online.">
 
 <!-- Open Graph Title -->
 <meta property="og:title" content="Website Design & Development Company in Mumbai, India | Technofra">

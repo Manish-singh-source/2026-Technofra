@@ -33,7 +33,7 @@
                          <li><a href="branding"><i class="fa-solid fa-angle-right"></i>Branding</a></li>
                          <li><a href="digital-marketing"><i class="fa-solid fa-angle-right"></i>Digital
                                  Marketing</a></li>
-                         <li><a href="social-media-marketing"><i class="fa-solid fa-angle-right"></i>Social Media
+                         <li><a href="smm"><i class="fa-solid fa-angle-right"></i>Social Media
                                  Marketing</a></li>
                      </ul>
                  </div>
