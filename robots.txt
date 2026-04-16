@@ -31,12 +31,8 @@ Disallow: /global-ocean
 Disallow: /vpsons
 Disallow: /cgi-bin/
 Disallow: /performance-marketing
-Disallow: /api-integration
-Disallow: /mobile-app-development
-Disallow: /mobileapp.aspx
 Disallow: /globalocean/contact
-Disallow: /e-commerce-website-design
-Disallow: /mobile-app-development-indore
+Disallow: /e-commerce-website-design 
 Disallow: /TP5M.aspx
 Disallow: /TP3M.aspx
 Disallow: /globalocean/tracking
