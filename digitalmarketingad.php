@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 session_start();
 
 $defaultFormData = [
@@ -1781,6 +1781,35 @@ unset($_SESSION['digital_marketing_form_notice'], $_SESSION['digital_marketing_f
             font-size: 16px;
         }
 
+        .sticky-cta a .fa-phone {
+            display: inline-block;
+            margin-right: 6px;
+            transform-origin: 50% 60%;
+            animation: phone-ring 1.4s ease-in-out infinite;
+        }
+
+        @keyframes phone-ring {
+
+            0%,
+            100% {
+                transform: rotate(0deg) scale(1);
+            }
+
+            8%,
+            24% {
+                transform: rotate(-16deg) scale(1.08);
+            }
+
+            16%,
+            32% {
+                transform: rotate(16deg) scale(1.08);
+            }
+
+            40% {
+                transform: rotate(0deg) scale(1);
+            }
+        }
+
         body {
             padding-bottom: 80px;
         }
@@ -1793,6 +1822,7 @@ unset($_SESSION['digital_marketing_form_notice'], $_SESSION['digital_marketing_f
             gap: 5px;
             white-space: nowrap;
         }
+
     }
     </style>
 </head>
@@ -1819,7 +1849,7 @@ unset($_SESSION['digital_marketing_form_notice'], $_SESSION['digital_marketing_f
     <!-- Header -->
     <header class="header">
         <div class="container">
-            <a href="#" class="logo"><img src="assets/image/technofra14-tem.png" style="width: 200px;" alt=""></a>
+            <a href="#" class="logo"><img src="assets/image/technofra14-tem.png" style="width: 200px;" alt="Technofra"></a>
             <a href="#contact" class="header-cta">Get Free Quote</a>
         </div>
     </header>
@@ -1842,7 +1872,7 @@ unset($_SESSION['digital_marketing_form_notice'], $_SESSION['digital_marketing_f
         <!-- Hero Content - Center Aligned -->
         <div class="hero-content container">
             <div class="hero-badge">
-                <i class="fas fa-award"></i> #1 Rated Digital Marketing Agency For Global Businesses
+                <i class="fas fa-award"></i> #1 Rated Digital Marketing Agency
             </div>
 
             <h1>Get <span>3X Qualified Leads</span></h1>
@@ -1947,7 +1977,7 @@ unset($_SESSION['digital_marketing_form_notice'], $_SESSION['digital_marketing_f
                 <div class="form-benefits-side">
                     <div class="benefits-side-header">
                         <h3>Why Businesses Choose Us?</h3>
-                        <p>Trusted by industry leaders across Global</p>
+                        <p>Trusted by industry leaders across India</p>
                     </div>
 
                     <div class="benefit-list">
@@ -2122,7 +2152,7 @@ unset($_SESSION['digital_marketing_form_notice'], $_SESSION['digital_marketing_f
                         <i class="fas fa-ad"></i>
                     </div>
                     <h3>PPC</h3>
-                    <p>High-converting ad campaigns with 10x ROI. We optimize every dollar for maximum returns on
+                    <p>High-converting ad campaigns with 10x ROI. We optimize every rupee for maximum returns on
                         Google, Facebook
                         & Instagram.</p>
                 </div>
@@ -2500,7 +2530,7 @@ unset($_SESSION['digital_marketing_form_notice'], $_SESSION['digital_marketing_f
                         <i class="fas fa-chevron-down"></i>
                     </div>
                     <div class="faq-answer">
-                        ThereÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¾Ãƒâ€šÃ‚Â¢s no fixed minimum budget for Google Ads. The right budget depends on your
+                        There's no fixed minimum budget for Google Ads. The right budget depends on your
                         goals, industry competition, and how quickly you want to see results. What matters most
                         is having enough budget to collect meaningful data and allow proper optimization. Even
                         with a smaller budget, campaigns can be structured strategically by focusing on
@@ -2567,7 +2597,7 @@ unset($_SESSION['digital_marketing_form_notice'], $_SESSION['digital_marketing_f
                     <div class="faq-answer">
                         When selecting a marketing partner, businesses should focus on their ability to deliver
                         clear strategy, maintain transparency in reporting, and communicate effectively
-                        throughout the process. ItÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¾Ãƒâ€šÃ‚Â¢s important to work with a team that understands your goals
+                        throughout the process. It's important to work with a team that understands your goals
                         and can adapt quickly to changing market conditions. The best marketing partner does
                         not only try to meet short-term figures but concentrates more on creating long-term
                         growth through proper marketing strategy.

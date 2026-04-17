@@ -183,6 +183,7 @@
                  <a href="about">About Us </a>
                  <a href="contact">Contact Us</a>
                  <a href="portfolio">Portfolio</a>
+                 <a href="https://technofra.com/blog">Blog</a>
                  <a href="privacy-policy">Privacy Policy</a>
                  <a href="refund-policy">Refund Policy</a>
                  <a href="sitemap.html">Sitemap</a>

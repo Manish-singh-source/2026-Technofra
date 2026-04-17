@@ -2824,30 +2824,36 @@ img {
                     <div class="swiper-slide">
                         <div class="cyber-single-article p-3 border">
                             <div class="image image-anime">
-                                <img loading="lazy" decoding="async" src="assets/image/home/blog01.webp"
-                                    alt="IT Infrastructure Services">
+                                <a href="https://technofra.com/blog/10-common-seo-myths-that-are-killing-your-website-rankings-in2026/"
+                                    aria-label="Read 10 Common SEO Myths That Are Killing Your Website Rankings in 2026">
+                                    <img loading="lazy" decoding="async"
+                                        src="https://technofra.com/blog/wp-content/uploads/2026/04/WhatsApp-Image-2026-04-14-at-11.32.14-AM-420x300.jpeg"
+                                        alt="10 Common SEO Myths That Are Killing Your Website Rankings in 2026">
+                                </a>
                             </div>
                             <div class="article-content">
                                 <div class="article-info d-flex py-3">
                                     <div class="pe-3">
                                         <a href="#" class="text-decoration-none">
                                             <i class="fas fa-user pe-2"></i>
-                                            <span class="text-muted">Admin</span>
+                                            <span class="text-muted">technofra</span>
                                         </a>
                                     </div>
                                     <div>
                                         <a href="#" class="text-decoration-none">
                                             <i class="fas fa-calendar pe-2"></i>
-                                            <span class="text-muted">May 3, 2024</span>
+                                            <span class="text-muted">April 14, 2026</span>
                                         </a>
                                     </div>
                                 </div>
-                                <a href="#" class="text-decoration-none">
+                                <a href="https://technofra.com/blog/10-common-seo-myths-that-are-killing-your-website-rankings-in2026/"
+                                    class="text-decoration-none">
                                     <h2 class="h5 article-title limit-2-line-text">
-                                        "The Complete Guide to App Development: From Idea to Launch"
+                                        10 Common SEO Myths That Are Killing Your Website Rankings in 2026?
                                     </h2>
                                 </a>
-                                <a href="#" class="link-with-icon text-decoration-none">Read
+                                <a href="https://technofra.com/blog/10-common-seo-myths-that-are-killing-your-website-rankings-in2026/"
+                                    class="link-with-icon text-decoration-none">Read
                                     More
                                     <i class="fas fa-arrow-right"></i></a>
                             </div>
@@ -2881,7 +2887,7 @@ img {
                                         Development"
                                     </h2>
                                 </a>
-                                <a href="#" class="link-with-icon text-decoration-none">Read
+                                <a href="https://technofra.com/blog" class="link-with-icon text-decoration-none">Read
                                     More
                                     <i class="fas fa-arrow-right"></i></a>
                             </div>
@@ -2914,7 +2920,7 @@ img {
                                         "Exploring the Latest Trends in IT: A Guide to the Hottest Technologies"
                                     </h2>
                                 </a>
-                                <a href="#" class="link-with-icon text-decoration-none">Read
+                                <a href="https://technofra.com/blog" class="link-with-icon text-decoration-none">Read
                                     More
                                     <i class="fas fa-arrow-right"></i></a>
                             </div>
