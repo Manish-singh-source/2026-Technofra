@@ -3,6 +3,8 @@
 session_start();
 date_default_timezone_set('Asia/Kolkata');
 
+$digitalMarketingTimezone = new DateTimeZone('Asia/Kolkata');
+
 function redirectDigitalMarketingForm($status, $title, $message, array $formData = null)
 {
     $_SESSION['digital_marketing_form_notice'] = [
@@ -230,6 +232,10 @@ if (!$mysqli instanceof mysqli) {
 }
 
 $mysqli->set_charset('utf8mb4');
+$mysqli->query("SET time_zone = '+05:30'");
+
+$submittedAt = new DateTime('now', $digitalMarketingTimezone);
+$submittedAtForDb = $submittedAt->format('Y-m-d H:i:s');
 
 $createTableSql = "CREATE TABLE IF NOT EXISTS digital_marketing_leads (
     id INT UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY,
@@ -239,7 +245,7 @@ $createTableSql = "CREATE TABLE IF NOT EXISTS digital_marketing_leads (
     company VARCHAR(150) NOT NULL DEFAULT '',
     website VARCHAR(255) NOT NULL DEFAULT '',
     source_page VARCHAR(120) NOT NULL DEFAULT 'digitalmarketingad.php',
-    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+    created_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4";
 
 if (!$mysqli->query($createTableSql)) {
@@ -247,8 +253,18 @@ if (!$mysqli->query($createTableSql)) {
     redirectDigitalMarketingForm('error', 'Database Error', 'Could not prepare the lead storage table.', $formData);
 }
 
+$createdAtColumn = $mysqli->query("SHOW COLUMNS FROM digital_marketing_leads LIKE 'created_at'");
+if ($createdAtColumn instanceof mysqli_result) {
+    $createdAtDefinition = $createdAtColumn->fetch_assoc();
+    $createdAtColumn->close();
+
+    if ($createdAtDefinition && stripos((string) ($createdAtDefinition['Type'] ?? ''), 'datetime') === false) {
+        $mysqli->query("ALTER TABLE digital_marketing_leads MODIFY created_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP");
+    }
+}
+
 $insert = $mysqli->prepare(
-    'INSERT INTO digital_marketing_leads (name, email, phone, company, website, source_page) VALUES (?, ?, ?, ?, ?, ?)'
+    'INSERT INTO digital_marketing_leads (name, email, phone, company, website, source_page, created_at) VALUES (?, ?, ?, ?, ?, ?, ?)'
 );
 
 if (!$insert) {
@@ -257,7 +273,7 @@ if (!$insert) {
 }
 
 $sourcePage = 'digitalmarketingad.php';
-$insert->bind_param('ssssss', $name, $email, $contact, $company, $website, $sourcePage);
+$insert->bind_param('sssssss', $name, $email, $contact, $company, $website, $sourcePage, $submittedAtForDb);
 
 if (!$insert->execute()) {
     $insert->close();
@@ -268,7 +284,7 @@ if (!$insert->execute()) {
 $insert->close();
 $mysqli->close();
 
-$formattedDateTime = date('d M Y h:i A');
+$formattedDateTime = $submittedAt->format('d M Y h:i A');
 $smtpReady = !empty($mailConfig['host']) && !empty($mailConfig['username']) && !empty($mailConfig['password']);
 $mailProblem = false;
 
