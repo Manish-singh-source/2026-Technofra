@@ -291,9 +291,9 @@
                 <div class="container d-flex align-items-center justify-content-lg-between position-relative">
 
                     <a href="https://technofra.com/" class="navbar-brand d-flex align-items-center mb-md-0 text-decoration-none">
-                        <img src="assets/image/icons/technofra_logo.png" alt="technofra logo" width="250" height="45"
+                        <img src="https://technofra.com/logo.png" alt="technofra logo" width="250" height="45"
                             class="img-fluid logo-white tech_logo" />
-                        <img src="assets/image/icons/technofra_logo.png" alt="technofra logo" width="250" height="45"
+                        <img src="https://technofra.com/logo.png" alt="technofra logo" width="250" height="45"
                             class="img-fluid logo-color tech_logo" />
                     </a>
                     <a class="navbar-toggler position-absolute right-0 border-0" href="#offcanvasWithBackdrop">
@@ -566,7 +566,7 @@
     <div class="offcanvas dpbgback offcanvas-end" tabindex="-1" id="offcanvasWithBackdrop">
         <div class="offcanvas-header d-flex align-items-center mt-4">
             <a href="https://technofra.com/" class="d-flex align-items-center mb-md-0 text-decoration-none">
-                <img src="assets/image/icons/technofra_logo.png" alt="technofra logo" width="250" height="45" class="img-fluid ps-2 tech_logo" />
+                <img src="https://technofra.com/logo.png" alt="technofra logo" width="250" height="45" class="img-fluid ps-2 tech_logo" />
             </a>
             <button type="button" class="close-btn text-danger" data-bs-dismiss="offcanvas" aria-label="Close">
                 <i class="flaticon-cancel"></i>

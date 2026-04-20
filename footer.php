@@ -277,7 +277,7 @@
      <div class="tf-chatbot-box" id="tfChatbotBox">
          <div class="tf-chatbot-header">
              <div>
-                 <h4><img src="assets/image/icons/technofra_logo.png" alt="technofra logo" width="250" height="45" class="img-fluid ps-2 tech_logo" /></h4>
+                 <h4><img src="https://technofra.com/logo.png" alt="technofra logo" width="250" height="45" class="img-fluid ps-2 tech_logo" /></h4>
                  <!-- <span>AI support assistant</span> -->
              </div>
              <button class="tf-chatbot-close" id="tfChatbotClose" aria-label="Close chat">×</button>
