@@ -7,7 +7,7 @@
                  <div class="twc-about-col">
                      <div class="twc-brand-logo">
                          <a href="https://technofra.com/">
-                             <img src="assets\image\icons\technofra_logo.png" alt="Technofra Logo" width="200">
+                             <img src="https://technofra.com/logo.png" alt="Technofra Logo" width="250">
                          </a>
                      </div>
 
