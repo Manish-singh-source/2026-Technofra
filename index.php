@@ -22,6 +22,7 @@ $loadLegacyThemeBundle = false;
 include 'header.php';
 ?>
 <meta property="og:title" content="Technofra - Expert Web Design, Development &amp; Digital Solutions">
+<meta name="keywords" content="Shopify development companies, Social media marketing company, SEO company in mumbai, Api integration services, Digital marketing company, Mobile app development company, Website Development Company">
 <meta property="og:site_name" content="Technofra">
 <meta property="og:url" content="https://technofra.com/">
 <meta property="og:description"
