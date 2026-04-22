@@ -895,7 +895,7 @@ a:hover, .btn-link:hover {
                     </div>
                     <div class="contact-promo-info mb-4 mt-4">
                         <div class="contact-promo-info mb-4">
-                            <p>Mon - Sat : 10am - 7pm</p>
+                            <p>Mon - Sat : 9am - 6pm</p>
                             <p>Sunday (Closed)</p>
                         </div>
                     </div>
