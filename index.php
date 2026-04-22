@@ -2861,8 +2861,83 @@ img {
                             </div>
                         </div>
                     </div>
-
                     <div class="swiper-slide">
+                        <div class="cyber-single-article p-3 border">
+                            <div class="image image-anime">
+                                <a href="https://technofra.com/blog/ai-driven-seo-social-media-marketing-the-next-growth-engine-for-brands-in-2026/"
+                                    aria-label="Read 10 Common SEO Myths That Are Killing Your Website Rankings in 2026">
+                                    <img loading="lazy" decoding="async"
+                                        src="https://technofra.com/blog/wp-content/uploads/2026/04/Blog-post-1-1.png"
+                                        alt="10 Common SEO Myths That Are Killing Your Website Rankings in 2026">
+                                </a>
+                            </div>
+                            <div class="article-content">
+                                <div class="article-info d-flex py-3">
+                                    <div class="pe-3">
+                                        <a href="#" class="text-decoration-none">
+                                            <i class="fas fa-user pe-2"></i>
+                                            <span class="text-muted">technofra</span>
+                                        </a>
+                                    </div>
+                                    <div>
+                                        <a href="#" class="text-decoration-none">
+                                            <i class="fas fa-calendar pe-2"></i>
+                                            <span class="text-muted">April 18, 2026</span>
+                                        </a>
+                                    </div>
+                                </div>
+                                <a href="https://technofra.com/blog/ai-driven-seo-social-media-marketing-the-next-growth-engine-for-brands-in-2026/"
+                                    class="text-decoration-none">
+                                    <h2 class="h5 article-title limit-2-line-text">
+                                        AI-Driven SEO & Social Media Marketing: The Next Growth Engine for Brands in 2026
+                                    </h2>
+                                </a>
+                                <a href="https://technofra.com/blog/ai-driven-seo-social-media-marketing-the-next-growth-engine-for-brands-in-2026/"
+                                    class="link-with-icon text-decoration-none">Read
+                                    More
+                                    <i class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="cyber-single-article p-3 border">
+                            <div class="image image-anime">
+                                <a href="https://technofra.com/blog/how-to-build-high-performance-websites-that-drivemassive-traffic-quality-leads-conversions/"
+                                    aria-label="Read 10 Common SEO Myths That Are Killing Your Website Rankings in 2026">
+                                    <img loading="lazy" decoding="async"
+                                        src="https://technofra.com/blog/wp-content/uploads/2026/04/Blog-post-1-2.png"
+                                        alt="10 Common SEO Myths That Are Killing Your Website Rankings in 2026">
+                                </a>
+                            </div>
+                            <div class="article-content">
+                                <div class="article-info d-flex py-3">
+                                    <div class="pe-3">
+                                        <a href="#" class="text-decoration-none">
+                                            <i class="fas fa-user pe-2"></i>
+                                            <span class="text-muted">technofra</span>
+                                        </a>
+                                    </div>
+                                    <div>
+                                        <a href="#" class="text-decoration-none">
+                                            <i class="fas fa-calendar pe-2"></i>
+                                            <span class="text-muted">April 22, 2026</span>
+                                        </a>
+                                    </div>
+                                </div>
+                                <a href="https://technofra.com/blog/how-to-build-high-performance-websites-that-drivemassive-traffic-quality-leads-conversions/"
+                                    class="text-decoration-none">
+                                    <h2 class="h5 article-title limit-2-line-text">
+                                        How to Build High-Performance Websites That DriveMassive Traffic, Quality Leads & Conversions
+                                    </h2>
+                                </a>
+                                <a href="https://technofra.com/blog/how-to-build-high-performance-websites-that-drivemassive-traffic-quality-leads-conversions/"
+                                    class="link-with-icon text-decoration-none">Read
+                                    More
+                                    <i class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <div class="swiper-slide">
                         <div class="cyber-single-article p-3 border">
                             <div class="image image-anime">
                                 <img loading="lazy" decoding="async" src="assets/image/home/blog02.webp"
@@ -2927,7 +3002,7 @@ img {
                                     <i class="fas fa-arrow-right"></i></a>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
 
                 </div>
             </div>
