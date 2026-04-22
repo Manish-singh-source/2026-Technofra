@@ -2381,7 +2381,7 @@ unset($_SESSION['digital_marketing_form_notice'], $_SESSION['digital_marketing_f
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                     </div>
-                    <p>"The PPC campaigns they run are incredibly profitable. Every $1 we spend brings back $8-10 in
+                    <p>"The PPC campaigns they run are incredibly profitable. Every ₹100 we spend brings back ₹800-1000 in
                         revenue. Best
                         marketing investment we've ever made."</p>
                     <div class="testimonial-author">
