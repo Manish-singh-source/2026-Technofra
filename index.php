@@ -22,7 +22,8 @@ $loadLegacyThemeBundle = false;
 include 'header.php';
 ?>
 <meta property="og:title" content="Technofra - Expert Web Design, Development &amp; Digital Solutions">
-<meta name="keywords" content="Shopify development companies, Social media marketing company, SEO company in mumbai, Api integration services, Digital marketing company, Mobile app development company, Website Development Company">
+<meta name="keywords"
+    content="Website Development Company, Website Development Company in Mumbai, Website maintenance, Web development mumbai, Digital marketing agency in mumbai, Digital marketing company in Kandivali, Digital media marketing agency, Social media marketing agency in mumbai, SEO company in mumbai, Api integration services">
 <meta property="og:site_name" content="Technofra">
 <meta property="og:url" content="https://technofra.com/">
 <meta property="og:description"
@@ -719,7 +720,7 @@ img {
 
 @media (max-width: 576px) {
 
-     
+
 
     .offcanvas.dpbgback,
     .offcanvas.dpbgback .offcanvas-header,
@@ -813,7 +814,7 @@ img {
 }
 
 .rnHeroContent {
-    position: absolute;   
+    position: absolute;
     top: 270px;
     z-index: 6;
     color: #fff;
@@ -862,7 +863,7 @@ img {
 }
 
 @media (max-width: 767px) {
-    
+
     .offcanvas.dpbgback,
     .offcanvas.dpbgback .offcanvas-header,
     .offcanvas.dpbgback .offcanvas-body {
@@ -2927,7 +2928,7 @@ img {
                             </div>
                         </div>
                     </div>
-                    
+
                 </div>
             </div>
 
@@ -2949,7 +2950,8 @@ img {
 window.techHomeDisableMotion = window.matchMedia("(max-width: 767px), (prefers-reduced-motion: reduce)").matches;
 </script>
 <style>
-@media (max-width: 767px), (prefers-reduced-motion: reduce) {
+@media (max-width: 767px),
+(prefers-reduced-motion: reduce) {
     .loading-bar::before {
         animation: none !important;
     }
