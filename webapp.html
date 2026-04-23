@@ -21,7 +21,7 @@
       --electric: #44a4e0;
       --electric-dim: rgba(68, 164, 224, 0.18);
       --white: #ffffff;
-      --muted: #a0b2c9;
+      --muted: #8499b3;
       --card-bg: rgba(255, 255, 255, 0.82);
       --border: rgba(68, 164, 224, 0.16);
     }
@@ -441,6 +441,7 @@
     /* RIGHT SIDE - FORM */
     .hero-form-wrap {
       position: relative;
+      scroll-margin-top: 120px;
     }
 
     .form-card {
@@ -801,6 +802,105 @@
       color: var(--gold);
     }
 
+    /* Services CTA */
+    .services-cta-section {
+      padding: 50px 60px;
+      color: var(--white);
+      background:
+        radial-gradient(circle at 20% 20%, rgba(68, 164, 224, 0.32), transparent 32%),
+        radial-gradient(circle at 82% 25%, rgba(247, 185, 127, 0.18), transparent 30%),
+        linear-gradient(135deg, #183153 0%, #0b467a 48%, #1c9cc5 100%);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .services-cta-section::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background-image:
+        linear-gradient(rgba(255, 255, 255, 0.04) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255, 255, 255, 0.04) 1px, transparent 1px);
+      background-size: 72px 72px;
+      pointer-events: none;
+    }
+
+    .services-cta-inner {
+      max-width: 1120px;
+      margin: 0 auto;
+      position: relative;
+      z-index: 1;
+      text-align: center;
+    }
+
+    .services-cta-title {
+      font-family: 'Inter', sans-serif;
+      font-size: clamp(36px, 4.2vw, 64px);
+      line-height: 1.08;
+      letter-spacing: 0;
+      margin-bottom: 28px;
+      color: var(--white);
+    }
+
+    .services-cta-text {
+      max-width: 880px;
+      margin: 0 auto 42px;
+      color: rgba(255, 255, 255, 0.86);
+      font-size: clamp(16px, 1.6vw, 21px);
+      line-height: 1.55;
+      font-weight: 600;
+    }
+
+    .services-cta-actions {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 18px;
+      flex-wrap: wrap;
+    }
+
+    .services-cta-primary,
+    .services-cta-secondary {
+      min-height: 58px;
+      padding: 0 34px;
+      /* border-radius: 999px; */
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      font-size: 15px;
+      font-weight: 800;
+      text-decoration: none;
+      transition: transform 0.3s, box-shadow 0.3s, background 0.3s, color 0.3s;
+    }
+
+    .services-cta-primary {
+      background: #1c9cc5;
+      color: #183153;
+      border: 2px solid #1c9cc5;
+      box-shadow: 0 18px 40px rgba(68, 164, 224, 0.24);
+    }
+
+    .services-cta-primary:hover {
+      background: var(--gold-light);
+      border-color: var(--gold-light);
+      color: var(--ink);
+      transform: translateY(-2px);
+      box-shadow: 0 24px 50px rgba(8, 23, 46, 0.22);
+    }
+
+    .services-cta-secondary {
+      background: transparent;
+      color: var(--white);
+      border: 2px solid rgba(255, 255, 255, 0.9);
+    }
+
+    .services-cta-secondary:hover {
+      background: var(--white);
+      color: var(--ink);
+      transform: translateY(-2px);
+    }
+
     /* ============== WHY US ============== */
     .why-section {
       padding: 120px 60px;
@@ -1032,6 +1132,187 @@
       color: var(--muted);
       line-height: 1.7;
       font-weight: 300;
+    }
+
+    /* ============== INDUSTRIES ============== */
+    .industries-section {
+      padding: 60px 0;
+      color: var(--white);
+      background:
+        radial-gradient(circle at 16% 14%, rgba(68, 164, 224, 0.24), transparent 32%),
+        radial-gradient(circle at 88% 20%, rgba(247, 185, 127, 0.14), transparent 30%),
+        linear-gradient(135deg, #183153 0%, #1f3155 48%, #0b467a 100%);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .industries-section::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background-image:
+        linear-gradient(rgba(255, 255, 255, 0.035) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255, 255, 255, 0.035) 1px, transparent 1px);
+      background-size: 82px 82px;
+      pointer-events: none;
+    }
+
+    .industries-inner {
+      position: relative;
+      z-index: 1;
+    }
+
+    .industries-head {
+      max-width: 1300px;
+      margin: 0 auto 54px;
+      padding: 0 60px;
+      text-align: center;
+    }
+
+    .industries-label {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      color: var(--gold-light);
+      font-size: 15px;
+      font-weight: 800;
+      margin-bottom: 10px;
+    }
+
+    .industries-label::after {
+      content: '';
+      width: 34px;
+      height: 14px;
+      border-top: 3px solid #28b36d;
+      border-right: 3px solid #28b36d;
+      border-radius: 50%;
+      transform: rotate(12deg);
+    }
+
+    .industries-title {
+      font-family: 'Inter', sans-serif;
+      font-size: clamp(38px, 4vw, 56px);
+      line-height: 1.08;
+      letter-spacing: 0;
+      color: var(--white);
+    }
+
+    .industries-marquee-shell {
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+      overflow: hidden;
+      -webkit-mask-image: linear-gradient(90deg, transparent, #000 9%, #000 91%, transparent);
+      mask-image: linear-gradient(90deg, transparent, #000 9%, #000 91%, transparent);
+    }
+
+    .industry-logo-row {
+      overflow: hidden;
+    }
+
+    .industry-logo-track {
+      display: flex;
+      width: max-content;
+      gap: 22px;
+      animation: industryLogoScroll 42s linear infinite;
+      will-change: transform;
+    }
+
+    .industry-logo-row.reverse .industry-logo-track {
+      animation-direction: reverse;
+      animation-duration: 46s;
+    }
+
+    .industries-marquee-shell:hover .industry-logo-track {
+      animation-play-state: paused;
+    }
+
+    @keyframes industryLogoScroll {
+      from {
+        transform: translateX(0);
+      }
+
+      to {
+        transform: translateX(calc(-50% - 11px));
+      }
+    }
+
+    .industry-logo-card {
+      width: 104px;
+      min-height: 83px;
+      flex: 0 0 171px;
+      padding: 10px 10px;
+      background: rgba(255, 255, 255, 0.96);
+      color: var(--ink);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      text-align: center;
+      box-shadow: 0 18px 36px rgba(7, 20, 40, 0.18);
+      transition: transform 0.3s, box-shadow 0.3s, border-color 0.3s;
+      cursor: none;
+    }
+
+    .industry-logo-card:hover {
+      transform: translateY(-6px);
+      border-color: rgba(68, 164, 224, 0.6);
+      box-shadow: 0 24px 44px rgba(7, 20, 40, 0.26);
+    }
+
+    .industry-logo-icon {
+      font-size: 34px;
+      line-height: 1;
+      margin-bottom: 12px;
+    }
+
+    .industry-logo-title {
+      color: #2d3f56;
+      font-size: 14px;
+      font-weight: 600;
+      text-transform: uppercase;
+      line-height: 1.35;
+    }
+
+    .industry-green {
+      color: #247a36;
+    }
+
+    .industry-red {
+      color: #d83a3a;
+    }
+
+    .industry-blue {
+      color: #283fa3;
+    }
+
+    .industry-sky {
+      color: #0288d1;
+    }
+
+    .industry-orange {
+      color: #ef7a00;
+    }
+
+    .industry-pink {
+      color: #b91762;
+    }
+
+    .industry-purple {
+      color: #7130b4;
+    }
+
+    .industry-slate {
+      color: #455a64;
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      .industry-logo-track {
+        animation: none;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
     }
 
     /* ============== RESULTS ============== */
@@ -1411,6 +1692,10 @@
       gap: 10px;
       font-weight: 300;
     }
+    .footer-contact p a{
+      color: #8499b3;
+      text-decoration: none;
+    }
 
     .footer-contact i {
       color: var(--gold);
@@ -1508,6 +1793,7 @@
 
       .hero-form-wrap {
         max-width: 500px;
+        scroll-margin-top: 112px;
       }
 
       .section {
@@ -1516,6 +1802,10 @@
 
       .services-grid {
         grid-template-columns: repeat(2, 1fr);
+      }
+
+      .services-cta-section {
+        padding: 82px 30px;
       }
 
       .why-section {
@@ -1545,6 +1835,14 @@
 
       .portfolio-card:first-child {
         grid-row: span 1;
+      }
+
+      .industries-section {
+        padding: 86px 0;
+      }
+
+      .industries-head {
+        padding: 0 30px;
       }
 
       .results-section {
@@ -1620,8 +1918,87 @@
         font-size: 56px;
       }
 
+      .hero-form-wrap {
+        scroll-margin-top: 92px;
+      }
+
       .services-grid {
         grid-template-columns: 1fr;
+      }
+
+      .services-cta-section {
+        padding: 66px 20px;
+      }
+
+      .services-cta-title {
+        font-size: 34px;
+        margin-bottom: 20px;
+      }
+
+      .services-cta-text {
+        margin-bottom: 30px;
+        font-size: 16px;
+      }
+
+      .services-cta-actions {
+        gap: 12px;
+      }
+
+      .services-cta-primary,
+      .services-cta-secondary {
+        width: 100%;
+        max-width: 330px;
+        min-height: 54px;
+        padding: 0 22px;
+        font-size: 14px;
+      }
+
+      .industries-section {
+        padding: 70px 0;
+      }
+
+      .industries-head {
+        padding: 0 20px;
+        margin-bottom: 34px;
+      }
+
+      .industries-label {
+        font-size: 14px;
+      }
+
+      .industries-title {
+        font-size: 34px;
+      }
+
+      .industries-marquee-shell {
+        gap: 14px;
+        -webkit-mask-image: linear-gradient(90deg, transparent, #000 5%, #000 95%, transparent);
+        mask-image: linear-gradient(90deg, transparent, #000 5%, #000 95%, transparent);
+      }
+
+      .industry-logo-track {
+        gap: 14px;
+        animation-duration: 34s;
+      }
+
+      .industry-logo-row.reverse .industry-logo-track {
+        animation-duration: 38s;
+      }
+
+      .industry-logo-card {
+        width: 148px;
+        min-height: 90px;
+        flex-basis: 138px;
+        padding: 8px 8px;
+      }
+
+      .industry-logo-icon {
+        font-size: 28px;
+        margin-bottom: 10px;
+      }
+
+      .industry-logo-title {
+        font-size: 13px;
       }
 
       .hero-stats {
@@ -1681,12 +2058,12 @@
 
   <!-- HEADER -->
   <header class="header">
-    <a href="#" class="logo-text"><img src="assets/image/technofra logo (Black 14).png" alt="Technofra"></a>
+    <a href="#" class="logo-text"><img src="https://technofra.com/logo-black.png" alt="Technofra"></a>
     <nav>
       <ul class="nav-links">
         <li><a href="#services">Services</a></li>
-        <li><a href="#work">Work</a></li>
         <li><a href="#about">Why Us</a></li>
+        <li><a href="#work">Industries</a></li>
         <li><a href="#faq">FAQ</a></li>
       </ul>
     </nav>
@@ -1703,7 +2080,7 @@
       <div class="hero-left">
         <div class="hero-badge">
           <div class="badge-dot"></div>
-          #1 Rated Agency in India
+          #1 Premium Web Development for Growing Businesses
         </div>
 
         <h1 class="hero-title">
@@ -1713,34 +2090,34 @@
         </h1>
 
         <p class="hero-desc">
-          Custom websites, mobile apps & scalable platforms — engineered for performance, designed for growth, delivered
-          on time.
+          We help startups and businesses worldwide build fast, scalable websites and apps that increase conversions and
+          revenue.
         </p>
 
         <div class="hero-pills">
           <div class="pill"><i class="fas fa-check"></i> 100% Custom Code</div>
           <div class="pill"><i class="fas fa-check"></i> 500+ Projects</div>
           <div class="pill"><i class="fas fa-check"></i> 24/7 Support</div>
-          <div class="pill"><i class="fas fa-check"></i> Source Code Yours</div>
+          <!-- <div class="pill"><i class="fas fa-check"></i> Source Code Yours</div> -->
         </div>
 
         <div class="hero-buttons">
           <a href="#contact" class="btn-gold">Start Your Project</a>
-          <a href="tel:+919999999999" class="btn-ghost"><i class="fas fa-phone"></i> Call Now</a>
+          <a href="tel:+918080803374" class="btn-ghost"><i class="fas fa-phone"></i> CALL NOW</a>
         </div>
 
         <div class="hero-stats">
           <div class="stat">
-            <div class="stat-num">500+</div>
+            <div class="stat-num">2100+</div>
             <div class="stat-label">Projects Done</div>
           </div>
           <div class="stat">
-            <div class="stat-num">98%</div>
+            <div class="stat-num">1550+</div>
             <div class="stat-label">Satisfaction</div>
           </div>
           <div class="stat">
-            <div class="stat-num">4.9★</div>
-            <div class="stat-label">Client Rating</div>
+            <div class="stat-num">14+</div>
+            <div class="stat-label">Years of Experience</div>
           </div>
         </div>
       </div>
@@ -1749,13 +2126,13 @@
       <div class="hero-form-wrap" id="contact">
         <div class="form-card">
           <h2 class="form-card-title">Free Consultation</h2>
-          <p class="form-card-sub">Tell us your vision — we'll make it real.</p>
+          <p class="form-card-sub">Tell us your vision we'll make it real.</p>
 
-          <div class="urgency-pill">
+          <!-- <div class="urgency-pill">
             <i class="fas fa-bolt"></i>
             Limited Free Slots Today
             <div class="slot-count" id="slotCount">03</div>
-          </div>
+          </div> -->
 
           <form id="leadForm" action="#" method="POST">
             <div class="f-row">
@@ -1765,7 +2142,7 @@
               </div>
               <div class="f-group">
                 <label>Phone *</label>
-                <input type="tel" name="phone" placeholder="+91 99999 99999" required>
+                <input type="tel" name="phone" placeholder="+91 80808 03374" required>
               </div>
             </div>
 
@@ -1773,31 +2150,17 @@
               <label>Email Address *</label>
               <input type="email" name="email" placeholder="you@company.com" required>
             </div>
-
             <div class="f-row">
               <div class="f-group">
-                <label>Project Type *</label>
-                <select name="project-type" required>
-                  <option value="">Select type</option>
-                  <option>Business Website</option>
-                  <option>E-commerce</option>
-                  <option>Web Application</option>
-                  <option>Mobile App</option>
-                  <option>Website + App</option>
-                  <option>Redesign</option>
-                </select>
+                <label>Company Name *</label>
+                <input type="text" name="company" placeholder="Company Name" required>
               </div>
               <div class="f-group">
-                <label>Budget Range *</label>
-                <select name="budget" required>
-                  <option value="">Select budget</option>
-                  <option>₹25K – ₹50K</option>
-                  <option>₹50K – ₹1L</option>
-                  <option>₹1L – ₹2L</option>
-                  <option>₹2L+</option>
-                </select>
+                <label>Website *</label>
+                <input type="tel" name="website" placeholder="www.example.com" required>
               </div>
             </div>
+
 
             <div class="f-group">
               <label>Project Brief</label>
@@ -1805,7 +2168,7 @@
             </div>
 
             <button type="submit" class="submit-btn">
-              <i class="fas fa-rocket"></i> Get My Free Quote →
+              <i class="fas fa-rocket"></i> Get Your Free Strategy Call
             </button>
           </form>
 
@@ -1843,7 +2206,7 @@
       <div class="section-head fade-up">
         <div class="section-label">Our Services</div>
         <h2 class="section-title">WHAT WE <span class="accent">BUILD</span></h2>
-        <p class="section-desc">End-to-end digital solutions — from first pixel to final deployment.</p>
+        <p class="section-desc">End-to-end digital solutions from first pixel to final deployment.</p>
       </div>
 
       <div class="services-grid fade-up">
@@ -1859,7 +2222,7 @@
           <div class="service-num">02</div>
           <div class="service-icon-wrap"><i class="fas fa-mobile-alt"></i></div>
           <h3>Mobile App Development</h3>
-          <p>Native iOS & Android apps. Flutter, React Native, or native code — we build apps that users love and
+          <p>Native iOS & Android apps. Flutter, React Native, or native code we build apps that users love and
             businesses grow with.</p>
           <div class="service-arrow"><i class="fas fa-arrow-up-right"></i></div>
         </div>
@@ -1867,7 +2230,7 @@
           <div class="service-num">03</div>
           <div class="service-icon-wrap"><i class="fas fa-shopping-cart"></i></div>
           <h3>E-commerce Solutions</h3>
-          <p>Conversion-optimized stores with secure payments. Shopify, WooCommerce, or custom — we maximize your
+          <p>Conversion-optimized stores with secure payments. Shopify, WooCommerce, or custom we maximize your
             revenue.</p>
           <div class="service-arrow"><i class="fas fa-arrow-up-right"></i></div>
         </div>
@@ -1883,7 +2246,7 @@
           <div class="service-num">05</div>
           <div class="service-icon-wrap"><i class="fas fa-cogs"></i></div>
           <h3>Web Applications & SaaS</h3>
-          <p>Scalable SaaS platforms, CRM/ERP systems. Full-stack development with React, Node.js, Python — built for
+          <p>Scalable SaaS platforms, CRM/ERP systems. Full-stack development with React, Node.js, Python built for
             scale.</p>
           <div class="service-arrow"><i class="fas fa-arrow-up-right"></i></div>
         </div>
@@ -1894,6 +2257,19 @@
           <p>24/7 monitoring, security patches, regular updates. Keep your digital assets running flawlessly.</p>
           <div class="service-arrow"><i class="fas fa-arrow-up-right"></i></div>
         </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES CTA -->
+  <section class="services-cta-section">
+    <div class="services-cta-inner fade-up">
+      <h2 class="section-title">BUILD A WEBSITE THAT ACTUALLY <span class="accent">WORKS</span> </h2>
+      <p class="services-cta-text">Your website should bring you customers, not just visitors.
+        Join 500+ businesses across India start your free consultation today.</p>
+      <div class="services-cta-actions">
+        <a href="#contact" class="services-cta-primary">GET FREE STRATEGY CALL</a>
+        <a href="tel:+918080803374" class="services-cta-secondary"><i class="fas fa-phone"></i> CALL NOW</a>
       </div>
     </div>
   </section>
@@ -1927,7 +2303,7 @@
           <div class="wf-icon"><i class="fas fa-mobile-alt"></i></div>
           <div class="wf-text">
             <h4>Mobile-First by Default</h4>
-            <p>Every project is built mobile-first, ensuring perfect performance across all screen sizes — smartphone to
+            <p>Every project is built mobile-first, ensuring perfect performance across all screen sizes smartphone to
               4K desktop.</p>
           </div>
         </div>
@@ -1988,60 +2364,215 @@
     </div>
   </section>
 
-  <!-- PORTFOLIO -->
-  <section id="work" class="portfolio-section">
-    <div class="portfolio-inner">
-      <div class="section-head fade-up">
-        <div class="section-label">Our Work</div>
-        <h2 class="section-title">RECENT <span class="accent">PROJECTS</span></h2>
-        <p class="section-desc">Real builds, real results — a glimpse into what we've delivered.</p>
+  <!-- INDUSTRIES -->
+  <section id="work" class="industries-section">
+    <div class="industries-inner fade-up">
+      <div class="industries-head">
+        <h2 class="section-title">INDUSTRIES WE <span class="accent">SERVE</span> </h2>
       </div>
 
-      <div class="portfolio-grid fade-up">
-        <div class="portfolio-card">
-          <div class="p-visual p-visual-1">
-            <div class="p-badge"></div>
-            <i class="fas fa-shopping-bag p-icon"></i>
-          </div>
-          <div class="p-content">
-            <div class="p-tags">
-              <span class="p-tag">React</span>
-              <span class="p-tag">Node.js</span>
-              <span class="p-tag">MongoDB</span>
+      <div class="industries-marquee-shell" aria-label="Industries Technofra serves">
+        <div class="industry-logo-row">
+          <div class="industry-logo-track">
+            <div class="industry-logo-card">
+              <div class="industry-logo-icon industry-blue"><i class="fas fa-laptop-code"></i></div>
+              <div class="industry-logo-title">IT Services</div>
             </div>
-            <h3>Marketplace E-commerce Platform</h3>
-            <p>Full-featured online marketplace with 50K+ products, integrated payment gateways, AI-powered
-              recommendations, and real-time inventory management.</p>
+            <div class="industry-logo-card">
+              <div class="industry-logo-icon industry-slate"><i class="fas fa-user-gear"></i></div>
+              <div class="industry-logo-title">Auto Repair</div>
+            </div>
+            <div class="industry-logo-card">
+              <div class="industry-logo-icon industry-orange"><i class="fas fa-helmet-safety"></i></div>
+              <div class="industry-logo-title">Construction</div>
+            </div>
+            <div class="industry-logo-card">
+              <div class="industry-logo-icon industry-sky"><i class="fas fa-bolt"></i></div>
+              <div class="industry-logo-title">Electrician</div>
+            </div>
+            <div class="industry-logo-card">
+              <div class="industry-logo-icon industry-green"><i class="fas fa-broom"></i></div>
+              <div class="industry-logo-title">Cleaning</div>
+            </div>
+            <div class="industry-logo-card">
+              <div class="industry-logo-icon industry-blue"><i class="fas fa-fan"></i></div>
+              <div class="industry-logo-title">HVAC</div>
+            </div>
+            <div class="industry-logo-card">
+              <div class="industry-logo-icon industry-green"><i class="fas fa-tree"></i></div>
+              <div class="industry-logo-title">Landscaping</div>
+            </div>
+            <div class="industry-logo-card">
+              <div class="industry-logo-icon industry-sky"><i class="fas fa-wrench"></i></div>
+              <div class="industry-logo-title">Plumber</div>
+            </div>
+            <div class="industry-logo-card">
+              <div class="industry-logo-icon industry-red"><i class="fas fa-utensils"></i></div>
+              <div class="industry-logo-title">Restaurant</div>
+            </div>
+            <div class="industry-logo-card">
+              <div class="industry-logo-icon industry-slate"><i class="fas fa-house"></i></div>
+              <div class="industry-logo-title">Roofing</div>
+            </div>
+            <div class="industry-logo-card">
+              <div class="industry-logo-icon industry-slate"><i class="fas fa-truck"></i></div>
+              <div class="industry-logo-title">Trucking</div>
+            </div>
+            <div class="industry-logo-card">
+              <div class="industry-logo-icon industry-orange"><i class="fas fa-shield-virus"></i></div>
+              <div class="industry-logo-title">Pest Control</div>
+            </div>
+
+            <div class="industry-logo-card" aria-hidden="true">
+              <div class="industry-logo-icon industry-blue"><i class="fas fa-laptop-code"></i></div>
+              <div class="industry-logo-title">IT Services</div>
+            </div>
+            <div class="industry-logo-card" aria-hidden="true">
+              <div class="industry-logo-icon industry-slate"><i class="fas fa-user-gear"></i></div>
+              <div class="industry-logo-title">Auto Repair</div>
+            </div>
+            <div class="industry-logo-card" aria-hidden="true">
+              <div class="industry-logo-icon industry-orange"><i class="fas fa-helmet-safety"></i></div>
+              <div class="industry-logo-title">Construction</div>
+            </div>
+            <div class="industry-logo-card" aria-hidden="true">
+              <div class="industry-logo-icon industry-sky"><i class="fas fa-bolt"></i></div>
+              <div class="industry-logo-title">Electrician</div>
+            </div>
+            <div class="industry-logo-card" aria-hidden="true">
+              <div class="industry-logo-icon industry-green"><i class="fas fa-broom"></i></div>
+              <div class="industry-logo-title">Cleaning</div>
+            </div>
+            <div class="industry-logo-card" aria-hidden="true">
+              <div class="industry-logo-icon industry-blue"><i class="fas fa-fan"></i></div>
+              <div class="industry-logo-title">HVAC</div>
+            </div>
+            <div class="industry-logo-card" aria-hidden="true">
+              <div class="industry-logo-icon industry-green"><i class="fas fa-tree"></i></div>
+              <div class="industry-logo-title">Landscaping</div>
+            </div>
+            <div class="industry-logo-card" aria-hidden="true">
+              <div class="industry-logo-icon industry-sky"><i class="fas fa-wrench"></i></div>
+              <div class="industry-logo-title">Plumber</div>
+            </div>
+            <div class="industry-logo-card" aria-hidden="true">
+              <div class="industry-logo-icon industry-red"><i class="fas fa-utensils"></i></div>
+              <div class="industry-logo-title">Restaurant</div>
+            </div>
+            <div class="industry-logo-card" aria-hidden="true">
+              <div class="industry-logo-icon industry-slate"><i class="fas fa-house"></i></div>
+              <div class="industry-logo-title">Roofing</div>
+            </div>
+            <div class="industry-logo-card" aria-hidden="true">
+              <div class="industry-logo-icon industry-slate"><i class="fas fa-truck"></i></div>
+              <div class="industry-logo-title">Trucking</div>
+            </div>
+            <div class="industry-logo-card" aria-hidden="true">
+              <div class="industry-logo-icon industry-orange"><i class="fas fa-shield-virus"></i></div>
+              <div class="industry-logo-title">Pest Control</div>
+            </div>
           </div>
         </div>
-        <div class="portfolio-card">
-          <div class="p-visual p-visual-2" style="min-height:200px;">
-            <div class="p-badge"></div>
-            <i class="fas fa-heartbeat p-icon"></i>
-          </div>
-          <div class="p-content">
-            <div class="p-tags">
-              <span class="p-tag">Flutter</span>
-              <span class="p-tag">Firebase</span>
-              <span class="p-tag">WebRTC</span>
+
+        <div class="industry-logo-row reverse">
+          <div class="industry-logo-track">
+            <div class="industry-logo-card">
+              <div class="industry-logo-icon industry-green"><i class="fas fa-building"></i></div>
+              <div class="industry-logo-title">Real Estate</div>
             </div>
-            <h3>Healthcare Booking App</h3>
-            <p>Doctor appointments, video consultations & prescriptions — all in one cross-platform app.</p>
-          </div>
-        </div>
-        <div class="portfolio-card">
-          <div class="p-visual p-visual-3" style="min-height:200px;">
-            <div class="p-badge"></div>
-            <i class="fas fa-graduation-cap p-icon"></i>
-          </div>
-          <div class="p-content">
-            <div class="p-tags">
-              <span class="p-tag">Next.js</span>
-              <span class="p-tag">Python</span>
-              <span class="p-tag">AWS</span>
+            <div class="industry-logo-card">
+              <div class="industry-logo-icon industry-red"><i class="fas fa-stethoscope"></i></div>
+              <div class="industry-logo-title">Healthcare</div>
             </div>
-            <h3>EdTech LMS Platform</h3>
-            <p>Live classes, assignments, certifications, and real-time progress tracking for 10K+ learners.</p>
+            <div class="industry-logo-card">
+              <div class="industry-logo-icon industry-blue"><i class="fas fa-graduation-cap"></i></div>
+              <div class="industry-logo-title">Education</div>
+            </div>
+            <div class="industry-logo-card">
+              <div class="industry-logo-icon industry-green"><i class="fas fa-money-bill-trend-up"></i></div>
+              <div class="industry-logo-title">Finance</div>
+            </div>
+            <div class="industry-logo-card">
+              <div class="industry-logo-icon industry-sky"><i class="fas fa-plane-departure"></i></div>
+              <div class="industry-logo-title">Travel</div>
+            </div>
+            <div class="industry-logo-card">
+              <div class="industry-logo-icon industry-orange"><i class="fas fa-boxes-stacked"></i></div>
+              <div class="industry-logo-title">Logistics</div>
+            </div>
+            <div class="industry-logo-card">
+              <div class="industry-logo-icon industry-pink"><i class="fas fa-scissors"></i></div>
+              <div class="industry-logo-title">Beauty & Salon</div>
+            </div>
+            <div class="industry-logo-card">
+              <div class="industry-logo-icon industry-green"><i class="fas fa-dumbbell"></i></div>
+              <div class="industry-logo-title">Fitness & Gym</div>
+            </div>
+            <div class="industry-logo-card">
+              <div class="industry-logo-icon industry-purple"><i class="fas fa-calendar-days"></i></div>
+              <div class="industry-logo-title">Event Management</div>
+            </div>
+            <div class="industry-logo-card">
+              <div class="industry-logo-icon industry-orange"><i class="fas fa-store"></i></div>
+              <div class="industry-logo-title">Retail</div>
+            </div>
+            <div class="industry-logo-card">
+              <div class="industry-logo-icon industry-slate"><i class="fas fa-industry"></i></div>
+              <div class="industry-logo-title">Manufacturing</div>
+            </div>
+            <div class="industry-logo-card">
+              <div class="industry-logo-icon industry-slate"><i class="fas fa-scale-balanced"></i></div>
+              <div class="industry-logo-title">Attorney</div>
+            </div>
+
+            <div class="industry-logo-card" aria-hidden="true">
+              <div class="industry-logo-icon industry-green"><i class="fas fa-building"></i></div>
+              <div class="industry-logo-title">Real Estate</div>
+            </div>
+            <div class="industry-logo-card" aria-hidden="true">
+              <div class="industry-logo-icon industry-red"><i class="fas fa-stethoscope"></i></div>
+              <div class="industry-logo-title">Healthcare</div>
+            </div>
+            <div class="industry-logo-card" aria-hidden="true">
+              <div class="industry-logo-icon industry-blue"><i class="fas fa-graduation-cap"></i></div>
+              <div class="industry-logo-title">Education</div>
+            </div>
+            <div class="industry-logo-card" aria-hidden="true">
+              <div class="industry-logo-icon industry-green"><i class="fas fa-money-bill-trend-up"></i></div>
+              <div class="industry-logo-title">Finance</div>
+            </div>
+            <div class="industry-logo-card" aria-hidden="true">
+              <div class="industry-logo-icon industry-sky"><i class="fas fa-plane-departure"></i></div>
+              <div class="industry-logo-title">Travel</div>
+            </div>
+            <div class="industry-logo-card" aria-hidden="true">
+              <div class="industry-logo-icon industry-orange"><i class="fas fa-boxes-stacked"></i></div>
+              <div class="industry-logo-title">Logistics</div>
+            </div>
+            <div class="industry-logo-card" aria-hidden="true">
+              <div class="industry-logo-icon industry-pink"><i class="fas fa-scissors"></i></div>
+              <div class="industry-logo-title">Beauty & Salon</div>
+            </div>
+            <div class="industry-logo-card" aria-hidden="true">
+              <div class="industry-logo-icon industry-green"><i class="fas fa-dumbbell"></i></div>
+              <div class="industry-logo-title">Fitness & Gym</div>
+            </div>
+            <div class="industry-logo-card" aria-hidden="true">
+              <div class="industry-logo-icon industry-purple"><i class="fas fa-calendar-days"></i></div>
+              <div class="industry-logo-title">Event Management</div>
+            </div>
+            <div class="industry-logo-card" aria-hidden="true">
+              <div class="industry-logo-icon industry-orange"><i class="fas fa-store"></i></div>
+              <div class="industry-logo-title">Retail</div>
+            </div>
+            <div class="industry-logo-card" aria-hidden="true">
+              <div class="industry-logo-icon industry-slate"><i class="fas fa-industry"></i></div>
+              <div class="industry-logo-title">Manufacturing</div>
+            </div>
+            <div class="industry-logo-card" aria-hidden="true">
+              <div class="industry-logo-icon industry-slate"><i class="fas fa-scale-balanced"></i></div>
+              <div class="industry-logo-title">Attorney</div>
+            </div>
           </div>
         </div>
       </div>
@@ -2052,8 +2583,8 @@
   <section class="results-section">
     <div class="section-head fade-up">
       <div class="section-label">Results</div>
-      <h2 class="section-title">NUMBERS THAT <span class="accent">SPEAK</span></h2>
-      <p class="section-desc">Real metrics from projects we've delivered across India.</p>
+      <h2 class="section-title">REAL RESULTS WE’VE <span class="accent">DELIVERED</span></h2>
+      <p class="section-desc">Proven results that help our clients grow faster all over India.</p>
     </div>
     <div class="results-row fade-up">
       <div class="result-item">
@@ -2073,7 +2604,17 @@
       </div>
     </div>
   </section>
-
+  <section class="services-cta-section">
+    <div class="services-cta-inner fade-up">
+      <h2 class="section-title">BUILD A WEBSITE THAT ACTUALLY <span class="accent">WORKS</span> </h2>
+      <p class="services-cta-text">Your website should bring you customers, not just visitors.
+        Join 500+ businesses across India start your free consultation today.</p>
+      <div class="services-cta-actions">
+        <a href="#contact" class="services-cta-primary">GET FREE STRATEGY CALL</a>
+        <a href="tel:+918080803374" class="services-cta-secondary"><i class="fas fa-phone"></i> CALL NOW</a>
+      </div>
+    </div>
+  </section>
   <!-- TESTIMONIALS -->
   <section class="testimonials-section">
     <div class="testimonials-inner">
@@ -2099,7 +2640,7 @@
           <div class="quote-mark">"</div>
           <div class="t-stars">★★★★★</div>
           <p class="t-text">The mobile app they built has completely streamlined our logistics operations. Real-time
-            tracking, automated notifications — exactly what we envisioned.</p>
+            tracking, automated notifications exactly what we envisioned.</p>
           <div class="t-author">
             <div class="t-avatar">PS</div>
             <div>
@@ -2131,8 +2672,8 @@
       <div class="section-label">FAQ</div>
       <h2 class="section-title">GOT <span class="accent">QUESTIONS?</span></h2>
       <p class="section-desc" style="margin-top:20px;">Everything you need to know before we get started together.</p>
-      <a href="#contact" class="btn-gold" style="display:inline-block;margin-top:40px;text-decoration:none;">Ask Us
-        Directly</a>
+      <a href="#contact" class="btn-gold" style="display:inline-block;margin-top:40px;text-decoration:none;">Start Your
+        Project</a>
     </div>
     <div class="faq-list fade-up">
       <div class="faq-item">
@@ -2173,7 +2714,7 @@
           <span>Do you offer maintenance after launch?</span>
           <div class="fq-icon"><i class="fas fa-plus"></i></div>
         </div>
-        <div class="faq-answer">Yes — 6 months of free bug fixes and support after launch. We also offer ongoing
+        <div class="faq-answer">Yes 6 months of free bug fixes and support after launch. We also offer ongoing
           maintenance packages for updates, security patches, and feature additions. 24/7 support available.</div>
       </div>
     </div>
@@ -2183,11 +2724,11 @@
   <section class="final-cta-section">
     <div class="final-cta-inner fade-up">
       <h2 class="cta-big-title">LET'S BUILD<br><span class="accent">SOMETHING</span><br>GREAT</h2>
-      <p class="cta-sub">500+ businesses trusted us with their digital transformation. Join them — free consultation, no
+      <p class="cta-sub">500+ businesses trusted us with their digital transformation. Join them free consultation, no
         obligations.</p>
       <div class="cta-buttons">
-        <a href="#contact" class="btn-gold">Start Free Consultation</a>
-        <a href="tel:+919999999999" class="btn-outline"><i class="fas fa-phone"></i> Call Now</a>
+        <a href="#contact" class="btn-gold">GET FREE STRATEGY CALL</a>
+        <a href="tel:+918080803374" class="btn-outline"><i class="fas fa-phone"></i> CALL NOW</a>
       </div>
     </div>
   </section>
@@ -2197,32 +2738,34 @@
     <div class="footer-inner">
       <div class="footer-top">
         <div>
-          <div class="footer-brand-name">TECHNO<span>FRA</span></div>
+          <div class="footer-brand-name"> <a href="#" class="logo-text"><img src="https://technofra.com/logo.png"
+                alt="Technofra"></a></div>
           <p class="footer-brand-desc">Your trusted technology partner for custom websites, mobile apps, and scalable
             digital products built for growth.</p>
         </div>
         <div class="footer-col">
           <h5>Services</h5>
           <div class="footer-links">
-            <a href="#">Custom Website Dev</a>
-            <a href="#">E-commerce Solutions</a>
-            <a href="#">Web Applications</a>
-            <a href="#">Mobile App Dev</a>
-            <a href="#">UI/UX Design</a>
+            <a href="#">Website Development</a>
+            <a href="#">App Development</a>
+            <a href="#">E-Commerce Development</a>
+            <a href="#">Branding</a>
+            <a href="#">Digital Marketing</a>
+            <a href="#">Social Media Marketing</a>
           </div>
         </div>
         <div class="footer-col footer-contact">
           <h5>Contact</h5>
-          <p><i class="fas fa-phone"></i> +91 99999 99999</p>
-          <p><i class="fas fa-envelope"></i> info@technofra.com</p>
-          <p><i class="fas fa-map-marker-alt"></i> India</p>
-          <p><i class="fas fa-clock"></i> Mon–Sat, 9AM–7PM</p>
+          <p><a href="tel:+91 80808 03374"> <i class="fas fa-phone"></i> &nbsp;&nbsp;+91 80808 03374</a></p>
+          <p><a href="mailto:info@technofra.com"> <i class="fas fa-envelope"></i> &nbsp;&nbsp;info@technofra.com</a></p>
+          <p><i class="fas fa-map-marker-alt"></i> Mumbai, India</p>
+          <p><i class="fas fa-clock"></i> Mon–Sat, 9AM–6PM</p>
         </div>
         <div class="footer-col">
           <h5>Working Hours</h5>
           <div class="footer-links">
             <a href="#">Monday – Saturday</a>
-            <a href="#">9:00 AM – 7:00 PM</a>
+            <a href="#">9:00 AM – 6:00 PM</a>
             <a href="#" style="margin-top:12px;">Privacy Policy</a>
             <a href="#">Terms of Service</a>
           </div>
@@ -2261,7 +2804,7 @@
     }
     animateRing();
 
-    document.querySelectorAll('a, button, .service-item, .faq-question').forEach(el => {
+    document.querySelectorAll('a, button, .service-item, .industry-logo-card, .faq-question').forEach(el => {
       el.addEventListener('mouseenter', () => {
         cursor.style.transform = 'scale(2)';
         cursorRing.style.transform = 'scale(1.5)';
@@ -2276,8 +2819,21 @@
     document.querySelectorAll('a[href^="#"]').forEach(a => {
       a.addEventListener('click', e => {
         e.preventDefault();
-        const target = document.querySelector(a.getAttribute('href'));
-        if (target) target.scrollIntoView({ behavior: 'smooth' });
+        const hash = a.getAttribute('href');
+        if (!hash || hash === '#') return;
+
+        const target = document.querySelector(hash);
+        if (!target) return;
+
+        const header = document.querySelector('.header');
+        const headerHeight = header ? header.offsetHeight : 0;
+        const extraGap = window.matchMedia('(max-width: 1100px)').matches ? 32 : 18;
+        const targetTop = target.getBoundingClientRect().top + window.pageYOffset - headerHeight - extraGap;
+
+        window.scrollTo({
+          top: Math.max(targetTop, 0),
+          behavior: 'smooth'
+        });
       });
     });
 

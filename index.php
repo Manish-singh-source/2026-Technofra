@@ -2224,8 +2224,7 @@ img {
                     src="assets/image/arrow-red.png" alt="Website Development Company in Mumbai"></span>
             <h2 class="white">Industries We Serve</h2>
         </div>
-        <!-- <h2 class="tfxIndusHeading">Industries We Serve</h2>
-        <p class="tfxIndusSubheading">Serving diverse industries with tailored digital solutions</p> -->
+        
 
         <div class="tfxIndusSliderWrap">
             <button class="tfxIndusNav tfxIndusPrev" aria-label="Previous">
