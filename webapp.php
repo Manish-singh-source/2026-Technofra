@@ -1,12 +1,43 @@
-<!DOCTYPE html>
+<?php
+session_start();
+
+$defaultFormData = [
+  'name' => '',
+  'contact' => '',
+  'email' => '',
+  'company' => '',
+  'website' => '',
+  'message' => '',
+];
+
+$formNotice = $_SESSION['webapp_form_notice'] ?? null;
+$formData = array_merge($defaultFormData, $_SESSION['webapp_form_data'] ?? []);
+
+unset($_SESSION['webapp_form_notice'], $_SESSION['webapp_form_data']);
+?><!DOCTYPE html>
 <html lang="en">
 
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Technofra | Elite Web & App Development</title>
+  <link rel="icon" href="assets/image/favicon.png" type="image/png" sizes="16x16">
+  <title>Website Design & Development Company in Mumbai, India | Technofra</title>
   <meta name="description"
     content="Premium Web Development, iOS/Android Apps, E-commerce Solutions. Custom Code. Guaranteed Results.">
+  <meta property="og:title" content="Website Design & App Development Company | Technofra">
+  <meta property="og:description" content="Custom websites, mobile apps, e-commerce and SaaS platforms built for growth.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://technofra.com/webapp.php">
+  <meta property="og:image" content="https://technofra.com/logo-black.png">
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-189WWHXLSS"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+    gtag('config', 'G-189WWHXLSS');
+  </script>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
@@ -21,7 +52,7 @@
       --electric: #44a4e0;
       --electric-dim: rgba(68, 164, 224, 0.18);
       --white: #ffffff;
-      --muted: #6d829d;
+      --muted: #9098a2;
       --card-bg: rgba(255, 255, 255, 0.82);
       --border: rgba(68, 164, 224, 0.16);
     }
@@ -401,6 +432,37 @@
       font-size: 12px;
     }
 
+    .btn-ghost .fa-phone,
+    .services-cta-secondary .fa-phone,
+    .btn-outline .fa-phone {
+      display: inline-block;
+      transform-origin: 50% 70%;
+      animation: phoneRing 1.4s ease-in-out infinite;
+    }
+
+    @keyframes phoneRing {
+      0%,
+      100% {
+        transform: rotate(0deg);
+      }
+
+      10%,
+      30%,
+      50% {
+        transform: rotate(-15deg);
+      }
+
+      20%,
+      40%,
+      60% {
+        transform: rotate(15deg);
+      }
+
+      70% {
+        transform: rotate(0deg);
+      }
+    }
+
     /* Hero Stats */
     .hero-stats {
       display: flex;
@@ -612,6 +674,96 @@
 
     .form-trust i {
       color: var(--gold);
+    }
+
+    .form-hidden-field {
+      position: absolute;
+      left: -9999px;
+      width: 1px;
+      height: 1px;
+      overflow: hidden;
+    }
+
+    .form-popup {
+      position: fixed;
+      top: 24px;
+      left: 50%;
+      transform: translateX(-50%);
+      z-index: 9999;
+      width: min(92vw, 520px);
+      animation: popupDrop 0.45s ease both;
+    }
+
+    .form-popup-card {
+      position: relative;
+      display: flex;
+      gap: 14px;
+      align-items: flex-start;
+      padding: 18px 48px 18px 18px;
+      background: var(--white);
+      border: 1px solid rgba(24, 49, 83, 0.12);
+      box-shadow: 0 20px 45px rgba(24, 49, 83, 0.18);
+    }
+
+    .form-popup.success .form-popup-card {
+      border-left: 5px solid #1f9d55;
+    }
+
+    .form-popup.error .form-popup-card {
+      border-left: 5px solid #d64545;
+    }
+
+    .form-popup-icon {
+      width: 36px;
+      height: 36px;
+      display: grid;
+      place-items: center;
+      flex: 0 0 36px;
+      color: var(--white);
+      background: #1f9d55;
+      border-radius: 50%;
+    }
+
+    .form-popup.error .form-popup-icon {
+      background: #d64545;
+    }
+
+    .form-popup-content h3 {
+      margin: 0 0 5px;
+      color: var(--ink);
+      font-size: 16px;
+      line-height: 1.3;
+    }
+
+    .form-popup-content p {
+      margin: 0;
+      color: var(--muted);
+      font-size: 14px;
+      line-height: 1.55;
+    }
+
+    .form-popup-close {
+      position: absolute;
+      top: 10px;
+      right: 14px;
+      border: 0;
+      background: transparent;
+      color: var(--muted);
+      font-size: 24px;
+      line-height: 1;
+      cursor: pointer;
+    }
+
+    @keyframes popupDrop {
+      from {
+        opacity: 0;
+        transform: translate(-50%, -12px);
+      }
+
+      to {
+        opacity: 1;
+        transform: translate(-50%, 0);
+      }
     }
 
     /* ============== MARQUEE ============== */
@@ -1317,6 +1469,17 @@
       }
     }
 
+    @media (hover: none), (pointer: coarse) {
+      body {
+        cursor: auto;
+      }
+
+      .cursor,
+      .cursor-ring {
+        display: none;
+      }
+    }
+
     /* ============== RESULTS ============== */
     .results-section {
       padding: 60px 60px;
@@ -1873,7 +2036,29 @@
       }
 
       .testimonials-grid {
-        grid-template-columns: 1fr;
+        display: flex;
+        gap: 16px;
+        overflow-x: auto;
+        overscroll-behavior-x: contain;
+        scroll-snap-type: x mandatory;
+        scroll-padding: 0 20px;
+        margin: 44px -20px 0;
+        padding: 0 20px 16px;
+        -webkit-overflow-scrolling: touch;
+      }
+
+      .testimonials-grid::-webkit-scrollbar {
+        display: none;
+      }
+
+      .testimonials-grid {
+        scrollbar-width: none;
+      }
+
+      .testimonial-card {
+        flex: 0 0 86%;
+        scroll-snap-align: start;
+        padding: 32px 24px;
       }
 
       .faq-section {
@@ -1908,7 +2093,7 @@
       }
 
       .logo-text img {
-        width: 132px !important;
+        width: 177px !important;
       }
 
       .header-cta {
@@ -1947,7 +2132,11 @@
       }
 
       .services-cta-actions {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
         gap: 12px;
+        flex-wrap: wrap;
       }
 
       .services-cta-primary,
@@ -2039,25 +2228,53 @@
       }
 
       .footer-top {
-        grid-template-columns: 1fr;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 30px 18px;
+      }
+
+      .footer-top > div:nth-child(1),
+      .footer-top > .footer-col:nth-child(2) {
+        grid-column: 1 / -1;
+      }
+
+      .footer-contact p,
+      .footer-links a {
+        font-size: 12px;
+        line-height: 1.5;
+      }
+
+      .footer-col h5 {
+        font-size: 10px;
+        letter-spacing: 1.2px;
+        margin-bottom: 14px;
       }
 
       .cta-buttons {
         flex-direction: column;
+      }
 
-        STACK .sticky-mobile {
-          display: block;
-        }
+      .sticky-mobile {
+        display: block;
+      }
 
-        body {
-          padding-bottom: 60px;
-        }
+      body {
+        padding-bottom: 60px;
       }
     }
 
     @media (max-width:480px) {
       .hero-pills {
-        flex-direction: column;
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 10px;
+      }
+
+      .hero-pills .pill {
+        width: 100%;
+        justify-content: center;
+        padding: 9px 10px;
+        font-size: 12px;
+        text-align: center;
       }
 
       .hero-buttons {
@@ -2085,6 +2302,21 @@
 </head>
 
 <body>
+  <?php if ($formNotice): ?>
+    <div class="form-popup <?php echo htmlspecialchars($formNotice['status'], ENT_QUOTES, 'UTF-8'); ?>" id="formPopup">
+      <div class="form-popup-card">
+        <div class="form-popup-icon">
+          <i class="fas <?php echo $formNotice['status'] === 'success' ? 'fa-circle-check' : 'fa-circle-exclamation'; ?>"></i>
+        </div>
+        <div class="form-popup-content">
+          <h3><?php echo htmlspecialchars($formNotice['title'], ENT_QUOTES, 'UTF-8'); ?></h3>
+          <p><?php echo htmlspecialchars($formNotice['message'], ENT_QUOTES, 'UTF-8'); ?></p>
+        </div>
+        <button type="button" class="form-popup-close" aria-label="Close popup" onclick="document.getElementById('formPopup').style.display='none'">&times;</button>
+      </div>
+    </div>
+  <?php endif; ?>
+
   <!-- Custom Cursor -->
   <div class="cursor" id="cursor"></div>
   <div class="cursor-ring" id="cursorRing"></div>
@@ -2092,14 +2324,14 @@
   <!-- HEADER -->
   <header class="header container">
     <a href="#" class="logo-text"><img src="https://technofra.com/logo-black.png" alt="Technofra"></a>
-    <nav>
+    <!-- <nav>
       <ul class="nav-links">
         <li><a href="#services">Services</a></li>
         <li><a href="#about">Why Us</a></li>
         <li><a href="#work">Industries</a></li>
         <li><a href="#faq">FAQ</a></li>
       </ul>
-    </nav>
+    </nav> -->
     <a href="#contact" class="header-cta"><span>Get Free Quote</span></a>
   </header>
 
@@ -2141,15 +2373,15 @@
 
         <div class="hero-stats">
           <div class="stat">
-            <div class="stat-num">2100+</div>
+            <div class="stat-num" data-count="2100" data-suffix="+">0+</div>
             <div class="stat-label">Projects Done</div>
           </div>
           <div class="stat">
-            <div class="stat-num">1550+</div>
+            <div class="stat-num" data-count="1550" data-suffix="+">0+</div>
             <div class="stat-label">Satisfaction</div>
           </div>
           <div class="stat">
-            <div class="stat-num">14+</div>
+            <div class="stat-num" data-count="14" data-suffix="+">0+</div>
             <div class="stat-label">Years of Experience</div>
           </div>
         </div>
@@ -2167,37 +2399,46 @@
             <div class="slot-count" id="slotCount">03</div>
           </div> -->
 
-          <form id="leadForm" action="#" method="POST">
+          <form id="leadForm" action="webapp-handler.php" method="POST">
+            <div class="form-hidden-field" aria-hidden="true">
+              <label for="hidden_field">Leave this field empty</label>
+              <input type="text" id="hidden_field" name="hidden_field" tabindex="-1" autocomplete="off">
+            </div>
             <div class="f-row">
               <div class="f-group">
                 <label>Full Name *</label>
-                <input type="text" name="name" placeholder="John Doe" required>
+                <input type="text" name="name" placeholder="   Doe" value="<?php echo htmlspecialchars($formData['name'], ENT_QUOTES, 'UTF-8'); ?>" required>
               </div>
               <div class="f-group">
                 <label>Phone *</label>
-                <input type="tel" name="phone" placeholder="+91 80808 03374" required>
+                <input type="tel" name="contact" placeholder="+91 00000 00000" value="<?php echo htmlspecialchars($formData['contact'], ENT_QUOTES, 'UTF-8'); ?>" required>
               </div>
             </div>
 
             <div class="f-group">
               <label>Email Address *</label>
-              <input type="email" name="email" placeholder="you@company.com" required>
+              <input type="email" name="email" placeholder="you@company.com" value="<?php echo htmlspecialchars($formData['email'], ENT_QUOTES, 'UTF-8'); ?>" required>
             </div>
             <div class="f-row">
               <div class="f-group">
                 <label>Company Name *</label>
-                <input type="text" name="company" placeholder="Company Name" required>
+                <input type="text" name="company" placeholder="Company Name" value="<?php echo htmlspecialchars($formData['company'], ENT_QUOTES, 'UTF-8'); ?>" required>
               </div>
               <div class="f-group">
-                <label>Website *</label>
-                <input type="tel" name="website" placeholder="www.example.com" required>
+                <label>Website (Optional)</label>
+                <input type="url" name="website" placeholder="https://www.example.com" value="<?php echo htmlspecialchars($formData['website'], ENT_QUOTES, 'UTF-8'); ?>">
               </div>
             </div>
 
 
             <div class="f-group">
               <label>Project Brief</label>
-              <textarea name="message" placeholder="Tell us about your project..."></textarea>
+              <textarea name="message" placeholder="Tell us about your project..."><?php echo htmlspecialchars($formData['message'], ENT_QUOTES, 'UTF-8'); ?></textarea>
+            </div>
+
+            <div class="col-12">
+              <div class="g-recaptcha" data-sitekey="6LekpbEqAAAAANkc3FduPE52-p4Wqu5ghQFXjPhF">
+              </div>
             </div>
 
             <button type="submit" class="submit-btn">
@@ -2787,6 +3028,20 @@
     <a href="#contact"><i class="fas fa-rocket"></i> Get Free Consultation</a>
   </div>
 
+  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+  <?php if ($formNotice && ($formNotice['status'] ?? '') === 'success'): ?>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      window.gtag = window.gtag || function() {
+        dataLayer.push(arguments);
+      };
+      gtag('event', 'generate_lead', {
+        event_category: 'Lead',
+        event_label: 'webapp_form',
+        value: 1
+      });
+    </script>
+  <?php endif; ?>
   <script>
     // Custom Cursor
     const cursor = document.getElementById('cursor');
@@ -2818,6 +3073,17 @@
         cursorRing.style.transform = 'scale(1)';
       });
     });
+
+    const leadForm = document.getElementById('leadForm');
+    if (leadForm) {
+      leadForm.addEventListener('submit', () => {
+        const submitButton = leadForm.querySelector('.submit-btn');
+        if (submitButton) {
+          submitButton.disabled = true;
+          submitButton.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Submitting...';
+        }
+      });
+    }
 
     // Smooth scroll
     document.querySelectorAll('a[href^="#"]').forEach(a => {
@@ -2874,6 +3140,42 @@
     }, { threshold: 0.1 });
     document.querySelectorAll('.fade-up').forEach(el => observer.observe(el));
 
+    // Hero stats count-up
+    const heroStats = document.querySelector('.hero-stats');
+    if (heroStats) {
+      const countStats = () => {
+        heroStats.querySelectorAll('.stat-num').forEach(stat => {
+          const target = Number(stat.dataset.count || 0);
+          const suffix = stat.dataset.suffix || '';
+          const duration = 1800;
+          const startTime = performance.now();
+
+          const updateCount = (now) => {
+            const progress = Math.min((now - startTime) / duration, 1);
+            const easedProgress = 1 - Math.pow(1 - progress, 3);
+            stat.textContent = Math.round(target * easedProgress).toLocaleString('en-IN') + suffix;
+
+            if (progress < 1) {
+              requestAnimationFrame(updateCount);
+            }
+          };
+
+          requestAnimationFrame(updateCount);
+        });
+      };
+
+      const statsObserver = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            countStats();
+            statsObserver.disconnect();
+          }
+        });
+      }, { threshold: 0.35 });
+
+      statsObserver.observe(heroStats);
+    }
+
     // Slot countdown
     let slots = 3;
     const slotEl = document.getElementById('slotCount');
@@ -2886,6 +3188,42 @@
           setTimeout(() => slotEl.style.transform = 'scale(1)', 200);
         }
       }, 18000);
+    }
+
+    // Mobile testimonials auto scroll
+    const testimonialsGrid = document.querySelector('.testimonials-grid');
+    if (testimonialsGrid) {
+      let testimonialsAutoScroll;
+      const startTestimonialsAutoScroll = () => {
+        if (!window.matchMedia('(max-width: 1100px)').matches) {
+          clearInterval(testimonialsAutoScroll);
+          testimonialsGrid.scrollLeft = 0;
+          return;
+        }
+
+        clearInterval(testimonialsAutoScroll);
+        testimonialsAutoScroll = setInterval(() => {
+          const firstCard = testimonialsGrid.querySelector('.testimonial-card');
+          if (!firstCard) return;
+
+          const gap = parseFloat(getComputedStyle(testimonialsGrid).gap) || 16;
+          const step = firstCard.offsetWidth + gap;
+          const maxScroll = testimonialsGrid.scrollWidth - testimonialsGrid.clientWidth - 4;
+
+          if (testimonialsGrid.scrollLeft >= maxScroll) {
+            testimonialsGrid.scrollTo({ left: 0, behavior: 'smooth' });
+          } else {
+            testimonialsGrid.scrollBy({ left: step, behavior: 'smooth' });
+          }
+        }, 3500);
+      };
+
+      testimonialsGrid.addEventListener('touchstart', () => clearInterval(testimonialsAutoScroll), { passive: true });
+      testimonialsGrid.addEventListener('touchend', startTestimonialsAutoScroll, { passive: true });
+      testimonialsGrid.addEventListener('mouseenter', () => clearInterval(testimonialsAutoScroll));
+      testimonialsGrid.addEventListener('mouseleave', startTestimonialsAutoScroll);
+      window.addEventListener('resize', startTestimonialsAutoScroll);
+      startTestimonialsAutoScroll();
     }
   </script>
 </body>

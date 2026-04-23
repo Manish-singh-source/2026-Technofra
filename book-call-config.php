@@ -17,7 +17,7 @@ return [
         'encryption' => 'tls',
         'from_email' => 'support@technofra.com',
         'from_name' => 'Technofra',
-        'admin_email' => 'support@technofra.com',
+        'admin_email' => 'manish@technofra.com',
         'admin_name' => 'Technofra Admin',
     ],
 

@@ -3,25 +3,26 @@
 session_start();
 date_default_timezone_set('Asia/Kolkata');
 
-$digitalMarketingTimezone = new DateTimeZone('Asia/Kolkata');
+$webAppTimezone = new DateTimeZone('Asia/Kolkata');
 
 function redirectDigitalMarketingForm($status, $title, $message, array $formData = null)
 {
-    $_SESSION['digital_marketing_form_notice'] = [
+    $_SESSION['webapp_form_notice'] = [
         'status' => $status,
         'title' => $title,
         'message' => $message,
     ];
 
-    $_SESSION['digital_marketing_form_data'] = $formData ?? [
+    $_SESSION['webapp_form_data'] = $formData ?? [
         'name' => '',
         'contact' => '',
         'email' => '',
         'company' => '',
         'website' => '',
+        'message' => '',
     ];
 
-    header('Location: digitalmarketingad.php#contact');
+    header('Location: webapp.php#contact');
     exit;
 }
 
@@ -146,13 +147,16 @@ if (!file_exists($configPath)) {
 $config = require $configPath;
 $db = $config['db'] ?? [];
 $mailConfig = $config['mail'] ?? [];
+$recaptchaSecret = '6LekpbEqAAAAAHOcLdwCe3Hh-I35sbORdOByTMht';
 
 $name = trim($_POST['name'] ?? '');
 $email = trim($_POST['email'] ?? '');
 $contact = preg_replace('/\D+/', '', $_POST['contact'] ?? '');
 $company = trim($_POST['company'] ?? '');
 $website = trim($_POST['website'] ?? '');
+$message = trim($_POST['message'] ?? '');
 $hiddenField = trim($_POST['hidden_field'] ?? '');
+$recaptchaResponse = trim($_POST['g-recaptcha-response'] ?? '');
 
 if ($website !== '' && !preg_match('~^https?://~i', $website)) {
     $website = 'https://' . $website;
@@ -164,12 +168,39 @@ $formData = [
     'email' => $email,
     'company' => $company,
     'website' => $website,
+    'message' => $message,
 ];
 
 $errors = [];
 
 if ($hiddenField !== '') {
     $errors[] = 'Invalid submission detected.';
+}
+
+if ($recaptchaResponse === '') {
+    $errors[] = 'Please complete the captcha verification.';
+} else {
+    $captchaPayload = http_build_query([
+        'secret' => $recaptchaSecret,
+        'response' => $recaptchaResponse,
+        'remoteip' => $_SERVER['REMOTE_ADDR'] ?? '',
+    ]);
+
+    $captchaContext = stream_context_create([
+        'http' => [
+            'method' => 'POST',
+            'header' => "Content-Type: application/x-www-form-urlencoded\r\n",
+            'content' => $captchaPayload,
+            'timeout' => 8,
+        ],
+    ]);
+
+    $captchaVerify = @file_get_contents('https://www.google.com/recaptcha/api/siteverify', false, $captchaContext);
+    $captchaResult = $captchaVerify !== false ? json_decode($captchaVerify, true) : null;
+
+    if (empty($captchaResult['success'])) {
+        $errors[] = 'Captcha verification failed. Please try again.';
+    }
 }
 
 if ($name === '') {
@@ -180,8 +211,12 @@ if ($email === '' || !filter_var($email, FILTER_VALIDATE_EMAIL)) {
     $errors[] = 'Please enter a valid email address.';
 }
 
-if ($contact === '' || strlen(trim($contact)) === 0) {
+if (!preg_match('/^\d{7,15}$/', $contact)) {
     $errors[] = 'Please enter a valid phone number.';
+}
+
+if ($company === '') {
+    $errors[] = 'Please enter your company name.';
 }
 
 if ($website !== '' && !filter_var($website, FILTER_VALIDATE_URL)) {
@@ -227,24 +262,25 @@ foreach ($hostCandidates as $hostCandidate) {
 }
 
 if (!$mysqli instanceof mysqli) {
-    error_log('Digital marketing form DB connection failed: ' . $lastConnectError);
+    error_log('Web app form DB connection failed: ' . $lastConnectError);
     redirectDigitalMarketingForm('error', 'Database Error', 'Database connection failed. Please check book-call-config.php.', $formData);
 }
 
 $mysqli->set_charset('utf8mb4');
 $mysqli->query("SET time_zone = '+05:30'");
 
-$submittedAt = new DateTime('now', $digitalMarketingTimezone);
+$submittedAt = new DateTime('now', $webAppTimezone);
 $submittedAtForDb = $submittedAt->format('Y-m-d H:i:s');
 
-$createTableSql = "CREATE TABLE IF NOT EXISTS digital_marketing_leads (
+$createTableSql = "CREATE TABLE IF NOT EXISTS webapp_leads (
     id INT UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY,
     name VARCHAR(150) NOT NULL,
     email VARCHAR(150) NOT NULL,
     phone VARCHAR(25) NOT NULL,
     company VARCHAR(150) NOT NULL DEFAULT '',
     website VARCHAR(255) NOT NULL DEFAULT '',
-    source_page VARCHAR(120) NOT NULL DEFAULT 'digitalmarketingad.php',
+    message TEXT NULL,
+    source_page VARCHAR(120) NOT NULL DEFAULT 'webapp.php',
     created_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4";
 
@@ -253,18 +289,28 @@ if (!$mysqli->query($createTableSql)) {
     redirectDigitalMarketingForm('error', 'Database Error', 'Could not prepare the lead storage table.', $formData);
 }
 
-$createdAtColumn = $mysqli->query("SHOW COLUMNS FROM digital_marketing_leads LIKE 'created_at'");
+$createdAtColumn = $mysqli->query("SHOW COLUMNS FROM webapp_leads LIKE 'created_at'");
 if ($createdAtColumn instanceof mysqli_result) {
     $createdAtDefinition = $createdAtColumn->fetch_assoc();
     $createdAtColumn->close();
 
     if ($createdAtDefinition && stripos((string) ($createdAtDefinition['Type'] ?? ''), 'datetime') === false) {
-        $mysqli->query("ALTER TABLE digital_marketing_leads MODIFY created_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP");
+        $mysqli->query("ALTER TABLE webapp_leads MODIFY created_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP");
+    }
+}
+
+$messageColumn = $mysqli->query("SHOW COLUMNS FROM webapp_leads LIKE 'message'");
+if ($messageColumn instanceof mysqli_result) {
+    $hasMessageColumn = $messageColumn->num_rows > 0;
+    $messageColumn->close();
+
+    if (!$hasMessageColumn) {
+        $mysqli->query("ALTER TABLE webapp_leads ADD message TEXT NULL AFTER website");
     }
 }
 
 $insert = $mysqli->prepare(
-    'INSERT INTO digital_marketing_leads (name, email, phone, company, website, source_page, created_at) VALUES (?, ?, ?, ?, ?, ?, ?)'
+    'INSERT INTO webapp_leads (name, email, phone, company, website, message, source_page, created_at) VALUES (?, ?, ?, ?, ?, ?, ?, ?)'
 );
 
 if (!$insert) {
@@ -272,8 +318,9 @@ if (!$insert) {
     redirectDigitalMarketingForm('error', 'Database Error', 'Could not prepare the lead save query.', $formData);
 }
 
-$sourcePage = 'digitalmarketingad.php';
-$insert->bind_param('sssssss', $name, $email, $contact, $company, $website, $sourcePage, $submittedAtForDb);
+$sourcePage = 'webapp.php';
+$sourcePageTitle = 'Web & App Development Page';
+$insert->bind_param('ssssssss', $name, $email, $contact, $company, $website, $message, $sourcePage, $submittedAtForDb);
 
 if (!$insert->execute()) {
     $insert->close();
@@ -298,6 +345,7 @@ if ($smtpReady) {
     $safeContact = htmlspecialchars($contact, ENT_QUOTES, 'UTF-8');
     $safeCompany = htmlspecialchars($company !== '' ? $company : 'Not provided', ENT_QUOTES, 'UTF-8');
     $safeWebsite = htmlspecialchars($website !== '' ? $website : 'Not provided', ENT_QUOTES, 'UTF-8');
+    $safeMessage = nl2br(htmlspecialchars($message !== '' ? $message : 'Not provided', ENT_QUOTES, 'UTF-8'));
     $safeCurrentDateTime = htmlspecialchars($formattedDateTime, ENT_QUOTES, 'UTF-8');
     $emailLink = '<a href="mailto:' . $safeEmail . '" style="color:#2563eb;text-decoration:underline;">' . $safeEmail . '</a>';
     $websiteLink = $website !== ''
@@ -306,7 +354,7 @@ if ($smtpReady) {
 
     $adminBody = renderDigitalMarketingEmail([
         'preheader' => 'New website enquiry received.',
-        'headline' => 'New Digital Marketing Enquiry',
+        'headline' => 'New Web & App Development Leads',
         'lead' => 'A new enquiry has just been submitted. Below is the complete lead summary captured from the website form.',
         'cta_label' => 'Review Enquiry',
         'cta_href' => 'mailto:' . $email,
@@ -317,8 +365,9 @@ if ($smtpReady) {
             ['label' => 'Phone', 'value' => $safeContact],
             ['label' => 'Company', 'value' => $safeCompany],
             ['label' => 'Website', 'value' => $websiteLink],
+            ['label' => 'Project Brief', 'value' => $safeMessage],
             ['label' => 'Submitted At', 'value' => $safeCurrentDateTime],
-            ['label' => 'Source Page', 'value' => 'Digital Marketing Ad Page'],
+            ['label' => 'Source Page', 'value' => $sourcePageTitle],
         ],
         'steps_title' => 'Recommended Next Steps',
         'steps' => [
@@ -333,7 +382,7 @@ if ($smtpReady) {
         ],
         'footer_note' => 'This notification was generated automatically after a successful enquiry submission on the Technofra website.',
         'preheader_date' => $safeCurrentDateTime,
-        'closing_html' => '<div style="margin-bottom:10px;">Technofra Digital Marketing Team</div>',
+        'closing_html' => '<div style="margin-bottom:10px;">Technofra Web & App Development Team</div>',
     ]);
 
     $clientBody = renderDigitalMarketingEmail([
@@ -354,8 +403,8 @@ if ($smtpReady) {
         ],
         'steps_title' => 'What Happens Next',
         'steps' => [
-            ['icon' => '1', 'title' => 'Our team reviews your enquiry', 'text' => 'We check your submitted information and understand your business goals carefully.'],
-            ['icon' => '2', 'title' => 'You hear back from us shortly', 'text' => 'A Technofra advisor will contact you to discuss the best digital marketing plan for your business.'],
+            ['icon' => '1', 'title' => 'Our team reviews your enquiry', 'text' => 'We check your submitted information and understand your project goals carefully.'],
+            ['icon' => '2', 'title' => 'You hear back from us shortly', 'text' => 'A Technofra advisor will contact you to discuss the best web or app development plan for your business.'],
         ],
         'footer_title' => 'Quick Actions',
         'footer_links' => [
@@ -380,7 +429,7 @@ if ($smtpReady) {
     $adminMailer->addAddress($mailConfig['admin_email'], $mailConfig['admin_name'] ?? 'Admin');
     $adminMailer->addReplyTo($email, $name);
     $adminMailer->isHTML(true);
-    $adminMailer->Subject = 'New enquiry from Digital Marketing Ads page';
+    $adminMailer->Subject = 'New enquiry from Web & App Development page';
     $adminMailer->Body = $adminBody;
 
     $clientMailer = new PHPMailer();
@@ -415,5 +464,5 @@ if ($mailProblem) {
 redirectDigitalMarketingForm(
     'success',
     'Request Submitted Successfully',
-    'Thank you for sharing your details. Our digital marketing team will contact you shortly to schedule your free strategy call.'
+    'Thank you for sharing your details. Our web and app development team will contact you shortly to schedule your free strategy call.'
 );
