@@ -27,7 +27,7 @@ gtag('config', 'G-189WWHXLSS');
 
 <!-- Meta Keywords -->
 <meta name="keywords"
-    content="Digital marketing, Digital marketing company in mumbai, Digital marketing agency in mumbai, Digital marketing services, Online marketing agency, Internet marketing company in mumbai">
+    content="Digital marketing Company in Mumbai, Digital marketing services Mumbai, Performance marketing Company, Digital marketing company in Mumbai for small business, Lead generation digital marketing company Mumbai, Digital marketing company in Kandivali ">
 
 <!-- Title -->
 <title>Digital Marketing Agency in Mumbai, India | SEO, PPC & Online Marketing – Technofra</title>
@@ -37,9 +37,9 @@ gtag('config', 'G-189WWHXLSS');
     content="Drive traffic, leads, and ROI with Technofra’s digital marketing services. We specialize in SEO, PPC, and performance marketing strategies that scale your business.">
 
 <!-- Open Graph -->
-<meta property="og:title" content="Digital Marketing Agency in Mumbai, India | Technofra">
+<meta property="og:title" content="Digital Marketing Agency in Mumbai, India | SEO, PPC & Online Marketing – Technofra">
 <meta property="og:description"
-    content="Top digital marketing agency in Mumbai. Technofra delivers SEO, PPC & online marketing services to drive traffic, leads, and business growth.">
+    content="Drive traffic, leads, and ROI with Technofra’s digital marketing services. We specialize in SEO, PPC, and performance marketing strategies that scale your business.">
 
 <link rel="canonical" href="https://technofra.com/digital-marketing">
 

@@ -36,7 +36,7 @@ gtag('config', 'G-189WWHXLSS');
     content="Improve rankings and generate organic traffic with Technofra. Our SEO services include local SEO, eCommerce SEO, and data-driven strategies for long-term growth.">
 
 <!-- Open Graph -->
-<meta property="og:title" content="SEO Company in Mumbai, India | Technofra">
+<meta property="og:title" content="SEO Company in Mumbai, India | Local & eCommerce SEO Services – Technofra">
 <meta property="og:description"
     content="Improve rankings and generate organic traffic with Technofra. Our SEO services include local SEO, eCommerce SEO, and data-driven strategies for long-term growth.s">
 <link rel="canonical" href="https://technofra.com/seo">
@@ -651,7 +651,7 @@ gtag('config', 'G-189WWHXLSS');
             <div class="col-lg-5 col-xl-5">
                 <div class="seo-hero-panel">
                     <div class="seo-hero-graphic text-center">
-                        <img src="assets/image/digitalmarketing/seo.png" alt="SEO Services" class="img-fluid">
+                        <img src="assets/image/digitalmarketing/seo.webp" alt="SEO Services" class="img-fluid">
                     </div>
                     <div class="seo-hero-summary">
                         <div class="seo-hero-summary-item">
@@ -731,7 +731,7 @@ gtag('config', 'G-189WWHXLSS');
             </div>
             <div class="col-lg-6">
                 <div class="text-center">
-                    <img class="img-fluid rounded-6" src="assets/image/digitalmarketing/seo-about.png"
+                    <img class="img-fluid rounded-6" src="assets/image/digitalmarketing/seo-about.webp"
                         alt="SEO Company">
                 </div>
             </div>
@@ -999,7 +999,7 @@ gtag('config', 'G-189WWHXLSS');
         <div class="row align-items-center">
             <div class="col-lg-6">
                 <div class="text-center text-lg-start mb-4 mb-lg-0">
-                    <img src="assets/image/digitalmarketing/why-seo.png" alt="Website Ranking Services"
+                    <img src="assets/image/digitalmarketing/why-seo.webp" alt="Website Ranking Services"
                         class="img-fluid rounded-6">
                 </div>
             </div>
@@ -1031,7 +1031,7 @@ gtag('config', 'G-189WWHXLSS');
                     </div>
                     <div class="col-md-6">
                         <div class="seo-why-card">
-                            <img src="assets/image/digitalmarketing/digital-marketing.jpg" alt="SEO Company"
+                            <img src="assets/image/digitalmarketing/digital-marketing.webp" alt="SEO Company"
                                 class="img-fluid">
                             <div class="crypto-team-info pt-4 pb-1">
                                 <h4 class="text-white h5 fz-16">Transparent growth reporting</h4>
