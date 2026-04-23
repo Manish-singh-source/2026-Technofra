@@ -2425,7 +2425,7 @@ unset($_SESSION['webapp_form_notice'], $_SESSION['webapp_form_data']);
                 <input type="text" name="company" placeholder="Company Name" value="<?php echo htmlspecialchars($formData['company'], ENT_QUOTES, 'UTF-8'); ?>" required>
               </div>
               <div class="f-group">
-                <label>Website (Optional)</label>
+                <label>Website</label>
                 <input type="url" name="website" placeholder="https://www.example.com" value="<?php echo htmlspecialchars($formData['website'], ENT_QUOTES, 'UTF-8'); ?>">
               </div>
             </div>

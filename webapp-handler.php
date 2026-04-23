@@ -456,7 +456,7 @@ if ($smtpReady) {
 if ($mailProblem) {
     redirectDigitalMarketingForm(
         'success',
-        'Lead Saved Successfully',
+        'Enquiry Saved Successfully',
         'Your details were saved in our system, but email confirmation could not be sent right now.'
     );
 }
