@@ -2399,7 +2399,7 @@ unset($_SESSION['webapp_form_notice'], $_SESSION['webapp_form_data']);
             <div class="slot-count" id="slotCount">03</div>
           </div> -->
 
-          <form id="leadForm" action="webapp-handler.php" method="POST">
+          <form id="leadForm" action="webapp-handler" method="POST">
             <div class="form-hidden-field" aria-hidden="true">
               <label for="hidden_field">Leave this field empty</label>
               <input type="text" id="hidden_field" name="hidden_field" tabindex="-1" autocomplete="off">
