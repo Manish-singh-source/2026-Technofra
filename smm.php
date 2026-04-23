@@ -25,17 +25,17 @@ gtag('config', 'G-189WWHXLSS');
 </script>
 <!-- Meta Keywords -->
 <meta name="keywords"
-    content="social media marketing, social media marketing company in mumbai, social media marketing services, social media management, social media advertising, social media agency, social media marketing agency, social media marketing agency in mumbai, social media marketing agency for small business, social media advertising agencies, social media marketing consultants">
+    content="Social media marketing company in Mumbai, Social media marketing services, Social media advertising, Social media marketing company in Mumbai for small business, Instagram marketing services Mumbai, Social media marketing company in Kandivali, Instagram marketing services Kandivali">
 
 <!-- Title -->
-<title>Social Media Marketing Agency in Mumbai, India | SMM Services – Technofra</title>
+<title>Social Media Marketing Comapny in Mumbai, India | SMM Services – Technofra</title>
 
 <!-- Meta Description -->
 <meta name="description"
     content="Grow your brand and generate leads with Technofra’s social media marketing services. We manage, optimize, and scale your campaigns across platforms.">
 
 <!-- Open Graph -->
-<meta property="og:title" content="Social Media Marketing Agency in Mumbai, India | Technofra">
+<meta property="og:title" content="Social Media Marketing Comapny in Mumbai, India | SMM Services – Technofra">
 <meta property="og:description"
     content="Grow your brand and generate leads with Technofra’s social media marketing services. We manage, optimize, and scale your campaigns across platforms.">
 <link rel="canonical" href="https://technofra.com/smm">

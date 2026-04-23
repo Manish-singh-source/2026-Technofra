@@ -27,7 +27,7 @@ gtag('config', 'G-189WWHXLSS');
 <!--END MS Clarity -->
 <!-- Meta Keywords -->
 <meta name="keywords"
-    content="payment gateway api, api integration, api integration services in mumbai, third party api, api integration solution, api consulting services in mumbai">
+    content="API integration company in Mumbai, API integration services in Mumbai, Payment gateway integration , Payment gateway API integration services Mumbai , API integration company in Kandivali">
 
 <!-- Title -->
 <title>API Integration Services in Mumbai, India | Payment Gateway API – Technofra</title>
@@ -37,7 +37,7 @@ gtag('config', 'G-189WWHXLSS');
     content="Automate your business with seamless API integrations. Technofra offers WhatsApp API, payment gateway, and third-party integrations for scalable growth.">
 
 <!-- Open Graph -->
-<meta property="og:title" content="API Integration Services in Mumbai, India | Technofra">
+<meta property="og:title" content="API Integration Services in Mumbai, India | Payment Gateway API – Technofra">
 <meta property="og:description"
     content="Automate your business with seamless API integrations. Technofra offers WhatsApp API, payment gateway, and third-party integrations for scalable growth.">
 
