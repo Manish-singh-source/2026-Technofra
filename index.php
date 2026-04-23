@@ -23,7 +23,7 @@ include 'header.php';
 ?>
 <meta property="og:title" content="Technofra - Expert Web Design, Development &amp; Digital Solutions">
 <meta name="keywords"
-    content="Website Development Company, Website Development Company in Mumbai, Website maintenance, Web development mumbai, Digital marketing agency in mumbai, Digital marketing company in Kandivali, Digital media marketing agency, Social media marketing agency in mumbai, SEO company in mumbai, Api integration services">
+    content="Website development company in Mumbai, Digital marketing agency in Mumbai, Web design company Mumbai, Website development company in Mumbai for business growth, Digital marketing agency in Mumbai for lead generation, Digital marketing company in Kandivali, Website development company in Kandivali">
 <meta property="og:site_name" content="Technofra">
 <meta property="og:url" content="https://technofra.com/">
 <meta property="og:description"
@@ -2224,7 +2224,7 @@ img {
                     src="assets/image/arrow-red.png" alt="Website Development Company in Mumbai"></span>
             <h2 class="white">Industries We Serve</h2>
         </div>
-        
+
 
         <div class="tfxIndusSliderWrap">
             <button class="tfxIndusNav tfxIndusPrev" aria-label="Previous">
@@ -2888,7 +2888,8 @@ img {
                                 <a href="https://technofra.com/blog/ai-driven-seo-social-media-marketing-the-next-growth-engine-for-brands-in-2026/"
                                     class="text-decoration-none">
                                     <h2 class="h5 article-title limit-2-line-text">
-                                        AI-Driven SEO & Social Media Marketing: The Next Growth Engine for Brands in 2026
+                                        AI-Driven SEO & Social Media Marketing: The Next Growth Engine for Brands in
+                                        2026
                                     </h2>
                                 </a>
                                 <a href="https://technofra.com/blog/ai-driven-seo-social-media-marketing-the-next-growth-engine-for-brands-in-2026/"
@@ -2926,7 +2927,8 @@ img {
                                 <a href="https://technofra.com/blog/how-to-build-high-performance-websites-that-drivemassive-traffic-quality-leads-conversions/"
                                     class="text-decoration-none">
                                     <h2 class="h5 article-title limit-2-line-text">
-                                        How to Build High-Performance Websites That DriveMassive Traffic, Quality Leads & Conversions
+                                        How to Build High-Performance Websites That DriveMassive Traffic, Quality Leads
+                                        & Conversions
                                     </h2>
                                 </a>
                                 <a href="https://technofra.com/blog/how-to-build-high-performance-websites-that-drivemassive-traffic-quality-leads-conversions/"
