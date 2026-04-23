@@ -4,14 +4,14 @@
   content="API integration company in Mumbai, API integration services in Mumbai, WhatsApp API integration, WhatsApp API integration for business automation India, API integration company in Kandivali">
 
 <!-- Title -->
-<title>API Integration Services in Mumbai, India | WhatsApp API – Technofra</title>
+<title>API Integration Services in Mumbai | WhatsApp API – Technofra</title>
 
 <!-- Meta Description -->
 <meta name="description"
   content="Automate your business with seamless API integrations. Technofra offers WhatsApp API, payment gateway, and third-party integrations for scalable growth.">
 
 <!-- Open Graph -->
-<meta property="og:title" content="API Integration Services in Mumbai, India | WhatsApp API – Technofra">
+<meta property="og:title" content="API Integration Services in Mumbai | WhatsApp API – Technofra">
 <meta property="og:description"
   content="Automate your business with seamless API integrations. Technofra offers WhatsApp API, payment gateway, and third-party integrations for scalable growth.">
 

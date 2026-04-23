@@ -29,14 +29,14 @@ gtag('config', 'G-189WWHXLSS');
     content="SEO company in Mumbai, SEO services Mumbai, Local SEO services, SEO company in Mumbai for small business, Affordable SEO services in Mumbai, SEO company in Kandivali, Local SEO services in Kandivali, Best SEO company in Mumbai">
 
 <!-- Title -->
-<title>SEO Company in Mumbai, India | Local & eCommerce SEO Services – Technofra</title>
+<title>Technofra - SEO Company in Mumbai | Local & eCommerce SEO Services</title>
 
 <!-- Meta Description -->
 <meta name="description"
     content="Improve rankings and generate organic traffic with Technofra. Our SEO services include local SEO, eCommerce SEO, and data-driven strategies for long-term growth.">
 
 <!-- Open Graph -->
-<meta property="og:title" content="SEO Company in Mumbai, India | Local & eCommerce SEO Services – Technofra">
+<meta property="og:title" content="Technofra - SEO Company in Mumbai | Local & eCommerce SEO Services">
 <meta property="og:description"
     content="Improve rankings and generate organic traffic with Technofra. Our SEO services include local SEO, eCommerce SEO, and data-driven strategies for long-term growth.s">
 <link rel="canonical" href="https://technofra.com/seo">

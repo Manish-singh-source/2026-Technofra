@@ -30,14 +30,14 @@ gtag('config', 'G-189WWHXLSS');
     content="Mobile app development company in Mumbai, Android app development, iOS app development, Mobile app development company in Mumbai for startups, Custom app development services India, Mobile app development company in Kandivali">
 
 <!-- Title -->
-<title>Mobile App Development Company in Mumbai, India | Android & iOS Services – Technofra</title>
+<title>Mobile App Development Company in Mumbai | Android & iOS Services – Technofra</title>
 
 <!-- Meta Description -->
 <meta name="description"
     content="Launch high-performance mobile apps with Technofra. We provide Android & iOS app development services focused on speed, scalability, and user experience.">
 
 <!-- Open Graph -->
-<meta property="og:title" content="Mobile App Development Company in Mumbai, India | Android & iOS Services – Technofra">
+<meta property="og:title" content="Mobile App Development Company in Mumbai | Android & iOS Services – Technofra">
 <meta property="og:description"
     content="Launch high-performance mobile apps with Technofra. We provide Android & iOS app development services focused on speed, scalability, and user experience.">
 <style>

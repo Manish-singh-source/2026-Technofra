@@ -30,14 +30,14 @@ gtag('config', 'G-189WWHXLSS');
     content="Shopify development company, Shopify development company in Mumbai, Shopify website development, Shopify experts India, Shopify development company in Mumbai for ecommerce brands, Shopify store setup services India, Shopify development company in Kandivali, shopify development services in mumbai ">
 
 <!-- Title -->
-<title>Shopify Website Development Company in Mumbai, India | eCommerce Experts – Technofra</title>
+<title>Shopify Website Development Company in Mumbai | eCommerce Experts – Technofra</title>
 
 <!-- Meta Description -->
 <meta name="description"
     content="Build high-converting Shopify stores with Technofra. We design and develop scalable eCommerce solutions that drive sales and business growth.">
 
 <!-- Open Graph -->
-<meta property="og:title" content="Shopify Website Development Company in Mumbai, India | eCommerce Experts – Technofra">
+<meta property="og:title" content="Shopify Website Development Company in Mumbai | eCommerce Experts – Technofra">
 <meta property="og:description"
     content="Build high-converting Shopify stores with Technofra. We design and develop scalable eCommerce solutions that drive sales and business growth.">
 <link rel="canonical" href="https://technofra.com/shopify-website-development">

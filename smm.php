@@ -28,14 +28,14 @@ gtag('config', 'G-189WWHXLSS');
     content="Social media marketing company in Mumbai, Social media marketing services, Social media advertising, Social media marketing company in Mumbai for small business, Instagram marketing services Mumbai, Social media marketing company in Kandivali, Instagram marketing services Kandivali">
 
 <!-- Title -->
-<title>Social Media Marketing Comapny in Mumbai, India | SMM Services – Technofra</title>
+<title>Social Media Marketing Comapny in Mumbai | SMM Services – Technofra</title>
 
 <!-- Meta Description -->
 <meta name="description"
     content="Grow your brand and generate leads with Technofra’s social media marketing services. We manage, optimize, and scale your campaigns across platforms.">
 
 <!-- Open Graph -->
-<meta property="og:title" content="Social Media Marketing Comapny in Mumbai, India | SMM Services – Technofra">
+<meta property="og:title" content="Social Media Marketing Comapny in Mumbai | SMM Services – Technofra">
 <meta property="og:description"
     content="Grow your brand and generate leads with Technofra’s social media marketing services. We manage, optimize, and scale your campaigns across platforms.">
 <link rel="canonical" href="https://technofra.com/smm">
