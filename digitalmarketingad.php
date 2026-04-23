@@ -2042,7 +2042,7 @@ unset($_SESSION['digital_marketing_form_notice'], $_SESSION['digital_marketing_f
                 <!-- Right Side - Form -->
                 <div class="form-container" id="contact">
 
-                    <form action="digitalmarketingad-handler.php" method="POST" id="leadForm">
+                    <form action="digitalmarketingad-handler" method="POST" id="leadForm">
                         <div class="form-hidden-field" aria-hidden="true">
                             <label for="hidden_field">Leave this field empty</label>
                             <input type="text" id="hidden_field" name="hidden_field" tabindex="-1" autocomplete="off">
