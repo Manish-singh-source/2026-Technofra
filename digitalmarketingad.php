@@ -107,7 +107,7 @@ unset($_SESSION['digital_marketing_form_notice'], $_SESSION['digital_marketing_f
     .hero {
         position: relative;
         height: 100vh;
-        min-height: 800px;
+        min-height: 900px;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -1306,9 +1306,7 @@ unset($_SESSION['digital_marketing_form_notice'], $_SESSION['digital_marketing_f
     }
 
     @media only screen and (min-width: 1030px) and (max-width: 1366px) {
-        .hero-content {
-            max-width: 820px;
-        }
+       
 
         .hero-content h1 {
             font-size: 46px;
@@ -1341,9 +1339,7 @@ unset($_SESSION['digital_marketing_form_notice'], $_SESSION['digital_marketing_f
     }
 
     @media only screen and (min-width: 1380px) and (max-width: 1600px) {
-        .hero-content {
-            max-width: 860px;
-        }
+       
 
         .hero-content h1 {
             font-size: 50px;
