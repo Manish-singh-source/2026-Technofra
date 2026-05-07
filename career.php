@@ -775,7 +775,7 @@ a,
             <div
                 class="modal-body register-wrap p-5 bg-white shadow rounded-custom position-relative aos-init aos-animate">
                 <!-- Job Application Form -->
-                <form action="send4.php" method="post" enctype="multipart/form-data" class="career-application-form">
+                <form action="send4" method="post" enctype="multipart/form-data" class="career-application-form">
                     <div class="container">
                         <div class="row">
                             <!-- Full Name -->
@@ -1179,7 +1179,7 @@ a,
                                 <div
                                     class="modal-body register-wrap p-5 bg-white shadow rounded-custom position-relative aos-init aos-animate">
                                     <!-- Job Application Form -->
-                                    <form action="send2.php" method="post" enctype="multipart/form-data"
+                                    <form action="send2" method="post" enctype="multipart/form-data"
                                         class="career-application-form">
                                         <div class="container">
                                             <div class="row">
