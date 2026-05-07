@@ -889,9 +889,7 @@ a,
                                             <option value="Expert">Expert</option>
                                         </select>
 
-                                        <input type="number" class="form-control ca-two-border"
-                                            name="ai_tool_percentage[]" placeholder="% (e.g., 90)" min="0" max="100"
-                                            required style="flex: 1;">
+                                     
 
                                         <button type="button" class="btn btn-outline-danger remove-ai-tool-btn"
                                             style="width: 40px;" title="Remove">x</button>
@@ -1300,9 +1298,7 @@ a,
                                                                 <option value="Advanced">Advanced</option>
                                                                 <option value="Expert">Expert</option>
                                                             </select>
-                                                            <input type="number" class="form-control ca-two-border"
-                                                                name="ai_tool_percentage[]" placeholder="% (e.g., 90)"
-                                                                min="0" max="100" required style="flex: 1;">
+                                                             
                                                             <button type="button"
                                                                 class="btn btn-outline-danger remove-ai-tool-btn"
                                                                 style="width: 40px;" title="Remove">x</button>
@@ -1544,7 +1540,6 @@ document.addEventListener('DOMContentLoaded', function() {
             '<option value="Advanced">Advanced</option>' +
             '<option value="Expert">Expert</option>' +
             '</select>' +
-            '<input type="number" class="form-control ca-two-border" name="ai_tool_percentage[]" placeholder="% (e.g., 90)" min="0" max="100" required style="flex: 1;">' +
             '<button type="button" class="btn btn-outline-danger remove-ai-tool-btn" style="width: 40px;" title="Remove">x</button>';
         return row;
     }
@@ -1600,7 +1595,6 @@ document.addEventListener('DOMContentLoaded', function() {
             const skillPercentages = form.querySelectorAll('input[name="skill_percentage[]"]');
             const aiToolNames = form.querySelectorAll('input[name="ai_tool_name[]"]');
             const aiToolLevels = form.querySelectorAll('select[name="ai_tool_level[]"]');
-            const aiToolPercentages = form.querySelectorAll('input[name="ai_tool_percentage[]"]');
             const skillsArray = [];
             const aiToolsArray = [];
 
@@ -1614,10 +1608,9 @@ document.addEventListener('DOMContentLoaded', function() {
 
             aiToolNames.forEach(function(input, index) {
                 const levelInput = aiToolLevels[index];
-                const percentageInput = aiToolPercentages[index];
 
-                if (input.value && levelInput && levelInput.value && percentageInput && percentageInput.value) {
-                    aiToolsArray.push(input.value + ' - ' + levelInput.value + ' (' + percentageInput.value + '%)');
+                if (input.value && levelInput && levelInput.value) {
+                    aiToolsArray.push(input.value + ' - ' + levelInput.value);
                 }
             });
 
