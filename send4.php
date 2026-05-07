@@ -14,6 +14,7 @@ $ctc = trim($_POST['ctc']);
 $ectc = trim($_POST['ectc']);
 $location = trim($_POST['location']);
 $skill = isset($_POST['skills_combined']) ? trim($_POST['skills_combined']) : (isset($_POST['skill']) ? trim($_POST['skill']) : '');
+$ai_tools = isset($_POST['ai_tools_combined']) ? trim($_POST['ai_tools_combined']) : '';
 $notice = trim($_POST['notice']);
 $rn = trim($_POST['rn']);
 $refrence = trim($_POST['refrence']);
@@ -252,6 +253,18 @@ $htmlbody = '
                                                                                     <td valign="middle" align="left">
                                                                                         <font style="font-size: 12px" color="#333333" face="Arial, Helvetica, sans-serif">
                                                                                             ' . htmlspecialchars($skill) . '
+                                                                                        </font>
+                                                                                    </td>
+                                                                                </tr>
+                                                                                <tr>
+                                                                                    <td valign="top" align="left">
+                                                                                        <font style="font-size: 12px" color="#333333" face="Arial, Helvetica, sans-serif">
+                                                                                            <strong>AI Tools :</strong>
+                                                                                        </font>
+                                                                                    </td>
+                                                                                    <td valign="middle" align="left">
+                                                                                        <font style="font-size: 12px" color="#333333" face="Arial, Helvetica, sans-serif">
+                                                                                            ' . htmlspecialchars($ai_tools) . '
                                                                                         </font>
                                                                                     </td>
                                                                                 </tr>

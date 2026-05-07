@@ -481,6 +481,16 @@ a,
                     <span>React</span>
                 </div>
             </div>
+            <div class="wd-job-skills">
+                <h3>Al Tools</h3>
+                <div class="wd-job-skill-tags">
+                    <span>ChatGPT</span>
+                    <span>GitHub Copilot</span>
+                    <span>Claude</span>
+                    <span>Codex</span>
+                    <span>Tabnine</span>
+                </div>
+            </div>
             <div class="wd-job-info pb15">
                 <h3>Years Of Experience</h3>
                 <p>1-2+ Years</p>
@@ -493,6 +503,7 @@ a,
                     <li><i class="fa-solid fa-angle-right lcl"></i> Optimize performance</li>
                 </ul>
             </div>
+
             <div class="mt-4 d-flex align-items-center gap-4 hr-cta-group">
                 <a href="enquirynow" class="hr-main-btn" id="applyBtn" data-bs-toggle="modal"
                     data-bs-target="#staticBackdrop"> Apply Now
@@ -534,6 +545,16 @@ a,
                     <span>Branding</span>
                     <span>Typography</span>
                     <span>Color Theory</span>
+                </div>
+            </div>
+            <div class="wd-job-skills">
+                <h3>Al Tools</h3>
+                <div class="wd-job-skill-tags">
+                    <span>Adobe Firefly</span>
+                    <span>Midjourney</span>
+                    <span>Canva Al</span>
+                    <span>Photoshop Generative Fill</span>
+
                 </div>
             </div>
             <div class="wd-job-info pb15">
@@ -619,7 +640,15 @@ a,
                     <span>Analytics & Insights</span>
                 </div>
             </div>
-
+            <div class="wd-job-skills">
+                <h3>Al Tools</h3>
+                <div class="wd-job-skill-tags">
+                    <span>ChatGPT</span>
+                    <span>Jasper</span>
+                    <span>Copy.ai</span>
+                    <span>Canva Magic Write</span>
+                </div>
+            </div>
             <div class="wd-job-info pb15">
                 <h3>Years Of Experience</h3>
                 <p>1-2+ Years</p>
@@ -684,6 +713,15 @@ a,
                     <!-- <span>App Deployment</span> -->
                 </div>
             </div>
+            <div class="wd-job-skills">
+                <h3>Al Tools</h3>
+                <div class="wd-job-skill-tags">
+                    <span>ChatGPT</span>
+                    <span>GitHub Copilot</span>
+                    <span>Claude ai</span>
+                    <span>Gemini</span>
+                </div>
+            </div>
 
             <div class="wd-job-info pb15">
                 <h3>Years Of Experience</h3>
@@ -737,7 +775,7 @@ a,
             <div
                 class="modal-body register-wrap p-5 bg-white shadow rounded-custom position-relative aos-init aos-animate">
                 <!-- Job Application Form -->
-                <form action="send4.php" method="post" enctype="multipart/form-data">
+                <form action="send4.php" method="post" enctype="multipart/form-data" class="career-application-form">
                     <div class="container">
                         <div class="row">
                             <!-- Full Name -->
@@ -809,7 +847,7 @@ a,
                                     for each</p>
 
                                 <!-- Skills Container -->
-                                <div id="skills-container">
+                                <div class="skills-container">
                                     <!-- First Skill Row -->
                                     <div class="skill-row d-flex gap-2 mb-2">
                                         <input type="text" class="form-control ca-two-border" name="skill_name[]"
@@ -823,13 +861,48 @@ a,
                                 </div>
 
                                 <!-- Add More Skills Button -->
-                                <button type="button" class="btn bt btn-outline-secondary btn-sm mt-2"
-                                    id="add-skill-btn">
+                                <button type="button" class="btn bt btn-outline-secondary btn-sm mt-2 add-skill-btn">
                                     + Add Another Skill
                                 </button>
 
                                 <!-- Hidden input to store combined skills data -->
-                                <input type="hidden" name="skills_combined" id="skills-combined">
+                                <input type="hidden" name="skills_combined" class="skills-combined">
+                            </div>
+
+                            <!-- AI Tools Section - Multiple Tools with Percentage -->
+                            <div class="col-lg-12 mb-3 text-start">
+                                <label class="form-label">AI Tools*</label>
+                                <p class="text-muted small mb-2">Add AI tools you use and your proficiency level for
+                                    each</p>
+
+                                <div class="ai-tools-container">
+                                    <div class="ai-tool-row d-flex gap-2 mb-2">
+                                        <input type="text" class="form-control ca-two-border" name="ai_tool_name[]"
+                                            placeholder="AI Tool Name" required style="flex: 2;">
+
+                                        <select class="form-control ca-two-border" name="ai_tool_level[]" required
+                                            style="flex: 1;">
+                                            <option value="">Select Level</option>
+                                            <option value="Basic">Basic</option>
+                                            <option value="Intermediate">Intermediate</option>
+                                            <option value="Advanced">Advanced</option>
+                                            <option value="Expert">Expert</option>
+                                        </select>
+
+                                        <input type="number" class="form-control ca-two-border"
+                                            name="ai_tool_percentage[]" placeholder="% (e.g., 90)" min="0" max="100"
+                                            required style="flex: 1;">
+
+                                        <button type="button" class="btn btn-outline-danger remove-ai-tool-btn"
+                                            style="width: 40px;" title="Remove">x</button>
+                                    </div>
+                                </div>
+
+                                <button type="button" class="btn bt btn-outline-secondary btn-sm mt-2 add-ai-tool-btn">
+                                    + Add Another AI Tool
+                                </button>
+
+                                <input type="hidden" name="ai_tools_combined" class="ai-tools-combined">
                             </div>
 
                             <!-- Notice Period -->
@@ -1108,7 +1181,8 @@ a,
                                 <div
                                     class="modal-body register-wrap p-5 bg-white shadow rounded-custom position-relative aos-init aos-animate">
                                     <!-- Job Application Form -->
-                                    <form action="send2.php" method="post" enctype="multipart/form-data">
+                                    <form action="send2.php" method="post" enctype="multipart/form-data"
+                                        class="career-application-form">
                                         <div class="container">
                                             <div class="row">
                                                 <!-- Full Name -->
@@ -1184,10 +1258,62 @@ a,
                                                 </div>
 
                                                 <!-- Skills -->
-                                                <div class="col-lg-6 mb-3  text-start">
-                                                    <label class="form-label">Top 3 Skills*</label>
-                                                    <input type="text" class="form-control ca-two-border" name="skill"
-                                                        required>
+                                                <div class="col-lg-12 mb-3 text-start">
+                                                    <label class="form-label">Skills*</label>
+                                                    <p class="text-muted small mb-2">Add your skills and proficiency
+                                                        level for each</p>
+                                                    <div class="skills-container">
+                                                        <div class="skill-row d-flex gap-2 mb-2">
+                                                            <input type="text" class="form-control ca-two-border"
+                                                                name="skill_name[]" placeholder="Skill List Add Here"
+                                                                required style="flex: 2;">
+                                                            <input type="number" class="form-control ca-two-border"
+                                                                name="skill_percentage[]" placeholder="% (e.g., 90)"
+                                                                min="0" max="100" required style="flex: 1;">
+                                                            <button type="button"
+                                                                class="btn btn-outline-danger remove-skill-btn"
+                                                                style="width: 40px;" title="Remove">x</button>
+                                                        </div>
+                                                    </div>
+                                                    <button type="button"
+                                                        class="btn bt btn-outline-secondary btn-sm mt-2 add-skill-btn">
+                                                        + Add Another Skill
+                                                    </button>
+                                                    <input type="hidden" name="skills_combined" class="skills-combined">
+                                                </div>
+
+                                                <!-- AI Tools -->
+                                                <div class="col-lg-12 mb-3 text-start">
+                                                    <label class="form-label">AI Tools*</label>
+                                                    <p class="text-muted small mb-2">Add AI tools you use and your
+                                                        proficiency level for each</p>
+                                                    <div class="ai-tools-container">
+                                                        <div class="ai-tool-row d-flex gap-2 mb-2">
+                                                            <input type="text" class="form-control ca-two-border"
+                                                                name="ai_tool_name[]" placeholder="AI Tool Name"
+                                                                required style="flex: 2;">
+                                                            <select class="form-control ca-two-border"
+                                                                name="ai_tool_level[]" required style="flex: 1;">
+                                                                <option value="">Select Level</option>
+                                                                <option value="Basic">Basic</option>
+                                                                <option value="Intermediate">Intermediate</option>
+                                                                <option value="Advanced">Advanced</option>
+                                                                <option value="Expert">Expert</option>
+                                                            </select>
+                                                            <input type="number" class="form-control ca-two-border"
+                                                                name="ai_tool_percentage[]" placeholder="% (e.g., 90)"
+                                                                min="0" max="100" required style="flex: 1;">
+                                                            <button type="button"
+                                                                class="btn btn-outline-danger remove-ai-tool-btn"
+                                                                style="width: 40px;" title="Remove">x</button>
+                                                        </div>
+                                                    </div>
+                                                    <button type="button"
+                                                        class="btn bt btn-outline-secondary btn-sm mt-2 add-ai-tool-btn">
+                                                        + Add Another AI Tool
+                                                    </button>
+                                                    <input type="hidden" name="ai_tools_combined"
+                                                        class="ai-tools-combined">
                                                 </div>
 
                                                 <!-- Notice Period -->
@@ -1339,6 +1465,7 @@ a,
 <script>
 // JavaScript for handling dynamic skills
 document.addEventListener('DOMContentLoaded', function() {
+    return;
     const skillsContainer = document.getElementById('skills-container');
     const addSkillBtn = document.getElementById('add-skill-btn');
 
@@ -1389,6 +1516,123 @@ document.addEventListener('DOMContentLoaded', function() {
         }
 
         document.getElementById('skills-combined').value = skillsArray.join(', ');
+    });
+});
+</script>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    function createRow(type) {
+        const row = document.createElement('div');
+
+        if (type === 'skill') {
+            row.className = 'skill-row d-flex gap-2 mb-2';
+            row.innerHTML =
+                '<input type="text" class="form-control ca-two-border" name="skill_name[]" placeholder="Skill Name" required style="flex: 2;">' +
+                '<input type="number" class="form-control ca-two-border" name="skill_percentage[]" placeholder="% (e.g., 90)" min="0" max="100" required style="flex: 1;">' +
+                '<button type="button" class="btn btn-outline-danger remove-skill-btn" style="width: 40px;" title="Remove">x</button>';
+            return row;
+        }
+
+        row.className = 'ai-tool-row d-flex gap-2 mb-2';
+        row.innerHTML =
+            '<input type="text" class="form-control ca-two-border" name="ai_tool_name[]" placeholder="AI Tool Name" required style="flex: 2;">' +
+            '<select class="form-control ca-two-border" name="ai_tool_level[]" required style="flex: 1;">' +
+            '<option value="">Select Level</option>' +
+            '<option value="Basic">Basic</option>' +
+            '<option value="Intermediate">Intermediate</option>' +
+            '<option value="Advanced">Advanced</option>' +
+            '<option value="Expert">Expert</option>' +
+            '</select>' +
+            '<input type="number" class="form-control ca-two-border" name="ai_tool_percentage[]" placeholder="% (e.g., 90)" min="0" max="100" required style="flex: 1;">' +
+            '<button type="button" class="btn btn-outline-danger remove-ai-tool-btn" style="width: 40px;" title="Remove">x</button>';
+        return row;
+    }
+
+    function initializeForm(form) {
+        const skillsContainer = form.querySelector('.skills-container');
+        const aiToolsContainer = form.querySelector('.ai-tools-container');
+        const addSkillBtn = form.querySelector('.add-skill-btn');
+        const addAiToolBtn = form.querySelector('.add-ai-tool-btn');
+        const skillsCombinedInput = form.querySelector('.skills-combined');
+        const aiToolsCombinedInput = form.querySelector('.ai-tools-combined');
+
+        if (addSkillBtn && skillsContainer) {
+            addSkillBtn.addEventListener('click', function() {
+                skillsContainer.appendChild(createRow('skill'));
+            });
+        }
+
+        if (addAiToolBtn && aiToolsContainer) {
+            addAiToolBtn.addEventListener('click', function() {
+                aiToolsContainer.appendChild(createRow('ai-tool'));
+            });
+        }
+
+        form.addEventListener('click', function(e) {
+            if (e.target.classList.contains('remove-skill-btn') && skillsContainer) {
+                const rows = skillsContainer.querySelectorAll('.skill-row');
+
+                if (rows.length > 1) {
+                    e.target.closest('.skill-row').remove();
+                } else if (rows[0]) {
+                    rows[0].querySelectorAll('input, select').forEach(function(field) {
+                        field.value = '';
+                    });
+                }
+            }
+
+            if (e.target.classList.contains('remove-ai-tool-btn') && aiToolsContainer) {
+                const rows = aiToolsContainer.querySelectorAll('.ai-tool-row');
+
+                if (rows.length > 1) {
+                    e.target.closest('.ai-tool-row').remove();
+                } else if (rows[0]) {
+                    rows[0].querySelectorAll('input, select').forEach(function(field) {
+                        field.value = '';
+                    });
+                }
+            }
+        });
+
+        form.addEventListener('submit', function() {
+            const skillNames = form.querySelectorAll('input[name="skill_name[]"]');
+            const skillPercentages = form.querySelectorAll('input[name="skill_percentage[]"]');
+            const aiToolNames = form.querySelectorAll('input[name="ai_tool_name[]"]');
+            const aiToolLevels = form.querySelectorAll('select[name="ai_tool_level[]"]');
+            const aiToolPercentages = form.querySelectorAll('input[name="ai_tool_percentage[]"]');
+            const skillsArray = [];
+            const aiToolsArray = [];
+
+            skillNames.forEach(function(input, index) {
+                const percentageInput = skillPercentages[index];
+
+                if (input.value && percentageInput && percentageInput.value) {
+                    skillsArray.push(input.value + ' (' + percentageInput.value + '%)');
+                }
+            });
+
+            aiToolNames.forEach(function(input, index) {
+                const levelInput = aiToolLevels[index];
+                const percentageInput = aiToolPercentages[index];
+
+                if (input.value && levelInput && levelInput.value && percentageInput && percentageInput.value) {
+                    aiToolsArray.push(input.value + ' - ' + levelInput.value + ' (' + percentageInput.value + '%)');
+                }
+            });
+
+            if (skillsCombinedInput) {
+                skillsCombinedInput.value = skillsArray.join(', ');
+            }
+
+            if (aiToolsCombinedInput) {
+                aiToolsCombinedInput.value = aiToolsArray.join(', ');
+            }
+        });
+    }
+
+    document.querySelectorAll('.career-application-form').forEach(function(form) {
+        initializeForm(form);
     });
 });
 </script>
