@@ -808,11 +808,14 @@ a,
                                 <select name="role" id="cars" class="form-control ca-two-border">
                                     <option value="Roles">Roles</option>
                                     <option value="" selected disabled>Select a service</option>
-                                    <option value="Web & App Development">Web & App Development</option>
-                                    <option value="eCommerce Development">eCommerce Development</option>
-                                    <option value="Branding">Branding</option>
-                                    <option value="Digital Marketing">Digital Marketing</option>
-                                    <option value="Social Media Marketing">Social Media Marketing</option>
+                                    <option value="Website Developer">Website Developer
+                                    </option>
+                                    <option value="App Developer">App Developer
+                                    </option>
+                                    <option value="Graphic Designer">Graphic Designer</option>
+                                    <option value="Social Media Marketing Executive">Social Media
+                                        Marketing Executive
+                                    </option>
                                 </select>
                             </div>
 
@@ -889,7 +892,7 @@ a,
                                             <option value="Expert">Expert</option>
                                         </select>
 
-                                     
+
 
                                         <button type="button" class="btn btn-outline-danger remove-ai-tool-btn"
                                             style="width: 40px;" title="Remove">x</button>
@@ -1216,13 +1219,14 @@ a,
                                                     <select name="role" id="cars" class="form-control ca-two-border">
                                                         <option value="Roles">Roles</option>
                                                         <option value="" selected disabled>Select a service</option>
-                                                        <option value="Web & App Development">Web & App Development
+                                                        <option value="Website Developer">Website Developer
                                                         </option>
-                                                        <option value="eCommerce Development">eCommerce Development
+                                                        <option value="App Developer">App Developer
                                                         </option>
-                                                        <option value="Branding">Branding</option>
-                                                        <option value="Digital Marketing">Digital Marketing</option>
-                                                        <option value="Social Media Marketing">Social Media Marketing
+                                                        <option value="Graphic Designer">Graphic Designer</option>
+
+                                                        <option value="Social Media Marketing Executive">Social Media
+                                                            Marketing Executive
                                                         </option>
                                                     </select>
                                                 </div>
@@ -1298,7 +1302,7 @@ a,
                                                                 <option value="Advanced">Advanced</option>
                                                                 <option value="Expert">Expert</option>
                                                             </select>
-                                                             
+
                                                             <button type="button"
                                                                 class="btn btn-outline-danger remove-ai-tool-btn"
                                                                 style="width: 40px;" title="Remove">x</button>
