@@ -358,7 +358,7 @@ a,
 
 <?php include 'navbar.php'; ?>
 
-<div class="hero9" style="background-image: url(assets/image/career/career-banner1.webp);">
+<div class="hero9" style="background-image: url(assets/image/career/carrer-banne1.webp);">
     <div class="container">
         <div class="row align-items-center justify-content-center">
 
@@ -505,8 +505,7 @@ a,
             </div>
 
             <div class="mt-4 d-flex align-items-center gap-4 hr-cta-group">
-                <a href="enquirynow" class="hr-main-btn" id="applyBtn" data-bs-toggle="modal"
-                    data-bs-target="#staticBackdrop"> Apply Now
+                <a href="job-application.php" class="hr-main-btn"> Apply Now
                 </a>
                 <a href="contact" class="btn btn-outline-info  ">Contact Us</a>
             </div>
@@ -578,8 +577,7 @@ a,
 
             <!-- CTA -->
             <div class="mt-4 d-flex align-items-center gap-4 hr-cta-group">
-                <a href="enquirynow" class="hr-main-btn" id="applyBtn" data-bs-toggle="modal"
-                    data-bs-target="#staticBackdrop">
+                <a href="job-application.php" class="hr-main-btn">
                     Apply Now
                 </a>
                 <a href="contact" class="btn btn-outline-info ">
@@ -668,8 +666,7 @@ a,
 
             <!-- CTA -->
             <div class="mt-4 d-flex align-items-center gap-4 hr-cta-group">
-                <a href="enquirynow" class="hr-main-btn" id="applyBtn" data-bs-toggle="modal"
-                    data-bs-target="#staticBackdrop">
+                <a href="job-application.php" class="hr-main-btn">
                     Apply Now
                 </a>
                 <a href="contact" class="btn btn-outline-info ">
@@ -743,8 +740,7 @@ a,
 
             <!-- CTA -->
             <div class="mt-4 d-flex align-items-center gap-4 hr-cta-group">
-                <a href="enquirynow" class="hr-main-btn" id="applyBtn" data-bs-toggle="modal"
-                    data-bs-target="#staticBackdrop">
+                <a href="job-application.php" class="hr-main-btn">
                     Apply Now
                 </a>
                 <a href="contact" class="btn btn-outline-info ">
@@ -1164,10 +1160,9 @@ a,
                         Find the answers to the questions we get asked the most about our work policies.
                     </p>
                     <!-- Apply Here Button -->
-                    <button type="button" class="mt-3 btn btn-outline-info" data-bs-toggle="modal"
-                        data-bs-target="#staticBackdrop">
+                    <a href="job-application.php" class="mt-3 btn btn-outline-info">
                         Apply Here <i class="fas fa-arrow-right"></i>
-                    </button>
+                    </a>
 
                     <!-- Modal -->
                     <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
@@ -1452,9 +1447,9 @@ a,
                 <button class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
 
                 <!-- OPEN APPLY FORM MODAL -->
-                <button class="btn btn-success" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                <a class="btn btn-success" href="job-application.php">
                     Apply Now
-                </button>
+                </a>
             </div>
         </div>
     </div>

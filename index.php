@@ -1726,7 +1726,7 @@ img {
             <!-- RIGHT -->
             <div class="uxb_about_right_visual" data-aos="fade-left" data-aos-duration="600">
                 <div class="uxb_about_small_card_img">
-                    <img loading="lazy" decoding="async" src="assets\image\home\about-02.webp"
+                    <img loading="lazy" decoding="async" src="assets\image\home\profile1.webp"
                         alt="Affordable Website Development Services">
                 </div>
 

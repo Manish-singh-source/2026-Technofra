@@ -1,0 +1,508 @@
+<?php
+$selectedRole = isset($_GET['role']) ? trim($_GET['role']) : '';
+$roles = [
+    'Website Developer',
+    'App Developer',
+    'Graphic Designer',
+    'Social Media Marketing Executive',
+];
+?>
+<?php include 'header.php'; ?>
+<title>Job Application Form - Technofra Careers</title>
+<meta name="description"
+    content="Apply for open career opportunities at Technofra. Submit your profile, skills, AI tools experience, resume, and portfolio.">
+
+<style>
+.career-apply-hero {
+    background: linear-gradient(135deg, rgba(5, 15, 35, .86), rgb(119 177 220 / 49%)), url(assets/image/career/carrer-banne1.webp) center / cover no-repeat;
+    min-height: 430px;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    position: relative;
+}
+
+.career-apply-hero h1 {
+    color: #fff;
+    font-size: 54px;
+    line-height: 1.15;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.career-apply-hero p {
+    color: rgba(255, 255, 255, .88);
+    max-width: 680px;
+    font-size: 18px;
+    line-height: 1.75;
+    margin-bottom: 0;
+}
+
+.career-apply-section {
+    background: #f7f9fc;
+    padding: 70px 0;
+}
+
+.career-apply-shell {
+    display: grid;
+    grid-template-columns: minmax(260px, 360px) 1fr;
+    gap: 30px;
+    align-items: start;
+}
+
+.career-apply-panel,
+.career-form-card {
+    background: #fff;
+    border: 1px solid rgba(15, 23, 42, .08);
+    box-shadow: 0 20px 50px rgba(15, 23, 42, .08);
+    border-radius: 12px;
+}
+
+.career-apply-panel {
+    padding: 30px;
+    position: sticky;
+    top: 100px;
+}
+
+.career-apply-panel h2 {
+    font-size: 28px;
+    line-height: 1.25;
+    margin-bottom: 16px;
+}
+
+.career-apply-panel p,
+.career-apply-panel li {
+    color: #5d6675;
+    line-height: 1.7;
+}
+
+.career-apply-panel ul {
+    padding-left: 0;
+    margin: 22px 0 0;
+    list-style: none;
+}
+
+.career-apply-panel li {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 14px;
+}
+
+.career-apply-panel i {
+    color: #036;
+    margin-top: 6px;
+}
+
+.career-form-card {
+    padding: 36px;
+}
+
+.career-form-card .form-label {
+    font-weight: 600;
+    color: #162033;
+}
+
+.career-form-card .required-mark {
+    color: #bf1c25;
+}
+
+.career-form-card .form-control {
+    min-height: 48px;
+    border-radius: 8px;
+    border: 1px solid #d9e1ec;
+}
+
+.career-form-card .form-control:focus {
+    border-color: #bf1c25;
+    box-shadow: 0 0 0 .2rem rgba(191, 28, 37, .12);
+}
+
+.career-form-card .skill-row,
+.career-form-card .ai-tool-row {
+    align-items: center;
+}
+
+.career-form-card .btn-outline-danger {
+    height: 48px;
+}
+
+.career-form-card .add-skill-btn,
+.career-form-card .add-ai-tool-btn {
+    border-radius: 8px;
+}
+
+.career-form-actions {
+    display: flex;
+    gap: 14px;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 18px;
+}
+
+.career-submit-btn {
+    background: #036;
+    border: 1px solid #036;
+    color: #fff;
+    border-radius: 8px;
+    min-height: 48px;
+    padding: 12px 24px;
+    font-weight: 700;
+}
+
+.career-submit-btn:hover {
+    background: #036;
+    color: #fff;
+}
+
+.career-back-link {
+    color: #162033;
+    border: 1px solid #d9e1ec;
+    border-radius: 8px;
+    min-height: 48px;
+    padding: 12px 22px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    background: #fff;
+}
+
+.career-back-link:hover {
+    color: #003366;
+    border-color: #003366;
+    background: rgb(0 51 102 / 12%);
+}
+
+@media (max-width: 991.98px) {
+    .career-apply-shell {
+        grid-template-columns: 1fr;
+    }
+
+    .career-apply-panel {
+        position: static;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .career-apply-hero {
+        min-height: 360px;
+    }
+
+    .career-apply-hero h1 {
+        font-size: 36px;
+    }
+
+    .career-apply-section {
+        padding: 45px 0;
+    }
+
+    .career-form-card {
+        padding: 24px 18px;
+    }
+
+    .career-form-card .skill-row,
+    .career-form-card .ai-tool-row {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .career-form-card .remove-skill-btn,
+    .career-form-card .remove-ai-tool-btn {
+        width: 100% !important;
+    }
+}
+</style>
+
+<?php include 'navbar.php'; ?>
+
+<section class="career-apply-hero">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 pt-5">
+                <span class="span">Careers at Technofra</span>
+                <h1>Job Application Form</h1>
+                <p>Share your details, skills, AI tool experience, resume, and portfolio. Our hiring team will review
+                    your application and connect with you for the next steps.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="career-apply-section">
+    <div class="container">
+        <div class="career-apply-shell">
+            <aside class="career-apply-panel">
+                <div class="about-company-subtitle">
+                    <span>Apply Now</span>
+                    <img src="assets/image/arrow-red.png" alt="Apply Now">
+                </div>
+                <h2>Build your next chapter with us.</h2>
+                <p>Complete the application form carefully. Fields marked with an asterisk are required.</p>
+                <ul>
+                    <li><i class="fa-solid fa-check"></i><span>Attach your latest resume or portfolio in PDF/DOCX format.</span></li>
+                    <li><i class="fa-solid fa-check"></i><span>Add your top skills with proficiency percentage.</span></li>
+                    <li><i class="fa-solid fa-check"></i><span>Mention AI tools you use in your daily workflow.</span></li>
+                </ul>
+            </aside>
+
+            <div class="career-form-card">
+                <form action="send4" method="post" enctype="multipart/form-data" class="career-application-form">
+                    <div class="row">
+                        <div class="col-lg-6 mb-3 text-start">
+                            <label for="name" class="form-label">Full Name<span class="required-mark">*</span></label>
+                            <input type="text" class="form-control ca-two-border" name="fname" id="name" required>
+                        </div>
+
+                        <div class="col-lg-6 mb-3 text-start">
+                            <label for="email" class="form-label">Email ID<span class="required-mark">*</span></label>
+                            <input type="email" class="form-control ca-two-border" name="email" id="email" required>
+                        </div>
+
+                        <div class="col-lg-6 mb-3 text-start">
+                            <label for="phone" class="form-label">Contact Details<span class="required-mark">*</span></label>
+                            <input type="tel" class="form-control ca-two-border" name="contact" id="phone" required>
+                        </div>
+
+                        <div class="col-lg-6 mb-3 text-start">
+                            <label for="role" class="form-label">Roles<span class="required-mark">*</span></label>
+                            <select name="role" id="role" class="form-control ca-two-border" required>
+                                <option value="" disabled <?php echo $selectedRole === '' ? 'selected' : ''; ?>>Select a role</option>
+                                <?php foreach ($roles as $role) : ?>
+                                    <option value="<?php echo htmlspecialchars($role); ?>" <?php echo $selectedRole === $role ? 'selected' : ''; ?>>
+                                        <?php echo htmlspecialchars($role); ?>
+                                    </option>
+                                <?php endforeach; ?>
+                            </select>
+                        </div>
+
+                        <div class="col-lg-6 mb-3 text-start">
+                            <label class="form-label">Years Of Experience<span class="required-mark">*</span></label>
+                            <input type="text" class="form-control ca-two-border" name="experience" required>
+                        </div>
+
+                        <div class="col-lg-6 mb-3 text-start">
+                            <label class="form-label">Current CTC<span class="required-mark">*</span></label>
+                            <input type="text" class="form-control ca-two-border" name="ctc" required>
+                        </div>
+
+                        <div class="col-lg-6 mb-3 text-start">
+                            <label class="form-label">Expected CTC<span class="required-mark">*</span></label>
+                            <input type="text" class="form-control ca-two-border" name="ectc" required>
+                        </div>
+
+                        <div class="col-lg-6 mb-3 text-start">
+                            <label class="form-label">Location<span class="required-mark">*</span></label>
+                            <input type="text" class="form-control ca-two-border" name="location" required>
+                        </div>
+
+                        <div class="col-lg-12 mb-3 text-start">
+                            <label class="form-label">Skills<span class="required-mark">*</span></label>
+                            <p class="text-muted small mb-2">Add your skills and proficiency level for each</p>
+                            <div class="skills-container">
+                                <div class="skill-row d-flex gap-2 mb-2">
+                                    <input type="text" class="form-control ca-two-border" name="skill_name[]"
+                                        placeholder="Skill Name" required style="flex: 2;">
+                                    <input type="number" class="form-control ca-two-border" name="skill_percentage[]"
+                                        placeholder="% (e.g., 90)" min="0" max="100" required style="flex: 1;">
+                                    <button type="button" class="btn btn-outline-danger remove-skill-btn"
+                                        style="width: 48px;" title="Remove">x</button>
+                                </div>
+                            </div>
+                            <button type="button" class="btn bt btn-outline-secondary btn-sm mt-2 add-skill-btn">
+                                + Add Another Skill
+                            </button>
+                            <input type="hidden" name="skills_combined" class="skills-combined">
+                        </div>
+
+                        <div class="col-lg-12 mb-3 text-start">
+                            <label class="form-label">AI Tools<span class="required-mark">*</span></label>
+                            <p class="text-muted small mb-2">Add AI tools you use and your proficiency level for each</p>
+                            <div class="ai-tools-container">
+                                <div class="ai-tool-row d-flex gap-2 mb-2">
+                                    <input type="text" class="form-control ca-two-border" name="ai_tool_name[]"
+                                        placeholder="AI Tool Name" required style="flex: 2;">
+                                    <select class="form-control ca-two-border" name="ai_tool_level[]" required
+                                        style="flex: 1;">
+                                        <option value="">Select Level</option>
+                                        <option value="Basic">Basic</option>
+                                        <option value="Intermediate">Intermediate</option>
+                                        <option value="Advanced">Advanced</option>
+                                        <option value="Expert">Expert</option>
+                                    </select>
+                                    <button type="button" class="btn btn-outline-danger remove-ai-tool-btn"
+                                        style="width: 48px;" title="Remove">x</button>
+                                </div>
+                            </div>
+                            <button type="button" class="btn bt btn-outline-secondary btn-sm mt-2 add-ai-tool-btn">
+                                + Add Another AI Tool
+                            </button>
+                            <input type="hidden" name="ai_tools_combined" class="ai-tools-combined">
+                        </div>
+
+                        <div class="col-lg-6 mb-3 text-start">
+                            <label class="form-label">Notice Period<span class="required-mark">*</span></label>
+                            <input type="text" class="form-control ca-two-border" name="notice" required>
+                        </div>
+
+                        <div class="col-lg-6 mb-3 text-start">
+                            <label class="form-label">Referrer Name</label>
+                            <input type="text" class="form-control ca-two-border" name="rn">
+                        </div>
+
+                        <div class="col-lg-6 mb-3 text-start">
+                            <label class="form-label">How did you hear about this job opening?<span class="required-mark">*</span></label>
+                            <select name="refrence" class="form-control ca-two-border" required>
+                                <option value="Please Select">Please Select</option>
+                                <option value="Received a call from Technofra HR">Received a call from Technofra HR</option>
+                                <option value="Facebook">Facebook</option>
+                                <option value="Instagram">Instagram</option>
+                                <option value="LinkedIn">LinkedIn</option>
+                                <option value="Google">Google</option>
+                                <option value="Referred by a Friend">Referred by a Friend</option>
+                                <option value="Other">Other</option>
+                            </select>
+                        </div>
+
+                        <div class="col-lg-6 mb-3 text-start">
+                            <label for="file" class="form-label">Resume / Portfolio (.pdf/.docx only)<span class="required-mark">*</span></label>
+                            <input type="file" class="form-control ca-two-border" id="file" name="file"
+                                accept=".pdf,.doc,.docx" required>
+                        </div>
+
+                        <div class="col-lg-6 mb-3 text-start">
+                            <label class="form-label">Portfolio Link (if any)</label>
+                            <input type="text" class="form-control ca-two-border" name="link">
+                        </div>
+
+                        <input type="text" name="hidden_field" style="display:none;" tabindex="-1">
+
+                        <div class="col-12 mb-2">
+                            <div class="g-recaptcha" data-sitekey="6LekpbEqAAAAANkc3FduPE52-p4Wqu5ghQFXjPhF"></div>
+                        </div>
+
+                        <div class="col-12 career-form-actions">
+                            <button type="submit" class="career-submit-btn">Submit Application</button>
+                            <a href="career.php" class="career-back-link">Back to Careers</a>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    function createRow(type) {
+        const row = document.createElement('div');
+
+        if (type === 'skill') {
+            row.className = 'skill-row d-flex gap-2 mb-2';
+            row.innerHTML =
+                '<input type="text" class="form-control ca-two-border" name="skill_name[]" placeholder="Skill Name" required style="flex: 2;">' +
+                '<input type="number" class="form-control ca-two-border" name="skill_percentage[]" placeholder="% (e.g., 90)" min="0" max="100" required style="flex: 1;">' +
+                '<button type="button" class="btn btn-outline-danger remove-skill-btn" style="width: 48px;" title="Remove">x</button>';
+            return row;
+        }
+
+        row.className = 'ai-tool-row d-flex gap-2 mb-2';
+        row.innerHTML =
+            '<input type="text" class="form-control ca-two-border" name="ai_tool_name[]" placeholder="AI Tool Name" required style="flex: 2;">' +
+            '<select class="form-control ca-two-border" name="ai_tool_level[]" required style="flex: 1;">' +
+            '<option value="">Select Level</option>' +
+            '<option value="Basic">Basic</option>' +
+            '<option value="Intermediate">Intermediate</option>' +
+            '<option value="Advanced">Advanced</option>' +
+            '<option value="Expert">Expert</option>' +
+            '</select>' +
+            '<button type="button" class="btn btn-outline-danger remove-ai-tool-btn" style="width: 48px;" title="Remove">x</button>';
+        return row;
+    }
+
+    function initializeForm(form) {
+        const skillsContainer = form.querySelector('.skills-container');
+        const aiToolsContainer = form.querySelector('.ai-tools-container');
+        const addSkillBtn = form.querySelector('.add-skill-btn');
+        const addAiToolBtn = form.querySelector('.add-ai-tool-btn');
+        const skillsCombinedInput = form.querySelector('.skills-combined');
+        const aiToolsCombinedInput = form.querySelector('.ai-tools-combined');
+
+        if (addSkillBtn && skillsContainer) {
+            addSkillBtn.addEventListener('click', function() {
+                skillsContainer.appendChild(createRow('skill'));
+            });
+        }
+
+        if (addAiToolBtn && aiToolsContainer) {
+            addAiToolBtn.addEventListener('click', function() {
+                aiToolsContainer.appendChild(createRow('ai-tool'));
+            });
+        }
+
+        form.addEventListener('click', function(e) {
+            if (e.target.classList.contains('remove-skill-btn') && skillsContainer) {
+                const rows = skillsContainer.querySelectorAll('.skill-row');
+
+                if (rows.length > 1) {
+                    e.target.closest('.skill-row').remove();
+                } else if (rows[0]) {
+                    rows[0].querySelectorAll('input, select').forEach(function(field) {
+                        field.value = '';
+                    });
+                }
+            }
+
+            if (e.target.classList.contains('remove-ai-tool-btn') && aiToolsContainer) {
+                const rows = aiToolsContainer.querySelectorAll('.ai-tool-row');
+
+                if (rows.length > 1) {
+                    e.target.closest('.ai-tool-row').remove();
+                } else if (rows[0]) {
+                    rows[0].querySelectorAll('input, select').forEach(function(field) {
+                        field.value = '';
+                    });
+                }
+            }
+        });
+
+        form.addEventListener('submit', function() {
+            const skillNames = form.querySelectorAll('input[name="skill_name[]"]');
+            const skillPercentages = form.querySelectorAll('input[name="skill_percentage[]"]');
+            const aiToolNames = form.querySelectorAll('input[name="ai_tool_name[]"]');
+            const aiToolLevels = form.querySelectorAll('select[name="ai_tool_level[]"]');
+            const skillsArray = [];
+            const aiToolsArray = [];
+
+            skillNames.forEach(function(input, index) {
+                const percentageInput = skillPercentages[index];
+
+                if (input.value && percentageInput && percentageInput.value) {
+                    skillsArray.push(input.value + ' (' + percentageInput.value + '%)');
+                }
+            });
+
+            aiToolNames.forEach(function(input, index) {
+                const levelInput = aiToolLevels[index];
+
+                if (input.value && levelInput && levelInput.value) {
+                    aiToolsArray.push(input.value + ' - ' + levelInput.value);
+                }
+            });
+
+            if (skillsCombinedInput) {
+                skillsCombinedInput.value = skillsArray.join(', ');
+            }
+
+            if (aiToolsCombinedInput) {
+                aiToolsCombinedInput.value = aiToolsArray.join(', ');
+            }
+        });
+    }
+
+    document.querySelectorAll('.career-application-form').forEach(function(form) {
+        initializeForm(form);
+    });
+});
+</script>
+
+<?php include 'footer.php'; ?>

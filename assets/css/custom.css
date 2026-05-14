@@ -2122,8 +2122,8 @@
  .hfz-hero {
      position: relative;
      min-height: 750px;
-     background: linear-gradient(rgba(0, 0, 0, 0.18), rgba(0, 0, 0, 0.18)),
-         url('https://technofra.com/assets/image/about/ab-ban.webp') center/cover no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.18), rgba(0, 0, 0, 0.18)),
+        url('../image/about/ab-ban.webp') center/cover no-repeat;
      display: flex;
      align-items: center;
      background-size: cover;
