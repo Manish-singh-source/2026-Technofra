@@ -124,11 +124,28 @@ $roles = [
 
 .career-form-card .btn-outline-danger {
     height: 48px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    line-height: 1;
 }
 
 .career-form-card .add-skill-btn,
 .career-form-card .add-ai-tool-btn {
+    border: 1px dashed #036;
     border-radius: 8px;
+    color: #036;
+    background: rgba(0, 51, 102, .04);
+    font-weight: 700;
+    padding: 9px 16px;
+}
+
+.career-form-card .add-skill-btn:hover,
+.career-form-card .add-ai-tool-btn:hover {
+    border-color: #036;
+    color: #fff !important;
+    background: #036;
 }
 
 .career-form-actions {
