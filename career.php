@@ -1038,9 +1038,9 @@ a,
     </div>
 </section>
 
-<section class="about-team-wrapper container">
-    <div class="about-team-section">
-        <div class="row justify-content-center pb-30" data-aos="fade-up" data-aos-duration="600"
+<!-- <section class="about-team-wrapper container">
+    <div class="about-team-section"> -->
+        <!-- <div class="row justify-content-center pb-30" data-aos="fade-up" data-aos-duration="600"
             class="aos-init aos-animate">
             <div class="col-xl-7 ">
                 <div class="ins-title text-center">
@@ -1051,42 +1051,42 @@ a,
                     </h2>
                 </div>
             </div>
-        </div>
+        </div> -->
 
-        <div class="about-team-grid">
+        <!-- <div class="about-team-grid">
 
             <article class="about-team-card" data-aos="fade-up" data-aos-duration="600" class="aos-init aos-animate">
                 <div class="about-team-image-box">
                     <img class="about-team-image" src="assets\image\teams\shyam.webp" alt="IT Careers Mumbai">
                 </div>
                 <h3 class="about-team-member-name">Shyam Jaiswar</h3>
-                <p class="about-team-member-role">Business Developer Head</p>
+                <p class="about-team-member-role">Business Developer Head</p> -->
                 <!-- <p class="about-team-member-bio">
                     Identifies growth opportunities, builds client relationships, and drives business expansion
                 </p> -->
-            </article>
+            <!-- </article> -->
 
-            <article class="about-team-card" data-aos="fade-up" data-aos-duration="600" class="aos-init aos-animate">
+            <!-- <article class="about-team-card" data-aos="fade-up" data-aos-duration="600" class="aos-init aos-animate">
                 <div class="about-team-image-box">
                     <img class="about-team-image" src="assets/image/teams/khushi.webp" alt="Careers at Technofra">
                 </div>
                 <h3 class="about-team-member-name">Khushi Yadav</h3>
-                <p class="about-team-member-role">Digital-Marketing Head</p>
+                <p class="about-team-member-role">Digital-Marketing Head</p> -->
                 <!-- <p class="about-team-member-bio">
                     Manages social media campaigns and builds engagement with the audience.
                 </p> -->
-            </article>
+            <!-- </article>
 
             <article class="about-team-card" data-aos="fade-up" data-aos-duration="600" class="aos-init aos-animate">
                 <div class="about-team-image-box">
                     <img class="about-team-image" src="assets/image/teams/manish.webp" alt="IT Jobs in Mumbai">
                 </div>
                 <h3 class="about-team-member-name">Manish Singh</h3>
-                <p class="about-team-member-role">Web Developer Head</p>
+                <p class="about-team-member-role">Web Developer Head</p> -->
                 <!-- <p class="about-team-member-bio">
                     Develops responsive websites and maintains modern web functionality.
                 </p> -->
-            </article>
+            <!-- </article> -->
 
             <!-- <article class="about-team-card" data-aos="fade-up" data-aos-duration="600" class="aos-init aos-animate">
                 <div class="about-team-image-box">
@@ -1123,32 +1123,32 @@ a,
                 </p> 
             </article> -->
 
-            <article class="about-team-card" data-aos="fade-up" data-aos-duration="600" class="aos-init aos-animate">
+            <!-- <article class="about-team-card" data-aos="fade-up" data-aos-duration="600" class="aos-init aos-animate">
                 <div class="about-team-image-box">
                     <img class="about-team-image" src="assets\image\teams\shubham.webp" alt="UI UX Designer Jobs">
                 </div>
                 <h3 class="about-team-member-name">Shubham Shinde</h3>
-                <p class="about-team-member-role">APP Developer Head</p>
+                <p class="about-team-member-role">APP Developer Head</p> -->
                 <!-- <p class="about-team-member-bio">
                     Designs, develops, and maintains mobile applications for smooth performance and user experience.
                 </p> -->
-            </article>
+            <!-- </article> -->
 
-            <article class="about-team-card" data-aos="fade-up" data-aos-duration="600" class="aos-init aos-animate">
+            <!-- <article class="about-team-card" data-aos="fade-up" data-aos-duration="600" class="aos-init aos-animate">
                 <div class="about-team-image-box">
                     <img class="about-team-image" src="assets\image\teams\anjali.webp" alt="Digital Agency Careers">
                 </div>
                 <h3 class="about-team-member-name">Anjali Jaiswar</h3>
-                <p class="about-team-member-role">Graphic Designing Head</p>
+                <p class="about-team-member-role">Graphic Designing Head</p> -->
                 <!-- <p class="about-team-member-bio">
                     Creates engaging animations and visual effects for videos, advertisements, and digital content.
                 </p> -->
-            </article>
+            <!-- </article>
         </div>
     </div>
 
-</section>
-<div class="team9 pb-40 bg9">
+</section> -->
+<div class="team9 pb-40 bg9" style="background-color: #f4f5f7;">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-lg-12 col-md-12">
