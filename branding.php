@@ -575,7 +575,7 @@
 
     /* 
     for new section */
-    .text-black {
+    .text-white {
         color: black;
     }
 
@@ -875,7 +875,7 @@
                 <div class="section-heading aos-init aos-animate pr-80 dppddd">
                     <h2 class="text-white" data-aos="fade-up-left">
                         Comprehensive Branding</h2>
-                    <p class="text-black" data-aos="fade-up">We transformed ISH International's brand with custom packaging, logo design, and website development, creating a cohesive and impactful visual identity.</p>
+                    <p class="text-white" data-aos="fade-up">We transformed ISH International's brand with custom packaging, logo design, and website development, creating a cohesive and impactful visual identity.</p>
                 </div>
             </div>
         </div>
@@ -967,7 +967,7 @@
             <div class="col-lg-5 col-md-12">
                 <div class="section-heading aos-init aos-animate pr-80 dppddd" data-aos="fade-up">
                     <h2 class="text-white" data-aos="fade-up-left">Comprehensive Branding for Pet Care</h2>
-                    <p class="text-black" data-aos="fade-up">We developed a unique logo, packaging, and website for Petssmart, a company selling pet food and care products online, enhancing their e-commerce presence and helping them reach pet owners effectively.</p>
+                    <p class="text-white" data-aos="fade-up">We developed a unique logo, packaging, and website for Petssmart, a company selling pet food and care products online, enhancing their e-commerce presence and helping them reach pet owners effectively.</p>
                 </div>
             </div>
         </div>
@@ -1041,8 +1041,8 @@
             </div>
             <div class="col-lg-5 col-md-12">
                 <div class="section-heading aos-init aos-animate pr-80 dppddd" data-aos="fade-up">
-                    <h2 class="text-white" data-aos="fade-up-left">Digital Branding</h2>
-                    <p class="text-black" data-aos="fade-up">Transform Your Brand with Powerful Digital Branding! From eye-catching logos and dynamic packaging to stunning website design and impactful social media marketing, we craft a brand identity that leaves a lasting impression. Elevate your business with strategic branding, engaging content, and a seamless online experience!</p>
+                    <h2 class="text-white" data-aos="fade-up-left">Social Media Branding</h2>
+                    <p class="text-white" data-aos="fade-up">Transform Your Brand with Powerful Social Media Branding! From eye-catching logos and dynamic packaging to stunning website design and impactful social media marketing, we craft a brand identity that leaves a lasting impression. Elevate your business with strategic branding, engaging content, and a seamless online experience!</p>
 
                 </div>
             </div>
@@ -1093,7 +1093,7 @@
     </div>
 </section>
 
-<section class="ptb-80">
+<section class="ptb-60">
     <div class="container">
         <div class="row">
             <div class="col-lg-3">
@@ -1133,15 +1133,15 @@
 </section>
 
 
-<div class="ptb-60">
+<div class="ptb-40">
     <div class="container">
         <div class="row align-items-center justify-content-between">
             <div class="col-xl-6 col-lg-6">
-                <h2 class="aiwt-title ff-risk-pri fs-48 mb-30">
+                <h2 class="aiwt-title ff-risk-pri   mb-30">
                     Our Branding Services Agency 
                 </h2>
             </div>
-            <div class="col-xl-5">
+            <div class="col-xl-6">
                 <p class="mb-30">Check out our comprehensive branding services customized to enhance your brand identity. Our team of experts specializes in logo design, brand strategy development, designing compelling visual identities, and refining brand messages. Increase your brand presence with our strategic solutions today.</p>
             </div>
         </div>

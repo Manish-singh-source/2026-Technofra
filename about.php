@@ -244,7 +244,7 @@
                     Technofra builds strong digital brands through websites, apps, branding, marketing, and smart tech
                     solutions.
                 </p>
-                <a href="contact" class="hfz-btn hfz-btn-contact">Contact Us</a>
+                <a href="contact" class="hfz-btn hfz-btn-contact">Start Your Project</a>
             </div>
         </div>
     </section>
@@ -369,10 +369,86 @@
         </div>
     </section>
 
-   
+
+    <section class="brand-process-section">
+        <div class="container">
+            <div class="brand-process-header">
+                <div class="hfz-services-intro aos-init aos-animate" data-aos="fade-up" data-aos-duration="600">
+                    <div class="about-company-subtitle">
+                        <span>Our Work Process</span>
+                        <img src="assets/image/arrow-red.png" alt="IT Services Company">
+                    </div>
+                    <h2 class="hfz-section-title">From Ideas to Digital Growth</h2>
+                </div>
+            </div>
+
+            <div class="brand-process-wrap">
+
+                <div class="brand-process-item item-1">
+                    <div class="process-card">
+                        <div class="process-number">01</div>
+                        <div class="process-icons">
+                            <i class="fas fa-comments"></i>
+                        </div>
+                        <h3>Consultation & Discovery</h3>
+                        <p>
+                            We understand your business goals, target audience, brand needs,
+                            website requirements, and marketing objectives.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="brand-process-item item-2">
+                    <div class="process-card">
+                        <div class="process-number">02</div>
+                        <div class="process-icons">
+                            <i class="fas fa-lightbulb"></i>
+                        </div>
+                        <h3>Strategy & Planning</h3>
+                        <p>
+                            We create a clear roadmap for your brand identity, website structure,
+                            content direction, and digital marketing approach.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="brand-process-item item-3">
+                    <div class="process-card">
+                        <div class="process-number">03</div>
+                        <div class="process-icons">
+                            <i class="fas fa-palette"></i>
+                        </div>
+                        <h3>Design & Execution</h3>
+                        <p>
+                            Our team designs your brand visuals, develops responsive websites,
+                            and creates engaging social media content with proper planning.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="brand-process-item item-4">
+                    <div class="process-card">
+                        <div class="process-number">04</div>
+                        <div class="process-icons">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <h3>Launch, Marketing & Growth</h3>
+                        <p>
+                            We launch, promote, analyze, and improve your digital presence
+                            to help your business grow with measurable results.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="process-line vertical-line"></div>
+
+            </div>
+        </div>
+    </section>
+
 
     <!-- SERVICES -->
-    <section class="ptb-50">
+    <section class="ptb-80">
         <div class="hfz-container container">
             <div class="hfz-services-grid">
                 <div class="hfz-services-intro" data-aos="fade-up" data-aos-duration="600">
@@ -385,7 +461,7 @@
                         Technofra, established in 2012, is driven by a clear mission and vision to deliver innovative
                         digital solutions that empower businesses globally.
                     </p>
-            
+
                 </div>
 
                 <div class="hfz-service-card" data-aos="fade-up" data-aos-duration="600">
@@ -408,7 +484,7 @@
                     </p>
                 </div>
 
-                
+
             </div>
         </div>
     </section>
@@ -423,10 +499,10 @@
             <div class="row justify-content-center pb-30" data-aos="fade-up" data-aos-duration="800"
                 class="aos-init aos-animate">
                 <div class="col-xl-7 ">
-                    <div class="ins-title text-center">
+                    <div class="ins-title text-center hfz-services-intro">
                         <span class="crm-subtitle ">Company Journey <img src="assets/image/arrow-red.png"
                                 alt="Full Service Digital Agency"></span>
-                        <h2>
+                        <h2 class="hfz-section-title">
                             Our Journey Timeline
                         </h2>
                     </div>
@@ -526,7 +602,7 @@
 
                 <!-- card 5 -->
 
-               
+
 
             </div>
 
@@ -541,7 +617,8 @@
             class="aos-init aos-animate">
             <div class="col-xl-7 ">
                 <div class="ins-title text-center">
-                    <span class="crm-subtitle ">Our Team <img src="assets/image/arrow-red.png" alt="Digital Transformation Company"></span>
+                    <span class="crm-subtitle ">Our Team <img src="assets/image/arrow-red.png"
+                            alt="Digital Transformation Company"></span>
                     <h2>
                         Meet Our Leadership
                     </h2>
@@ -552,7 +629,8 @@
         <div class="about-team-grid">
             <article class="about-team-card" data-aos="fade-up" data-aos-duration="800" class="aos-init aos-animate">
                 <div class="about-team-image-box">
-                    <img class="about-team-image" src="assets/image/teams/gopalsir.webp" alt="Experienced Web Development Company">
+                    <img class="about-team-image" src="assets/image/teams/gopalsir.webp"
+                        alt="Experienced Web Development Company">
                 </div>
                 <h3 class="about-team-member-name">Gopal Giri</h3>
                 <p class="about-team-member-role">Director & Co-Founder</p>
@@ -563,7 +641,8 @@
 
             <article class="about-team-card" data-aos="fade-up" data-aos-duration="800" class="aos-init aos-animate">
                 <div class="about-team-image-box">
-                    <img class="about-team-image" src="assets/image/teams/bhavna.webp" alt="Professional Digital Services Company">
+                    <img class="about-team-image" src="assets/image/teams/bhavna.webp"
+                        alt="Professional Digital Services Company">
                 </div>
                 <h3 class="about-team-member-name">Bhavna Giri</h3>
                 <p class="about-team-member-role">CEO & Co-Founder</p>
@@ -574,7 +653,8 @@
 
             <article class="about-team-card" data-aos="fade-up" data-aos-duration="800" class="aos-init aos-animate">
                 <div class="about-team-image-box">
-                    <img class="about-team-image" src="assets/image/teams/khushi.webp" alt="Business Growth Solutions Company">
+                    <img class="about-team-image" src="assets/image/teams/khushi.webp"
+                        alt="Business Growth Solutions Company">
                 </div>
                 <h3 class="about-team-member-name">Khushi Yadav</h3>
                 <p class="about-team-member-role">Digital Marketing Head</p>

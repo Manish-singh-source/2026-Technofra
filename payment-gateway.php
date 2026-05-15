@@ -116,8 +116,7 @@ gtag('config', 'G-189WWHXLSS');
                         securely.
                     </p>
 
-                    <a href="contact" class="btn risk-outline-btn mt-40 risk-color ff-risk-pri fs-14 fw-700">Get
-                        Started</a>
+                    <a href="contact" class="btn risk-outline-btn mt-40 risk-color ff-risk-pri fs-14 fw-700">Request Integration</a>
                 </div>
             </div>
             <div class="col-lg-7">
@@ -186,8 +185,7 @@ gtag('config', 'G-189WWHXLSS');
                             convenience. Additionally, our agency distinguishes itself with personalized support
                             and tailored solutions to meet your specific business needs.</p>
                     </div>
-                    <a href="contact" class="btn risk-outline-btn mt-40 risk-color ff-risk-pri fs-14 fw-700">Get
-                        Started</a>
+                    <a href="contact" class="btn risk-outline-btn mt-40 risk-color ff-risk-pri fs-14 fw-700">Start Payment Setup</a>
                 </div>
             </div>
         </div>
@@ -324,7 +322,7 @@ gtag('config', 'G-189WWHXLSS');
                                 <p class="m-0">
                                     Your credit transfers, powered by speed and security.
                                 </p>
-                                <a href="javascript:void(0);" class="link-with-icon text-decoration-none">Contact Now <i
+                                <a href="javascript:void(0);" class="link-with-icon text-decoration-none">Discuss Requirement <i
                                         class="fas fa-arrow-right"></i>
                                 </a>
                             </div>
@@ -340,7 +338,7 @@ gtag('config', 'G-189WWHXLSS');
                                 <p class="m-0">
                                     Your transactions are safe with our cutting-edge security technology.
                                 </p>
-                                <a href="javascript:void(0);" class="link-with-icon text-decoration-none">Contact Now <i
+                                <a href="javascript:void(0);" class="link-with-icon text-decoration-none">Secure My Payments <i
                                         class="fas fa-arrow-right"></i>
                                 </a>
                             </div>
@@ -697,8 +695,7 @@ gtag('config', 'G-189WWHXLSS');
                             impact. Get started today.</p>
 
                     </div>
-                    <a href="tel:+918080803374" target="_blank" class="btn btn-outline-info rounded-5 mt-30"> <i
-                            class="fa-light fa-phone-volume"></i> +91 8080 80 3374
+                    <a href="tel:+918080803374" target="_blank" class="btn btn-outline-info rounded-5 mt-30">   Book a Free Consultation
                     </a>
                 </div>
             </div>

@@ -3156,12 +3156,11 @@ body.body {
 }
 
 .heading10 h2 {
-
-    font-size: 44px;
+    font-size: 40px;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 600;
+    text-transform: capitalize;
     line-height: 52px;
-    /* 118.182% */
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
