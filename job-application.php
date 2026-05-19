@@ -1,4 +1,6 @@
 <?php
+session_start();
+
 $selectedRole = isset($_GET['role']) ? trim($_GET['role']) : '';
 $roles = [
     'Website Developer',
@@ -6,6 +8,38 @@ $roles = [
     'Graphic Designer',
     'Social Media Marketing Executive',
 ];
+
+$defaultFormData = [
+    'fname' => '',
+    'email' => '',
+    'contact' => '',
+    'role' => $selectedRole,
+    'experience' => '',
+    'ctc' => '',
+    'ectc' => '',
+    'location' => '',
+    'notice' => '',
+    'rn' => '',
+    'refrence' => '',
+    'link' => '',
+];
+
+$formNotice = $_SESSION['job_application_form_notice'] ?? null;
+$formData = $_SESSION['job_application_form_data'] ?? $defaultFormData;
+$skillRows = $_SESSION['job_application_skill_rows'] ?? [['name' => '', 'percentage' => '']];
+$aiToolRows = $_SESSION['job_application_ai_tool_rows'] ?? [['name' => '', 'level' => '']];
+
+unset(
+    $_SESSION['job_application_form_notice'],
+    $_SESSION['job_application_form_data'],
+    $_SESSION['job_application_skill_rows'],
+    $_SESSION['job_application_ai_tool_rows']
+);
+
+function jobApplicationValue($value)
+{
+    return htmlspecialchars((string) $value, ENT_QUOTES, 'UTF-8');
+}
 ?>
 <?php include 'header.php'; ?>
 <title>Job Application Form - Technofra Careers</title>
@@ -115,6 +149,79 @@ $roles = [
 .career-form-card .form-control:focus {
     border-color: #bf1c25;
     box-shadow: 0 0 0 .2rem rgba(191, 28, 37, .12);
+}
+
+.career-form-popup {
+    position: fixed;
+    top: 92px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: min(92%, 620px);
+    z-index: 9999;
+}
+
+.career-form-popup-card {
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+    padding: 18px 20px;
+    border-radius: 12px;
+    background: #ffffff;
+    border: 1px solid #dbeafe;
+    box-shadow: 0 22px 55px rgba(15, 23, 42, .18);
+}
+
+.career-form-popup.success .career-form-popup-card {
+    border-color: #bbf7d0;
+}
+
+.career-form-popup.error .career-form-popup-card {
+    border-color: #fecaca;
+}
+
+.career-form-popup-icon {
+    width: 44px;
+    height: 44px;
+    border-radius: 10px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.career-form-popup.success .career-form-popup-icon {
+    background: #dcfce7;
+    color: #15803d;
+}
+
+.career-form-popup.error .career-form-popup-icon {
+    background: #fee2e2;
+    color: #b91c1c;
+}
+
+.career-form-popup-content {
+    flex: 1;
+}
+
+.career-form-popup-content h3 {
+    font-size: 18px;
+    margin: 0 0 4px;
+    color: #0f172a;
+}
+
+.career-form-popup-content p {
+    margin: 0;
+    color: #475569;
+    line-height: 1.5;
+}
+
+.career-form-popup-close {
+    border: 0;
+    background: transparent;
+    color: #64748b;
+    font-size: 24px;
+    line-height: 1;
+    cursor: pointer;
 }
 
 .career-form-card .skill-row,
@@ -232,6 +339,23 @@ $roles = [
 
 <?php include 'navbar.php'; ?>
 
+<?php if ($formNotice): ?>
+<div class="career-form-popup <?php echo jobApplicationValue($formNotice['status']); ?>" id="jobApplicationPopup"
+    role="alert" aria-live="assertive">
+    <div class="career-form-popup-card">
+        <div class="career-form-popup-icon">
+            <i class="fa-solid <?php echo $formNotice['status'] === 'success' ? 'fa-circle-check' : 'fa-circle-exclamation'; ?>"></i>
+        </div>
+        <div class="career-form-popup-content">
+            <h3><?php echo jobApplicationValue($formNotice['title']); ?></h3>
+            <p><?php echo jobApplicationValue($formNotice['message']); ?></p>
+        </div>
+        <button type="button" class="career-form-popup-close" aria-label="Close popup"
+            onclick="document.getElementById('jobApplicationPopup').style.display='none'">&times;</button>
+    </div>
+</div>
+<?php endif; ?>
+
 <section class="career-apply-hero">
     <div class="container">
         <div class="row">
@@ -262,22 +386,26 @@ $roles = [
                 </ul>
             </aside>
 
-            <div class="career-form-card">
-                <form action="send4" method="post" enctype="multipart/form-data" class="career-application-form">
+            <div class="career-form-card" id="job-application-form">
+                <form action="jobapplication-handler.php" method="post" enctype="multipart/form-data"
+                    class="career-application-form">
                     <div class="row">
                         <div class="col-lg-6 mb-3 text-start">
                             <label for="name" class="form-label">Full Name<span class="required-mark">*</span></label>
-                            <input type="text" class="form-control ca-two-border" name="fname" id="name" required>
+                            <input type="text" class="form-control ca-two-border" name="fname" id="name"
+                                value="<?php echo jobApplicationValue($formData['fname'] ?? ''); ?>" required>
                         </div>
 
                         <div class="col-lg-6 mb-3 text-start">
                             <label for="email" class="form-label">Email ID<span class="required-mark">*</span></label>
-                            <input type="email" class="form-control ca-two-border" name="email" id="email" required>
+                            <input type="email" class="form-control ca-two-border" name="email" id="email"
+                                value="<?php echo jobApplicationValue($formData['email'] ?? ''); ?>" required>
                         </div>
 
                         <div class="col-lg-6 mb-3 text-start">
                             <label for="phone" class="form-label">Contact Details<span class="required-mark">*</span></label>
-                            <input type="tel" class="form-control ca-two-border" name="contact" id="phone" required>
+                            <input type="tel" class="form-control ca-two-border" name="contact" id="phone"
+                                value="<?php echo jobApplicationValue($formData['contact'] ?? ''); ?>" required>
                         </div>
 
                         <div class="col-lg-6 mb-3 text-start">
@@ -285,8 +413,8 @@ $roles = [
                             <select name="role" id="role" class="form-control ca-two-border" required>
                                 <option value="" disabled <?php echo $selectedRole === '' ? 'selected' : ''; ?>>Select a role</option>
                                 <?php foreach ($roles as $role) : ?>
-                                    <option value="<?php echo htmlspecialchars($role); ?>" <?php echo $selectedRole === $role ? 'selected' : ''; ?>>
-                                        <?php echo htmlspecialchars($role); ?>
+                                    <option value="<?php echo jobApplicationValue($role); ?>" <?php echo (($formData['role'] ?? $selectedRole) === $role) ? 'selected' : ''; ?>>
+                                        <?php echo jobApplicationValue($role); ?>
                                     </option>
                                 <?php endforeach; ?>
                             </select>
@@ -294,36 +422,46 @@ $roles = [
 
                         <div class="col-lg-6 mb-3 text-start">
                             <label class="form-label">Years Of Experience<span class="required-mark">*</span></label>
-                            <input type="text" class="form-control ca-two-border" name="experience" required>
+                            <input type="text" class="form-control ca-two-border" name="experience"
+                                value="<?php echo jobApplicationValue($formData['experience'] ?? ''); ?>" required>
                         </div>
 
                         <div class="col-lg-6 mb-3 text-start">
                             <label class="form-label">Current CTC<span class="required-mark">*</span></label>
-                            <input type="text" class="form-control ca-two-border" name="ctc" required>
+                            <input type="text" class="form-control ca-two-border" name="ctc"
+                                value="<?php echo jobApplicationValue($formData['ctc'] ?? ''); ?>" required>
                         </div>
 
                         <div class="col-lg-6 mb-3 text-start">
                             <label class="form-label">Expected CTC<span class="required-mark">*</span></label>
-                            <input type="text" class="form-control ca-two-border" name="ectc" required>
+                            <input type="text" class="form-control ca-two-border" name="ectc"
+                                value="<?php echo jobApplicationValue($formData['ectc'] ?? ''); ?>" required>
                         </div>
 
                         <div class="col-lg-6 mb-3 text-start">
                             <label class="form-label">Location<span class="required-mark">*</span></label>
-                            <input type="text" class="form-control ca-two-border" name="location" required>
+                            <input type="text" class="form-control ca-two-border" name="location"
+                                value="<?php echo jobApplicationValue($formData['location'] ?? ''); ?>" required>
                         </div>
 
                         <div class="col-lg-12 mb-3 text-start">
                             <label class="form-label">Skills<span class="required-mark">*</span></label>
                             <p class="text-muted small mb-2">Add your skills and proficiency level for each</p>
                             <div class="skills-container">
+                                <?php foreach ($skillRows as $index => $skillRow): ?>
                                 <div class="skill-row d-flex gap-2 mb-2">
                                     <input type="text" class="form-control ca-two-border" name="skill_name[]"
-                                        placeholder="Skill Name" required style="flex: 2;">
+                                        placeholder="Skill Name"
+                                        value="<?php echo jobApplicationValue($skillRow['name'] ?? ''); ?>" required
+                                        style="flex: 2;">
                                     <input type="number" class="form-control ca-two-border" name="skill_percentage[]"
-                                        placeholder="% (e.g., 90)" min="0" max="100" required style="flex: 1;">
+                                        placeholder="% (e.g., 90)" min="0" max="100"
+                                        value="<?php echo jobApplicationValue($skillRow['percentage'] ?? ''); ?>"
+                                        required style="flex: 1;">
                                     <button type="button" class="btn btn-outline-danger remove-skill-btn"
                                         style="width: 48px;" title="Remove">x</button>
                                 </div>
+                                <?php endforeach; ?>
                             </div>
                             <button type="button" class="btn bt btn-outline-secondary btn-sm mt-2 add-skill-btn">
                                 + Add Another Skill
@@ -335,20 +473,25 @@ $roles = [
                             <label class="form-label">AI Tools<span class="required-mark">*</span></label>
                             <p class="text-muted small mb-2">Add AI tools you use and your proficiency level for each</p>
                             <div class="ai-tools-container">
+                                <?php foreach ($aiToolRows as $aiToolRow): ?>
                                 <div class="ai-tool-row d-flex gap-2 mb-2">
                                     <input type="text" class="form-control ca-two-border" name="ai_tool_name[]"
-                                        placeholder="AI Tool Name" required style="flex: 2;">
+                                        placeholder="AI Tool Name"
+                                        value="<?php echo jobApplicationValue($aiToolRow['name'] ?? ''); ?>" required
+                                        style="flex: 2;">
                                     <select class="form-control ca-two-border" name="ai_tool_level[]" required
                                         style="flex: 1;">
                                         <option value="">Select Level</option>
-                                        <option value="Basic">Basic</option>
-                                        <option value="Intermediate">Intermediate</option>
-                                        <option value="Advanced">Advanced</option>
-                                        <option value="Expert">Expert</option>
+                                        <?php foreach (['Basic', 'Intermediate', 'Advanced', 'Expert'] as $level): ?>
+                                        <option value="<?php echo jobApplicationValue($level); ?>" <?php echo (($aiToolRow['level'] ?? '') === $level) ? 'selected' : ''; ?>>
+                                            <?php echo jobApplicationValue($level); ?>
+                                        </option>
+                                        <?php endforeach; ?>
                                     </select>
                                     <button type="button" class="btn btn-outline-danger remove-ai-tool-btn"
                                         style="width: 48px;" title="Remove">x</button>
                                 </div>
+                                <?php endforeach; ?>
                             </div>
                             <button type="button" class="btn bt btn-outline-secondary btn-sm mt-2 add-ai-tool-btn">
                                 + Add Another AI Tool
@@ -358,25 +501,24 @@ $roles = [
 
                         <div class="col-lg-6 mb-3 text-start">
                             <label class="form-label">Notice Period<span class="required-mark">*</span></label>
-                            <input type="text" class="form-control ca-two-border" name="notice" required>
+                            <input type="text" class="form-control ca-two-border" name="notice"
+                                value="<?php echo jobApplicationValue($formData['notice'] ?? ''); ?>" required>
                         </div>
 
                         <div class="col-lg-6 mb-3 text-start">
                             <label class="form-label">Referrer Name</label>
-                            <input type="text" class="form-control ca-two-border" name="rn">
+                            <input type="text" class="form-control ca-two-border" name="rn"
+                                value="<?php echo jobApplicationValue($formData['rn'] ?? ''); ?>">
                         </div>
 
                         <div class="col-lg-6 mb-3 text-start">
                             <label class="form-label">How did you hear about this job opening?<span class="required-mark">*</span></label>
                             <select name="refrence" class="form-control ca-two-border" required>
-                                <option value="Please Select">Please Select</option>
-                                <option value="Received a call from Technofra HR">Received a call from Technofra HR</option>
-                                <option value="Facebook">Facebook</option>
-                                <option value="Instagram">Instagram</option>
-                                <option value="LinkedIn">LinkedIn</option>
-                                <option value="Google">Google</option>
-                                <option value="Referred by a Friend">Referred by a Friend</option>
-                                <option value="Other">Other</option>
+                                <?php foreach (['Please Select', 'Received a call from Technofra HR', 'Facebook', 'Instagram', 'LinkedIn', 'Google', 'Referred by a Friend', 'Other'] as $referenceOption): ?>
+                                <option value="<?php echo jobApplicationValue($referenceOption); ?>" <?php echo (($formData['refrence'] ?? '') === $referenceOption) ? 'selected' : ''; ?>>
+                                    <?php echo jobApplicationValue($referenceOption); ?>
+                                </option>
+                                <?php endforeach; ?>
                             </select>
                         </div>
 
@@ -388,7 +530,8 @@ $roles = [
 
                         <div class="col-lg-6 mb-3 text-start">
                             <label class="form-label">Portfolio Link (if any)</label>
-                            <input type="text" class="form-control ca-two-border" name="link">
+                            <input type="text" class="form-control ca-two-border" name="link"
+                                value="<?php echo jobApplicationValue($formData['link'] ?? ''); ?>">
                         </div>
 
                         <input type="text" name="hidden_field" style="display:none;" tabindex="-1">
@@ -520,6 +663,14 @@ document.addEventListener('DOMContentLoaded', function() {
         initializeForm(form);
     });
 });
+</script>
+<script>
+const jobApplicationPopup = document.getElementById('jobApplicationPopup');
+if (jobApplicationPopup) {
+    setTimeout(function() {
+        jobApplicationPopup.style.display = 'none';
+    }, 6000);
+}
 </script>
 
 <?php include 'footer.php'; ?>

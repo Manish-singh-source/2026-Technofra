@@ -2,7 +2,23 @@
 session_start();
 
 $bookCallStatus = $_SESSION['book_call_status'] ?? null;
-unset($_SESSION['book_call_status']);
+$defaultContactFormData = [
+    'fname' => '',
+    'lname' => '',
+    'contact' => '',
+    'email' => '',
+    'massage' => '',
+];
+
+$contactFormNotice = $_SESSION['contact_form_notice'] ?? null;
+$contactFormData = $_SESSION['contact_form_data'] ?? $defaultContactFormData;
+
+unset($_SESSION['book_call_status'], $_SESSION['contact_form_notice'], $_SESSION['contact_form_data']);
+
+function contactFormValue($value)
+{
+    return htmlspecialchars((string) $value, ENT_QUOTES, 'UTF-8');
+}
 
 include 'header.php';
 ?>
@@ -189,6 +205,79 @@ gtag('config', 'G-189WWHXLSS');
     background: #fff1f1;
     border: 1px solid #f0b9b9;
     color: #9c1d1d;
+}
+
+.contact-status-popup {
+    position: fixed;
+    top: 92px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: min(92%, 620px);
+    z-index: 9999;
+}
+
+.contact-status-popup-card {
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+    padding: 18px 20px;
+    border-radius: 12px;
+    background: #ffffff;
+    border: 1px solid #dbeafe;
+    box-shadow: 0 22px 55px rgba(15, 23, 42, .18);
+}
+
+.contact-status-popup.success .contact-status-popup-card {
+    border-color: #bbf7d0;
+}
+
+.contact-status-popup.error .contact-status-popup-card {
+    border-color: #fecaca;
+}
+
+.contact-status-popup-icon {
+    width: 44px;
+    height: 44px;
+    border-radius: 10px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.contact-status-popup.success .contact-status-popup-icon {
+    background: #dcfce7;
+    color: #15803d;
+}
+
+.contact-status-popup.error .contact-status-popup-icon {
+    background: #fee2e2;
+    color: #b91c1c;
+}
+
+.contact-status-popup-content {
+    flex: 1;
+}
+
+.contact-status-popup-content h3 {
+    font-size: 18px;
+    margin: 0 0 4px;
+    color: #0f172a;
+}
+
+.contact-status-popup-content p {
+    margin: 0;
+    color: #475569;
+    line-height: 1.5;
+}
+
+.contact-status-popup-close {
+    border: 0;
+    background: transparent;
+    color: #64748b;
+    font-size: 24px;
+    line-height: 1;
+    cursor: pointer;
 }
 
 .eep-calendar-day[disabled],
@@ -752,6 +841,23 @@ a:hover, .btn-link:hover {
 </div>
 <?php endif; ?>
 
+<?php if ($contactFormNotice): ?>
+<div class="contact-status-popup <?php echo contactFormValue($contactFormNotice['status']); ?>" id="contactStatusPopup"
+    role="alert" aria-live="assertive">
+    <div class="contact-status-popup-card">
+        <div class="contact-status-popup-icon">
+            <i class="fa-solid <?php echo $contactFormNotice['status'] === 'success' ? 'fa-circle-check' : 'fa-circle-exclamation'; ?>"></i>
+        </div>
+        <div class="contact-status-popup-content">
+            <h3><?php echo contactFormValue($contactFormNotice['title']); ?></h3>
+            <p><?php echo contactFormValue($contactFormNotice['message']); ?></p>
+        </div>
+        <button type="button" class="contact-status-popup-close" aria-label="Close popup"
+            onclick="document.getElementById('contactStatusPopup').style.display='none'">&times;</button>
+    </div>
+</div>
+<?php endif; ?>
+
 <div class="hero9" style="background-image: url(assets/image/home/contactusban.webp);">
     <div class="container">
         <div class="row align-items-center justify-content-center">
@@ -1002,7 +1108,7 @@ a:hover, .btn-link:hover {
             <div class="col-lg-4" >
                 <div class="register-wrap contact-form-card p-5 bg-white shadow rounded-custom position-relative aos-init aos-animate mb-30"
                     data-aos="fade-up" data-aos-delay="150">
-                    <form action="send" method="POST" >
+                    <form action="contact-handler.php" method="POST">
                         <h3 class="mb-3 fw-medium">Contact Us</h3>
 
                         <div class="row contact-form-actions">
@@ -1011,35 +1117,39 @@ a:hover, .btn-link:hover {
                                         class="text-danger">*</span></label>
                                 <div class="input-group mb-3">
                                     <input type="text" name="fname" class="form-control" required=""
-                                        placeholder="First Name" aria-label="First Name">
+                                        placeholder="First Name" aria-label="First Name"
+                                        value="<?php echo contactFormValue($contactFormData['fname'] ?? ''); ?>">
                                 </div>
                             </div>
                             <div class="col-sm-6 ">
                                 <label for="lastName" class="mb-1">Last Name <span class="text-danger"> *</span></label>
                                 <div class="input-group mb-3">
                                     <input type="text" name="lname" class="form-control" placeholder="Last Name"
-                                        aria-label="Last Name">
+                                        aria-label="Last Name"
+                                        value="<?php echo contactFormValue($contactFormData['lname'] ?? ''); ?>">
                                 </div>
                             </div>
                             <div class="col-sm-6">
                                 <label for="phone" class="mb-1">Phone <span class="text-danger">*</span></label>
                                 <div class="input-group mb-3">
                                     <input type="text" name="contact" class="form-control" required=""
-                                        placeholder="Phone" aria-label="Phone">
+                                        placeholder="Phone" aria-label="Phone"
+                                        value="<?php echo contactFormValue($contactFormData['contact'] ?? ''); ?>">
                                 </div>
                             </div>
                             <div class="col-sm-6">
                                 <label for="email" class="mb-1">Email<span class="text-danger"> *</span></label>
                                 <div class="input-group mb-3">
                                     <input type="email" name="email" class="form-control" required=""
-                                        placeholder="Email" aria-label="Email">
+                                        placeholder="Email" aria-label="Email"
+                                        value="<?php echo contactFormValue($contactFormData['email'] ?? ''); ?>">
                                 </div>
                             </div>
                             <div class="col-sm-12">
                                 <label for="yourMessage" class="mb-1">Message <span class="text-danger"></span></label>
                                 <div class="input-group mb-3">
                                     <textarea class="form-control" name="massage" placeholder="Message"
-                                        style="height: 80px"></textarea>
+                                        style="height: 80px"><?php echo contactFormValue($contactFormData['massage'] ?? ''); ?></textarea>
                                 </div>
                             </div>
                             <div class="col-12 contact-captcha-wrap">
@@ -2331,6 +2441,14 @@ a:hover, .btn-link:hover {
     renderTimeSlots();
     renderCalendar();
 })();
+</script>
+<script>
+const contactStatusPopup = document.getElementById('contactStatusPopup');
+if (contactStatusPopup) {
+    setTimeout(function() {
+        contactStatusPopup.style.display = 'none';
+    }, 6000);
+}
 </script>
 
 <?php include 'footer.php'; ?>
