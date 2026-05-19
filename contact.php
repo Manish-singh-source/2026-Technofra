@@ -1108,7 +1108,7 @@ a:hover, .btn-link:hover {
             <div class="col-lg-4" >
                 <div class="register-wrap contact-form-card p-5 bg-white shadow rounded-custom position-relative aos-init aos-animate mb-30"
                     data-aos="fade-up" data-aos-delay="150">
-                    <form action="contact-handler.php" method="POST">
+                    <form action="contact-handler" method="POST">
                         <h3 class="mb-3 fw-medium">Contact Us</h3>
 
                         <div class="row contact-form-actions">
