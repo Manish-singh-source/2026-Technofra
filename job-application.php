@@ -3,17 +3,30 @@ session_start();
 
 $selectedRole = isset($_GET['role']) ? trim($_GET['role']) : '';
 $roles = [
-    'Website Developer',
-    'App Developer',
-    'Graphic Designer',
-    'Social Media Marketing Executive',
+    'Frontend Developer',
+    'Backend Developer',
+    'Full Stack Developer',
+    'WordPress Developer',
+    'Shopify Developer',
+    'Mobile App Developer',
+    'UI/UX Designer',
+    'Motion Graphic Designer',
+    'SEO Executive',
+    'Digital Marketing Executive',
+    'Sales Executive',
+    'AI Tools Specialist',
 ];
+
+if ($selectedRole !== '' && !in_array($selectedRole, $roles, true)) {
+    $selectedRole = '';
+}
 
 $defaultFormData = [
     'fname' => '',
     'email' => '',
     'contact' => '',
     'role' => $selectedRole,
+    'applicant_type' => '',
     'experience' => '',
     'ctc' => '',
     'ectc' => '',
@@ -149,6 +162,48 @@ function jobApplicationValue($value)
 .career-form-card .form-control:focus {
     border-color: #bf1c25;
     box-shadow: 0 0 0 .2rem rgba(191, 28, 37, .12);
+}
+
+.career-form-card select.form-control {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-color: #fff;
+    background-image: linear-gradient(45deg, transparent 50%, #003366 50%),
+        linear-gradient(135deg, #003366 50%, transparent 50%);
+    background-position: calc(100% - 20px) 20px, calc(100% - 14px) 20px;
+    background-size: 6px 6px, 6px 6px;
+    background-repeat: no-repeat;
+    padding-right: 42px;
+    cursor: pointer;
+}
+
+.career-applicant-type {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.career-applicant-option {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    min-height: 46px;
+    padding: 10px 16px;
+    border: 1px solid #d9e1ec;
+    border-radius: 8px;
+    background: #fff;
+    color: #162033;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.career-applicant-option input {
+    accent-color: #003366;
+}
+
+.career-conditional-field.is-hidden {
+    display: none;
 }
 
 .career-form-popup {
@@ -387,7 +442,7 @@ function jobApplicationValue($value)
             </aside>
 
             <div class="career-form-card" id="job-application-form">
-                <form action="jobapplication-handler" method="post" enctype="multipart/form-data"
+                <form action="jobapplication-handler.php" method="post" enctype="multipart/form-data"
                     class="career-application-form">
                     <div class="row">
                         <div class="col-lg-6 mb-3 text-start">
@@ -409,9 +464,9 @@ function jobApplicationValue($value)
                         </div>
 
                         <div class="col-lg-6 mb-3 text-start">
-                            <label for="role" class="form-label">Roles<span class="required-mark">*</span></label>
+                            <label for="role" class="form-label">Select Job Roles<span class="required-mark">*</span></label>
                             <select name="role" id="role" class="form-control ca-two-border" required>
-                                <option value="" disabled <?php echo $selectedRole === '' ? 'selected' : ''; ?>>Select a role</option>
+                                <option value="" disabled <?php echo (($formData['role'] ?? $selectedRole) === '') ? 'selected' : ''; ?>>Select roles</option>
                                 <?php foreach ($roles as $role) : ?>
                                     <option value="<?php echo jobApplicationValue($role); ?>" <?php echo (($formData['role'] ?? $selectedRole) === $role) ? 'selected' : ''; ?>>
                                         <?php echo jobApplicationValue($role); ?>
@@ -420,22 +475,37 @@ function jobApplicationValue($value)
                             </select>
                         </div>
 
-                        <div class="col-lg-6 mb-3 text-start">
-                            <label class="form-label">Years Of Experience<span class="required-mark">*</span></label>
+                        <div class="col-lg-12 mb-3 text-start">
+                            <label class="form-label">Candidate Type<span class="required-mark">*</span></label>
+                            <?php $applicantType = $formData['applicant_type'] ?? ''; ?>
+                            <div class="career-applicant-type">
+                                <label class="career-applicant-option">
+                                    <input type="radio" name="applicant_type" value="Fresher" <?php echo $applicantType === 'Fresher' ? 'checked' : ''; ?> required>
+                                    Fresher
+                                </label>
+                                <label class="career-applicant-option">
+                                    <input type="radio" name="applicant_type" value="Experience" <?php echo $applicantType === 'Experience' ? 'checked' : ''; ?> required>
+                                    Experience
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6 mb-3 text-start career-conditional-field" data-experience-field>
+                            <label class="form-label">Years Of Experience</label>
                             <input type="text" class="form-control ca-two-border" name="experience"
-                                value="<?php echo jobApplicationValue($formData['experience'] ?? ''); ?>" required>
+                                value="<?php echo jobApplicationValue($formData['experience'] ?? ''); ?>">
                         </div>
 
-                        <div class="col-lg-6 mb-3 text-start">
-                            <label class="form-label">Current CTC<span class="required-mark">*</span></label>
+                        <div class="col-lg-6 mb-3 text-start career-conditional-field" data-experience-field>
+                            <label class="form-label">Current CTC</label>
                             <input type="text" class="form-control ca-two-border" name="ctc"
-                                value="<?php echo jobApplicationValue($formData['ctc'] ?? ''); ?>" required>
+                                value="<?php echo jobApplicationValue($formData['ctc'] ?? ''); ?>">
                         </div>
 
                         <div class="col-lg-6 mb-3 text-start">
-                            <label class="form-label">Expected CTC<span class="required-mark">*</span></label>
+                            <label class="form-label">Expected CTC</label>
                             <input type="text" class="form-control ca-two-border" name="ectc"
-                                value="<?php echo jobApplicationValue($formData['ectc'] ?? ''); ?>" required>
+                                value="<?php echo jobApplicationValue($formData['ectc'] ?? ''); ?>">
                         </div>
 
                         <div class="col-lg-6 mb-3 text-start">
@@ -586,6 +656,23 @@ document.addEventListener('DOMContentLoaded', function() {
         const addAiToolBtn = form.querySelector('.add-ai-tool-btn');
         const skillsCombinedInput = form.querySelector('.skills-combined');
         const aiToolsCombinedInput = form.querySelector('.ai-tools-combined');
+        const applicantTypeInputs = form.querySelectorAll('input[name="applicant_type"]');
+        const experienceFields = form.querySelectorAll('[data-experience-field]');
+
+        function toggleExperienceFields() {
+            const selectedType = form.querySelector('input[name="applicant_type"]:checked');
+            const shouldHide = selectedType && selectedType.value === 'Fresher';
+
+            experienceFields.forEach(function(field) {
+                field.classList.toggle('is-hidden', shouldHide);
+            });
+        }
+
+        applicantTypeInputs.forEach(function(input) {
+            input.addEventListener('change', toggleExperienceFields);
+        });
+
+        toggleExperienceFields();
 
         if (addSkillBtn && skillsContainer) {
             addSkillBtn.addEventListener('click', function() {

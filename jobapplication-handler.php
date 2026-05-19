@@ -18,6 +18,7 @@ function redirectJobApplicationForm($status, $title, $message, array $formData =
         'email' => '',
         'contact' => '',
         'role' => '',
+        'applicant_type' => '',
         'experience' => '',
         'ctc' => '',
         'ectc' => '',
@@ -155,6 +156,7 @@ $fname = trim($_POST['fname'] ?? '');
 $email = trim($_POST['email'] ?? '');
 $contact = preg_replace('/\D+/', '', $_POST['contact'] ?? '');
 $role = trim($_POST['role'] ?? '');
+$applicantType = trim($_POST['applicant_type'] ?? '');
 $experience = trim($_POST['experience'] ?? '');
 $ctc = trim($_POST['ctc'] ?? '');
 $ectc = trim($_POST['ectc'] ?? '');
@@ -173,6 +175,7 @@ $formData = [
     'email' => $email,
     'contact' => $contact,
     'role' => $role,
+    'applicant_type' => $applicantType,
     'experience' => $experience,
     'ctc' => $ctc,
     'ectc' => $ectc,
@@ -194,9 +197,6 @@ foreach ([
     'email address' => $email,
     'contact number' => $contact,
     'role' => $role,
-    'experience' => $experience,
-    'current CTC' => $ctc,
-    'expected CTC' => $ectc,
     'location' => $location,
     'notice period' => $notice,
 ] as $label => $value) {
@@ -211,6 +211,10 @@ if ($email === '' || !filter_var($email, FILTER_VALIDATE_EMAIL)) {
 
 if ($contact === '' || strlen($contact) < 10) {
     $errors[] = 'Please enter a valid contact number.';
+}
+
+if (!in_array($applicantType, ['Fresher', 'Experience'], true)) {
+    $errors[] = 'Please select Fresher or Experience.';
 }
 
 if ($refrence === '' || $refrence === 'Please Select') {
@@ -257,6 +261,23 @@ if (!isset($_FILES['file']) || ($_FILES['file']['error'] ?? UPLOAD_ERR_NO_FILE) 
 
 if (!empty($errors)) {
     redirectJobApplicationForm('error', 'Submission Failed', implode(' ', array_unique($errors)), $formData, $skillRows, $aiToolRows);
+}
+
+if ($applicantType === 'Fresher') {
+    $experience = 'N/A';
+    $ctc = 'N/A';
+}
+
+if ($experience === '') {
+    $experience = 'N/A';
+}
+
+if ($ctc === '') {
+    $ctc = 'N/A';
+}
+
+if ($ectc === '') {
+    $ectc = 'N/A';
 }
 
 $uploadedFile = $_FILES['file'];
@@ -349,9 +370,10 @@ $createTableSql = "CREATE TABLE IF NOT EXISTS jobapplication (
     email VARCHAR(150) NOT NULL,
     contact VARCHAR(25) NOT NULL,
     role VARCHAR(150) NOT NULL,
-    experience VARCHAR(100) NOT NULL,
-    ctc VARCHAR(100) NOT NULL,
-    ectc VARCHAR(100) NOT NULL,
+    applicant_type VARCHAR(30) NOT NULL DEFAULT '',
+    experience VARCHAR(100) NOT NULL DEFAULT 'N/A',
+    ctc VARCHAR(100) NOT NULL DEFAULT 'N/A',
+    ectc VARCHAR(100) NOT NULL DEFAULT 'N/A',
     location VARCHAR(150) NOT NULL,
     skills_text TEXT NOT NULL,
     skills_json LONGTEXT NULL,
@@ -371,12 +393,28 @@ if (!$mysqli->query($createTableSql)) {
     redirectJobApplicationForm('error', 'Database Error', 'Could not create the jobapplication table.', $formData, $skillRows, $aiToolRows);
 }
 
+$applicantTypeColumn = $mysqli->query("SHOW COLUMNS FROM jobapplication LIKE 'applicant_type'");
+if ($applicantTypeColumn instanceof mysqli_result) {
+    $hasApplicantTypeColumn = $applicantTypeColumn->num_rows > 0;
+    $applicantTypeColumn->close();
+
+    if (!$hasApplicantTypeColumn) {
+        $mysqli->query("ALTER TABLE jobapplication ADD applicant_type VARCHAR(30) NOT NULL DEFAULT '' AFTER role");
+    } else {
+        $mysqli->query("ALTER TABLE jobapplication MODIFY applicant_type VARCHAR(30) NOT NULL DEFAULT ''");
+    }
+}
+
+$mysqli->query("ALTER TABLE jobapplication MODIFY experience VARCHAR(100) NOT NULL DEFAULT 'N/A'");
+$mysqli->query("ALTER TABLE jobapplication MODIFY ctc VARCHAR(100) NOT NULL DEFAULT 'N/A'");
+$mysqli->query("ALTER TABLE jobapplication MODIFY ectc VARCHAR(100) NOT NULL DEFAULT 'N/A'");
+
 $skillsJson = json_encode($skillRows, JSON_UNESCAPED_UNICODE);
 $aiToolsJson = json_encode($aiToolRows, JSON_UNESCAPED_UNICODE);
 $sourcePage = 'job-application.php';
 
 $insert = $mysqli->prepare(
-    'INSERT INTO jobapplication (fname, email, contact, role, experience, ctc, ectc, location, skills_text, skills_json, ai_tools_text, ai_tools_json, notice, rn, refrence, resume_file, portfolio_link, source_page, created_at) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)'
+    'INSERT INTO jobapplication (fname, email, contact, role, applicant_type, experience, ctc, ectc, location, skills_text, skills_json, ai_tools_text, ai_tools_json, notice, rn, refrence, resume_file, portfolio_link, source_page, created_at) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)'
 );
 
 if (!$insert) {
@@ -385,11 +423,12 @@ if (!$insert) {
 }
 
 $insert->bind_param(
-    'sssssssssssssssssss',
+    'ssssssssssssssssssss',
     $fname,
     $email,
     $contact,
     $role,
+    $applicantType,
     $experience,
     $ctc,
     $ectc,
