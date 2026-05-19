@@ -476,7 +476,7 @@ function jobApplicationValue($value)
                         </div>
 
                         <div class="col-lg-12 mb-3 text-start">
-                            <label class="form-label">Candidate Type<span class="required-mark">*</span></label>
+                            <label class="form-label">Applicant Type<span class="required-mark">*</span></label>
                             <?php $applicantType = $formData['applicant_type'] ?? ''; ?>
                             <div class="career-applicant-type">
                                 <label class="career-applicant-option">
