@@ -22,7 +22,7 @@ function build_mailer()
     $mailer->Host = 'smtp.gmail.com';
     $mailer->SMTPAuth = true;
     $mailer->Username = 'support@technofra.com';
-    $mailer->Password = 'kcdi vqko dwgv yaku';
+    $mailer->Password = 'khli mydr zpmc efvk';
     $mailer->SMTPSecure = 'tls';
     $mailer->Port = 587;
     $mailer->CharSet = 'UTF-8';

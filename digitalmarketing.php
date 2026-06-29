@@ -257,7 +257,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $mail->Host = 'smtp.gmail.com';
         $mail->SMTPAuth = true;
         $mail->Username = 'support@technofra.com';
-        $mail->Password = 'kcdi vqko dwgv yaku';
+        $mail->Password = 'khli mydr zpmc efvk';
         $mail->SMTPSecure = 'tls';
         $mail->Port = 587;
         $mail->setFrom('support@technofra.com', 'Technofra');
@@ -276,7 +276,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             $clientMail->Host = 'smtp.gmail.com';
             $clientMail->SMTPAuth = true;
             $clientMail->Username = 'support@technofra.com';
-            $clientMail->Password = 'kcdi vqko dwgv yaku';
+            $clientMail->Password = 'khli mydr zpmc efvk';
             $clientMail->SMTPSecure = 'tls';
             $clientMail->Port = 587;
             $clientMail->setFrom('support@technofra.com', 'Technofra');

@@ -346,14 +346,14 @@ $client_htmlbody = '
         </table>
     </body>
     </html>';
-// kcdi vqko dwgv yaku- app password
+// khli mydr zpmc efvk- app password
 // Admin Email Setup
 $mail = new PHPMailer();
 $mail->IsSMTP();
 $mail->Host = 'smtp.gmail.com';
 $mail->SMTPAuth = true;
 $mail->Username = 'support@technofra.com';
-$mail->Password = 'kcdi vqko dwgv yaku';
+$mail->Password = 'khli mydr zpmc efvk';
 $mail->SMTPSecure = 'tls';
 $mail->Port = 587;
 
@@ -375,7 +375,7 @@ $client_mail->IsSMTP();
 $client_mail->Host = 'smtp.gmail.com';
 $client_mail->SMTPAuth = true;
 $client_mail->Username = 'support@technofra.com';
-$client_mail->Password = 'kcdi vqko dwgv yaku';
+$client_mail->Password = 'khli mydr zpmc efvk';
 $client_mail->SMTPSecure = 'tls';
 $client_mail->Port = 587;
 
